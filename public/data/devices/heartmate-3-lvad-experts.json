@@ -174,10 +174,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Outcomes of Surgically Implanted Impella Microaxial Flow Pumps in Heart Failure-Related Cardiogenic Shock.",
-      "journal": "Journal of cardiac failure",
+      "title": "Escalation and De-escalation of Temporary Mechanical Circulatory Support: Joint Consensus Report of the PeriOperative Quality Initiative and the Enhanced Recove",
+      "journal": "The Annals of thoracic surgery",
       "year": 2025,
-      "pmid": "40164407",
+      "pmid": "40187586",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Chilling Choices: Heart Transplant Outcomes Using SherpaPak With Long Ischemic Time Versus Traditional Ice Storage With Short Ischemic Time.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2025,
+      "pmid": "39666506",
+      "tier": "corroborated"
+     },
+     {
+      "title": "2025 American Association for Thoracic Surgery (AATS) Expert Consensus Document: Surgical management of acute myocardial infarction and associated complications",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2025,
+      "pmid": "40320004",
       "tier": "corroborated"
      },
      {
@@ -188,27 +202,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2025,
-      "pmid": "41075999",
-      "tier": "corroborated"
-     },
-     {
-      "title": "How to diagnose and manage emergency medical conditions in patients on left ventricular assist device support: A clinician's field guide.",
-      "journal": "Trends in cardiovascular medicine",
-      "year": 2025,
-      "pmid": "39638079",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Escalation and De-escalation of Temporary Mechanical Circulatory Support: Joint Consensus Report of the PeriOperative Quality Initiative and the Enhanced Recove",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2025,
-      "pmid": "40187586",
-      "tier": "corroborated"
-     },
-     {
       "title": "When the Data Changes, So Should We: Rethinking Aspirin in the Modern LVAD Era.",
       "journal": "JACC. Heart failure",
       "year": 2025,
@@ -216,10 +209,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Chilling Choices: Heart Transplant Outcomes Using SherpaPak With Long Ischemic Time Versus Traditional Ice Storage With Short Ischemic Time.",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
+      "journal": "European journal of cardio-thoracic surgery : official journ",
       "year": 2025,
-      "pmid": "39666506",
+      "pmid": "41063410",
+      "tier": "corroborated"
+     },
+     {
+      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2025,
+      "pmid": "41075999",
       "tier": "corroborated"
      }
     ],
@@ -268,6 +268,18 @@
      "match": "NPI 1922028547"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'SCOTT SILVESTRY'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -295,6 +307,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -306,9 +322,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -461,17 +474,17 @@
     },
     "articles": [
      {
-      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
-      "journal": "Journal of cardiac failure",
-      "year": 2025,
-      "pmid": "39855458",
-      "tier": "corroborated"
-     },
-     {
       "title": "Omentoplasty for ventricular assist device infections: Encouraging outcomes.",
       "journal": "JHLT open",
       "year": 2025,
       "pmid": "40292043",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
+      "journal": "Journal of cardiac failure",
+      "year": 2025,
+      "pmid": "39855458",
       "tier": "corroborated"
      },
      {
@@ -496,13 +509,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Outcomes in Smaller Body Size Adults After HeartMate 3 Left Ventricular Assist Device Implantation.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2022,
-      "pmid": "35452663",
-      "tier": "corroborated"
-     },
-     {
       "title": "Outcomes of COVID-19 in heart failure, LVAD, and heart transplant patients in an advanced heart failure practice.",
       "journal": "American heart journal plus : cardiology research and practi",
       "year": 2022,
@@ -517,6 +523,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Outcomes in Smaller Body Size Adults After HeartMate 3 Left Ventricular Assist Device Implantation.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2022,
+      "pmid": "35452663",
+      "tier": "corroborated"
+     },
+     {
       "title": "Five-Year Outcomes in Patients With Fully Magnetically Levitated vs Axial-Flow Left Ventricular Assist Devices in the MOMENTUM 3 Randomized Trial.",
       "journal": "JAMA",
       "year": 2022,
@@ -524,10 +537,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Caregiver Health-Related Quality of Life, Burden, and Patient Outcomes in Ambulatory Advanced Heart Failure: A Report From REVIVAL.",
-      "journal": "Journal of the American Heart Association",
+      "title": "A principal components analysis of factors associated with successful implementation of an LVAD decision support tool.",
+      "journal": "BMC medical informatics and decision making",
       "year": 2021,
-      "pmid": "34250813",
+      "pmid": "33743685",
       "tier": "corroborated"
      }
     ],
@@ -594,6 +607,18 @@
      "match": "NPI 1881688760"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'DOUGLAS HORSTMANSHOF'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -621,6 +646,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -632,9 +661,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -794,13 +820,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Alternative Measures of Body Composition and Outcomes Following Heart Transplant.",
-      "journal": "Clinical transplantation",
-      "year": 2026,
-      "pmid": "41615227",
-      "tier": "corroborated"
-     },
-     {
       "title": "Bloodless heart transplantation in patients who refuse transfusion: An 11-year case series.",
       "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2026,
@@ -815,13 +834,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Two-staged aortic repair for acute type A aortic dissection in patients refusing blood transfusion.",
-      "journal": "Vascular",
-      "year": 2026,
-      "pmid": "39960071",
-      "tier": "corroborated"
-     },
-     {
       "title": "Association between listing hemodynamics and heart transplantation waitlist outcomes: An analysis of the Scientific Registry of Transplant Recipients.",
       "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
@@ -829,17 +841,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Mechanism of Typical Atrial Flutter in a Patient After Cardiac Transplant: Functional Slowing From Geometric Distortion.",
-      "journal": "JACC. Case reports",
-      "year": 2025,
-      "pmid": "40996405",
+      "title": "Alternative Measures of Body Composition and Outcomes Following Heart Transplant.",
+      "journal": "Clinical transplantation",
+      "year": 2026,
+      "pmid": "41615227",
       "tier": "corroborated"
      },
      {
-      "title": "Combined heart and liver transplant in a patient with failing Fontan and total situs inversus.",
-      "journal": "JTCVS techniques",
-      "year": 2025,
-      "pmid": "40641768",
+      "title": "Two-staged aortic repair for acute type A aortic dissection in patients refusing blood transfusion.",
+      "journal": "Vascular",
+      "year": 2026,
+      "pmid": "39960071",
       "tier": "corroborated"
      },
      {
@@ -850,10 +862,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Mechanisms of Cardiac Implantable Electronic Device Interference With the Tricuspid Valve Apparatus.",
-      "journal": "The American journal of cardiology",
+      "title": "2025 American Association for Thoracic Surgery (AATS) Expert Consensus Document: Surgical management of acute myocardial infarction and associated complications",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2025,
-      "pmid": "40280194",
+      "pmid": "40320004",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Combined heart and liver transplant in a patient with failing Fontan and total situs inversus.",
+      "journal": "JTCVS techniques",
+      "year": 2025,
+      "pmid": "40641768",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Donor Selection for Heart Transplantation in 2025.",
+      "journal": "JACC. Heart failure",
+      "year": 2025,
+      "pmid": "39570235",
       "tier": "corroborated"
      }
     ],
@@ -909,8 +935,8 @@
       "beneficiaries": 16
      },
      {
-      "code": "33641",
-      "description": "Repair of congenital defect between upper heart chambers on heart-lung machine",
+      "code": "33430",
+      "description": "Replacement of mitral valve on heart-lung machine",
       "services": 12,
       "beneficiaries": 12
      }
@@ -920,19 +946,88 @@
      "match": "NPI 1285738344"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 5
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Valluvan Jeevanandam",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06747806",
+      "place": "The University of Chicago \u2014 Hyde Park, Illinois",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Biobank Cardiac Surgery"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Valluvan Jeevanandam, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05700617",
+      "place": "University of Chicago",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Cardiac Power Output in Cardiogenic Shock Patients"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Valluvan Jeevanandam, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05206929",
+      "place": "Professor of Surgery",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Prescribed Sternal Precautions vs. Self-Guided Restrictive Care (PEEERC)"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Valluvan Jeevanandam, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06063538",
+      "place": "Director of Heart and Vascular Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Prevention of Postoperative Atrial Fibrillation (POAF) Using Intra-Pericardial Amiodarone"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Valluvan Jeevanandam, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06747806",
+      "place": "University of Chicago",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Biobank Cardiac Surgery"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Valluvan Jeevanandam, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00161733",
+      "place": "University of Chicago Medical Center, Chicago, IL",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Safety and Hemostatic Efficacy of Fibrin Sealant Vapor Heated, Solvent/Detergent Treated (FS VH S/D) Compared "
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'VALLUVAN JEEVANANDAM' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 1
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Black v. Jeevanandam",
-      "date": "2022-11-22",
-      "url": "https://www.courtlistener.com/opinion/8516346/black-v-jeevanandam/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -962,6 +1057,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 5 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -973,9 +1072,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1115,6 +1211,13 @@
     },
     "articles": [
      {
+      "title": "Heart Transplantation and Ventricular Assist Device in Duchenne Muscular Dystrophy: A New Era.",
+      "journal": "Pediatric transplantation",
+      "year": 2026,
+      "pmid": "41424087",
+      "tier": "corroborated"
+     },
+     {
       "title": "Contemporary outcomes of mechanical circulatory support using paracorporeal continuous flow pump in children: A report from the ACTION learning network.",
       "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
@@ -1143,10 +1246,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Heart Transplantation and Ventricular Assist Device in Duchenne Muscular Dystrophy: A New Era.",
-      "journal": "Pediatric transplantation",
-      "year": 2026,
-      "pmid": "41424087",
+      "title": "Complex stenting of an obstructed outflow graft of a heartmate 3 in an adult after a mustard procedure.",
+      "journal": "Cardiology in the young",
+      "year": 2025,
+      "pmid": "40653774",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The ACTION VAD registry: A collective five-year experience.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2025,
+      "pmid": "39827929",
       "tier": "corroborated"
      },
      {
@@ -1157,24 +1267,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Multi-institutional outcomes of Impella use in pediatric patients: A brief communication from the ACTION Network.",
-      "journal": "The Journal of heart and lung transplantation : the official",
+      "title": "The Impact of Fontan Circulatory Failure on Heart Transplant Survival: A 20-Center Retrospective Cohort Study.",
+      "journal": "Circulation",
       "year": 2025,
-      "pmid": "40505789",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Outcomes for Children With Congenital\u00a0Heart Disease Undergoing Ventricular Assist Device Implantation: An ACTION Registry Analysis.",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2025,
-      "pmid": "39772369",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Complex stenting of an obstructed outflow graft of a heartmate 3 in an adult after a mustard procedure.",
-      "journal": "Cardiology in the young",
-      "year": 2025,
-      "pmid": "40653774",
+      "pmid": "40631708",
       "tier": "corroborated"
      },
      {
@@ -1211,6 +1307,18 @@
      "match": "NPI 1861407348"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ANGELA LORTS'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1238,6 +1346,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1249,9 +1361,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1399,24 +1508,10 @@
     },
     "articles": [
      {
-      "title": "Outcomes of Fontan patients undergoing combined heart-liver transplantation in pediatric hospitals across the United States.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "title": "Impact of Abdominal Surgery on Neonatal Cardiac Surgery Outcomes: Prevalence, Characteristics, and Associated Risks.",
+      "journal": "World journal for pediatric & congenital heart surgery",
       "year": 2026,
-      "pmid": "40818789",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Reply: Standardization for the unique heart; criteria for Fontan combined heart liver transplantation.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2026,
-      "pmid": "41014310",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Practice Patterns and Outcomes of Hemodialysis in Infants Undergoing Congenital Heart Surgery in the United States.",
-      "journal": "Pediatric cardiology",
-      "year": 2026,
-      "pmid": "41511517",
+      "pmid": "41066406",
       "tier": "corroborated"
      },
      {
@@ -1434,24 +1529,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "The Ninth Annual STS-Pedimacs Report: Pediatric VAD Outcomes and the Expanding Role of Biventricular Support.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2026,
-      "pmid": "42229777",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Commentary: No Longer Baffling: Surgeon-Derived Virtual Reality Surgical Simulations are Transforming Complex Congenital Intracardiac Repairs.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2026,
-      "pmid": "42178042",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Feasibility of Implanting Dual-Chamber Permanent Pacemakers in Patients Under 3 kg.",
       "journal": "World journal for pediatric & congenital heart surgery",
       "year": 2026,
       "pmid": "40641427",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Practice Patterns and Outcomes of Hemodialysis in Infants Undergoing Congenital Heart Surgery in the United States.",
+      "journal": "Pediatric cardiology",
+      "year": 2026,
+      "pmid": "41511517",
       "tier": "corroborated"
      },
      {
@@ -1462,10 +1550,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Ex Vivo Hydrodynamic Assessment of Expanded Polytetrafluoroethylene Trileaflet Pulmonary Valves.",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "title": "Reply: Standardization for the unique heart; criteria for Fontan combined heart liver transplantation.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2026,
-      "pmid": "40810548",
+      "pmid": "41014310",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Commentary: No Longer Baffling: Surgeon-Derived Virtual Reality Surgical Simulations are Transforming Complex Congenital Intracardiac Repairs.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "42178042",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Contrasting the Performance of a Surgeon-Fashioned Extracellular Matrix Cylindrical Tricuspid Valve Versus a Mechanical Valve.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": 2026,
+      "pmid": "40790959",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of Fontan patients undergoing combined heart-liver transplantation in pediatric hospitals across the United States.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "40818789",
       "tier": "corroborated"
      }
     ],
@@ -1495,73 +1604,78 @@
      "match": "NPI 1407936818"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 4
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "David Morales, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02397668",
+      "place": "Cincinnati Children's Hospital \u2014 Cincinnati, Ohio",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "CorMatrix Cor TRICUSPID ECM Valve Replacement Study"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Morales Tejera, Msc., Phdc",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04265248",
+      "place": "Escuela Internacional de Doctorado de la Universidad Rey Juan Carlos",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Evaluation of the Effects of Virtual Reality in Patients With Chronic Neck Pain"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Morales Tejera, Msc., Phdc",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04242576",
+      "place": "Universidad Rey Juan Carlos",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Evaluation of Nociceptive Processing in the Cervical Region"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Morales, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02459054",
+      "place": "Children's Hospital Medical Center, Cincinnati",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Syncardia 50cc TAH-t as a Bridge to Transplant"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Morales, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05452720",
+      "place": "Cinncinnati Childrens Hospital",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "MASA Valve Early Feasibility Study"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'DAVID MORALES' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 40
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "David Morales v. the State of Texas",
-      "date": "2025-10-10",
-      "url": "https://www.courtlistener.com/opinion/10704657/david-morales-v-the-state-of-texas/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "David Morales v. the State of Texas",
-      "date": "2025-08-12",
-      "url": "https://www.courtlistener.com/opinion/10653303/david-morales-v-the-state-of-texas/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales Vallellanes, Angel David v. Lopez Rosa, Gabriela",
-      "date": "2025-07-22",
-      "url": "https://www.courtlistener.com/opinion/10738085/morales-vallellanes-angel-david-v-lopez-rosa-gabriela/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales Vallellanes, Andel David v. Lopez Rosa, Gabriela",
-      "date": "2024-09-25",
-      "url": "https://www.courtlistener.com/opinion/10161501/morales-vallellanes-andel-david-v-lopez-rosa-gabriela/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Zenquis v. Pullen",
-      "date": "2024-01-31",
-      "url": "https://www.courtlistener.com/opinion/9632799/zenquis-v-pullen/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales v. Hon coffey/state",
-      "date": "2023-08-10",
-      "url": "https://www.courtlistener.com/opinion/9419496/morales-v-hon-coffeystate/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales v. United States",
-      "date": "2022-10-13",
-      "url": "https://www.courtlistener.com/opinion/8248503/morales-v-united-states/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales-Sandoval v. Kijakazi",
-      "date": "2022-07-15",
-      "url": "https://www.courtlistener.com/opinion/9829828/morales-sandoval-v-kijakazi/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Morales v. United States",
-      "date": "2021-03-26",
-      "url": "https://www.courtlistener.com/opinion/9864339/morales-v-united-states/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Kayla Maradiaga, Individually and as Representative of Border Financial Services, Inc., DBA A-MEX, A-MEX II, A-MEX III and Cash Express v. Steve B. Becker and E",
-      "date": "2020-02-06",
-      "url": "https://www.courtlistener.com/opinion/4724839/kayla-maradiaga-individually-and-as-representative-of-border-financial/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1591,6 +1705,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 4 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1602,9 +1720,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1745,38 +1860,31 @@
     },
     "articles": [
      {
-      "title": "A Dyssynchronous Phenotype, A Delayed Therapy: Rethinking the Timing of CRT in Heart Failure.",
-      "journal": "Journal of cardiac failure",
-      "year": 2026,
-      "pmid": "42250595",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Beyond the Pump: Reframing Cardiogenic Shock in Heart Failure Through a Multisystem Mechanistic Lens.",
+      "title": "10-Year Survival and Renal Outcomes After Simultaneous Heart-Kidney Transplantation in Heart Retransplant Recipients.",
       "journal": "JACC. Heart failure",
       "year": 2026,
-      "pmid": "41099686",
+      "pmid": "42171542",
       "tier": "corroborated"
      },
      {
-      "title": "Changes in Pulmonary Artery Pressure Following Initiation of Guideline-Directed Medical Therapies in Patients With Heart Failure: Insights From GUIDE-HF.",
-      "journal": "Circulation. Heart failure",
+      "title": "Renin-angiotensin-aldosterone system inhibition and haemocompatibility-related adverse events in patients with durable left ventricular assist device: the MOMEN",
+      "journal": "European heart journal",
       "year": 2026,
-      "pmid": "42206402",
+      "pmid": "42106929",
       "tier": "corroborated"
      },
      {
-      "title": "Digital Twins and Artificial Intelligence in Heart Failure: The Premise and the Promise.",
-      "journal": "Journal of cardiac failure",
+      "title": "Impact of delayed kidney graft function on long-term outcomes in simultaneous heart-kidney transplantation.",
+      "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
-      "pmid": "41525972",
+      "pmid": "40691958",
       "tier": "corroborated"
      },
      {
-      "title": "Donor-Derived Cell-Free DNA as a Prognostic Biomarker After Heart Transplantation: The DEFINE-HT Study.",
-      "journal": "JACC. Heart failure",
+      "title": "Effects of Icosapent Ethyl on Risk and Duration of Hospitalizations and Death in REDUCE-IT.",
+      "journal": "European journal of preventive cardiology",
       "year": 2026,
-      "pmid": "42246920",
+      "pmid": "41544244",
       "tier": "corroborated"
      },
      {
@@ -1787,13 +1895,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Rationale, design, and baseline characteristics of the multicENter, randomized, open-label, parallel group, study to evaluate the use of sacubitril/valsartan in",
-      "journal": "Journal of cardiac failure",
-      "year": 2026,
-      "pmid": "40818766",
-      "tier": "corroborated"
-     },
-     {
       "title": "Early right ventricular failure following HeartMate 3 left ventricular assist device implantation: Risk factors and outcomes.",
       "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
@@ -1801,10 +1902,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "The Creative Academic Leader: Six Attributes That Shape Discovery, Integrity, and Impact.",
+      "title": "Rationale, design, and baseline characteristics of the multicENter, randomized, open-label, parallel group, study to evaluate the use of sacubitril/valsartan in",
       "journal": "Journal of cardiac failure",
       "year": 2026,
-      "pmid": "41205858",
+      "pmid": "40818766",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Why LVAD use is stagnant: A failure of diffusion and a path forward.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41949526",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Changes in Pulmonary Artery Pressure Following Initiation of Guideline-Directed Medical Therapies in Patients With Heart Failure: Insights From GUIDE-HF.",
+      "journal": "Circulation. Heart failure",
+      "year": 2026,
+      "pmid": "42206402",
       "tier": "corroborated"
      },
      {
@@ -1878,6 +1993,18 @@
      "match": "NPI 1043265978"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MANDEEP MEHRA'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:corroborated": 1
@@ -1898,7 +2025,6 @@
       "docId": null
      }
     ],
-    "nameOnly": [],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1928,6 +2054,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1939,9 +2069,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2079,13 +2206,6 @@
     },
     "articles": [
      {
-      "title": "Early right ventricular failure following HeartMate 3 left ventricular assist device implantation: Risk factors and outcomes.",
-      "journal": "The Journal of heart and lung transplantation : the official",
-      "year": 2026,
-      "pmid": "41903627",
-      "tier": "corroborated"
-     },
-     {
       "title": "Net Prolongation of Life in Advanced Heart Failure: An Intentional Strategy of Durable LVAD Therapy Followed by Heart Transplantation.",
       "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
@@ -2093,17 +2213,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
-      "journal": "Journal of cardiac failure",
-      "year": 2025,
-      "pmid": "39855458",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Survival and Readmission Burden in Advanced Heart Failure Patients Managed With Ventricular Assist Device Versus Continued Medical Therapy.",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
-      "year": 2025,
-      "pmid": "40028781",
+      "title": "Early right ventricular failure following HeartMate 3 left ventricular assist device implantation: Risk factors and outcomes.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41903627",
       "tier": "corroborated"
      },
      {
@@ -2114,10 +2227,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Ventricular assist device using a thoracotomy-based implant technique: Multi-Center Implantation of the HeartMate 3 in Subjects With Heart Failure Using Surgica",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2024,
-      "pmid": "38367698",
+      "title": "Survival and Readmission Burden in Advanced Heart Failure Patients Managed With Ventricular Assist Device Versus Continued Medical Therapy.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2025,
+      "pmid": "40028781",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
+      "journal": "Journal of cardiac failure",
+      "year": 2025,
+      "pmid": "39855458",
       "tier": "corroborated"
      },
      {
@@ -2132,6 +2252,13 @@
       "journal": "Journal of clinical anesthesia",
       "year": 2024,
       "pmid": "39053216",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ventricular assist device using a thoracotomy-based implant technique: Multi-Center Implantation of the HeartMate 3 in Subjects With Heart Failure Using Surgica",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2024,
+      "pmid": "38367698",
       "tier": "corroborated"
      },
      {
@@ -2188,6 +2315,43 @@
      "match": "NPI 1598033649"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 2,
+     "nameOnly": 0
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Igor Gosev, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06526195",
+      "place": "Newark Beth Israel Medical Center \u2014 Newark, New Jersey",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Trial to Evaluate Safety And Effectiveness of Mechanical Circulatory Support in Patients With Advancing Heart "
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Igor Gosev, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06310031",
+      "place": "Newark Beth Israel Medical Center \u2014 Newark, New Jersey",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Investigation of the BrioVAD System for the Treatment of Left Ventricular Heart Failure"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'IGOR GOSEV' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2215,6 +2379,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "2 corroborated + 0 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2226,9 +2394,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2410,13 +2575,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Contemporary Outcomes in the Use of Durable LVADs: An Update From The Society of Thoracic Surgeons Intermacs Database.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2024,
-      "pmid": "37769701",
-      "tier": "corroborated"
-     },
-     {
       "title": "Left Ventricular Assist Device and the Current State of the Art: HeartMate 3 at 5 Years.",
       "journal": "Heart failure clinics",
       "year": 2024,
@@ -2424,10 +2582,24 @@
       "tier": "corroborated"
      },
      {
+      "title": "Contemporary Outcomes in the Use of Durable LVADs: An Update From The Society of Thoracic Surgeons Intermacs Database.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2024,
+      "pmid": "37769701",
+      "tier": "corroborated"
+     },
+     {
       "title": "Ventricular assist device using a thoracotomy-based implant technique: Multi-Center Implantation of the HeartMate 3 in Subjects With Heart Failure Using Surgica",
       "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2024,
       "pmid": "38367698",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Concurrent valvular procedures during left ventricular assist device implantation and outcomes: A comprehensive analysis of the Multicenter Study of MagLev Tech",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2023,
+      "pmid": "35643769",
       "tier": "corroborated"
      },
      {
@@ -2449,13 +2621,6 @@
       "journal": "Interdisciplinary cardiovascular and thoracic surgery",
       "year": 2023,
       "pmid": "37421402",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Concurrent valvular procedures during left ventricular assist device implantation and outcomes: A comprehensive analysis of the Multicenter Study of MagLev Tech",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2023,
-      "pmid": "35643769",
       "tier": "corroborated"
      }
     ],
@@ -2510,6 +2675,53 @@
      "match": "NPI 1245259837"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 2
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Christopher Salerno, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00741416",
+      "place": "Corvasc MDs \u2014 Indianapolis (North), Indiana",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Biorepository: Indiana Health Study"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Christopher Salerno, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05915299",
+      "place": "University of Chicago \u2014 Chicago, Illinois",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "US National OCS Heart Perfusion (OHP) Registry"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Christopher Salerno, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06813820",
+      "place": "University of Chicago \u2014 Chicago, Illinois",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "RELIVE (Randomized Evaluation of Less Invasive Ventricular Enhancement) Trial"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'CHRISTOPHER SALERNO' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2537,6 +2749,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 2 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2548,9 +2764,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2568,7 +2781,7 @@
     "licenseState": "LA",
     "opState": "LA",
     "opCity": "NEW ORLEANS",
-    "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1922219815"
@@ -2703,78 +2916,78 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 90,
-     "nameOnly": 2551
+     "corroborated": 35,
+     "nameOnly": 2606
     },
     "articles": [
      {
-      "title": "Expectation Versus Reality: Exploring Decisional Regret in Minimally Invasive Lumbar Spine Surgery.",
-      "journal": "Neurosurgery",
-      "year": 2026,
-      "pmid": "41636519",
+      "title": "Concomitant Surgical Procedures and Aspirin Avoidance With Left Ventricular Assist Device Therapy.",
+      "journal": "JACC. Heart failure",
+      "year": 2025,
+      "pmid": "40208135",
       "tier": "corroborated"
      },
      {
-      "title": "Does grit and self-control impact outcomes following spine surgery? Early findings from a prospective study evaluating the association between grit and self-con",
-      "journal": "European spine journal : official publication of the Europea",
-      "year": 2026,
-      "pmid": "41083883",
+      "title": "Emergent decommissioning of HeartMate 3 for life-threatening hemorrhage.",
+      "journal": "Journal of vascular surgery cases and innovative techniques",
+      "year": 2024,
+      "pmid": "38313380",
       "tier": "corroborated"
      },
      {
-      "title": "Exploring the role of frailty and sarcopenia in predicting postoperative regret and satisfaction following adult spinal deformity surgery.",
-      "journal": "Spine deformity",
-      "year": 2026,
-      "pmid": "41845139",
+      "title": "Aspirin and Hemocompatibility Events With a Left Ventricular Assist Device in Advanced Heart Failure: The ARIES-HM3 Randomized Clinical Trial.",
+      "journal": "JAMA",
+      "year": 2023,
+      "pmid": "37950897",
       "tier": "corroborated"
      },
      {
-      "title": "What Is the Fate of the Adjacent L3-L4 and L5-S1 Disk Angles Following a L4-L5 Decompression-only Surgery?",
-      "journal": "Orthopedics",
-      "year": 2026,
-      "pmid": "41636438",
+      "title": "Six-month outcomes in postapproval HeartMate3 patients: A single-center US experience.",
+      "journal": "Journal of cardiac surgery",
+      "year": 2022,
+      "pmid": "35385586",
       "tier": "corroborated"
      },
      {
-      "title": "Infection post strabismus surgery: A review and case series.",
-      "journal": "Survey of ophthalmology",
-      "year": 2026,
-      "pmid": "41747837",
+      "title": "Left Ventricular Assist Devices: A Primer For the General Cardiologist.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2022,
+      "pmid": "36515226",
       "tier": "corroborated"
      },
      {
-      "title": "The Impact of an Anterior Lumbar Interbody Fusion on Coronal Alignment in Adult Spinal Deformity Surgery.",
-      "journal": "Operative neurosurgery (Hagerstown, Md.)",
-      "year": 2026,
-      "pmid": "41489357",
+      "title": "Prediction of Survival After Implantation of a Fully Magnetically Levitated Left\u00a0Ventricular Assist Device.",
+      "journal": "JACC. Heart failure",
+      "year": 2022,
+      "pmid": "36456068",
       "tier": "corroborated"
      },
      {
-      "title": "Response to letter to the editor regarding \"preoperative frailty and muscle composition are associated with postoperative satisfaction and decisional regret aft",
-      "journal": "Spine deformity",
-      "year": 2026,
-      "pmid": "42159998",
+      "title": "Cerebral protection during percutaneous intervention for left ventricular assist device outflow graft obstruction.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
+      "year": 2022,
+      "pmid": "35612519",
       "tier": "corroborated"
      },
      {
-      "title": "Predictive Analytics in Spine Surgery: How Risk-Taking Behavior Shapes Surgical Decisions.",
-      "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
-      "year": 2026,
-      "pmid": "40591979",
+      "title": "Endovascular Management of Chronic Mesenteric Ischemia in a Patient With Left Ventricular Assist Device.",
+      "journal": "Current problems in cardiology",
+      "year": 2022,
+      "pmid": "35245598",
       "tier": "corroborated"
      },
      {
-      "title": "Subjective and Functional Dysphagia After Anterior Cervical Spine Surgery: A Prospective Controlled Study.",
-      "journal": "The Journal of bone and joint surgery. American volume",
-      "year": 2026,
-      "pmid": "41452954",
+      "title": "Six-month outcomes in postapproval HeartMate3 patients: A single-center US experience.",
+      "journal": "Journal of cardiac surgery",
+      "year": 2022,
+      "pmid": "35385586",
       "tier": "corroborated"
      },
      {
-      "title": "Development and validation of a novel survey measuring lumbar activity levels: the Hospital for Special Surgery Core Health Evaluation-Lumbar Activity Rating Sc",
-      "journal": "The spine journal : official journal of the North American S",
-      "year": 2026,
-      "pmid": "40334988",
+      "title": "Left Ventricular Assist Device Implantation to the Left Subclavian Artery With Distal Banding: A Novel Technique for Hostile Chest.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2022,
+      "pmid": "34492215",
       "tier": "corroborated"
      }
     ],
@@ -2785,7 +2998,7 @@
       "topicKeywords": [
        "heartmate",
        "lvad",
-       "surgery",
+       "thoracic surgery (cardiothoracic vascular surgery)",
        "ventricular assist"
       ],
       "affiliationGeo": [
@@ -2823,6 +3036,18 @@
      "match": "NPI 1922219815"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ADITYA BANSAL'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2835,7 +3060,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "90 corroborated + 2551 name-only author matches"
+      "detail": "35 corroborated + 2606 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -2850,6 +3075,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2861,9 +3090,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -3021,41 +3247,6 @@
     },
     "articles": [
      {
-      "title": "Radical Pericardiectomy and Use of Cardiopulmonary Bypass for Constrictive Pericarditis.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2026,
-      "pmid": "41443402",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Reply: Importance of clinical context in choice of analytical method.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2026,
-      "pmid": "41961044",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Redo coronary artery bypass grafting in patients with patent bilateral internal thoracic artery grafts: Exceptions to a lifetime warranty.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2026,
-      "pmid": "40684844",
-      "tier": "corroborated"
-     },
-     {
-      "title": "National Outcomes of Cardiac Surgery in Patients with History of Bariatric Surgery.",
-      "journal": "Obesity surgery",
-      "year": 2026,
-      "pmid": "41845020",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Extended Zone Right Internal Thoracic Artery Coronary Artery Bypass Grafting.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2026,
-      "pmid": "42044827",
-      "tier": "corroborated"
-     },
-     {
       "title": "Design and rationale of the Impella\u00ae-protected cardiac surgery trial (IMPACT): A multicenter, single-arm pilot study in high-risk cardiac surgery patients.",
       "journal": "American heart journal",
       "year": 2026,
@@ -3070,24 +3261,59 @@
       "tier": "corroborated"
      },
      {
-      "title": "Is a patent internal thoracic artery-to-left anterior descending artery still a risk factor in patients undergoing isolated redo coronary artery bypass grafting",
+      "title": "Ostial occlusion of all epicardial coronary arteries: Living off bypass grafts.",
       "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2026,
-      "pmid": "42092509",
+      "pmid": "42092511",
       "tier": "corroborated"
      },
      {
-      "title": "Heart and heart-liver transplantation in Amish patients with propionic acidemia.",
-      "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+      "title": "Redo coronary artery bypass grafting in patients with patent bilateral internal thoracic artery grafts: Exceptions to a lifetime warranty.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "year": 2026,
-      "pmid": "41545277",
+      "pmid": "40684844",
       "tier": "corroborated"
      },
      {
-      "title": "Outcomes and Risk Factors in Vasoplegic Patients Following Left Ventricular Assist Device Implantation.",
-      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "title": "Radical Pericardiectomy and Use of Cardiopulmonary Bypass for Constrictive Pericarditis.",
+      "journal": "The Annals of thoracic surgery",
       "year": 2026,
-      "pmid": "41111020",
+      "pmid": "41443402",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heterogeneity in HeartMate 3 implanting center infection management reveals opportunities for quality improvement and best practice initiatives during left vent",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "40738195",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pumping up Survival: Strategy of LVAD First in Younger Patients for Net Prolongation of Life.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "41197939",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Atrial Venting With Extracorporeal Support as a Bridge to Durable Support With Extensive Intracardiac Thrombus.",
+      "journal": "JACC. Case reports",
+      "year": 2026,
+      "pmid": "41273324",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Extended Zone Right Internal Thoracic Artery Coronary Artery Bypass Grafting.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "42044827",
+      "tier": "corroborated"
+     },
+     {
+      "title": "National Outcomes of Cardiac Surgery in Patients with History of Bariatric Surgery.",
+      "journal": "Obesity surgery",
+      "year": 2026,
+      "pmid": "41845020",
       "tier": "corroborated"
      }
     ],
@@ -3143,8 +3369,8 @@
       "beneficiaries": 12
      },
      {
-      "code": "99214",
-      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "code": "33426",
+      "description": "Repair of mitral valve with artificial valve on heart-lung machine",
       "services": 13,
       "beneficiaries": 13
      }
@@ -3152,6 +3378,53 @@
     "source": {
      "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
      "match": "NPI 1629015730"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 2
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Edward Soltesz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06989775",
+      "place": "Cleveland Clinic Foundation \u2014 Cleveland, Ohio",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "BoxX-NoAF Clinical Trial"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Edward Soltesz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05529654",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "IMpella-Protected cArdiaC Surgery Trial (IMPACT)"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Edward Soltesz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05100836",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "SURPASS Impella 5.5 Study"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'EDWARD SOLTESZ' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
     }
    },
    "litigation": {
@@ -3181,6 +3454,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 2 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -3192,9 +3469,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"

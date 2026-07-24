@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 2483,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 62,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 20,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -510,6 +522,42 @@
      "value": 130
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2014,
+     "value": 8
+    },
+    {
+     "year": 2015,
+     "value": 9
+    },
+    {
+     "year": 2016,
+     "value": 17
+    },
+    {
+     "year": 2017,
+     "value": 10
+    },
+    {
+     "year": 2018,
+     "value": 9
+    },
+    {
+     "year": 2019,
+     "value": 2
+    },
+    {
+     "year": 2023,
+     "value": 2
+    }
+   ]
   }
  ],
  "modules": {
@@ -524,7 +572,7 @@
      {
       "problem": "Over-Sensing",
       "reports": 29461,
-      "narrative": "IT WAS REPORTED THAT WHEN AN ASYMPTOMATIC PATIENT PRESENTED IN CLINIC FOR FOLLOW UP, THE DEVICE WAS POST-PACED T-WAVE OVERSENSING ON THE VENTRICULAR CHANNEL. PROGRAMMING CHANGES WERE MADE. THE PATIENT IS DOING FINE."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
@@ -534,32 +582,32 @@
      {
       "problem": "Premature Discharge of Battery",
       "reports": 5603,
-      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LI CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHANISM FOR TH"
+      "narrative": "FOLLOWING THE BATTERY PERFORMANCE ALERT (BPA) ADVISORY, A BPA WAS RECEIVED BY THE CLINICIAN AND THE DEVICE WAS EXPLANTED. THE PATIENT WAS STABLE."
      },
      {
       "problem": "Inappropriate or Unexpected Reset",
       "reports": 5526,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED REMOTELY VIA MERLIN.NET. REVIEW OF THE TRANSMISSION REVEALED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR WAS IN BACKUP VVI MODE. IT WAS NOTED THAT MULTIPLE ATTEMPTS TO PING THE MERLIN COMMUNICATOR TRIPPED THE CYBERSECURITY ALERT. THE DEVICE WAS SUCCESSFULLY RESTORED. THE PATIENT WAS IN STABLE CONDITION."
+      "narrative": "THE REPORTED BACKUP VVI WAS CONFIRMED IN THE LABORATORY VIA REVIEW OF THE DEVICE IMAGE. THE DEVICE WAS TESTED ON THE BENCH AND NO ANOMALY WAS FOUND. THE CAUSE OF THE REPORTED BACKUP VVI COULD NOT BE DETERMINED."
      },
      {
       "problem": "Battery Problem",
       "reports": 5304,
-      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LI CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHANISM FOR TH"
+      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LITHIUM (LI) CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHAN"
      },
      {
       "problem": "Inappropriate/Inadequate Shock/Stimulation",
       "reports": 5111,
-      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY ROOM AFTER RECEIVING INAPPROPRIATE SHOCKS DUE TO AF WITH RAPID VENTRICULAR RESPONSE. PROGRAMMING CHANGES WERE RECOMMENDED. THE PATIENT WAS STABLE AND WILL CONTINUE TO BE MONITORED WITH ROUTINE FOLLOW-UP."
      },
      {
       "problem": "Failure to Interrogate",
       "reports": 3447,
-      "narrative": "NO CONCLUSION CODE AVAILABLE; THE REPORTED FIELD EVENT OF AN INABILITY TO INTERROGATE THE DEVICE WAS CONFIRMED IN THE LABORATORY AND WAS CAUSED BY THE BATTERY VOLTAGE DEPLETING BELOW THE MINIMUM VOLTAGE REQUIRED FOR CIRCUIT OPERATION. BASED ON ALL AVAILABLE PARAMETER AND USAGE INFORMATION, DEVICE LONGEVITY WAS FOUND TO BE BELOW THE EXPECTED LIMITS. WITH AN EXTERNAL POWER SUPPLY ATTACHED, THE DEVICE FUNCTIONED NORMALL"
+      "narrative": "ADDITIONAL INFORMATION RECEIVED INDICATED THAT THE DEVICE WAS ABLE TO BE INTERROGATED AS OPPOSED TO UNABLE TO BE INTERROGATED AS PREVIOUSLY REPORTED."
      },
      {
       "problem": "Under-Sensing",
       "reports": 2122,
-      "narrative": "IT WAS REPORTED UNDERSENSING OF VF WAS OBSERVED WHICH LED TO DELAYED THERAPY. UNDERSENSING OF THE FINE VF WAS CONFIRMED BY EGMS. PROGRAMMING CHANGES WERE MADE. NO ADVERSE CONSEQUENCES WERE DETECTED."
+      "narrative": "FURTHER INFORMATION WAS REQUESTED BUT NOT YET RECEIVED. THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      }
     ]
    },
@@ -861,7 +909,10 @@
     "states": 54,
     "procedureCodes": 6,
     "dataYear": 2023,
-    "topStateServices": 450000
+    "topStateServices": 450000,
+    "counties": 76,
+    "facilities": 86,
+    "topFacilityCity": "Roslyn, NY"
    },
    "payload": {
     "dataYear": 2023,
@@ -1168,10 +1219,2531 @@
       "services": 38,
       "beneficiaries": 18
      }
+    ],
+    "facilities": [
+     {
+      "ccn": "330182",
+      "name": "St Francis Hospital, Roslyn",
+      "city": "Roslyn",
+      "state": "NY",
+      "countyFips": "36059",
+      "lat": 40.797,
+      "lon": -73.647,
+      "discharges": 126,
+      "outpatientServices": 250,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 61
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 34
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 54,
+      "outpatientServices": 232,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 21
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 75,
+      "outpatientServices": 149,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 29
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 26
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 20
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 28,
+      "outpatientServices": 175,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 15
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 52,
+      "outpatientServices": 147,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 20
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "310073",
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune",
+      "state": "NJ",
+      "countyFips": "34025",
+      "lat": 40.211,
+      "lon": -74.074,
+      "discharges": 28,
+      "outpatientServices": 162,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 17
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "390111",
+      "name": "Hospital Of Univ Of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "PA",
+      "countyFips": "42101",
+      "lat": 39.959,
+      "lon": -75.199,
+      "discharges": 54,
+      "outpatientServices": 134,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 29
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 52,
+      "outpatientServices": 131,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 23
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 17
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 49,
+      "outpatientServices": 111,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 57,
+      "outpatientServices": 103,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 18
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "440048",
+      "name": "Baptist Memorial Hospital",
+      "city": "Memphis",
+      "state": "TN",
+      "countyFips": "47157",
+      "lat": 35.124,
+      "lon": -89.853,
+      "discharges": 11,
+      "outpatientServices": 149,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "140053",
+      "name": "St Johns Hospital",
+      "city": "Springfield",
+      "state": "IL",
+      "countyFips": "17167",
+      "lat": 39.757,
+      "lon": -89.662,
+      "discharges": 44,
+      "outpatientServices": 115,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 22
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 42,
+      "outpatientServices": 115,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 21
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 21
+       }
+      ]
+     },
+     {
+      "ccn": "450431",
+      "name": "St David'S Medical Center",
+      "city": "Austin",
+      "state": "TX",
+      "countyFips": "48453",
+      "lat": 30.295,
+      "lon": -97.739,
+      "discharges": 25,
+      "outpatientServices": 122,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 32,
+      "outpatientServices": 114,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 20
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "310014",
+      "name": "Cooper University Hospital",
+      "city": "Camden",
+      "state": "NJ",
+      "countyFips": "34007",
+      "lat": 39.935,
+      "lon": -75.113,
+      "discharges": 12,
+      "outpatientServices": 130,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "450388",
+      "name": "Methodist Hospital",
+      "city": "San Antonio",
+      "state": "TX",
+      "countyFips": "48029",
+      "lat": 29.506,
+      "lon": -98.577,
+      "discharges": 29,
+      "outpatientServices": 109,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 15
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "080001",
+      "name": "Christianacare",
+      "city": "Newark",
+      "state": "DE",
+      "countyFips": "10003",
+      "lat": 39.576,
+      "lon": -75.644,
+      "discharges": 35,
+      "outpatientServices": 101,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "490007",
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "VA",
+      "countyFips": "51710",
+      "lat": 36.865,
+      "lon": -76.303,
+      "discharges": 42,
+      "outpatientServices": 93,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 17
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 14
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 28,
+      "outpatientServices": 103,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "440039",
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.141,
+      "lon": -86.803,
+      "discharges": 11,
+      "outpatientServices": 110,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "310038",
+      "name": "Robert Wood Johnson University Hospital",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "countyFips": "34023",
+      "lat": 40.484,
+      "lon": -74.442,
+      "discharges": 11,
+      "outpatientServices": 109,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "450358",
+      "name": "Houston Methodist Hospital",
+      "city": "Houston",
+      "state": "TX",
+      "countyFips": "48201",
+      "lat": 29.706,
+      "lon": -95.402,
+      "discharges": 14,
+      "outpatientServices": 106,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "310031",
+      "name": "Deborah Heart And Lung Center",
+      "city": "Browns Mills",
+      "state": "NJ",
+      "countyFips": "34005",
+      "lat": 39.932,
+      "lon": -74.544,
+      "discharges": 25,
+      "outpatientServices": 94,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 13
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "340114",
+      "name": "Rex Hospital",
+      "city": "Raleigh",
+      "state": "NC",
+      "countyFips": "37183",
+      "lat": 35.818,
+      "lon": -78.728,
+      "discharges": 12,
+      "outpatientServices": 103,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 510,
+      "facilities": 2,
+      "per10k65": 17.2
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 425,
+      "facilities": 2,
+      "per10k65": 16.4
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 323,
+      "facilities": 3,
+      "per10k65": 31.0
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 280,
+      "facilities": 2,
+      "per10k65": 14.6
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 227,
+      "facilities": 2,
+      "per10k65": 26.0
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 223,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 203,
+      "facilities": 1,
+      "per10k65": 15.1
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 190,
+      "facilities": 1,
+      "per10k65": 15.4
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 188,
+      "facilities": 1,
+      "per10k65": 8.1
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 184,
+      "facilities": 2,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 58.4
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 18.4
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 11.8
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 159,
+      "facilities": 1,
+      "per10k65": 42.0
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 157,
+      "facilities": 1,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 147,
+      "facilities": 1,
+      "per10k65": 10.0
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 15.6
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 136,
+      "facilities": 1,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 135,
+      "facilities": 1,
+      "per10k65": 44.3
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 121,
+      "facilities": 1,
+      "per10k65": 13.1
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 2.1
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 119,
+      "facilities": 1,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 115,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 115,
+      "facilities": 1,
+      "per10k65": 44.7
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 114,
+      "facilities": 1,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 113,
+      "facilities": 1,
+      "per10k65": 6.2
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 112,
+      "facilities": 1,
+      "per10k65": 19.2
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 43.1
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 110,
+      "facilities": 1,
+      "per10k65": 0.7
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 24.1
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 103,
+      "facilities": 1,
+      "per10k65": 10.4
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 98,
+      "facilities": 1,
+      "per10k65": 160.2
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 96,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 28.8
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 18.9
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 39.8
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 17.8
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 88,
+      "facilities": 1,
+      "per10k65": 14.8
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 88,
+      "facilities": 2,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 83,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "25017",
+      "name": "Middlesex",
+      "state": "MA",
+      "services": 77,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 11.3
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 72,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 72,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 5.8
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 70,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 69,
+      "facilities": 1,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 62,
+      "facilities": 1,
+      "per10k65": 7.4
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 61,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 59,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 59,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 52,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 50,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 49,
+      "facilities": 1,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "20091",
+      "name": "Johnson",
+      "state": "KS",
+      "services": 48,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 48,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 45,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 44,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 41,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 33,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 32,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "36085",
+      "name": "Richmond",
+      "state": "NY",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 22,
+      "facilities": 2,
+      "per10k65": 2.5
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": 2023
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "TX",
+       "physicians": 1229,
+       "totalUsd": 597369.07
+      },
+      {
+       "state": "CA",
+       "physicians": 1188,
+       "totalUsd": 455971.86
+      },
+      {
+       "state": "FL",
+       "physicians": 1104,
+       "totalUsd": 318843.82
+      },
+      {
+       "state": "NY",
+       "physicians": 714,
+       "totalUsd": 189122.66
+      },
+      {
+       "state": "AZ",
+       "physicians": 475,
+       "totalUsd": 180947.21
+      },
+      {
+       "state": "MA",
+       "physicians": 151,
+       "totalUsd": 157329.75
+      },
+      {
+       "state": "NJ",
+       "physicians": 426,
+       "totalUsd": 146096.95
+      },
+      {
+       "state": "PA",
+       "physicians": 417,
+       "totalUsd": 137912.67
+      },
+      {
+       "state": "CT",
+       "physicians": 90,
+       "totalUsd": 127608.44
+      },
+      {
+       "state": "IL",
+       "physicians": 259,
+       "totalUsd": 104740.84
+      },
+      {
+       "state": "OH",
+       "physicians": 200,
+       "totalUsd": 78703.83
+      },
+      {
+       "state": "MI",
+       "physicians": 245,
+       "totalUsd": 72046.81
+      },
+      {
+       "state": "SC",
+       "physicians": 199,
+       "totalUsd": 64842.52
+      },
+      {
+       "state": "TN",
+       "physicians": 170,
+       "totalUsd": 53843.16
+      },
+      {
+       "state": "MD",
+       "physicians": 206,
+       "totalUsd": 51592.43
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Spaulding Rehabilitation Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 20
+     },
+     {
+      "name": "University of Minnesota",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 20
+     },
+     {
+      "name": "Medical University of South Carolina",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 32.776,
+      "lon": -79.933,
+      "trials": 15
+     },
+     {
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 11
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 10
+     },
+     {
+      "name": "Memorial Sloan Kettering Cancer Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 10
+     },
+     {
+      "name": "NYU Langone Health",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 8
+     },
+     {
+      "name": "University of Iowa",
+      "city": "Iowa City",
+      "state": "Iowa",
+      "lat": 41.661,
+      "lon": -91.53,
+      "trials": 8
+     },
+     {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 7
+     },
+     {
+      "name": "Medical College of Wisconsin",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 7
+     },
+     {
+      "name": "University of Florida",
+      "city": "Gainesville",
+      "state": "Florida",
+      "lat": 29.652,
+      "lon": -82.325,
+      "trials": 7
+     },
+     {
+      "name": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 7
+     },
+     {
+      "name": "New York University School of Medicine",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 6
+     },
+     {
+      "name": "The University of Texas Health Science Center at Houston",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 6
+     },
+     {
+      "name": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 6
+     },
+     {
+      "name": "University of Texas Southwestern Medical Center",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 6
+     },
+     {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 5
+     },
+     {
+      "name": "Hinda and Arthur Marcus Institute for Aging Research",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 5
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 5
+     },
+     {
+      "name": "Minneapolis VA Health Care System, Minneapolis, MN",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 5
+     },
+     {
+      "name": "The Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
+      "trials": 5
+     },
+     {
+      "name": "University of California, San Francisco",
+      "city": "San Francisco",
+      "state": "California",
+      "lat": 37.775,
+      "lon": -122.419,
+      "trials": 5
+     },
+     {
+      "name": "Icahn School of Medicine at Mount Sinai",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 4
+     },
+     {
+      "name": "Imaging Research Center",
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.582,
+      "lon": -121.494,
+      "trials": 4
+     },
+     {
+      "name": "Kessler Foundation",
+      "city": "West Orange",
+      "state": "New Jersey",
+      "lat": 40.799,
+      "lon": -74.239,
+      "trials": 4
+     },
+     {
+      "name": "Laureate Institute for Brain Research",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "lat": 36.154,
+      "lon": -95.993,
+      "trials": 4
+     },
+     {
+      "name": "Mike O'Callaghan Military Medical Center",
+      "city": "Nellis Air Force Base",
+      "state": "Nevada",
+      "lat": 36.246,
+      "lon": -115.057,
+      "trials": 4
+     },
+     {
+      "name": "Northwestern University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 4
+     },
+     {
+      "name": "University of Arkansas for Medical Sciences",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 4
+     },
+     {
+      "name": "University of Kentucky",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "lat": 37.989,
+      "lon": -84.478,
+      "trials": 4
+     },
+     {
+      "name": "University of Kentucky at Cardinal Hill Rehabilitation Hospital",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "lat": 37.989,
+      "lon": -84.478,
+      "trials": 4
+     },
+     {
+      "name": "University of Nebraska Medical Center",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "lat": 41.256,
+      "lon": -95.94,
+      "trials": 4
+     },
+     {
+      "name": "University of North Carolina at Chapel Hill",
+      "city": "Chapel Hill",
+      "state": "North Carolina",
+      "lat": 35.913,
+      "lon": -79.056,
+      "trials": 4
+     },
+     {
+      "name": "University of Southern California",
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.052,
+      "lon": -118.244,
+      "trials": 4
+     },
+     {
+      "name": "University of Texas Health Science Center at San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 4
+     },
+     {
+      "name": "Baptist Medical Center South",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.332,
+      "lon": -81.656,
+      "trials": 3
+     },
+     {
+      "name": "Burke Medical Research Institute",
+      "city": "White Plains",
+      "state": "New York",
+      "lat": 41.034,
+      "lon": -73.763,
+      "trials": 3
+     },
+     {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 3
+     },
+     {
+      "name": "Department of Neurology; Cognitive Neurology/Neuropsychology",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.29,
+      "lon": -76.612,
+      "trials": 3
+     },
+     {
+      "name": "Emory University",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 3
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 4741,
+     "usSites": 1982,
+     "trials": 1939,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 2109,
+    "trialsWithAeTables": 144,
+    "seriousEventRows": 2939,
+    "seriousSubjectsAffected": 2851,
+    "deathTermSubjects": 27,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 2109,
+    "trialsWithAeTables": 144,
+    "trialsWithSerious": 64,
+    "totals": {
+     "serious": {
+      "rows": 2939,
+      "subjects": 2851
+     },
+     "other": {
+      "rows": 9719,
+      "subjects": 39070
+     },
+     "deathTermSubjects": 27
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Platelet count decreased",
+      "organSystem": "INVESTIGATIONS",
+      "rows": 21,
+      "subjectsAffected": 103
+     },
+     {
+      "term": "Lead dislodgment or migration",
+      "organSystem": "Product Issues",
+      "rows": 1,
+      "subjectsAffected": 62
+     },
+     {
+      "term": "Convulsions NOS",
+      "organSystem": "Nervous system disorders",
+      "rows": 3,
+      "subjectsAffected": 56
+     },
+     {
+      "term": "Thrombosis",
+      "organSystem": "Vascular disorders",
+      "rows": 7,
+      "subjectsAffected": 51
+     },
+     {
+      "term": "Leukopenia NOS",
+      "organSystem": "Investigations",
+      "rows": 3,
+      "subjectsAffected": 46
+     },
+     {
+      "term": "Neutrophil count",
+      "organSystem": "Investigations",
+      "rows": 3,
+      "subjectsAffected": 46
+     },
+     {
+      "term": "Fatigue",
+      "organSystem": "GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS",
+      "rows": 17,
+      "subjectsAffected": 43
+     },
+     {
+      "term": "Cardiac Arrhythmias",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 39
+     },
+     {
+      "term": "Major Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 2,
+      "subjectsAffected": 39
+     },
+     {
+      "term": "Lymphopenia",
+      "organSystem": "Investigations",
+      "rows": 3,
+      "subjectsAffected": 39
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT00304031",
+      "title": "Radiation Therapy (RT) and Temozolomide (TMZ) in Treating Patients With Newly Diagnosed Glioblastoma or Gliosarcoma",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2006",
+      "seriousRows": 576,
+      "seriousSubjects": 1072
+     },
+     {
+      "nctId": "NCT01355627",
+      "title": "TASALL - TachoSil\u00ae Against Liquor Leak",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2011",
+      "seriousRows": 390,
+      "seriousSubjects": 335
+     },
+     {
+      "nctId": "NCT01424722",
+      "title": "ST Monitoring to Detect Acute Coronary Syndrome Events in Implantable Cardioverter Defibrillator Patients",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2011",
+      "seriousRows": 41,
+      "seriousSubjects": 242
+     },
+     {
+      "nctId": "NCT02132767",
+      "title": "Rate Control Versus Rhythm Control For Postoperative Atrial Fibrillation",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2014",
+      "seriousRows": 74,
+      "seriousSubjects": 225
+     },
+     {
+      "nctId": "NCT01062399",
+      "title": "Everolimus, Temozolomide, and Radiation Therapy in Treating Patients With Newly Diagnosed Glioblastoma Multiforme",
+      "phase": "PHASE1/PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 445,
+      "seriousSubjects": 214
+     },
+     {
+      "nctId": "NCT04952597",
+      "title": "Study of Ociperlimab Plus Tislelizumab Plus Chemoradiotherapy in Participants With Untreated Limited-Stage Small Cell Lu",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 114,
+      "seriousSubjects": 104
+     },
+     {
+      "nctId": "NCT05385952",
+      "title": "GATT-Patch Versus TachoSil in Liver Surgery",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2022",
+      "seriousRows": 100,
+      "seriousSubjects": 86
+     },
+     {
+      "nctId": "NCT04477759",
+      "title": "Dose-Escalated Hypofractionated Adaptive Radiotherapy for Head and Neck Cancer",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 204,
+      "seriousSubjects": 84
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 62,
+    "countries": 20,
+    "sources": 6,
+    "firstForeignDate": "2014-01-23",
+    "latestAction": {
+     "country": "Switzerland",
+     "date": "2023-08-24",
+     "classification": "Field Safety Corrective Action"
+    },
+    "screenedOut": 94
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 12,
+      "actions": [
+       {
+        "date": "2023-08-17",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "The Gallant, Entrant, and Neutrino NxT HV devices",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2018-05-31",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra, Promote Quadra and Ellipse ICD & CRT-D Devices",
+        "reason": "Further to the Safety Alert communication of April 24th 2018 (RC-2018-RN-00337-1), Abbott is now advising of the firmware update availability.As part of a planned series of system updates that began in 2017 with the release of Merlin@home v8.2.2 software, A firmware update has been developed with th",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2018-RN-00669-1"
+       },
+       {
+        "date": "2018-05-31",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class II",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra, Promote Quadra and Ellipse ICD & CRT-D Devices",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2017-08-28",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra devices(Implantable cardiac defibrillator (ICD) and cardiac resynchronisation therapy defibrillator (CRT-D) devices)\nManufact",
+        "reason": "St Jude Medical (SJM) is providing additional information following on from the previous notification in October 2016 (RC-2016-RN-01316-1).Previously there was no method to identify devices subject to premature battery depletion prior to reaching the ERI voltage. SJM have developed Battery Performan",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2017-RN-01122-1"
+       },
+       {
+        "date": "2017-08-28",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class II",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra devices",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2016-10-11",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class I",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Unify, Unify Assura and Unify Quadra",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2016-10-11",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Unify, Unify Assura and Unify Quadra(Implantable cardiac defibrillator (ICD) and cardiac resynchronization therapy defibrillator (CRT-D) devices)",
+        "reason": "St. Jude Medical (SJM) is notifying physicians of the risk of premature battery depletion associated with their ICDs and CRT-Ds manufactured before May 23, 2015. High voltage ICDs and CRT-Ds that utilise Lithium-based battery chemistries are subject to Lithium cluster formation during high voltage c",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2016-RN-01316-1"
+       },
+       {
+        "date": "2015-08-20",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class II",
+        "product": "RF enabled St. Jude Medical Ellipse, Fortify Assura, Unify Assura, and Quadra Assura Implantable Cardioverter Defibrillators (ICDs) and Assurity and Allure Pacemakers when used with Merlin@home RF Remote Monitoring Trans",
+        "reason": "Action level: Hospital",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 11,
+      "actions": [
+       {
+        "date": "2023-08-24",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Gallant, Neutrino, Entrant ICD and CRT-D CDVRA500Q, CDDRA500Q, CDHFA500Q, CDVRA600Q, CDDRA600Q, CDHFA600Q, CDVRA300Q, CDDRA300Q, CDHFA300Q",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2019-06-25",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Ellipse VR/DR CD2377-36QC, CD2377-36C, CD1377-36QC, CD1377-36C",
+        "reason": "Attached lot number",
+        "url": null
+       },
+       {
+        "date": "2017-09-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20170829_04"
+       },
+       {
+        "date": "2017-09-11",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra See FSN",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-10-17",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20161011_01"
+       },
+       {
+        "date": "2016-10-17",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra All",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-12-28",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Ellipse, Fortify Assura, Unify Assura, Quadra Assura, Assurity, Assurity+, Allure RF, Allure Quadra RF, Quadra Allure MP RF",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150818_11"
+       },
+       {
+        "date": "2015-12-28",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Merlin@Home RF Remote Monitoring Transmitter EX1150 \u00b7 Ellipse, Fortify Assura, Unify Assura, Quadra Assura, Assurity, Assurity+, Allure RF, Allure Quadra RF, Quadra Allure MP RF All",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2017-08-31",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "ICD and CRT-D; Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify,  Unify Assura and Unify Quadra",
+        "reason": "Urgent Field Safety Notice for ICD and CRT-D; Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify,  Unify Assura and Unify Quadra by St. Jude Medical Inc., Cardiac Rhythm Management Division",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/08581-16_kundeninfo_en.html"
+       },
+       {
+        "date": "2016-10-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify / Fortify Assura / Quadra Assura / Quadra Assura MP / Unify / Unify Assura / Unify Quadra",
+        "reason": "Urgent field safety notice for Fortify / Fortify Assura / Quadra Assura / Quadra Assura MP / Unify / Unify Assura / Unify Quadra, St. Jude Medical Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2016/08581-16_kundeninfo_en.html"
+       },
+       {
+        "date": "2015-09-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "St. Jude Medical Ellipse\u2122, Fortify Assura\u2122, Unify Assura\u2122",
+        "reason": "Update of the Safety Information (published 7.1.15) for St. Jude Medical Ellipse\u2122, Fortify Assura\u2122, Unify Assura\u2122, and Quadra Assura\u2122 Implantable Cardioverter Defibrillators (ICDs) and Assurity\u2122and Allure\u2122 Pacemakers",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2014/08354-14_kundeninfo_en.html"
+       },
+       {
+        "date": "2015-01-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "St. Jude Medical Ellipse\u2122, Fortify Assura\u2122, Unify Assura\u2122",
+        "reason": "Safety Information for St. Jude Medical Ellipse\u2122, Fortify Assura\u2122, Unify Assura\u2122, and Quadra Assura\u2122 Implantable Cardioverter Defibrillators (ICDs) and Assurity\u2122and Allure\u2122 Pacemakers",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2014/8354-14_Kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2016-10-17",
+        "source": "mhra-fsn",
+        "actionType": "device-safety-information",
+        "classification": null,
+        "product": "Implantable cardioverter defibrillators (ICD) and cardiac resynchronisation therapy devices (CRT-D) \u2013 risk of loss of therapy due to rapid battery depletion",
+        "reason": "Manufactured by St Jude Medical \u2013 risk of unpredictable, rapid battery depletion leading to potential device failure and loss of therapy.",
+        "url": "https://www.gov.uk/drug-device-alerts/implantable-cardioverter-defibrillators-icd-and-cardiac-resynchronisation-therapy-devices-crt-d-risk-of-loss-of-therapy-due-to-rapid-battery-depletion"
+       },
+       {
+        "date": "2016-01-11",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field safety notices - 4 January to 8 January 2016",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 4 January to 8 January 2016.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-4-january-to-8-january-2016"
+       },
+       {
+        "date": "2015-08-21",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field safety notices - 17 to 21 August 2015",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 17 to 21 August 2015.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-17-to-21-august-2015"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "All models of RF enabled St. Jude Medical Ellipse\u2122, Fortify Assura\u2122, Unify Assura\u2122, and Quadra Assura\u2122 implantable cardioverter defibrillators (ICDs) and Assurity\u2122 and Allure\u2122 pacemakers when used with  Merlin@home\u2122 RF R",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-06-22",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Unify and Unify Assura, Fortify VR, DR, ST VR, ST DR, Assura VR, Assura DR Quadra Assura, Assura MP, and Unify Quadra Cardiac Resynchronization Device, Tiered-therapy Cardioverter/Defibrillator (2018-06-01)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/unify-and-unify-assura-fortify-vr-dr-st-vr-st-dr-assura-vr-assura-dr-quadra-assura"
+       },
+       {
+        "date": "2016-10-10",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "FORTIFY ASSURA DR",
+        "reason": "ST. JUDE MEDICAL HAS IDENTIFIED A RISK OF PREMATURE BATTERY DEPLETION ASSOCIATED WITH CERTAIN ST. JUDE MEDICAL ICD AND CRT-D DEVICES MANUFACTURED BEFORE MAY 23 2015. THERE IS EVIDENCE OF LITHIUM MATERIAL IN THE FORM OF \"CLUSTERS\" IN THE BATTERY. SOME DEVICES EXHIBITED VISIBLE CLUSTERS BRIDGING THE C",
+        "url": null
+       },
+       {
+        "date": "2014-08-19",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "ELLIPSE VR",
+        "reason": "THERE IS A POTENTIAL ANOMALY WHICH MAY RESULT IN DELAYED DELIVERY OF HIGH VOLTAGE THERAPY OR PREVENT DELIVERY OF PART OR ALL OF A PROGRAMMED HIGH VOLTAGE THERAPY SHOCK. THE ANOMALY MOST COMMONLY PRESENTS AS A VIBRATORY PATIENT NOTIFICATION AND UPON INTERROGATION A PROGRAMMER OR MERLIN.NETT ALERT IND",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-05-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122, Unify Quadra\u2122, Promote Quadra\u2122 and Ellipse\u2122",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2016-10-19",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122 (ICD a CRT-D)",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2016-02-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Ellipse\u1d40\u1d39, Fortify Assura\u1d40\u1d39, Unify Assura\u1d40\u1d39, Quadra Assura\u1d40\u1d39, Assurity\u1d40\u1d39, Allure\u1d40\u1d39 when used with a radio transmitter Merlin@home\u1d40\u1d39",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-05-10",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "implantable fortify, fortify assura, quadra assura, quadra assura mp, unify, unify assura and unify quadra cardioverter-defibrillators",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-dotycz%C4%85ca-wszczepialnych-kardiowerter%C3%B3w-defibrylator%C3%B3w-fortify"
+       },
+       {
+        "date": "2017-09-01",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "battery management tools for fortify, fortify assura, quadra assura, quadra assura mp, unify, unify assura and unify quadra implantable cardioverter defibrillators",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-dotycz%C4%85ca-narz%C4%99dzia-do-zarz%C4%85dzania-dzia%C5%82aniem-baterii-we"
+       },
+       {
+        "date": "2016-11-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "fortify, fortify assura, quadra assura, quadra assura mp, unify, unify assura and unify quadra implantable cardioverter defibrillators",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-st-jude-medical-dotycz%C4%85ca-przedwczesnego-wyczerpania-baterii-we"
+       }
+      ]
+     },
+     {
+      "code": "LBN",
+      "name": "LBN",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-05-08",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify\t\t\tAssura\u2122, Quadra\t\t\tAssura\u2122, Quadra Assura\t\t\tMP\u2122, Unify\u2122, Unify\t\t\tAssura\u2122, Unify Quadra\u2122\u00a0 Ellipse\u2122, Promote\t\t\tQuadra\u2122",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202018/8-5-2018/FortifyQuadra.pdf"
+       },
+       {
+        "date": "2017-09-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra\t\t\tAssura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122, and Unify Quadra",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/5-9-2017/FortifyFortifyAssuraQuadra.pdf"
+       },
+       {
+        "date": "2015-08-31",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Ellipse, Forttify assura, Unify Assura, and quadra assura implantable cardioverter defibrilators (icd) and assurity and allure pacemakers",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202015/31-8-2015/Ellipse%2CForttifyassura%2CUnifyAssura%2Candquadraassuraimplantable.pdf"
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2016-10-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Implantable Cardioverter Defibrillator: St. Jude Medical Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122",
+        "reason": "For Immediate Action",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/SN201633&id=1c530726-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122 ICD",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---october-2016&id=76640726-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122, and Unify Quadra",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---october-2017&id=88290a26-9782-6eee-9b55-ff00008c97d0"
+       }
+      ]
+     },
+     {
+      "code": "ES",
+      "name": "Spain",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-04-30",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "\"Cardiac Resynchronization Therapy Devices (CRT-D) and Implantable Automatic Defibrillators (ICDs) Model Family: Fortify \u2122, Fortify Assura \u2122, Quadra Assura \u2122, Quadra Assura MP \u2122, Unify \u2122, Unify Assura \u2122, Unify Quadra \u2122 ,",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-01-12",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Implantable cardioverter defibrillators with radiofrequency capability: ELLIPSE, FORTY ASSURA, UNIFY ASSURA, and QUADRA ASSURA and pacemakers: ASSURITY AND ALLURE when used with the MERL\u00cdN @HOME remote monitoring EX1150 ",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SG",
+      "name": "Singapore",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-04-19",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "1. Merlin PCS 3650 Software Upgrade Kit\u2002,  2. Merlin@home Transmitter Software,  3. High Voltage Device ICD and CRT-D (model name Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122, Unify",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2016-10-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122,Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       }
+      ]
+     },
+     {
+      "code": "SI",
+      "name": "Slovenia",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2017-08-28",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122",
+        "reason": "Battery Alert (BPA) is intended to alert the battery to malfunctioning in affected devices before the battery is discharged prematurely and before the device reaches ERI voltage. Battery information is automatically uploaded daily to Merlin.net \u2122, which analyzes all the data of the last 32 days on a",
+        "url": null
+       },
+       {
+        "date": "2016-10-10",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "FortifyTM , Fortify AssuraTM , Quadra AssuraTM, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122 and Unify Quadra\u2122",
+        "reason": "Of the 398,740 devices sold worldwide, 841 were returned for analysis due to premature discharge\nbattery, the formation of lithium \"clusters\" in the battery. At forty-six (46), clusters were seen which\nbridged the cathode and anode and caused a short circuit. Lithium clustering is a well-known pheno",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-10-11",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra",
+        "reason": "Medical Device Safety Alert: St. Jude Medical Implantable devices- Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra \nMedical device manufacturer, St Jude Medical, has issued a medical device safety alert concerning its implantable cardioverter defibrilla",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20161011a.html"
+       },
+       {
+        "date": "2014-01-28",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "ICDs and CRT-Ds programmed with Merlin Programmer Software Version 17.2.2 rev. 0",
+        "reason": "Medical Device Safety Alert: St. Jude Medical ICDs and CRT-Ds programmed with Merlin Programmer Software Version 17.2.2 rev. 0\n\nThe Australia Therapeutic Goods Administration (TGA) posted a medical device safety alert concerning implantable cardioverter-defibrillators (ICDs) and cardiac resynchroniz",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20140128.html"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 2,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--Fortify-Fortify-Assura-Quadra-Assura-Quadra-Assura-MP-Unify-Unify-Assura-och-Unify-Quadra--St-Jude-Medical-/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Excelis, Fortify, Fortify Assura, HeartMinder, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra",
+        "reason": "Upgrade software",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--Excelis-Fortify-Fortify-Assura-HeartMinder-Quadra-Assura-Quadra-Assura-MP-Unify-Unify-Assura-och-Unify-Quadra--Abbott/#"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2019-06-26",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Healthcare Professional",
+        "product": "Ellipse DR CD2377-36QC models CD2377-36QC",
+        "reason": "Abbott Ellipse ICDs utilize aluminum wires to connect the high voltage components of the device, and the electronics are then encapsulated in epoxy. During final manufacturing testing, two electrical failures were identified in a limited lot of manufactured devices due to damaged aluminum wires.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=24771"
+       }
+      ]
+     },
+     {
+      "code": "NL",
+      "name": "Netherlands",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2018-04-23",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Fortify\u2122, Fortify Assura\u2122, Quadra Assura\u2122, Quadra Assura MP\u2122, Unify\u2122, Unify Assura\u2122, Unify Quadra\u2122, Promote Quadra\u2122 and Ellipse\u2122",
+        "reason": "Firmware updates regarding battery operation and cyber security warning for certain ICDs and CRT-Ds",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/04/23/abbott-fa2018-04---fortify-assura-quadra-assura-mp-unify-assura-unify_promote-quadra-and-ellipse"
+       }
+      ]
+     },
+     {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-10-12",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra",
+        "reason": "Premature Battery Depletion with Implantable Cardioverter Defibrillator",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=11627"
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-08-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "fortify, fortify assura, quadra assura, quadra assura mp, unify, unify assura and unify quadra",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=6947"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-10-24",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "The Field Action affects five products registered in Brazil. FORTIFY \u2122 - Registration 10332340305. UNIFY - Registration 10332340299. Fortify Assura VR - Registration 10332340358. Unify Assura - Registration 10332340344. ",
+        "reason": "High voltage devices (ICDs and TRC-Ds) that use lithium-based chemical batteries are subject to the formation of lithium deposits during high voltage charging. Depending on your location, lithium deposits may cause a short circuit that could lead to premature battery drainage.",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "JP",
+      "name": "Japan",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-10-12",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "(2) Fortify-Assura (CD 1259-40, CD 1259-40 Q, CD 2259-40, CD 2259-40 Q, CD 1359-40, CD 1255-40, (3) Heart Minder ST (CD 1299-40, CD 1299-40 Q, CD 2299-40, CD 2299-40 Q, CD 2259-40, (5) Unify (CD3235-40, CD3235-40Q) (6) U",
+        "reason": null,
+        "url": "http://www.info.pmda.go.jp/rgo/MainServlet?recallno=1-0964"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2014,
+      "value": 8
+     },
+     {
+      "year": 2015,
+      "value": 9
+     },
+     {
+      "year": 2016,
+      "value": 17
+     },
+     {
+      "year": 2017,
+      "value": 10
+     },
+     {
+      "year": 2018,
+      "value": 9
+     },
+     {
+      "year": 2019,
+      "value": 2
+     },
+     {
+      "year": 2023,
+      "value": 2
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 84,
+     "onMarket": 82,
+     "noLongerOnMarket": 2,
+     "riskClasses": {
+      "class-i": 82,
+      "class-a": 1,
+      "class-iia": 1
+     },
+     "manufacturers": [
+      "VILGO",
+      "macu4 GmbH",
+      "OneMed Group Oy",
+      "Engineering Ingegneria Informatica S.p.A.",
+      "The Magstim Company Limited"
+     ],
+     "note": null
+    },
+    "callouts": [],
+    "screenedOut": 94,
+    "screenedNote": "94 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -1180,7 +3752,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 12500
 }

@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 1934,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 230,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 29,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -530,6 +542,78 @@
      "value": 236
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2001,
+     "value": 2
+    },
+    {
+     "year": 2007,
+     "value": 4
+    },
+    {
+     "year": 2009,
+     "value": 1
+    },
+    {
+     "year": 2013,
+     "value": 10
+    },
+    {
+     "year": 2014,
+     "value": 12
+    },
+    {
+     "year": 2015,
+     "value": 31
+    },
+    {
+     "year": 2017,
+     "value": 59
+    },
+    {
+     "year": 2018,
+     "value": 26
+    },
+    {
+     "year": 2019,
+     "value": 11
+    },
+    {
+     "year": 2020,
+     "value": 4
+    },
+    {
+     "year": 2021,
+     "value": 8
+    },
+    {
+     "year": 2022,
+     "value": 11
+    },
+    {
+     "year": 2023,
+     "value": 1
+    },
+    {
+     "year": 2024,
+     "value": 8
+    },
+    {
+     "year": 2025,
+     "value": 8
+    },
+    {
+     "year": 2026,
+     "value": 6
+    }
+   ]
   }
  ],
  "modules": {
@@ -554,27 +638,27 @@
      {
       "problem": "Patient Device Interaction Problem",
       "reports": 146098,
-      "narrative": "DEVICE RECEIVED WITH BLANK DISPLAY DUE TO CORRODED ELECTRONIC ASSEMBLY. CORRODED BATTERY TUBE NOTED DURING VISUAL INSPECTION. UNABLE TO CONFIRM BATTERY ANOMALY DUE TO BLANK DISPLAY. DEVICE RECEIVED WITH MISSING RETAINER, MISSING RESERVOIR TUBE O-RING AND BROKEN RESERVOIR TUBE LIP. UNABLE TO PERFORM DISPLACEMENT TEST OR LOCK RESERVOIR OR P-CAP IN PLACE DUE TO MISSING RETAINER."
+      "narrative": "UNABLE TO PERFORM DISPLACEMENT TEST DUE TO DETACHED RETAINER, MISSING RESERVOIR TUBE O-RING AND BROKEN RESERVOIR TUBE LIP. TEST RESERVOIR DOES NOT LOCK PROPERLY INSIDE THE RESERVOIR TUBE DUE TO DETACHED RETAINER. (B)(4)."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 90793,
-      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. THE DEVICE WILL BE RETURNED FOR ANALYSIS AND FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME."
+      "narrative": "THE CUSTOMER REPORTED VIA PHONE CALL THAT EMERGENCY MEDICAL SERVICES WAS DISPATCHED AND THEY EXPERIENCED HIGH BLOOD GLUCOSE ON (B)(6) 2020 WITH BLOOD GLUCOSE OF 451 MG/DL. OTHER BLOOD GLUCOSE LEVEL WAS 414 MG/DL. CUSTOMER WAS USING INSULIN PUMP SYSTEM WITHIN 48 HOURS OF REPORTED HIGH BLOOD GLUCOSE EVENT. CUSTOMER TREATED WITH MANUAL INJECTION AND INSULIN PEN. CUSTOMER STATED AUTO MODE FEATURE WAS NOT ACTIVE AT THE TI"
      },
      {
       "problem": "No Display/Image",
       "reports": 85063,
-      "narrative": "THE CUSTOMER FATHER REPORTED VIA PHONE CALL THAT THERE WAS A BLANK DISPLAY ON THE INSULIN PUMP. THE FATHER REPORTED THE BATTERY WAS CHANGED, BUT THE BLANK DISPLAY PERSISTED. CUSTOMER'S BLOOD GLUCOSE WAS UNKNOWN. THE FATHER AGREED TO RETURN THE INSULIN PUMP FOR ANALYSIS."
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT. THE DEVICE HAS BEEN RETURNED, BUT NOT YET EVALUATED. FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UP"
      },
      {
       "problem": "Material Integrity Problem",
       "reports": 77268,
-      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. THE DEVICE WILL BE RETURNED FOR ANALYSIS AND FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. THE INSULIN PUMP INVOLVED IN THIS EVENT IS THE 640G INSULIN INFUSION PUMP, WHICH IS NOT MARKETED IN THE UNITED STATES. HOWEVER, T"
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UPON INFORMATION OBT"
      },
      {
       "problem": "Appropriate Term/Code Not Available",
       "reports": 71601,
-      "narrative": "UPDATED SUMMARY: CUSTOMER REPORTED HAVING BLOOD AT SET INSERTION SITE. THERE WAS NO BRUISING OR HEMATOMA OR HEMORRHAGE. CUSTOMER ALSO REPORTED HAVING HIGH BLOOD GLUCOSE AFTER EATING A LOT AND NOT BEING ABLE TO TREAT AT THE TIME. CUSTOMER LATER TREATED THE HIGH WITH MANUAL INJECTION. CUSTOMER DECLINED FURTHER TROUBLESHOOTING FOR THE SITE ISSUE AND DECLINED TROUBLESHOOTING FOR THE HIGH. IT WAS UNKNOWN IF PUMP WAS USED"
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. THE DEVICE WILL BE RETURNED FOR ANALYSIS AND FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION."
      },
      {
       "problem": "Obstruction of Flow",
@@ -762,7 +846,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
       "state": "MN",
       "total": 328190.62,
       "payments": 504,
@@ -858,7 +942,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
       "state": "MN",
       "total": 328190.62,
       "payments": 504,
@@ -1044,7 +1128,7 @@
      },
      {
       "code": "K0552",
-      "description": "Supplies for external non-insulin drug infusion pump, syringe type cartridge, sterile, each",
+      "description": "Supplies for external drug infusion pump, syringe type cartridge, sterile, each",
       "services": 19743023
      },
      {
@@ -1339,10 +1423,2139 @@
       "services": 20,
       "beneficiaries": 16
      }
+    ],
+    "trialSites": [
+     {
+      "name": "Atlanta Diabetes Associates",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 11
+     },
+     {
+      "name": "AMCR Institute",
+      "city": "Escondido",
+      "state": "California",
+      "lat": 33.119,
+      "lon": -117.086,
+      "trials": 6
+     },
+     {
+      "name": "Endocrine Research Solutions",
+      "city": "Roswell",
+      "state": "Georgia",
+      "lat": 34.023,
+      "lon": -84.362,
+      "trials": 6
+     },
+     {
+      "name": "Rainier Clinical Research Center",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 5
+     },
+     {
+      "name": "Barbara Davis Center",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 4
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 4
+     },
+     {
+      "name": "Stanford University",
+      "city": "Palo Alto",
+      "state": "California",
+      "lat": 37.442,
+      "lon": -122.143,
+      "trials": 4
+     },
+     {
+      "name": "Yale University",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "lat": 41.308,
+      "lon": -72.928,
+      "trials": 4
+     },
+     {
+      "name": "Barbara Davis Center for Childhood Diabetes",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 3
+     },
+     {
+      "name": "Diablo Clinical Research",
+      "city": "Walnut Creek",
+      "state": "California",
+      "lat": 37.906,
+      "lon": -122.065,
+      "trials": 3
+     },
+     {
+      "name": "International Diabetes Center",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 3
+     },
+     {
+      "name": "NYC Research Inc",
+      "city": "Long Island City",
+      "state": "New York",
+      "lat": 40.745,
+      "lon": -73.949,
+      "trials": 3
+     },
+     {
+      "name": "Physicians East",
+      "city": "Greenville",
+      "state": "North Carolina",
+      "lat": 35.613,
+      "lon": -77.366,
+      "trials": 3
+     },
+     {
+      "name": "Sansum Diabetes Research Institute",
+      "city": "Santa Barbara",
+      "state": "California",
+      "lat": 34.421,
+      "lon": -119.698,
+      "trials": 3
+     },
+     {
+      "name": "Texas Diabetes & Endocrinology",
+      "city": "Austin",
+      "state": "Texas",
+      "lat": 30.267,
+      "lon": -97.743,
+      "trials": 3
+     },
+     {
+      "name": "Yale University School of Medicine",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "lat": 41.308,
+      "lon": -72.928,
+      "trials": 3
+     },
+     {
+      "name": "Center of Excellence in Diabetes & Endocrinology",
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.582,
+      "lon": -121.494,
+      "trials": 2
+     },
+     {
+      "name": "Diabetes and Glandular Disease Clinic, P.A.",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 2
+     },
+     {
+      "name": "East Coast Institute for Research",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.332,
+      "lon": -81.656,
+      "trials": 2
+     },
+     {
+      "name": "Grunberger Diabetes Institute",
+      "city": "Bloomfield Hills",
+      "state": "Michigan",
+      "lat": 42.584,
+      "lon": -83.245,
+      "trials": 2
+     },
+     {
+      "name": "Headlands Research California LLC",
+      "city": "Escondido",
+      "state": "California",
+      "lat": 33.119,
+      "lon": -117.086,
+      "trials": 2
+     },
+     {
+      "name": "Indiana University Health Riley Hospital for Children",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 2
+     },
+     {
+      "name": "International Diabetes Center",
+      "city": "Saint Louis Park",
+      "state": "Minnesota",
+      "lat": 44.948,
+      "lon": -93.348,
+      "trials": 2
+     },
+     {
+      "name": "Loma Linda University Medical Center",
+      "city": "Loma Linda",
+      "state": "California",
+      "lat": 34.048,
+      "lon": -117.261,
+      "trials": 2
+     },
+     {
+      "name": "Medical Investigations",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 2
+     },
+     {
+      "name": "Medical Investigations, Inc.",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 2
+     },
+     {
+      "name": "Mills-Peninsula Medical Center: Diabetes Research Institute",
+      "city": "San Mateo",
+      "state": "California",
+      "lat": 37.563,
+      "lon": -122.326,
+      "trials": 2
+     },
+     {
+      "name": "Rainer Clinical Research Center",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 2
+     },
+     {
+      "name": "Rainier Clinical Research",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 2
+     },
+     {
+      "name": "Rocky Mountain Clinical Research",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 2
+     },
+     {
+      "name": "Rocky Mountain Diabetes and Osteoporosis Center",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 2
+     },
+     {
+      "name": "SUNY Upstate Medical University",
+      "city": "Syracuse",
+      "state": "New York",
+      "lat": 43.048,
+      "lon": -76.147,
+      "trials": 2
+     },
+     {
+      "name": "SoCal Diabetes",
+      "city": "Torrance",
+      "state": "California",
+      "lat": 33.836,
+      "lon": -118.341,
+      "trials": 2
+     },
+     {
+      "name": "Stanford University",
+      "city": "Stanford",
+      "state": "California",
+      "lat": 37.424,
+      "lon": -122.166,
+      "trials": 2
+     },
+     {
+      "name": "Sutter Institute for Medical Research",
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.582,
+      "lon": -121.494,
+      "trials": 2
+     },
+     {
+      "name": "Tekton Research",
+      "city": "McKinney",
+      "state": "Texas",
+      "lat": 33.198,
+      "lon": -96.615,
+      "trials": 2
+     },
+     {
+      "name": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 2
+     },
+     {
+      "name": "University of South Florida Diabetes Center",
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 27.948,
+      "lon": -82.458,
+      "trials": 2
+     },
+     {
+      "name": "Valley Research",
+      "city": "Fresno",
+      "state": "California",
+      "lat": 36.748,
+      "lon": -119.772,
+      "trials": 2
+     },
+     {
+      "name": "Washington University St. Louis",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
+      "trials": 2
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 533,
+     "usSites": 279,
+     "trials": 87,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 93,
+    "trialsWithAeTables": 26,
+    "seriousEventRows": 688,
+    "seriousSubjectsAffected": 307,
+    "deathTermSubjects": 1,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 93,
+    "trialsWithAeTables": 26,
+    "trialsWithSerious": 18,
+    "totals": {
+     "serious": {
+      "rows": 688,
+      "subjects": 307
+     },
+     "other": {
+      "rows": 6056,
+      "subjects": 5251
+     },
+     "deathTermSubjects": 1
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Hypoglycemia (Severe Hypoglycemia)",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 4,
+      "subjectsAffected": 44
+     },
+     {
+      "term": "Diabetic ketoacidosis",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 10,
+      "subjectsAffected": 13
+     },
+     {
+      "term": "Gastroenteritis",
+      "organSystem": "Infections and infestations",
+      "rows": 22,
+      "subjectsAffected": 11
+     },
+     {
+      "term": "Hypoglycemia",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 12,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Hyperglycaemia",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 10,
+      "subjectsAffected": 8
+     },
+     {
+      "term": "Diabetic Ketoacidosis",
+      "organSystem": "Endocrine disorders",
+      "rows": 5,
+      "subjectsAffected": 8
+     },
+     {
+      "term": "Pneumonia",
+      "organSystem": "Infections and infestations",
+      "rows": 13,
+      "subjectsAffected": 7
+     },
+     {
+      "term": "Ketoacidosis",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 4,
+      "subjectsAffected": 6
+     },
+     {
+      "term": "Hyperglycemia",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 11,
+      "subjectsAffected": 5
+     },
+     {
+      "term": "Diabetic Ketoacidosis (Ketoacidosis)",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 2,
+      "subjectsAffected": 5
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT00417989",
+      "title": "Study to Compare Efficacy of the MiniMed Paradigm REAL-Time System Vs. MDI in Subjects Naive to Insulin Pump Therapy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2007",
+      "seriousRows": 54,
+      "seriousSubjects": 87
+     },
+     {
+      "nctId": "NCT02748018",
+      "title": "Multi-center Trial in Adult and Pediatric Patients With Type 1 Diabetes Using Hybrid Closed Loop System and Control at H",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2017",
+      "seriousRows": 273,
+      "seriousSubjects": 47
+     },
+     {
+      "nctId": "NCT01182493",
+      "title": "OpT2mise Glucose Control in Type 2 Diabetes Mellitus (DM) With Insulin Pump Therapy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 56,
+      "seriousSubjects": 28
+     },
+     {
+      "nctId": "NCT00919633",
+      "title": "Safety and Efficacy Study to Compare Continuous Infusion of Interferon With Standard of Care for Chronic Hepatitis C",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2009",
+      "seriousRows": 84,
+      "seriousSubjects": 27
+     },
+     {
+      "nctId": "NCT02003898",
+      "title": "Post Approval Study of the TS Feature With the 530G Pump System Supplemented With Commercial Patient Data",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2013",
+      "seriousRows": 17,
+      "seriousSubjects": 24
+     },
+     {
+      "nctId": "NCT00211536",
+      "title": "Study Comparing Effectiveness of Intraperitoneal Insulin Administration to Subcutaneous Insulin Administration",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2002",
+      "seriousRows": 22,
+      "seriousSubjects": 19
+     },
+     {
+      "nctId": "NCT05574062",
+      "title": "Evaluation of the MiniMed 780 System in Paediatric Subjects",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2023",
+      "seriousRows": 91,
+      "seriousSubjects": 16
+     },
+     {
+      "nctId": "NCT05238142",
+      "title": "In-Home Study With MiniMed\u2122 780G Pump Automated Control in Type 2-Evaluation of the AHCL System in Adults With Insulin-r",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2022",
+      "seriousRows": 26,
+      "seriousSubjects": 15
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 230,
+    "countries": 29,
+    "sources": 6,
+    "firstForeignDate": "2001-05-18",
+    "latestAction": {
+     "country": "New Zealand",
+     "date": "2026-05-21",
+     "classification": "Hospital/Pharmacy/Laboratory"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 32,
+      "actions": [
+       {
+        "date": "2026-05-14",
+        "source": "mhra-fsn",
+        "actionType": "medicines-recall-notification",
+        "classification": null,
+        "product": "Class 4 Medicines Defect Notification: Fresenius Medical Care Deutschland GmbH, balance 2.3% glucose, 1.25 mmol/l calcium, solution for peritoneal dialysis, EL(26)A/24",
+        "reason": "Fresenius Medical Care Deutschland GmbH have identified an error in the Braille printed on the outer label. ",
+        "url": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-fresenius-medical-care-deutschland-gmbh-balance-2-dot-3-percent-glucose-1-dot-25-mmol-slash-l-calcium-solution-for-peritoneal-dialysis-el-26-a-slash-24"
+       },
+       {
+        "date": "2025-05-13",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 5 to 9 May 2025",
+        "reason": "List of Field Safety Notices from 5 to 9 May 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-5-to-8-may-2025"
+       },
+       {
+        "date": "2025-03-18",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 10 to 14 March 2025",
+        "reason": "List of Field Safety Notices from 10 to 14 March 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-10-to-14-march-2025"
+       },
+       {
+        "date": "2024-08-19",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 12 to 16 August 2024",
+        "reason": "List of Field Safety Notices from 12 to 16 August 2024.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-12-to-16-august-2024"
+       },
+       {
+        "date": "2024-05-07",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 29 April to 3 May 2024",
+        "reason": "List of Field Safety Notices from 29 April to 3 May 2024.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-29-april-to-3-may-2024"
+       },
+       {
+        "date": "2022-10-10",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field safety notice (FSN) 03 to 07 October",
+        "reason": "List of field safety notices for week 03 to 07 October 2022",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notice-fsn-03-to-07-october"
+       },
+       {
+        "date": "2022-05-30",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 23 to 27 May 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 23 to 27 May 2022.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-to-27-may-2022"
+       },
+       {
+        "date": "2022-02-13",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 6 to 10 February 2023",
+        "reason": "List of Field Safety Notices (FSNs) from 6 to 10 February 2023.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-6-to-10-february-2023"
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 26,
+      "actions": [
+       {
+        "date": "2026-03-13",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "MiniMed Paradigm, MiniMed 600 series, and MiniMed 700 series insulin pump systems",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2025-02-06",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "MiniMed and Paradigm Insulin Pumps",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2024-04-26",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "MiniMed 780G",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2022-06-01",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "All MiniMed 640G, 670G, 700, 770G, and 780G Insulin Pumps",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2021-11-22",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "MiniMed Remote Controller MMT-503 used with MiniMed 508 insulin pump or Paradigm pumps",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2021-10-05",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "MiniMed 640G and 670G insulin pump",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2020-05-04",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "MiniMed 640G pump",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2018-10-10",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "Medtronic MiniMed 640G Insulin Pumps with version 4.10 software",
+        "reason": "Action level: Consumer",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 24,
+      "actions": [
+       {
+        "date": "2026-02-16",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 670G Insulin Pump MMT-1761, MMT-1762, MMT-1781, MMT-1782 \u00b7 MiniMed 770G Insulin Pump MMT-1881, MMT-1882, MMT-1891, MMT-1892 \u00b7 MiniMed 740G Insulin Pump MMT-1811, MMT-1812, MMT-1861, MMT-1862 \u00b7 Paradigm Insulin In",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2025-02-10",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 670G Insulin Pump MMT-1761, MMT-1762, MMT-1781, MMT-1782 \u00b7 MiniMed 770G Insulin Pump MMT-1881, MMT-1882, MMT-1891, MMT-1892 \u00b7 MiniMed Paradigm Insulin Pump MMT-554, MMT-715, MMT-722, MMT-754 \u00b7 MiniMed 740G Insuli",
+        "reason": "Updated information",
+        "url": null
+       },
+       {
+        "date": "2024-10-22",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 740G Insulin Pump MMT-1811, MMT-1812, MMT-1861, MMT-1862 \u00b7 MiniMed 780G Insulin Pump MMT-1884, MMT-1885, MMT-1886, MMT-1894, MMT-1895, MMT-1896 \u00b7 MiniMed 620G Insulin Pump MMT-1710, MMT-1750 \u00b7 MiniMed 700G Insuli",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2023-01-25",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 508 Insulin Pump  \u00b7 MiniMed Paradigm Veo MMT-554, MMT-754 \u00b7 MiniMed Paradigm Insulin Pump MMT-511, MMT-512, MMT-712, MMT-515, MMT-715, MMT-522, MMT-722",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-09-30",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 670G Insulin Pump MMT-1761, MMT-1762, MMT-1781, MMT-1782 \u00b7 MiniMed 640G Insulin Pump MMT-1711, MMT-1712, MMT-1751, MMT-1752",
+        "reason": "Added new language (FR, IT)",
+        "url": null
+       },
+       {
+        "date": "2022-06-02",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 770G Insulin Pump see FSN \u00b7 MiniMed 780G Insulin Pump see FSN \u00b7 MiniMed 720G Insulin Pump see FSN \u00b7 MiniMed 640G Insulin Pump see FSN \u00b7 MiniMed 670G Insulin Pump see FSN \u00b7 MiniMed 740G Insulin Pump see FSN",
+        "reason": "Typing error in document name",
+        "url": null
+       },
+       {
+        "date": "2022-01-27",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed 780G Insulin Pump MMT-1885, MMT-1886, MMT-1895, MMT-1896 \u00b7 MiniMed 770G Insulin Pump MMT-1881, MMT-1882, MMT-1892, MMT-1891 \u00b7 MiniMed 740G Insulin Pump MMT-1811, MMT-1812, MMT-1861, MMT-1862 \u00b7 MiniMed 720G Insuli",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2021-10-11",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MiniMed remote controller MMT-500, MMT-503",
+        "reason": "Added new language",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 18,
+      "actions": [
+       {
+        "date": "2026-02-26",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Paradigm and MiniMed 600 and 700 series pumps \u00b7 Paradigm and MiniMed 600 and 700 series pumps",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/paradigm-and-minimed-600-and-700-series-pumps"
+       },
+       {
+        "date": "2025-02-13",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "MiniMed and Paradigm Insulin Pumps \u00b7 MiniMed and Paradigm Insulin Pumps",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-and-paradigm-insulin-pumps"
+       },
+       {
+        "date": "2024-10-18",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "MiniMed 670 g, 780 g, 770 g and 630 g \u00b7 MiniMed 670 g, 780 g, 770 g and 630 g",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-670-g-780-g-770-g-and-630-g"
+       },
+       {
+        "date": "2022-10-03",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Minimed 630g and 670g \u00b7 Minimed 630g and 670g",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-630g-and-670g"
+       },
+       {
+        "date": "2022-06-13",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Minimed Pump battery cap \u00b7 Minimed Pump battery cap",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-pump-battery-cap"
+       },
+       {
+        "date": "2022-02-08",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Minimed \u00b7 Minimed",
+        "reason": "Inaccurate test or measurement results",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed"
+       },
+       {
+        "date": "2021-10-15",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "MiniMed 600 series (2021-10-05)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-600-series-2021-10-05"
+       },
+       {
+        "date": "2020-05-15",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "MiniMed 630G & 670G Insulin Pump (2020-05-01)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/minimed-630g-670g-insulin-pump-2020-05-01"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 16,
+      "actions": [
+       {
+        "date": "2026-05-21",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "DIA - Carelink Connect and MiniMed Mobile Apps",
+        "reason": "The manufacturer is contacting customers regarding MiniMed Mobile App for Android (software version 3.2.0). An issue has been identified where the app may disconnect from the pump. To resolve this, customers are advised to update their MiniMed Mobile App to the latest available version (3.2.1 or lat",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36822"
+       },
+       {
+        "date": "2026-03-18",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "MiniMed DIA - 780G pump 780 Insulin Pumps (all models)",
+        "reason": "Due to environmental conditions, there may be slight variability in the amount of insulin delivered when the pump is worn at distances above or below the location of the infusion set. This variability may increase with increasing distances above or below the infusion set location. Placing the pump a",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36598"
+       },
+       {
+        "date": "2025-10-29",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "DIB - Carelink - Minimed CareLink&trade; Clinic",
+        "reason": "The manufacturer has recently identified two issues causing the data that was displayed on the 24-hour Sensor Glucose Overview graph within CareLink&trade; Clinic to be incorrect. CareLink&trade; Clinic (also known as ProWeb) is a diabetes therapy management software for users who have access to the",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36087"
+       },
+       {
+        "date": "2025-06-23",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "DIA - InPen App (MDT MiniMed) Model/CFN Number: MMT-8060 (iOS Users) and Model/CFN Number: MMT-8061 (Android Users)",
+        "reason": "The manufacturer is contacting customers with regarding InPen App software versions 7.0.0, 7.0.1, 7.1.0, 7.1.1, 7.2.0, and 7.5.0. During in-house testing, the manufacturer has identified an issue where certain reminder settings may prevent notifications from being delivered as expected.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=35436"
+       },
+       {
+        "date": "2025-02-10",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "DIA - 780G pump MMT-1885, MMT-1895",
+        "reason": "Recent testing has shown that changes in atmospheric pressure can sometimes cause unintended insulin delivery. For example, atmospheric pressure in an airplane can change rapidly during flight, which may cause expansion of air bubbles inside the reservoir when air pressure decreases (e.g., during fl",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=34587"
+       },
+       {
+        "date": "2024-08-12",
+        "source": "medsafe-nz",
+        "actionType": "Alert",
+        "classification": "Healthcare Professional",
+        "product": "MiniMed 780G Insulin pump MMT-1885, MMT-1885L, MMT-1895, MMT-1895WWA",
+        "reason": "The manufacturer has found that in some instances, pumps that have been dropped, bumped, or experienced physical impact, may have damage to internal electrical components, which may cause reduced battery life on the pump. Please note that even a single drop could result in reduced battery life, eith",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=33557"
+       },
+       {
+        "date": "2024-05-20",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "DIA - 780G pump Model: All MiniMed&trade; 600 series and MiniMed&trade; 700 series insulin pump models, including MiniMed&trade; 640G, MiniMed&trade; 670G, MiniMed&trade; 700, MiniMed&trade; , MiniMed&trade; 770G, and Mi",
+        "reason": "Update 20/05/24:The manufacturer has previously reached out to patients about a potential issue with the battery cap on the MiniMed&trade; 600 series and MiniMed&trade; 700 series insulin pumps and provided actions they should take.\nThe manufacturer has now have developed a new battery cap for these",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29457"
+       },
+       {
+        "date": "2024-04-30",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "DIA - 780G pump battery caps (model number ACC-1527)",
+        "reason": "The manufacturer has found that some customers using MiniMed&trade; 780G insulin pumps received replacement battery caps (model number ACC-1527) not approved for use with their pump. These battery caps (model number ACC-1527) are not compatible with their insulin pumps as the caps are smaller in siz",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=32926"
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 15,
+      "actions": [
+       {
+        "date": "2019-01-23",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u2122 Mio\u2122 Advance Infusion Sets",
+        "reason": "For Immediate Action",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/minimed-mio-advance-infusion-sets.-priority-1-for-immediate-action&id=98890b26-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2018-10-23",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": "For Immediate Action",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/minimed-640g-insulin-pump.-priority-1-for-immediate-action&id=d5410b26-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2018-01-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": "For Immediate Action",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/SN201804&id=8e660a26-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2017-09-14",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": "For Immediate Action",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/medtronic-minimed-infusion-sets.-priority-1-for-immediate-action&id=5c650826-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2017-06-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": "Warning",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/SN201721&id=2a030826-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2017-04-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": "Warning",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/minimed-640g-insulin-pump.-priority-2-warning&id=2cdc0726-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notice-september-2015&id=1ecd0326-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notice-february-2017&id=4fc10726-9782-6eee-9b55-ff00008c97d0"
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 10,
+      "actions": [
+       {
+        "date": "2018-08-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed remote controller",
+        "reason": "Urgent Field Safety Notice for MiniMed remote controller by Medtronic Minimed",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2018/10052-18_kundeninfo_en.html"
+       },
+       {
+        "date": "2018-07-09",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Guardian Connect Application",
+        "reason": "Urgent Field Safety Notice for Guardian Connect Application by Medtronic Minimed",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/09/2018/08049-18_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-10-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "iPro2 professional CGM",
+        "reason": "Urgent Field Safety Notice for iPro2 professional CGM by Medtronic Minimed",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2017/10275-17_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-09-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": "Urgent Field Safety Notice for Medtronic MiniMed Infusion Sets by Unomedical Infusion Devices A/S",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2017/09092-17_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-06-22",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": "Urgent Field Safety Notice for Medtronic MiniMed 640G Insulin Pump by Medtronic Minimed",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2017/04986-17_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-03-09",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Infusion Pump",
+        "reason": "Urgent field safey notice for MiniMed 640G Insulin Infusion Pump, Medtronic",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2016/01026-17_kundeninfo_en.html"
+       },
+       {
+        "date": "2015-11-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the MiniMed 640G insulin pumps",
+        "reason": "Safety Notice for the MiniMed 640G insulin pumps, Medtronic",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2015/06979-15_kundeninfo_en.html"
+       },
+       {
+        "date": "2014-11-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed Silhouette\u2122 and Sure-T\u2122 infusion sets",
+        "reason": "Corrective action for the MiniMed Silhouette\u2122 and Sure-T\u2122 infusion sets, Medtronic",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/07/2014/07302-14_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "DK",
+      "name": "Denmark",
+      "total": 8,
+      "actions": [
+       {
+        "date": "2019-01-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed Mio Advance",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2019/1/minimed-mio-advance/"
+       },
+       {
+        "date": "2018-08-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u2122 remote controller (MMT-500 or MMT-503)",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2018/08/minimed-remote-controller-mmt-500-or-mmt-503/"
+       },
+       {
+        "date": "2017-09-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2017/09/medtronic-minimed-infusion-sets/"
+       },
+       {
+        "date": "2017-02-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2017/02/minimed-640g-insulin-pump/"
+       },
+       {
+        "date": "2015-09-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2015/09/minimed-640g/"
+       },
+       {
+        "date": "2015-06-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic Minimed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2015/06/medtronic-minimed-640g-insulin-pump/"
+       },
+       {
+        "date": "2014-12-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "comfort, comfort short, contact detach, minimed silhouette and minimed sure-t",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2014/comfort,-comfort-short,-contact-detach,-minimed-silhouette-og-minimed-sure-t/"
+       },
+       {
+        "date": "2014-12-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "minimed silhouette and minimed sure-t infusion set",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2014/minimed-silhouette-og-minimed-sure-t-infusionssaet/"
+       }
+      ]
+     },
+     {
+      "code": "ES",
+      "name": "Spain",
+      "total": 8,
+      "actions": [
+       {
+        "date": "2018-03-23",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Minimed 640G Insulin Infusion Pump",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2018-02-26",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Quick set, Quick, Silhouette, Sure-T, Mio, Mio 30 infusion sets used with Medtronic&#39;s Minimed insulin infusion pumps",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2017-09-20",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Quick set, Quick, Silhouette, Sure-T, Mio, Mio 30 infusion sets used with Medtronic&#39;s Minimed insulin infusion pumps",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2017-05-31",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Minimed 640G Insulin Infusion Pump",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2017-02-15",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Insulin infusion pumps \"MiniMed 640G\", with software version 2.6",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-10-14",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Insulin pumps \"MiniMed 640G\", model MMT-1712",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-08-13",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Infusion sets MiniMed Sure-T",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2014-11-17",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "\"Infusion sets MiniMed Silhouette and MiniMed Sure-T\",",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2019-01-10",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u2122 Paradigm\u2122 Veo\u2122 Insulin Pump",
+        "reason": "The purpose of this letter is to advise you that your pump has an error that impacts the Arabic language translation. If you do not use the Arabic language setting on your pump, you may disregard this message. This translation error does not impact the functionality of the device.\nDevices do not nee",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=13734"
+       },
+       {
+        "date": "2018-10-02",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": "This issue occurs when a specific electronic component in your pump malfunctions. It can result in the loss of all audio, problems adjusting the audio volume, or the loss of only the emergency audio siren.",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=13252"
+       },
+       {
+        "date": "2018-08-28",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed remote controller (MMT-500 or MMT-503)",
+        "reason": "An external security researcher has identified a potential vulnerability related to the MiniMed\u2122 Paradigm\u2122 family of insulin pumps and corresponding remote controller. The researcher\u2019s report states that an unauthorized individual in close proximity of an insulin pump user could potentially copy the",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=13089"
+       },
+       {
+        "date": "2017-09-14",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed Infusion Sets",
+        "reason": "Medtronic has become aware of recent reports of potential over-delivery of insulin shortly after an infusion set change. Over-delivery of insulin can cause hypoglycemia and in extreme cases, death. Medtronic has received reports of hypoglycemia requiring medical intervention potentially related to t",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=11516"
+       },
+       {
+        "date": "2017-05-25",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Infusion Pump..",
+        "reason": "Keypad buttons on the MiniMed 640G insulin pumps may become temporarily unresponsive when the atmospheric pressure around the pump increases or decreases rapidly. This would most likely happen when traveling in an airplane during take-off or landing. If this happens, in most cases a patient may not ",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=11103"
+       },
+       {
+        "date": "2014-12-01",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "Infusion sets: Comfort, Comfort Short and Contact Detach, MiniMed Silhouette and MiniMed Sure-T infusion sets.",
+        "reason": "tubing becoming detached at the connect/disconnect location on the infusion sets.",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=6796"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2018-10-16",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "minimed \u2122 640g insulin pump",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-fa840-firmy-medtronic-dotycz%C4%85ca-pompy-insulinowej-medtronic-minimed%E2%84%A2-640g"
+       },
+       {
+        "date": "2018-09-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "minimed remote controls",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-fa830-firmy-medtronic-dotycz%C4%85ca-pilot%C3%B3w-zdalnego-sterowania-minimed-model-mmt"
+       },
+       {
+        "date": "2017-06-05",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "insulin minimed 640g insulin pumps",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-medtronic-dotycz%C4%85ca-pomp-insulinowych-minimed-640g"
+       },
+       {
+        "date": "2017-03-02",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "infusion pumps minimed 640g",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-medtronic-dotycz%C4%85ca-pomp-infuzyjnych-minimed-640g"
+       },
+       {
+        "date": "2014-12-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "infusion sets minimed silhouette and minimed sure-t",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-medtronic-dotycz%C4%85ca-zestaw%C3%B3w-infuzyjnych-minimed-silhouette-i-minimed"
+       },
+       {
+        "date": "2007-08-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "minimed paradigm insulin pumps",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/informacja-dotycz%C4%85ca-pomp-insulinowych-minimed-paradigm-27082007"
+       }
+      ]
+     },
+     {
+      "code": "SG",
+      "name": "Singapore",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2018-08-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Remote Controller",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2017-09-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2017-05-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2017-02-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMedTM 640G Insulin Infusion Pump",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2015-10-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u00ae 640G Insulin pump",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2015-06-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed Sure-T infusion Sets",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2017-11-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2017-06-16",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2017-02-17",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2015-10-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2015-08-24",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G Insulin Pump",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed SilhouetteTM and Sure-TTM infusion sets",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 6,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed Silhouette and Sure-T infusion",
+        "reason": "Other",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Engangsprodukter--MiniMed-Silhouette-och-Sure-T-infusionsset--Unomedical-AS/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G insulinpump (MMT-1511, MMT-1512, MMT-1711 & MMT-1712)",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Medicinsk-elektriskmekanisk-utrustning--MiniMed-640G--Medtronic-MiniMed-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G insulinpump",
+        "reason": "Other",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Medicinsk-elektriskmekanisk-utrustning--MiniMed-640G--Medtronic-MiniMed/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic Paradigm infusion set and Medtronic MiniMed insulin reservoir models MMT-326A and MMT-332A",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2013/Engangsprodukter--Medtronic-Paradigm-infusionsset-och-Medtronic-MiniMed-insulinreservoar--Medtronic-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed infusionsset (Quick-Set, Mio, Mio 30, Sure-T, Silhouette)",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Engangsprodukter--Medtronic-MiniMed-infusionsset--Unomedical-AS/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed 640G insulinpump",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Medicinsk-elektriskmekanisk-utrustning--Medtronic-MiniMed-640G-insulinpump--Medtronic-MiniMed/#"
+       }
+      ]
+     },
+     {
+      "code": "LBN",
+      "name": "LBN",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2017-09-19",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMed Infusion Sets",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/19-9-2017/MiniMedInfusionSets.pdf"
+       },
+       {
+        "date": "2017-03-20",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMedTM 640G Insulin Infusion Pump",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/20-3-2017/MiniMedTM640GInsulinInfusionPump.pdf"
+       },
+       {
+        "date": "2015-10-12",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMed 640G insulin pump (MMT-1711 & MMT-1712)",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202015/12-10-2015/MiniMed640Ginsulinpump(MMT1711%26MMT1712).pdf"
+       },
+       {
+        "date": "2015-10-07",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMed 640G insulin pump",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202015/7-10-2015/MiniMed640Ginsulinpump.pdf"
+       },
+       {
+        "date": "2015-08-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Medtronic MiniMedTM 640G System",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202015/5-8-2015/MedtronicMiniMedTM%20640GSystem.pdf"
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2017-09-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "quick set qr for 50xmedtronic minimed quick-set (mmt-394, 384, 399, 387, 398, 397, 386, 396) medtronic minimed silhouette (mmt-377, 378, 384, 368, 381, 382, 383) medtronic minimed sure-t (mmt-862, 862t, 864, 866, 874, 87",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7611"
+       },
+       {
+        "date": "2017-05-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "insulated pump 640g 3.0 ml blumicroinfusatore mmt-1712",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7407"
+       },
+       {
+        "date": "2017-02-09",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "insulin pump minimized 640g",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7173"
+       },
+       {
+        "date": "2015-09-28",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "insulated pump 640g 3.0 ml blue",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=6075"
+       },
+       {
+        "date": "2014-11-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "infusion set minimized silohuette and minimed sure-t",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=3850"
+       }
+      ]
+     },
+     {
+      "code": "SI",
+      "name": "Slovenia",
+      "total": 5,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Minimed",
+        "reason": "Medtronic wants to alert you to a possible insulin overdose shortly after replacing the infusion set, as recently reported. Excessive insulin delivery can cause hypoglycaemia and, in exceptional cases, death. Medtronic has been advised of hypoglycaemia cases that may have been associated with the co",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMedTM 640G Insulin Infusion Pump",
+        "reason": "We are writing to inform you of a rare and temporary condition in which the keypad buttons on patients\u2019 \nMiniMedTM 640G Insulin Infusion Pump may become temporarily stuck, and the keypad becomes \nunresponsive.  This is a field safety notification and patients do not need to return or replace their p",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed",
+        "reason": "Medtronic was keen to warn of possible over-insulin delivery shortly after the replacement of the infusion set, which required radiation intervention, and was reluctantly informed.",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "CONTOUR\u00aeNEXT control solutions",
+        "reason": "We are contacting you to provide important information about a voluntary field corrective action regarding the use of CONTOUR\u00aeNEXT control solutions with the CONTOUR\u00aeNEXT family meters (CONTOUR\u00aeXT/NEXT EZ, CONTOUR\u00aeNEXT, CONTOUR\u00aeNEXT LINK, CONTOUR\u00aeNEXT LINK 2.4, CONTOUR\u00aeNEXT USB),  Medtronic MiniMed ",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMedTM 640G Insulin Infusion Pump",
+        "reason": "Medtronic has identified a software issue that could prevent the internal battery from charging. Should this \nsoftware issue occur, an alarm is triggered and you will see the following message displayed on the pump \nscreen: \n\n \n\nIf you experience this alarm and see the \u201cPower error detected\u201d message",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "AND",
+      "name": "AND",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2018-10-08",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Minimed 640G",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=2&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       },
+       {
+        "date": "2018-02-27",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Minimed pump",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=15&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       },
+       {
+        "date": "2017-09-25",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "minimed insulin pump",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=26&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       },
+       {
+        "date": "2017-09-19",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMed",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=27&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       }
+      ]
+     },
+     {
+      "code": "NL",
+      "name": "Netherlands",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2018-10-02",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G Insulin Pump",
+        "reason": "Medtronic has received reports of occurrences where the MiniMed \u2122 640G insulin pump with version 4.10 software has not been able to deliver the expected sounds during warnings, alarms or sirens.",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/10/02/medtronic-fa840---minimed-640g-insulin-pump"
+       },
+       {
+        "date": "2018-08-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u2122 remote controller",
+        "reason": "The researcher's report states that an unauthorized person close to an insulin pump user may be able to copy the wireless radio frequency (RF) signals from the user's remote control ...",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/08/08/medtronic-minimed-remote-controller"
+       },
+       {
+        "date": "2017-05-31",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed\u00ae 640G Insulinepomp",
+        "reason": "By means of this letter we would like to inform you about a rare, temporary situation in which the buttons of the MiniMed \u00ae 640G insulin pump of your patients may temporarily not be operable and the keyboard will not respond.",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2017/05/31/field-safety-notice-medtronic---minimed-640g-insulinepomp"
+       },
+       {
+        "date": "2017-01-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MiniMed 640G insulin pump",
+        "reason": "Medtronic has identified a software issue that could prevent the internal battery from charging.",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2017/01/30/field-safety-notice-medtronic---minimed-640g-insulin-pump"
+       }
+      ]
+     },
+     {
+      "code": "CO",
+      "name": "Colombia",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-10-10",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Minimed 640G",
+        "reason": null,
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=31"
+       },
+       {
+        "date": "2017-05-24",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MINIMED Insulin pump",
+        "reason": null,
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=86"
+       },
+       {
+        "date": "2017-01-31",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Insuline pump 640G Minimed",
+        "reason": null,
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=105"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2018-02-28",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Trade name: Minimed 640G Insulin Pump. Technical Name: Infusion Pump. ANVISA registration number: 10339190656. Class of risk: III. Affected Model: MMT-1712K; MMT-1752; MMT-1752K; MMT-1752KBP; MMT-1752WWK; MMT-1752WWKA. S",
+        "reason": "Through the company's global quality and safety monitoring system, the manufacturer has received infusion pump-related complaints where a button may become difficult to press or a button may appear to be pressed and held in place. One of these complaints led to a hyperglycemic event without hospital",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2001-10-02",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "INSULIN MINIMED MMT 508 INFUSION PUMP WITH REMOTE CONTROL. CATHETER APPLICATOR, BRAND SILHOUETTE",
+        "reason": "LACK OF REGISTRATION IN THE MINISTRY OF HEALTH AND ABSENCE OF INFORMATION REGARDING THE PROCESS OF THE PRODUCT",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2001-05-18",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "INFUSION PUMPS IVAC MEDSYSTEM III: (1) MODEL 2860, (2) MODEL 2863, (3) MODEL 2865, (4) MODEL 2866 INTERNATIONAL, (5) MODEL MINIMED III SIEMENS MMT 9500. UNITS CONTAINING ASSEMBLY OF MODULE DRIVE AND THE ENGINE KIT WITH D",
+        "reason": "THE ASSEMBLY OF DRIVE MODULES AND THE MOTOR KIT WITH DATA CODE 448, IN THE REFERRED INFUSION PUMP, MAY BE ASSOCIATED WITH THE PROPORTION OF EARLY DETERIORATION OF THE ENGINE SWITCH. ALARIS ISSUED A SAFETY ALERT OF THE REFERRED INFUSION PUMP, EMPHASIZING THE IMPORTANCE OF THE PERIODIC MAINTENANCE SER",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-09-12",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MiniMed Infusion Sets",
+        "reason": null,
+        "url": "http://www.info.gov.hk/gia/general/201709/12/P2017091200961.htm"
+       },
+       {
+        "date": "2015-06-11",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MiniMed Sure-T infusion sets",
+        "reason": "Medical Device Safety Alert: Medtronic MiniMed Sure-T infusion sets\nMedical device manufacturer, Medtronic, has issued a medical device safety alert concerning its MiniMed Sure-T infusion sets. \nThe manufacturer has identified that certain MiniMed Sure-T infusion sets had a slight increase in report",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150611.html"
+       },
+       {
+        "date": "2014-11-11",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MiniMed Silhouette and MiniMed Sure-T infusion sets",
+        "reason": "Medical Device Safety Alert: Medtronic MiniMed Silhouette and MiniMed Sure-T infusion sets\nMedical device manufacturer, Medtronic Limited, has issued a medical device safety alert concerning its MiniMed Silhouette and MiniMed Sure-T infusion sets.\nAs part of its global quality monitoring process, th",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20141111a.html"
+       }
+      ]
+     },
+     {
+      "code": "RS",
+      "name": "Serbia",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-03-10",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Set",
+        "reason": "Medtronic got information about possible over-delivering insulin that required a medical intervention, which happened shortly after changing the infusion set",
+        "url": "https://www.alims.gov.rs/latin/2017/10/03/obavestenje-o-povlacenju-medicinskog-sredstva-sa-trzista-4/"
+       },
+       {
+        "date": "2013-07-24",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic MiniMed Paradigm Reservoir",
+        "reason": "We pull these tanks because there is an increased risk of leakage from these tanks. Leaking from the reservoir may lead to lower delivery of insulin than anticipated and, if the infusion set becomes clogged, the pump may not alarm. Our testing indicated that this increased risk of reservoir leakage ",
+        "url": "https://www.alims.gov.rs/latin/2013/07/24/obavestenje-o-meri-povlacenja-sa-trzista-medicinskog-sredstva-medtronic-minimed-paradigm-reservoir-model-mmt-332a-rezervoar-za-insulinsku-pumpu/"
+       },
+       {
+        "date": "2013-03-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Minimed Paradigm Insulin Pump Paradigm VeoTM, Medtronic MiniMed Paradigm Infusion Pump",
+        "reason": "Through our device monitoring system we have come to some knowledge about possible problems and we would like to inform you and give you recommendations regarding the use of our pumps.",
+        "url": "https://www.alims.gov.rs/latin/2013/04/11/vazno-obavestenje-o-medicinskim-sredstvima-minimed-paradigm-insulin-pump-paradigm-veotm-i-medtronic-minimed-paradigm-infusion-pump/"
+       }
+      ]
+     },
+     {
+      "code": "RU",
+      "name": "Russia",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-12-17",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Scarifier-spear for puncturing the skin disposable sterile Minimed",
+        "reason": null,
+        "url": "http://www.roszdravnadzor.ru/services/unreg"
+       },
+       {
+        "date": "2017-10-23",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Devices for infusion to insulin pump MiniMed Paradigm",
+        "reason": null,
+        "url": "http://www.roszdravnadzor.ru/services/unreg"
+       }
+      ]
+     },
+     {
+      "code": "FR",
+      "name": "France",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2017-09-18",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Medtronic QuickSet\u00ae Minimed Catheter",
+        "reason": "External Insulin Pump (ACC.) - Medtronic QuickSet\u00ae Minimed Catheter - Unomedical AS - Recall",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/pompe-a-insuline-externe-acc--catheter-medtronic-quickset-r-minimed-unomedical-as-rappel"
+       },
+       {
+        "date": "2015-10-07",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "MiniMed 640G System",
+        "reason": "Insulin Therapy - External Insulin Pump - MiniMed 640G System - Medtronic - Recall",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/insulinotherapie-pompe-a-insuline-externe-systeme-minimed-640g-medtronic-rappel"
+       }
+      ]
+     },
+     {
+      "code": "PT",
+      "name": "Portugal",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-10-02",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MiniMed Infusion Set Market Collection",
+        "reason": null,
+        "url": "http://www.infarmed.pt/web/infarmed/alertas/-/journal_content/56/15786/2284247"
+       }
+      ]
+     },
+     {
+      "code": "GR",
+      "name": "Greece",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-09-26",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets",
+        "reason": null,
+        "url": "http://www.eof.gr/web/guest/withdrawalsmedical?p_p_id=62_INSTANCE_Eh5C&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_62_INSTANCE_Eh5C_struts_action=%2Fjournal_articles%2Fview&_62_INSTANCE_Eh5C_groupId=12225&_62_INSTANCE_Eh5C_articleId=2339691&_62_INSTANCE_Eh5C_version=1.0"
+       }
+      ]
+     },
+     {
+      "code": "FI",
+      "name": "Finland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-09-14",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Medtronic MiniMed Infusion Sets only",
+        "reason": "Device failure / Feature Before Use - Manufacturing",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SLV",
+      "name": "SLV",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-09-12",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": "Voluntary recall",
+        "product": "Infusion sets used insulin pumps",
+        "reason": "The cause of the sanitary alert is due to the possible delivery of insulin, which can cause hypoglycaemia and, in extreme cases, death. The sanitary register IM101306072017 covers the MiniMed model. The distributor's facilities were visited and documentation of imports and inventories was requested,",
+        "url": "https://www.medicamentos.gob.sv/index.php/es/servicios-m/ciudadanos/alertas-dnm/alertas-sanitarias-internacionales"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2001,
+      "value": 2
+     },
+     {
+      "year": 2007,
+      "value": 4
+     },
+     {
+      "year": 2009,
+      "value": 1
+     },
+     {
+      "year": 2013,
+      "value": 10
+     },
+     {
+      "year": 2014,
+      "value": 12
+     },
+     {
+      "year": 2015,
+      "value": 31
+     },
+     {
+      "year": 2017,
+      "value": 59
+     },
+     {
+      "year": 2018,
+      "value": 26
+     },
+     {
+      "year": 2019,
+      "value": 11
+     },
+     {
+      "year": 2020,
+      "value": 4
+     },
+     {
+      "year": 2021,
+      "value": 8
+     },
+     {
+      "year": 2022,
+      "value": 11
+     },
+     {
+      "year": 2023,
+      "value": 1
+     },
+     {
+      "year": 2024,
+      "value": 8
+     },
+     {
+      "year": 2025,
+      "value": 8
+     },
+     {
+      "year": 2026,
+      "value": 6
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 23,
+     "onMarket": 23,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "ivd-annex-ii-list-b": 1,
+      "class-iia": 2,
+      "class-i": 20
+     },
+     "manufacturers": [
+      "WYTW\u00d3RNIA Z\u0118B\u00d3W SZTUCZNYCH \"WIEDENT\" L.WIETESKA-BARON L.WIETESKI SP\u00d3\u0141KA JAWNA",
+      "Medtronic MINIMED",
+      "Bionime Corporation",
+      "SOMNOmedics AG",
+      "Turati Idrofilo S.p.A."
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2001-05-18) predates the first US Class 1 recall (2013-06-07).",
+      "foreign": {
+       "date": "2001-05-18"
+      },
+      "us": {
+       "date": "2013-06-07"
+      }
+     }
+    ],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -1351,7 +3564,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 24500
 }

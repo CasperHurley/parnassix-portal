@@ -479,6 +479,27 @@ button { font-family: var(--font); }
 }
 
 /* icp map */
+.mapToggle { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+.mapToggle button {
+  background: var(--bg-raise); color: var(--muted); border: 1px solid var(--border);
+  border-radius: 7px; padding: 5px 12px; font-size: 12px; font-weight: 600; cursor: pointer;
+}
+.mapToggle button.on { color: var(--text); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.mapYears { color: var(--muted); font-size: 11.5px; margin-left: auto; }
+.facDot { fill: var(--accent); fill-opacity: 0.35; stroke: var(--accent); stroke-width: 1.1; }
+.trialDot { fill: none; stroke: var(--price); stroke-width: 1.2; stroke-opacity: 0.85; }
+.mapTrialToggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: transparent; color: var(--muted); border: 1px solid var(--border);
+  border-radius: 7px; padding: 5px 10px; font-size: 12px; cursor: pointer;
+}
+.mapTrialToggle.on { color: var(--text); border-color: var(--price); }
+.trialSwatch {
+  width: 9px; height: 9px; border-radius: 50%;
+  border: 1.5px solid var(--price); display: inline-block;
+}
+.facCity { display: block; color: var(--muted); font-size: 11px; }
+.mapPaidLine { color: var(--muted); font-size: 12.5px; margin-top: 12px; }
 .mapRow { display: flex; gap: 22px; flex-wrap: wrap; }
 .mapSvgWrap { flex: 1.4; min-width: 380px; }
 .mapTable { flex: 1; min-width: 240px; }
@@ -486,6 +507,13 @@ button { font-family: var(--font); }
 .mapTable td, .mapTable th { padding: 5px 8px; border-bottom: 1px solid var(--border); text-align: left; }
 .mapTable th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; }
 .mapTable td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* trial adverse events (AACT) */
+.sectionSub { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.05em; margin: 16px 0 6px; font-weight: 600; }
+.aeTermTable { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.aeTermTable td, .aeTermTable th { padding: 5px 8px; border-bottom: 1px solid var(--border); text-align: left; }
+.aeTermTable th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; }
+.aeTermTable td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 /* corporate / ip */
 .kvGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
@@ -550,3 +578,37 @@ button { font-family: var(--font); }
 
 .footer { color: var(--faint); font-size: 11.5px; padding: 40px 28px 30px; text-align: center; }
 .loading { color: var(--muted); padding: 60px; text-align: center; }
+
+/* global regulatory footprint */
+.gaCallouts { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+.gaCallout {
+  background: rgba(255, 176, 32, 0.09); border: 1px solid rgba(255, 176, 32, 0.35);
+  color: var(--warn, #ffb020); border-radius: 8px; padding: 9px 12px;
+  font-size: 13px; font-weight: 600;
+}
+.gaEu {
+  border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px;
+  margin-bottom: 14px; background: var(--bg-raise);
+}
+.gaEuHead { font-weight: 700; font-size: 13.5px; margin-bottom: 10px; }
+.gaEuAbsent { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+.gaCountry { margin-bottom: 14px; }
+.gaCountryHead {
+  display: flex; align-items: baseline; gap: 8px; padding: 6px 0 4px;
+  border-bottom: 1px solid var(--border);
+}
+.gaFlag { font-size: 15px; }
+.gaCountryName { font-weight: 700; font-size: 13.5px; }
+.gaCountryCount { color: var(--faint); font-size: 11.5px; margin-left: auto; }
+.gaRow {
+  display: flex; align-items: baseline; gap: 10px; padding: 7px 0;
+  border-bottom: 1px solid var(--border-soft, var(--border)); font-size: 12.5px;
+  cursor: pointer;
+}
+.gaRow:last-child { border-bottom: none; }
+.gaBody { flex: 1; min-width: 0; }
+.gaProduct { color: var(--text); }
+.gaType { color: var(--muted); }
+.gaReason { display: block; color: var(--faint); font-size: 11.5px; margin-top: 2px; }
+.gaReason[data-open='true'] { color: var(--muted); }
+.gaAttribution { margin-top: 12px; color: var(--faint); font-size: 10.5px; line-height: 1.5; }

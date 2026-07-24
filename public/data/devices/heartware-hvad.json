@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 1935,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 297,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 24,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -410,6 +422,82 @@
      "value": 237
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2010,
+     "value": 1
+    },
+    {
+     "year": 2011,
+     "value": 2
+    },
+    {
+     "year": 2012,
+     "value": 4
+    },
+    {
+     "year": 2013,
+     "value": 29
+    },
+    {
+     "year": 2014,
+     "value": 27
+    },
+    {
+     "year": 2015,
+     "value": 35
+    },
+    {
+     "year": 2016,
+     "value": 53
+    },
+    {
+     "year": 2017,
+     "value": 23
+    },
+    {
+     "year": 2018,
+     "value": 39
+    },
+    {
+     "year": 2019,
+     "value": 2
+    },
+    {
+     "year": 2020,
+     "value": 12
+    },
+    {
+     "year": 2021,
+     "value": 17
+    },
+    {
+     "year": 2022,
+     "value": 25
+    },
+    {
+     "year": 2023,
+     "value": 7
+    },
+    {
+     "year": 2024,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 4
+    },
+    {
+     "year": 2026,
+     "value": 1
+    }
+   ]
   }
  ],
  "modules": {
@@ -424,7 +512,7 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 35300,
-      "narrative": "IT WAS FURTHER REPORTED THAT PRIOR TO RIGHT VENTRICULAR ASSIST DEVICE IMPLANT, THE PATIENT EXPERIENCED A SHORT PHASE OF STABILIZATION FOLLOWED BY RAPIDLY PROGRESSIVE CIRCULATORY DETERIORATION."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH A BACTERIAL DRIVELINE INFECTION. THE PATIENT RECEIVED INTRAVENOUS (IV) DRUG THERAPY INTERVENTION. THE VENTRICULAR ASSIST DEVICE (VAD) REMAINS IN USE. NO FURTHER PATIENT COMPLICATIONS WERE REPORTED AS A RESULT OF THE EVENT. THIS EVENT WAS REPORTED IN THE INTERMACS DATA REGISTRY THAT TRACKS CLINICAL OUTCOMES OF PATIENTS ON VENTRICULAR ASSIST DEVICE (VAD) SUPPORT. T"
      },
      {
       "problem": "Battery Problem",
@@ -439,27 +527,27 @@
      {
       "problem": "Power Problem",
       "reports": 5797,
-      "narrative": "ADDITIONAL INFORMATION HAS BEEN REQUESTED REGARDING DETAILS OF THE EVENT, BUT IT WAS NOT AVAILABLE AT THE TIME OF THIS REPORT. IF ADDITIONAL INFORMATION IS RECEIVED, THE EVENT WILL BE UPDATED, AND A SUPPLEMENTAL REPORT WILL BE SENT. INVESTIGATION OF THIS EVENT IS PENDING AND A SUPPLEMENTAL REPORT WILL BE SENT UPON ITS COMPLETION. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+      "narrative": "###A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR CORRECTION. H1. TYPE OF REPORTABLE EVENT WAS CHANGED FROM MALFUNCTION TO SERIOUS INJURY. ### MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIR"
      },
      {
       "problem": "Connection Problem",
       "reports": 2923,
-      "narrative": "A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR INVESTIGATION COMPLETION. PRODUCT EVENT SUMMARY: ONE CONTROLLER AC ADAPTER AND FOUR BATTERIES WERE NOT RETURNED FOR EVALUATION. AS A RESULT, THE REPORTED EVENT COULD NOT BE CONFIRMED. APPLICABLE RISK DOCUMENTATION AND EXPERIENCE WITH EVENTS OF SIMILAR CIRCUMSTANCES WERE CONSIDERED; POSSIBLE ROOT CAUSE OF THE REPORTED POOR MECHANICAL CONNECTION EVENT CAN BE ATTRIBUTED, BUT"
+      "narrative": "IT WAS REPORTED THAT THERE WAS POOR MECHANICAL CONNECTION AT THE CONTROLLER POWER PORTS DUE TO A BENT PIN IN THE POWER PORT. THE CON TROLLER WAS EXCHANGED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Material Integrity Problem",
       "reports": 2574,
-      "narrative": "A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR INVESTIGATION COMPLETION. PRODUCT EVENT SUMMARY: THE DRIVELINE CABLE ASSOCIATED WITH (B)(6) WAS NOT RETURNED FOR EVALUATION. REVIEW OF THE MANUFACTURING DOCUMENTATION CONFIRMED THAT THE ASSOCIATED DEVICE MET ALL REQUIREMENTS FOR RELEASE. THERE WAS NO EVIDENCE THAT (B)(6) HAD PREVIOUSLY BEEN SERVICED. ON-SITE INSPECTION OF THE DRIVELINE CABLE REVEALED THAT THE PREVIOUS REPA"
+      "narrative": "IT WAS REPORTED THAT THERE WAS DRIVELINE SHEATH DAMAGE TO AN OLD REPAIR THAT HAD WORN OUT. A DRIVELINE SHEATH REPAIR WAS PERFORMED. THE VENTRICULAR ASSIST DEVICE (VAD) REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Break",
       "reports": 1688,
-      "narrative": "IT WAS REPORTED THAT THE SHOULDER PACK WAS DEFECTIVE/DAMAGED. THE PLASTIC WINDOW WAS DAMAGED AND THERE WAS POTENTIAL FOR THE BATTERY OR CONTROLLER TO FALL OUT. THE SHOULDER PACK REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "IT WAS REPORTED THAT THE ZIPPER ON THE SHOULDER PACK WAS DAMAGED. THE SHOULDER PACK REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 1441,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH PROGRESSED/ENLARGEMENT OF PERIPHERAL THROMBUS WITHIN THE VENTRICULAR ASSIST DEVICE (VAD) OUTFLOW GRAFT WITH PROGRESSED SEVERE STENOSIS. IT WAS REPORTED THAT THERE WAS A PATENT CHANNEL THROUGHOUT THE OUTFLOW GR AFT. THERE WAS A LARGE DEFECT IN THE SUPERIOR ASPECT OF THE GRAFT WITH INCREASED AMOUNT OF HEMORRHAGE AND THROMBUS EXTERNAL TO THE GRAFT WITHIN THE ANTERIO"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS ADMITTED DUE TO THE VENTRICULAR ASSIST DEVICE (VAD) EXHIBITING LOW FLOWS AND POWER AND AN OBSTRUCTION WAS SUSPECTED. A CONTRAST COMPUTERIZED TOMOGRAPHY (CT) SCAN REVEALED AN OUTFLOW GRAFT COMPRESSION. THE PATIENT HAD SURGERY WHERE THE EXTERIOR COMPRESSION OF THE OUTFLOW GRAFT OFG) WAS RELIEVED, AND THE VAD PARAMETERS HAVE RETURNED TO BASELINE. THE VAD AND OFG REMAIN IN USE. NO FUR"
      }
     ]
    },
@@ -497,7 +585,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CO",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -505,7 +593,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Other Service Providers|Specialist",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -524,7 +612,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MA",
+      "state": "IL",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -541,8 +629,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MO",
+      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
+      "state": "FL",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -551,7 +639,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "WI",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",
@@ -593,7 +681,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CO",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -602,7 +690,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Other Service Providers|Specialist",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -623,7 +711,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MA",
+      "state": "IL",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -642,8 +730,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MO",
+      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
+      "state": "FL",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -653,7 +741,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "WI",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",
@@ -762,7 +850,10 @@
     "states": 8,
     "procedureCodes": 6,
     "dataYear": 2023,
-    "topStateServices": 16848
+    "topStateServices": 16848,
+    "counties": 250,
+    "facilities": 375,
+    "topFacilityCity": "New York, NY"
    },
    "payload": {
     "dataYear": 2023,
@@ -839,10 +930,4729 @@
       "services": 30,
       "beneficiaries": 18
      }
+    ],
+    "facilities": [
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 125,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 51
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 109,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 58
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 20
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "260032",
+      "name": "Barnes Jewish Hospital",
+      "city": "Saint Louis",
+      "state": "MO",
+      "countyFips": "29510",
+      "lat": 38.625,
+      "lon": -90.266,
+      "discharges": 108,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 47
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 34
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       }
+      ]
+     },
+     {
+      "ccn": "450044",
+      "name": "Ut Southwestern University Hospital",
+      "city": "Dallas",
+      "state": "TX",
+      "countyFips": "48113",
+      "lat": 32.814,
+      "lon": -96.843,
+      "discharges": 104,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 48
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 30
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 26
+       }
+      ]
+     },
+     {
+      "ccn": "420004",
+      "name": "Musc Medical Center",
+      "city": "Charleston",
+      "state": "SC",
+      "countyFips": "45019",
+      "lat": 32.785,
+      "lon": -79.948,
+      "discharges": 100,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 41
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 28
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 91,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 37
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 88,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 50
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 24
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 87,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 51
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 36
+       }
+      ]
+     },
+     {
+      "ccn": "140281",
+      "name": "Northwestern Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "countyFips": "17031",
+      "lat": 41.895,
+      "lon": -87.615,
+      "discharges": 85,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 31
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "100113",
+      "name": "Uf Health Shands Hospital",
+      "city": "Gainesville",
+      "state": "FL",
+      "countyFips": "12001",
+      "lat": 29.641,
+      "lon": -82.343,
+      "discharges": 81,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 37
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 25
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 77,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 20
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 77,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 46
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "210009",
+      "name": "Johns Hopkins Hospital, The",
+      "city": "Baltimore",
+      "state": "MD",
+      "countyFips": "24510",
+      "lat": 39.299,
+      "lon": -76.588,
+      "discharges": 75,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 24
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "300003",
+      "name": "Mary Hitchcock Memorial Hospital",
+      "city": "Lebanon",
+      "state": "NH",
+      "countyFips": "33009",
+      "lat": 43.926,
+      "lon": -71.842,
+      "discharges": 74,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 49
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 14
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 74,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 39
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       }
+      ]
+     },
+     {
+      "ccn": "340113",
+      "name": "Carolinas Medical Center/Behav Health",
+      "city": "Charlotte",
+      "state": "NC",
+      "countyFips": "37119",
+      "lat": 35.209,
+      "lon": -80.858,
+      "discharges": 71,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 18
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "050696",
+      "name": "Keck Hospital Of Usc",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.05,
+      "lon": -118.212,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 24
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "440039",
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.141,
+      "lon": -86.803,
+      "discharges": 68,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 35
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 22
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 36
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 19
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 51
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 36
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 20
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "340030",
+      "name": "Duke University Hospital",
+      "city": "Durham",
+      "state": "NC",
+      "countyFips": "37063",
+      "lat": 36.025,
+      "lon": -78.982,
+      "discharges": 65,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 35
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "050454",
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "countyFips": "06075",
+      "lat": 37.727,
+      "lon": -123.032,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 17
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "450388",
+      "name": "Methodist Hospital",
+      "city": "San Antonio",
+      "state": "TX",
+      "countyFips": "48029",
+      "lat": 29.506,
+      "lon": -98.577,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 22
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 17
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 13
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 269,
+      "facilities": 5,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "17031",
+      "name": "Cook",
+      "state": "IL",
+      "services": 268,
+      "facilities": 8,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 227,
+      "facilities": 4,
+      "per10k65": 21.8
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 224,
+      "facilities": 7,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 199,
+      "facilities": 6,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 192,
+      "facilities": 4,
+      "per10k65": 1.3
+     },
+     {
+      "fips": "48113",
+      "name": "Dallas",
+      "state": "TX",
+      "services": 172,
+      "facilities": 5,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "18097",
+      "name": "Marion",
+      "state": "IN",
+      "services": 135,
+      "facilities": 4,
+      "per10k65": 10.5
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 129,
+      "facilities": 4,
+      "per10k65": 5.3
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 127,
+      "facilities": 3,
+      "per10k65": 16.9
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 117,
+      "facilities": 2,
+      "per10k65": 13.4
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 114,
+      "facilities": 2,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 111,
+      "facilities": 3,
+      "per10k65": 12.0
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 110,
+      "facilities": 4,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 109,
+      "facilities": 1,
+      "per10k65": 39.8
+     },
+     {
+      "fips": "29510",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 24.2
+     },
+     {
+      "fips": "40109",
+      "name": "Oklahoma",
+      "state": "OK",
+      "services": 108,
+      "facilities": 4,
+      "per10k65": 9.3
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 107,
+      "facilities": 3,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 99,
+      "facilities": 4,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "12001",
+      "name": "Alachua",
+      "state": "FL",
+      "services": 97,
+      "facilities": 2,
+      "per10k65": 22.2
+     },
+     {
+      "fips": "05119",
+      "name": "Pulaski",
+      "state": "AR",
+      "services": 95,
+      "facilities": 3,
+      "per10k65": 14.3
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 10.0
+     },
+     {
+      "fips": "37119",
+      "name": "Mecklenburg",
+      "state": "NC",
+      "services": 84,
+      "facilities": 2,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 84,
+      "facilities": 3,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 82,
+      "facilities": 2,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 79,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 77,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "33009",
+      "name": "Grafton",
+      "state": "NH",
+      "services": 74,
+      "facilities": 1,
+      "per10k65": 35.0
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 72,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "12057",
+      "name": "Hillsborough",
+      "state": "FL",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "34003",
+      "name": "Bergen",
+      "state": "NJ",
+      "services": 67,
+      "facilities": 2,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 66,
+      "facilities": 2,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 66,
+      "facilities": 3,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 65,
+      "facilities": 1,
+      "per10k65": 13.5
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 64,
+      "facilities": 2,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 64,
+      "facilities": 2,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "17043",
+      "name": "DuPage",
+      "state": "IL",
+      "services": 62,
+      "facilities": 4,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 61,
+      "facilities": 2,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "37067",
+      "name": "Forsyth",
+      "state": "NC",
+      "services": 61,
+      "facilities": 2,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "01073",
+      "name": "Jefferson",
+      "state": "AL",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 59,
+      "facilities": 2,
+      "per10k65": 4.3
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 57,
+      "facilities": 2,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 56,
+      "facilities": 1,
+      "per10k65": 18.4
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 55,
+      "facilities": 1,
+      "per10k65": 3.9
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 55,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "29095",
+      "name": "Jackson",
+      "state": "MO",
+      "services": 55,
+      "facilities": 2,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "21111",
+      "name": "Jefferson",
+      "state": "KY",
+      "services": 55,
+      "facilities": 3,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "20173",
+      "name": "Sedgwick",
+      "state": "KS",
+      "services": 54,
+      "facilities": 2,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "19153",
+      "name": "Polk",
+      "state": "IA",
+      "services": 53,
+      "facilities": 2,
+      "per10k65": 7.5
+     },
+     {
+      "fips": "39113",
+      "name": "Montgomery",
+      "state": "OH",
+      "services": 52,
+      "facilities": 2,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "39095",
+      "name": "Lucas",
+      "state": "OH",
+      "services": 52,
+      "facilities": 2,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 51,
+      "facilities": 2,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 50,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "46083",
+      "name": "Lincoln",
+      "state": "SD",
+      "services": 49,
+      "facilities": 1,
+      "per10k65": 47.3
+     },
+     {
+      "fips": "12033",
+      "name": "Escambia",
+      "state": "FL",
+      "services": 49,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 49,
+      "facilities": 3,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 48,
+      "facilities": 2,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 47,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "49035",
+      "name": "Salt Lake",
+      "state": "UT",
+      "services": 47,
+      "facilities": 2,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 47,
+      "facilities": 2,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 46,
+      "facilities": 2,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "29189",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 46,
+      "facilities": 3,
+      "per10k65": 2.4
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 45,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "37135",
+      "name": "Orange",
+      "state": "NC",
+      "services": 44,
+      "facilities": 1,
+      "per10k65": 18.3
+     },
+     {
+      "fips": "12127",
+      "name": "Volusia",
+      "state": "FL",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "22055",
+      "name": "Lafayette",
+      "state": "LA",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 12.1
+     },
+     {
+      "fips": "42091",
+      "name": "Montgomery",
+      "state": "PA",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "47065",
+      "name": "Hamilton",
+      "state": "TN",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "36055",
+      "name": "Monroe",
+      "state": "NY",
+      "services": 43,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 16.2
+     },
+     {
+      "fips": "13089",
+      "name": "DeKalb",
+      "state": "GA",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 18.8
+     },
+     {
+      "fips": "29019",
+      "name": "Boone",
+      "state": "MO",
+      "services": 42,
+      "facilities": 2,
+      "per10k65": 16.6
+     },
+     {
+      "fips": "40143",
+      "name": "Tulsa",
+      "state": "OK",
+      "services": 41,
+      "facilities": 2,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "04019",
+      "name": "Pima",
+      "state": "AZ",
+      "services": 38,
+      "facilities": 2,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "42077",
+      "name": "Lehigh",
+      "state": "PA",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 21.2
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 36,
+      "facilities": 1,
+      "per10k65": 14.0
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 36,
+      "facilities": 2,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "42133",
+      "name": "York",
+      "state": "PA",
+      "services": 35,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "05125",
+      "name": "Saline",
+      "state": "AR",
+      "services": 35,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "53067",
+      "name": "Thurston",
+      "state": "WA",
+      "services": 34,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 34,
+      "facilities": 2,
+      "per10k65": 5.8
+     },
+     {
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
+      "services": 33,
+      "facilities": 1,
+      "per10k65": 9.8
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 32,
+      "facilities": 2,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 13.1
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "48439",
+      "name": "Tarrant",
+      "state": "TX",
+      "services": 30,
+      "facilities": 2,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "05005",
+      "name": "Baxter",
+      "state": "AR",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 29,
+      "facilities": 2,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 2.6
+     },
+     {
+      "fips": "26125",
+      "name": "Oakland",
+      "state": "MI",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "51760",
+      "name": "Richmond",
+      "state": "VA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "12011",
+      "name": "Broward",
+      "state": "FL",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 19.8
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 55.7
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 11.9
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "06001",
+      "name": "Alameda",
+      "state": "CA",
+      "services": 25,
+      "facilities": 2,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 11.5
+     },
+     {
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 24,
+      "facilities": 2,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 23,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "27137",
+      "name": "St. Louis",
+      "state": "MN",
+      "services": 23,
+      "facilities": 1,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "08041",
+      "name": "El Paso",
+      "state": "CO",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 2.1
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 22,
+      "facilities": 2,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "20177",
+      "name": "Shawnee",
+      "state": "KS",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "51680",
+      "name": "Lynchburg",
+      "state": "VA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 17.6
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "55035",
+      "name": "Eau Claire",
+      "state": "WI",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 11.0
+     },
+     {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "01089",
+      "name": "Madison",
+      "state": "AL",
+      "services": 19,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "42069",
+      "name": "Lackawanna",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "55079",
+      "name": "Milwaukee",
+      "state": "WI",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.3
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "39119",
+      "name": "Muskingum",
+      "state": "OH",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 10.6
+     },
+     {
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "51085",
+      "name": "Hanover",
+      "state": "VA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 6.6
+     },
+     {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 40.6
+     },
+     {
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "36087",
+      "name": "Rockland",
+      "state": "NY",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "45007",
+      "name": "Anderson",
+      "state": "SC",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 5.1
+     },
+     {
+      "fips": "41017",
+      "name": "Deschutes",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 26.2
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "36113",
+      "name": "Warren",
+      "state": "NY",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 9.4
+     },
+     {
+      "fips": "37049",
+      "name": "Craven",
+      "state": "NC",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "12111",
+      "name": "St. Lucie",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "17077",
+      "name": "Jackson",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 17.1
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "29047",
+      "name": "Clay",
+      "state": "MO",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "25021",
+      "name": "Norfolk",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "55141",
+      "name": "Wood",
+      "state": "WI",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "01077",
+      "name": "Lauderdale",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "19193",
+      "name": "Woodbury",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "55063",
+      "name": "La Crosse",
+      "state": "WI",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "36085",
+      "name": "Richmond",
+      "state": "NY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "19163",
+      "name": "Scott",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.6
+     },
+     {
+      "fips": "21145",
+      "name": "McCracken",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 10.1
+     },
+     {
+      "fips": "24025",
+      "name": "Harford",
+      "state": "MD",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "05031",
+      "name": "Craighead",
+      "state": "AR",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "06023",
+      "name": "Humboldt",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "56025",
+      "name": "Natrona",
+      "state": "WY",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "47113",
+      "name": "Madison",
+      "state": "TN",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.3
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "06077",
+      "name": "San Joaquin",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "48183",
+      "name": "Gregg",
+      "state": "TX",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "47179",
+      "name": "Washington",
+      "state": "TN",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "29021",
+      "name": "Buchanan",
+      "state": "MO",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "24001",
+      "name": "Allegany",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "06079",
+      "name": "San Luis Obispo",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "48485",
+      "name": "Wichita",
+      "state": "TX",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "19061",
+      "name": "Dubuque",
+      "state": "IA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.3
+     },
+     {
+      "fips": "05007",
+      "name": "Benton",
+      "state": "AR",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "18167",
+      "name": "Vigo",
+      "state": "IN",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.5
+     },
+     {
+      "fips": "24021",
+      "name": "Frederick",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "28059",
+      "name": "Jackson",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "06097",
+      "name": "Sonoma",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 11.2
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "13051",
+      "name": "Chatham",
+      "state": "GA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "12085",
+      "name": "Martin",
+      "state": "FL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.1
+     },
+     {
+      "fips": "06065",
+      "name": "Riverside",
+      "state": "CA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "49049",
+      "name": "Utah",
+      "state": "UT",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "05131",
+      "name": "Sebastian",
+      "state": "AR",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "12073",
+      "name": "Leon",
+      "state": "FL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.5
+     },
+     {
+      "fips": "10001",
+      "name": "Kent",
+      "state": "DE",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "06099",
+      "name": "Stanislaus",
+      "state": "CA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "45013",
+      "name": "Beaufort",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.4
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "48037",
+      "name": "Bowie",
+      "state": "TX",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "01069",
+      "name": "Houston",
+      "state": "AL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 5.4
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": null
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "CA",
+       "physicians": 615,
+       "totalUsd": 673678.94
+      },
+      {
+       "state": "WA",
+       "physicians": 98,
+       "totalUsd": 340136.06
+      },
+      {
+       "state": "IL",
+       "physicians": 240,
+       "totalUsd": 338245.13
+      },
+      {
+       "state": "PA",
+       "physicians": 214,
+       "totalUsd": 331927.66
+      },
+      {
+       "state": "FL",
+       "physicians": 247,
+       "totalUsd": 316358.91
+      },
+      {
+       "state": "NY",
+       "physicians": 174,
+       "totalUsd": 255825.28
+      },
+      {
+       "state": "TX",
+       "physicians": 451,
+       "totalUsd": 244149.26
+      },
+      {
+       "state": "MD",
+       "physicians": 84,
+       "totalUsd": 234537.54
+      },
+      {
+       "state": "MA",
+       "physicians": 111,
+       "totalUsd": 223099.53
+      },
+      {
+       "state": "DC",
+       "physicians": 38,
+       "totalUsd": 198970.17
+      },
+      {
+       "state": "VA",
+       "physicians": 163,
+       "totalUsd": 198603.62
+      },
+      {
+       "state": "IN",
+       "physicians": 95,
+       "totalUsd": 171623.7
+      },
+      {
+       "state": "MI",
+       "physicians": 116,
+       "totalUsd": 151567.29
+      },
+      {
+       "state": "MO",
+       "physicians": 93,
+       "totalUsd": 145800.52
+      },
+      {
+       "state": "NC",
+       "physicians": 129,
+       "totalUsd": 136809.43
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Tufts Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 7
+     },
+     {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 5
+     },
+     {
+      "name": "IU Health Methodist",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 5
+     },
+     {
+      "name": "Milton S. Hershey Medical Center",
+      "city": "Hershey",
+      "state": "Pennsylvania",
+      "lat": 40.286,
+      "lon": -76.65,
+      "trials": 5
+     },
+     {
+      "name": "Northwestern Memorial Hospital",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 5
+     },
+     {
+      "name": "University of Michigan Hospital",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 5
+     },
+     {
+      "name": "University of Washington Medical Center",
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 47.606,
+      "lon": -122.332,
+      "trials": 5
+     },
+     {
+      "name": "Washington Hospital Center",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "lat": 38.895,
+      "lon": -77.036,
+      "trials": 5
+     },
+     {
+      "name": "Advocate Christ Medical Center",
+      "city": "Oak Lawn",
+      "state": "Illinois",
+      "lat": 41.711,
+      "lon": -87.758,
+      "trials": 4
+     },
+     {
+      "name": "Henry Ford Hospital",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 4
+     },
+     {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 4
+     },
+     {
+      "name": "John Ochsner Heart & Vascular Institute",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "lat": 29.955,
+      "lon": -90.075,
+      "trials": 4
+     },
+     {
+      "name": "Montefiore Medical Center",
+      "city": "The Bronx",
+      "state": "New York",
+      "lat": 40.85,
+      "lon": -73.866,
+      "trials": 4
+     },
+     {
+      "name": "Ohio State University Medical Center",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
+      "trials": 4
+     },
+     {
+      "name": "Stanford University School of Medicine",
+      "city": "Stanford",
+      "state": "California",
+      "lat": 37.424,
+      "lon": -122.166,
+      "trials": 4
+     },
+     {
+      "name": "Texas Heart Institute",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 4
+     },
+     {
+      "name": "University of Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 4
+     },
+     {
+      "name": "University of Minnesota",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 4
+     },
+     {
+      "name": "University of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "lat": 40.761,
+      "lon": -111.891,
+      "trials": 4
+     },
+     {
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.166,
+      "lon": -86.784,
+      "trials": 4
+     },
+     {
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "Virginia",
+      "lat": 38.882,
+      "lon": -77.171,
+      "trials": 3
+     },
+     {
+      "name": "Intermountain Medical Center",
+      "city": "Murray",
+      "state": "Utah",
+      "lat": 40.667,
+      "lon": -111.888,
+      "trials": 3
+     },
+     {
+      "name": "Jewish Hospital - Rudd Heart and Lung Institute",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.254,
+      "lon": -85.759,
+      "trials": 3
+     },
+     {
+      "name": "Northwest Cardiothoracic &Transplant Surgeons",
+      "city": "Spokane",
+      "state": "Washington",
+      "lat": 47.66,
+      "lon": -117.429,
+      "trials": 3
+     },
+     {
+      "name": "Tampa Transplant Institute/Tampa General Hospital",
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 27.948,
+      "lon": -82.458,
+      "trials": 3
+     },
+     {
+      "name": "The Emory Clinic Inc.",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 3
+     },
+     {
+      "name": "The Methodist Hospital",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 3
+     },
+     {
+      "name": "University of Miami / Jackson Memorial Hospital",
+      "city": "Miami",
+      "state": "Florida",
+      "lat": 25.774,
+      "lon": -80.194,
+      "trials": 3
+     },
+     {
+      "name": "Washington University / Barnes Jewish Hospital",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
+      "trials": 3
+     },
+     {
+      "name": "Abbott Northwestern",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 2
+     },
+     {
+      "name": "AdventHealth",
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.538,
+      "lon": -81.379,
+      "trials": 2
+     },
+     {
+      "name": "Aurora St. Luke's Medical Center",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 2
+     },
+     {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 2
+     },
+     {
+      "name": "Baylor University Medical Center",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic Foundatiojn",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Columbia University",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Henry Ford Health System",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 2
+     },
+     {
+      "name": "Houston Methodist Hospital",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 2
+     },
+     {
+      "name": "Jewish Hospital",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.254,
+      "lon": -85.759,
+      "trials": 2
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 306,
+     "usSites": 261,
+     "trials": 11,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 12,
+    "trialsWithAeTables": 7,
+    "seriousEventRows": 157,
+    "seriousSubjectsAffected": 4670,
+    "deathTermSubjects": 0,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 12,
+    "trialsWithAeTables": 7,
+    "trialsWithSerious": 7,
+    "totals": {
+     "serious": {
+      "rows": 157,
+      "subjects": 4670
+     },
+     "other": {
+      "rows": 45,
+      "subjects": 743
+     },
+     "deathTermSubjects": 0
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Other Intermacs",
+      "organSystem": "General disorders",
+      "rows": 6,
+      "subjectsAffected": 768
+     },
+     {
+      "term": "Major Bleeding",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 8,
+      "subjectsAffected": 626
+     },
+     {
+      "term": "Major Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 6,
+      "subjectsAffected": 539
+     },
+     {
+      "term": "Cardiac Arrhythmia",
+      "organSystem": "Cardiac disorders",
+      "rows": 8,
+      "subjectsAffected": 402
+     },
+     {
+      "term": "Right Heart Failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 7,
+      "subjectsAffected": 373
+     },
+     {
+      "term": "Neurological Dysfunction",
+      "organSystem": "Nervous system disorders",
+      "rows": 7,
+      "subjectsAffected": 285
+     },
+     {
+      "term": "Respiratory Failure",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 8,
+      "subjectsAffected": 259
+     },
+     {
+      "term": "Renal Dysfunction",
+      "organSystem": "Renal and urinary disorders",
+      "rows": 8,
+      "subjectsAffected": 167
+     },
+     {
+      "term": "Device Malfunction",
+      "organSystem": "Product Issues",
+      "rows": 3,
+      "subjectsAffected": 134
+     },
+     {
+      "term": "Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 2,
+      "subjectsAffected": 125
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT01166347",
+      "title": "The HeartWare\u2122 Ventricular Assist System as Destination Therapy of Advanced Heart Failure: the ENDURANCE Trial",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 36,
+      "seriousSubjects": 1745
+     },
+     {
+      "nctId": "NCT01966458",
+      "title": "A Clinical Trial to Evaluate the HeartWare\u2122 Ventricular Assist System (ENDURANCE SUPPLEMENTAL TRIAL)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2013",
+      "seriousRows": 36,
+      "seriousSubjects": 1579
+     },
+     {
+      "nctId": "NCT02268942",
+      "title": "HW006 LATERAL Thoracotomy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2014",
+      "seriousRows": 17,
+      "seriousSubjects": 433
+     },
+     {
+      "nctId": "NCT03697980",
+      "title": "Apogee, A HeartWare HVAD Destination Product Surveillance Registry (PSR) Platform",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2019",
+      "seriousRows": 18,
+      "seriousSubjects": 368
+     },
+     {
+      "nctId": "NCT00751972",
+      "title": "Evaluation of the HeartWare Left Ventricular Assist Device for the Treatment of Advanced Heart Failure",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2008",
+      "seriousRows": 21,
+      "seriousSubjects": 322
+     },
+     {
+      "nctId": "NCT01832610",
+      "title": "Post- Approval Study on Patients Who Received a HeartWare HVAD\u00ae During IDE Trials",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2013",
+      "seriousRows": 18,
+      "seriousSubjects": 194
+     },
+     {
+      "nctId": "NCT01831544",
+      "title": "A Clinical Trial to Evaluate the HeartWare MVAD\u00ae System (MVAdvantage)",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2015",
+      "seriousRows": 11,
+      "seriousSubjects": 29
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 297,
+    "countries": 24,
+    "sources": 6,
+    "firstForeignDate": "2010-05-26",
+    "latestAction": {
+     "country": "Australia",
+     "date": "2026-02-11",
+     "classification": "Class II"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 51,
+      "actions": [
+       {
+        "date": "2026-02-11",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "HVAD Controller used in combination with HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2025-01-07",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2024-04-02",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-11-01",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-09-01",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-08-24",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class I",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-06-01",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2022-12-14",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class I",
+        "product": "HeartWare Ventricular Assist Device (HVAD) System",
+        "reason": "Action level: Hospital",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 42,
+      "actions": [
+       {
+        "date": "2025-01-15",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Monitor 1521XX-Y",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2023-11-07",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System (HVAD) 1104, MCS1705PU",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-12-01",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System 1104, MCS1705PU",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-07-05",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System 1650DE",
+        "reason": "New action",
+        "url": null
+       },
+       {
+        "date": "2022-05-12",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System, HeartWare Battery 1650DE",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-05-04",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System MCS1705PU, 1104",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-02-15",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System (HVAD) Controller AC Adapter: 1425, 1430; Controller DC Adapter: 1440; Battery: 1650DE",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2021-08-17",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System - HVAD Pump Implant Kit 1102, 1104, 1205, MCS1705PU",
+        "reason": "Added new language",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 35,
+      "actions": [
+       {
+        "date": "2023-06-02",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - HeartWare Battery 1650DE",
+        "reason": "The manufacturer is informing customers that the change to the battery configuration mode to mitigate the battery electrical fault issue has been implemented, and the manufacturer will begin exchanging all batteries for the new batteries with the mode change. As described in the July 2022 letter, ba",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29614"
+       },
+       {
+        "date": "2022-12-14",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - HeartWare Battery HeartWare&trade; Ventricular Assist Device (HVAD&trade;) System",
+        "reason": "The manufacturer has identified that over time, the driveline cover of the Medtronic of the HVAD System may become hardened, creating difficulty or an inability to slide the cover back to access the driveline connector. Access to the driveline connector may be delayed, which may result in patient ha",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=30307"
+       },
+       {
+        "date": "2022-09-14",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - Ventricular Assist System (HVAD) 1425, 1430, 1440, 1650DE, 1575, 1521AU, 1400.1401.1403, 1407.",
+        "reason": "The manufacturer has redesigned the connector of the HVAD Controller power sources and monitor data cables using a new internal connector plug material intended to reduce the risk of damage caused by wear of the cable connectors. Over time, repeated misalignment when the power and data cables are in",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29964"
+       },
+       {
+        "date": "2022-06-15",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Healthcare Professional",
+        "product": "Heartware - Ventricular Assist System (HVAD) Controller AC Adapter - model - 1425, 1430. Controller DC Adapter - model -1440. Battery - model - 1650DE. Alarm Adapter - model 1450. Monitor Data Cable - model 1575. Control",
+        "reason": "The manufacturer is issuing a global communication announcing the decision to stop the distribution and sale of the HeartWare Ventricular Assist Device (HVAD)&trade; System. Clinical comparisons demonstrate a higher frequency of neurological adverse events and mortality with the HVAD System as compa",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27820"
+       },
+       {
+        "date": "2022-05-05",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - HeartWare Battery 1650DE",
+        "reason": "The manufactuere has identified that the single lot of batteries serial numbers of the affected batteries are (BAT934853, BAT934854, BAT934858). have multiple occurrences of a welding defect affecting internal components within the HVAD Battery. If present, the welding defect may:\n&quot; cause the b",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29345"
+       },
+       {
+        "date": "2022-04-04",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "Heartware - Ventricular Assist System (HVAD) PUMP 1104 HVAD 2.0 IMPLANT KIT EN - model number 1104",
+        "reason": "The manufacturer has received complaints regarding inconsistencies in the product literature resulting in no patient harm. Potential harms from these inconsistencies can result in confusion and annoyance.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29211"
+       },
+       {
+        "date": "2022-01-31",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - Ventricular Assist System (HVAD)",
+        "reason": "The manufacturer is updating the cleaning instructions for the Controller AC Adapter, DC Adapter, and Battery. While performing a review of the IFU and PM it was identified that additional clarity was required around cleaning the Power Source Connectors (Controller AC Adapter, DC Adapter, and Batter",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=28910"
+       },
+       {
+        "date": "2021-02-26",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heartware - Ventricular Assist System (HVAD) Controller AC Adapter 1425, 1430 - Controller DC Adapter 1440 - Battery 1650DE - Alarm Adapter 1450 - Monitor Data Cable 1575 -Controller 1400, 1401, 1403, 1407",
+        "reason": "The manufacturer is informing users of an upcoming updates to the HVAD&trade; System Instructions for Use (IFU) and Patient Manual (PM). These updates will (1) provide new information relating to the useful life of the HVAD&trade; System carrying cases (Waist Pack, Shoulder Pack, and Convertible Pat",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27353"
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 31,
+      "actions": [
+       {
+        "date": "2025-01-16",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Heartware Ventricular Assist System - Heartware Monitor \u00b7 Heartware Ventricular Assist System - Heartware Monitor",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system-heartware-monitor"
+       },
+       {
+        "date": "2022-12-16",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Heartware Ventricular Assist System - HVAD Implant Kit \u00b7 Heartware Ventricular Assist System - HVAD Implant Kit",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system-hvad-implant-kit-0"
+       },
+       {
+        "date": "2022-07-04",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Heartware Ventricular Assist System \u2013 Heartware Battery \u00b7 Heartware Ventricular Assist System \u2013 Heartware Battery",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system-heartware-battery"
+       },
+       {
+        "date": "2022-02-14",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Heartware Ventricular Assist System \u00b7 Heartware Ventricular Assist System",
+        "reason": "Revised instructions for use",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system"
+       },
+       {
+        "date": "2021-08-27",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Medtronic HeartWare Ventricular Assist Device (HVAD) System/licence (2021-08-11)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/medtronic-heartware-ventricular-assist-device-hvad-systemlicence-2021-08-11"
+       },
+       {
+        "date": "2021-06-25",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": null,
+        "product": "Medtronic Heartware Ventricular Assist Device System - Recall Due to Risk of Neurological Adverse Events, Mortality and Delay or Failure to Restart",
+        "reason": "Medical devices - Product safety",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/medtronic-heartware-ventricular-assist-device-system-recall-due-risk-neurological"
+       },
+       {
+        "date": "2021-06-09",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "HEARTWARE VENTRICULAR ASSIST SYSTEM - HVAD IMPLANT KIT (2021-06-03)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system-hvad-implant-kit-2021-06-03"
+       },
+       {
+        "date": "2021-03-25",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "HEARTWARE VENTRICULAR ASSIST SYSTEM (2021-03-04)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartware-ventricular-assist-system-2021-03-04"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 29,
+      "actions": [
+       {
+        "date": "2025-01-14",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 6 to 10 January 2025",
+        "reason": "List of Field Safety Notices from 6 to 10 January 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-6-to-10-january-2025"
+       },
+       {
+        "date": "2023-06-06",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices (FSNs) from 29 May to 2 June 2023",
+        "reason": "List of Field Safety Notices (FSNs) from 29 May to 2 June 2023",
+        "url": "https://www.gov.uk/drug-device-alerts/list-of-field-safety-notices-fsns-from-29-may-to-2-june-2023"
+       },
+       {
+        "date": "2022-08-29",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 22 to 26 August 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 22 to 26 August 2022",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-22-to-26-august-2022"
+       },
+       {
+        "date": "2022-08-01",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 25 to 29 July 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 25 to 29 July 2022.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-25-to-29-july-2022"
+       },
+       {
+        "date": "2022-07-11",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 4 to 8 July 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 4 to 8 July 2022.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-4-to-8-july-2022"
+       },
+       {
+        "date": "2022-05-24",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 16 to 20 May 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 16 to 20 May 2022.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-16-to-20-may-2022"
+       },
+       {
+        "date": "2021-12-24",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 20 to 24 December 2021",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from  20 to 24 December 2021",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-20-to-24-december-2021"
+       },
+       {
+        "date": "2021-08-23",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 16 to 20 August 2021",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 16 to 20 August",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-16-to-20-august-2021"
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 17,
+      "actions": [
+       {
+        "date": "2018-09-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Urgent Field Safety Notice for HeartWare Ventricular Assist System by Heartware Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2018/11063-18_kundeninfo_en.html"
+       },
+       {
+        "date": "2018-06-18",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Urgent Field Safety Notice for HeartWare Ventricular Assist System by Heartware Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2018/05569-18_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-07-31",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Urgent Field Safety Notice for HeartWare Ventricular Assist System by Heartware Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/3084-15_kundeninfo_en.html"
+       },
+       {
+        "date": "2017-05-15",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Urgent Field Safety Notice for HeartWare Ventricular Assist System by Heartware Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/03084_15_kundeninfo_EN.html"
+       },
+       {
+        "date": "2017-03-14",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare ventricular assist device (HVAD) system",
+        "reason": "Urgent field safety notice for HeartWare ventricular assist device (HVAD) system, Medtronic",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/01987-17_Kundeninfo_en.html"
+       },
+       {
+        "date": "2017-01-05",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "all HeartWare\u00ae HVAD Systems",
+        "reason": "Urgent Safety Notice for all HeartWare\u00ae HVAD Systems, HeartWare Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2015/03110-15_kundeninfo_en.html"
+       },
+       {
+        "date": "2016-08-18",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HVAD pumps",
+        "reason": "Recall of HVAD pumps, HeartWare",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2016/07071-16_kundeninfo_en.html"
+       },
+       {
+        "date": "2016-06-24",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Controller",
+        "reason": "Urgent field safety notice for Controller, HeartWare",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2016/04427-16_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "LBN",
+      "name": "LBN",
+      "total": 16,
+      "actions": [
+       {
+        "date": "2018-06-13",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare\u2122 HVAD\u2122 System",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202018/13-6-2018/HeartWareHVADSystem.pdf"
+       },
+       {
+        "date": "2018-06-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare HVAD System",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202018/5-6-2018/HeartWareHVADSystem.pdf"
+       },
+       {
+        "date": "2018-05-15",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare\u2122 HVAD\u2122 System",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202018/15-5-2018/HeartWareHVADSystem.pdf"
+       },
+       {
+        "date": "2017-05-09",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "heartware ventricular assisst system pump driveline splice kit",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/9-5-2017/heartwareventricularassisstsystempumpdrivelinesplicekit.pdf"
+       },
+       {
+        "date": "2017-05-09",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "heartware ventricular assist device controllers",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/9-5-2017/heartwareventricularassistdevicecontrollers.pdf"
+       },
+       {
+        "date": "2016-08-30",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare\u00ae HVAD Pumps in Inventory",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202016/30-8-2016/HeartWare.pdf"
+       },
+       {
+        "date": "2016-06-26",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Heartware verticular assist device",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202016/26-6-2016/heartwareverticularassistdevice.pdf"
+       },
+       {
+        "date": "2016-05-17",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare HVAD system",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202016/17-5-2016/HeartWareHVAD.pdf"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 11,
+      "actions": [
+       {
+        "date": "2018-08-31",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare HVAD System Controller/ Controller Kits",
+        "reason": "Medical Device Safety Alert: Medtronic HeartWare HVAD System Controller/ Controller Kits\nMedical device manufacturer, HeartWare (a part of Medtronic), has issued a medical device safety alert concerning its HeartWare HVAD System Controller/ Controller Kits [Model Numbers: 1403, 1407, 1420; Serial Nu",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20180831.html"
+       },
+       {
+        "date": "2018-05-04",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare HVAD Systems",
+        "reason": "Medical Device Safety Alert: Medtronic HeartWare HVAD Systems\nMedical device manufacturer, HeartWare (now a part of Medtronic), has issued a medical device safety alert concerning its HVAD Systems. The affected devices are identified as the following: -\n\n\tController/ Controller Kits (Model Number: 1",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20180504.html"
+       },
+       {
+        "date": "2016-08-12",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare HVAD Pumps",
+        "reason": "Medical Device Safety Alert: HeartWare HVAD Pumps\nMedical device manufacturer, HeartWare Incorporation, has issued a medical device safety alert concerning its HVAD Pumps. The affected devices are identified as follows:-\n\nModel number: 1104GB\nSerial number: Sterile, un-implanted stock in inventory w",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_201608012b.html"
+       },
+       {
+        "date": "2015-12-28",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare HVAD Controller AC Adapter and HeartWare HVAD Battery",
+        "reason": "Medical Device Safety Alert: HeartWare HVAD Controller AC Adapter and HeartWare HVAD Battery\nThe Therapeutic Goods Administration (TGA) of Australia has posted a medical device safety alert concerning HeartWare HVAD Controller AC Adapter and HeartWare HVAD Battery manufactured by HeartWare Inc. The ",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20151228a.html"
+       },
+       {
+        "date": "2015-08-06",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartMate II and HeartWare HVAD",
+        "reason": "Medical Device Safety Alert: Implantable Left Ventricular Assist Devices\nThe United States Food and Drug Administration (FDA) has issued a medical device safety alert concerning two Implantable Left Ventricular Assist Devices (LVADs). The affected devices are as follow:-\nFDA is alerting health care ",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150806.html"
+       },
+       {
+        "date": "2015-06-17",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Medical Device Safety Alert: HeartWare Ventricular Assist System\nThe United States Food and Drug Administration (FDA) has issued medical device safety alerts concerning HeartWare Ventricular Assist System (VAS), manufactured by HeartWare. The affected devices are identified as follow:- \n\t\t\nProduct C",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150617.html"
+       },
+       {
+        "date": "2015-05-21",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System Pump Driveline Splice Kit",
+        "reason": "Medical Device Safety Alert: HeartWare Ventricular Assist System Pump Driveline Splice Kit\nThe United States Food and Drug Administration (FDA) has issued a medical device safety alert concerning HeartWare Ventricular Assist System (HVAD) Pump Driveline Splice Kit.  The affected devices are identifi",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150521.html"
+       },
+       {
+        "date": "2014-05-08",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System Batteries",
+        "reason": "Medical Device Safety Alert: HeartWare Ventricular Assist System Batteries\nThe Australia Therapeutic Goods Administration (TGA) posted a medical device safety alert concerning HeartWare Ventricular Assist System batteries manufactured by HeartWare Inc. The affected product code is 1650. All HeartWar",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20140508.html"
+       }
+      ]
+     },
+     {
+      "code": "DK",
+      "name": "Denmark",
+      "total": 9,
+      "actions": [
+       {
+        "date": "2018-11-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System Battery Charger",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2018/11/medtronic-heartware-hvad-system-battery-charger/"
+       },
+       {
+        "date": "2018-05-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2018/05/medtronic-heartware-hvad-system/"
+       },
+       {
+        "date": "2016-08-24",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD Pumps in Inventory",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2016/08/heartware-hvad-pumps-in-inventory/"
+       },
+       {
+        "date": "2016-06-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2016/06/heartware-ventricular-assist-system/"
+       },
+       {
+        "date": "2016-01-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System (HVAD)",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2016/01/heartware-ventricular-assist-system-hvad/"
+       },
+       {
+        "date": "2015-05-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD System",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2015/05/heartware-hvad-system/"
+       },
+       {
+        "date": "2014-05-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Battery",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2014/sikkerhedsmeddelelse-om-heartware-battery/"
+       },
+       {
+        "date": "2014-01-04",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware\u00ae ventricular assist system",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2014/heartware-ventrikulaert-assist-system/"
+       }
+      ]
+     },
+     {
+      "code": "ES",
+      "name": "Spain",
+      "total": 8,
+      "actions": [
+       {
+        "date": "2017-03-13",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Drivers HVAD (HeartWare Ventricular Assist System), with serial number less than CON30000 and HeartWare CC Adapters, product code 1435, all serial numbers",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-09-06",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HeartWare\u00ae Model 1104 Ventricular Assist System (HVAD), with serial numbers prior to HW25838.",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-06-17",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HeartWare\u00ae Ventricular Assist Systems, model 1407XX, manufactured since September 2014 by HeartWare Inc.",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-02-03",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HVAD HeartWare\u00ae ventricular assist systems",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HVAD HeartWare\u00ae ventricular assist system",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2014-08-28",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HeartWare\u00ae Ventricular Assist System Batteries, product codes 1650 and 1650-DE, serial number ranges: BAT000001 to BAT039999 and BAT090000 to BAT099999.",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2014-06-23",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "HeartWare\u00ae ventricular assist systems, product codes 1650 and 1650-DE",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2014-02-05",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "\"HeartWare\u00ae ventricular assist system\"",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 8,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD pump",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--HeartWare-HVAD-pumpar--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Ventricular Assist System Controller",
+        "reason": "Other",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2013/Aktiva-implantat--Heartware-Ventricular-Assist-System-Controller--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Controllers",
+        "reason": "Follow-up patient",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--Heartware-Controllers--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD-system",
+        "reason": "Upgrade software",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Aktiva-implantat--HeartWare-HVAD-system--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD controller, the AC adapter and the battery",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Medicinsk-elektriskmekanisk-utrustning--HeartWare-HVAD-styrenhet-vaxelstromsadapter-och-batteri--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare-battery",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--HeartWare-batteri--HeartWare-Inc1/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare-battery",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--HeartWare-batteri--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD-system",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--HeartWare-HVAD-system--Medtronic/#"
+       }
+      ]
+     },
+     {
+      "code": "BE",
+      "name": "Belgium",
+      "total": 7,
+      "actions": [
+       {
+        "date": "2017-03-01",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "All HeartWare HVAD System Controllers with serial number(s) lower than CON300000 and all HeartWare Adapter 1435",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": "2016-08-19",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware HVAD pumps",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": "2016-06-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware controllers",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": "2016-01-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware HVAD controllers",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": "2014-05-16",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD System",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware controllers",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2018-06-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "medtronic heartware \u2122 hvad \u2122 system",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=8078"
+       },
+       {
+        "date": "2017-03-02",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware ventricular assist system",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7234"
+       },
+       {
+        "date": "2016-06-17",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "hvad model heartware ventricular assist system",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=6725"
+       },
+       {
+        "date": "2016-01-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "controller hvad heartware",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=6304"
+       },
+       {
+        "date": "2014-05-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "hvad model heartware ventricular assist system",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=3538"
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2018-05-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2017-04-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2016-06-28",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2016-01-25",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2016-01-22",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2018-02-28",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware hvad system drivers with serial numbers lower than con300000",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-fsca-jan2017-firmy-heartware-dotycz%C4%85ca-wycofania-z-obrotu-i-z-u%C5%BCywania"
+       },
+       {
+        "date": "2017-03-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware chamber assist system  driver",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-medtronic-dotycz%C4%85ca-zaktualizowania-sterownika-systemu-wspomagania"
+       },
+       {
+        "date": "2015-01-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware heart chambers  with serial numbers from con000001 to con005472",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-heartware-dotycz%C4%85ca-wycofania-starszej-wersji-sterownik%C3%B3w-do-systemu"
+       },
+       {
+        "date": "2014-05-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "batteries in heartware chamber support systems",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-heartware-dotycz%C4%85ca-baterii-w-systemach-wspomagania-pracy-kom%C3%B3r"
+       },
+       {
+        "date": "2013-12-31",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartware chamber support system catalog nos. 1100, 1101, 1102, 1103, 1104 and 1205",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-heartware-dotycz%C4%85ca-systemu-wspomagania-pracy-kom%C3%B3r-heartware-nr"
+       }
+      ]
+     },
+     {
+      "code": "SG",
+      "name": "Singapore",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2018-05-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare\u2122 Ventricular Assist Device (HVAD)\u2122 System",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2018-04-05",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Left Ventricular Assist Device",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2015-05-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare\u00ae Ventricular Assist System (HVAD)",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2015-01-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Ventricular Assist System",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       }
+      ]
+     },
+     {
+      "code": "FI",
+      "name": "Finland",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-03-07",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-08-26",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Device failure / Feature Before Use - Design",
+        "url": null
+       },
+       {
+        "date": "2016-01-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "Device failure / feature after commissioning - Electronic failure",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "NL",
+      "name": "Netherlands",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-08-31",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System",
+        "reason": "The products in the range mentioned may not meet the described standard for protection against the ingress of water or liquid. More specifically, some products have the potential to develop hairline cracks at the supply ports of the controller housing.",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/08/31/medtronic-fa837---heartware-hvad%E2%84%A2-system"
+       },
+       {
+        "date": "2018-05-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System",
+        "reason": "You will receive this letter to inform you that a solution is available in the form of a lubricant that can be applied to the power source connectors of the HeartWare HVAD system, ...",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/05/08/medtronic-fa817---medtronic-heartware%E2%84%A2-hvad%E2%84%A2-system"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-05-30",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Business Name: Heartware - Ventricular Assist System. Technical Name: Intracardiac Pump. ANVISA registration number: 10339190685. Risk Class: IV. Affected Model: All components that are part of the Heartware Ventricular ",
+        "reason": "The company informs about the possible transient interruption of the electrical connection of the power source of the HVAD Controller (battery, AC adapter or DC adapter) to the HVAD Controller that may result in an alteration of energy not intended for the secondary power supply and / or audible sou",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2017-12-18",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Business Name: Heartware-Ventricular Assist System. Technical Name: Other Cardiovascular Implants. ANVISA registration number: 80583400001. Hazard class: IV. Model Affected: No Model .. Serial Numbers Affected: BATTERY L",
+        "reason": "According to the certifying body - ifc (falcon bauer institute), inmetro certificate No 01754-01 / 15 concerning the \"auxiliary\" products of med light production was suspended due to the inconsistency of the test reports presented in the initial dossier, where the sample of product tested does not r",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "AND",
+      "name": "AND",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2017-03-15",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HVAD HeartWare",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=40&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       },
+       {
+        "date": "2016-08-25",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "implantable heartware hvad",
+        "reason": null,
+        "url": "https://www.salut.ad/alertes/alertes.php?_pagi_pg=53&data1=&data2=&tipus=PRODUCTES%20SANITARIS%20-%20Retirada&titol="
+       }
+      ]
+     },
+     {
+      "code": "FR",
+      "name": "France",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-08-24",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartWare Ventricular Assist System",
+        "reason": "HeartWare Ventricular Assist System Ventricular Assist System - Company HeartWare Inc - Product Recall",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/dispositif-d-assistance-ventriculaire-heartware-ventricular-assist-system-societe-heartware-inc-rappel-de-produit"
+       },
+       {
+        "date": "2013-05-16",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Implantable Ventricular Mechanical Assist Device Heartware HVAD",
+        "reason": "Implantable Ventricular Mechanical Assist Device Heartware HVAD - Heartware - Batch Recall",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/dispositif-d-assistance-mecanique-ventriculaire-implantable-heartware-hvad-heartware-rappel-de-lots"
+       }
+      ]
+     },
+     {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2018-06-09",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "Medtronic HeartWare\u2122 HVAD\u2122 System",
+        "reason": "HeartWare, now a part of Medtronic, is providing this letter to inform you of the potential for a transient interruption of the electrical connection between an HVAD System power source (Battery, AC Adapter, or DC Adapter) and the HVAD Controller that may result in unintended power switching to the ",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=12739"
+       }
+      ]
+     },
+     {
+      "code": "AT",
+      "name": "Austria",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2013-06-11",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety alert",
+        "classification": null,
+        "product": "Heartware 1400, 1401XX, 1407XX, 1408",
+        "reason": "The manufacturer, HeartWare Inc., in this safety information document, warns you about the urgent need to observe the operating instructions when operating and maintaining HeartWare heart support systems.",
+        "url": "https://www.basg.gv.at/en/medical-devices/official-announcements/"
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 1,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Ventricular Assist System Controller",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/Safety-Notices/fsnsummary_may2010_qmsversion_final_020610.pdf?sfvrsn=0"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2010,
+      "value": 1
+     },
+     {
+      "year": 2011,
+      "value": 2
+     },
+     {
+      "year": 2012,
+      "value": 4
+     },
+     {
+      "year": 2013,
+      "value": 29
+     },
+     {
+      "year": 2014,
+      "value": 27
+     },
+     {
+      "year": 2015,
+      "value": 35
+     },
+     {
+      "year": 2016,
+      "value": 53
+     },
+     {
+      "year": 2017,
+      "value": 23
+     },
+     {
+      "year": 2018,
+      "value": 39
+     },
+     {
+      "year": 2019,
+      "value": 2
+     },
+     {
+      "year": 2020,
+      "value": 12
+     },
+     {
+      "year": 2021,
+      "value": 17
+     },
+     {
+      "year": 2022,
+      "value": 25
+     },
+     {
+      "year": 2023,
+      "value": 7
+     },
+     {
+      "year": 2024,
+      "value": 1
+     },
+     {
+      "year": 2025,
+      "value": 4
+     },
+     {
+      "year": 2026,
+      "value": 1
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": true,
+     "registrations": 0,
+     "onMarket": 0,
+     "noLongerOnMarket": 0,
+     "riskClasses": null,
+     "manufacturers": null,
+     "note": "No EUDAMED UDI registration found for this device family (word-bounded trade-name match over 2.54M EU registrations). EU registration becomes mandatory for legacy devices 28 Nov 2026 \u2014 absence today is itself a datapoint."
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2010-05-26) predates the first US Class 1 recall (2013-12-06).",
+      "foreign": {
+       "date": "2010-05-26"
+      },
+      "us": {
+       "date": "2013-12-06"
+      }
+     }
+    ],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -851,7 +5661,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 12500
 }

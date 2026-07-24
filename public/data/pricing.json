@@ -50,7 +50,7 @@
    "price": 2500,
    "cls": "sub",
    "cadence": "monthly",
-   "basis": "Subscription, not a reading: $2,500/mo single family \u00b7 $7,500/mo practice (\u22645 families) \u00b7 $15,000/mo firm-wide"
+   "basis": "Subscription, not a reading: county-grain choropleth + named-facility procedure volumes (top hospitals by device-procedure discharges), refreshed monthly \u2014 $2,500/mo single family \u00b7 $7,500/mo practice (\u22645 families) \u00b7 $15,000/mo firm-wide"
   },
   {
    "id": "ip",
@@ -58,6 +58,20 @@
    "price": 300,
    "cls": "I",
    "basis": "Class I lookup"
+  },
+  {
+   "id": "trial-aes",
+   "label": "Sponsor trial adverse-event exhibit (registry)",
+   "price": 2500,
+   "cls": "II",
+   "basis": "Class II verified exhibit \u2014 the sponsor's own registered-trial adverse-event tables (AACT/ClinicalTrials.gov), a pre-market harm record MAUDE cannot provide"
+  },
+  {
+   "id": "global-actions",
+   "label": "Global regulatory footprint (7 jurisdictions)",
+   "price": 2500,
+   "cls": "II",
+   "basis": "Class II verified exhibit \u2014 the same device's recall/safety-action record across Canada, UK, Switzerland, Australia, New Zealand, the ICIJ 46-country historic layer, and EU registration status (EUDAMED), with cross-jurisdiction timing analysis US counsel cannot pull from FDA sources"
   }
  ],
  "tokenClasses": [
@@ -112,7 +126,7 @@
     "monthly": 15000
    }
   ],
-  "note": "The recurring anchor: monthly-refreshed targeting intelligence that sits above whoever buys the media. Sold per month, per scope \u2014 never bundled one-time."
+  "note": "The recurring anchor: monthly-refreshed targeting intelligence \u2014 county-grain demand plus named-facility procedure volumes \u2014 that sits above whoever buys the media. Sold per month, per scope \u2014 never bundled one-time."
  },
  "everything": {
   "price": 113000,

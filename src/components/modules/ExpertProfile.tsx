@@ -24,6 +24,10 @@ function HowWeKnow({ source }: { source?: SourceObj }) {
         {source.signals?.affiliationGeo && source.signals.affiliationGeo.length > 0 && (
           <div>Geo signals: {source.signals.affiliationGeo.join(', ')}</div>
         )}
+        {source.signals?.deviceTrials && (
+          <div>Device-trial signal: {source.signals.deviceTrials}</div>
+        )}
+        {source.signals?.geo && <div>Geo signal: {source.signals.geo}</div>}
         {source.caveat && <div className="howKnowCaveat">{source.caveat}</div>}
       </div>
     </details>
@@ -297,6 +301,40 @@ export function ExpertProfile({ p }: { p: ExpertProfileData }) {
         )}
         <HowWeKnow source={p.practice.source} />
       </div>
+
+      {p.aactTrials && (
+        <div className="epSection">
+          <div className="epHead">
+            Clinical-trial roles{' '}
+            <span className="epHeadNote">
+              {fmtNum(p.aactTrials.counts.corroborated)} corroborated ·{' '}
+              {fmtNum(p.aactTrials.counts.nameOnly)} name-only
+            </span>
+          </div>
+          {p.aactTrials.roles.length === 0 ? (
+            <div className="epEmpty">
+              No registered-trial investigator or official roles match this
+              physician&apos;s name in the trial registry.
+            </div>
+          ) : (
+            p.aactTrials.roles.map((r, i) => (
+              <div key={i} className="epRow">
+                <span>
+                  <TierChip tier={r.tier} />{' '}
+                  {r.role.replace(/_/g, ' ').toLowerCase()}
+                  {r.deviceTrial && <span className="treeK"> this device&apos;s trial</span>}
+                  {r.trialTitle && <span className="epMuted"> — {r.trialTitle}</span>}
+                </span>
+                <span className="epRowVal epMuted">
+                  {r.nctId}
+                  {r.place ? ` · ${r.place}` : ''}
+                </span>
+              </div>
+            ))
+          )}
+          <HowWeKnow source={p.aactTrials.source} />
+        </div>
+      )}
 
       <div className="epSection">
         <div className="epHead">

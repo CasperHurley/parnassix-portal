@@ -117,10 +117,17 @@
     },
     "articles": [
      {
-      "title": "Simplified Meal Bolus Strategies with Control-IQ+ Automated Insulin Delivery Are Safe and Effective in Adults with Type 2 Diabetes.",
+      "title": "A Multicenter Study of an Investigational Extended Wear Insulin Infusion Set in Adults with Type 1 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
-      "pmid": "41264341",
+      "pmid": "40780817",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Consistent Benefit of Control-IQ+ Automated Insulin Delivery Across a Range of Characteristics of Adults with Type 2 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41574573",
       "tier": "corroborated"
      },
      {
@@ -138,17 +145,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A Multicenter Study of an Investigational Extended Wear Insulin Infusion Set in Adults with Type 1 Diabetes.",
+      "title": "Simplified Meal Bolus Strategies with Control-IQ+ Automated Insulin Delivery Are Safe and Effective in Adults with Type 2 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
-      "pmid": "40780817",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Consistent Benefit of Control-IQ+ Automated Insulin Delivery Across a Range of Characteristics of Adults with Type 2 Diabetes.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "41574573",
+      "pmid": "41264341",
       "tier": "corroborated"
      },
      {
@@ -166,10 +166,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Glycemic and Patient-Reported Outcomes for Users of a New, Compact Automated Insulin Delivery System: A First Report.",
-      "journal": "Journal of diabetes science and technology",
+      "title": "Reduction of Postprandial Glucose Excursions in Adults, Adolescents, and Children with Type 1 Diabetes Using Ultra-Rapid Lispro Insulin and Control-IQ+ Technolo",
+      "journal": "Diabetes technology & therapeutics",
       "year": 2025,
-      "pmid": "39587715",
+      "pmid": "40171722",
       "tier": "corroborated"
      },
      {
@@ -213,6 +213,103 @@
      "match": "NPI 1730138009"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 7,
+     "nameOnly": 19
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04503174",
+      "place": "Tandem Diabetes Care, Inc.",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Control-IQ Observational (CLIO) Post-Approval Study"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT05785832",
+      "place": "Tandem Diabetes Care",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "A Randomized Trial Evaluating Control-IQ+ Technology in Adults With Type 2 Diabetes"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT06428591",
+      "place": "Tandem Diabetes Care",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Tandem Freedom Feasibility Study 1"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT06834568",
+      "place": "Tandem Diabetes Care, Inc.",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Tandem Freedom - Feasibility Trial 2"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT05422053",
+      "place": "Tandem Diabetes Care",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Control-IQ Technology for High Insulin Users With Type 1 Diabetes (Higher-IQ)"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT05403502",
+      "place": "Tandem Diabetes Care",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Safety Evaluation of an Advanced Hybrid Closed Loop System Using Lyumjev With the Tandem t:Slim X2 Insulin Pum"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan Pinsker, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT05683392",
+      "place": "Tandem Diabetes Care, Inc.",
+      "tier": "corroborated",
+      "deviceTrial": true,
+      "trialTitle": "Use of Control-IQ Technology 2.0 in Adults, Children, and Preschoolers With Type 1 Diabetes"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jordan E Pinsker, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03092310",
+      "place": "Sansum Diabetes Research Institute",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Feasibility Evaluation of an Artificial Pancreas With Glucose Prediction Trust Index"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JORDAN PINSKER' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -240,6 +337,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "7 corroborated + 19 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -251,9 +352,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -328,13 +426,6 @@
       "tier": "name-only"
      },
      {
-      "title": "Risk Determinants of Acute Mountain Sickness in Trekkers in the Nepali Himalaya: A 36-Year Follow-Up.",
-      "journal": "High altitude medicine & biology",
-      "year": 2026,
-      "pmid": "40996419",
-      "tier": "name-only"
-     },
-     {
       "title": "Interrelationships between mentalizing capacity, symptoms of depression and anxiety, and coparenting in parents of school aged children.",
       "journal": "Frontiers in psychology",
       "year": 2026,
@@ -342,17 +433,24 @@
       "tier": "name-only"
      },
      {
-      "title": "Phase 1b study of ABBV-368, tilsotolimod, budigalimab, and nab-paclitaxel in patients with recurrent/metastatic head and neck squamous cell carcinoma.",
-      "journal": "Journal for immunotherapy of cancer",
-      "year": 2026,
-      "pmid": "41956545",
-      "tier": "name-only"
-     },
-     {
       "title": "Determination of Gentamicin C-subtypes in Inner Ear Perilymph Using Liquid Chromatography with Fluorescence Detection.",
       "journal": "Journal of pharmaceutical and biomedical analysis",
       "year": 2026,
       "pmid": "41666750",
+      "tier": "name-only"
+     },
+     {
+      "title": "Risk Determinants of Acute Mountain Sickness in Trekkers in the Nepali Himalaya: A 36-Year Follow-Up.",
+      "journal": "High altitude medicine & biology",
+      "year": 2026,
+      "pmid": "40996419",
+      "tier": "name-only"
+     },
+     {
+      "title": "Phase 1b study of ABBV-368, tilsotolimod, budigalimab, and nab-paclitaxel in patients with recurrent/metastatic head and neck squamous cell carcinoma.",
+      "journal": "Journal for immunotherapy of cancer",
+      "year": 2026,
+      "pmid": "41956545",
       "tier": "name-only"
      },
      {
@@ -370,10 +468,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Reflections on co-production: Developing a dementia research funding application with a diverse lived experience group.",
-      "journal": "Dementia (London, England)",
+      "title": "Temporal context effects on suboptimal choice.",
+      "journal": "Psychonomic bulletin & review",
       "year": 2024,
-      "pmid": "38321765",
+      "pmid": "38760618",
       "tier": "name-only"
      },
      {
@@ -417,6 +515,18 @@
      "match": "NPI 1962826255"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MARY JANE MCDEVITT'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -444,6 +554,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -455,9 +569,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -540,17 +651,17 @@
     },
     "articles": [
      {
-      "title": "A Provider's Perspective on the Management of Diabetes From Preschool Through the Teen Years.",
-      "journal": "Diabetes spectrum : a publication of the American Diabetes A",
-      "year": 2016,
-      "pmid": "27899878",
-      "tier": "corroborated"
-     },
-     {
       "title": "Patient/Family Education for Newly Diagnosed Pediatric Oncology Patients.",
       "journal": "Journal of pediatric oncology nursing : official journal of ",
       "year": 2016,
       "pmid": "27385664",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Provider's Perspective on the Management of Diabetes From Preschool Through the Teen Years.",
+      "journal": "Diabetes spectrum : a publication of the American Diabetes A",
+      "year": 2016,
+      "pmid": "27899878",
       "tier": "corroborated"
      },
      {
@@ -575,17 +686,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Persistence of benefits of continuous subcutaneous insulin infusion in very young children with type 1 diabetes: a follow-up report.",
-      "journal": "Pediatrics",
-      "year": 2004,
-      "pmid": "15574621",
-      "tier": "corroborated"
-     },
-     {
       "title": "A randomized, prospective trial comparing the efficacy of continuous subcutaneous insulin infusion with multiple daily injections using insulin glargine.",
       "journal": "Diabetes care",
       "year": 2004,
       "pmid": "15220227",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Persistence of benefits of continuous subcutaneous insulin infusion in very young children with type 1 diabetes: a follow-up report.",
+      "journal": "Pediatrics",
+      "year": 2004,
+      "pmid": "15574621",
       "tier": "corroborated"
      },
      {
@@ -596,10 +707,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Are you ready for the pump? The decision to use an insulin pump is a serious one. Here are a few questions to consider first.",
-      "journal": "Diabetes forecast",
+      "title": "Insulin pump therapy in pediatrics: a therapeutic alternative to safely lower HbA1c levels across all age groups.",
+      "journal": "Pediatric diabetes",
       "year": 2002,
-      "pmid": "14768606",
+      "pmid": "15016169",
       "tier": "corroborated"
      },
      {
@@ -636,6 +747,18 @@
      "match": "NPI 1770566317"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JOANN AHERN'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -663,6 +786,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -674,9 +801,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -844,13 +968,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Outcomes of fluoroscopic and ultrasound-guided placement versus laparoscopic placement of peritoneal dialysis catheters.",
-      "journal": "Clinical kidney journal",
-      "year": 2018,
-      "pmid": "30094020",
-      "tier": "corroborated"
-     },
-     {
       "title": "Low-dose radiation use in diagnostic imaging and cancer therapy settings.",
       "journal": "La Radiologia medica",
       "year": 2018,
@@ -869,6 +986,13 @@
       "journal": "Journal of oncology practice",
       "year": 2018,
       "pmid": "28981388",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of fluoroscopic and ultrasound-guided placement versus laparoscopic placement of peritoneal dialysis catheters.",
+      "journal": "Clinical kidney journal",
+      "year": 2018,
+      "pmid": "30094020",
       "tier": "corroborated"
      }
     ],
@@ -935,25 +1059,23 @@
      "match": "NPI 1750517835"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'BETHANY JACKSON'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 2
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Thomas v. Secretary, Department of Corrections",
-      "date": "2020-09-30",
-      "url": "https://www.courtlistener.com/opinion/9639456/thomas-v-secretary-department-of-corrections/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "in the Interest of B.S., a Child",
-      "date": "2013-07-25",
-      "url": "https://www.courtlistener.com/opinion/3079764/in-the-interest-of-bs-a-child/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -983,6 +1105,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -994,9 +1120,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1104,17 +1227,17 @@
     },
     "articles": [
      {
+      "title": "Chronic kidney disease management in primary care: challenges and possible developments.",
+      "journal": "The British journal of general practice : the journal of the",
+      "year": 2025,
+      "pmid": "40016109",
+      "tier": "corroborated"
+     },
+     {
       "title": "The 2021 WHO classification of tumors of the central nervous system: Responding to the challenge in low- and middle-income countries.",
       "journal": "Neuro-oncology practice",
       "year": 2025,
       "pmid": "40487579",
-      "tier": "corroborated"
-     },
-     {
-      "title": "The Study in Outpatient Medicine using Nudges to Improve Sleep (SOMNUS): study protocol for an 18-month factorial, cluster-randomized trial to increase guidelin",
-      "journal": "Trials",
-      "year": 2025,
-      "pmid": "41430294",
       "tier": "corroborated"
      },
      {
@@ -1125,10 +1248,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Chronic kidney disease management in primary care: challenges and possible developments.",
-      "journal": "The British journal of general practice : the journal of the",
+      "title": "The Study in Outpatient Medicine using Nudges to Improve Sleep (SOMNUS): study protocol for an 18-month factorial, cluster-randomized trial to increase guidelin",
+      "journal": "Trials",
       "year": 2025,
-      "pmid": "40016109",
+      "pmid": "41430294",
       "tier": "corroborated"
      },
      {
@@ -1136,6 +1259,13 @@
       "journal": "Alzheimer's research & therapy",
       "year": 2024,
       "pmid": "39465382",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Processive kinetics in the three-step lanosterol 14\u03b1-demethylation reaction catalyzed by human cytochrome P450 51A1.",
+      "journal": "The Journal of biological chemistry",
+      "year": 2023,
+      "pmid": "37209823",
       "tier": "corroborated"
      },
      {
@@ -1157,13 +1287,6 @@
       "journal": "Neuroscience and biobehavioral reviews",
       "year": 2023,
       "pmid": "37059405",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Processive kinetics in the three-step lanosterol 14\u03b1-demethylation reaction catalyzed by human cytochrome P450 51A1.",
-      "journal": "The Journal of biological chemistry",
-      "year": 2023,
-      "pmid": "37209823",
       "tier": "corroborated"
      },
      {
@@ -1235,6 +1358,33 @@
     "source": {
      "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
      "match": "NPI 1053735282"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Mary Jo O'Sullivan",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT00000888",
+      "place": "Univ of Miami (Pediatric)",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Safety and Effectiveness of Ritonavir Plus Lamivudine Plus Zidovudine in HIV-Infected Pregnant Women and Their"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MARY SULLIVAN' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
     }
    },
    "litigation": {
@@ -1328,68 +1478,6 @@
       "docId": null
      }
     ],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": null,
-      "date": "2025-11-17",
-      "url": "https://www.courtlistener.com/opinion/10744035/jherome-deguzman-derivatively-on-behalf-of-petco-health-and-wellness/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Hasan v. Sullivan",
-      "date": "2025-10-08",
-      "url": "https://www.courtlistener.com/opinion/10692649/hasan-v-sullivan/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Hasan v. Sullivan",
-      "date": "2025-10-08",
-      "url": "https://www.courtlistener.com/opinion/10703814/hasan-v-sullivan/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Thomas, Richard v. United States",
-      "date": "2025-06-11",
-      "url": "https://www.courtlistener.com/opinion/10603013/thomas-richard-v-united-states/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Sullivan v. Joudrey",
-      "date": "2024-09-16",
-      "url": "https://www.courtlistener.com/opinion/10176640/sullivan-v-joudrey/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Cardinal Point, LLC v. Edgewood Partners Insurance Center, Inc.",
-      "date": "2023-12-11",
-      "url": "https://www.courtlistener.com/opinion/10176911/cardinal-point-llc-v-edgewood-partners-insurance-center-inc/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Murphy v. Taylor",
-      "date": "2022-08-31",
-      "url": "https://www.courtlistener.com/opinion/9740754/murphy-v-taylor/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Katherine D. Morgan v. Kenneth F. Morgan, Jr.",
-      "date": "2021-12-07",
-      "url": "https://www.courtlistener.com/opinion/5303982/katherine-d-morgan-v-kenneth-f-morgan-jr/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Rebecca Wilson v. George Fleming and Fleming & Associates, L.L.P.",
-      "date": "2021-11-04",
-      "url": "https://www.courtlistener.com/opinion/5295475/rebecca-wilson-v-george-fleming-and-fleming-associates-llp/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Terrell v. Kijakazi",
-      "date": "2021-08-16",
-      "url": "https://www.courtlistener.com/opinion/9762547/terrell-v-kijakazi/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1419,6 +1507,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 1 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1430,9 +1522,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1588,13 +1677,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Evaluating success rates of rotary NiTi versus reciprocating files in endodontic treatment.",
-      "journal": "Bioinformation",
-      "year": 2026,
-      "pmid": "42109403",
-      "tier": "name-only"
-     },
-     {
       "title": "Hair Loss Associated With IL-17 and IL-23 Inhibitors: A Systematic Review.",
       "journal": "International journal of dermatology",
       "year": 2026,
@@ -1609,6 +1691,13 @@
       "tier": "name-only"
      },
      {
+      "title": "Evaluating success rates of rotary NiTi versus reciprocating files in endodontic treatment.",
+      "journal": "Bioinformation",
+      "year": 2026,
+      "pmid": "42109403",
+      "tier": "name-only"
+     },
+     {
       "title": "A nipple-like lesion: A case report of leiomyosarcoma on the back.",
       "journal": "SAGE open medical case reports",
       "year": 2026,
@@ -1616,10 +1705,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Sex- and region-dependent neuroinflammation in Alzheimer's disease.",
-      "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Asso",
+      "title": "Characterizing the content and quality of internet resources on exercise training in Ehlers-Danlos Syndromes and generalized hypermobility spectrum disorder.",
+      "journal": "PloS one",
       "year": 2025,
-      "pmid": "40247152",
+      "pmid": "40570018",
       "tier": "name-only"
      },
      {
@@ -1630,10 +1719,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Assessment of oral mucosal temperature as a diagnostic marker for systemic inflammation among dental patients.",
-      "journal": "Bioinformation",
+      "title": "Sporophyte-directed gametogenesis in Arabidopsis.",
+      "journal": "Nature plants",
       "year": 2025,
-      "pmid": "41393453",
+      "pmid": "40087543",
       "tier": "name-only"
      }
     ],
@@ -1700,6 +1789,18 @@
      "match": "NPI 1063458230"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JASBIR DHAWAN'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1727,6 +1828,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1738,9 +1843,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1948,19 +2050,23 @@
      "match": "NPI 1891789632"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ANNETTE HAYNES'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 1
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "People v. Haynes",
-      "date": "2008-07-29",
-      "url": "https://www.courtlistener.com/opinion/839033/people-v-haynes/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1990,6 +2096,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2001,9 +2111,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2232,6 +2339,18 @@
      "match": "NPI 1245222819"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MICHAEL SWINYARD'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2259,6 +2378,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2270,9 +2393,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2396,52 +2516,52 @@
       "tier": "corroborated"
      },
      {
-      "title": "Simons Observatory: on-sky performance of radio-transparent multi-layer insulation using Styroace-II styrofoam.",
-      "journal": "Applied optics",
+      "title": "Rigorous genetic diagnosis review in natural history studies.",
+      "journal": "Orphanet journal of rare diseases",
       "year": 2026,
-      "pmid": "41842043",
+      "pmid": "42050713",
       "tier": "name-only"
      },
      {
-      "title": "Light Filtering as Depicted by New US Ophthalmic High-Energy Visible Band Scheme: Comparison of ACUVUE OASYS MAX 1-Day Contact Lenses With Other Lenses and \"Blu",
-      "journal": "Eye & contact lens",
+      "title": "Hyperplasia Functions as a Link between Obesity and Cancer.",
+      "journal": "Cancer research",
       "year": 2026,
-      "pmid": "41486494",
+      "pmid": "41874564",
       "tier": "name-only"
      },
      {
-      "title": "Environmentally induced stress affects fitness of bold and shy alike: A long-term study of personality and feather corticosterone in Arctic-breeding kittiwakes.",
-      "journal": "The Journal of animal ecology",
+      "title": "Impact of body mass index on the prognosis of patients with newly diagnosed multiple myeloma.",
+      "journal": "Blood advances",
       "year": 2026,
-      "pmid": "41735228",
+      "pmid": "41150833",
       "tier": "name-only"
      },
      {
-      "title": "Risk Factors, Diagnoses, and Clinical Characteristics of Synchronous and Metachronous Periprosthetic Joint Infections Following Total Joint Arthroplasty.",
-      "journal": "The Journal of arthroplasty",
+      "title": "Adaptive Resilience in Parkinson's Caregiving: A Qualitative Study of Lived Experience and Implications for Practice.",
+      "journal": "Occupational therapy in health care",
       "year": 2026,
-      "pmid": "40645532",
+      "pmid": "42010394",
       "tier": "name-only"
      },
      {
-      "title": "Impacts of urbanization on pathogens and pests of wild and cultivated plants.",
-      "journal": "Philosophical transactions of the Royal Society of London. S",
+      "title": "Normative modeling for quantitative brain MRI phenotyping and biomarker discovery for pediatric leukodystrophies.",
+      "journal": "medRxiv : the preprint server for health sciences",
       "year": 2026,
-      "pmid": "42206332",
+      "pmid": "42245025",
       "tier": "name-only"
      },
      {
-      "title": "Characterization of Clinical Phenotype to Glial Fibrillary Acidic Protein Concentrations in Alexander Disease.",
-      "journal": "Annals of clinical and translational neurology",
+      "title": "Novel Understanding of Facial Bier Spots: A Systematic Review of Treatment-Resistant Vascular Lesions.",
+      "journal": "Journal of cutaneous medicine and surgery",
       "year": 2026,
-      "pmid": "41513585",
+      "pmid": "41601381",
       "tier": "name-only"
      },
      {
-      "title": "Real-world comparative effectiveness of sotorasib versus docetaxel monotherapy in second line and beyond for advanced or metastatic non-small cell lung cancer: ",
-      "journal": "Lung cancer (Amsterdam, Netherlands)",
+      "title": "Real-world analysis of multiple myeloma treatments in England using the Cancer Analysis System registry.",
+      "journal": "Scientific reports",
       "year": 2026,
-      "pmid": "42229337",
+      "pmid": "41588065",
       "tier": "name-only"
      }
     ],
@@ -2508,43 +2628,23 @@
      "match": "NPI 1134107139"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'KATHLEEN ARNOLD'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 5
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "David Eugene White v. the State of Texas",
-      "date": "2022-11-09",
-      "url": "https://www.courtlistener.com/opinion/8511010/david-eugene-white-v-the-state-of-texas/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "John Doe v. Jane Doe",
-      "date": "2021-11-09",
-      "url": "https://www.courtlistener.com/opinion/10628936/john-doe-v-jane-doe/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Matthew Warfield v. State",
-      "date": "2015-12-22",
-      "url": "https://www.courtlistener.com/opinion/4298889/matthew-warfield-v-state/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Arnold v. Citimortgage, Incorporated",
-      "date": "2010-11-15",
-      "url": "https://www.courtlistener.com/opinion/179245/arnold-v-citimortgage-incorporated/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Kathleen A. Langdon v. Ella Maureen Arnold",
-      "date": "2002-09-17",
-      "url": "https://www.courtlistener.com/opinion/3029590/kathleen-a-langdon-v-ella-maureen-arnold/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -2574,6 +2674,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2585,9 +2689,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2677,17 +2778,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Patient-led rapid titration of basal insulin in gestational diabetes is associated with improved glycaemic control and lower birthweight.",
-      "journal": "Diabetic medicine : a journal of the British Diabetic Associ",
-      "year": 2022,
-      "pmid": "35900879",
-      "tier": "corroborated"
-     },
-     {
       "title": "Follow-up of children who undergo an uncomplicated surgical procedure: A caregiver survey to determine satisfaction, family impact, and preferences for alternat",
       "journal": "Journal of pediatric surgery",
       "year": 2022,
       "pmid": "35109993",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Patient-led rapid titration of basal insulin in gestational diabetes is associated with improved glycaemic control and lower birthweight.",
+      "journal": "Diabetic medicine : a journal of the British Diabetic Associ",
+      "year": 2022,
+      "pmid": "35900879",
       "tier": "corroborated"
      },
      {
@@ -2719,24 +2820,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Phosphate ions reverse the phase composition of silk fibroin condensates.",
-      "journal": "Materials horizons",
+      "title": "Characterization of JNJ-80948543 a novel CD79bxCD20xCD3 trispecific antibody for B-cell non-Hodgkin lymphoma.",
+      "journal": "Haematologica",
       "year": 2026,
-      "pmid": "41972496",
+      "pmid": "41742895",
       "tier": "name-only"
      },
      {
-      "title": "Mud sound speed profile constraints from sub-bottom arrival times.",
-      "journal": "JASA express letters",
+      "title": "The Society of Sports Therapists and the BBC Children in Need Thousand Mile Challenge.",
+      "journal": "British journal of sports medicine",
       "year": 2026,
-      "pmid": "41805808",
+      "pmid": "42091211",
       "tier": "name-only"
      },
      {
-      "title": "Symptom management: how can specialist paediatric palliative care teams help?",
-      "journal": "Archives of disease in childhood. Education and practice edi",
+      "title": "Pressure Ulcer Prevention at Home for People with Long-term Neurological Conditions, Carers and Personal Assistants: Synopsis - a Participatory, Qualitative stu",
+      "journal": "Health and social care delivery research",
       "year": 2026,
-      "pmid": "41577426",
+      "pmid": "42246207",
       "tier": "name-only"
      }
     ],
@@ -2803,6 +2904,18 @@
      "match": "NPI 1962478412"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'CAROL HOLLAND'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2830,6 +2943,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2841,9 +2958,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"

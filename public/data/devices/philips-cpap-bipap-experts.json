@@ -83,17 +83,17 @@
       "tier": "name-only"
      },
      {
-      "title": "Effect of Crotalaria juncea Amendment on Squash Infected with Meloidogyne incognita.",
-      "journal": "Journal of nematology",
-      "year": 2004,
-      "pmid": "19262819",
-      "tier": "name-only"
-     },
-     {
       "title": "Effect of winter cover crops on nematode population levels in north Florida.",
       "journal": "Journal of nematology",
       "year": 2004,
       "pmid": "19262833",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of Crotalaria juncea Amendment on Squash Infected with Meloidogyne incognita.",
+      "journal": "Journal of nematology",
+      "year": 2004,
+      "pmid": "19262819",
       "tier": "name-only"
      },
      {
@@ -185,10 +185,10 @@
       "beneficiaries": 80
      },
      {
-      "code": "95810",
-      "description": "Sleep study in sleep lab (6 years or older)",
+      "code": "94726",
+      "description": "Test to determine lung volumes using sensors",
       "services": 51,
-      "beneficiaries": 51
+      "beneficiaries": 48
      }
     ],
     "source": {
@@ -196,25 +196,23 @@
      "match": "NPI 1437141264"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ROBERT GALLAHER'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 2
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "People v. Pierce",
-      "date": "2007-10-18",
-      "url": "https://www.courtlistener.com/opinion/3135393/people-v-pierce/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "People v. Pierce",
-      "date": "2006-08-23",
-      "url": "https://www.courtlistener.com/opinion/3142097/people-v-pierce/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -244,6 +242,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -255,9 +257,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -388,52 +387,10 @@
     },
     "articles": [
      {
-      "title": "Analysis of the Additive Effects of Nutritional Strategies in Strength Training Interventions on Body Composition, Muscle Strength and Bone Mineral Density in P",
-      "journal": "Sports medicine - open",
+      "title": "Ribosome biogenesis is increased in hepatocellular carcinoma and represents a potential therapeutic target.",
+      "journal": "NAR cancer",
       "year": 2026,
-      "pmid": "41535482",
-      "tier": "name-only"
-     },
-     {
-      "title": "It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis.",
-      "journal": "Journal of science and medicine in sport",
-      "year": 2026,
-      "pmid": "41963141",
-      "tier": "name-only"
-     },
-     {
-      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses.",
-      "journal": "Sports medicine (Auckland, N.Z.)",
-      "year": 2026,
-      "pmid": "41762427",
-      "tier": "name-only"
-     },
-     {
-      "title": "Training with an elastic bench press device provides comparable adaptations to conventional resistance training in trained men.",
-      "journal": "Biology of sport",
-      "year": 2026,
-      "pmid": "42220583",
-      "tier": "name-only"
-     },
-     {
-      "title": "A single-cell derived spheroid approach to dissect intratumoural heterogeneity in colorectal cancer: cell lines show changes in proteomes and therapeutic respon",
-      "journal": "Journal of cancer research and clinical oncology",
-      "year": 2026,
-      "pmid": "41580526",
-      "tier": "name-only"
-     },
-     {
-      "title": "Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study.",
-      "journal": "Frontiers in physiology",
-      "year": 2026,
-      "pmid": "42245829",
-      "tier": "name-only"
-     },
-     {
-      "title": "A Validated Method for the Simultaneous Measurement of Tryptophan, Kynurenine, Phenylalanine, and Tyrosine by High-Performance Liquid Chromatography-Ultraviolet",
-      "journal": "ACS omega",
-      "year": 2026,
-      "pmid": "41658142",
+      "pmid": "41551405",
       "tier": "name-only"
      },
      {
@@ -444,17 +401,59 @@
       "tier": "name-only"
      },
      {
-      "title": "Identification of a therapeutic threshold for AAV-STXBP1 gene therapy in a rodent model of STXBP1 developmental and epileptic encephalopathy.",
-      "journal": "Molecular therapy : the journal of the American Society of G",
+      "title": "Aberrant calcium signaling and neuronal activity in the L271H CACNA1D (Cav1.3) iPSC model of neurodevelopmental disease.",
+      "journal": "Molecular psychiatry",
       "year": 2026,
-      "pmid": "41883162",
+      "pmid": "41513972",
       "tier": "name-only"
      },
      {
-      "title": "Acute and Chronic Effects of Drop-Set Training: A Meta-Analysis and Systematic Review.",
+      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses.",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "year": 2026,
+      "pmid": "41762427",
+      "tier": "name-only"
+     },
+     {
+      "title": "A single-cell derived spheroid approach to dissect intratumoural heterogeneity in colorectal cancer: cell lines show changes in proteomes and therapeutic respon",
+      "journal": "Journal of cancer research and clinical oncology",
+      "year": 2026,
+      "pmid": "41580526",
+      "tier": "name-only"
+     },
+     {
+      "title": "Analysis of the Additive Effects of Nutritional Strategies in Strength Training Interventions on Body Composition, Muscle Strength and Bone Mineral Density in P",
       "journal": "Sports medicine - open",
       "year": 2026,
-      "pmid": "41920484",
+      "pmid": "41535482",
+      "tier": "name-only"
+     },
+     {
+      "title": "A Validated Method for the Simultaneous Measurement of Tryptophan, Kynurenine, Phenylalanine, and Tyrosine by High-Performance Liquid Chromatography-Ultraviolet",
+      "journal": "ACS omega",
+      "year": 2026,
+      "pmid": "41658142",
+      "tier": "name-only"
+     },
+     {
+      "title": "It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis.",
+      "journal": "Journal of science and medicine in sport",
+      "year": 2026,
+      "pmid": "41963141",
+      "tier": "name-only"
+     },
+     {
+      "title": "Training with an elastic bench press device provides comparable adaptations to conventional resistance training in trained men.",
+      "journal": "Biology of sport",
+      "year": 2026,
+      "pmid": "42220583",
+      "tier": "name-only"
+     },
+     {
+      "title": "Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study.",
+      "journal": "Frontiers in physiology",
+      "year": 2026,
+      "pmid": "42245829",
       "tier": "name-only"
      }
     ],
@@ -522,25 +521,23 @@
      "match": "NPI 1336147933"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'SCOTT GEISLER'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 2
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Jessica Mataranglo v. Meijer Stores Limited Partnership and Shannon Fuentes-LaCross (mem. dec.)",
-      "date": "2017-01-24",
-      "url": "https://www.courtlistener.com/opinion/4340659/jessica-mataranglo-v-meijer-stores-limited-partnership-and-shannon/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Eric Motto v. WalMart Stores East LP",
-      "date": "2014-04-07",
-      "url": "https://www.courtlistener.com/opinion/2669029/eric-motto-v-walmart-stores-east-lp/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -570,6 +567,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -581,9 +582,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -704,17 +702,24 @@
       "tier": "corroborated"
      },
      {
+      "title": "Mechanical Ventilation in Children on Venovenous ECMO.",
+      "journal": "Respiratory care",
+      "year": 2020,
+      "pmid": "31992674",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children.",
+      "journal": "Pediatric critical care medicine : a journal of the Society ",
+      "year": 2020,
+      "pmid": "32032273",
+      "tier": "corroborated"
+     },
+     {
       "title": "Executive Summary: Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children.",
       "journal": "Pediatric critical care medicine : a journal of the Society ",
       "year": 2020,
       "pmid": "32032264",
-      "tier": "corroborated"
-     },
-     {
-      "title": "High-frequency oscillatory ventilation for PARDS: awaiting PROSPect.",
-      "journal": "Critical care (London, England)",
-      "year": 2020,
-      "pmid": "32216813",
       "tier": "corroborated"
      },
      {
@@ -725,31 +730,24 @@
       "tier": "corroborated"
      },
      {
+      "title": "Respiratory pathogens associated with intubated pediatric patients following hematopoietic cell transplant.",
+      "journal": "Transplant infectious disease : an official journal of the T",
+      "year": 2020,
+      "pmid": "32306533",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Extracorporeal Membrane Oxygenation for Hemodynamic Support.",
+      "journal": "Clinics in perinatology",
+      "year": 2020,
+      "pmid": "32713457",
+      "tier": "corroborated"
+     },
+     {
       "title": "A comprehensive review of the use and understanding of airway pressure release ventilation.",
       "journal": "Expert review of respiratory medicine",
       "year": 2020,
       "pmid": "31869259",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Executive summary: surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children.",
-      "journal": "Intensive care medicine",
-      "year": 2020,
-      "pmid": "32030528",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Mechanical Ventilation in Children on Venovenous ECMO.",
-      "journal": "Respiratory care",
-      "year": 2020,
-      "pmid": "31992674",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children.",
-      "journal": "Intensive care medicine",
-      "year": 2020,
-      "pmid": "32030529",
       "tier": "corroborated"
      }
     ],
@@ -780,6 +778,43 @@
      "match": "NPI 1033272802"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 2
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Ira Cheifetz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02168387",
+      "place": "Duke University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Efficacy of Percussive Ventilation Therapy (MetaNeb \u00ae) Compared With Mucolytic Agents for Atelectasis in the M"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Ira M. Cheifetz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03896763",
+      "place": "UH Rainbow Babies and Children's Hospital",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "PROSpect: Prone and Oscillation Pediatric Clinical Trial"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'IRA CHEIFETZ' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:corroborated": 1
@@ -800,7 +835,6 @@
       "docId": null
      }
     ],
-    "nameOnly": [],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -830,6 +864,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 2 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -841,9 +879,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -917,6 +952,13 @@
     },
     "articles": [
      {
+      "title": "Sleep-Related Hypoventilation in a Patient With Ehlers-Danlos Syndrome.",
+      "journal": "Cureus",
+      "year": 2026,
+      "pmid": "41873264",
+      "tier": "corroborated"
+     },
+     {
       "title": "Sp1 mechanotransduction regulates breast cancer cell invasion in engineered viscoelastic extracellular matrices.",
       "journal": "Biomaterials",
       "year": 2026,
@@ -931,10 +973,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Sleep-Related Hypoventilation in a Patient With Ehlers-Danlos Syndrome.",
-      "journal": "Cureus",
-      "year": 2026,
-      "pmid": "41873264",
+      "title": "Author Correction: A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
+      "journal": "Nature genetics",
+      "year": 2025,
+      "pmid": "39833330",
       "tier": "corroborated"
      },
      {
@@ -952,13 +994,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Author Correction: A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
-      "journal": "Nature genetics",
-      "year": 2025,
-      "pmid": "39833330",
-      "tier": "corroborated"
-     },
-     {
       "title": "A deep learning model of tumor cell architecture elucidates response and resistance to CDK4/6 inhibitors.",
       "journal": "Nature cancer",
       "year": 2024,
@@ -966,10 +1001,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Human gene regulatory evolution is driven by the divergence of regulatory element function in both cis and trans.",
-      "journal": "Cell genomics",
+      "title": "Author Correction: Integrative single-cell characterization of a frugivorous and an insectivorous bat kidney and pancreas.",
+      "journal": "Nature communications",
       "year": 2024,
-      "pmid": "38604126",
+      "pmid": "38413559",
       "tier": "corroborated"
      },
      {
@@ -980,10 +1015,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Integrative single-cell characterization of a frugivorous and an insectivorous bat kidney and pancreas.",
-      "journal": "Nature communications",
+      "title": "Human gene regulatory evolution is driven by the divergence of regulatory element function in both cis and trans.",
+      "journal": "Cell genomics",
       "year": 2024,
-      "pmid": "38195585",
+      "pmid": "38604126",
       "tier": "corroborated"
      }
     ],
@@ -1040,15 +1075,27 @@
       "beneficiaries": 31
      },
      {
-      "code": "95811",
-      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "code": "95810",
+      "description": "Sleep study in sleep lab (6 years or older)",
       "services": 29,
-      "beneficiaries": 25
+      "beneficiaries": 29
      }
     ],
     "source": {
      "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
      "match": "NPI 1447549654"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'SUSIE FONG'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
     }
    },
    "litigation": {
@@ -1078,6 +1125,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1089,9 +1140,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1184,10 +1232,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Mandibular Advancement vs Combined Airway and Positional Therapy for Snoring: A Randomized Clinical Trial.",
-      "journal": "JAMA otolaryngology-- head & neck surgery",
+      "title": "Comorbid neurotrauma increases neurodegenerative-relevant cognitive, motor, and autonomic dysfunction in patients with rapid eye movement sleep behavior disorde",
+      "journal": "Sleep",
       "year": 2024,
-      "pmid": "38780959",
+      "pmid": "38181205",
       "tier": "corroborated"
      },
      {
@@ -1198,17 +1246,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Comorbid neurotrauma increases neurodegenerative-relevant cognitive, motor, and autonomic dysfunction in patients with rapid eye movement sleep behavior disorde",
-      "journal": "Sleep",
+      "title": "Mandibular Advancement vs Combined Airway and Positional Therapy for Snoring: A Randomized Clinical Trial.",
+      "journal": "JAMA otolaryngology-- head & neck surgery",
       "year": 2024,
-      "pmid": "38181205",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Baseline characteristics of the North American prodromal Synucleinopathy cohort.",
-      "journal": "Annals of clinical and translational neurology",
-      "year": 2023,
-      "pmid": "36751940",
+      "pmid": "38780959",
       "tier": "corroborated"
      },
      {
@@ -1216,6 +1257,13 @@
       "journal": "Cancer epidemiology, biomarkers & prevention : a publication",
       "year": 2023,
       "pmid": "37195052",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Baseline characteristics of the North American prodromal Synucleinopathy cohort.",
+      "journal": "Annals of clinical and translational neurology",
+      "year": 2023,
+      "pmid": "36751940",
       "tier": "corroborated"
      },
      {
@@ -1272,6 +1320,18 @@
      "match": "NPI 1528280393"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'YO EL JU'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1299,6 +1359,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1310,9 +1374,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1455,10 +1516,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Peripheral biomarkers associated with apathy and predicting response to methylphenidate: Secondary analysis of the Apathy in Dementia Methylphenidate Trial 2 (A",
-      "journal": "International psychogeriatrics",
+      "title": "Uncovering lipid biomarkers linked to methylphenidate efficacy in treating apathy in Alzheimer's disease: insights from the ADMET 2 trial.",
+      "journal": "Alzheimer's research & therapy",
       "year": 2026,
-      "pmid": "41521126",
+      "pmid": "42178577",
       "tier": "name-only"
      },
      {
@@ -1533,6 +1594,18 @@
      "match": "NPI 1699738211"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'DANIEL SHADE'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1560,6 +1633,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1571,9 +1648,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1591,7 +1665,7 @@
     "licenseState": "AL",
     "opState": "AL",
     "opCity": "DAPHNE",
-    "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+    "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1407854482"
@@ -1705,13 +1779,6 @@
       "tier": "name-only"
      },
      {
-      "title": "Differential signaling pathway activation in 7,12-dimethylbenz[a] anthracene (DMBA)-treated mammary stem/progenitor cells from species with varying mammary canc",
-      "journal": "Oncotarget",
-      "year": 2018,
-      "pmid": "30214683",
-      "tier": "name-only"
-     },
-     {
       "title": "Conserved and variable: Understanding mammary stem cells across species.",
       "journal": "Cytometry. Part A : the journal of the International Society",
       "year": 2018,
@@ -1723,6 +1790,13 @@
       "journal": "Scientific reports",
       "year": 2018,
       "pmid": "29599438",
+      "tier": "name-only"
+     },
+     {
+      "title": "Differential signaling pathway activation in 7,12-dimethylbenz[a] anthracene (DMBA)-treated mammary stem/progenitor cells from species with varying mammary canc",
+      "journal": "Oncotarget",
+      "year": 2018,
+      "pmid": "30214683",
       "tier": "name-only"
      },
      {
@@ -1747,9 +1821,9 @@
       "topicKeywords": [
        "bipap",
        "cpap",
-       "family medicine",
        "philips",
-       "positive airway pressure"
+       "positive airway pressure",
+       "sleep medicine"
       ],
       "affiliationGeo": [
        "Alabama",
@@ -1804,25 +1878,23 @@
      "match": "NPI 1407854482"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MICHAEL LEDET'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 2
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Ledet v. State of Louisiana",
-      "date": "2024-03-26",
-      "url": "https://www.courtlistener.com/opinion/9726323/ledet-v-state-of-louisiana/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "Mack Energy Co. v. Expert Oil and Gas, L.L.C.",
-      "date": "2015-01-28",
-      "url": "https://www.courtlistener.com/opinion/2774288/mack-energy-co-v-expert-oil-and-gas-llc/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1852,6 +1924,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1863,9 +1939,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2017,6 +2090,18 @@
      "match": "NPI 1669493912"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'HARANATH POLICHERLA'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:corroborated": 2
@@ -2051,7 +2136,6 @@
       "docId": null
      }
     ],
-    "nameOnly": [],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -2081,6 +2165,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2092,9 +2180,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2265,6 +2350,18 @@
      "match": "NPI 1558328203"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ANTOINE ELHAJJAR'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2292,6 +2389,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2303,9 +2404,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2378,13 +2476,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Respiratory insufficiency and sleep impairment in facioscapulohumeral muscular dystrophy.",
-      "journal": "Neuromuscular disorders : NMD",
-      "year": 2026,
-      "pmid": "41980375",
-      "tier": "corroborated"
-     },
-     {
       "title": "Dose-escalated stereotactic body radiotherapy re-irradiation in patients with recurrent head and neck cancer: a prospective phase 2 study using automated non-co",
       "journal": "Radiotherapy and oncology : journal of the European Society ",
       "year": 2026,
@@ -2406,6 +2497,20 @@
       "tier": "corroborated"
      },
      {
+      "title": "Respiratory insufficiency and sleep impairment in facioscapulohumeral muscular dystrophy.",
+      "journal": "Neuromuscular disorders : NMD",
+      "year": 2026,
+      "pmid": "41980375",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Stereotactic Intensity-modulated Radiotherapy After Radical Prostatectomy (SCIMITAR): 4-Year Outcomes of a Phase 2 Clinical Trial.",
+      "journal": "European urology",
+      "year": 2026,
+      "pmid": "41033921",
+      "tier": "corroborated"
+     },
+     {
       "title": "Dosimetric Comparison of Magnetic Resonance Imaging Guided Versus Reduced Margin Computed Tomography Guided Stereotactic Body Radiation Therapy for Localized Pr",
       "journal": "International journal of radiation oncology, biology, physic",
       "year": 2026,
@@ -2420,13 +2525,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Stereotactic Intensity-modulated Radiotherapy After Radical Prostatectomy (SCIMITAR): 4-Year Outcomes of a Phase 2 Clinical Trial.",
-      "journal": "European urology",
-      "year": 2026,
-      "pmid": "41033921",
-      "tier": "corroborated"
-     },
-     {
       "title": "Magnetic Resonance Imaging Sequences and Technologies in Adaptive Radiation Therapy.",
       "journal": "International journal of radiation oncology, biology, physic",
       "year": 2025,
@@ -2434,10 +2532,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Physics of Edge-Core Coupling by Inward Turbulence Propagation.",
-      "journal": "Physical review letters",
+      "title": "Magnetic Resonance Imaging Versus Computed Tomography Guidance for Stereotactic Body Radiotherapy in Prostate Cancer: 2-year Outcomes from the MIRAGE Randomized",
+      "journal": "European urology",
       "year": 2025,
-      "pmid": "40577744",
+      "pmid": "39537438",
       "tier": "corroborated"
      }
     ],
@@ -2505,6 +2603,33 @@
      "match": "NPI 1386791762"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Michelle Cao, DO",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01462084",
+      "place": "Stanford Center for Human Sleep Research",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Effectiveness of Adaptive Servoventilation (ASV) in Patients With Central Sleep Apnea Due to Chronic Opioid Us"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MICHELLE CAO' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2532,6 +2657,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 1 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2543,9 +2672,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"

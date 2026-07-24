@@ -88,13 +88,65 @@ export interface IcpState {
   beneficiaries: number
 }
 
+export interface IcpCounty {
+  fips: string
+  name: string
+  state: string
+  services: number
+  facilities: number
+  per10k65: number | null
+}
+
+export interface IcpFacility {
+  ccn: string
+  name: string
+  city: string
+  state: string
+  countyFips: string | null
+  lat: number | null
+  lon: number | null
+  discharges: number
+  outpatientServices: number | null
+  rating: string | null
+  topDrgs: { code: string; desc: string; n: number }[]
+}
+
+export interface IcpTrialSite {
+  name: string
+  city: string | null
+  state: string | null // full state name as registered (not an abbreviation)
+  lat: number
+  lon: number
+  trials: number
+}
+
+export interface IcpPayload {
+  dataYear: number
+  codes: { code: string; description: string; services: number }[]
+  states: IcpState[]
+  // county/facility grain ships only for hospital-billed families (absent for DME
+  // devices and pre-v2 snapshots — all optional by design)
+  counties?: IcpCounty[]
+  facilities?: IcpFacility[]
+  hospitalYears?: { inpatient: number; outpatient: number | null }
+  paidPhysicians?: { byState: { state: string; physicians: number; totalUsd: number }[]; scope: string }
+  // registered-trial sites (AACT) — the manufacturer's own trial geography
+  trialSites?: IcpTrialSite[]
+  trialSiteTotals?: { sites: number; usSites: number; trials: number; scope: string }
+}
+
 // ---- expert profile sidecar (devices/<slug>-experts.json) ----
 
 export interface SourceObj {
   dataset: string
   match?: string
   caveat?: string
-  signals?: { topicKeywords?: string[]; affiliationGeo?: string[] }
+  signals?: {
+    topicKeywords?: string[]
+    affiliationGeo?: string[]
+    deviceTrials?: string
+    geo?: string
+  }
 }
 
 export interface PayBucket {
@@ -141,10 +193,48 @@ export interface ExpertProfileData {
     cites?: LitCite[]
     source?: SourceObj
   }
+  aactTrials?: {
+    counts: { corroborated: number; nameOnly: number }
+    roles: AactRole[]
+    source: SourceObj
+  }
   inventory: {
     onFile: { label: string; detail: string }[]
     onCommission: { label: string; price?: number }[]
   }
+}
+
+export interface TrialAesPayload {
+  scope: string
+  trialsMatched: number
+  trialsWithAeTables: number
+  trialsWithSerious: number
+  totals: {
+    serious: { rows: number; subjects: number }
+    other: { rows: number; subjects: number }
+    deathTermSubjects: number
+  }
+  topSeriousTerms: { term: string; organSystem: string; rows: number; subjectsAffected: number }[]
+  trials: {
+    nctId: string
+    title: string
+    phase: string | null
+    status: string | null
+    startYear: string | null
+    seriousRows: number
+    seriousSubjects: number
+  }[]
+}
+
+export interface AactRole {
+  kind: string // 'site-investigator' | 'overall-official'
+  nameAsWritten: string
+  role: string
+  nctId: string
+  place: string | null
+  tier: string // 'corroborated' | 'name-only'
+  deviceTrial: boolean
+  trialTitle?: string | null
 }
 
 export interface LitCite {
@@ -171,6 +261,62 @@ export function loadExpertsDetail(slug: string): Promise<Record<string, ExpertPr
     )
   }
   return expertsCache.get(slug)!
+}
+
+// ---- global regulatory footprint module ----
+
+export interface GlobalActionRow {
+  date: string | null
+  source: string
+  actionType: string | null
+  classification: string | null
+  product: string
+  reason: string | null
+  url: string | null
+}
+
+export interface GlobalActionsCountry {
+  code: string
+  name: string
+  total: number
+  actions: GlobalActionRow[]
+}
+
+export interface GlobalActionsEuStatus {
+  pending: boolean
+  absent: boolean
+  registrations: number
+  onMarket: number
+  noLongerOnMarket: number
+  riskClasses: Record<string, number> | null
+  manufacturers: string[] | null
+  note: string | null
+}
+
+export interface GlobalActionsCallout {
+  text: string
+  foreign?: { country?: string; date: string; class?: string }
+  us?: { date: string; class?: string }
+}
+
+export interface GlobalActionsTeaser {
+  actions: number
+  countries: number
+  sources: number
+  firstForeignDate: string | null
+  latestAction: { country: string; date: string; classification: string | null } | null
+  screenedOut: number
+}
+
+export interface GlobalActionsPayload {
+  countries: GlobalActionsCountry[]
+  series: SeriesPoint[]
+  euStatus: GlobalActionsEuStatus | null
+  callouts: GlobalActionsCallout[]
+  screenedOut: number
+  screenedNote: string
+  sourceLabels: Record<string, string>
+  attribution: string
 }
 
 export interface Module<T, U> {
@@ -228,9 +374,30 @@ export interface DeviceDossier {
       { patents: number; assignees: string[] },
       { patents: number; recent: { id: string; title: string; year: number; assignee: string }[]; caveat: string }
     >
+    'global-actions': Module<GlobalActionsTeaser, GlobalActionsPayload>
     'icp-map': Module<
-      { states: number; procedureCodes: number; dataYear: number; topStateServices: number },
-      { dataYear: number; codes: { code: string; description: string; services: number }[]; states: IcpState[] }
+      {
+        states: number
+        procedureCodes: number
+        dataYear: number
+        topStateServices: number
+        counties?: number
+        facilities?: number
+        topFacilityCity?: string | null
+      },
+      IcpPayload
+    >
+    // optional: pre-AACT snapshots (and a stale live relay) may not carry it
+    'trial-aes'?: Module<
+      {
+        trialsMatched: number
+        trialsWithAeTables: number
+        seriousEventRows: number
+        seriousSubjectsAffected: number
+        deathTermSubjects: number
+        scope: string
+      },
+      TrialAesPayload
     >
   }
   sources: string[]

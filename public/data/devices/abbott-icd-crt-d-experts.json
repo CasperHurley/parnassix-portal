@@ -148,31 +148,10 @@
     },
     "articles": [
      {
-      "title": "Personalized artificial intelligence based left ventricular ejection fraction and systolic dysfunction assessment.",
-      "journal": "NPJ digital medicine",
+      "title": "Clinical and Economic Outcomes of Dronedarone Versus Amiodarone Among Patients With Atrial Fibrillation.",
+      "journal": "Journal of the American Heart Association",
       "year": 2026,
-      "pmid": "41951962",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Super-large bore catheter in the treatment of large vessel occlusions: initial multicenter experience.",
-      "journal": "Journal of neurointerventional surgery",
-      "year": 2026,
-      "pmid": "40216535",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Management of Arrhythmias in Older Adult Patients \u226575 Years Old Compared to Younger Patients <75 Years Old: Is Contemporary Practice Reflective of Evidence?",
-      "journal": "Cardiology in review",
-      "year": 2026,
-      "pmid": "41870966",
-      "tier": "corroborated"
-     },
-     {
-      "title": "The present and the future of risk stratification for and prevention of sudden cardiac death: A Heart Rhythm Society think tank meeting.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42214646",
+      "pmid": "41413395",
       "tier": "corroborated"
      },
      {
@@ -183,24 +162,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Establishing a national cardiopulmonary resuscitation program in Indian high schools and colleges: An expert collaborative call to action and implementation mod",
+      "title": "Antiarrhythmic Drugs for Rhythm Control of Atrial Fibrillation: Unmet Needs and Future Directions.",
+      "journal": "The American journal of cardiology",
+      "year": 2026,
+      "pmid": "42019738",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Super-large bore catheter in the treatment of large vessel occlusions: initial multicenter experience.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2026,
+      "pmid": "40216535",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Establishing a National Cardiopulmonary Resuscitation Program in Indian High schools and colleges: An expert collaborative call to action and implementation mod",
+      "journal": "Indian pacing and electrophysiology journal",
+      "year": 2026,
+      "pmid": "41349695",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Real-world performance of intrinsic antitachycardia pacing: Primary results from a global prospective postapproval registry study.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41927277",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Clinical and Economic Outcomes of Dronedarone Versus Amiodarone Among Patients With Atrial Fibrillation.",
-      "journal": "Journal of the American Heart Association",
-      "year": 2026,
-      "pmid": "41413395",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Comparative safety, efficacy, and predictors of complete occlusion of flow diverter devices in the treatment of unruptured distal anterior cerebral artery aneur",
-      "journal": "Neurological sciences : official journal of the Italian Neur",
-      "year": 2026,
-      "pmid": "41706217",
+      "pmid": "41500490",
       "tier": "corroborated"
      },
      {
@@ -211,10 +197,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Artificial Intelligence Powered Wearable and Portable Devices for Remote Cardiac Care and Population Health.",
-      "journal": "Current cardiology reports",
+      "title": "Establishing a national cardiopulmonary resuscitation program in Indian high schools and colleges: An expert collaborative call to action and implementation mod",
+      "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41945207",
+      "pmid": "41927277",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparative safety, efficacy, and predictors of complete occlusion of flow diverter devices in the treatment of unruptured distal anterior cerebral artery aneur",
+      "journal": "Neurological sciences : official journal of the Italian Neur",
+      "year": 2026,
+      "pmid": "41706217",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The present and the future of risk stratification for and prevention of sudden cardiac death: A Heart Rhythm Society think tank meeting.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42214646",
       "tier": "corroborated"
      }
     ],
@@ -280,25 +280,108 @@
      "match": "NPI 1962487447"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 9,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Jagmeet Singh, MD",
+      "role": "SUB_INVESTIGATOR",
+      "nctId": "NCT07112924",
+      "place": "Massachusetts General Hospital \u2014 Boston, Massachusetts",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "CCM OPEN HF Registry"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet Singh, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01242397",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Mitral Insufficiency Reduction With Biventricular Pacing"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet P. Singh, M.D.",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02374801",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Continued Access Clinical Trial of the SonRtip Lead and Automatic AV-VV Optimization Algorithm in the PARADYM "
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet P Singh, MD, PhD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01097733",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Dual-Source Computed Tomography to Improve Prediction of Response to Cardiac Resynchronization Therapy"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet Singh, MD, PhD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02922036",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Cardiac Resynchronization Therapy in Previously Untreatable and High Risk Upgrade Patients"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet Singh, MD ScM DPhil",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05161065",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Comparison of QT Interval Readings Between Smartwatch Combined With Cardiologs Artificial Intelligence and 12-"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet Singh, MD, PhD",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT01983293",
+      "place": "Massachusetts General Hospital",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "CRT Implant Strategy Using the Longest Electrical Delay for Non-left Bundle Branch Block Patients"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jagmeet Singh, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00683696",
+      "place": "Principal Investigator (USA) at Massachusetts General Hospital, MA, USA",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Echocardiography Guided Cardiac Resynchronization Therapy (EchoCRT)"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JAGMEET SINGH' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 2
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Morales v. Singh",
-      "date": "2024-01-19",
-      "url": "https://www.courtlistener.com/opinion/10215863/morales-v-singh/"
-     },
-     {
-      "source": "courtlistener",
-      "case": "State Of Washington v. Jagmeet S. Dhaliwal",
-      "date": "2020-11-16",
-      "url": "https://www.courtlistener.com/opinion/4806386/state-of-washington-v-jagmeet-s-dhaliwal/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -328,6 +411,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "9 corroborated + 1 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -339,9 +426,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -500,10 +584,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Collaboration between researchers, university students, and healthcare professionals to improve older Vietnamese immigrants' health literacy.",
-      "journal": "Gerontology & geriatrics education",
+      "title": "Strategies to inhibit steroid cytochrome P450 enzymes to benefit human health: development of steroid ligands for P450s 17A1, 19A1, and 8B1 to treat cancer and ",
+      "journal": "RSC medicinal chemistry",
       "year": 2025,
-      "pmid": "40444828",
+      "pmid": "41551023",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Fracture Patterns in Craniofacial Gunshot Wounds: A Seven-Year Experience.",
+      "journal": "Craniomaxillofacial trauma & reconstruction",
+      "year": 2025,
+      "pmid": "40276519",
       "tier": "corroborated"
      },
      {
@@ -521,24 +612,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Strategies to inhibit steroid cytochrome P450 enzymes to benefit human health: development of steroid ligands for P450s 17A1, 19A1, and 8B1 to treat cancer and ",
-      "journal": "RSC medicinal chemistry",
+      "title": "Collaboration between researchers, university students, and healthcare professionals to improve older Vietnamese immigrants' health literacy.",
+      "journal": "Gerontology & geriatrics education",
       "year": 2025,
-      "pmid": "41551023",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Fracture Patterns in Craniofacial Gunshot Wounds: A Seven-Year Experience.",
-      "journal": "Craniomaxillofacial trauma & reconstruction",
-      "year": 2025,
-      "pmid": "40276519",
-      "tier": "corroborated"
-     },
-     {
-      "title": "A General Platform for Copper-Catalyzed Atom Transfer Radical Addition with Electron-Deficient Olefins.",
-      "journal": "Organic letters",
-      "year": 2025,
-      "pmid": "39694876",
+      "pmid": "40444828",
       "tier": "corroborated"
      },
      {
@@ -546,6 +623,13 @@
       "journal": "The Journal of craniofacial surgery",
       "year": 2025,
       "pmid": "40720614",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A General Platform for Copper-Catalyzed Atom Transfer Radical Addition with Electron-Deficient Olefins.",
+      "journal": "Organic letters",
+      "year": 2025,
+      "pmid": "39694876",
       "tier": "corroborated"
      }
     ],
@@ -611,6 +695,18 @@
      "match": "NPI 1568634681"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'TRIEU HO'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -638,6 +734,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -649,9 +749,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -825,13 +922,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Multipoint Pacing with Fusion-optimized Cardiac Resynchronization Therapy: Using It All to Narrow QRS Duration.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
-      "year": 2021,
-      "pmid": "33520350",
-      "tier": "corroborated"
-     },
-     {
       "title": "Paced or sensed conduction time to determine programming with cardiac resynchronization therapy: The PASED-CRT Trial.",
       "journal": "Pacing and clinical electrophysiology : PACE",
       "year": 2021,
@@ -839,10 +929,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "The use of lubricating solution as a novel method in facilitating left ventricular lead placement: A case series.",
-      "journal": "HeartRhythm case reports",
-      "year": 2020,
-      "pmid": "32577393",
+      "title": "Multipoint Pacing with Fusion-optimized Cardiac Resynchronization Therapy: Using It All to Narrow QRS Duration.",
+      "journal": "The Journal of innovations in cardiac rhythm management",
+      "year": 2021,
+      "pmid": "33520350",
       "tier": "corroborated"
      },
      {
@@ -853,6 +943,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "The use of lubricating solution as a novel method in facilitating left ventricular lead placement: A case series.",
+      "journal": "HeartRhythm case reports",
+      "year": 2020,
+      "pmid": "32577393",
+      "tier": "corroborated"
+     },
+     {
       "title": "An Alarming Change: What Caused an Instance of Inappropriate Detection in a Wearable Cardioverter-defibrillator?",
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2020,
@@ -860,17 +957,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and Efficacy of Multipoint Pacing in\u00a0Cardiac Resynchronization Therapy: The MultiPoint Pacing Trial.",
-      "journal": "JACC. Clinical electrophysiology",
-      "year": 2017,
-      "pmid": "29759832",
-      "tier": "corroborated"
-     },
-     {
       "title": "Rationale and design of a randomized trial to assess the safety and efficacy of MultiPoint Pacing (MPP) in cardiac resynchronization therapy: The MPP Trial.",
       "journal": "Annals of noninvasive electrocardiology : the official journ",
       "year": 2017,
       "pmid": "28517367",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Efficacy of Multipoint Pacing in\u00a0Cardiac Resynchronization Therapy: The MultiPoint Pacing Trial.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2017,
+      "pmid": "29759832",
       "tier": "corroborated"
      }
     ],
@@ -936,6 +1033,53 @@
      "match": "NPI 1770523326"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 2
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Raffaele Corbisiero, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07112924",
+      "place": "Deborah Heart and Lung Center \u2014 Browns Mills, New Jersey",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "CCM OPEN HF Registry"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raffaele Corbisiero, MD",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT01555619",
+      "place": "Deborah Heart and Lung Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Quadripolar Pacing Post Approval Study"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raffaele Corbisiero, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02803775",
+      "place": "Deborah Heart and Lung Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Paced And Sensed Electrical Delay in CRT Therapy (PASED CRT)"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'RAFFAELE CORBISIERO' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:corroborated": 1
@@ -957,7 +1101,6 @@
       "docId": null
      }
     ],
-    "nameOnly": [],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -987,6 +1130,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 2 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -998,9 +1145,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1115,24 +1259,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Quality-of-Life Recovery in Cushing's Disease: A Cluster Analysis.",
-      "journal": "The Canadian journal of neurological sciences. Le journal ca",
+      "title": "Neoadjuvant therapy in gall bladder cancer improves resectability and survival: a prospective study.",
+      "journal": "HPB : the official journal of the International Hepato Pancr",
       "year": 2026,
-      "pmid": "42163508",
-      "tier": "name-only"
-     },
-     {
-      "title": "Retrospective analysis on large-scale in-vivo dosimetric verification of total body irradiation using helical tomotherapy with optically stimulated luminescence",
-      "journal": "Radiological physics and technology",
-      "year": 2026,
-      "pmid": "41746496",
-      "tier": "name-only"
-     },
-     {
-      "title": "Engineering dosimetric excellence in total body irradiation: Tomotherapy-driven protocols for precision and reproducibility.",
-      "journal": "Precision radiation oncology",
-      "year": 2026,
-      "pmid": "42022356",
+      "pmid": "41714243",
       "tier": "name-only"
      },
      {
@@ -1143,10 +1273,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Neoadjuvant therapy in gall bladder cancer improves resectability and survival: a prospective study.",
-      "journal": "HPB : the official journal of the International Hepato Pancr",
+      "title": "Quality-of-Life Recovery in Cushing's Disease: A Cluster Analysis.",
+      "journal": "The Canadian journal of neurological sciences. Le journal ca",
       "year": 2026,
-      "pmid": "41714243",
+      "pmid": "42163508",
       "tier": "name-only"
      },
      {
@@ -1168,6 +1298,20 @@
       "journal": "PloS one",
       "year": 2026,
       "pmid": "41712650",
+      "tier": "name-only"
+     },
+     {
+      "title": "Engineering dosimetric excellence in total body irradiation: Tomotherapy-driven protocols for precision and reproducibility.",
+      "journal": "Precision radiation oncology",
+      "year": 2026,
+      "pmid": "42022356",
+      "tier": "name-only"
+     },
+     {
+      "title": "Retrospective analysis on large-scale in-vivo dosimetric verification of total body irradiation using helical tomotherapy with optically stimulated luminescence",
+      "journal": "Radiological physics and technology",
+      "year": 2026,
+      "pmid": "41746496",
       "tier": "name-only"
      },
      {
@@ -1240,19 +1384,23 @@
      "match": "NPI 1528033917"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JESSE SETHI'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 1
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "United States v. Sethi",
-      "date": "2021-04-05",
-      "url": "https://www.courtlistener.com/opinion/9508234/united-states-v-sethi/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -1282,6 +1430,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1293,9 +1445,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1523,6 +1672,18 @@
      "match": "NPI 1942294715"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ALEXANDER DRTIL'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1550,6 +1711,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1561,9 +1726,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1747,6 +1909,18 @@
      "match": "NPI 1053349746"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JOSEPH DELL ORFANO'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -1774,6 +1948,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -1785,9 +1963,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -1962,17 +2137,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "A prospective study comparing the sensed R wave in bipolar and extended bipolar configurations: the PropR study.",
-      "journal": "Pacing and clinical electrophysiology : PACE",
-      "year": 2013,
-      "pmid": "23437781",
-      "tier": "name-only"
-     },
-     {
       "title": "It is time for a gender specific discussion on advanced directives with female patients during routine health visits.",
       "journal": "Journal of community health",
       "year": 2013,
       "pmid": "23828578",
+      "tier": "name-only"
+     },
+     {
+      "title": "A prospective study comparing the sensed R wave in bipolar and extended bipolar configurations: the PropR study.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2013,
+      "pmid": "23437781",
       "tier": "name-only"
      },
      {
@@ -2059,6 +2234,18 @@
      "match": "NPI 1487698866"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'NEAL LIPPMAN'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2086,6 +2273,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2097,9 +2288,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2252,10 +2440,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Impact of prophylactic protamine administration following atrial fibrillation ablation on vascular and pericardial complications.",
+      "title": "Ventricular Desynchronization Therapy in Obstructive Hypertrophic Cardiomyopathy: Importance of Atrioventricular Timing.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2026,
+      "pmid": "41159985",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Accuracy of Implantable Loop Recorders: Multicenter, Multidevice Comparison.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "41686115",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left atrial mechanics following left bundle branch area pacing vs. non-conduction system pacing after atrioventricular node ablation in atrial fibrillation.",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
-      "pmid": "41973848",
+      "pmid": "42114083",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Variability in implantable cardioverter-defibrillator battery longevity.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40412594",
       "tier": "corroborated"
      },
      {
@@ -2280,27 +2489,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Ventricular Desynchronization Therapy in Obstructive Hypertrophic Cardiomyopathy: Importance of Atrioventricular Timing.",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2026,
-      "pmid": "41159985",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Accuracy of Implantable Loop Recorders: Multicenter, Multidevice Comparison.",
-      "journal": "JACC. Clinical electrophysiology",
-      "year": 2026,
-      "pmid": "41686115",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Left atrial mechanics following left bundle branch area pacing vs. non-conduction system pacing after atrioventricular node ablation in atrial fibrillation.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
-      "year": 2026,
-      "pmid": "42114083",
-      "tier": "corroborated"
-     },
-     {
       "title": "PARALLEL-VT: A pilot study of simultaneous multi-wavefront left ventricular mapping for identification of critical ablation sites.",
       "journal": "Journal of interventional cardiac electrophysiology : an int",
       "year": 2026,
@@ -2308,10 +2496,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Variability in implantable cardioverter-defibrillator battery longevity.",
-      "journal": "Heart rhythm",
+      "title": "Impact of prophylactic protamine administration following atrial fibrillation ablation on vascular and pericardial complications.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
-      "pmid": "40412594",
+      "pmid": "41973848",
       "tier": "corroborated"
      }
     ],
@@ -2377,6 +2565,93 @@
      "match": "NPI 1366500886"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 7
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD, FRCP",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00336284",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "TRUST: Lumos-T Safely RedUceS RouTine Office Device Follow-up"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT01805154",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Advance Cardiac Resynchronization Therapy (CRT) Registry"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD,PhD,FRCP",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04133168",
+      "place": "Cleveland Clinic, Cleveland OH, USA",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Boston Scientific's Cryoballoon in the Treatment of Symptomatic Drug Refractory Paroxysmal Atrial Fibrillation"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, Prof.",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05564793",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Improving CRT Outcome With Non-Invasive Cardiac Mapping"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD, PhD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05855135",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Assessment of Combined CCM and ICD Device in HFrEF"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00873691",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Comparison of Fixed Tilt and Tuned Waveforms in Right-sided Implants"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Niraj Varma, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04100148",
+      "place": "The Cleveland Clinic",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "SyncAV Post-Market Trial"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'NIRAJ VARMA' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -2404,6 +2679,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 7 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2415,9 +2694,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2560,17 +2836,10 @@
     },
     "articles": [
      {
-      "title": "Pulsed-Field Ablation for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis.",
-      "journal": "Journal of cardiovascular electrophysiology",
+      "title": "A new left atrial appendage isolation strategy for persistent atrial fibrillation requiring repeat ablation.",
+      "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "42227583",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Peak QRS/T ratio and the spatial ventricular gradient differentiate acute vs chronic left bundle branch block after transcatheter aortic valve replacement.",
-      "journal": "Heart rhythm O2",
-      "year": 2026,
-      "pmid": "42182990",
+      "pmid": "41422929",
       "tier": "corroborated"
      },
      {
@@ -2581,17 +2850,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
-      "journal": "Heart rhythm",
+      "title": "Acute Coronary Syndrome Risk Prediction Using Portable Cable-Free ECG Device Combined With Clinical Risk Assessment.",
+      "journal": "JACC. Advances",
       "year": 2026,
-      "pmid": "42033435",
-      "tier": "corroborated"
-     },
-     {
-      "title": "A new left atrial appendage isolation strategy for persistent atrial fibrillation requiring repeat ablation.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41422929",
+      "pmid": "42167099",
       "tier": "corroborated"
      },
      {
@@ -2609,24 +2871,38 @@
       "tier": "corroborated"
      },
      {
-      "title": "Acute Coronary Syndrome Risk Prediction Using Portable Cable-Free ECG Device Combined With Clinical Risk Assessment.",
-      "journal": "JACC. Advances",
+      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
+      "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "42167099",
+      "pmid": "42033435",
       "tier": "corroborated"
      },
      {
-      "title": "Race Comparisons in Patients With Cardiac Sarcoidosis: Insights From the Cardiac Sarcoidosis Consortium.",
-      "journal": "Circulation. Arrhythmia and electrophysiology",
-      "year": 2025,
-      "pmid": "40557494",
+      "title": "Pulsed-Field Ablation for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "42227583",
       "tier": "corroborated"
      },
      {
-      "title": "Factors associated with increased atrial fibrillation detection in patients with embolic stroke of undetermined source.",
-      "journal": "Journal of stroke and cerebrovascular diseases : the officia",
+      "title": "Peak QRS/T ratio and the spatial ventricular gradient differentiate acute vs chronic left bundle branch block after transcatheter aortic valve replacement.",
+      "journal": "Heart rhythm O2",
+      "year": 2026,
+      "pmid": "42182990",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Contemporary Administrative Codes to Identify Pulmonary Vein Isolation Procedures for Atrial Fibrillation.",
+      "journal": "Journal of the American Heart Association",
       "year": 2025,
-      "pmid": "40345410",
+      "pmid": "39791397",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Intracardiac vs transesophageal echocardiography for left atrial appendage occlusion: An updated systematic review and meta-analysis.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "39154871",
       "tier": "corroborated"
      }
     ],
@@ -2692,19 +2968,68 @@
      "match": "NPI 1932131463"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 3
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Peter Zimetbaum, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05836987",
+      "place": "Beth Israel Deaconess Medical Center \u2014 Boston, Massachusetts",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "The Rhythm Evaluation for AntiCoagulaTion With Continuous Monitoring of Atrial Fibrillation"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Peter Zimetbaum, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT02664311",
+      "place": "Beth Israel Deaconess Medical Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "A Randomized Comparison of the Use of JET and Conventional Ventilation in Pulmonary Vein Isolation"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Peter Zimetbaum, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01650298",
+      "place": "Beth Israel Deaconess Medical Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Safety Study on Stopping Anticoagulation Medication in Patients With a History of Atrial Fibrillation"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Peter Zimetbaum, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00115843",
+      "place": "Beth Israel Deaconess Medical Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Atrial Fibrillation Rate Control Therapy Guided By Continuous Ambulatory Monitoring"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'PETER ZIMETBAUM' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "counts": {
      "courtlistener:name-only": 1
     },
     "cites": [],
-    "nameOnly": [
-     {
-      "source": "courtlistener",
-      "case": "Champeau v. Blitzer",
-      "date": "2015-05-12",
-      "url": "https://www.courtlistener.com/opinion/2822272/champeau-v-blitzer/"
-     }
-    ],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
@@ -2734,6 +3059,10 @@
       "detail": "on file"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 3 name-only role matches"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -2745,9 +3074,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"
@@ -2912,10 +3238,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A Different Breed of Wolf: First Known Case of Wolf-Hirschorn Syndrome with Third-degree Atrioventricular Block Requiring Pacemaker Implantation.",
+      "title": "SANS FLUORO Optimized: A Case Report of Pulmonary Vein Isolation in a Patient with Cardiac Resynchronization Therapy Defibrillator and the Optimizer\u2122 III Device",
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2020,
-      "pmid": "32596030",
+      "pmid": "32461813",
       "tier": "corroborated"
      },
      {
@@ -2926,17 +3252,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "SANS FLUORO Optimized: A Case Report of Pulmonary Vein Isolation in a Patient with Cardiac Resynchronization Therapy Defibrillator and the Optimizer\u2122 III Device",
+      "title": "A Different Breed of Wolf: First Known Case of Wolf-Hirschorn Syndrome with Third-degree Atrioventricular Block Requiring Pacemaker Implantation.",
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2020,
-      "pmid": "32461813",
-      "tier": "corroborated"
-     },
-     {
-      "title": "SANS FLUORO Supersized: A case report of Fluoroless Ablation in a Super Morbidly Obese Patient.",
-      "journal": "Journal of atrial fibrillation",
-      "year": 2018,
-      "pmid": "31139290",
+      "pmid": "32596030",
       "tier": "corroborated"
      },
      {
@@ -2944,6 +3263,13 @@
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2018,
       "pmid": "32477787",
+      "tier": "corroborated"
+     },
+     {
+      "title": "SANS FLUORO Supersized: A case report of Fluoroless Ablation in a Super Morbidly Obese Patient.",
+      "journal": "Journal of atrial fibrillation",
+      "year": 2018,
+      "pmid": "31139290",
       "tier": "corroborated"
      },
      {
@@ -3016,6 +3342,18 @@
      "match": "NPI 1316025505"
     }
    },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ROBERT PERCELL'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
    "litigation": {
     "pending": true,
     "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
@@ -3043,6 +3381,10 @@
       "detail": "sweep in progress"
      },
      {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
       "label": "ICIJ IMDD",
       "detail": "screened \u2014 device-grain database, carries no person records"
      }
@@ -3054,9 +3396,6 @@
      },
      {
       "label": "OpenAlex citation graph (external API)"
-     },
-     {
-      "label": "AACT clinical-trials roles (external)"
      },
      {
       "label": "Web verification pass (external)"

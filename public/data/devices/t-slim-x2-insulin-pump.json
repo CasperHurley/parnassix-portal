@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 339,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 15,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 6,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -358,6 +370,38 @@
      "value": 7
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2019,
+     "value": 2
+    },
+    {
+     "year": 2020,
+     "value": 2
+    },
+    {
+     "year": 2022,
+     "value": 4
+    },
+    {
+     "year": 2023,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 5
+    }
+   ]
   }
  ],
  "modules": {
@@ -382,27 +426,27 @@
      {
       "problem": "Charging Problem",
       "reports": 94439,
-      "narrative": "IT WAS REPORTED THAT THE PUMP BATTERY COULD NOT BE CHARGED. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 177 MG/DL. THE CUSTOMER REVERTED TO AN ALTERNATE METHOD OF INSULIN THERAPY."
+      "narrative": "IT WAS REPORTED THAT THE PUMP COULD NOT BE CHARGED DESPITE THE ATTEMPT OF MULTIPLE USB CABLES, WALL ADAPTERS AND POWER SOURCES. THE CUSTOMER\u00bfS BLOOD GLUCOSE WAS 400S (MG/DL). REPORTEDLY THE CUSTOMER REVERTED TO MANUAL INJECTIONS FOR INSULIN THERAPY."
      },
      {
       "problem": "Battery Problem",
       "reports": 77245,
-      "narrative": "THE DEVICE IS EXPECTED TO BE RETURNED; HOWEVER, THE DEVICE HAS NOT YET BEEN RECEIVED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED IF THE DEVICE IS RECEIVED."
+      "narrative": "NO PRODUCT WAS RETURNED FOR EVALUATION. SHOULD NEW RELEVANT INFORMATION BECOME AVAILABLE, A SUPPLEMENTAL REPORT WILL BE SUBMITTED."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 65369,
-      "narrative": "IT WAS REPORTED THAT CUSTOMER PERFORMED THE LOAD FILL TUBING SEQUENCE WHILE CONNECTED AT THE INFUSION SET SITE. SUBSEQUENTLY, 25 UNITS OF INSULIN WAS INADVERTENTLY DELIVERED. THE CUSTOMER\u00bfS BLOOD GLUCOSE (BG) LOWERED TO 50 MG/DL. CUSTOMER CONSUMED GLUCOSE TABLETS TO ADDRESS BG. TANDEM TECHNICAL SUPPORT EDUCATED THE CUSTOMER TO NOT BE CONNECTED TO THE PUMP DURING THE FILL TUBING PROCESS."
+      "narrative": "IT WAS REPORTED THAT THE CUSTOMER EXPERIENCED A LOW BLOOD GLUCOSE (BG) LEVEL OF APPROXIMATELY 20 MG/DL WITH AN UNKNOWN CAUSE. PARAMEDICS TRANSPORTED CUSTOMER TO THE EMERGENCY ROOM (ER) WHERE DEXTROSE WAS USED TO TREAT LOW BG. CUSTOMER WAS RELEASED FROM THE ER AFTER A FIVE HOURS FEELING BETTER."
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 62549,
-      "narrative": "IT WAS REPORTED THAT THE CUSTOMER RECEIVED MULTIPLE OCCLUSION ALARMS. THE CUSTOMER'S BLOOD GLUCOSE (BG) LEVEL WAS IN THE MID 400 MG/DL RANGE. AFTER CHANGING THE CARTRIDGE AND INFUSION SITE, THE PUMP OCCLUDED AGAIN. AN INSULIN INJECTION WAS USED TO LOWER THE BG LEVEL. THE CUSTOMER REVERTED TO USING A NON-TANDEM PUMP TO MANAGE DIABETES. THE BG LEVEL WAS LOWERED TO 160 MG/DL."
+      "narrative": "IT WAS REPORTED THAT AN OCCLUSION ALARM OCCURRED. CUSTOMER'S BLOOD GLUCOSE WAS 135 MG/DL. REPORTEDLY, THE PUMP SUPPLIES WERE CHANGED TO ADDRESS THE ISSUE AND INSULIN DELIVERY WAS RESUMED."
      },
      {
       "problem": "Failure to Sense",
       "reports": 55150,
-      "narrative": "THE DEVICE IS EXPECTED TO BE RETURNED; HOWEVER, THE DEVICE HAS NOT YET BEEN RECEIVED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED IF THE DEVICE IS RECEIVED AND EVALUATION IS PERFORMED."
+      "narrative": "IT WAS REPORTED THAT THE PUMP FELL, AND THE TOUCH SCREEN BECAME SHATTERED AND UNRESPONSIVE. THERE WAS NO ADVERSE IMPACT TO CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL. REPORTEDLY, CUSTOMER REVERTED TO BACKUP PUMP FOR INSULIN THERAPY."
      },
      {
       "problem": "Communication or Transmission Problem",
@@ -515,24 +559,6 @@
     "edges": [
      {
       "from": "K203234",
-      "to": "K200467",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
-      "hop": 1,
-      "page": 5
-     },
-     {
-      "from": "K203234",
-      "to": "K193483",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "connect mobile app does not control, or otherwise impact, any automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate",
-      "hop": 1,
-      "page": 5
-     },
-     {
-      "from": "K203234",
       "to": "DEN170088",
       "kind": "document-wide",
       "confidence": "low",
@@ -550,13 +576,31 @@
       "page": 4
      },
      {
-      "from": "K232380",
-      "to": "K203234",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
+      "from": "K203234",
+      "to": "K193483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "connect mobile app does not control, or otherwise impact, any automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate",
       "hop": 1,
       "page": 5
+     },
+     {
+      "from": "K203234",
+      "to": "K200467",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
+      "hop": 1,
+      "page": 5
+     },
+     {
+      "from": "K232380",
+      "to": "K193483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
+      "hop": 1,
+      "page": 6
      },
      {
       "from": "K232380",
@@ -569,12 +613,12 @@
      },
      {
       "from": "K232380",
-      "to": "K193483",
-      "kind": "additional",
+      "to": "K203234",
+      "kind": "primary",
       "confidence": "medium",
-      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
+      "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
       "hop": 1,
-      "page": 6
+      "page": 5
      },
      {
       "from": "K232380",
@@ -596,15 +640,6 @@
      },
      {
       "from": "K193483",
-      "to": "P180008",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "XII. Discussion of the Non-Clinical Testing The t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the Basal-IQ Technology algorithm and calculator. No new non-clinical laboratory studies were needed for the separation from that",
-      "hop": 2,
-      "page": 8
-     },
-     {
-      "from": "K193483",
       "to": "DEN180058",
       "kind": "additional",
       "confidence": "medium",
@@ -623,10 +658,19 @@
      },
      {
       "from": "K193483",
-      "to": "P140015",
+      "to": "K192841",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose Suspend (PLGS) algorithm for the\nmanagement",
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K193483",
+      "to": "P180008",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "The performance data presented demonstrates that the Basal-IQ Technology of the already approved t:slim X2 Insulin Pump paired with the Dexcom G5 CGM (P140015/S020) can be used safely and that it functions as intended. The analysis of input specifications is adequate to assure",
+      "quote": "XII. Discussion of the Non-Clinical Testing The t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the Basal-IQ Technology algorithm and calculator. No new non-clinical laboratory studies were needed for the separation from that",
       "hop": 2,
       "page": 8
      },
@@ -641,12 +685,12 @@
      },
      {
       "from": "K193483",
-      "to": "K192841",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose Suspend (PLGS) algorithm for the\nmanagement",
+      "to": "P140015",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The performance data presented demonstrates that the Basal-IQ Technology of the already approved t:slim X2 Insulin Pump paired with the Dexcom G5 CGM (P140015/S020) can be used safely and that it functions as intended. The analysis of input specifications is adequate to assure",
       "hop": 2,
-      "page": 4
+      "page": 8
      },
      {
       "from": "K200467",
@@ -656,15 +700,6 @@
       "quote": "ation Name/Number\nInteroperable automated glycemic controller per 21 CFR 862.1356\nProduct Codes\nQJI\nPredicate Device\nControl-IQ technology (DEN190034)\nDevice Description\nThe Control-IQ technology, is an interoperable automated glycemic controller. Thisis a device\nintended to",
       "hop": 2,
       "page": 4
-     },
-     {
-      "from": "K201214",
-      "to": "K193483",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "other interoperable devices. The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM",
-      "hop": 2,
-      "page": 5
      },
      {
       "from": "K201214",
@@ -685,11 +720,11 @@
       "page": 7
      },
      {
-      "from": "K203234",
-      "to": "K200467",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
+      "from": "K201214",
+      "to": "K193483",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "other interoperable devices. The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM",
       "hop": 2,
       "page": 5
      },
@@ -704,12 +739,12 @@
      },
      {
       "from": "K203234",
-      "to": "DEN170088",
+      "to": "K200467",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitoring System or other\ncompatible iCGM\n\u2022 #K193483: Basal-IQ\nTechnology\n\u2022 #K200467:",
+      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
       "hop": 2,
-      "page": 6
+      "page": 5
      },
      {
       "from": "K203234",
@@ -721,11 +756,20 @@
       "page": 4
      },
      {
+      "from": "K203234",
+      "to": "DEN170088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitoring System or other\ncompatible iCGM\n\u2022 #K193483: Basal-IQ\nTechnology\n\u2022 #K200467:",
+      "hop": 2,
+      "page": 6
+     },
+     {
       "from": "K223931",
-      "to": "K213919",
-      "kind": "reference",
-      "confidence": "medium",
-      "quote": "Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018) Dexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022) 7.4. Device Description The proposed Dexcom G6 CGM System is based on the same physical principles",
+      "to": "K221259",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1355 Product Code QBJ Review Panel Clinical Chemistry 7.3. Predicate and Reference Devices Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022) Reference Devices Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088,",
       "hop": 2,
       "page": 4
      },
@@ -740,21 +784,21 @@
      },
      {
       "from": "K223931",
-      "to": "K221259",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "1355 Product Code QBJ Review Panel Clinical Chemistry 7.3. Predicate and Reference Devices Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022) Reference Devices Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088,",
+      "to": "K213919",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018) Dexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022) 7.4. Device Description The proposed Dexcom G6 CGM System is based on the same physical principles",
       "hop": 2,
       "page": 4
      },
      {
       "from": "K232380",
-      "to": "K193483",
-      "kind": "additional",
+      "to": "K203234",
+      "kind": "primary",
       "confidence": "medium",
-      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
+      "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
       "hop": 2,
-      "page": 6
+      "page": 5
      },
      {
       "from": "K232380",
@@ -767,12 +811,12 @@
      },
      {
       "from": "K232380",
-      "to": "K203234",
-      "kind": "primary",
+      "to": "K193483",
+      "kind": "additional",
       "confidence": "medium",
-      "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
+      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
       "hop": 2,
-      "page": 5
+      "page": 6
      },
      {
       "from": "K232380",
@@ -1392,10 +1436,753 @@
       "services": 20,
       "beneficiaries": 16
      }
+    ],
+    "trialSites": [
+     {
+      "name": "Barbara Davis Center, University of Colorado",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 6
+     },
+     {
+      "name": "Stanford University",
+      "city": "Stanford",
+      "state": "California",
+      "lat": 37.424,
+      "lon": -122.166,
+      "trials": 6
+     },
+     {
+      "name": "University of Virginia Center for Diabetes Technology",
+      "city": "Charlottesville",
+      "state": "Virginia",
+      "lat": 38.029,
+      "lon": -78.477,
+      "trials": 6
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 4
+     },
+     {
+      "name": "University of Virginia",
+      "city": "Charlottesville",
+      "state": "Virginia",
+      "lat": 38.029,
+      "lon": -78.477,
+      "trials": 4
+     },
+     {
+      "name": "Barbara Davis Center",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 3
+     },
+     {
+      "name": "Diabetes & Endocrine Treatment Specialists",
+      "city": "Sandy City",
+      "state": "Utah",
+      "lat": 40.592,
+      "lon": -111.884,
+      "trials": 2
+     },
+     {
+      "name": "Harvard University (Joslin Diabetes Center)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Icahn School of Medicine at Mount Sinai",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Icahn School of Medicine at Mt. Sinai",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Joslin Diabetes Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Sansum Diabetes Research Institute",
+      "city": "Santa Barbara",
+      "state": "California",
+      "lat": 34.421,
+      "lon": -119.698,
+      "trials": 2
+     },
+     {
+      "name": "Stanford University",
+      "city": "Palo Alto",
+      "state": "California",
+      "lat": 37.442,
+      "lon": -122.143,
+      "trials": 2
+     },
+     {
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 2
+     },
+     {
+      "name": "University of Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 47.606,
+      "lon": -122.332,
+      "trials": 2
+     },
+     {
+      "name": "AdventHealth Diabetes Institute",
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.538,
+      "lon": -81.379,
+      "trials": 1
+     },
+     {
+      "name": "Baltimore VA Medical Center",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.29,
+      "lon": -76.612,
+      "trials": 1
+     },
+     {
+      "name": "Barbara Davis Center (Pediatric Clinic)",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 1
+     },
+     {
+      "name": "Barbara Davis Center for Childhood Diabetes",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 1
+     },
+     {
+      "name": "Boston Medical Center Corporation",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 1
+     },
+     {
+      "name": "Children's Hospital Orange County",
+      "city": "Orange",
+      "state": "California",
+      "lat": 33.788,
+      "lon": -117.853,
+      "trials": 1
+     },
+     {
+      "name": "Children's Mercy Hospital",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "lat": 39.1,
+      "lon": -94.579,
+      "trials": 1
+     },
+     {
+      "name": "Diabetes & Glandular Disease (DGD)",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 1
+     },
+     {
+      "name": "Emory University School of Medicine",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Henry Ford Health System",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 1
+     },
+     {
+      "name": "Hoag Memorial Hospital Presbyterian",
+      "city": "Newport Beach",
+      "state": "California",
+      "lat": 33.619,
+      "lon": -117.929,
+      "trials": 1
+     },
+     {
+      "name": "Indiana University / Riley Hospital for Children",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 1
+     },
+     {
+      "name": "International Diabetes Center",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 1
+     },
+     {
+      "name": "Iowa Diabetes and Endocrinology Research Center (IDERC)",
+      "city": "West Des Moines",
+      "state": "Iowa",
+      "lat": 41.577,
+      "lon": -93.711,
+      "trials": 1
+     },
+     {
+      "name": "Northwestern University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 1
+     },
+     {
+      "name": "Northwestern University",
+      "city": "Evanston",
+      "state": "Illinois",
+      "lat": 42.041,
+      "lon": -87.69,
+      "trials": 1
+     },
+     {
+      "name": "Oregon Health & Science University",
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.523,
+      "lon": -122.676,
+      "trials": 1
+     },
+     {
+      "name": "Oregon Health and Science University",
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.523,
+      "lon": -122.676,
+      "trials": 1
+     },
+     {
+      "name": "Rainier Clinical Research Center",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 1
+     },
+     {
+      "name": "Rocky Mountain Clinical Research",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 1
+     },
+     {
+      "name": "Rocky Mountain Diabetes Center",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 1
+     },
+     {
+      "name": "SUNY Upstate",
+      "city": "Syracuse",
+      "state": "New York",
+      "lat": 43.048,
+      "lon": -76.147,
+      "trials": 1
+     },
+     {
+      "name": "SUNY Upstate Medical University",
+      "city": "Syracuse",
+      "state": "New York",
+      "lat": 43.048,
+      "lon": -76.147,
+      "trials": 1
+     },
+     {
+      "name": "Stanford University",
+      "city": "Los Gatos",
+      "state": "California",
+      "lat": 37.227,
+      "lon": -121.975,
+      "trials": 1
+     },
+     {
+      "name": "Tandem Diabetes",
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.716,
+      "lon": -117.165,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 137,
+     "usSites": 81,
+     "trials": 31,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 31,
+    "trialsWithAeTables": 14,
+    "seriousEventRows": 137,
+    "seriousSubjectsAffected": 88,
+    "deathTermSubjects": 1,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 31,
+    "trialsWithAeTables": 14,
+    "trialsWithSerious": 11,
+    "totals": {
+     "serious": {
+      "rows": 137,
+      "subjects": 88
+     },
+     "other": {
+      "rows": 232,
+      "subjects": 468
+     },
+     "deathTermSubjects": 1
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Ketosis",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 5,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Hypoglycemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 4,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "Unrelated to intervention",
+      "organSystem": "Endocrine disorders",
+      "rows": 2,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "Diabetic ketoacidosis",
+      "organSystem": "Endocrine disorders",
+      "rows": 8,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "COVID-19",
+      "organSystem": "Infections and infestations",
+      "rows": 4,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "Severe Hypoglycemia",
+      "organSystem": "Endocrine disorders",
+      "rows": 3,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "Severe hypoglycemic event",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 2,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Severe Hyperglycemia",
+      "organSystem": "Endocrine disorders",
+      "rows": 1,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Severe hypoglycemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 4,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Hyperglycaemia",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 2,
+      "subjectsAffected": 2
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT05785832",
+      "title": "A Randomized Trial Evaluating Control-IQ+ Technology in Adults With Type 2 Diabetes",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2023",
+      "seriousRows": 52,
+      "seriousSubjects": 26
+     },
+     {
+      "nctId": "NCT04016662",
+      "title": "Automated Insulin Delivery in Elderly With Type 1 Diabetes (AIDE T1D)",
+      "phase": "PHASE4",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 36,
+      "seriousSubjects": 16
+     },
+     {
+      "nctId": "NCT04503174",
+      "title": "Control-IQ Observational (CLIO) Post-Approval Study",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 4,
+      "seriousSubjects": 14
+     },
+     {
+      "nctId": "NCT04233229",
+      "title": "Evaluation of a Closed-loop Insulin Delivery System at Home With Tailored Home Care Services in Poorly Controlled Type 2",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2019",
+      "seriousRows": 18,
+      "seriousSubjects": 11
+     },
+     {
+      "nctId": "NCT04796779",
+      "title": "The Pediatric Artificial Pancreas (PEDAP) Trial of Control-IQ Technology in Young Children in Type 1 Diabetes",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 6,
+      "seriousSubjects": 5
+     },
+     {
+      "nctId": "NCT05403502",
+      "title": "Safety Evaluation of an Advanced Hybrid Closed Loop System Using Lyumjev With the Tandem t:Slim X2 Insulin Pump With Con",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2022",
+      "seriousRows": 4,
+      "seriousSubjects": 5
+     },
+     {
+      "nctId": "NCT03748433",
+      "title": "Assessment of the Impact of Real-Time Continuous Glucose Monitoring on People Presenting With Severe Hypoglycaemia",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2019",
+      "seriousRows": 2,
+      "seriousSubjects": 4
+     },
+     {
+      "nctId": "NCT03563313",
+      "title": "The International Diabetes Closed Loop (iDCL) Trial: Clinical Acceptance of the Artificial Pancreas",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2018",
+      "seriousRows": 8,
+      "seriousSubjects": 4
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 15,
+    "countries": 6,
+    "sources": 6,
+    "firstForeignDate": "2014-01-20",
+    "latestAction": {
+     "country": "United Kingdom",
+     "date": "2025-11-11",
+     "classification": "field-safety-notices"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2025-08-12",
+        "source": "tga-drac",
+        "actionType": "Product Alert",
+        "classification": "Class II",
+        "product": "Tandem t:slim X2 Insulin Pump",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2022-05-17",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "t:slim X2 Insulin Pump",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2020-09-09",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "t:slim X2 and t:slim X2 insulin pump with Basal-IQ technology",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2020-05-15",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "Tandem Diabetes Care t:slim X2 Insulin Pump",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2019-10-24",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "Tandem t:slim X2 Insulin Pump - A/C Power Adapter",
+        "reason": "Action level: Consumer",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2025-11-11",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 3 to 7 November 2025",
+        "reason": "List of Field Safety Notices from 3 to 7 November 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-3-to-7-november-2025"
+       },
+       {
+        "date": "2022-09-20",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 12 to 16 September 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 12 to 16 September 2022",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-12-to-16-september-2022"
+       },
+       {
+        "date": "2022-02-21",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 14 to 18 February 2022",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 14 to 18 February 2022.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-14-to-18-february-2022"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2025-08-15",
+        "source": "medsafe-nz",
+        "actionType": "Alert",
+        "classification": "Public Recall",
+        "product": "Tandem t:slim X2 insulin pump with CIQ/CIQ+ Tandem t:slim X2 Pump with Control IQ Technology",
+        "reason": "The manufacturer has identified certain speaker versions that have a higher rate of Malfunction 16 events due to a wiring problem within the speaker.\nIf a Malfunction 16 is declared on the pump, insulin delivery will stop, and the pump is no longer operational.\nA Malfunction 16 will stop insulin del",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=35574"
+       },
+       {
+        "date": "2022-05-27",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Tandem t:slim X2 insulin pump with Basal-IQ (new replacement pump) Tandem t:slim X2 Insulin Pump with Basal-IQ Technology",
+        "reason": "There are potential risks when using the pump within its normal specifications resulting in a loss of therapy. Software updates are planned by the sponsor to mitigate these risks.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29472"
+       },
+       {
+        "date": "2019-11-01",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Public Recall",
+        "product": "Tandem t:slim X2 insulin pump",
+        "reason": "The manufacturer has identified an issue which involves the A/C power adapter breaking apart, thus exposing the metal prongs contained within the adapter, which could cause injury if the exposed metal prongs were touched when the adapter was plugged into an electrical wall outlet.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=25246"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2025-08-13",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "t:slim X2 Insulin Pump ",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2023-04-03",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "t:slim X2 with Basal-IQ Technology 1006419 \u00b7 t:slim X2 Insulin Pump with Control-IQ Technology 1005611",
+        "reason": "New Safety letter for HCP (version 3), new Language added",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2025-08-08",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "t:slim X Insulin Pumps \u00b7 t:slim X Insulin Pumps",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/tslim-x-insulin-pumps"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2014-01-20",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "t:slim Insulin Pump",
+        "reason": "Safety alert on insulin cartridges of t:slim Insulin Pump\nThe Department of Health (DH) today (January 20) drew the public's attention to a safety alert issued by the United States Food and Drug Administration on a voluntary recall by Tandem Diabetes Care, an American medical device manufacturer, ov",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20140120.html"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2014,
+      "value": 1
+     },
+     {
+      "year": 2019,
+      "value": 2
+     },
+     {
+      "year": 2020,
+      "value": 2
+     },
+     {
+      "year": 2022,
+      "value": 4
+     },
+     {
+      "year": 2023,
+      "value": 1
+     },
+     {
+      "year": 2025,
+      "value": 5
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 13,
+     "onMarket": 13,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "class-iii": 12,
+      "class-iia": 1
+     },
+     "manufacturers": [
+      "Tandem Diabetes Care, Inc."
+     ],
+     "note": null
+    },
+    "callouts": [],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -1404,7 +2191,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 24500
 }

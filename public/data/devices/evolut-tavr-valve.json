@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 1934,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 24,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 8,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -522,6 +534,42 @@
      "value": 236
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 6
+    },
+    {
+     "year": 2020,
+     "value": 5
+    },
+    {
+     "year": 2021,
+     "value": 3
+    },
+    {
+     "year": 2022,
+     "value": 4
+    },
+    {
+     "year": 2023,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 4
+    }
+   ]
   }
  ],
  "modules": {
@@ -536,32 +584,32 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 6875,
-      "narrative": "PRODUCT ANALYSIS: THE DEVICE REMAINS IMPLANTED; THEREFORE, NO PRODUCT ANALYSIS CAN BE PERFORMED. CONCLUSION: WITHOUT THE RETURN OF THE PRODUCT, NO DEFINITIVE CONCLUSION CAN BE MADE REGARDING THE CLINICAL OBSERVATION. CONDUCTION DISTURBANCES ARE KNOWN POTENTIAL ADVERSE EFFECTS ASSOCIATED WITH ANY CARDIAC OR THORACIC PROCEDURE (OPEN OR CATHETER-BASED) AND CAN BE RESOLVED WITH MEDICAL TREATMENT OR THE IMPLANT OF A PERMA"
+      "narrative": "A HEMATOMA WAS EXPERIENCED 24 HOURS POST-DEPLOYMENT OF A 6F ANGIOSEAL EVOLUTION VASCULAR CLOSURE DEVICE. MANUAL COMPRESSION WAS USED TO RESOLVE THE HEMATOMA. THE PATIENT'S HOSPITAL STAY WAS EXTENDED DUE TO THE EVENT."
      },
      {
       "problem": "Patient Device Interaction Problem",
       "reports": 3669,
-      "narrative": "UPDATED DATA: B5. PARAGRAPH SIX ADDED. H6. PATIENT AND DEVICE CODES ADDED ADDITIONAL CODES. ANNEX G ADDED. MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE"
+      "narrative": "UPDATED DATA: B3, B5, B6. MEDTRONIC SUBMITS THIS REPORT TO COMPLY WITH FDA REGULATIONS 21 CFR PARTS 4 AND 803. MEDTRONIC HAS MADE REASONABLE EFFORTS TO PROVIDE AS MUCH RELEVANT INFORMATION AS IS AVAILABLE TO THE COMPANY AS OF THE SUBMISSION DATE OF THIS REPORT. THIS REPORT DOES NOT CONSTITUTE AN ADMISSION OR A CONCLUSION BY FDA, MEDTRONIC, OR ITS EMPLOYEES THAT THE DEVICE, MEDTRONIC, OR ITS EMPLOYEE CAUSED OR CONTRIB"
      },
      {
       "problem": "Device Dislodged or Dislocated",
       "reports": 3502,
-      "narrative": "MEDTRONIC RECEIVED INFORMATION THAT DURING THE IMPLANT OF THIS TRANSCATHETER BIOPROSTHETIC VALVE, A SECOND TRANSCATHETER BIOPROSTHETIC VALVE WAS IMPLANTED FOR AN UNKNOWN REASON. NO ADDITIONAL ADVERSE PATIENT EFFECTS WERE REPORTED."
+      "narrative": "CONCLUSION: POTENTIAL FACTORS THAT CAN INFLUENCE A DISLODGED VALVE INCLUDE TENSION APPLIED ON THE DELIVERY CATHETER SYSTEM (DCS) DURING POSITIONING, CALCIFICATION LEVELS IN THE NATIVE VESSEL, COMPLIANCE OF THE AORTA AND NATIVE VESSELS, AND A NUMBER OF OTHERS, BUT A ROOT CAUSE COULD NOT BE ESTABLISHED FROM THE LIMITED INFORMATION AVAILABLE. HOWEVER, PATIENT ANATOMY AND CONDITION WERE LIKELY ROOT CAUSES AS HEAVY LEAFLE"
      },
      {
       "problem": "Perivalvular Leak",
       "reports": 2902,
-      "narrative": "OTHER RELEVANT DEVICE(S) ARE: PRODUCT ID: E VPROPLUS-34US, SERIAL/LOT #: (B)(4), UBD: 14-AUG-2020, UDI#: (B)(4). PRODUCT ANALYSIS: THE DEVICES REMAINS IMPLANTED, THEREFORE NO PRODUCT ANALYSIS CAN BE PERFORMED. CONCLUSION: WITHOUT THE RETURN OF THE PRODUCTS, NO DEFINITIVE CONCLUSION CAN BE MADE REGARDING THE CLINICAL OBSERVATION. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+      "narrative": "B5: ADDITIONAL INFORMATION WAS RECEIVED THAT DURING THE IMPLANT PROCEDURE OF THIS TRANSCATHETER BIOPROSTHETIC VALVE A 22 MILLIMETER (MM) NON-MEDTRONIC BALLOON WAS USED FOR THE AORTIC VALVULOPLASTY (BAV). FURTHER, SIX MONTHS FOLLOWING THE IMPLANT OF THIS TRANSCATHETER VALVE, A TRANSESOPHAGEAL ECHOCARDIOGRAM (TEE) REVEALED MILD TO MODERATE PARAVALVULAR LEAK (PVL). ONE YEAR AFTER THE IMPLANT, A TRANSESOPHAGEAL ECHOCARDI"
      },
      {
       "problem": "Insufficient Information",
       "reports": 2709,
-      "narrative": "PRODUCT ANALYSIS: NO PRODUCT WAS RETURNED. CONCLUSION: WITHOUT THE RETURN OF THE PRODUCT, NO DEFINITIVE CONCLUSION CAN BE MADE REGARDING THE CLINICAL OBSERVATION. MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE"
+      "narrative": "TVT REGISTRY EXEMPTION NUMBER: E2014038 QUARTERLY REPORTING PERIOD: Q3 2020 TOTAL NUMBER OF EVENTS BEING SUMMARIZED: 5 UNDER THE TERMS AND CONDITIONS OF THE REGISTRY, ANONYMIZED PATIENT DEMOGRAPHICS DETAILS AND LIMITED DETAILS WERE PROVIDED REGARDING THE ADVERSE EVENTS AND OUTCOMES. THE LISTED EVENT DATE IS THE DATE THE INFORMATION WAS RECEIVED BY MEDTRONIC. THE PATIENT INFORMATION INCLUDED IN SECTION A. IS AN AVERAG"
      },
      {
       "problem": "Material Invagination",
       "reports": 1124,
-      "narrative": "CONTINUATION OF D10: PRODUCT ID D-EVOLUTFX-2329 (LOT: 0013030667); PRODUCT TYPE: 0195-HEART VALVES; IMPLANT DATE ; EXPLANT DATE SELECT PATIENT INFORMATION CANNOT BE INCLUDED IN THE REGULATORY REPORT DUE TO REGIONAL PRIVACY REGULATIONS. MEDTRONIC SUBMITS THIS REPORT TO COMPLY WITH FDA REGULATIONS 21 CFR PARTS 4 AND 803. MEDTRONIC HAS MADE REASONABLE EFFORTS TO PROVIDE AS MUCH RELEVANT INFORMATION AS IS AVAILABLE TO TH"
+      "narrative": "ADDITIONAL CODES: ANNEX F MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH R"
      },
      {
       "problem": "Activation Failure",
@@ -571,7 +619,7 @@
      {
       "problem": "Gradient Increase",
       "reports": 602,
-      "narrative": "MEDTRONIC RECEIVED INFORMATION THAT DURING THE IMPLANT OF THIS TRANSCATHETER BIOPROSTHETIC VALVE, DIRECT ARTERIAL CUTDOWN ACCESS WAS PERFORMED TO THE LEFT COMMON FEMORAL ARTERY (CFA) AND A 5FR SHEATH WAS PLACED. PERCUTANEOUS ACCESS WAS COMPLETED BY THE IMPLANTING PHYSICIAN TO THE RIGHT CFA. ANGIOGRAPHY OF THE RIGHT CFA ACCESS SITE SHOWED THAT THE SHEATH WAS IN THE MIDPORTION OF THE CFA. MODERATE-SEVERE CALCIFICATION"
+      "narrative": "ADDITIONAL INFORMATION WAS RECEIVED THAT PRIOR TO THE VALVE IMPLANT, ECHOCARDIOGRAM SHOWED A MEAN GRADIENT OF 34. THE AI WAS CLARIFIED TO BE SEVERE CENTRAL AORTIC REGURGITATION WITH THE FIRST VALVE. ONE INFLATION OF THE BALLOON WAS PERFORMED WITH AN INDEFLATOR INFLATION DEVICE. THE PREVIOUSLY REPORTED \"LEAFLET DISRUPTION\" WAS CLARIFIED TO BE A LEAFLET TEAR. PER THE PHYSICIAN, THE NATURE OF THE EVENT, VALVE-IN-VALVE,"
      }
     ]
    },
@@ -859,37 +907,10 @@
     "edges": [
      {
       "from": "K250954",
-      "to": "K202441",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "K213529) for use with the previously cleared Eclipse II w/SNC. Smart Noise Cancellation clearances: \u2022 Eclipse II with Enhanced Noise Reduction (K202441) \u2022 Eclipse II SNC Claims (K213307) \u2022 DRX Evolution Plus (K233381) \u2022 DRX Compass (K223842) Clinical and Non Clinical Testing A",
-      "hop": 1,
-      "page": 9
-     },
-     {
-      "from": "K250954",
       "to": "K213646",
       "kind": "document-wide",
       "confidence": "low",
       "quote": "atib 2530 systems passed and is provided in\nle Digital (K183245) \u2022 Lux HD 43 (K243556) this submission.\nFlat \u2022 Focus HD\nPanel\n35\nDetectors (K213646)\n\u2022 Focus HD\nCompass: New detectors without DEC\n\u2022 DRX Plus feature\n2530 \u2022 Lux HD 35\n(K183245)\n(K243556)\n*Compass will not support",
-      "hop": 1,
-      "page": 8
-     },
-     {
-      "from": "K250954",
-      "to": "K233381",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "Device Class Class II Device Code(s) KPR, MQB Regulation Number(s) 21 CFR 892.1680 Lux HD Detectors (K243556) DRX-Evolution Plus X-ray System (K233381) Predicate Device(s) DRX-Compass X-ray System (K223842) P a g e 1|6",
-      "hop": 1,
-      "page": 5
-     },
-     {
-      "from": "K250954",
-      "to": "K213529",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "Focus HD *Compass will not support the 35 \u2022 Lux HD 43 DEC feature, however it will be (K213646) (K243556) compatible with Lux HD for \u2022 Focus HD general radiography purpose only. 43 (K213529) DR ImageView Software v2.0 Same Verification and Validation confirms Applicati with SNC",
       "hop": 1,
       "page": 8
      },
@@ -913,10 +934,19 @@
      },
      {
       "from": "K250954",
-      "to": "K213307",
+      "to": "K233381",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "cleared Eclipse II w/SNC. Smart Noise Cancellation clearances: \u2022 Eclipse II with Enhanced Noise Reduction (K202441) \u2022 Eclipse II SNC Claims (K213307) \u2022 DRX Evolution Plus (K233381) \u2022 DRX Compass (K223842) Clinical and Non Clinical Testing A clinical study was designed to",
+      "quote": "Device Class Class II Device Code(s) KPR, MQB Regulation Number(s) 21 CFR 892.1680 Lux HD Detectors (K243556) DRX-Evolution Plus X-ray System (K233381) Predicate Device(s) DRX-Compass X-ray System (K223842) P a g e 1|6",
+      "hop": 1,
+      "page": 5
+     },
+     {
+      "from": "K250954",
+      "to": "K202441",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "K213529) for use with the previously cleared Eclipse II w/SNC. Smart Noise Cancellation clearances: \u2022 Eclipse II with Enhanced Noise Reduction (K202441) \u2022 Eclipse II SNC Claims (K213307) \u2022 DRX Evolution Plus (K233381) \u2022 DRX Compass (K223842) Clinical and Non Clinical Testing A",
       "hop": 1,
       "page": 9
      },
@@ -930,22 +960,22 @@
       "page": 5
      },
      {
-      "from": "K251148",
-      "to": "K182081",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "the following: 510(k) Product Applicant Device name Number code J DENTAL CARE S.r.l. JDEvolution K143142 DZE, NHA J DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA JDentalCare Dental Implant System: J DENTAL CARE S.r.l. K233896 DZE, NHA JDEvolution plus; JDEvolution S; JDIcon Nobel",
+      "from": "K250954",
+      "to": "K213529",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Focus HD *Compass will not support the 35 \u2022 Lux HD 43 DEC feature, however it will be (K213646) (K243556) compatible with Lux HD for \u2022 Focus HD general radiography purpose only. 43 (K213529) DR ImageView Software v2.0 Same Verification and Validation confirms Applicati with SNC",
       "hop": 1,
-      "page": 6
+      "page": 8
      },
      {
-      "from": "K251148",
-      "to": "K233896",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "CARE S.r.l. JDEvolution K143142 DZE, NHA J DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA JDentalCare Dental Implant System: J DENTAL CARE S.r.l. K233896 DZE, NHA JDEvolution plus; JDEvolution S; JDIcon Nobel Biocare AB NobelSpeedy Implants K050406 DZE This reference device has not",
+      "from": "K250954",
+      "to": "K213307",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "cleared Eclipse II w/SNC. Smart Noise Cancellation clearances: \u2022 Eclipse II with Enhanced Noise Reduction (K202441) \u2022 Eclipse II SNC Claims (K213307) \u2022 DRX Evolution Plus (K233381) \u2022 DRX Compass (K223842) Clinical and Non Clinical Testing A clinical study was designed to",
       "hop": 1,
-      "page": 6
+      "page": 9
      },
      {
       "from": "K251148",
@@ -967,6 +997,15 @@
      },
      {
       "from": "K251148",
+      "to": "K233896",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "CARE S.r.l. JDEvolution K143142 DZE, NHA J DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA JDentalCare Dental Implant System: J DENTAL CARE S.r.l. K233896 DZE, NHA JDEvolution plus; JDEvolution S; JDIcon Nobel Biocare AB NobelSpeedy Implants K050406 DZE This reference device has not",
+      "hop": 1,
+      "page": 6
+     },
+     {
+      "from": "K251148",
       "to": "K160119",
       "kind": "primary",
       "confidence": "high",
@@ -975,22 +1014,13 @@
       "page": 6
      },
      {
-      "from": "K253185",
-      "to": "K202441",
+      "from": "K251148",
+      "to": "K182081",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "X-LC for use with the previously cleared Eclipse II\nw/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus (K233381)\n\u2022 DRX-Compass (K223842)\n\u2022",
+      "quote": "the following: 510(k) Product Applicant Device name Number code J DENTAL CARE S.r.l. JDEvolution K143142 DZE, NHA J DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA JDentalCare Dental Implant System: J DENTAL CARE S.r.l. K233896 DZE, NHA JDEvolution plus; JDEvolution S; JDIcon Nobel",
       "hop": 1,
-      "page": 9
-     },
-     {
-      "from": "K253185",
-      "to": "K203159",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": ") confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector impact image quality.\nDetectors (K203159) The detectors being added are\npreviously cleared detectors sold\non the US market.\nDR ImageView Software Same Same ImageView",
-      "hop": 1,
-      "page": 8
+      "page": 6
      },
      {
       "from": "K253185",
@@ -1003,6 +1033,42 @@
      },
      {
       "from": "K253185",
+      "to": "K241505",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ll support the new Lux HD Detectors with the DEC\nfunction (K243556), additionally the detectors will also support the optional SNC feature (K241505).\nCarestream Mobile X-ray Systems\nDRX-Revolution Mobile X-Ray System is a mobile diagnostic x-ray system that utilizes",
+      "hop": 1,
+      "page": 6
+     },
+     {
+      "from": "K253185",
+      "to": "K153142",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "em, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243556) Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059)",
+      "hop": 1,
+      "page": 8
+     },
+     {
+      "from": "K253185",
+      "to": "K233381",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "gital x-ray\nsystems. The base version of the software (2.0) has been cleared with the following Carestream DR\nsystems\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K223842)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus X-ray System, DRX-Compass Mobile X-ray System with Lux HD",
+      "hop": 1,
+      "page": 9
+     },
+     {
+      "from": "K253185",
+      "to": "K250954",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "obile\nMobile X-ray System X-ray System, DRX- X-ray System (K253185)\n(K241505) Compass X-ray\nSystem, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243556) Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43",
+      "hop": 1,
+      "page": 8
+     },
+     {
+      "from": "K253185",
       "to": "K235185",
       "kind": "primary",
       "confidence": "medium",
@@ -1012,10 +1078,10 @@
      },
      {
       "from": "K253185",
-      "to": "K250954",
+      "to": "K230059",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "obile\nMobile X-ray System X-ray System, DRX- X-ray System (K253185)\n(K241505) Compass X-ray\nSystem, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243556) Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43",
+      "quote": "Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059) confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector impact",
       "hop": 1,
       "page": 8
      },
@@ -1030,28 +1096,10 @@
      },
      {
       "from": "K253185",
-      "to": "K233381",
+      "to": "K203159",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "gital x-ray\nsystems. The base version of the software (2.0) has been cleared with the following Carestream DR\nsystems\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K223842)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus X-ray System, DRX-Compass Mobile X-ray System with Lux HD",
-      "hop": 1,
-      "page": 9
-     },
-     {
-      "from": "K253185",
-      "to": "K153142",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "em, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243556) Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059)",
-      "hop": 1,
-      "page": 8
-     },
-     {
-      "from": "K253185",
-      "to": "K230059",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059) confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector impact",
+      "quote": ") confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector impact image quality.\nDetectors (K203159) The detectors being added are\npreviously cleared detectors sold\non the US market.\nDR ImageView Software Same Same ImageView",
       "hop": 1,
       "page": 8
      },
@@ -1066,12 +1114,12 @@
      },
      {
       "from": "K253185",
-      "to": "K241505",
+      "to": "K202441",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "ll support the new Lux HD Detectors with the DEC\nfunction (K243556), additionally the detectors will also support the optional SNC feature (K241505).\nCarestream Mobile X-ray Systems\nDRX-Revolution Mobile X-Ray System is a mobile diagnostic x-ray system that utilizes",
+      "quote": "X-LC for use with the previously cleared Eclipse II\nw/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus (K233381)\n\u2022 DRX-Compass (K223842)\n\u2022",
       "hop": 1,
-      "page": 6
+      "page": 9
      },
      {
       "from": "K253185",
@@ -1147,6 +1195,15 @@
      },
      {
       "from": "K160119",
+      "to": "K133731",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "AB NobelSpeedy\u00ae Groovy Traditional 510(k) The following is used as reference device within the submission: \u2022 NobelActive Wide Platform (WP), K133731, Nobel Biocare IV. Device Description NobelSpeedy\u00ae Groovy implants are threaded, root-form dental implants intended for use in the",
+      "hop": 2,
+      "page": 5
+     },
+     {
+      "from": "K160119",
       "to": "K063341",
       "kind": "additional",
       "confidence": "medium",
@@ -1155,11 +1212,11 @@
       "page": 4
      },
      {
-      "from": "K160119",
-      "to": "K133731",
+      "from": "K182081",
+      "to": "K102436",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "AB NobelSpeedy\u00ae Groovy Traditional 510(k) The following is used as reference device within the submission: \u2022 NobelActive Wide Platform (WP), K133731, Nobel Biocare IV. Device Description NobelSpeedy\u00ae Groovy implants are threaded, root-form dental implants intended for use in the",
+      "quote": "510(k) Applicant Device name Number Adin Dental Implants TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. Nobel Biocare USA LLC Nobel Active 3.0 K102436 Straumann USA LLC Straumann\u00ae Dental Implant System SLA\u00ae K123784 4. Device Description JDentalCare\u00ae implant system JDIcon\u00ae is",
       "hop": 2,
       "page": 5
      },
@@ -1174,30 +1231,21 @@
      },
      {
       "from": "K182081",
-      "to": "K123784",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. Nobel Biocare USA LLC Nobel Active 3.0 K102436 Straumann USA LLC Straumann\u00ae Dental Implant System SLA\u00ae K123784 4. Device Description JDentalCare\u00ae implant system JDIcon\u00ae is composed by a fixture and an abutment, joined together by a",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K182081",
-      "to": "K102436",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "510(k) Applicant Device name Number Adin Dental Implants TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. Nobel Biocare USA LLC Nobel Active 3.0 K102436 Straumann USA LLC Straumann\u00ae Dental Implant System SLA\u00ae K123784 4. Device Description JDentalCare\u00ae implant system JDIcon\u00ae is",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K182081",
       "to": "K143142",
       "kind": "primary",
       "confidence": "high",
       "quote": "device is the following: 510(k) Product Applicant Device name Device Model name Number code J Dental Care JDentalCare\u00ae Implant DZE JDEvolution K143142 S.r.l. System NHA Page 1 / 15 Vol001-5/80",
       "hop": 2,
       "page": 4
+     },
+     {
+      "from": "K182081",
+      "to": "K123784",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. Nobel Biocare USA LLC Nobel Active 3.0 K102436 Straumann USA LLC Straumann\u00ae Dental Implant System SLA\u00ae K123784 4. Device Description JDentalCare\u00ae implant system JDIcon\u00ae is composed by a fixture and an abutment, joined together by a",
+      "hop": 2,
+      "page": 5
      },
      {
       "from": "K183245",
@@ -1219,12 +1267,48 @@
      },
      {
       "from": "K202441",
+      "to": "K130464",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C (K120062), DRX 2530C (CsI) (K130464) Summary of Clinical Testing A clinical evaluation was performed by board certified radiologists. The images were evaluated using a",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K202441",
+      "to": "K120062",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C (K120062), DRX 2530C (CsI) (K130464) Summary of Clinical Testing A clinical evaluation was performed by board certified radiologists. The",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K202441",
+      "to": "K150766",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "software for all supported detector types and exposure levels tested. A complete list of the supported detectors: * DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1) * DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) *",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K202441",
       "to": "K153142",
       "kind": "document-wide",
       "confidence": "low",
       "quote": "A complete list of the supported detectors: * DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1) * DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C",
       "hop": 2,
       "page": 6
+     },
+     {
+      "from": "K202441",
+      "to": "K180809",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Class 11 Product Code MQB Regulation Number 21 CFR 892.1680 Regulation Description Stationary X-ray system Predicate Device Eclipse 11 510(k) K180809 Carestream Health, Inc. is submitting this Traditional 510(k) premarket notification for modifications to the Eclipse II with",
+      "hop": 2,
+      "page": 4
      },
      {
       "from": "K202441",
@@ -1243,51 +1327,6 @@
       "quote": "A complete list of the supported detectors: * DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1) * DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C",
       "hop": 2,
       "page": 6
-     },
-     {
-      "from": "K202441",
-      "to": "K150766",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "software for all supported detector types and exposure levels tested. A complete list of the supported detectors: * DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1) * DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) *",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K202441",
-      "to": "K120062",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C (K120062), DRX 2530C (CsI) (K130464) Summary of Clinical Testing A clinical evaluation was performed by board certified radiologists. The",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K202441",
-      "to": "K130464",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "3543C (CsI) (K203159) * DRX Plus 2530C (Kl83245) * Carestream DRX-1 System w/DRX-1 Detector (K090318) * DRX-1C (K120062), DRX 2530C (CsI) (K130464) Summary of Clinical Testing A clinical evaluation was performed by board certified radiologists. The images were evaluated using a",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K202441",
-      "to": "K180809",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Class 11 Product Code MQB Regulation Number 21 CFR 892.1680 Regulation Description Stationary X-ray system Predicate Device Eclipse 11 510(k) K180809 Carestream Health, Inc. is submitting this Traditional 510(k) premarket notification for modifications to the Eclipse II with",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K203159",
-      "to": "K130464",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "The predicate device (DRX Plus 3543) has clearance with DRX-1 under K150766. Additionally, the DRX-1 System has clearance for the following Carestream detectors: \u2022 K130464 (DRX 2530C) \u2022 K183425 (DRX Plus 2530 Detector) \u2022 K150766 (DRX 3543 Plus Detectors) Page 2 of 6",
-      "hop": 2,
-      "page": 5
      },
      {
       "from": "K203159",
@@ -1309,10 +1348,46 @@
      },
      {
       "from": "K203159",
+      "to": "K150766",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Flat Panel Detector. Caresteam believes the modified DRX Plus 3543C Flat Panel Detector is substantially equivalent to the cleared device (K150766). Date Summary Prepared: August 15 2020 Predicate Subject Device Trade Name DRX Plus 3543 Detector Lux 35 Detector Device Common",
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K203159",
       "to": "K163203",
       "kind": "document-wide",
       "confidence": "low",
       "quote": "The ImageView Software has obtained several FDA clearances for use with Carestream Digital Radiography Systems used with the Carestream flat panels: \u25aa K163203 \u2013 DRX Evolution System with Image View Software \u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Software \u25aa",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K203159",
+      "to": "K060137",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "may be used. Excluded from the indications for use are mammography, fluoroscopy, and angiography applications Image Eclipse Image Software (K060137) Eclipse Image Software Predicate software used a 4- Processing II (K180809) frequency band decomposition Software method, the",
+      "hop": 2,
+      "page": 8
+     },
+     {
+      "from": "K203159",
+      "to": "K130464",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The predicate device (DRX Plus 3543) has clearance with DRX-1 under K150766. Additionally, the DRX-1 System has clearance for the following Carestream detectors: \u2022 K130464 (DRX 2530C) \u2022 K183425 (DRX Plus 2530 Detector) \u2022 K150766 (DRX 3543 Plus Detectors) Page 2 of 6",
+      "hop": 2,
+      "page": 5
+     },
+     {
+      "from": "K203159",
+      "to": "K201373",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "flat panels: \u25aa K163203 \u2013 DRX Evolution System with Image View Software \u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Software \u25aa K201373 \u2013 DRX-Compass Summary of Guidance & Standards Compliance \u2022 Content of Premarket Submissions for Management of Cybersecurity in",
       "hop": 2,
       "page": 6
      },
@@ -1333,33 +1408,6 @@
       "quote": "with Carestream Digital Radiography Systems used with the Carestream flat panels: \u25aa K163203 \u2013 DRX Evolution System with Image View Software \u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Software \u25aa K201373 \u2013 DRX-Compass Summary of Guidance & Standards Compliance \u2022",
       "hop": 2,
       "page": 6
-     },
-     {
-      "from": "K203159",
-      "to": "K201373",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "flat panels: \u25aa K163203 \u2013 DRX Evolution System with Image View Software \u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Software \u25aa K201373 \u2013 DRX-Compass Summary of Guidance & Standards Compliance \u2022 Content of Premarket Submissions for Management of Cybersecurity in",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K203159",
-      "to": "K150766",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Flat Panel Detector. Caresteam believes the modified DRX Plus 3543C Flat Panel Detector is substantially equivalent to the cleared device (K150766). Date Summary Prepared: August 15 2020 Predicate Subject Device Trade Name DRX Plus 3543 Detector Lux 35 Detector Device Common",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K203159",
-      "to": "K060137",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "may be used. Excluded from the indications for use are mammography, fluoroscopy, and angiography applications Image Eclipse Image Software (K060137) Eclipse Image Software Predicate software used a 4- Processing II (K180809) frequency band decomposition Software method, the",
-      "hop": 2,
-      "page": 8
      },
      {
       "from": "K213307",
@@ -1390,19 +1438,10 @@
      },
      {
       "from": "K223842",
-      "to": "K183245",
+      "to": "K150766",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "(K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) Lux 35 (K203159) Application System Software Image View Software Same Wall",
-      "hop": 2,
-      "page": 7
-     },
-     {
-      "from": "K223842",
-      "to": "K192512",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Carestream DRX Plus Detectors Supports the same detectors as Devices (Detector) (K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43",
+      "quote": "System DRX-Compass System (K201373) Digital Radiography Imaging Carestream DRX Plus Detectors Supports the same detectors as Devices (Detector) (K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below:",
       "hop": 2,
       "page": 7
      },
@@ -1417,19 +1456,19 @@
      },
      {
       "from": "K223842",
-      "to": "K201373",
-      "kind": "primary",
+      "to": "K192512",
+      "kind": "additional",
       "confidence": "medium",
-      "quote": "Jessica DeRyke Regulatory Affairs Manager Jessica.deryke@carestream.com 585-489-7627 Date Summary Prepared: December 9, 2022 Predicate 510(k) Submitter: Carestream Health, Inc. 510(k) Number: K201373 Trade Name: DRX-Compass Device: System, X-Ray, Stationary Regulation",
+      "quote": "Carestream DRX Plus Detectors Supports the same detectors as Devices (Detector) (K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43",
       "hop": 2,
-      "page": 4
+      "page": 7
      },
      {
       "from": "K223842",
-      "to": "K213529",
+      "to": "K183245",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) Lux 35 (K203159) Application System Software Image View Software Same Wall Stand Non-Tilting: WS-NT Same Tilting options: WS-T",
+      "quote": "(K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) Lux 35 (K203159) Application System Software Image View Software Same Wall",
       "hop": 2,
       "page": 7
      },
@@ -1444,6 +1483,15 @@
      },
      {
       "from": "K223842",
+      "to": "K201373",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Jessica DeRyke Regulatory Affairs Manager Jessica.deryke@carestream.com 585-489-7627 Date Summary Prepared: December 9, 2022 Predicate 510(k) Submitter: Carestream Health, Inc. 510(k) Number: K201373 Trade Name: DRX-Compass Device: System, X-Ray, Stationary Regulation",
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K223842",
       "to": "K203159",
       "kind": "document-wide",
       "confidence": "low",
@@ -1453,10 +1501,10 @@
      },
      {
       "from": "K223842",
-      "to": "K150766",
+      "to": "K213529",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "System DRX-Compass System (K201373) Digital Radiography Imaging Carestream DRX Plus Detectors Supports the same detectors as Devices (Detector) (K150766) the predicate devices and the Focus 35C Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below:",
+      "quote": "Detector (K192512) additional detectors listed Focus 43C Detector (K200622) below: DRX Plus 2530 (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) Lux 35 (K203159) Application System Software Image View Software Same Wall Stand Non-Tilting: WS-NT Same Tilting options: WS-T",
       "hop": 2,
       "page": 7
      },
@@ -1480,24 +1528,6 @@
      },
      {
       "from": "K233381",
-      "to": "K220536",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "2504 Cesium Iodide No Focus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium Iodide Yes Table 1 Substantial Equivalence: Based upon",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K233381",
-      "to": "K203159",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium Iodide Yes Table 1 Substantial Equivalence: Based upon information provided within this submission, we",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K233381",
       "to": "K213646",
       "kind": "additional",
       "confidence": "medium",
@@ -1507,10 +1537,19 @@
      },
      {
       "from": "K233381",
-      "to": "K213529",
+      "to": "K230059",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "Material Dual Energy DRX Plus 2530C K183245 98\u00b5m 3016 x 2504 Cesium Iodide No Focus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium",
+      "quote": "additional detectors listed Detectors below: DRX Plus 2530C (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) LUX 35 (K203159) DRX-LC (K230059) Application System Software Image View Software Same Electrical Safety IEC 60601-1 Same IEC 60601-1-2 IEC 60601-1-3 IEC 60601-2-54",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K233381",
+      "to": "K220536",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "2504 Cesium Iodide No Focus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium Iodide Yes Table 1 Substantial Equivalence: Based upon",
       "hop": 2,
       "page": 5
      },
@@ -1525,46 +1564,37 @@
      },
      {
       "from": "K233381",
-      "to": "K230059",
+      "to": "K203159",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "additional detectors listed Detectors below: DRX Plus 2530C (K183245) Focus HD 35 (K213646) Focus HD 43 (K213529) LUX 35 (K203159) DRX-LC (K230059) Application System Software Image View Software Same Electrical Safety IEC 60601-1 Same IEC 60601-1-2 IEC 60601-1-3 IEC 60601-2-54",
+      "quote": "3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium Iodide Yes Table 1 Substantial Equivalence: Based upon information provided within this submission, we",
+      "hop": 2,
+      "page": 5
+     },
+     {
+      "from": "K233381",
+      "to": "K213529",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Material Dual Energy DRX Plus 2530C K183245 98\u00b5m 3016 x 2504 Cesium Iodide No Focus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No Focus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No DRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No Lux 35 K203159 139\u00b5m 2560 x 3072 Cesium",
+      "hop": 2,
+      "page": 5
+     },
+     {
+      "from": "K233896",
+      "to": "K153111",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "510(k) Product Applicant Device name Number code JDentalCare\u00ae Implant System DZE J DENTAL CARE S.r.l. K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel",
       "hop": 2,
       "page": 6
      },
      {
       "from": "K233896",
-      "to": "K160119",
+      "to": "K171142",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K233896",
-      "to": "K142260",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS Implants MIS V3 Conical Connection",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K233896",
-      "to": "K143142",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Reference devices that have been considered are the following: 510(k) Product Applicant Device name Number code JDentalCare\u00ae Implant System DZE J DENTAL CARE S.r.l. K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K233896",
-      "to": "K202344",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare",
+      "quote": "Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS Implants MIS V3 Conical Connection Dental Implant DZE K163349 Technologies System NHA This reference devices",
       "hop": 2,
       "page": 6
      },
@@ -1588,19 +1618,82 @@
      },
      {
       "from": "K233896",
-      "to": "K171142",
+      "to": "K202344",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS Implants MIS V3 Conical Connection Dental Implant DZE K163349 Technologies System NHA This reference devices",
+      "quote": "K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare",
       "hop": 2,
       "page": 6
      },
      {
       "from": "K233896",
-      "to": "K153111",
+      "to": "K143142",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "510(k) Product Applicant Device name Number code JDentalCare\u00ae Implant System DZE J DENTAL CARE S.r.l. K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel",
+      "quote": "Reference devices that have been considered are the following: 510(k) Product Applicant Device name Number code JDentalCare\u00ae Implant System DZE J DENTAL CARE S.r.l. K143142 JDEvolution\u00ae NHA Adin Dental Implants DZE TOUAREG CloseFit\u2122 UNP 2.75mmD K153111 Systems Ltd. NHA Nobel",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K233896",
+      "to": "K160119",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "UNP 2.75mmD K153111 Systems Ltd. NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K233896",
+      "to": "K142260",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "NHA Nobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE Nobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE DZE Nobel Biocare AB Nobel Active K142260 NHA Nobel Biocare Healing Cap Multi-Unit Nobel Biocare AB K171142 NHA Titanium MIS Implants MIS V3 Conical Connection",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K241505",
+      "to": "K191025",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "X-ray system Device Class Class II Device Code IZL Regulation Number 21 CFR 892.1720. Predicate Device DRX-Revolution Mobile X-Ray System (K191025) Carestream Health, Inc. is submitting this Traditional 510(k) premarket notification for modifications to the DRX-Revolution",
+      "hop": 2,
+      "page": 5
+     },
+     {
+      "from": "K241505",
+      "to": "K202441",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ImageView Software Same No impact Software Smart Noise No Yes SNC is cleared with a stationary Cancellation (SNC) x-ray system (DRX Evolution - K202441). SNC functions the same on the DRX-Revolution system (mobile) as it does on the DRX-Evolution (in-room) system. Comparison",
+      "hop": 2,
+      "page": 7
+     },
+     {
+      "from": "K241505",
+      "to": "K163203",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The digital radiography application software has been cleared for use across the following Carestream digital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842), DRX-Revolution (K191025). \u2022 The ImageView software is the same image acquisition",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K241505",
+      "to": "K223842",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The digital radiography application software has been cleared for use across the following Carestream digital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842), DRX-Revolution (K191025). \u2022 The ImageView software is the same image acquisition",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K241505",
+      "to": "K150766",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The modified DRX-Revolution system is compatible with the following legally marketed Carestream detectors (same detectors cleared with the predicate device): DRX Plus 3543C (K150766), DRX Plus 4343C (K153142), DRX Plus 2530C (K183245). \u2022 The Lux 35 detector is an additional",
       "hop": 2,
       "page": 6
      },
@@ -1624,64 +1717,10 @@
      },
      {
       "from": "K241505",
-      "to": "K150766",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "The modified DRX-Revolution system is compatible with the following legally marketed Carestream detectors (same detectors cleared with the predicate device): DRX Plus 3543C (K150766), DRX Plus 4343C (K153142), DRX Plus 2530C (K183245). \u2022 The Lux 35 detector is an additional",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K241505",
-      "to": "K202441",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "ImageView Software Same No impact Software Smart Noise No Yes SNC is cleared with a stationary Cancellation (SNC) x-ray system (DRX Evolution - K202441). SNC functions the same on the DRX-Revolution system (mobile) as it does on the DRX-Evolution (in-room) system. Comparison",
-      "hop": 2,
-      "page": 7
-     },
-     {
-      "from": "K241505",
-      "to": "K191025",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "X-ray system Device Class Class II Device Code IZL Regulation Number 21 CFR 892.1720. Predicate Device DRX-Revolution Mobile X-Ray System (K191025) Carestream Health, Inc. is submitting this Traditional 510(k) premarket notification for modifications to the DRX-Revolution",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K241505",
-      "to": "K223842",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "The digital radiography application software has been cleared for use across the following Carestream digital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842), DRX-Revolution (K191025). \u2022 The ImageView software is the same image acquisition",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K241505",
-      "to": "K163203",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "The digital radiography application software has been cleared for use across the following Carestream digital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842), DRX-Revolution (K191025). \u2022 The ImageView software is the same image acquisition",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K241505",
       "to": "K203159",
       "kind": "document-wide",
       "confidence": "low",
       "quote": "2530C (K183245). \u2022 The Lux 35 detector is an additional detector that will be available for sale with the DRX-Revolution. Lux 35 was cleared (K203159) in a separate submission and is determined substantially equivalent to the DRX Plus detectors as the MTF/DQE data demonstrates.",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K243556",
-      "to": "K213529",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Focus HD 43 Product Code: MQB Classification Name: Stationary X-Ray System Regulation Number: 21 CFR 892.1680 Device Class: Class II FDA 510 (k) #: K213529 5. Description of the Device [21 CFR 807.92(a)(4)] Lux HD 35 Detector and Lux HD 43 Detector are digital flat panel",
       "hop": 2,
       "page": 6
      },
@@ -1693,6 +1732,33 @@
       "quote": "92(a)(6)] Item Predicate Device: Proposed Device: Reference device Focus HD 43 Detector Lux HD 35 Detector Mars1417V-PSI Lux HD 43 Detector 510(K) K213529 K243556 K161730 Number Intended Use The Focus HD 43 Detector is Same Same indicated for digital imaging solution designed",
       "hop": 2,
       "page": 8
+     },
+     {
+      "from": "K243556",
+      "to": "K213529",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Focus HD 43 Product Code: MQB Classification Name: Stationary X-Ray System Regulation Number: 21 CFR 892.1680 Device Class: Class II FDA 510 (k) #: K213529 5. Description of the Device [21 CFR 807.92(a)(4)] Lux HD 35 Detector and Lux HD 43 Detector are digital flat panel",
+      "hop": 2,
+      "page": 6
+     },
+     {
+      "from": "K250954",
+      "to": "K183245",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "New detectors with DEC feature Lux HD integration testing with the \u2022 DRX Plus \u2022 Lux HD 35 (K243556) DR Compatib 2530 systems passed and is provided in le Digital (K183245) \u2022 Lux HD 43 (K243556) this submission. Flat \u2022 Focus HD Panel 35 Detectors (K213646) \u2022 Focus HD Compass: New",
+      "hop": 2,
+      "page": 8
+     },
+     {
+      "from": "K250954",
+      "to": "K223842",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Number(s) 21 CFR 892.1680 Lux HD Detectors (K243556) DRX-Evolution Plus X-ray System (K233381) Predicate Device(s) DRX-Compass X-ray System (K223842) P a g e 1|6",
+      "hop": 2,
+      "page": 5
      },
      {
       "from": "K250954",
@@ -1720,24 +1786,6 @@
       "quote": "K213529) for use with the previously cleared Eclipse II w/SNC. Smart Noise Cancellation clearances: \u2022 Eclipse II with Enhanced Noise Reduction (K202441) \u2022 Eclipse II SNC Claims (K213307) \u2022 DRX Evolution Plus (K233381) \u2022 DRX Compass (K223842) Clinical and Non Clinical Testing A",
       "hop": 2,
       "page": 9
-     },
-     {
-      "from": "K250954",
-      "to": "K183245",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "New detectors with DEC feature Lux HD integration testing with the \u2022 DRX Plus \u2022 Lux HD 35 (K243556) DR Compatib 2530 systems passed and is provided in le Digital (K183245) \u2022 Lux HD 43 (K243556) this submission. Flat \u2022 Focus HD Panel 35 Detectors (K213646) \u2022 Focus HD Compass: New",
-      "hop": 2,
-      "page": 8
-     },
-     {
-      "from": "K250954",
-      "to": "K223842",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Number(s) 21 CFR 892.1680 Lux HD Detectors (K243556) DRX-Evolution Plus X-ray System (K233381) Predicate Device(s) DRX-Compass X-ray System (K223842) P a g e 1|6",
-      "hop": 2,
-      "page": 5
      },
      {
       "from": "K250954",
@@ -1798,7 +1846,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "PA",
       "total": 1771484.01,
       "payments": 1829,
@@ -1843,7 +1891,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "VA",
       "total": 852522.49,
       "payments": 885,
@@ -1894,7 +1942,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "PA",
       "total": 1771484.01,
       "payments": 1829,
@@ -1944,7 +1992,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "VA",
       "total": 852522.49,
       "payments": 885,
@@ -2063,7 +2111,10 @@
     "states": 52,
     "procedureCodes": 6,
     "dataYear": 2023,
-    "topStateServices": 11840
+    "topStateServices": 11840,
+    "counties": 250,
+    "facilities": 731,
+    "topFacilityCity": "Los Angeles, CA"
    },
    "payload": {
     "dataYear": 2023,
@@ -2095,7 +2146,7 @@
      },
      {
       "code": "33363",
-      "description": "Replacement of aortic valve with prosthetic valve",
+      "description": "Replacement of aortic valve with prosthetic valve, open procedure",
       "services": 11782
      }
     ],
@@ -2360,10 +2411,3570 @@
       "services": 28,
       "beneficiaries": 21
      }
+    ],
+    "facilities": [
+     {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 699,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 434
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 265
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 620,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 361
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 244
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 15
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 589,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 289
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 274
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 26
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 514,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 382
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 132
+       }
+      ]
+     },
+     {
+      "ccn": "330024",
+      "name": "Mount Sinai Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.792,
+      "lon": -73.947,
+      "discharges": 508,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 326
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 144
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 27
+       }
+      ]
+     },
+     {
+      "ccn": "330182",
+      "name": "St Francis Hospital, Roslyn",
+      "city": "Roslyn",
+      "state": "NY",
+      "countyFips": "36059",
+      "lat": 40.797,
+      "lon": -73.647,
+      "discharges": 507,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 367
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 140
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 473,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 347
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 126
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 473,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 326
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 147
+       }
+      ]
+     },
+     {
+      "ccn": "490007",
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "VA",
+      "countyFips": "51710",
+      "lat": 36.865,
+      "lon": -76.303,
+      "discharges": 441,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 201
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 191
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 38
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 414,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 286
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 112
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "490063",
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "VA",
+      "countyFips": "51059",
+      "lat": 38.865,
+      "lon": -77.194,
+      "discharges": 392,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 271
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 121
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 385,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 270
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 92
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 23
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 375,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 196
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 179
+       }
+      ]
+     },
+     {
+      "ccn": "110083",
+      "name": "Piedmont Hospital, Inc",
+      "city": "Atlanta",
+      "state": "GA",
+      "countyFips": "13121",
+      "lat": 33.8,
+      "lon": -84.386,
+      "discharges": 364,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 211
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 153
+       }
+      ]
+     },
+     {
+      "ccn": "500008",
+      "name": "University Of Washington Medical Ctr",
+      "city": "Seattle",
+      "state": "WA",
+      "countyFips": "53033",
+      "lat": 47.654,
+      "lon": -122.308,
+      "discharges": 341,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 242
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 99
+       }
+      ]
+     },
+     {
+      "ccn": "310073",
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune",
+      "state": "NJ",
+      "countyFips": "34025",
+      "lat": 40.211,
+      "lon": -74.074,
+      "discharges": 337,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 215
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 111
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "500025",
+      "name": "Swedish Medical Center / Cherry Hill",
+      "city": "Seattle",
+      "state": "WA",
+      "countyFips": "53033",
+      "lat": 47.61,
+      "lon": -122.296,
+      "discharges": 317,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 273
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 44
+       }
+      ]
+     },
+     {
+      "ccn": "050324",
+      "name": "Scripps Memorial Hospital La Jolla",
+      "city": "La Jolla",
+      "state": "CA",
+      "countyFips": "06073",
+      "lat": 32.855,
+      "lon": -117.252,
+      "discharges": 310,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 208
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 102
+       }
+      ]
+     },
+     {
+      "ccn": "220086",
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.348,
+      "lon": -71.103,
+      "discharges": 301,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 245
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 56
+       }
+      ]
+     },
+     {
+      "ccn": "440173",
+      "name": "Parkwest Medical Center",
+      "city": "Knoxville",
+      "state": "TN",
+      "countyFips": "47093",
+      "lat": 35.928,
+      "lon": -84.081,
+      "discharges": 297,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 164
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 133
+       }
+      ]
+     },
+     {
+      "ccn": "330013",
+      "name": "Albany Medical Center Hospital",
+      "city": "Albany",
+      "state": "NY",
+      "countyFips": "36001",
+      "lat": 42.653,
+      "lon": -73.81,
+      "discharges": 287,
+      "outpatientServices": null,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 181
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 106
+       }
+      ]
+     },
+     {
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
+      "discharges": 275,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 185
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 90
+       }
+      ]
+     },
+     {
+      "ccn": "220077",
+      "name": "Baystate Medical Center",
+      "city": "Springfield",
+      "state": "MA",
+      "countyFips": "25013",
+      "lat": 42.136,
+      "lon": -72.636,
+      "discharges": 267,
+      "outpatientServices": null,
+      "rating": "1",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 216
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 51
+       }
+      ]
+     },
+     {
+      "ccn": "080001",
+      "name": "Christianacare",
+      "city": "Newark",
+      "state": "DE",
+      "countyFips": "10003",
+      "lat": 39.576,
+      "lon": -75.644,
+      "discharges": 260,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 184
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 76
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 258,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 170
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 88
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 1886,
+      "facilities": 5,
+      "per10k65": 63.8
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 1553,
+      "facilities": 15,
+      "per10k65": 10.4
+     },
+     {
+      "fips": "17031",
+      "name": "Cook",
+      "state": "IL",
+      "services": 1231,
+      "facilities": 10,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 1221,
+      "facilities": 5,
+      "per10k65": 117.2
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 1069,
+      "facilities": 11,
+      "per10k65": 14.4
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 913,
+      "facilities": 9,
+      "per10k65": 16.1
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 866,
+      "facilities": 4,
+      "per10k65": 27.0
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 720,
+      "facilities": 2,
+      "per10k65": 27.7
+     },
+     {
+      "fips": "48113",
+      "name": "Dallas",
+      "state": "TX",
+      "services": 678,
+      "facilities": 4,
+      "per10k65": 21.9
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 662,
+      "facilities": 4,
+      "per10k65": 27.3
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 651,
+      "facilities": 3,
+      "per10k65": 47.6
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 647,
+      "facilities": 7,
+      "per10k65": 12.7
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 592,
+      "facilities": 4,
+      "per10k65": 67.6
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 587,
+      "facilities": 5,
+      "per10k65": 37.5
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 558,
+      "facilities": 6,
+      "per10k65": 24.0
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 523,
+      "facilities": 3,
+      "per10k65": 56.6
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 514,
+      "facilities": 1,
+      "per10k65": 54.9
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 509,
+      "facilities": 2,
+      "per10k65": 37.8
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 481,
+      "facilities": 3,
+      "per10k65": 19.8
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 473,
+      "facilities": 1,
+      "per10k65": 172.6
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 467,
+      "facilities": 6,
+      "per10k65": 12.3
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 441,
+      "facilities": 1,
+      "per10k65": 144.9
+     },
+     {
+      "fips": "05119",
+      "name": "Pulaski",
+      "state": "AR",
+      "services": 431,
+      "facilities": 4,
+      "per10k65": 64.7
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 427,
+      "facilities": 2,
+      "per10k65": 49.0
+     },
+     {
+      "fips": "34003",
+      "name": "Bergen",
+      "state": "NJ",
+      "services": 425,
+      "facilities": 3,
+      "per10k65": 24.3
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 418,
+      "facilities": 5,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "48439",
+      "name": "Tarrant",
+      "state": "TX",
+      "services": 408,
+      "facilities": 4,
+      "per10k65": 15.3
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 398,
+      "facilities": 4,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 392,
+      "facilities": 1,
+      "per10k65": 22.8
+     },
+     {
+      "fips": "40109",
+      "name": "Oklahoma",
+      "state": "OK",
+      "services": 388,
+      "facilities": 5,
+      "per10k65": 33.3
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 387,
+      "facilities": 3,
+      "per10k65": 13.7
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 383,
+      "facilities": 4,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 380,
+      "facilities": 3,
+      "per10k65": 47.3
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 377,
+      "facilities": 3,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "06059",
+      "name": "Orange",
+      "state": "CA",
+      "services": 360,
+      "facilities": 7,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 356,
+      "facilities": 2,
+      "per10k65": 18.6
+     },
+     {
+      "fips": "55079",
+      "name": "Milwaukee",
+      "state": "WI",
+      "services": 355,
+      "facilities": 3,
+      "per10k65": 26.0
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 352,
+      "facilities": 2,
+      "per10k65": 61.1
+     },
+     {
+      "fips": "06065",
+      "name": "Riverside",
+      "state": "CA",
+      "services": 346,
+      "facilities": 4,
+      "per10k65": 9.0
+     },
+     {
+      "fips": "42091",
+      "name": "Montgomery",
+      "state": "PA",
+      "services": 344,
+      "facilities": 3,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 340,
+      "facilities": 2,
+      "per10k65": 68.1
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 337,
+      "facilities": 1,
+      "per10k65": 27.3
+     },
+     {
+      "fips": "01073",
+      "name": "Jefferson",
+      "state": "AL",
+      "services": 334,
+      "facilities": 6,
+      "per10k65": 29.8
+     },
+     {
+      "fips": "49035",
+      "name": "Salt Lake",
+      "state": "UT",
+      "services": 334,
+      "facilities": 3,
+      "per10k65": 23.5
+     },
+     {
+      "fips": "29189",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 331,
+      "facilities": 5,
+      "per10k65": 17.4
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 328,
+      "facilities": 3,
+      "per10k65": 22.4
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 320,
+      "facilities": 2,
+      "per10k65": 23.8
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 319,
+      "facilities": 3,
+      "per10k65": 42.5
+     },
+     {
+      "fips": "37119",
+      "name": "Mecklenburg",
+      "state": "NC",
+      "services": 317,
+      "facilities": 2,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "20173",
+      "name": "Sedgwick",
+      "state": "KS",
+      "services": 311,
+      "facilities": 2,
+      "per10k65": 37.1
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 309,
+      "facilities": 2,
+      "per10k65": 35.8
+     },
+     {
+      "fips": "04019",
+      "name": "Pima",
+      "state": "AZ",
+      "services": 306,
+      "facilities": 4,
+      "per10k65": 13.4
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 296,
+      "facilities": 3,
+      "per10k65": 20.2
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 293,
+      "facilities": 2,
+      "per10k65": 30.7
+     },
+     {
+      "fips": "12057",
+      "name": "Hillsborough",
+      "state": "FL",
+      "services": 286,
+      "facilities": 4,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 278,
+      "facilities": 2,
+      "per10k65": 20.4
+     },
+     {
+      "fips": "17043",
+      "name": "DuPage",
+      "state": "IL",
+      "services": 278,
+      "facilities": 4,
+      "per10k65": 17.2
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 275,
+      "facilities": 2,
+      "per10k65": 31.5
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 267,
+      "facilities": 1,
+      "per10k65": 31.6
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 265,
+      "facilities": 2,
+      "per10k65": 105.4
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 260,
+      "facilities": 1,
+      "per10k65": 26.4
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 259,
+      "facilities": 2,
+      "per10k65": 44.5
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 258,
+      "facilities": 1,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "32003",
+      "name": "Clark",
+      "state": "NV",
+      "services": 257,
+      "facilities": 5,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "29095",
+      "name": "Jackson",
+      "state": "MO",
+      "services": 256,
+      "facilities": 2,
+      "per10k65": 22.4
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 256,
+      "facilities": 4,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "26125",
+      "name": "Oakland",
+      "state": "MI",
+      "services": 256,
+      "facilities": 4,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "42077",
+      "name": "Lehigh",
+      "state": "PA",
+      "services": 253,
+      "facilities": 1,
+      "per10k65": 37.8
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 248,
+      "facilities": 3,
+      "per10k65": 21.0
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 247,
+      "facilities": 2,
+      "per10k65": null
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 245,
+      "facilities": 2,
+      "per10k65": 46.9
+     },
+     {
+      "fips": "21111",
+      "name": "Jefferson",
+      "state": "KY",
+      "services": 245,
+      "facilities": 3,
+      "per10k65": 18.2
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 242,
+      "facilities": 2,
+      "per10k65": 73.4
+     },
+     {
+      "fips": "51760",
+      "name": "Richmond",
+      "state": "VA",
+      "services": 241,
+      "facilities": 3,
+      "per10k65": 74.7
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 239,
+      "facilities": 1,
+      "per10k65": 17.0
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 238,
+      "facilities": 3,
+      "per10k65": 17.3
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 236,
+      "facilities": 2,
+      "per10k65": 15.5
+     },
+     {
+      "fips": "40143",
+      "name": "Tulsa",
+      "state": "OK",
+      "services": 232,
+      "facilities": 3,
+      "per10k65": 22.5
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 232,
+      "facilities": 6,
+      "per10k65": 9.3
+     },
+     {
+      "fips": "12011",
+      "name": "Broward",
+      "state": "FL",
+      "services": 230,
+      "facilities": 5,
+      "per10k65": 6.5
+     },
+     {
+      "fips": "18097",
+      "name": "Marion",
+      "state": "IN",
+      "services": 225,
+      "facilities": 3,
+      "per10k65": 17.5
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 224,
+      "facilities": 1,
+      "per10k65": 34.6
+     },
+     {
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
+      "services": 224,
+      "facilities": 1,
+      "per10k65": 25.0
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 223,
+      "facilities": 1,
+      "per10k65": 86.2
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 217,
+      "facilities": 2,
+      "per10k65": 36.5
+     },
+     {
+      "fips": "27137",
+      "name": "St. Louis",
+      "state": "MN",
+      "services": 217,
+      "facilities": 2,
+      "per10k65": 50.8
+     },
+     {
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
+      "services": 214,
+      "facilities": 1,
+      "per10k65": 74.5
+     },
+     {
+      "fips": "29510",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 214,
+      "facilities": 2,
+      "per10k65": 47.9
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 209,
+      "facilities": 2,
+      "per10k65": 15.2
+     },
+     {
+      "fips": "19153",
+      "name": "Polk",
+      "state": "IA",
+      "services": 208,
+      "facilities": 2,
+      "per10k65": 29.6
+     },
+     {
+      "fips": "25017",
+      "name": "Middlesex",
+      "state": "MA",
+      "services": 204,
+      "facilities": 2,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 203,
+      "facilities": 1,
+      "per10k65": 11.1
+     },
+     {
+      "fips": "06111",
+      "name": "Ventura",
+      "state": "CA",
+      "services": 202,
+      "facilities": 3,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 201,
+      "facilities": 1,
+      "per10k65": 90.0
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 199,
+      "facilities": 3,
+      "per10k65": 23.9
+     },
+     {
+      "fips": "09001",
+      "name": "Fairfield",
+      "state": "CT",
+      "services": 198,
+      "facilities": 4,
+      "per10k65": null
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 197,
+      "facilities": 1,
+      "per10k65": 322.0
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 196,
+      "facilities": 1,
+      "per10k65": 34.4
+     },
+     {
+      "fips": "34013",
+      "name": "Essex",
+      "state": "NJ",
+      "services": 196,
+      "facilities": 2,
+      "per10k65": 16.0
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 195,
+      "facilities": 1,
+      "per10k65": 40.5
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 193,
+      "facilities": 4,
+      "per10k65": 4.2
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 192,
+      "facilities": 2,
+      "per10k65": 72.3
+     },
+     {
+      "fips": "48491",
+      "name": "Williamson",
+      "state": "TX",
+      "services": 192,
+      "facilities": 2,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "18057",
+      "name": "Hamilton",
+      "state": "IN",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 37.7
+     },
+     {
+      "fips": "33009",
+      "name": "Grafton",
+      "state": "NH",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 90.3
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 188,
+      "facilities": 1,
+      "per10k65": 12.1
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 90.4
+     },
+     {
+      "fips": "46083",
+      "name": "Lincoln",
+      "state": "SD",
+      "services": 185,
+      "facilities": 1,
+      "per10k65": 178.5
+     },
+     {
+      "fips": "55009",
+      "name": "Brown",
+      "state": "WI",
+      "services": 184,
+      "facilities": 2,
+      "per10k65": 41.5
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 183,
+      "facilities": 1,
+      "per10k65": 17.7
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 182,
+      "facilities": 2,
+      "per10k65": 20.7
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 178,
+      "facilities": 1,
+      "per10k65": 20.0
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 178,
+      "facilities": 1,
+      "per10k65": 101.9
+     },
+     {
+      "fips": "12105",
+      "name": "Polk",
+      "state": "FL",
+      "services": 177,
+      "facilities": 2,
+      "per10k65": 11.5
+     },
+     {
+      "fips": "22055",
+      "name": "Lafayette",
+      "state": "LA",
+      "services": 176,
+      "facilities": 2,
+      "per10k65": 48.3
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 175,
+      "facilities": 1,
+      "per10k65": 16.1
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 161.8
+     },
+     {
+      "fips": "42069",
+      "name": "Lackawanna",
+      "state": "PA",
+      "services": 173,
+      "facilities": 2,
+      "per10k65": 39.0
+     },
+     {
+      "fips": "12001",
+      "name": "Alachua",
+      "state": "FL",
+      "services": 172,
+      "facilities": 2,
+      "per10k65": 39.4
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 170,
+      "facilities": 2,
+      "per10k65": 18.5
+     },
+     {
+      "fips": "36055",
+      "name": "Monroe",
+      "state": "NY",
+      "services": 170,
+      "facilities": 2,
+      "per10k65": 12.0
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 168,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 167,
+      "facilities": 2,
+      "per10k65": 22.7
+     },
+     {
+      "fips": "42133",
+      "name": "York",
+      "state": "PA",
+      "services": 166,
+      "facilities": 1,
+      "per10k65": 19.1
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 166,
+      "facilities": 1,
+      "per10k65": 44.6
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 164,
+      "facilities": 2,
+      "per10k65": 26.8
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 163,
+      "facilities": 2,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 163,
+      "facilities": 3,
+      "per10k65": 19.0
+     },
+     {
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
+      "services": 162,
+      "facilities": 1,
+      "per10k65": 25.4
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 161,
+      "facilities": 2,
+      "per10k65": 49.1
+     },
+     {
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
+      "services": 161,
+      "facilities": 3,
+      "per10k65": 18.3
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 158,
+      "facilities": 2,
+      "per10k65": 110.0
+     },
+     {
+      "fips": "36119",
+      "name": "Westchester",
+      "state": "NY",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 11.6
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 29.4
+     },
+     {
+      "fips": "12069",
+      "name": "Lake",
+      "state": "FL",
+      "services": 151,
+      "facilities": 2,
+      "per10k65": 13.7
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 151,
+      "facilities": 3,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "15003",
+      "name": "Honolulu",
+      "state": "HI",
+      "services": 149,
+      "facilities": 2,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "01089",
+      "name": "Madison",
+      "state": "AL",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 22.9
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 145,
+      "facilities": 1,
+      "per10k65": 51.2
+     },
+     {
+      "fips": "37067",
+      "name": "Forsyth",
+      "state": "NC",
+      "services": 145,
+      "facilities": 2,
+      "per10k65": 21.9
+     },
+     {
+      "fips": "22109",
+      "name": "Terrebonne",
+      "state": "LA",
+      "services": 143,
+      "facilities": 1,
+      "per10k65": 85.0
+     },
+     {
+      "fips": "06001",
+      "name": "Alameda",
+      "state": "CA",
+      "services": 143,
+      "facilities": 3,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
+      "services": 142,
+      "facilities": 1,
+      "per10k65": 41.0
+     },
+     {
+      "fips": "24031",
+      "name": "Montgomery",
+      "state": "MD",
+      "services": 141,
+      "facilities": 2,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "06029",
+      "name": "Kern",
+      "state": "CA",
+      "services": 139,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "19163",
+      "name": "Scott",
+      "state": "IA",
+      "services": 138,
+      "facilities": 1,
+      "per10k65": 45.1
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 138,
+      "facilities": 3,
+      "per10k65": 38.7
+     },
+     {
+      "fips": "12127",
+      "name": "Volusia",
+      "state": "FL",
+      "services": 134,
+      "facilities": 2,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "45063",
+      "name": "Lexington",
+      "state": "SC",
+      "services": 133,
+      "facilities": 1,
+      "per10k65": 25.5
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 132,
+      "facilities": 1,
+      "per10k65": 21.0
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 132,
+      "facilities": 1,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 131,
+      "facilities": 1,
+      "per10k65": 99.8
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 131,
+      "facilities": 1,
+      "per10k65": 24.0
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 131,
+      "facilities": 2,
+      "per10k65": 42.4
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 50.2
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 12.9
+     },
+     {
+      "fips": "36005",
+      "name": "Bronx",
+      "state": "NY",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "06053",
+      "name": "Monterey",
+      "state": "CA",
+      "services": 130,
+      "facilities": 2,
+      "per10k65": 20.0
+     },
+     {
+      "fips": "29019",
+      "name": "Boone",
+      "state": "MO",
+      "services": 130,
+      "facilities": 2,
+      "per10k65": 51.3
+     },
+     {
+      "fips": "13051",
+      "name": "Chatham",
+      "state": "GA",
+      "services": 129,
+      "facilities": 2,
+      "per10k65": 25.6
+     },
+     {
+      "fips": "54039",
+      "name": "Kanawha",
+      "state": "WV",
+      "services": 128,
+      "facilities": 1,
+      "per10k65": 32.8
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 128,
+      "facilities": 1,
+      "per10k65": 16.7
+     },
+     {
+      "fips": "19113",
+      "name": "Linn",
+      "state": "IA",
+      "services": 127,
+      "facilities": 2,
+      "per10k65": 31.9
+     },
+     {
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
+      "services": 127,
+      "facilities": 2,
+      "per10k65": 29.2
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 125,
+      "facilities": 1,
+      "per10k65": 50.4
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 123,
+      "facilities": 1,
+      "per10k65": 59.0
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 122,
+      "facilities": 3,
+      "per10k65": 25.6
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 121,
+      "facilities": 1,
+      "per10k65": 16.4
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 13.5
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 32.0
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 26.8
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 45.9
+     },
+     {
+      "fips": "42071",
+      "name": "Lancaster",
+      "state": "PA",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 10.8
+     },
+     {
+      "fips": "06097",
+      "name": "Sonoma",
+      "state": "CA",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 11.3
+     },
+     {
+      "fips": "39095",
+      "name": "Lucas",
+      "state": "OH",
+      "services": 116,
+      "facilities": 2,
+      "per10k65": 15.4
+     },
+     {
+      "fips": "16001",
+      "name": "Ada",
+      "state": "ID",
+      "services": 116,
+      "facilities": 2,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "06099",
+      "name": "Stanislaus",
+      "state": "CA",
+      "services": 115,
+      "facilities": 2,
+      "per10k65": 15.1
+     },
+     {
+      "fips": "36007",
+      "name": "Broome",
+      "state": "NY",
+      "services": 114,
+      "facilities": 1,
+      "per10k65": 28.5
+     },
+     {
+      "fips": "33013",
+      "name": "Merrimack",
+      "state": "NH",
+      "services": 113,
+      "facilities": 1,
+      "per10k65": 36.4
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 112,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "41039",
+      "name": "Lane",
+      "state": "OR",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "53067",
+      "name": "Thurston",
+      "state": "WA",
+      "services": 110,
+      "facilities": 1,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "51087",
+      "name": "Henrico",
+      "state": "VA",
+      "services": 109,
+      "facilities": 1,
+      "per10k65": 19.2
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 109,
+      "facilities": 2,
+      "per10k65": 4.3
+     },
+     {
+      "fips": "39113",
+      "name": "Montgomery",
+      "state": "OH",
+      "services": 109,
+      "facilities": 2,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "06089",
+      "name": "Shasta",
+      "state": "CA",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 27.7
+     },
+     {
+      "fips": "06007",
+      "name": "Butte",
+      "state": "CA",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 28.3
+     },
+     {
+      "fips": "06081",
+      "name": "San Mateo",
+      "state": "CA",
+      "services": 107,
+      "facilities": 2,
+      "per10k65": 8.1
+     },
+     {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": 29.0
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 106,
+      "facilities": 2,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 105,
+      "facilities": 1,
+      "per10k65": 18.5
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 104,
+      "facilities": 1,
+      "per10k65": 61.5
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 104,
+      "facilities": 1,
+      "per10k65": 59.6
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 104,
+      "facilities": 2,
+      "per10k65": 15.8
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 104,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "08077",
+      "name": "Mesa",
+      "state": "CO",
+      "services": 102,
+      "facilities": 1,
+      "per10k65": 30.5
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 101,
+      "facilities": 1,
+      "per10k65": 10.2
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 100,
+      "facilities": 1,
+      "per10k65": 31.6
+     },
+     {
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 98,
+      "facilities": 2,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "06071",
+      "name": "San Bernardino",
+      "state": "CA",
+      "services": 96,
+      "facilities": 3,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 96,
+      "facilities": 2,
+      "per10k65": 22.8
+     },
+     {
+      "fips": "08041",
+      "name": "El Paso",
+      "state": "CO",
+      "services": 95,
+      "facilities": 2,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 94,
+      "facilities": 1,
+      "per10k65": 201.2
+     },
+     {
+      "fips": "08005",
+      "name": "Arapahoe",
+      "state": "CO",
+      "services": 94,
+      "facilities": 2,
+      "per10k65": 9.9
+     },
+     {
+      "fips": "12033",
+      "name": "Escambia",
+      "state": "FL",
+      "services": 93,
+      "facilities": 2,
+      "per10k65": 15.9
+     },
+     {
+      "fips": "26077",
+      "name": "Kalamazoo",
+      "state": "MI",
+      "services": 92,
+      "facilities": 2,
+      "per10k65": 21.7
+     },
+     {
+      "fips": "18127",
+      "name": "Porter",
+      "state": "IN",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 28.5
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 43.1
+     },
+     {
+      "fips": "55063",
+      "name": "La Crosse",
+      "state": "WI",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 40.9
+     },
+     {
+      "fips": "22033",
+      "name": "East Baton Rouge",
+      "state": "LA",
+      "services": 88,
+      "facilities": 2,
+      "per10k65": 12.7
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 9.9
+     },
+     {
+      "fips": "42011",
+      "name": "Berks",
+      "state": "PA",
+      "services": 84,
+      "facilities": 2,
+      "per10k65": 10.8
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 82,
+      "facilities": 1,
+      "per10k65": 31.8
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 82,
+      "facilities": 1,
+      "per10k65": 14.1
+     },
+     {
+      "fips": "49049",
+      "name": "Utah",
+      "state": "UT",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 14.5
+     },
+     {
+      "fips": "42015",
+      "name": "Bradford",
+      "state": "PA",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 60.4
+     },
+     {
+      "fips": "13115",
+      "name": "Floyd",
+      "state": "GA",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 48.4
+     },
+     {
+      "fips": "42049",
+      "name": "Erie",
+      "state": "PA",
+      "services": 81,
+      "facilities": 2,
+      "per10k65": 15.3
+     },
+     {
+      "fips": "13245",
+      "name": "Richmond",
+      "state": "GA",
+      "services": 80,
+      "facilities": 2,
+      "per10k65": 25.3
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 36.2
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 78,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "49053",
+      "name": "Washington",
+      "state": "UT",
+      "services": 76,
+      "facilities": 1,
+      "per10k65": 17.4
+     },
+     {
+      "fips": "51630",
+      "name": "Fredericksburg",
+      "state": "VA",
+      "services": 75,
+      "facilities": 1,
+      "per10k65": 227.3
+     },
+     {
+      "fips": "47065",
+      "name": "Hamilton",
+      "state": "TN",
+      "services": 75,
+      "facilities": 2,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "22051",
+      "name": "Jefferson",
+      "state": "LA",
+      "services": 75,
+      "facilities": 2,
+      "per10k65": 9.4
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 74,
+      "facilities": 1,
+      "per10k65": 27.5
+     },
+     {
+      "fips": "17197",
+      "name": "Will",
+      "state": "IL",
+      "services": 74,
+      "facilities": 2,
+      "per10k65": 7.2
+     },
+     {
+      "fips": "41017",
+      "name": "Deschutes",
+      "state": "OR",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 16.6
+     },
+     {
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 21.6
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 185.2
+     },
+     {
+      "fips": "06041",
+      "name": "Marin",
+      "state": "CA",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 11.6
+     },
+     {
+      "fips": "55035",
+      "name": "Eau Claire",
+      "state": "WI",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 39.1
+     },
+     {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 31.0
+     },
+     {
+      "fips": "04025",
+      "name": "Yavapai",
+      "state": "AZ",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "39153",
+      "name": "Summit",
+      "state": "OH",
+      "services": 70,
+      "facilities": 2,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "17163",
+      "name": "St. Clair",
+      "state": "IL",
+      "services": 69,
+      "facilities": 1,
+      "per10k65": 15.7
+     },
+     {
+      "fips": "39003",
+      "name": "Allen",
+      "state": "OH",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 35.6
+     },
+     {
+      "fips": "17019",
+      "name": "Champaign",
+      "state": "IL",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 23.8
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 68,
+      "facilities": 1,
+      "per10k65": 11.7
+     },
+     {
+      "fips": "37135",
+      "name": "Orange",
+      "state": "NC",
+      "services": 68,
+      "facilities": 1,
+      "per10k65": 28.2
+     },
+     {
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 18.8
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 66,
+      "facilities": 1,
+      "per10k65": 36.6
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": null
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "AZ",
+       "physicians": 545,
+       "totalUsd": 8762598.39
+      },
+      {
+       "state": "OH",
+       "physicians": 757,
+       "totalUsd": 5357061.48
+      },
+      {
+       "state": "PA",
+       "physicians": 1038,
+       "totalUsd": 5129495.88
+      },
+      {
+       "state": "NY",
+       "physicians": 1446,
+       "totalUsd": 4564939.79
+      },
+      {
+       "state": "TX",
+       "physicians": 2252,
+       "totalUsd": 4084384.78
+      },
+      {
+       "state": "CA",
+       "physicians": 1497,
+       "totalUsd": 3568128.5
+      },
+      {
+       "state": "FL",
+       "physicians": 1717,
+       "totalUsd": 2993625.47
+      },
+      {
+       "state": "MI",
+       "physicians": 742,
+       "totalUsd": 2694526.06
+      },
+      {
+       "state": "VA",
+       "physicians": 479,
+       "totalUsd": 2661809.55
+      },
+      {
+       "state": "NJ",
+       "physicians": 782,
+       "totalUsd": 2250015.15
+      },
+      {
+       "state": "WA",
+       "physicians": 217,
+       "totalUsd": 1334510.22
+      },
+      {
+       "state": "MA",
+       "physicians": 276,
+       "totalUsd": 996450.79
+      },
+      {
+       "state": "OR",
+       "physicians": 137,
+       "totalUsd": 993689.76
+      },
+      {
+       "state": "OK",
+       "physicians": 165,
+       "totalUsd": 958089.45
+      },
+      {
+       "state": "MN",
+       "physicians": 308,
+       "totalUsd": 918384.22
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Yale New Haven Hospital",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "lat": 41.308,
+      "lon": -72.928,
+      "trials": 5
+     },
+     {
+      "name": "Baylor Heart and Vascular Hospital",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 4
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 4
+     },
+     {
+      "name": "Columbia University Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 4
+     },
+     {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 4
+     },
+     {
+      "name": "Emory University Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 4
+     },
+     {
+      "name": "Hartford Hospital",
+      "city": "Hartford",
+      "state": "Connecticut",
+      "lat": 41.764,
+      "lon": -72.685,
+      "trials": 4
+     },
+     {
+      "name": "Morton Plant Hospital",
+      "city": "Clearwater",
+      "state": "Florida",
+      "lat": 27.966,
+      "lon": -82.8,
+      "trials": 4
+     },
+     {
+      "name": "Spectrum Health",
+      "city": "Grand Rapids",
+      "state": "Michigan",
+      "lat": 42.963,
+      "lon": -85.668,
+      "trials": 4
+     },
+     {
+      "name": "St. Francis Hospital",
+      "city": "Roslyn",
+      "state": "New York",
+      "lat": 40.8,
+      "lon": -73.651,
+      "trials": 4
+     },
+     {
+      "name": "Aurora Saint Luke's Medical Center",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 3
+     },
+     {
+      "name": "Aurora St. Luke's Medical Center",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 3
+     },
+     {
+      "name": "Delray Medical Center",
+      "city": "Delray Beach",
+      "state": "Florida",
+      "lat": 26.461,
+      "lon": -80.073,
+      "trials": 3
+     },
+     {
+      "name": "Houston Methodist Hospital",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 3
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 3
+     },
+     {
+      "name": "Moffitt Cancer Center",
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 27.948,
+      "lon": -82.458,
+      "trials": 3
+     },
+     {
+      "name": "University Hospitals Cleveland Medical Center",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 3
+     },
+     {
+      "name": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 3
+     },
+     {
+      "name": "University of Michigan Health Systems",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 3
+     },
+     {
+      "name": "University of Pittsburgh Medical Center",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 3
+     },
+     {
+      "name": "Advocate Christ Medical Center",
+      "city": "Oak Lawn",
+      "state": "Illinois",
+      "lat": 41.711,
+      "lon": -87.758,
+      "trials": 2
+     },
+     {
+      "name": "Allegheny General Hospital",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 2
+     },
+     {
+      "name": "Ascension St. John Hospital",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 2
+     },
+     {
+      "name": "Aurora Health Care/St Luke's Medical Center",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 2
+     },
+     {
+      "name": "Banner Good Samaritan Medical Center",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "lat": 33.448,
+      "lon": -112.074,
+      "trials": 2
+     },
+     {
+      "name": "Borland-Groover Clinic",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.332,
+      "lon": -81.656,
+      "trials": 2
+     },
+     {
+      "name": "Buffalo General Medical Center",
+      "city": "Buffalo",
+      "state": "New York",
+      "lat": 42.886,
+      "lon": -78.878,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 2
+     },
+     {
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "Virginia",
+      "lat": 38.882,
+      "lon": -77.171,
+      "trials": 2
+     },
+     {
+      "name": "Intermountain Medical Center",
+      "city": "Murray",
+      "state": "Utah",
+      "lat": 40.667,
+      "lon": -111.888,
+      "trials": 2
+     },
+     {
+      "name": "Los Robles Hospital & Medical Center",
+      "city": "Thousand Oaks",
+      "state": "California",
+      "lat": 34.171,
+      "lon": -118.838,
+      "trials": 2
+     },
+     {
+      "name": "Mission Hospital",
+      "city": "Asheville",
+      "state": "North Carolina",
+      "lat": 35.601,
+      "lon": -82.554,
+      "trials": 2
+     },
+     {
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "New Jersey",
+      "lat": 40.797,
+      "lon": -74.482,
+      "trials": 2
+     },
+     {
+      "name": "Morristown Memorial Hospital",
+      "city": "Morristown",
+      "state": "New Jersey",
+      "lat": 40.797,
+      "lon": -74.482,
+      "trials": 2
+     },
+     {
+      "name": "New York Langone Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "North Shore University Hospital",
+      "city": "Manhasset",
+      "state": "New York",
+      "lat": 40.798,
+      "lon": -73.7,
+      "trials": 2
+     },
+     {
+      "name": "Northwell Health",
+      "city": "Manhasset",
+      "state": "New York",
+      "lat": 40.798,
+      "lon": -73.7,
+      "trials": 2
+     },
+     {
+      "name": "Sah Orthopaedic Associates",
+      "city": "Fremont",
+      "state": "California",
+      "lat": 37.548,
+      "lon": -121.989,
+      "trials": 2
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 906,
+     "usSites": 398,
+     "trials": 111,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 114,
+    "trialsWithAeTables": 13,
+    "seriousEventRows": 6018,
+    "seriousSubjectsAffected": 11206,
+    "deathTermSubjects": 32,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 114,
+    "trialsWithAeTables": 13,
+    "trialsWithSerious": 12,
+    "totals": {
+     "serious": {
+      "rows": 6018,
+      "subjects": 11206
+     },
+     "other": {
+      "rows": 272,
+      "subjects": 7133
+     },
+     "deathTermSubjects": 32
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Atrioventricular block complete",
+      "organSystem": "Cardiac disorders",
+      "rows": 10,
+      "subjectsAffected": 370
+     },
+     {
+      "term": "ANAEMIA",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 2,
+      "subjectsAffected": 305
+     },
+     {
+      "term": "ATRIAL FIBRILLATION",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 255
+     },
+     {
+      "term": "ATRIOVENTRICULAR BLOCK COMPLETE",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 201
+     },
+     {
+      "term": "Cardiac failure congestive",
+      "organSystem": "Cardiac disorders",
+      "rows": 9,
+      "subjectsAffected": 165
+     },
+     {
+      "term": "Atrial fibrillation",
+      "organSystem": "Cardiac disorders",
+      "rows": 9,
+      "subjectsAffected": 151
+     },
+     {
+      "term": "ACUTE KIDNEY INJURY",
+      "organSystem": "Renal and urinary disorders",
+      "rows": 2,
+      "subjectsAffected": 144
+     },
+     {
+      "term": "CARDIAC FAILURE CONGESTIVE",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 143
+     },
+     {
+      "term": "PLEURAL EFFUSION",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 2,
+      "subjectsAffected": 140
+     },
+     {
+      "term": "HYPOTENSION",
+      "organSystem": "Vascular disorders",
+      "rows": 2,
+      "subjectsAffected": 138
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT01586910",
+      "title": "Safety and Efficacy Study of the Medtronic CoreValve\u00ae System in the Treatment of Severe, Symptomatic Aortic Stenosis in ",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "startYear": "2012",
+      "seriousRows": 1684,
+      "seriousSubjects": 5708
+     },
+     {
+      "nctId": "NCT02202434",
+      "title": "Safety and Efficacy Study of Lotus Valve for Transcatheter Aortic Valve Replacement",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2014",
+      "seriousRows": 2248,
+      "seriousSubjects": 2693
+     },
+     {
+      "nctId": "NCT04722250",
+      "title": "SMall Annuli Randomized To Evolut\u2122 or SAPIEN\u2122 Trial",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "startYear": "2021",
+      "seriousRows": 1140,
+      "seriousSubjects": 1172
+     },
+     {
+      "nctId": "NCT04091048",
+      "title": "Optimize PRO Study",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2019",
+      "seriousRows": 570,
+      "seriousSubjects": 799
+     },
+     {
+      "nctId": "NCT02207569",
+      "title": "Medtronic CoreValve Evolut R U.S. Clinical Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2014",
+      "seriousRows": 187,
+      "seriousSubjects": 478
+     },
+     {
+      "nctId": "NCT01900691",
+      "title": "Removal of the Evolution\u00ae Esophageal Stent - Fully Covered",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2013",
+      "seriousRows": 70,
+      "seriousSubjects": 121
+     },
+     {
+      "nctId": "NCT02746809",
+      "title": "Medtronic CoreValve Evolut R U.S. Clinical Study (Evolut 34R Addendum)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2016",
+      "seriousRows": 57,
+      "seriousSubjects": 111
+     },
+     {
+      "nctId": "NCT04982588",
+      "title": "Evolut PRO China Clinical Study",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "startYear": "2021",
+      "seriousRows": 35,
+      "seriousSubjects": 45
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 24,
+    "countries": 8,
+    "sources": 6,
+    "firstForeignDate": "2015-07-31",
+    "latestAction": {
+     "country": "Australia",
+     "date": "2025-05-05",
+     "classification": "Class II"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2025-05-05",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "SH - Evolut FX Model - EVOLUTFX-23, EVOLUTFX-26, EVOLUTFX-29, EVOLUTFX-34",
+        "reason": "The manufacturer received reports of users having difficulty opening the jar, which may cause damage to the lid, resulting in the potential for particulate transferring from the lid to the jar containing the bioprosthesis.\nThe manufacturer has no evidence of seal degradation and no evidence that the",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=35177"
+       },
+       {
+        "date": "2022-11-29",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "SH - Medtronic Evolut&trade; PRO+ System",
+        "reason": "The manufacturer has identified that the infolding is a known isuse and occurs when the valve frame folds inward along a vertical line away from the valve inflow and appears as a seam in the frame or as overlapping frame cells on radiographic imaging. Infolding is different and distinct from valve u",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=30305"
+       },
+       {
+        "date": "2021-06-14",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "SH - Medtronic Evolut&trade; PRO+ System EnVeo PRO Delivery Catheter System - ENVPRO-14, ENVPRO-16, ENVEOR-N",
+        "reason": "The manufacturer is recalling EnVeo&trade; R, EnVeo&trade; PRO and Evolut&trade; PRO+ Delivery Catheters with a manufacturing date before 11-JUL-2020. Due to actuator separation that may occur during valve loading on the delivery system, advancement, deployment or recapture of the valve.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27891"
+       },
+       {
+        "date": "2020-10-23",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "SH - Medtronic Evolut&trade; PRO+ System EVPROPLUS-23US, EVPROPLUS-26US, EVPROPLUS-29US, EVPROPLUS-34US",
+        "reason": "The manufacturer has received reports of Evolut&trade; valve leaflet damage occurring following PID at a rate of 0.020%*. These complaints of damage to the bioprosthetic leaflets resulted in moderate or severe aortic insufficiency which were detected acutely or during follow up. These reported event",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=26756"
+       },
+       {
+        "date": "2016-08-11",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "Medtronic Core Valve Evolut R System",
+        "reason": "There is the potential for vascular trauma with the use of the Medtronic EnVeo&trade; R Delivery Catheter System (DCS).",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=20461"
+       },
+       {
+        "date": "2016-08-11",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Medtronic Core Valve Evolut R System",
+        "reason": "There is the potential for vascular trauma with the use of the Medtronic EnVeo\u2122 R Delivery Catheter System (DCS).",
+        "url": "https://medsafe.govt.nz/hot/Recalls/RecallSearch.asp"
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2025-05-05",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "Medtronic Evolut Bioprosthesis",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-03-20",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class I",
+        "product": "Evolut PRO+ 34 mm Transcatheter Aortic Valve (TAV)",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2021-06-15",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "EnVeo R, EnVeo PRO and Evolut PRO+ Delivery Catheter",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2020-11-09",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class II",
+        "product": "Evolut Transcatheter Aortic Valves",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2016-08-11",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "Medtronic EnVeo R Delivery Catheter System (DCS)(Supplied as part of the Evolut R System used for the Transcatheter Valve Therapy (TVT))",
+        "reason": "This action has been undertaken to inform users with important information regarding the potential for vascular trauma with the use of the Medtronic EnVeo R DCS. While the reports of vascular trauma received by Medtronic have been infrequent - 39 events per 24,012 sales, they have included 19 deaths",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2016-RN-01015-1"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2025-03-25",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "EVOLUT FX VALVE EVOLUTFX-23, EVOLUTFX-26, EVOLUTFX-29, EVOLUTFX-34 \u00b7 EVOLUT PRO PLUS VALVE EVPROPLUS-23, EVPROPLUS-26, EVPROPLUS-29, EVPROPLUS-34 \u00b7 EVOLUT FX PLUS VALVE EVFXPLUS-23, EVFXPLUS-26, EVFXPLUS-29, EVFXPLUS-34",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2022-12-07",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Evolut PRO+ Transcatheter Aortic Valve (TAV) EVPROPLUS-34",
+        "reason": "Added new language",
+        "url": null
+       },
+       {
+        "date": "2021-06-18",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "CoreValve Evolut R Transcatheter Aortic Valve ENVEOR-L, ENVEOR-N \u00b7 CoreValve Evolut PRO Transcatheter Aortic Valve ENVPRO-14, ENVPRO-16",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2020-10-28",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "CoreValve Evolut PRO Transcatheter Aortic Valve EVOLUTPRO-23, EVOLUTPRO-26, EVOLUTPRO-29 \u00b7 CoreValve Evolut R Transcatheter Aortic Valve EVOLUTR-23, EVOLUTR-26, EVOLUTR-29, EVOLUTR-34",
+        "reason": "Added new language",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2025-03-25",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 17 to 21 March 2025",
+        "reason": "List of Field Safety Notices for 17 to 21 March 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-17-to-21-march-2025"
+       },
+       {
+        "date": "2022-02-13",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 6 to 10 February 2023",
+        "reason": "List of Field Safety Notices (FSNs) from 6 to 10 February 2023.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-6-to-10-february-2023"
+       },
+       {
+        "date": "2020-11-02",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notice: 26 to 30 October",
+        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 26 to 30 October 2020.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notice-26-to-30-october"
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2022-12-13",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Evolut Pro+ Transcatheter Aortic Valve \u00b7 Evolut Pro+ Transcatheter Aortic Valve",
+        "reason": "Labelling and packaging",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/evolut-pro-transcatheter-aortic-valve"
+       },
+       {
+        "date": "2020-11-13",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "COREVALVE EVOLUT R & COREVALVE EVOLUT PRO (2020-10-23)",
+        "reason": "Medical devices",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/corevalve-evolut-r-corevalve-evolut-pro-2020-10-23"
+       },
+       {
+        "date": "2016-08-02",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "COREVALVE ENVEO R SYSTEM - ENVEO R DELIVERY CATHETER SYSTEM",
+        "reason": "MEDTRONIC HAS RECEIVED REPORTS OF VASCULAR TRAUMA THAT OCCURRED DURING THE IMPLANT PROCEDURE OF AN EVOLUT R COREVALVE TRANSCATHETER AORTIC VLAVE. THE REASON FOR REPORT CODES FOR THESE EVENTS WERE COMPRISED OF PERFORATIONS DISSECTIONS AND RUPTURES OF THE PATIENTS' VASCULATURE",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-08-31",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "EnVeo R Delivery Catheter System",
+        "reason": "A review was completed of all Evolut R product complaints that indicated vascular trauma during use of the EnVeo R Delivery Catheter System (DCS) from the date of the first commercial Evolut R product (August 2014) through May 2016. This review identified a total of 39 events (occurrence rate of 0,1",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=9917"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-08-03",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Trade name: Core Valve Evolut A / R Transcatheter Valve R //. Technical Name: Cardiac Valve Prosthesis //. ANVISA registration number: 10339190629 //. Risk class: IV (Maximum Risk) //. Affected Model (s) and Batch (s) / ",
+        "reason": "Possible vascular trauma using Medtronic's EnVeo \u2122 R Catheter Entry System (DCS). Although reports of vascular trauma received by Medtronic were not frequent (0.136%, 39 events), they contained serious results, including death of patients (19 events). The Field Action, as described in the enclosed C",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "FI",
+      "name": "Finland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2015-07-31",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "EnVeo R Loading System, Model No. LS-EnVeoR-23, LS-EnVeoR-2629, LS-EnVeoR-23-C, LS-EnVeoR-2629-C. Cardiovascular valve delivery system for use with the Medtronic CoreValve Evolut R system",
+        "reason": "Device failure / Feature Before Use - Manufacturing",
+        "url": null
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2015,
+      "value": 1
+     },
+     {
+      "year": 2016,
+      "value": 6
+     },
+     {
+      "year": 2020,
+      "value": 5
+     },
+     {
+      "year": 2021,
+      "value": 3
+     },
+     {
+      "year": 2022,
+      "value": 4
+     },
+     {
+      "year": 2023,
+      "value": 1
+     },
+     {
+      "year": 2025,
+      "value": 4
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": true,
+     "registrations": 0,
+     "onMarket": 0,
+     "noLongerOnMarket": 0,
+     "riskClasses": null,
+     "manufacturers": null,
+     "note": "No EUDAMED UDI registration found for this device family (word-bounded trade-name match over 2.54M EU registrations). EU registration becomes mandatory for legacy devices 28 Nov 2026 \u2014 absence today is itself a datapoint."
+    },
+    "callouts": [],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -2372,7 +5983,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 24500
 }

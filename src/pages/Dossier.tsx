@@ -8,12 +8,14 @@ import { Experts } from '../components/modules/Experts'
 import { IcpMap } from '../components/modules/IcpMap'
 import { Ip } from '../components/modules/Ip'
 import { Narratives, NarrativesGhost } from '../components/modules/Narratives'
+import { TrialAes } from '../components/modules/TrialAes'
+import { GlobalActions, GlobalActionsGhost } from '../components/modules/GlobalActions'
 import { PredicateTree, TreeGhost } from '../components/modules/PredicateTree'
 import { loadDevice, type DeviceDossier, type Pricing } from '../lib/data'
 import { fmtNum, fmtUsd, fmtUsdCompact } from '../lib/format'
 import { usePurchases } from '../lib/purchases'
 
-const MODULE_ORDER = ['narratives', 'predicate-tree', 'experts', 'icp-map', 'corporate', 'ip'] as const
+const MODULE_ORDER = ['narratives', 'trial-aes', 'global-actions', 'predicate-tree', 'experts', 'icp-map', 'corporate', 'ip'] as const
 
 function priceOf(pricing: Pricing, id: string): number {
   return pricing.items.find((i) => i.id === id)?.price ?? 0
@@ -178,6 +180,68 @@ export function Dossier({
           {m.narratives.payload && <Narratives clusters={m.narratives.payload.clusters} />}
         </ModuleCard>
 
+        {m['trial-aes'] && (
+          <ModuleCard
+            anchorId="mod-trial-aes"
+            title="Sponsor trial adverse events (registry)"
+            cls="II"
+            teaserStats={
+              m['trial-aes'].teaser
+                ? `${fmtNum(m['trial-aes'].teaser.trialsMatched)} trials · ${fmtNum(m['trial-aes'].teaser.seriousEventRows)} serious-event rows · ${fmtNum(m['trial-aes'].teaser.deathTermSubjects)} death-term subjects (${m['trial-aes'].teaser.scope}-scope)`
+                : undefined
+            }
+            locked={!has(device.slug, 'trial-aes')}
+            price={priceOf(pricing, 'trial-aes')}
+            onUnlock={() => moduleBuy('trial-aes', 'sponsor trial adverse events')}
+            notApplicable={m['trial-aes'].notApplicable}
+            reason={m['trial-aes'].reason}
+            caveat={m['trial-aes'].caveat}
+            source={m['trial-aes'].source}
+            blurPreview={
+              <div className="kvGrid">
+                {['Trials', 'Serious rows', 'Subjects', 'Death terms'].map((s) => (
+                  <div key={s} className="kv">
+                    <div className="kvLabel">{s}</div>
+                    <div className="kvValue">•••</div>
+                  </div>
+                ))}
+              </div>
+            }
+          >
+            {m['trial-aes'].payload && <TrialAes payload={m['trial-aes'].payload} />}
+          </ModuleCard>
+        )}
+
+        {m['global-actions'] && (
+          <ModuleCard
+            anchorId="mod-global-actions"
+            title="Global regulatory footprint"
+            cls="II"
+            teaserStats={
+              m['global-actions'].teaser
+                ? `${fmtNum(m['global-actions'].teaser.actions)} foreign actions · ${
+                    m['global-actions'].teaser.countries
+                  } countries · ${m['global-actions'].teaser.sources} regulators` +
+                  (m['global-actions'].teaser.latestAction
+                    ? ` · latest: ${m['global-actions'].teaser.latestAction.country} ${m['global-actions'].teaser.latestAction.date}`
+                    : '')
+                : undefined
+            }
+            locked={!has(device.slug, 'global-actions')}
+            price={priceOf(pricing, 'global-actions')}
+            onUnlock={() => moduleBuy('global-actions', 'global regulatory footprint')}
+            notApplicable={m['global-actions'].notApplicable}
+            reason={m['global-actions'].reason}
+            caveat={m['global-actions'].caveat}
+            source={m['global-actions'].source}
+            blurPreview={<GlobalActionsGhost />}
+          >
+            {m['global-actions'].payload && (
+              <GlobalActions payload={m['global-actions'].payload} />
+            )}
+          </ModuleCard>
+        )}
+
         <ModuleCard
           anchorId="mod-predicate-tree"
           title="510(k) predicate lineage"
@@ -261,7 +325,9 @@ export function Dossier({
           cls="sub"
           teaserStats={
             icpApplies && m['icp-map'].teaser
-              ? `${m['icp-map'].teaser.states} states · ${m['icp-map'].teaser.procedureCodes} procedure codes · CMS ${m['icp-map'].teaser.dataYear} · refreshed monthly`
+              ? (m['icp-map'].teaser.facilities
+                  ? `${m['icp-map'].teaser.facilities} named facilities · ${m['icp-map'].teaser.counties} counties · ${m['icp-map'].teaser.states} states · CMS ${m['icp-map'].teaser.dataYear} · refreshed monthly`
+                  : `${m['icp-map'].teaser.states} states · ${m['icp-map'].teaser.procedureCodes} procedure codes · CMS ${m['icp-map'].teaser.dataYear} · refreshed monthly`)
               : undefined
           }
           locked={!has(device.slug, 'icp-map')}
@@ -297,9 +363,7 @@ export function Dossier({
             </div>
           }
         >
-          {m['icp-map'].payload && (
-            <IcpMap states={m['icp-map'].payload.states} dataYear={m['icp-map'].payload.dataYear} />
-          )}
+          {m['icp-map'].payload && <IcpMap payload={m['icp-map'].payload} />}
         </ModuleCard>
 
         <ModuleCard

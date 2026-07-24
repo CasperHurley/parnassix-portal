@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 33,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 55,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 9,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -406,6 +418,46 @@
      "value": 8
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2005,
+     "value": 1
+    },
+    {
+     "year": 2010,
+     "value": 3
+    },
+    {
+     "year": 2018,
+     "value": 5
+    },
+    {
+     "year": 2019,
+     "value": 1
+    },
+    {
+     "year": 2023,
+     "value": 5
+    },
+    {
+     "year": 2024,
+     "value": 9
+    },
+    {
+     "year": 2025,
+     "value": 17
+    },
+    {
+     "year": 2026,
+     "value": 12
+    }
+   ]
   }
  ],
  "modules": {
@@ -430,32 +482,32 @@
      {
       "problem": "Patient-Device Incompatibility",
       "reports": 1625,
-      "narrative": "THE USER FACILITY REPORTED A 52-YEAR-OLD MALE NOTED AS HEART TRANSPLANT REJECTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE MEDICAL TEAM WAS ABLE TO INSERT THE IMPELLA PUMP SEVERAL TIMES HOWEVER THE PUMP WOULD NOT MAINTAIN THE PROPER POSITION. AFTER A FEW FAILED ATTEMPTS THE MEDICAL TEAM DECIDED TO EXPLANT THE PUMP. THE IMPELLA RP WAS REPLACED WITH AND IMPELLA RP FLEX VIA RIGHT I"
+      "narrative": "PRODUCT WAS NOT RETURNED FOR INVESTIGATION. THE CAUSE OF THE DELIVERY ISSUE WAS PATIENT CONDITION RELATED TO ARTERY BIFURCATION, BASED ON PROVIDED CLINICAL DETAILS."
      },
      {
       "problem": "Pumping Stopped",
       "reports": 1221,
-      "narrative": "THE COMPLAINANT REPORTED THAT A PATIENT IMPLANTED WITH AN IMPELLA 5.5 ENCOUNTERED AN AUTOMATED IMPELLA CONTROLLER ERROR ALERT. THE ERROR RESOLVED WITHOUT INTERVENTION. THE IMPELLA SUPPORT CONTINUED."
+      "narrative": "THE DEVICE WAS RECEIVED AND AN EVALUATION IS UNDERWAY. A SUPPLEMENTAL MDR WILL BE SUBMITTED UPON COMPLETION OF OUR ANALYSIS."
      },
      {
       "problem": "Positioning Failure",
       "reports": 1033,
-      "narrative": "THE IMPELLA DEVICE WAS NOT RECEIVED FROM THE CUSTOMER AND THEREFORE, AN EVALUATION OF THE DEVICE WAS NOT POSSIBLE. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED."
+      "narrative": "THE USER FACILITY REPORTED A 52-YEAR-OLD MALE NOTED AS HEART TRANSPLANT REJECTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE MEDICAL TEAM WAS ABLE TO INSERT THE IMPELLA PUMP SEVERAL TIMES HOWEVER THE PUMP WOULD NOT MAINTAIN THE PROPER POSITION. AFTER A FEW FAILED ATTEMPTS THE MEDICAL TEAM DECIDED TO EXPLANT THE PUMP. THE IMPELLA RP WAS REPLACED WITH AND IMPELLA RP FLEX VIA RIGHT I"
      },
      {
       "problem": "Application Program Problem",
       "reports": 781,
-      "narrative": "THE INVESTIGATION FOR THE REPORTED AIC - CONTROLLER FAILURE (RED ALARM) HAS BEEN COMPLETED. THE PRODUCT WAS RETURNED, AND THE COMPLAINT WAS CONFIRMED. AIC AND RT LOGS ALIGN WITH THE PATTERN FAILURE MODE, TRANSIENT LOSS OF OPTICAL DATA. AIC LOGS CONFIRMED THE REPORTED FAILURE MODE GIVEN THERE WAS A CONTROLLER ERROR ALARM TRIGGERED DURING THE CLINICAL PROCEDURE. IMPELLA STOPPED, AIR IN PURGE SYSTEM AND RETROGRADE FLOW"
+      "narrative": "THE USER FACILITY REPORTED A 53-YEAR-OLD MALE OF UNKNOWN RACE AND ETHNICITY IN ST ELEVATED MYOCARDIAL INFARCTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. IT WAS REPORTED THAT THE PATIENT WAS TRANSFERRED TO ANOTHER FACILITY AND IN THE FLIGHT CONTROLLER ERROR ALARM OCCURRED. ONCE ARRIVAL AT THE NEW FACILITY THE AUTOMATED IMPELLA CONTROLLER (AIC) WAS EXCHANGED. NO PATIENT HARM WAS REPO"
      },
      {
       "problem": "Fluid/Blood Leak",
       "reports": 678,
-      "narrative": "THE INVESTIGATION FOR THE REPORTED ISSUE HAS BEEN COMPLETED. LEAKING WAS OBSERVED FROM THE SIDEARM RESERVOIR DURING REPRODUCTION TESTING. THE LEAKING ORIGINATED FROM A PUNCTURE HOLE IN THE BLUE DIAPHRAGM OF THE RESERVOIR. NO OTHER DAMAGE OR ABNORMALITIES WERE FOUND. THEREFORE, IT WAS DETERMINED THAT THE CAUSE OF THE PURGE LEAK WAS USE-RELATED SIDEARM RESERVOIR DAMAGE. AS NOTED IN THE IMPELLA IFU: IMPELLA CP WITH SMAR"
+      "narrative": "IT WAS REPORTED THAT A 14FR INTRODUCER APPEARED NOT TO BE SEALED (LEAK). THE PROBLEM WAS FOUND DURING PREPARATION FOR AN ACUTE MYOCARDIAL INFARCTION (AMI)/ CARDIOGENIC SHOCK (CGS) PROCEDURE ON A (B)(6)- YEAR OLD MALE PATIENT. THE PHYSICIANS DECIDED QUICKLY TO OPEN ANOTHER IMPELLA SET FOR A NEW INTRODUCER AS THE PATIENT WAS IN VERY POOR CONDITION. THE PATIENT EXPIRED AT SOME POINT DURING, OR AFTER THE PROCEDURE WAS CO"
      },
      {
       "problem": "Increase in Pressure",
       "reports": 677,
-      "narrative": "THE DATA LOGS WERE RETURNED AND CONFIRM A GRADUAL INCREASE IN PURGE PRESSURE WHEN HEPARIN WAS REMOVED. HEPARIN WAS ADDED BACK INTO THE PURGE SYSTEM BUT THE PURGE PRESSURE REMAINED HIGH. THE PUMP WAS RETURNED AND RUN IN THE LAB AND THE HIGH PURGE PRESSURE WAS NOT REPRODUCED AND NO BLOCKAGES COULD BE SEEN. THE ROOT CAUSE OF THE HIGH PURGE PRESSURE IS MOST LIKELY A BIOMATERIAL BUILDUP. IMPELLA CP WITH SMART ASSIST SYSTE"
+      "narrative": "THE INVESTIGATION INTO THE REPORTED HIGH PURGE PRESSURE, PUMP STOP AND THROMBUS HAS BEEN COMPLETED SINCE THE ORIGINAL REPORT WAS FILED. IMPELLA WAS RETURNED WITH THE PUMP CATHETER CUT NEAR THE MOTOR HOUSING SIDE. THE PUMP WAS VISUALLY INSPECTED AND FOUND BIOMATERIAL TO BE INGESTED IN THE OUTFLOW, PURGE GAP, IMPELLER AND THE INFLOW. CATHETER WAS STRIPPED NEAR THE MOTOR HOUSING FROM 20 CM MARKING AND OBSERVED BLOOD TO"
      }
     ]
    },
@@ -576,19 +628,19 @@
      },
      {
       "from": "K202330",
-      "to": "K180785",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "Class II, DYB, 21 CFR- 870.1340 Regulation Description: Catheter Introducer C. Predicate Device: Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices",
+      "to": "K780532",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices have not been subjected to any design-related recall. D. Device Description: The Impella XR",
       "hop": 1,
       "page": 4
      },
      {
       "from": "K202330",
-      "to": "K780532",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices have not been subjected to any design-related recall. D. Device Description: The Impella XR",
+      "to": "K180785",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II, DYB, 21 CFR- 870.1340 Regulation Description: Catheter Introducer C. Predicate Device: Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices",
       "hop": 1,
       "page": 4
      },
@@ -612,19 +664,19 @@
      },
      {
       "from": "K063723",
-      "to": "K050168",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous Cardiac Support System (IMPELLA RECOVER LP 2.5 System)",
+      "to": "K991783",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
       "hop": 2,
       "page": 4
      },
      {
       "from": "K063723",
-      "to": "K991783",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
+      "to": "K050168",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous Cardiac Support System (IMPELLA RECOVER LP 2.5 System)",
       "hop": 2,
       "page": 4
      },
@@ -648,19 +700,19 @@
      },
      {
       "from": "K180785",
-      "to": "K140338",
-      "kind": "primary",
+      "to": "K152225",
+      "kind": "additional",
       "confidence": "medium",
-      "quote": "Introducer Set Common Name Catheter introducer Product Code DYB Classification Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device",
+      "quote": "Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device Description The iSLEEVETM Introducer Set is a sterile, single-use introducer",
       "hop": 2,
       "page": 4
      },
      {
       "from": "K180785",
-      "to": "K152225",
-      "kind": "additional",
+      "to": "K140338",
+      "kind": "primary",
       "confidence": "medium",
-      "quote": "Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device Description The iSLEEVETM Introducer Set is a sterile, single-use introducer",
+      "quote": "Introducer Set Common Name Catheter introducer Product Code DYB Classification Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device",
       "hop": 2,
       "page": 4
      }
@@ -723,8 +775,8 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "PA",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
       "total": 883296.66,
       "payments": 789,
       "years": "2013\u20132024",
@@ -741,7 +793,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "MA",
       "total": 670319.33,
       "payments": 46,
@@ -822,8 +874,8 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "PA",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
       "total": 883296.66,
       "payments": 789,
       "years": "2013\u20132024",
@@ -842,7 +894,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "MA",
       "total": 670319.33,
       "payments": 46,
@@ -961,7 +1013,10 @@
     "states": 8,
     "procedureCodes": 6,
     "dataYear": 2023,
-    "topStateServices": 16848
+    "topStateServices": 16848,
+    "counties": 250,
+    "facilities": 375,
+    "topFacilityCity": "New York, NY"
    },
    "payload": {
     "dataYear": 2023,
@@ -1038,10 +1093,3820 @@
       "services": 30,
       "beneficiaries": 18
      }
+    ],
+    "facilities": [
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 125,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 51
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 109,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 58
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 20
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "260032",
+      "name": "Barnes Jewish Hospital",
+      "city": "Saint Louis",
+      "state": "MO",
+      "countyFips": "29510",
+      "lat": 38.625,
+      "lon": -90.266,
+      "discharges": 108,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 47
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 34
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       }
+      ]
+     },
+     {
+      "ccn": "450044",
+      "name": "Ut Southwestern University Hospital",
+      "city": "Dallas",
+      "state": "TX",
+      "countyFips": "48113",
+      "lat": 32.814,
+      "lon": -96.843,
+      "discharges": 104,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 48
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 30
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 26
+       }
+      ]
+     },
+     {
+      "ccn": "420004",
+      "name": "Musc Medical Center",
+      "city": "Charleston",
+      "state": "SC",
+      "countyFips": "45019",
+      "lat": 32.785,
+      "lon": -79.948,
+      "discharges": 100,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 41
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 28
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 91,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 37
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 88,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 50
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 24
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 87,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 51
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 36
+       }
+      ]
+     },
+     {
+      "ccn": "140281",
+      "name": "Northwestern Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "countyFips": "17031",
+      "lat": 41.895,
+      "lon": -87.615,
+      "discharges": 85,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 31
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "100113",
+      "name": "Uf Health Shands Hospital",
+      "city": "Gainesville",
+      "state": "FL",
+      "countyFips": "12001",
+      "lat": 29.641,
+      "lon": -82.343,
+      "discharges": 81,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 37
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 25
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 77,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 46
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 77,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 20
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "210009",
+      "name": "Johns Hopkins Hospital, The",
+      "city": "Baltimore",
+      "state": "MD",
+      "countyFips": "24510",
+      "lat": 39.299,
+      "lon": -76.588,
+      "discharges": 75,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 24
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "300003",
+      "name": "Mary Hitchcock Memorial Hospital",
+      "city": "Lebanon",
+      "state": "NH",
+      "countyFips": "33009",
+      "lat": 43.926,
+      "lon": -71.842,
+      "discharges": 74,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 49
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 14
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 74,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 39
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       }
+      ]
+     },
+     {
+      "ccn": "340113",
+      "name": "Carolinas Medical Center/Behav Health",
+      "city": "Charlotte",
+      "state": "NC",
+      "countyFips": "37119",
+      "lat": 35.209,
+      "lon": -80.858,
+      "discharges": 71,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 40
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 18
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "050696",
+      "name": "Keck Hospital Of Usc",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.05,
+      "lon": -118.212,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 24
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "440039",
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.141,
+      "lon": -86.803,
+      "discharges": 68,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 35
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 22
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 36
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 20
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 51
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 36
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 19
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "340030",
+      "name": "Duke University Hospital",
+      "city": "Durham",
+      "state": "NC",
+      "countyFips": "37063",
+      "lat": 36.025,
+      "lon": -78.982,
+      "discharges": 65,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 35
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "450388",
+      "name": "Methodist Hospital",
+      "city": "San Antonio",
+      "state": "TX",
+      "countyFips": "48029",
+      "lat": 29.506,
+      "lon": -98.577,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 22
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 17
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "050454",
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "countyFips": "06075",
+      "lat": 37.727,
+      "lon": -123.032,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 17
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 269,
+      "facilities": 5,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "17031",
+      "name": "Cook",
+      "state": "IL",
+      "services": 268,
+      "facilities": 8,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 227,
+      "facilities": 4,
+      "per10k65": 21.8
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 224,
+      "facilities": 7,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 199,
+      "facilities": 6,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 192,
+      "facilities": 4,
+      "per10k65": 1.3
+     },
+     {
+      "fips": "48113",
+      "name": "Dallas",
+      "state": "TX",
+      "services": 172,
+      "facilities": 5,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "18097",
+      "name": "Marion",
+      "state": "IN",
+      "services": 135,
+      "facilities": 4,
+      "per10k65": 10.5
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 129,
+      "facilities": 4,
+      "per10k65": 5.3
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 127,
+      "facilities": 3,
+      "per10k65": 16.9
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 117,
+      "facilities": 2,
+      "per10k65": 13.4
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 114,
+      "facilities": 2,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 111,
+      "facilities": 3,
+      "per10k65": 12.0
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 110,
+      "facilities": 4,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 109,
+      "facilities": 1,
+      "per10k65": 39.8
+     },
+     {
+      "fips": "29510",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 24.2
+     },
+     {
+      "fips": "40109",
+      "name": "Oklahoma",
+      "state": "OK",
+      "services": 108,
+      "facilities": 4,
+      "per10k65": 9.3
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 107,
+      "facilities": 3,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 99,
+      "facilities": 4,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "12001",
+      "name": "Alachua",
+      "state": "FL",
+      "services": 97,
+      "facilities": 2,
+      "per10k65": 22.2
+     },
+     {
+      "fips": "05119",
+      "name": "Pulaski",
+      "state": "AR",
+      "services": 95,
+      "facilities": 3,
+      "per10k65": 14.3
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 10.0
+     },
+     {
+      "fips": "37119",
+      "name": "Mecklenburg",
+      "state": "NC",
+      "services": 84,
+      "facilities": 2,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 84,
+      "facilities": 3,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 82,
+      "facilities": 2,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 79,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 77,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "33009",
+      "name": "Grafton",
+      "state": "NH",
+      "services": 74,
+      "facilities": 1,
+      "per10k65": 35.0
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 72,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "12057",
+      "name": "Hillsborough",
+      "state": "FL",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "34003",
+      "name": "Bergen",
+      "state": "NJ",
+      "services": 67,
+      "facilities": 2,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 66,
+      "facilities": 2,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 66,
+      "facilities": 3,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 65,
+      "facilities": 1,
+      "per10k65": 13.5
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 64,
+      "facilities": 2,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 64,
+      "facilities": 2,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "17043",
+      "name": "DuPage",
+      "state": "IL",
+      "services": 62,
+      "facilities": 4,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 61,
+      "facilities": 2,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "37067",
+      "name": "Forsyth",
+      "state": "NC",
+      "services": 61,
+      "facilities": 2,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "01073",
+      "name": "Jefferson",
+      "state": "AL",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 59,
+      "facilities": 2,
+      "per10k65": 4.3
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 57,
+      "facilities": 2,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 56,
+      "facilities": 1,
+      "per10k65": 18.4
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 55,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 55,
+      "facilities": 1,
+      "per10k65": 3.9
+     },
+     {
+      "fips": "29095",
+      "name": "Jackson",
+      "state": "MO",
+      "services": 55,
+      "facilities": 2,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "21111",
+      "name": "Jefferson",
+      "state": "KY",
+      "services": 55,
+      "facilities": 3,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "20173",
+      "name": "Sedgwick",
+      "state": "KS",
+      "services": 54,
+      "facilities": 2,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "19153",
+      "name": "Polk",
+      "state": "IA",
+      "services": 53,
+      "facilities": 2,
+      "per10k65": 7.5
+     },
+     {
+      "fips": "39113",
+      "name": "Montgomery",
+      "state": "OH",
+      "services": 52,
+      "facilities": 2,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "39095",
+      "name": "Lucas",
+      "state": "OH",
+      "services": 52,
+      "facilities": 2,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 51,
+      "facilities": 2,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 50,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "46083",
+      "name": "Lincoln",
+      "state": "SD",
+      "services": 49,
+      "facilities": 1,
+      "per10k65": 47.3
+     },
+     {
+      "fips": "12033",
+      "name": "Escambia",
+      "state": "FL",
+      "services": 49,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 49,
+      "facilities": 3,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 48,
+      "facilities": 2,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 47,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "49035",
+      "name": "Salt Lake",
+      "state": "UT",
+      "services": 47,
+      "facilities": 2,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 47,
+      "facilities": 2,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 46,
+      "facilities": 2,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "29189",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 46,
+      "facilities": 3,
+      "per10k65": 2.4
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 45,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "37135",
+      "name": "Orange",
+      "state": "NC",
+      "services": 44,
+      "facilities": 1,
+      "per10k65": 18.3
+     },
+     {
+      "fips": "12127",
+      "name": "Volusia",
+      "state": "FL",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "22055",
+      "name": "Lafayette",
+      "state": "LA",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 12.1
+     },
+     {
+      "fips": "42091",
+      "name": "Montgomery",
+      "state": "PA",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "47065",
+      "name": "Hamilton",
+      "state": "TN",
+      "services": 44,
+      "facilities": 2,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "36055",
+      "name": "Monroe",
+      "state": "NY",
+      "services": 43,
+      "facilities": 2,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 16.2
+     },
+     {
+      "fips": "13089",
+      "name": "DeKalb",
+      "state": "GA",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 18.8
+     },
+     {
+      "fips": "29019",
+      "name": "Boone",
+      "state": "MO",
+      "services": 42,
+      "facilities": 2,
+      "per10k65": 16.6
+     },
+     {
+      "fips": "40143",
+      "name": "Tulsa",
+      "state": "OK",
+      "services": 41,
+      "facilities": 2,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "04019",
+      "name": "Pima",
+      "state": "AZ",
+      "services": 38,
+      "facilities": 2,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "42077",
+      "name": "Lehigh",
+      "state": "PA",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 21.2
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 36,
+      "facilities": 1,
+      "per10k65": 14.0
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 36,
+      "facilities": 2,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "05125",
+      "name": "Saline",
+      "state": "AR",
+      "services": 35,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "42133",
+      "name": "York",
+      "state": "PA",
+      "services": 35,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "53067",
+      "name": "Thurston",
+      "state": "WA",
+      "services": 34,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 34,
+      "facilities": 2,
+      "per10k65": 5.8
+     },
+     {
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
+      "services": 33,
+      "facilities": 1,
+      "per10k65": 9.8
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 32,
+      "facilities": 2,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 13.1
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "48439",
+      "name": "Tarrant",
+      "state": "TX",
+      "services": 30,
+      "facilities": 2,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "05005",
+      "name": "Baxter",
+      "state": "AR",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 29,
+      "facilities": 2,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 2.6
+     },
+     {
+      "fips": "26125",
+      "name": "Oakland",
+      "state": "MI",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "51760",
+      "name": "Richmond",
+      "state": "VA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "12011",
+      "name": "Broward",
+      "state": "FL",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 11.9
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 55.7
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 19.8
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "06001",
+      "name": "Alameda",
+      "state": "CA",
+      "services": 25,
+      "facilities": 2,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 11.5
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 24,
+      "facilities": 2,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "27137",
+      "name": "St. Louis",
+      "state": "MN",
+      "services": 23,
+      "facilities": 1,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 23,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "08041",
+      "name": "El Paso",
+      "state": "CO",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 2.1
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 22,
+      "facilities": 2,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "20177",
+      "name": "Shawnee",
+      "state": "KS",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "55035",
+      "name": "Eau Claire",
+      "state": "WI",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 11.0
+     },
+     {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
+      "fips": "51680",
+      "name": "Lynchburg",
+      "state": "VA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 17.6
+     },
+     {
+      "fips": "01089",
+      "name": "Madison",
+      "state": "AL",
+      "services": 19,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "42069",
+      "name": "Lackawanna",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "55079",
+      "name": "Milwaukee",
+      "state": "WI",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.3
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 6.6
+     },
+     {
+      "fips": "51085",
+      "name": "Hanover",
+      "state": "VA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "39119",
+      "name": "Muskingum",
+      "state": "OH",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 10.6
+     },
+     {
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "41017",
+      "name": "Deschutes",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 26.2
+     },
+     {
+      "fips": "45007",
+      "name": "Anderson",
+      "state": "SC",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "36087",
+      "name": "Rockland",
+      "state": "NY",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 5.1
+     },
+     {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 40.6
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "29047",
+      "name": "Clay",
+      "state": "MO",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.8
+     },
+     {
+      "fips": "17077",
+      "name": "Jackson",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 17.1
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "36113",
+      "name": "Warren",
+      "state": "NY",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 9.4
+     },
+     {
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "12111",
+      "name": "St. Lucie",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "37049",
+      "name": "Craven",
+      "state": "NC",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "36085",
+      "name": "Richmond",
+      "state": "NY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "55063",
+      "name": "La Crosse",
+      "state": "WI",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "19163",
+      "name": "Scott",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.6
+     },
+     {
+      "fips": "21145",
+      "name": "McCracken",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 10.1
+     },
+     {
+      "fips": "24025",
+      "name": "Harford",
+      "state": "MD",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "25021",
+      "name": "Norfolk",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "55141",
+      "name": "Wood",
+      "state": "WI",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "19193",
+      "name": "Woodbury",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "01077",
+      "name": "Lauderdale",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "06077",
+      "name": "San Joaquin",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "48183",
+      "name": "Gregg",
+      "state": "TX",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "47179",
+      "name": "Washington",
+      "state": "TN",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "47113",
+      "name": "Madison",
+      "state": "TN",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.3
+     },
+     {
+      "fips": "56025",
+      "name": "Natrona",
+      "state": "WY",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "06023",
+      "name": "Humboldt",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "05031",
+      "name": "Craighead",
+      "state": "AR",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "18167",
+      "name": "Vigo",
+      "state": "IN",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.5
+     },
+     {
+      "fips": "24021",
+      "name": "Frederick",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "28059",
+      "name": "Jackson",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "19061",
+      "name": "Dubuque",
+      "state": "IA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.3
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "05007",
+      "name": "Benton",
+      "state": "AR",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "06097",
+      "name": "Sonoma",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 11.2
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "29021",
+      "name": "Buchanan",
+      "state": "MO",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "24001",
+      "name": "Allegany",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "48485",
+      "name": "Wichita",
+      "state": "TX",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "06079",
+      "name": "San Luis Obispo",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "24013",
+      "name": "Carroll",
+      "state": "MD",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "27003",
+      "name": "Anoka",
+      "state": "MN",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "53061",
+      "name": "Snohomish",
+      "state": "WA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "15003",
+      "name": "Honolulu",
+      "state": "HI",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "01069",
+      "name": "Houston",
+      "state": "AL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 5.4
+     },
+     {
+      "fips": "06065",
+      "name": "Riverside",
+      "state": "CA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "06099",
+      "name": "Stanislaus",
+      "state": "CA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.4
+     },
+     {
+      "fips": "49049",
+      "name": "Utah",
+      "state": "UT",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "12073",
+      "name": "Leon",
+      "state": "FL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.5
+     },
+     {
+      "fips": "45013",
+      "name": "Beaufort",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "48037",
+      "name": "Bowie",
+      "state": "TX",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.8
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": null
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "NY",
+       "physicians": 2975,
+       "totalUsd": 10083663.35
+      },
+      {
+       "state": "VA",
+       "physicians": 832,
+       "totalUsd": 4461802.44
+      },
+      {
+       "state": "MA",
+       "physicians": 856,
+       "totalUsd": 4454315.69
+      },
+      {
+       "state": "CA",
+       "physicians": 4335,
+       "totalUsd": 3633237.07
+      },
+      {
+       "state": "MI",
+       "physicians": 1599,
+       "totalUsd": 2981178.66
+      },
+      {
+       "state": "TX",
+       "physicians": 4834,
+       "totalUsd": 2970818.54
+      },
+      {
+       "state": "PA",
+       "physicians": 2176,
+       "totalUsd": 2845930.82
+      },
+      {
+       "state": "NJ",
+       "physicians": 1460,
+       "totalUsd": 2628623.36
+      },
+      {
+       "state": "FL",
+       "physicians": 3827,
+       "totalUsd": 2206793.66
+      },
+      {
+       "state": "MO",
+       "physicians": 1062,
+       "totalUsd": 1922112.81
+      },
+      {
+       "state": "NC",
+       "physicians": 1371,
+       "totalUsd": 1572864.09
+      },
+      {
+       "state": "IL",
+       "physicians": 1711,
+       "totalUsd": 1422267.62
+      },
+      {
+       "state": "OH",
+       "physicians": 1771,
+       "totalUsd": 1388632.37
+      },
+      {
+       "state": "AZ",
+       "physicians": 1168,
+       "totalUsd": 1270442.16
+      },
+      {
+       "state": "GA",
+       "physicians": 1600,
+       "totalUsd": 974882.33
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Henry Ford Hospital",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 8
+     },
+     {
+      "name": "Tufts Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 8
+     },
+     {
+      "name": "Emory University Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 5
+     },
+     {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 5
+     },
+     {
+      "name": "Ascension St. John Hospital",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 4
+     },
+     {
+      "name": "Hackensack University Medical Center",
+      "city": "Hackensack",
+      "state": "New Jersey",
+      "lat": 40.886,
+      "lon": -74.043,
+      "trials": 4
+     },
+     {
+      "name": "New Mexico Heart Institute",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "lat": 35.084,
+      "lon": -106.651,
+      "trials": 4
+     },
+     {
+      "name": "West Virginia University Hospital",
+      "city": "Morgantown",
+      "state": "West Virginia",
+      "lat": 39.63,
+      "lon": -79.956,
+      "trials": 4
+     },
+     {
+      "name": "Centennial Medical Center",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.166,
+      "lon": -86.784,
+      "trials": 3
+     },
+     {
+      "name": "Henry Ford Health System",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 3
+     },
+     {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 3
+     },
+     {
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "New Jersey",
+      "lat": 40.797,
+      "lon": -74.482,
+      "trials": 3
+     },
+     {
+      "name": "Northwell Health",
+      "city": "Manhasset",
+      "state": "New York",
+      "lat": 40.798,
+      "lon": -73.7,
+      "trials": 3
+     },
+     {
+      "name": "Northwestern University",
+      "city": "Evanston",
+      "state": "Illinois",
+      "lat": 42.041,
+      "lon": -87.69,
+      "trials": 3
+     },
+     {
+      "name": "Providence St. Vincent Medical Center",
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.523,
+      "lon": -122.676,
+      "trials": 3
+     },
+     {
+      "name": "Tampa General Hospital",
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 27.948,
+      "lon": -82.458,
+      "trials": 3
+     },
+     {
+      "name": "AdventHealth - Tampa",
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 27.948,
+      "lon": -82.458,
+      "trials": 2
+     },
+     {
+      "name": "Adventist Health Glendale",
+      "city": "Glendale",
+      "state": "California",
+      "lat": 34.143,
+      "lon": -118.255,
+      "trials": 2
+     },
+     {
+      "name": "Albert Einstein Medical Center",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 2
+     },
+     {
+      "name": "Allegheny General Hospital",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 2
+     },
+     {
+      "name": "Arkansas Heart Hospital",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 2
+     },
+     {
+      "name": "Atrium Health",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "lat": 35.227,
+      "lon": -80.843,
+      "trials": 2
+     },
+     {
+      "name": "Barnes-Jewish Hospital",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
+      "trials": 2
+     },
+     {
+      "name": "Baystate Medical Center",
+      "city": "Springfield",
+      "state": "Massachusetts",
+      "lat": 42.101,
+      "lon": -72.59,
+      "trials": 2
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Brigham & Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Cardiovascular Research Institute of Kansas",
+      "city": "Wichita",
+      "state": "Kansas",
+      "lat": 37.692,
+      "lon": -97.338,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Duke University",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 2
+     },
+     {
+      "name": "Greenville Health System",
+      "city": "Greenville",
+      "state": "South Carolina",
+      "lat": 34.853,
+      "lon": -82.394,
+      "trials": 2
+     },
+     {
+      "name": "Hackensack Medical Center",
+      "city": "Hackensack",
+      "state": "New Jersey",
+      "lat": 40.886,
+      "lon": -74.043,
+      "trials": 2
+     },
+     {
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune City",
+      "state": "New Jersey",
+      "lat": 40.2,
+      "lon": -74.028,
+      "trials": 2
+     },
+     {
+      "name": "Medical College of Wisconsin",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 2
+     },
+     {
+      "name": "Methodist Hospital",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 2
+     },
+     {
+      "name": "Methodist Hospital - San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 2
+     },
+     {
+      "name": "Montefiore Medical Center",
+      "city": "The Bronx",
+      "state": "New York",
+      "lat": 40.85,
+      "lon": -73.866,
+      "trials": 2
+     },
+     {
+      "name": "NCH Rooney Heart Institute",
+      "city": "Naples",
+      "state": "Florida",
+      "lat": 26.142,
+      "lon": -81.796,
+      "trials": 2
+     },
+     {
+      "name": "NYU Langone Health",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Ochsner Foundation Hospital",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "lat": 29.955,
+      "lon": -90.075,
+      "trials": 2
+     },
+     {
+      "name": "Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
+      "trials": 2
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 525,
+     "usSites": 420,
+     "trials": 44,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 46,
+    "trialsWithAeTables": 4,
+    "seriousEventRows": 92,
+    "seriousSubjectsAffected": 54,
+    "deathTermSubjects": 3,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 46,
+    "trialsWithAeTables": 4,
+    "trialsWithSerious": 4,
+    "totals": {
+     "serious": {
+      "rows": 92,
+      "subjects": 54
+     },
+     "other": {
+      "rows": 150,
+      "subjects": 105
+     },
+     "deathTermSubjects": 3
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Hospitalization",
+      "organSystem": "General disorders",
+      "rows": 1,
+      "subjectsAffected": 5
+     },
+     {
+      "term": "Hypotension",
+      "organSystem": "Vascular disorders",
+      "rows": 3,
+      "subjectsAffected": 5
+     },
+     {
+      "term": "Vascular Access Complication",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 3,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Death",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Renal Impairment",
+      "organSystem": "Renal and urinary disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Anaemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Myocardial Infarction",
+      "organSystem": "Cardiac disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Syncope",
+      "organSystem": "Nervous system disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Cardiogenic Shock",
+      "organSystem": "Cardiac disorders",
+      "rows": 4,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Pneumonia",
+      "organSystem": "Infections and infestations",
+      "rows": 3,
+      "subjectsAffected": 2
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT02468778",
+      "title": "SHIELD II Clinical Investigation",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2015",
+      "seriousRows": 84,
+      "seriousSubjects": 40
+     },
+     {
+      "nctId": "NCT01294267",
+      "title": "Percutaneous Hemodynamic Support With Impella 2.5 During Scar-related Ventricular Tachycardia Ablation",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 2,
+      "seriousSubjects": 7
+     },
+     {
+      "nctId": "NCT01319760",
+      "title": "MINI-AMI: Minimizing Infarct Size With Impella 2.5 Following PCI for Acute Myocardial Infarction",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2011",
+      "seriousRows": 5,
+      "seriousSubjects": 6
+     },
+     {
+      "nctId": "NCT04084015",
+      "title": "Early Insertion of Axillary Impella\u00ae With VA ECMO",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2019",
+      "seriousRows": 1,
+      "seriousSubjects": 1
+     },
+     {
+      "nctId": "NCT03431467",
+      "title": "Impella CP With VA ECMO for Cardiogenic Shock",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2018",
+      "seriousRows": 0,
+      "seriousSubjects": 0
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 55,
+    "countries": 9,
+    "sources": 6,
+    "firstForeignDate": "2005-06-15",
+    "latestAction": {
+     "country": "New Zealand",
+     "date": "2026-05-21",
+     "classification": "Hospital/Pharmacy/Laboratory"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 13,
+      "actions": [
+       {
+        "date": "2026-05-13",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Impella Controller \u00b7 Impella Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/impella-controller-0"
+       },
+       {
+        "date": "2026-04-28",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Automated Impella\u00ae Controller \u00b7 Automated Impella\u00ae Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/automated-impellar-controller-0"
+       },
+       {
+        "date": "2026-03-04",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Abiomed Purge Cassette Generation 1 for Impella \u00b7 Abiomed Purge Cassette Generation 1 for Impella",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/abiomed-purge-cassette-generation-1-impella"
+       },
+       {
+        "date": "2026-02-25",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Automated Impella Controller \u00b7 Automated Impella Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/automated-impella-controller"
+       },
+       {
+        "date": "2025-10-23",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Automated Impella\u00ae Controller \u00b7 Automated Impella\u00ae Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/automated-impellar-controller"
+       },
+       {
+        "date": "2025-09-18",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Impella Controller \u00b7 Impella Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/impella-controller"
+       },
+       {
+        "date": "2025-08-29",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Impella\u00ae Controller \u00b7 Impella\u00ae Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/impellar-controller-0"
+       },
+       {
+        "date": "2025-07-09",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Impella\u00ae Controller \u00b7 Impella\u00ae Controller",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/impellar-controller"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 11,
+      "actions": [
+       {
+        "date": "2026-05-12",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 4 to 8 May 2026",
+        "reason": "List of Field Safety Notices from 4 to 8 May 2026.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-4-to-8-may-2026"
+       },
+       {
+        "date": "2026-03-03",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 23-27 February 2026  ",
+        "reason": "List of Field Safety Notices from 23-27 February 2026.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-27-february-2026"
+       },
+       {
+        "date": "2025-11-18",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 10 to 14 November 2025",
+        "reason": "List of Field Safety Notices from 10 to 14 November 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-10-to-14-november-2025"
+       },
+       {
+        "date": "2025-09-16",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 8 to 12 September 2025",
+        "reason": "List of Field Safety Notices from 8 to 12 September 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-8-to-12-september-2025"
+       },
+       {
+        "date": "2025-07-22",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 14 to 18 July 2025",
+        "reason": "List of Field Safety Notices from 14 to 18 July 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-14-to-18-july-2025"
+       },
+       {
+        "date": "2025-07-08",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 30 June to 4 July 2025",
+        "reason": "List of Field Safety Notices from 30 June to 4 July 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-30-june-to-4-july-2025"
+       },
+       {
+        "date": "2024-11-05",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 28 October to 1 November 2024",
+        "reason": "List of Field Safety Notices from 28 October to 1 November 2024",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-28-october-to-1-november-2024"
+       },
+       {
+        "date": "2024-08-19",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 12 to 16 August 2024",
+        "reason": "List of Field Safety Notices from 12 to 16 August 2024.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-12-to-16-august-2024"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 10,
+      "actions": [
+       {
+        "date": "2026-04-17",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Impella Purge Cassette 0043-0001; 0043-0009; ; 0043-0002; 0043-0003; 0048-0014; 0550-0002; 0046-0011",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2026-02-09",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Impella RP 0046-3107; 0046-0011",
+        "reason": "FSN d,f published, FSN e has small changes (now: all SN are affected, before: affected SN see FSN)",
+        "url": null
+       },
+       {
+        "date": "2025-10-23",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Automated Impella Controller (AIC) 0042-0040; 0042-0010; 0042-0000",
+        "reason": "how to check for tampering",
+        "url": null
+       },
+       {
+        "date": "2025-10-10",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Automated Impella Controller (AIC) 0042-0040; 0042-0040-EU",
+        "reason": "Added new language",
+        "url": null
+       },
+       {
+        "date": "2025-07-02",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Automated Impella Controller (AIC) 0042-0040; 0042-0010; 0042-0000; 0042-0040-EU; 0042-0010-EU; 0042-0000-EU",
+        "reason": "Updated EN Version (add. info in section 2.3: +1 death not associated); Added new language",
+        "url": null
+       },
+       {
+        "date": "2024-08-05",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Impella 5.5 SmartAssist Heart Pump 0550-0007; 2000193; 2000154.; 0550-0002; 1000482; 0048-0014. \u00b7 Impella CP SmartAssist 0550-0007; 2000193; 2000154.; 0550-0002; 1000482; 0048-0014.",
+        "reason": "Modification",
+        "url": null
+       },
+       {
+        "date": "2024-03-05",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Impella CP 0048-0008; 0048-0002 \u00b7 Impella LD 004681; 005080 \u00b7 Impella CP SmartAssist 2000154; 0048-0014 \u00b7 Impella 2.5 0046-3061; 005040 \u00b7 Impella RP 0046-3107; 0046-0011 \u00b7 Impella 5.5 SmartAssist Heart Pump 0550-0007, 20",
+        "reason": "Distribution of updated IFU expected date changed",
+        "url": null
+       },
+       {
+        "date": "2023-05-09",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Impella 5.5 SmartAssist Heart Pump 0550-0007; 0550-0002",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 9,
+      "actions": [
+       {
+        "date": "2026-03-06",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "Purge Cassette for Impella",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2026-02-16",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class I",
+        "product": "Automated Impella Controllers (AICs) with Software Version 8.5, used in conjunction with an Impella 5.5 S1",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2025-12-04",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class III",
+        "product": "Impella 5.5 Set with SmartAssist",
+        "reason": "Action level: Wholesale",
+        "url": null
+       },
+       {
+        "date": "2025-10-15",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "The Automated Impella Controller (AIC)",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2025-09-26",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class II",
+        "product": "Automated Impella Controller (AIC)",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2025-07-01",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class I",
+        "product": "Impella Controller, Impella Optical Controller, AIC, Optical, Impella Connect",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2024-03-19",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "Impella Devices",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-12-05",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "Impella Introducer Kits",
+        "reason": "Action level: Hospital",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2026-05-21",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Automated Impella controller with Impella Connect Impella Controller, Impella Optical Controller, Optical, AIC, Impella Connect, Optical AIC w/Impella Connect, Optical, AIC, Impella Connect",
+        "reason": "The manufacturer has identified a software problem affecting the Automated Impella Controller (AIC) when used with a left\nventricular Impella device. The problem may occur in patients with prolonged minimal or absent pulsatility, defined as more than 80\nminutes with an aortic placement signal below ",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36832"
+       },
+       {
+        "date": "2026-03-11",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Impella Purge Cassette Purge Cassette, 5 Pack, Impella CP Smart Assist Set",
+        "reason": "The manufacturer has issued a device recall (removal) of Purge Cassette (Generation 1) due to an increased risk of purge leaks. An updated Purge Cassette (Generation 2) has been developed with a lower risk of purge leaks. The purge cassette delivers rinsing fluid to the Impella catheter. The purge f",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36628"
+       },
+       {
+        "date": "2025-10-22",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Automated Impella controller with Impella Connect Matrial number - 0042-0040-AU - Optical, AIC, Impella Connect, Pkgd, AU",
+        "reason": "The manufacturer has identified cybersecurity vulnerabilities that have residual risk related to network and physical access that could be compromised and that result in uncontrolled risks affecting the Automated Impella Controller (AIC) Operating System. If the identified cybersecurity vulnerabilit",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=35999"
+       },
+       {
+        "date": "2025-07-09",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "IMPELLA CP, IMPELLA CP with SmartAssist Impella Controller, Impella Optical Controller, AIC Optical Impella Connect",
+        "reason": "The manufacturer has identified an AIC issue that may prevent the detection of an Impella pump when connected to an AIC. The pump detection issue may occur with any of the Abiomed Impella pumps and may occur during console-to-console transfer or at initiation of therapy at case start. There is no vi",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=35460"
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2018-10-01",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella 2.5 Herzpumpe, Impella CP Herzpumpe",
+        "reason": "Urgent Field Safety Notice for Impella 2.5 Herzpumpe, Impella CP Herzpumpe by Abiomed Europe GmbH",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2018/12352-18_kundeninfo_en.html"
+       },
+       {
+        "date": "2010-09-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella\u00ae 5.0",
+        "reason": "Recall for Impella\u00ae 5.0, ABIOMED",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2010/02414-10_kundeninfo_en.html"
+       },
+       {
+        "date": "2010-03-18",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella XX Sets",
+        "reason": "Information for Impella XX Sets, Abiomed Europe GmbH",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2010/00694-10_kundeninfo_en.html"
+       },
+       {
+        "date": "2005-06-15",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "implanted PTFE -grafts used with the Recover\u00ae RD",
+        "reason": "Problems with implanted PTFE -grafts used with the Recover\u00ae RD from Impella",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2005/01112-05_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 2,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella 2.5 and Impella CP heart pumps",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---november-2018&id=ae630b26-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/Safety-Notices/fsnsummary_may2010_qmsversion_final_020610.pdf?sfvrsn=0"
+       }
+      ]
+     },
+     {
+      "code": "BE",
+      "name": "Belgium",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2018-09-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Impella 2.5, Impella CP",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       }
+      ]
+     },
+     {
+      "code": "FI",
+      "name": "Finland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2010-03-29",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Impella 2.5, Impella 5.0, Impella LD; 002137 (2.5), 004000 (LD), 004996 (5.0)",
+        "reason": "Device failure / Feature Before Use - Labeling",
+        "url": null
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2005,
+      "value": 1
+     },
+     {
+      "year": 2010,
+      "value": 3
+     },
+     {
+      "year": 2018,
+      "value": 5
+     },
+     {
+      "year": 2019,
+      "value": 1
+     },
+     {
+      "year": 2023,
+      "value": 5
+     },
+     {
+      "year": 2024,
+      "value": 9
+     },
+     {
+      "year": 2025,
+      "value": 17
+     },
+     {
+      "year": 2026,
+      "value": 12
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 11,
+     "onMarket": 11,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "class-iii": 8,
+      "class-iia": 3
+     },
+     "manufacturers": [
+      "Abiomed Inc.",
+      "Abiomed, Inc."
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2005-06-15) predates the first US Class 1 recall (2023-04-17).",
+      "foreign": {
+       "date": "2005-06-15"
+      },
+      "us": {
+       "date": "2023-04-17"
+      }
+     }
+    ],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -1050,7 +4915,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 24500
 }

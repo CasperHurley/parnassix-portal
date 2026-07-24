@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 16066,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 141,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 23,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -578,6 +590,102 @@
      "value": 1066
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2001,
+     "value": 1
+    },
+    {
+     "year": 2006,
+     "value": 3
+    },
+    {
+     "year": 2007,
+     "value": 1
+    },
+    {
+     "year": 2008,
+     "value": 4
+    },
+    {
+     "year": 2009,
+     "value": 6
+    },
+    {
+     "year": 2010,
+     "value": 2
+    },
+    {
+     "year": 2011,
+     "value": 2
+    },
+    {
+     "year": 2012,
+     "value": 7
+    },
+    {
+     "year": 2013,
+     "value": 12
+    },
+    {
+     "year": 2014,
+     "value": 5
+    },
+    {
+     "year": 2015,
+     "value": 21
+    },
+    {
+     "year": 2016,
+     "value": 6
+    },
+    {
+     "year": 2017,
+     "value": 19
+    },
+    {
+     "year": 2018,
+     "value": 1
+    },
+    {
+     "year": 2019,
+     "value": 4
+    },
+    {
+     "year": 2020,
+     "value": 4
+    },
+    {
+     "year": 2021,
+     "value": 10
+    },
+    {
+     "year": 2022,
+     "value": 6
+    },
+    {
+     "year": 2023,
+     "value": 10
+    },
+    {
+     "year": 2024,
+     "value": 9
+    },
+    {
+     "year": 2025,
+     "value": 1
+    },
+    {
+     "year": 2026,
+     "value": 3
+    }
+   ]
   }
  ],
  "modules": {
@@ -592,42 +700,42 @@
      {
       "problem": "Degraded",
       "reports": 189915,
-      "narrative": "THE MANUFACTURER PREVIOUSLY REPORTED AN ALLEGATION OF AN ISSUE RELATED TO SOUND ABATEMENT FOAM. UPON FURTHER REVIEW, THIS DEVICE WAS A REPAIRED DEVICE AND DID NOT CONTAIN SOUND ABATEMENT FOAM THAT WOULD BE LIKELY TO CAUSE OR CONTRIBUTE TO DEATH OR SERIOUS INJURY AND IS NOT IN SCOPE OF RES 88058. THEREFORE, THERE IS NO ALLEGATION OF A REPORTABLE EVENT ASSOCIATED WITH THE DEVICE AT THIS TIME."
+      "narrative": "THE MANUFACTURER WAS CONTACTED IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. THE MANUFACTURER PREVIOUSLY RECEIVED INFORMATION ALLEGING VISUALIZATION OF PARTICLES RELATED TO A CPAP DEVICE'S SOUND ABATEMENT FOAM. THERE WAS NO REPORT OF PATIENT HARM OR INJURY. REPEATED ATTEMPTS TO HAVE THE DEVICE AND"
      },
      {
       "problem": "Contamination",
       "reports": 6411,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED THE PATIENT TO BE HIGH RISK FOR A STROKE. THE PATIENT DID NOT REPORT TO RECEIVE MEDICAL INTERVENTION. THE MANUFACTURER'S INVESTIGATION IS ONGOING. A FOLLOW-UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETE."
+      "narrative": "THE MANUFACTURER WAS PREVIOUSLY CONTACTED IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED LUNG CANCER. THE PATIENT DID NOT REPORT RECEIVING ANY MEDICAL INTERVENTIONS. THE DEVICE WAS RETURNED"
      },
      {
       "problem": "Inadequate User Interface",
       "reports": 3224,
-      "narrative": "THE DEFECTIVE FRONT BEZEL WAS RETURNED FOR FAILURE ANALYSIS. PREVIOUS INVESTIGATIONS HAVE SHOWN THE ROOT CAUSE OF NAVIGATION-RING FAILURES HAS BEEN DETERMINED TO BE DUE TO LIQUID INGRESS."
+      "narrative": "THE PATIENT WAS REMOVED FROM THE VENTILATOR AND PLACED ON AN ALTERNATE VENTILATOR. THE PATIENT WAS NOT HARMED OR INJURED AS A RESULT OF THE REPORTED EVENT."
      },
      {
       "problem": "Corroded",
       "reports": 2674,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION REGARDING A DREAMSTATION AUTO. THE DEVICE WAS RETURNED TO A THIRD PARTY SERVICE CENTER. DURING VISUAL INSPECTION OF THE DEVICE, CORROSION WAS FOUND ON THE POWER CONNECTOR. IN ADDITION, THE INSPECTION FOUND CORROSION ON METALLIC SURFACES, DUST AND DIRT WAS OBSERVED INSIDE THE DEVICE. THE DEVICE WAS SCRAPPED. THIS REPORT IS BEING SUBMITTED FOR THE CORROSION FOUND ON THE POWER CONNE"
+      "narrative": "A DEVICE WAS RETURNED TO A THIRD-PARTY SERVICE CENTER IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. DURING THE EVALUATION OF THE DEVICE, THE THIRD-PARTY SERVICE CENTER VISUALLY INSPECTED THE DEVICE AND FOUND NO EVIDENCE OF FOAM DEGRADATION. THERE WERE SECONDARY FINDINGS THAT THE UNIT'S POWER CONNEC"
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 2264,
-      "narrative": "MY HUSBAND USED A PHILIPS DREAMSTATION CPAP MACHINE EVERY NIGHT FOR ABOUT A YEAR BEFORE HE BEGAN EXPERIENCING SHOULDER PAIN. AFTER GOING TO SEVERAL DOCTORS, HE WAS DIAGNOSED WITH LUNG CANCER IN THE FALL OF 2018 AND DIED IN (B)(6) OF 2019. FDA SAFETY REPORT ID # (B)(4)."
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A PATIENT WITH A REM AUTO A-FLEX DEVICE HAS PASSED AWAY. THE REPORTED EVENT MAKES NO ALLEGATION OF ANY SPECIFIC DEVICE MALFUNCTION, USE ERROR, FAILURE, LABELING, OR OTHER DEFICIENCY THAT IS RELEVANT TO THE HARMS REPORTED; THEREFORE, BASED ON INFORMATION AVAILABLE AT THIS TIME, THE DEVICE DID NOT CAUSE OR CONTRIBUTE TO A SERIOUS INJURY OR DEATH. ADDITIONAL INFORMATION HAS"
      },
      {
       "problem": "Electrical /Electronic Property Problem",
       "reports": 1616,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING DEVICE RESTARTING BY ITSELF EVERY 5-15 MINUTES. THERE WAS NO HARM OR INJURY REPORTED. THE MANUFACTURER'S INVESTIGATION IS ONGOING. A FOLLOW-UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETE."
+      "narrative": "THE CUSTOMER REPORTED THAT THE UNIT IS DISPLAYING A DA PCBA ADC REFERENCE FAILED ERROR CODE. THE CUSTOMER CONTACTED PRODUCT SUPPORT AND REPORTED THE DATA ACQUISITION (DA) BOARD AND CABLE HAVE BEEN REPLACED TWICE AND THE UNIT IS STILL GETTING A VENT INOP ERROR MESSAGE AFTER A FEW HOURS OF RUNNING. THE CUSTOMER VERIFIED ALL 8 PINS ARE PROPERLY INSTALLED INTO THE (DA) PCBA. PRODUCT SUPPORT RECOMMENDED PART TO REPLACE PA"
      },
      {
       "problem": "Device Sensing Problem",
       "reports": 1266,
-      "narrative": "ALTHOUGH REQUESTED, IT IS UNKNOWN IF THE PATIENT WAS CONNECTED TO THE VENTILATOR AT THE TIME OF THE EVENT. NO HARM WAS REPORTED. MULTIPLE ATTEMPTS WERE MADE TO OBTAIN ADDITIONAL INFORMATION AND DEVICE CONTEXT AT THE TIME OF THE REPORTED FAILURE. THE CUSTOMER HAD BEEN ADVISED BY TECHNICAL SUPPORT TO REPLACE THE DATA ACQUISITION (DA) BOARD OR SOLENOIDS. THE CUSTOMER REPORTED TO TECHNICAL SUPPORT THAT PARTS WERE REPLACE"
+      "narrative": "IT WAS REPORTED TO PHILIPS BY A CUSTOMER THAT THE UNIT PROXIMAL PRESSURE AUTO ZERO FAILED. THE CUSTOMER REQUESTED TECH SUPPORT. BASED UPON THE INFORMATION PROVIDED, IT IS UNKNOWN IF THE UNIT WAS IN USE ON A PATIENT AT THE TIME OF THE REPORTED EVENT, HOWEVER, NO PATIENT HARM OR INJURY WAS REPORTED THE DEVICE WAS EVALUATED REMOTELY BY A PHILIPS REMOTE SERVICE ENGINEER (RSE). UPON FURTHER INSPECTION AND REVIEW OF THE DE"
      },
      {
       "problem": "Device Alarm System",
       "reports": 888,
-      "narrative": "B4: (B)(6) 2021. THE CUSTOMER CONFIRMED THE REPORTED FAILURE. THEY CONFIRMED \"LOW TIDAL VOLUME\" ERROR. THE FIELD SERVICE ENGINEER REPLACED AIRFLOW SENSOR TO RESOLVE THE ISSUE. THE UNIT WAS TESTED AND IT WAS RETURNED TO SERVICE. ALTHOUGH REQUESTED, NO PARTS WERE RETURNED FOR FAILURE INVESTIGATION AT THIS TIME; THEREFORE, THE ROOT CAUSE AT THE COMPONENT LEVEL COULD NOT BE DETERMINED. IF THE PART IS RECEIVED, AN INVESTI"
+      "narrative": "THE PRODUCT INVESTIGATION LAB (PIL) TECHNICIAN VERIFIED THAT THE 1104 \"BACKUP ALARM FAILED\" ALARM ERROR WAS NOT LOGGED IN THE EVENT LOG. NO ASSOCIATED OCCURRENCE OR 1104 ERROR CODE COULD BE DUPLICATED AT THE PIL DURING THE BOOTUP OF THE CENTRAL PROCESSING UNIT (CPU) PRINTED CIRCUIT BOARD ASSEMBLY (PCBA) OR STANDARD TEST BED OPERATION USING THE CPU PCBA. WITH THE DEVICE IN A NO POWER/HARDWARE POWER FAIL STATE, THE PIL"
      }
     ]
    },
@@ -759,21 +867,21 @@
      },
      {
       "from": "K241268",
-      "to": "K113068",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "with the Respironics compatible with the the devices with Humidification System One Humidifier Dreamstation Series Respironics Dreamstation which the Chambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation 1 and predicate is Respironics A-Series System",
-      "hop": 1,
-      "page": 7
-     },
-     {
-      "from": "K241268",
       "to": "K200480",
       "kind": "additional",
       "confidence": "medium",
       "quote": "K140424 Same indications for use and 21 CFR \u00a7868.5270 (BZE) same or similar technology. Philips Respironics Reusable Heated Tubing Reference K200480 Same indications for use and 21 CFR 868.5905 (BZD) same or similar technology. Philips Respironics Dream But contains heated",
       "hop": 1,
       "page": 6
+     },
+     {
+      "from": "K241268",
+      "to": "K121623",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Respironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible. One Heated Humidifier machine (K200480)) machine (K200480)) (K121623). Anatomical Site Non-invasive Non-invasive Non-invasive Non-invasive Same. Page 3 of 8",
+      "hop": 1,
+      "page": 7
      },
      {
       "from": "K241268",
@@ -786,10 +894,10 @@
      },
      {
       "from": "K241268",
-      "to": "K121623",
+      "to": "K113068",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "Respironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible. One Heated Humidifier machine (K200480)) machine (K200480)) (K121623). Anatomical Site Non-invasive Non-invasive Non-invasive Non-invasive Same. Page 3 of 8",
+      "quote": "with the Respironics compatible with the the devices with Humidification System One Humidifier Dreamstation Series Respironics Dreamstation which the Chambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation 1 and predicate is Respironics A-Series System",
       "hop": 1,
       "page": 7
      },
@@ -978,7 +1086,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
       "state": "AL",
       "total": 3500.91,
       "payments": 8,
@@ -1078,7 +1186,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
       "state": "AL",
       "total": 3500.91,
       "payments": 8,
@@ -1540,10 +1648,1716 @@
       "services": 37,
       "beneficiaries": 0
      }
+    ],
+    "trialSites": [
+     {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 8
+     },
+     {
+      "name": "University of Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 7
+     },
+     {
+      "name": "Brigham and Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 6
+     },
+     {
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 6
+     },
+     {
+      "name": "University of Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "lat": 25.774,
+      "lon": -80.194,
+      "trials": 5
+     },
+     {
+      "name": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 5
+     },
+     {
+      "name": "University of Virginia",
+      "city": "Charlottesville",
+      "state": "Virginia",
+      "lat": 38.029,
+      "lon": -78.477,
+      "trials": 5
+     },
+     {
+      "name": "University of Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 47.606,
+      "lon": -122.332,
+      "trials": 5
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 4
+     },
+     {
+      "name": "Clayton Sleep Institute",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
+      "trials": 4
+     },
+     {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 4
+     },
+     {
+      "name": "Johns Hopkins Bayview Medical Center",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.29,
+      "lon": -76.612,
+      "trials": 4
+     },
+     {
+      "name": "Loma Linda University Medical Center",
+      "city": "Loma Linda",
+      "state": "California",
+      "lat": 34.048,
+      "lon": -117.261,
+      "trials": 4
+     },
+     {
+      "name": "Providence St. Vincent Medical Center",
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.523,
+      "lon": -122.676,
+      "trials": 4
+     },
+     {
+      "name": "Sharp Mary Birch Hospital for Women & Newborns",
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.716,
+      "lon": -117.165,
+      "trials": 4
+     },
+     {
+      "name": "Tufts Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 4
+     },
+     {
+      "name": "University of Alabama at Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
+      "trials": 4
+     },
+     {
+      "name": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 4
+     },
+     {
+      "name": "University of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "lat": 40.761,
+      "lon": -111.891,
+      "trials": 4
+     },
+     {
+      "name": "Arkansas Center for Sleep Medicine",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 3
+     },
+     {
+      "name": "Arkansas Children's Hospital",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 3
+     },
+     {
+      "name": "Children's Hospital of Philadelphia",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 3
+     },
+     {
+      "name": "Christiana Care Health System",
+      "city": "Newark",
+      "state": "Delaware",
+      "lat": 39.684,
+      "lon": -75.75,
+      "trials": 3
+     },
+     {
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 3
+     },
+     {
+      "name": "Columbia University Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 3
+     },
+     {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 3
+     },
+     {
+      "name": "Indiana University",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 3
+     },
+     {
+      "name": "NYU Sleep Disorders Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 3
+     },
+     {
+      "name": "New Hanover Regional Medical Center",
+      "city": "Wilmington",
+      "state": "North Carolina",
+      "lat": 34.236,
+      "lon": -77.946,
+      "trials": 3
+     },
+     {
+      "name": "Sharp Mary Birch Hospital for Women and Newborns",
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.716,
+      "lon": -117.165,
+      "trials": 3
+     },
+     {
+      "name": "Sleepcare Diagnostics",
+      "city": "Mason",
+      "state": "Ohio",
+      "lat": 39.36,
+      "lon": -84.31,
+      "trials": 3
+     },
+     {
+      "name": "Temple University Hospital",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 3
+     },
+     {
+      "name": "The Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
+      "trials": 3
+     },
+     {
+      "name": "University of Arizona",
+      "city": "Tucson",
+      "state": "Arizona",
+      "lat": 32.222,
+      "lon": -110.926,
+      "trials": 3
+     },
+     {
+      "name": "University of Louisville",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.254,
+      "lon": -85.759,
+      "trials": 3
+     },
+     {
+      "name": "University of Maryland",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.29,
+      "lon": -76.612,
+      "trials": 3
+     },
+     {
+      "name": "University of Michigan Health System",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.278,
+      "lon": -83.741,
+      "trials": 3
+     },
+     {
+      "name": "University of Nebraska Medical Center",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "lat": 41.256,
+      "lon": -95.94,
+      "trials": 3
+     },
+     {
+      "name": "Wayne State University",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 3
+     },
+     {
+      "name": "Yale University",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "lat": 41.308,
+      "lon": -72.928,
+      "trials": 3
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 1898,
+     "usSites": 664,
+     "trials": 864,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 940,
+    "trialsWithAeTables": 61,
+    "seriousEventRows": 738,
+    "seriousSubjectsAffected": 1953,
+    "deathTermSubjects": 275,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 940,
+    "trialsWithAeTables": 61,
+    "trialsWithSerious": 47,
+    "totals": {
+     "serious": {
+      "rows": 738,
+      "subjects": 1953
+     },
+     "other": {
+      "rows": 2649,
+      "subjects": 6322
+     },
+     "deathTermSubjects": 275
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Patent Ductus Aretriosus",
+      "organSystem": "Cardiac disorders",
+      "rows": 4,
+      "subjectsAffected": 631
+     },
+     {
+      "term": "Death",
+      "organSystem": "General disorders",
+      "rows": 11,
+      "subjectsAffected": 261
+     },
+     {
+      "term": "Intraventricular hemorrhage (IVH) Grade 3 or 4",
+      "organSystem": "Nervous system disorders",
+      "rows": 4,
+      "subjectsAffected": 164
+     },
+     {
+      "term": "Necrotizing enterocolitis",
+      "organSystem": "Gastrointestinal disorders",
+      "rows": 4,
+      "subjectsAffected": 146
+     },
+     {
+      "term": "Air leak during initial 14 days",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 4,
+      "subjectsAffected": 93
+     },
+     {
+      "term": "Chest compressions or drugs in the delivery room",
+      "organSystem": "Cardiac disorders",
+      "rows": 4,
+      "subjectsAffected": 82
+     },
+     {
+      "term": "Pulmonary Hemorrhage",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 4,
+      "subjectsAffected": 78
+     },
+     {
+      "term": "Pneumothorax",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 19,
+      "subjectsAffected": 37
+     },
+     {
+      "term": "Musculoskeletal",
+      "organSystem": "Musculoskeletal and connective tissue disorders",
+      "rows": 4,
+      "subjectsAffected": 20
+     },
+     {
+      "term": "Stroke",
+      "organSystem": "Nervous system disorders",
+      "rows": 10,
+      "subjectsAffected": 15
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT00233324",
+      "title": "Surfactant Positive Airway Pressure and Pulse Oximetry Trial",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2005",
+      "seriousRows": 32,
+      "seriousSubjects": 1433
+     },
+     {
+      "nctId": "NCT02636868",
+      "title": "The Safety and Efficacy of Lucinactant for Inhalation in Premature Neonates 26 to 32 Weeks Gestational Age",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2015",
+      "seriousRows": 87,
+      "seriousSubjects": 71
+     },
+     {
+      "nctId": "NCT00051363",
+      "title": "Apnea Positive Pressure Long-Term Efficacy Study",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "startYear": "2002",
+      "seriousRows": 28,
+      "seriousSubjects": 70
+     },
+     {
+      "nctId": "NCT00116558",
+      "title": "Early Treatment of Amyotrophic Lateral Sclerosis (ALS) With Nutrition and Non-Invasive Positive Pressure Ventilation",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2004",
+      "seriousRows": 34,
+      "seriousSubjects": 59
+     },
+     {
+      "nctId": "NCT01261390",
+      "title": "Sleep Apnea Intervention for Cardiovascular Disease Reduction",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2011",
+      "seriousRows": 92,
+      "seriousSubjects": 29
+     },
+     {
+      "nctId": "NCT02528318",
+      "title": "Trial To Assess The Safety And Tolerability Of Lucinactant For Inhalation In Preterm Neonates 26 to 28 Weeks PMA",
+      "phase": "PHASE2",
+      "status": "TERMINATED",
+      "startYear": "2015",
+      "seriousRows": 95,
+      "seriousSubjects": 29
+     },
+     {
+      "nctId": "NCT01446913",
+      "title": "Sleep Apnea in TIA/Stroke: Reducing Cardiovascular Risk With Positive Airway Pressure",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2011",
+      "seriousRows": 15,
+      "seriousSubjects": 28
+     },
+     {
+      "nctId": "NCT03969992",
+      "title": "A Dose-Ranging Study to Determine the Efficacy, Safety and Tolerability of AeroFact",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 30,
+      "seriousSubjects": 24
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 141,
+    "countries": 23,
+    "sources": 6,
+    "firstForeignDate": "2001-10-12",
+    "latestAction": {
+     "country": "United Kingdom",
+     "date": "2026-04-28",
+     "classification": "field-safety-notices"
+    },
+    "screenedOut": 97
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 25,
+      "actions": [
+       {
+        "date": "2024-07-24",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Philips BIPAP A40 Pro ventilators \u00b7 Philips BIPAP A40 Pro ventilators",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-bipap-a40-pro-ventilators"
+       },
+       {
+        "date": "2024-07-05",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": null,
+        "product": "Philips Respironics recalls several models of CPAP and BiLevel PAP machines and mechanical ventilators \u00b7 Philips Respironics Continuous Positive Airway Pressure (CPAP) machines, BiLevel Positive Airway Pressure (BiLevel ",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-respironics-recalls-several-models-cpap-and-bilevel-pap-machines-and"
+       },
+       {
+        "date": "2024-05-02",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type I",
+        "product": "Philips Respironics BiPAP and Humidifiers \u00b7 Philips Respironics BiPAP and Humidifiers",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-respironics-bipap-and-humidifiers"
+       },
+       {
+        "date": "2023-07-10",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Philips BiPAP and Humidifiers \u00b7 Philips BiPAP and Humidifiers",
+        "reason": "Sterility",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-bipap-and-humidifiers"
+       },
+       {
+        "date": "2023-04-26",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Philips Respironics Trilogy EV300 and Evo ventilator \u00b7 Philips Respironics Trilogy EV300 and Evo ventilator",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-respironics-trilogy-ev300-and-evo-ventilator"
+       },
+       {
+        "date": "2022-09-26",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": null,
+        "product": "Magnets in certain Philips Respironics sleep therapy masks may cause serious injury to some individuals \u00b7 Philips Respironics sleep therapy masks with magnets in the headgear clips or straps (Amara View; DreamWisp; Dream",
+        "reason": "New safety information",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/magnets-certain-philips-respironics-sleep-therapy-masks-may-cause-serious-injury-some"
+       },
+       {
+        "date": "2022-09-23",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Respironics Masks \u00b7 Respironics Masks",
+        "reason": "Labelling and packaging",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/respironics-masks"
+       },
+       {
+        "date": "2022-03-29",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Respironics Ventilator \u00b7 Respironics Ventilator",
+        "reason": "Software defect",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/respironics-ventilator"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 17,
+      "actions": [
+       {
+        "date": "2026-04-28",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 20 to 24 April 2026",
+        "reason": "List of Field Safety Notices from 20 to 24 April 2026.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-20-to-24-april-2026"
+       },
+       {
+        "date": "2026-03-31",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 23-27 March 2026",
+        "reason": "List of field Safety Notices for 23-27 March 2026",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-27-march-2026"
+       },
+       {
+        "date": "2025-04-29",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 21 to 25 April 2025",
+        "reason": "List of Field Safety Notices from 21 to 25 April 2025.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-21-to-25-april-2025"
+       },
+       {
+        "date": "2024-09-30",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 23 to 27 September 2024",
+        "reason": "List of Field Safety Notices from 23 to 27 September 2024.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-to-27-september-2024"
+       },
+       {
+        "date": "2024-08-28",
+        "source": "mhra-fsn",
+        "actionType": "device-safety-information",
+        "classification": null,
+        "product": "Philips Respironics BiPAP A series ventilators: alarm malfunction and risk of therapy interruptions in ventilators not intended for life-support, DSI/2024/006",
+        "reason": "Philips Respironics has issued a Field Safety Notice (FSN) relating to the Bilevel Positive Airway Pressure (BiPAP) A series ventilators. This relates to a Ventilator Inoperative alarm which could result in the potential loss of therapy to patients without warning.",
+        "url": "https://www.gov.uk/drug-device-alerts/philips-respironics-bipap-a-series-ventilators-alarm-malfunction-and-risk-of-therapy-interruptions-in-ventilators-not-intended-for-life-support-dsi-slash-2024-slash-006"
+       },
+       {
+        "date": "2024-07-09",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 24 to 28 June 2024",
+        "reason": "List of Field Safety Notices from 24 to 28 June 2024.",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-24-to-28-june-2024"
+       },
+       {
+        "date": "2023-05-18",
+        "source": "mhra-fsn",
+        "actionType": "national-patient-safety",
+        "classification": null,
+        "product": "National Patient Safety Alert: Removal of Philips Health Systems V60 and V60 Plus ventilators from service: risk of shutdown leading to complete loss of ventilation (NatPSA/2023/005/MHRA)",
+        "reason": "The MHRA is issuing updated advice that Philips Respironics V60 and V60 Plus non-invasive ventilators must be permanently removed from use.",
+        "url": "https://www.gov.uk/drug-device-alerts/national-patient-safety-alert-removal-of-philips-health-systems-v60-and-v60-plus-ventilators-from-service-risk-of-shutdown-leading-to-complete-loss-of-ventilation-natpsa-slash-2023-slash-005-slash-mhra"
+       },
+       {
+        "date": "2022-09-12",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 5 to 9 September 2022",
+        "reason": "Summary List of field safety notices (FSNs) from medical device manufacturers from 5 to 9 September 2022",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-5-to-9-september-2022"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 15,
+      "actions": [
+       {
+        "date": "2024-07-09",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "BiPAP A40 EFL see FSN \u00b7 BiPAP A40 Pro see FSN \u00b7 BiPAP A30 EFL see FSN",
+        "reason": "Produkteinstellung",
+        "url": null
+       },
+       {
+        "date": "2024-05-13",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "BiPAP A30, BiPAP A30 EFL, BiPAP A30 Hybrid, BiPAP A40, BiPAP A40 EFL, BiPAP A40 Pro ALL",
+        "reason": "Precision of Patientpopulation that cannot tolerate interruption of therapy",
+        "url": null
+       },
+       {
+        "date": "2021-06-16",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "CPAP Breathing Systems ",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2021-06-10",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Trilogy 200  \u00b7 Trilogy 100  \u00b7 BiPAP Hybrid A30, BiPAP V30 Auto, BiPAP A30 / A40 ",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP autoSV Advanced w/SmartCard (SV3)",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150602_06"
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP autoSV w/SmartCard (SV2)",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150602_06"
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP autoSV Advanced System One (60 Series, 30 cm)",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150602_06"
+       },
+       {
+        "date": "2015-06-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP autoSV Advanced System One (60 Series)",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150602_06"
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 12,
+      "actions": [
+       {
+        "date": "2023-11-15",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "DreamStation Auto CPAP - Care Orchestrator",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2023-10-19",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "BIPAP A40 Pro, BIPAP A40 EFL and the System One Humidifier",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2023-06-07",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class II",
+        "product": "DreamStation GO (DSGO) sleep therapy device",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2023-01-25",
+        "source": "tga-drac",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "Philips Respironics V680 Ventilator",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2022-10-28",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class III",
+        "product": "Philips Respironics \u2013 Sleep & Respiratory Care Devices",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2022-05-27",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class III",
+        "product": "Philips DreamStation BiPAP AVAPS30",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2021-07-01",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "Philips Respironics CPAP and Bi-Level PAP Devices",
+        "reason": "Action level: Consumer",
+        "url": null
+       },
+       {
+        "date": "2021-07-01",
+        "source": "tga-drac",
+        "actionType": "Product Defect Correction",
+        "classification": "Class I",
+        "product": "Philips Respironics - Ventilator Devices",
+        "reason": "Action level: Consumer",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 11,
+      "actions": [
+       {
+        "date": "2017-03-02",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "V60 respiratory ventilator with version 2.20 software",
+        "reason": "Urgent field safety notice for V60 respiratory ventilator with version 2.20 software, Respironics California LLC / Philips",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2017/01484-17_Kundeninfo_en.html"
+       },
+       {
+        "date": "2016-02-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Trilogy100 / Trilogy200 / Garbin / Garbin Plus / TrilogyO2 / Trilogy202 / TrilogyEC",
+        "reason": "Urgent Field Safety Notice for Trilogy100 / Trilogy200 / Garbin / Garbin Plus / TrilogyO2 / Trilogy202 / TrilogyEC, Philips Respironics",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2016/00099-16_kundeninfo_en.html"
+       },
+       {
+        "date": "2013-07-22",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the V60 Ventilator",
+        "reason": "Safety Notice for the V60 Ventilator, Respironics California",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2013/03530-13_kundeninfo_en.html"
+       },
+       {
+        "date": "2012-08-14",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the Respironics V60 ventilator",
+        "reason": "Safety Notice for the Respironics V60 ventilator, Philips",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2012/05216-12_kundeninfo_en.html"
+       },
+       {
+        "date": "2012-02-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "specific Trilogy Ventilators",
+        "reason": "Corrective Action of specific Trilogy Ventilators, Philips Respironics",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2012/00460-12_kundeninfo_en.html"
+       },
+       {
+        "date": "2011-09-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "device Philips NM3 Monitor",
+        "reason": "Recall of the device Philips NM3 Monitor, Respironics Deutschland GmbH",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2011/04104-11_kundeninfo_en.html"
+       },
+       {
+        "date": "2009-11-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics V60 ventilators",
+        "reason": "Safety Information for Respironics V60 ventilators, Philips",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2009/03922-09_kundeninfo_en.html"
+       },
+       {
+        "date": "2009-08-25",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "REMstar M Series Humidifier",
+        "reason": "Safety Information for REMstar M Series Humidifier, Philips Respironics",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/12/2009/02479-09_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 9,
+      "actions": [
+       {
+        "date": "2026-02-23",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Trilogy EV300 Trilogy EV300",
+        "reason": "The manufacturer has become aware that Trilogy Evo, Trilogy Evo O2, and Trilogy EV300 devices do not comply with the Obstruction Alarm requirements specified within ISO 80601-2-12 Clause 201.12.4.108 and ISO 80601-2-72 Clause 201.12.4.107.\nPhilips Respironics has assessed this problem and determined",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36574"
+       },
+       {
+        "date": "2024-07-04",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "BiPAP A40 Pro All BiPAP A40 Pro Ventilators",
+        "reason": "The manufacturer has become aware of a potential safety issue with all BiPAP A40 Pro Ventilators, BiPAP A40 EFL Ventilators, and BiPAP A30 EFL Ventilators. These ventilators may incorrectly generate a High Internal Oxygen alarm. The device will continue to provide therapy while the alarm is addresse",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=33336"
+       },
+       {
+        "date": "2023-10-24",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Heated Humidifier BIPAP A40 Pro, BIPAP A40 EFL and the System One",
+        "reason": "The manufacturer has updated the Instructions for Use (IFU) for BiPAP A40 Pro, BIPAP A40 EFL and the System One humidifier cleaning to remove Keredusy as a disinfection method.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=32004"
+       },
+       {
+        "date": "2023-08-11",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "V680 Ventilator Philips Respironics V680 (V680) ventilator",
+        "reason": "The purpose of this is to communicate an update to the planned market removal of the Philips Respironics V680 (V680) ventilator that was previously communicated in the January 2023. The letter stated that Philips Respironics would no longer support this product past July 2023. Due to feedback from g",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=30537"
+       },
+       {
+        "date": "2023-06-27",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "System One Pro/Auto, DreamStation DreamStation GO (DSGO) sleep therapy device",
+        "reason": "The manufacturer has become aware of an anomaly with the Philips DreamStation GO (DSGO) sleep therapy device. The DreamStation Go (DSGO) sleep therapy device was distributed to customers with revision 10 of User Manual 1129919 instead of revision 12.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=31329"
+       },
+       {
+        "date": "2021-07-02",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Philips Respironics E30 Ventilator",
+        "reason": "The manufacturer has identified two (2) issues related to the polyester-based polyurethane (PE-PUR) sound abatement foam used in Philips Continuous and Non-Continuous Ventilators: 1) PE-PUR foam may degrade into particles which may enter the device's air pathway and be ingested or inhaled by the use",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27896"
+       },
+       {
+        "date": "2019-02-15",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Mainstream CO2 Sensor CAPNOSTAT 5 Mainstream Sensor",
+        "reason": "The manufacturer received complaints that the sensor cable for the Philips Respironics CAPNOSTAT 5 Mainstream Sensor and may appear kinked or twisted after use. Twisting, coiling and bending of the sensor cables can occur during use, maintenance and storage of the sensors which could cause the senso",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=24188"
+       },
+       {
+        "date": "2015-06-26",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Respironics BiPAP Unit BiPAP AutoSV, BiPAP AutoSV Advanced",
+        "reason": "A clinical trial has indicated an increased risk of death for patients with a specific heart condition if they are being treated with Adaptive ServoVentilation (ASV) mode on ResMed ventilators. As a result, Respironics is updating the instructions for use to change the intended use statement and add",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=18576"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2017-05-05",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Trade name: Respironics ventilator. Technical Name: Fan Pressure and Volume. ANVISA registration number: 10216710199. Risk class: III. Model affected: V60. Serial numbers affected: 100074200; 100074206; 100074207; 100099",
+        "reason": "Over time, low-frequency vibrations can cause the pins, from inside the female connectors, on the ribbon cable of the data acquisition board, to become partially offset, causing a high momentary resistance that interferes with the transfer of data. This may cause the ventilator to fail the self-test",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2016-01-21",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Pulmonary Ventilator, models Trilogy 202 / Trilogy 100 / Trilogy 200, registration 10216710280 and 10216710291, risk class III, serial numbers affected (SEE ANNEX).",
+        "reason": "Philips Respironics has learned that Trilogy Fans, with software versions 13.2.04, 13.2.05, 14.0.00 or 14.1.01, are susceptible to an accidental change in prescriptions. This can occur under a certain set of operating conditions and after a specific sequence of keystrokes without requiring the user ",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2015-07-22",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Ventilation support system BIPAP, Bipap Auto SV, registration 80102510425, risk class II, all batches.",
+        "reason": "ResMed has issued an Urgent Safety Notice describing an absolute greater annual risk of a statistically significant 2.5 percent cardiovascular mortality rate for individuals randomized to ResMed Assisted Ventilation (ASV) therapy compared to the control group. In the population of patients with redu",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2015-06-03",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Respirator BiPAP AUTOSV ADVANCED SYSTEM ONE WITH HEATED TUBE, Hazard Class II, Registration 10216719019 (Series 60) /////// BiPAP AUTOSV ADVANCED SYSTEM, ONE (Series 50), Registration 10216719015,, Serial number affected",
+        "reason": "During the preliminary analysis of primary data from the SERVE-HF clinical study, a serious safety concern was identified. This study investigated the effect of Adaptive Servo Injection (VSA) therapy on hospitalization rates and mortality in patients with symptomatic chronic heart failure (NYHA 2-4)",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2009-10-05",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HEATED UMIDIFIER SERIES M - Models 1051158, 1051157, 1049124, 1049110, 1049109, U1049110, U1049109, R1049110, R1049109 - Registered at Anvisa under number 80102510248 - LOTS / SERIAL NUMBERS - See attached list.",
+        "reason": "Philips Respironics is announcing a voluntary recall that affects its line of M Series Heated Humidifiers. Some humidifiers may fail to operate due to a potential malfunction of an internal connection between the Heating Plate and the Printed Circuit Board, which results in a \"Blinking Blue Light\" o",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       },
+       {
+        "date": "2001-10-12",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Non-invasive extra-thoracic ventilators Respironics, model NEV-100",
+        "reason": "All units manufactured between April 1992 and February 1999. A circuit failure may cause the above respirators to stop, shut down, and do not restart and / or exhibit smoke or smoke smell. The manufacturer initiated the correction by letter dated May 24, 1999.",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 6,
+      "actions": [
+       {
+        "date": "2014-11-21",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Esprit V1000 and Esprit/V200 Conversion Ventilators",
+        "reason": "Medical Device Safety Alert: Respironics Esprit V1000 and Esprit/V200 Conversion Ventilators \nMedical device manufacturer, Respironics California, Inc., a division of Philips Healthcare, has issued a field safety notice concerning its Esprit V1000 and Esprit/V200 Conversion Ventilators. The affected",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20141121.html"
+       },
+       {
+        "date": "2013-06-20",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "V60 Non-invasive Ventilators",
+        "reason": "Medical Device Safety Alert: Respironics V60 Non-invasive Ventilators\nThe Australia Therapeutic Goods Administration (TGA) has posted a medical device safety alert concerning V60 Non-invasive Ventilators which is manufactured by Respironics California Inc., a division of Philips Healthcare.\n In the ",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20130620b.html"
+       },
+       {
+        "date": "2013-04-18",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Respironics SealFlex Single Port Ribbed Mask (Infant)",
+        "reason": "Medical Device Safety Alert: Respironics SealFlex Single Port Ribbed Mask (Infant)\nThe United States Food and Drug Administration (FDA) has issued a medical device safety alert concerning Respironics SealFlex Single Port Ribbed Mask (Infant) manufactured by Engineered Medical Systems Inc. The affect",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20130418c.html"
+       },
+       {
+        "date": "2012-08-21",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "V60 Ventilator",
+        "reason": "Medical Device Safety Alert: Respironics V60 Ventilator\nThe Medicines and Healthcare products Regulatory Agency (MHRA), United Kingdom and The Health Canada have posted a medical device safety alert concerning Respironics V60 Ventilator which is manufactured by Respironics California, Inc., a divisi",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20120821.html"
+       },
+       {
+        "date": "2012-08-02",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Trilogy 100, 200 and 202 Ventilators",
+        "reason": "Medical Device Safety Alert: Respironics Trilogy 100, 200 and 202 Ventilators\n\nThe United States Food and Drug Administration (FDA) has issued a Class I recall concerning Respironics Trilogy 100, 200 and 202 Ventilators manufactured by Respironics, Inc.\nThe affected model/ catalog numbers are 103280",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20120802a.html"
+       },
+       {
+        "date": "2012-01-13",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Trilogy 100 Ventilators",
+        "reason": "FDA Class I Recall: Respironics Trilogy 100 Ventilators\nThe Food and Drug Administration (FDA), United States, has issued a Class  I recall on Respironics Trilogy 100 Ventilators.\nTrilogy 100 ventilators are being recalled due to a manufacturing issue.  This issue can cause part of the blower that c",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20120113.html"
+       }
+      ]
+     },
+     {
+      "code": "ES",
+      "name": "Spain",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2017-06-01",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Respironics V60 fans manufactured before September 15, 2015",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2017-03-30",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Respironics V60 ventilators, updated to software version 2.20 after distribution",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2017-03-02",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Respironics V60 fans, with software version 2.20, between August 17, 2016 and January 4, 2017.",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-06-16",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Oximetry modules of uSpO2 and HPLP, component number 1075383 of Philips Respironics USA",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2013-07-16",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "Respironics V60 ventilators",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2017-05-22",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "fan philips respironics v60 ventilator - catalog # 850008 - all v60 products from 4 April 2009 to 14 September 2015.",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7388"
+       },
+       {
+        "date": "2015-06-23",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "bipap autosv advanced system one (60 series, 30 cm)",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=5888"
+       },
+       {
+        "date": "2015-04-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "philips respironics v680 fan",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=5718"
+       },
+       {
+        "date": "2014-03-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "fan philips respironics trilogy 202",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=2951"
+       },
+       {
+        "date": "2013-07-22",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "fan philips respironics v60",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=2710"
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 5,
+      "actions": [
+       {
+        "date": "2015-06-02",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Philips ventilators BiPAP autoSV, BiPAP autoSV Advanced, OmniLab Advanced, OmniLab Advanced + and HeartPAP devices",
+        "reason": "Warning",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/SN2015(12)&id=4a550326-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2013-06-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics V60 Ventilator",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/jan-dec-2014-fsn-summary-sheets/fsnsummary_jul2013_qmsversion_updated2forv18428_101114.pdf?sfvrsn=2"
+       },
+       {
+        "date": "2011-06-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Millennium Oxygen Concentrator",
+        "reason": "Philips Respironics is aware that a small number of Millennium Oxygen Concentrators on the Irish market may not yet have received a capacitor upgrade. The potentially affected population was manufactured between July 2003 and August 2004.",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/millennium-oxygen-concentrator&id=c484f825-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": "2010-05-17",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "M Series Heated Humidifier",
+        "reason": "Certain Philips Respironics humidifiers may present a risk of potential burn if handled while exhibiting thermal deformation due to a connector failure. This is due to an intermittent connection between the heater plate and the printed circuit board which results in a blinking LED on the humidifier ",
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/m-series-heated-humidifier&id=848bf825-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "M Series Humidifier- Important Safety Information \nfrom Phillips Respironics Products",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/fsn-summary-sheets--2009-2010/fsnsummary_aug2009_qmsversion_updated_240914.pdf?sfvrsn=2"
+       }
+      ]
+     },
+     {
+      "code": "CO",
+      "name": "Colombia",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2017-12-19",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "non-invasive ventilation system Bipap Synchrony",
+        "reason": null,
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=62"
+       },
+       {
+        "date": "2017-03-30",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Automatic CPAP device DREAMSTATION",
+        "reason": "The manufacturer reports that it has identified that the medicoreferenced device experienced an erroneous configuration during its manufacture, which prevents the modem from making a satisfactory connection to the internet, a replacement of this modem is required to ensure a successful data transmis",
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=95"
+       },
+       {
+        "date": "2014-04-10",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "respiratory assistance systems (CPAP / BIPAP)",
+        "reason": "The manufacturer reports that it has detected in isolated cases, that a diode in the power board can be subjected to an overvoltage, causing the power supply to be shut off and therefore the device to stop, leading to potentially adverse events occurring on the patient.",
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=205"
+       },
+       {
+        "date": "2014-02-20",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Respironics ventilator",
+        "reason": "It is affirmed that the ventilators of the models mentioned commercialized between December 31, 2013 and January 30, 2014, contain a potentially defective ferrite component that could affect the operation of the biomedical equipment, causing a failure in the mechanical ventilation and in the functio",
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=208"
+       }
+      ]
+     },
+     {
+      "code": "SG",
+      "name": "Singapore",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-12-06",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics Bipap A40",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2017-02-15",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics V60 Ventilator",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       },
+       {
+        "date": "2016-02-17",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics Trilogy 100 System",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       }
+      ]
+     },
+     {
+      "code": "LBN",
+      "name": "LBN",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-05-25",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "respironics v60 non-invasive ventilators",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/25-5-2017/respironicsv60noninvasiveventilators.pdf"
+       },
+       {
+        "date": "2015-06-03",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "BiPAP autoSV Advanced System One",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/medical_care/PhilipsHealthcare.pdf"
+       },
+       {
+        "date": "2013-08-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Respironics V60 Ventilator",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/medical_care/25945-1-13.pdf"
+       }
+      ]
+     },
+     {
+      "code": "SI",
+      "name": "Slovenia",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2017-04-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "ventilator Philips V60",
+        "reason": "Respironics California, LLC (\"Respironics\") voluntarily performs a patch for any non-invasive Philips V60 fan made before September 15, 2015, requiring replacement of the internal fan cable.\n\nRespironics started distributing V60 fans in 2009. All V60 models made before September 15, 2015 are subject",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Trilogy 100, Trilogy 200, Garbin, Garbin Plus, Trilogy O2, Trilogy 202, Trilogy EC",
+        "reason": "Philips Respironics Trilogy devices operating with the above software versions and with dual prescriptions \nenabled may be susceptible to inadvertent change between active prescriptions in response to specific user \ninteraction. This may occur without requiring user confirmation of the change. Howev",
+        "url": null
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP autoSV Advanced System One and others",
+        "reason": "ResMed has issued an Urgent Field Safety Notice that described a statistically significant 2.5 percent absolute increased annual risk of cardiovascular mortality for those randomized to a ResMed adaptive servo ventilation (ASV) therapy compared to the control group. In the patient population with re",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2018-09-13",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "EverFlo (Oxygen Concentrator)",
+        "reason": "Philips/ Respironics EverFlo Oxygen Concentrator 1102443 has the electrical rating of 230V 60Hz.\nHowever, one of the components inside the device, a compressor has a label indicating 230V 50Hz,\nplease see below Figure 1. The same component also has additional label on the back side, see Figure 2,\nTh",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=13138"
+       },
+       {
+        "date": "2016-01-19",
+        "source": "icij-imdd",
+        "actionType": "Recall / Field Safety Notice",
+        "classification": null,
+        "product": "Trilogy 100, Trilogy 200, Garbin, Garbin Plus, Trilogy O2, Trilogy 202, Trilogy EC",
+        "reason": "The listed Trilogy devices support dual therapy prescriptions, and two prescriptions may be programmed by a healthcare professional specific to the patient\u2019s needs as prescribed by physician. Philips Respironics has become aware that Trilogy Ventilators with software versions 13.2.04, 13.2.05, 14.0.",
+        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=8794"
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2017-03-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics V60 Ventilator",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       },
+       {
+        "date": "2015-07-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "DK",
+      "name": "Denmark",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2015-06-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP, OmniLab, HeartPAP",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2015/06/bipap,-omnilab,-heartpap/"
+       },
+       {
+        "date": "2013-07-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Respironics V60 Respirator",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2013/respironics-v60-respirator/"
+       }
+      ]
+     },
+     {
+      "code": "FI",
+      "name": "Finland",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2013-06-26",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Respironics V60 Ventilator",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2008-10-08",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "BiPAP Focus Ventilator System",
+        "reason": "Device failure / Feature Before Use - Material / Component",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "JP",
+      "name": "Japan",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-11-10",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "BiPAP A 40 System Silver Series",
+        "reason": null,
+        "url": "http://www.info.pmda.go.jp/rgo/MainServlet?recallno=2-7702"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2015-06-18",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "devices for adaptive servoventilation : bipap autosv advanced system one, bipap autosv advanced w / smartcard , bipap autosv w / smartcard , omnilab advanced, bipap autosv and heartpap",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-philips-dotycz%C4%85ca-urz%C4%85dze%C5%84-do-adaptacyjnej-serwowentylacji-asv-bipap"
+       }
+      ]
+     },
+     {
+      "code": "MY",
+      "name": "Malaysia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2012-01-26",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety alert",
+        "classification": null,
+        "product": "RESPIRONICS TRILOGY 100 VENTILATORS",
+        "reason": null,
+        "url": "https://portal.mda.gov.my/"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 1,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "BiPAP Ans Advanced System One, -w / Smartcard, OmniLab Advanced and Advanced +, BiPAP Ans and HeartPAP",
+        "reason": "Follow-up patient",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Anestesi--och-andningsstodjande-produkter--BiPAP-autoSV-Advanced-System-One--wSmartCard-OmniLab-Advanced-och-Advanced-BiPAP-autoSV-och-HeartPAP--Philips-Respironics-Inc/#"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2001,
+      "value": 1
+     },
+     {
+      "year": 2006,
+      "value": 3
+     },
+     {
+      "year": 2007,
+      "value": 1
+     },
+     {
+      "year": 2008,
+      "value": 4
+     },
+     {
+      "year": 2009,
+      "value": 6
+     },
+     {
+      "year": 2010,
+      "value": 2
+     },
+     {
+      "year": 2011,
+      "value": 2
+     },
+     {
+      "year": 2012,
+      "value": 7
+     },
+     {
+      "year": 2013,
+      "value": 12
+     },
+     {
+      "year": 2014,
+      "value": 5
+     },
+     {
+      "year": 2015,
+      "value": 21
+     },
+     {
+      "year": 2016,
+      "value": 6
+     },
+     {
+      "year": 2017,
+      "value": 19
+     },
+     {
+      "year": 2018,
+      "value": 1
+     },
+     {
+      "year": 2019,
+      "value": 4
+     },
+     {
+      "year": 2020,
+      "value": 4
+     },
+     {
+      "year": 2021,
+      "value": 10
+     },
+     {
+      "year": 2022,
+      "value": 6
+     },
+     {
+      "year": 2023,
+      "value": 10
+     },
+     {
+      "year": 2024,
+      "value": 9
+     },
+     {
+      "year": 2025,
+      "value": 1
+     },
+     {
+      "year": 2026,
+      "value": 3
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 436,
+     "onMarket": 328,
+     "noLongerOnMarket": 102,
+     "riskClasses": {
+      "class-iia": 225,
+      "class-i": 181,
+      "class-iib": 30
+     },
+     "manufacturers": [
+      "Respironics\u00a0Inc.",
+      "Javid de Mexico S. De R.L. De C.V. (resplabs)",
+      "GaleMed Corporation",
+      "RespiraSource, OPC",
+      "Besmed Health Business Corp."
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2001-10-12) predates the first US Class 1 recall (2011-09-12).",
+      "foreign": {
+       "date": "2001-10-12"
+      },
+      "us": {
+       "date": "2011-09-12"
+      }
+     }
+    ],
+    "screenedOut": 97,
+    "screenedNote": "97 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -1552,7 +3366,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 24500
 }

@@ -83,6 +83,18 @@
    "label": "Granted patents (assignee)",
    "value": 2483,
    "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 4,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 4,
+   "format": "number",
+   "module": "global-actions"
   }
  ],
  "recentRecalls": [
@@ -246,6 +258,22 @@
      "value": 130
     }
    ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2024,
+     "value": 3
+    },
+    {
+     "year": 2026,
+     "value": 1
+    }
+   ]
   }
  ],
  "modules": {
@@ -260,7 +288,7 @@
      {
       "problem": "Stretched",
       "reports": 363,
-      "narrative": "THE REPORTED EVENT OF STRETCHED HELIX WAS CONFIRMED. FINAL ANALYSIS FOUND THE HELIX WAS STRETCHED OUT OF SPECIFICATION. THE HELIX ELONGATION IS CONSISTENT WITH HAVING OCCURRED DURING PROCEDURE. NO OTHER ISSUES WERE FOUND."
+      "narrative": "DEVICE HISTORY WAS REVIEWED AND FOUND TO BE COMPLETE. THE PRODUCT PASSED ALL QUALITY CONTROL TESTS PRIOR TO ITS DISTRIBUTION. THE REPORTED EVENT OF STRETCHED HELIX WAS CONFIRMED. VISUAL INSPECTION NOTED THE HELIX WAS STRETCHED OUT OF SPECIFICATION CONSISTENT WITH HAVING OCCURRED DURING IMPLANT PROCEDURE. FURTHER ANALYSIS PERFORMED FOUND NO ANOMALY."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
@@ -270,17 +298,17 @@
      {
       "problem": "Device Dislodged or Dislocated",
       "reports": 298,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT'S LEADLESS PACEMAKER HAD DISLODGED POST-IMPLANT PROCEDURE. THE DEVICE WAS RETRIEVED AND SUCCESSFULLY REPLACED. THE PATIENT CONDITION WAS STABLE THROUGHOUT."
+      "narrative": "IT WAS REPORTED THE PATIENT UNDERWENT A SUCCESSFUL LEADLESS PACEMAKER (LP) IMPLANT. AN HOUR LATER, THE PATIENT HAD GONE ASYSTOLIC, AND AN ELECTROCARDIOGRAM SHOWED APPARENT LOSS OF CAPTURE. MAGNET APPLICATION CAUSED PACING TO RESUME. UPON INTERROGATION, THE CAPTURE THRESHOLD HAD RISEN, BUT IT WAS SUSPECTED THE LP WAS OVERSENSING CAUSING PACING INHIBITION. REPROGRAMMING WAS COMPLETED, AND A CHEST X-RAY WAS COMPLETED TO"
      },
      {
       "problem": "Premature Separation",
       "reports": 220,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED FOR AVEIR LEADLESS PACEMAKER (LP) IMPLANT PROCEDURE. UPON FIXATION, IT WAS NOTED THAT ELECTRICAL PARAMETERS WERE NOTED TO BE INADEQUATE. DURING THE PROCEDURE, THE LP PREMATURELY SEPARATED FROM THE DELIVERY CATHETER. UPON INSPECTION, IT WAS FOUND THAT THE TETHERS ON THE CATHETER COULD NOT BE ALIGNED PROPERLY. IT WAS ELECTED TO DISCONTINUE THE PROCEDURE. THERE WERE NO PATIENT"
+      "narrative": "THE REPORTED EVENTS OF TETHER BREAK AND PREMATURE SEPARATION WERE CONFIRMED. AS RECEIVED, A COMPLETE CATHETER WAS RETURNED IN ONE PIECE WITH THE PROTECTIVE SLEEVE COVERING THE DISTAL CAP. VISUAL INSPECTION FOUND THE DISTAL TETHER WIRES MIS-ALIGNED WITHOUT TETHER BULLETS AT THE DISTAL TETHER WIRE ENDS. DIMENSIONAL ANALYSIS OF THE SHORT AND LONG DISTAL TETHER WIRES WAS MEASURED WITHIN THE PRODUCT SPECIFICATION. A SCAN"
      },
      {
       "problem": "Failure to Capture",
       "reports": 210,
-      "narrative": "IT WAS REPORTED THE PATIENT HAD A LEADLESS PACEMAKER (LP) IMPLANTED ON 7 NOV 2023 WHERE IT WAS REPORTED THE PATIENT EXPERIENCED ARRYTHMIA DURING THE PROCEDURE. HOWEVER, THE PROCEDURE WAS SUCCESSFUL. THE EVENING OF THE OPERATION, IT WAS OBSERVED THE LP EXHIBITED PACING FAILURE AND LOW IMPEDANCE. THE FOLLOWING MORNING, X-RAY AND FLUOROSCOPY WERE COMPLETED TO CONFIRM THE LP HAD DISLODGED AND MIGRATED TO THE PULMONARY AR"
+      "narrative": "IT WAS REPORTED THAT THE ASYMPTOMATIC PATIENT PRESENTED IN CLINIC FOR FOLLOW-UP. UPON INTERROGATION, IT WAS FOUND THAT THE PATIENT'S RIGHT VENTRICULAR LEADLESS PACEMAKER EXHIBITED LOSS OF CAPTURE. PROGRAMMING CHANGES WERE PERFORMED. THE PATIENT WAS STABLE."
      },
      {
       "problem": "Capturing Problem",
@@ -290,12 +318,12 @@
      {
       "problem": "Inappropriate or Unexpected Reset",
       "reports": 122,
-      "narrative": "THE REPORTED EVENT OF DEVICE WAS IN READ ONLY MODE (ROM) MODE WAS REPORTED TO ABBOTT. THE DEVICE WAS NO RETURNED FOR ANALYSIS; HOWEVER, DEVICE RECORDS WERE REVIEWED BY AN ABBOTT SOFTWARE ENGINEER WHO CONFIRMED THAT IN ADDITION TO THE ROM MODE AN INAPPROPRIATE MODE CHANGE TO MRI MODE OCCURRED, WITH EVIDENCE CONSISTENT WITH A ROOT CAUSE OF THE LP INTERPRETING EMI AS A FALSE-POSITIVE TELEMETRY COMMAND TO CHANGE MODE. AS"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED DURING MAGNETIC RESONANCE IMAGING. THE IMPLANTED LEADLESS PACEMAKER WAS FOUND IN BACKUP MODE. NO INTERVENTIONS WERE PERFORMED. THE PATIENT WAS IN STABLE CONDITION."
      },
      {
       "problem": "Separation Failure",
       "reports": 120,
-      "narrative": "THE REPORTED EVENT OF SEPARATION FAILURE COULD NOT BE CONFIRMED. FINAL ANALYSIS FOUND THE DEVICE EXHIBITED NORMAL CHARACTERISTICS WITHOUT ANY ANOMALIES. A DEVICE HISTORY RECORD (DHR) REVIEW WAS PERFORMED AND ALL REQUIRED MANUFACTURING PROCESSES AND INSPECTIONS STEPS WERE CONFIRMED TO BE COMPLETED PER THE REQUIREMENTS. THE DEVICE MET SPECIFICATIONS PRIOR TO LEAVING ABBOTT MANUFACTURING FACILITIES."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED FOR A LEADLESS PACEMAKER (LP) IMPLANT PROCEDURE. DURING THE PROCEDURE, IT WAS NOTED THAT THE LP WAS UNABLE TO BE SEPARATED FROM THE CATHETER. THE LP WAS REMOVED AND REPLACED. THE PATIENT WAS DISCHARGED POST PROCEDURE."
      }
     ]
    },
@@ -315,7 +343,7 @@
      {
       "id": "p1",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "FL",
+      "state": "OH",
       "total": 212290.54,
       "payments": 42,
       "years": "2022\u20132024",
@@ -332,8 +360,8 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "VA",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "DC",
       "total": 164541.93,
       "payments": 311,
       "years": "2022\u20132024",
@@ -341,7 +369,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Dental Providers|Dentist",
       "state": "NY",
       "total": 118044.64,
       "payments": 131,
@@ -409,7 +437,7 @@
      {
       "id": "p1",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "FL",
+      "state": "OH",
       "total": 212290.54,
       "payments": 42,
       "years": "2022\u20132024",
@@ -428,8 +456,8 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "VA",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "DC",
       "total": 164541.93,
       "payments": 311,
       "years": "2022\u20132024",
@@ -438,7 +466,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Dental Providers|Dentist",
       "state": "NY",
       "total": 118044.64,
       "payments": 131,
@@ -597,7 +625,10 @@
     "states": 55,
     "procedureCodes": 6,
     "dataYear": 2023,
-    "topStateServices": 526098
+    "topStateServices": 526098,
+    "counties": 250,
+    "facilities": 748,
+    "topFacilityCity": "New York, NY"
    },
    "payload": {
     "dataYear": 2023,
@@ -909,10 +940,3356 @@
       "services": 13,
       "beneficiaries": 12
      }
+    ],
+    "facilities": [
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 111,
+      "outpatientServices": 1133,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 56
+       },
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 55
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 144,
+      "outpatientServices": 656,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 74
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 52
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 18
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 139,
+      "outpatientServices": 479,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 66
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 39
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 34
+       }
+      ]
+     },
+     {
+      "ccn": "450388",
+      "name": "Methodist Hospital",
+      "city": "San Antonio",
+      "state": "TX",
+      "countyFips": "48029",
+      "lat": 29.506,
+      "lon": -98.577,
+      "discharges": 183,
+      "outpatientServices": 425,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 69
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 68
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 46
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 74,
+      "outpatientServices": 499,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 38
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 19
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "340141",
+      "name": "Novant Health New Hanover Regional Medical Center",
+      "city": "Wilmington",
+      "state": "NC",
+      "countyFips": "37129",
+      "lat": 34.183,
+      "lon": -77.864,
+      "discharges": 158,
+      "outpatientServices": 381,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 81
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 42
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 35
+       }
+      ]
+     },
+     {
+      "ccn": "050324",
+      "name": "Scripps Memorial Hospital La Jolla",
+      "city": "La Jolla",
+      "state": "CA",
+      "countyFips": "06073",
+      "lat": 32.855,
+      "lon": -117.252,
+      "discharges": 93,
+      "outpatientServices": 408,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 47
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 25
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 21
+       }
+      ]
+     },
+     {
+      "ccn": "370215",
+      "name": "Oklahoma Heart Hospital, Llc",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "countyFips": "40109",
+      "lat": 35.581,
+      "lon": -97.574,
+      "discharges": 107,
+      "outpatientServices": 372,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 51
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 32
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 24
+       }
+      ]
+     },
+     {
+      "ccn": "440082",
+      "name": "Ascension Saint Thomas Hospital",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.113,
+      "lon": -86.87,
+      "discharges": 80,
+      "outpatientServices": 393,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 36
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 27
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "390133",
+      "name": "Lehigh Valley Hospital",
+      "city": "Allentown",
+      "state": "PA",
+      "countyFips": "42077",
+      "lat": 40.57,
+      "lon": -75.489,
+      "discharges": 127,
+      "outpatientServices": 329,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 56
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 46
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 25
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 93,
+      "outpatientServices": 341,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 64
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 29
+       }
+      ]
+     },
+     {
+      "ccn": "420018",
+      "name": "Prisma Health Richland Hospital",
+      "city": "Columbia",
+      "state": "SC",
+      "countyFips": "45079",
+      "lat": 34.101,
+      "lon": -81.041,
+      "discharges": 68,
+      "outpatientServices": 360,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 30
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 25
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "490063",
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "VA",
+      "countyFips": "51059",
+      "lat": 38.865,
+      "lon": -77.194,
+      "discharges": 156,
+      "outpatientServices": 270,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 74
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 53
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 29
+       }
+      ]
+     },
+     {
+      "ccn": "490021",
+      "name": "Centra  Health, Inc",
+      "city": "Lynchburg",
+      "state": "VA",
+      "countyFips": "51680",
+      "lat": 37.36,
+      "lon": -79.141,
+      "discharges": 84,
+      "outpatientServices": 336,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 45
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 39
+       }
+      ]
+     },
+     {
+      "ccn": "340002",
+      "name": "Memorial Mission Hospital And Asheville Surgery Ce",
+      "city": "Asheville",
+      "state": "NC",
+      "countyFips": "37021",
+      "lat": 35.595,
+      "lon": -82.558,
+      "discharges": 162,
+      "outpatientServices": 254,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 80
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 51
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "310073",
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune",
+      "state": "NJ",
+      "countyFips": "34025",
+      "lat": 40.211,
+      "lon": -74.074,
+      "discharges": 127,
+      "outpatientServices": 285,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 51
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 50
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 26
+       }
+      ]
+     },
+     {
+      "ccn": "340114",
+      "name": "Rex Hospital",
+      "city": "Raleigh",
+      "state": "NC",
+      "countyFips": "37183",
+      "lat": 35.818,
+      "lon": -78.728,
+      "discharges": 120,
+      "outpatientServices": 289,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 58
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 43
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 19
+       }
+      ]
+     },
+     {
+      "ccn": "280003",
+      "name": "Bryan Medical Center",
+      "city": "Lincoln",
+      "state": "NE",
+      "countyFips": "31109",
+      "lat": 40.784,
+      "lon": -96.64,
+      "discharges": 102,
+      "outpatientServices": 304,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 42
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 40
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 20
+       }
+      ]
+     },
+     {
+      "ccn": "310012",
+      "name": "Valley Hospital",
+      "city": "Paramus",
+      "state": "NJ",
+      "countyFips": "34003",
+      "lat": 40.947,
+      "lon": -74.07,
+      "discharges": 73,
+      "outpatientServices": 332,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 38
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 21
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "440048",
+      "name": "Baptist Memorial Hospital",
+      "city": "Memphis",
+      "state": "TN",
+      "countyFips": "47157",
+      "lat": 35.124,
+      "lon": -89.853,
+      "discharges": 45,
+      "outpatientServices": 358,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 28
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "010039",
+      "name": "Huntsville Hospital",
+      "city": "Huntsville",
+      "state": "AL",
+      "countyFips": "01089",
+      "lat": 34.725,
+      "lon": -86.566,
+      "discharges": 103,
+      "outpatientServices": 297,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 39
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 33
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "330182",
+      "name": "St Francis Hospital, Roslyn",
+      "city": "Roslyn",
+      "state": "NY",
+      "countyFips": "36059",
+      "lat": 40.797,
+      "lon": -73.647,
+      "discharges": 180,
+      "outpatientServices": 218,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 97
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 46
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 37
+       }
+      ]
+     },
+     {
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
+      "discharges": 191,
+      "outpatientServices": 204,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 83
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 75
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 33
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 114,
+      "outpatientServices": 272,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 59
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 44
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "420078",
+      "name": "Prisma Health Greenville Memorial Hospital",
+      "city": "Greenville",
+      "state": "SC",
+      "countyFips": "45045",
+      "lat": 34.778,
+      "lon": -82.38,
+      "discharges": 106,
+      "outpatientServices": 280,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 43
+       },
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 42
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 21
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 2634,
+      "facilities": 5,
+      "per10k65": 89.1
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 1368,
+      "facilities": 6,
+      "per10k65": 131.3
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 1367,
+      "facilities": 12,
+      "per10k65": 18.4
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 1298,
+      "facilities": 10,
+      "per10k65": 22.9
+     },
+     {
+      "fips": "17031",
+      "name": "Cook",
+      "state": "IL",
+      "services": 1196,
+      "facilities": 9,
+      "per10k65": 14.5
+     },
+     {
+      "fips": "40109",
+      "name": "Oklahoma",
+      "state": "OK",
+      "services": 1192,
+      "facilities": 4,
+      "per10k65": 102.3
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 1168,
+      "facilities": 5,
+      "per10k65": 42.6
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 1143,
+      "facilities": 4,
+      "per10k65": 42.9
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 1019,
+      "facilities": 7,
+      "per10k65": 26.7
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 1011,
+      "facilities": 10,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 968,
+      "facilities": 3,
+      "per10k65": 104.7
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 864,
+      "facilities": 4,
+      "per10k65": 33.3
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 848,
+      "facilities": 6,
+      "per10k65": 16.7
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 807,
+      "facilities": 4,
+      "per10k65": 34.8
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 798,
+      "facilities": 4,
+      "per10k65": 40.3
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 790,
+      "facilities": 2,
+      "per10k65": 45.8
+     },
+     {
+      "fips": "34003",
+      "name": "Bergen",
+      "state": "NJ",
+      "services": 761,
+      "facilities": 3,
+      "per10k65": 43.5
+     },
+     {
+      "fips": "05119",
+      "name": "Pulaski",
+      "state": "AR",
+      "services": 730,
+      "facilities": 3,
+      "per10k65": 109.5
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 724,
+      "facilities": 3,
+      "per10k65": 46.2
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 712,
+      "facilities": 3,
+      "per10k65": 94.9
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 683,
+      "facilities": 5,
+      "per10k65": 28.1
+     },
+     {
+      "fips": "17043",
+      "name": "DuPage",
+      "state": "IL",
+      "services": 681,
+      "facilities": 5,
+      "per10k65": 42.2
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 665,
+      "facilities": 2,
+      "per10k65": 34.7
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 664,
+      "facilities": 2,
+      "per10k65": 48.8
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 660,
+      "facilities": 4,
+      "per10k65": 45.1
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 659,
+      "facilities": 4,
+      "per10k65": 23.4
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 657,
+      "facilities": 3,
+      "per10k65": 43.2
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 654,
+      "facilities": 2,
+      "per10k65": 71.3
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 646,
+      "facilities": 3,
+      "per10k65": 37.2
+     },
+     {
+      "fips": "48113",
+      "name": "Dallas",
+      "state": "TX",
+      "services": 636,
+      "facilities": 3,
+      "per10k65": 20.6
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 600,
+      "facilities": 2,
+      "per10k65": 100.9
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 596,
+      "facilities": 2,
+      "per10k65": 44.2
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 595,
+      "facilities": 2,
+      "per10k65": 119.2
+     },
+     {
+      "fips": "51760",
+      "name": "Richmond",
+      "state": "VA",
+      "services": 590,
+      "facilities": 3,
+      "per10k65": 183.0
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 579,
+      "facilities": 4,
+      "per10k65": 72.0
+     },
+     {
+      "fips": "42091",
+      "name": "Montgomery",
+      "state": "PA",
+      "services": 576,
+      "facilities": 4,
+      "per10k65": 35.3
+     },
+     {
+      "fips": "29189",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 566,
+      "facilities": 4,
+      "per10k65": 29.7
+     },
+     {
+      "fips": "37119",
+      "name": "Mecklenburg",
+      "state": "NC",
+      "services": 559,
+      "facilities": 3,
+      "per10k65": 40.5
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 548,
+      "facilities": 3,
+      "per10k65": 62.8
+     },
+     {
+      "fips": "26125",
+      "name": "Oakland",
+      "state": "MI",
+      "services": 540,
+      "facilities": 5,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 539,
+      "facilities": 1,
+      "per10k65": 120.3
+     },
+     {
+      "fips": "21111",
+      "name": "Jefferson",
+      "state": "KY",
+      "services": 536,
+      "facilities": 3,
+      "per10k65": 39.9
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 515,
+      "facilities": 4,
+      "per10k65": 16.0
+     },
+     {
+      "fips": "06059",
+      "name": "Orange",
+      "state": "CA",
+      "services": 508,
+      "facilities": 4,
+      "per10k65": 9.9
+     },
+     {
+      "fips": "20091",
+      "name": "Johnson",
+      "state": "KS",
+      "services": 507,
+      "facilities": 4,
+      "per10k65": 51.2
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 504,
+      "facilities": 3,
+      "per10k65": 36.6
+     },
+     {
+      "fips": "16001",
+      "name": "Ada",
+      "state": "ID",
+      "services": 496,
+      "facilities": 2,
+      "per10k65": 58.9
+     },
+     {
+      "fips": "18097",
+      "name": "Marion",
+      "state": "IN",
+      "services": 489,
+      "facilities": 4,
+      "per10k65": 38.1
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 474,
+      "facilities": 2,
+      "per10k65": 143.8
+     },
+     {
+      "fips": "19153",
+      "name": "Polk",
+      "state": "IA",
+      "services": 471,
+      "facilities": 2,
+      "per10k65": 67.0
+     },
+     {
+      "fips": "09001",
+      "name": "Fairfield",
+      "state": "CT",
+      "services": 471,
+      "facilities": 4,
+      "per10k65": null
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 469,
+      "facilities": 3,
+      "per10k65": 54.8
+     },
+     {
+      "fips": "12069",
+      "name": "Lake",
+      "state": "FL",
+      "services": 464,
+      "facilities": 4,
+      "per10k65": 42.2
+     },
+     {
+      "fips": "42077",
+      "name": "Lehigh",
+      "state": "PA",
+      "services": 456,
+      "facilities": 1,
+      "per10k65": 68.1
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 454,
+      "facilities": 2,
+      "per10k65": 36.8
+     },
+     {
+      "fips": "25017",
+      "name": "Middlesex",
+      "state": "MA",
+      "services": 449,
+      "facilities": 3,
+      "per10k65": 16.8
+     },
+     {
+      "fips": "12033",
+      "name": "Escambia",
+      "state": "FL",
+      "services": 442,
+      "facilities": 3,
+      "per10k65": 75.7
+     },
+     {
+      "fips": "48439",
+      "name": "Tarrant",
+      "state": "TX",
+      "services": 441,
+      "facilities": 7,
+      "per10k65": 16.5
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 430,
+      "facilities": 2,
+      "per10k65": 45.0
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 426,
+      "facilities": 1,
+      "per10k65": 24.8
+     },
+     {
+      "fips": "49035",
+      "name": "Salt Lake",
+      "state": "UT",
+      "services": 426,
+      "facilities": 3,
+      "per10k65": 30.0
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 424,
+      "facilities": 3,
+      "per10k65": 17.4
+     },
+     {
+      "fips": "51680",
+      "name": "Lynchburg",
+      "state": "VA",
+      "services": 420,
+      "facilities": 1,
+      "per10k65": 368.7
+     },
+     {
+      "fips": "12057",
+      "name": "Hillsborough",
+      "state": "FL",
+      "services": 419,
+      "facilities": 3,
+      "per10k65": 18.3
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 417,
+      "facilities": 3,
+      "per10k65": 41.3
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 416,
+      "facilities": 1,
+      "per10k65": 71.4
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 415,
+      "facilities": 3,
+      "per10k65": 48.1
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 413,
+      "facilities": 2,
+      "per10k65": 109.1
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 413,
+      "facilities": 3,
+      "per10k65": 49.6
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 412,
+      "facilities": 2,
+      "per10k65": 97.7
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 407,
+      "facilities": 2,
+      "per10k65": 29.8
+     },
+     {
+      "fips": "01089",
+      "name": "Madison",
+      "state": "AL",
+      "services": 400,
+      "facilities": 1,
+      "per10k65": 62.7
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 389,
+      "facilities": 2,
+      "per10k65": 28.9
+     },
+     {
+      "fips": "04019",
+      "name": "Pima",
+      "state": "AZ",
+      "services": 388,
+      "facilities": 3,
+      "per10k65": 16.9
+     },
+     {
+      "fips": "32003",
+      "name": "Clark",
+      "state": "NV",
+      "services": 388,
+      "facilities": 5,
+      "per10k65": 10.5
+     },
+     {
+      "fips": "46083",
+      "name": "Lincoln",
+      "state": "SD",
+      "services": 378,
+      "facilities": 1,
+      "per10k65": 364.7
+     },
+     {
+      "fips": "12011",
+      "name": "Broward",
+      "state": "FL",
+      "services": 376,
+      "facilities": 3,
+      "per10k65": 10.6
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 375,
+      "facilities": 2,
+      "per10k65": 64.4
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 372,
+      "facilities": 1,
+      "per10k65": 131.4
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 368,
+      "facilities": 2,
+      "per10k65": 112.2
+     },
+     {
+      "fips": "42071",
+      "name": "Lancaster",
+      "state": "PA",
+      "services": 367,
+      "facilities": 1,
+      "per10k65": 33.5
+     },
+     {
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 367,
+      "facilities": 1,
+      "per10k65": 279.5
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 366,
+      "facilities": 1,
+      "per10k65": 39.1
+     },
+     {
+      "fips": "20173",
+      "name": "Sedgwick",
+      "state": "KS",
+      "services": 365,
+      "facilities": 3,
+      "per10k65": 43.6
+     },
+     {
+      "fips": "39113",
+      "name": "Montgomery",
+      "state": "OH",
+      "services": 363,
+      "facilities": 2,
+      "per10k65": 36.4
+     },
+     {
+      "fips": "40143",
+      "name": "Tulsa",
+      "state": "OK",
+      "services": 359,
+      "facilities": 3,
+      "per10k65": 34.9
+     },
+     {
+      "fips": "29095",
+      "name": "Jackson",
+      "state": "MO",
+      "services": 357,
+      "facilities": 3,
+      "per10k65": 31.2
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 352,
+      "facilities": 1,
+      "per10k65": 128.5
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 352,
+      "facilities": 1,
+      "per10k65": 35.7
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 352,
+      "facilities": 3,
+      "per10k65": 26.8
+     },
+     {
+      "fips": "45063",
+      "name": "Lexington",
+      "state": "SC",
+      "services": 349,
+      "facilities": 1,
+      "per10k65": 67.0
+     },
+     {
+      "fips": "39095",
+      "name": "Lucas",
+      "state": "OH",
+      "services": 342,
+      "facilities": 2,
+      "per10k65": 45.5
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 340,
+      "facilities": 2,
+      "per10k65": 59.0
+     },
+     {
+      "fips": "36119",
+      "name": "Westchester",
+      "state": "NY",
+      "services": 337,
+      "facilities": 3,
+      "per10k65": 18.6
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 334,
+      "facilities": 2,
+      "per10k65": 18.2
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 334,
+      "facilities": 3,
+      "per10k65": 38.0
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 333,
+      "facilities": 1,
+      "per10k65": 51.4
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 327,
+      "facilities": 1,
+      "per10k65": 127.2
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 323,
+      "facilities": 1,
+      "per10k65": 37.1
+     },
+     {
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
+      "services": 323,
+      "facilities": 1,
+      "per10k65": 93.2
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 323,
+      "facilities": 2,
+      "per10k65": 16.2
+     },
+     {
+      "fips": "47065",
+      "name": "Hamilton",
+      "state": "TN",
+      "services": 322,
+      "facilities": 1,
+      "per10k65": 46.6
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 321,
+      "facilities": 1,
+      "per10k65": 143.7
+     },
+     {
+      "fips": "29019",
+      "name": "Boone",
+      "state": "MO",
+      "services": 321,
+      "facilities": 2,
+      "per10k65": 126.6
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 320,
+      "facilities": 2,
+      "per10k65": 103.6
+     },
+     {
+      "fips": "55079",
+      "name": "Milwaukee",
+      "state": "WI",
+      "services": 317,
+      "facilities": 2,
+      "per10k65": 23.2
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 316,
+      "facilities": 2,
+      "per10k65": 21.4
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 316,
+      "facilities": 2,
+      "per10k65": 88.5
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 315,
+      "facilities": 1,
+      "per10k65": 180.4
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 312,
+      "facilities": 2,
+      "per10k65": 60.0
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 301,
+      "facilities": 2,
+      "per10k65": 22.6
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 299,
+      "facilities": 2,
+      "per10k65": 48.8
+     },
+     {
+      "fips": "05031",
+      "name": "Craighead",
+      "state": "AR",
+      "services": 298,
+      "facilities": 1,
+      "per10k65": 189.5
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 296,
+      "facilities": 1,
+      "per10k65": 111.5
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 295,
+      "facilities": 2,
+      "per10k65": 23.9
+     },
+     {
+      "fips": "37067",
+      "name": "Forsyth",
+      "state": "NC",
+      "services": 295,
+      "facilities": 2,
+      "per10k65": 44.6
+     },
+     {
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 291,
+      "facilities": 2,
+      "per10k65": 23.7
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 289,
+      "facilities": 2,
+      "per10k65": null
+     },
+     {
+      "fips": "27137",
+      "name": "St. Louis",
+      "state": "MN",
+      "services": 287,
+      "facilities": 2,
+      "per10k65": 67.1
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 287,
+      "facilities": 3,
+      "per10k65": 6.2
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 283,
+      "facilities": 2,
+      "per10k65": 196.9
+     },
+     {
+      "fips": "01069",
+      "name": "Houston",
+      "state": "AL",
+      "services": 282,
+      "facilities": 2,
+      "per10k65": 139.6
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 278,
+      "facilities": 2,
+      "per10k65": 11.8
+     },
+     {
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
+      "services": 276,
+      "facilities": 2,
+      "per10k65": 31.4
+     },
+     {
+      "fips": "17097",
+      "name": "Lake",
+      "state": "IL",
+      "services": 272,
+      "facilities": 3,
+      "per10k65": 24.1
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 271,
+      "facilities": 3,
+      "per10k65": 19.3
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 269,
+      "facilities": 1,
+      "per10k65": 42.7
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 265,
+      "facilities": 1,
+      "per10k65": 102.4
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 265,
+      "facilities": 4,
+      "per10k65": 10.6
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 261,
+      "facilities": 1,
+      "per10k65": 119.7
+     },
+     {
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
+      "services": 261,
+      "facilities": 1,
+      "per10k65": 90.9
+     },
+     {
+      "fips": "13245",
+      "name": "Richmond",
+      "state": "GA",
+      "services": 259,
+      "facilities": 2,
+      "per10k65": 82.0
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 259,
+      "facilities": 2,
+      "per10k65": 39.3
+     },
+     {
+      "fips": "26077",
+      "name": "Kalamazoo",
+      "state": "MI",
+      "services": 258,
+      "facilities": 2,
+      "per10k65": 60.9
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 256,
+      "facilities": 1,
+      "per10k65": 123.8
+     },
+     {
+      "fips": "18057",
+      "name": "Hamilton",
+      "state": "IN",
+      "services": 254,
+      "facilities": 1,
+      "per10k65": 50.1
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 254,
+      "facilities": 1,
+      "per10k65": 24.5
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 252,
+      "facilities": 1,
+      "per10k65": 82.8
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 250,
+      "facilities": 1,
+      "per10k65": 29.6
+     },
+     {
+      "fips": "22051",
+      "name": "Jefferson",
+      "state": "LA",
+      "services": 250,
+      "facilities": 2,
+      "per10k65": 31.2
+     },
+     {
+      "fips": "38035",
+      "name": "Grand Forks",
+      "state": "ND",
+      "services": 245,
+      "facilities": 1,
+      "per10k65": 235.8
+     },
+     {
+      "fips": "20177",
+      "name": "Shawnee",
+      "state": "KS",
+      "services": 245,
+      "facilities": 1,
+      "per10k65": 70.8
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 244,
+      "facilities": 2,
+      "per10k65": 33.1
+     },
+     {
+      "fips": "19113",
+      "name": "Linn",
+      "state": "IA",
+      "services": 242,
+      "facilities": 2,
+      "per10k65": 60.8
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 241,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 241,
+      "facilities": 3,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "48121",
+      "name": "Denton",
+      "state": "TX",
+      "services": 241,
+      "facilities": 3,
+      "per10k65": 21.3
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 237,
+      "facilities": 1,
+      "per10k65": 22.4
+     },
+     {
+      "fips": "37049",
+      "name": "Craven",
+      "state": "NC",
+      "services": 235,
+      "facilities": 1,
+      "per10k65": 109.6
+     },
+     {
+      "fips": "51630",
+      "name": "Fredericksburg",
+      "state": "VA",
+      "services": 232,
+      "facilities": 1,
+      "per10k65": 703.0
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 232,
+      "facilities": 1,
+      "per10k65": 26.0
+     },
+     {
+      "fips": "15003",
+      "name": "Honolulu",
+      "state": "HI",
+      "services": 232,
+      "facilities": 3,
+      "per10k65": 11.8
+     },
+     {
+      "fips": "42069",
+      "name": "Lackawanna",
+      "state": "PA",
+      "services": 230,
+      "facilities": 2,
+      "per10k65": 51.8
+     },
+     {
+      "fips": "39003",
+      "name": "Allen",
+      "state": "OH",
+      "services": 229,
+      "facilities": 2,
+      "per10k65": 118.2
+     },
+     {
+      "fips": "54011",
+      "name": "Cabell",
+      "state": "WV",
+      "services": 228,
+      "facilities": 1,
+      "per10k65": 122.9
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 228,
+      "facilities": 1,
+      "per10k65": 108.0
+     },
+     {
+      "fips": "06065",
+      "name": "Riverside",
+      "state": "CA",
+      "services": 227,
+      "facilities": 2,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "49053",
+      "name": "Washington",
+      "state": "UT",
+      "services": 226,
+      "facilities": 1,
+      "per10k65": 51.6
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 226,
+      "facilities": 1,
+      "per10k65": 71.3
+     },
+     {
+      "fips": "28071",
+      "name": "Lafayette",
+      "state": "MS",
+      "services": 226,
+      "facilities": 1,
+      "per10k65": 283.2
+     },
+     {
+      "fips": "06053",
+      "name": "Monterey",
+      "state": "CA",
+      "services": 226,
+      "facilities": 2,
+      "per10k65": 34.7
+     },
+     {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 224,
+      "facilities": 1,
+      "per10k65": 61.2
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 223,
+      "facilities": 1,
+      "per10k65": 86.0
+     },
+     {
+      "fips": "47113",
+      "name": "Madison",
+      "state": "TN",
+      "services": 222,
+      "facilities": 1,
+      "per10k65": 125.0
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 222,
+      "facilities": 1,
+      "per10k65": 59.7
+     },
+     {
+      "fips": "48491",
+      "name": "Williamson",
+      "state": "TX",
+      "services": 222,
+      "facilities": 2,
+      "per10k65": 25.5
+     },
+     {
+      "fips": "26017",
+      "name": "Bay",
+      "state": "MI",
+      "services": 221,
+      "facilities": 1,
+      "per10k65": 97.9
+     },
+     {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 220,
+      "facilities": 1,
+      "per10k65": 96.2
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 217,
+      "facilities": 2,
+      "per10k65": 134.0
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 216,
+      "facilities": 1,
+      "per10k65": 85.9
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 216,
+      "facilities": 2,
+      "per10k65": 26.5
+     },
+     {
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
+      "services": 213,
+      "facilities": 2,
+      "per10k65": 33.4
+     },
+     {
+      "fips": "19033",
+      "name": "Cerro Gordo",
+      "state": "IA",
+      "services": 212,
+      "facilities": 1,
+      "per10k65": 211.2
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 211,
+      "facilities": 1,
+      "per10k65": 101.3
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 210,
+      "facilities": 1,
+      "per10k65": 36.8
+     },
+     {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 210,
+      "facilities": 1,
+      "per10k65": 83.2
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 210,
+      "facilities": 1,
+      "per10k65": 43.6
+     },
+     {
+      "fips": "06001",
+      "name": "Alameda",
+      "state": "CA",
+      "services": 210,
+      "facilities": 2,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 208,
+      "facilities": 2,
+      "per10k65": 29.1
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 207,
+      "facilities": 1,
+      "per10k65": 338.3
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 207,
+      "facilities": 1,
+      "per10k65": 35.6
+     },
+     {
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
+      "services": 207,
+      "facilities": 2,
+      "per10k65": 21.3
+     },
+     {
+      "fips": "42133",
+      "name": "York",
+      "state": "PA",
+      "services": 204,
+      "facilities": 1,
+      "per10k65": 23.4
+     },
+     {
+      "fips": "12001",
+      "name": "Alachua",
+      "state": "FL",
+      "services": 204,
+      "facilities": 2,
+      "per10k65": 46.7
+     },
+     {
+      "fips": "12105",
+      "name": "Polk",
+      "state": "FL",
+      "services": 203,
+      "facilities": 2,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "06007",
+      "name": "Butte",
+      "state": "CA",
+      "services": 202,
+      "facilities": 2,
+      "per10k65": 52.8
+     },
+     {
+      "fips": "22055",
+      "name": "Lafayette",
+      "state": "LA",
+      "services": 201,
+      "facilities": 1,
+      "per10k65": 55.1
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 41.8
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 27.0
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 23.2
+     },
+     {
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 199,
+      "facilities": 2,
+      "per10k65": 13.4
+     },
+     {
+      "fips": "36055",
+      "name": "Monroe",
+      "state": "NY",
+      "services": 198,
+      "facilities": 2,
+      "per10k65": 14.0
+     },
+     {
+      "fips": "42049",
+      "name": "Erie",
+      "state": "PA",
+      "services": 197,
+      "facilities": 2,
+      "per10k65": 37.1
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 196,
+      "facilities": 1,
+      "per10k65": 37.5
+     },
+     {
+      "fips": "33009",
+      "name": "Grafton",
+      "state": "NH",
+      "services": 195,
+      "facilities": 1,
+      "per10k65": 92.2
+     },
+     {
+      "fips": "25009",
+      "name": "Essex",
+      "state": "MA",
+      "services": 195,
+      "facilities": 3,
+      "per10k65": 13.0
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 194,
+      "facilities": 1,
+      "per10k65": 37.1
+     },
+     {
+      "fips": "42015",
+      "name": "Bradford",
+      "state": "PA",
+      "services": 194,
+      "facilities": 1,
+      "per10k65": 144.6
+     },
+     {
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 56.5
+     },
+     {
+      "fips": "51015",
+      "name": "Augusta",
+      "state": "VA",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 108.4
+     },
+     {
+      "fips": "36047",
+      "name": "Kings",
+      "state": "NY",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 191,
+      "facilities": 2,
+      "per10k65": 17.6
+     },
+     {
+      "fips": "53067",
+      "name": "Thurston",
+      "state": "WA",
+      "services": 190,
+      "facilities": 1,
+      "per10k65": 33.9
+     },
+     {
+      "fips": "12005",
+      "name": "Bay",
+      "state": "FL",
+      "services": 190,
+      "facilities": 2,
+      "per10k65": 55.8
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 189,
+      "facilities": 1,
+      "per10k65": 76.2
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 189,
+      "facilities": 2,
+      "per10k65": 12.9
+     },
+     {
+      "fips": "47179",
+      "name": "Washington",
+      "state": "TN",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 72.6
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 12.1
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 18.9
+     },
+     {
+      "fips": "06099",
+      "name": "Stanislaus",
+      "state": "CA",
+      "services": 187,
+      "facilities": 3,
+      "per10k65": 24.5
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 186,
+      "facilities": 1,
+      "per10k65": 69.0
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 185,
+      "facilities": 1,
+      "per10k65": 32.6
+     },
+     {
+      "fips": "39151",
+      "name": "Stark",
+      "state": "OH",
+      "services": 185,
+      "facilities": 2,
+      "per10k65": 24.1
+     },
+     {
+      "fips": "17197",
+      "name": "Will",
+      "state": "IL",
+      "services": 185,
+      "facilities": 2,
+      "per10k65": 18.1
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 184,
+      "facilities": 1,
+      "per10k65": 71.4
+     },
+     {
+      "fips": "12085",
+      "name": "Martin",
+      "state": "FL",
+      "services": 184,
+      "facilities": 1,
+      "per10k65": 35.2
+     },
+     {
+      "fips": "29021",
+      "name": "Buchanan",
+      "state": "MO",
+      "services": 181,
+      "facilities": 1,
+      "per10k65": 124.2
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 180,
+      "facilities": 1,
+      "per10k65": 385.4
+     },
+     {
+      "fips": "18167",
+      "name": "Vigo",
+      "state": "IN",
+      "services": 179,
+      "facilities": 1,
+      "per10k65": 97.1
+     },
+     {
+      "fips": "53073",
+      "name": "Whatcom",
+      "state": "WA",
+      "services": 178,
+      "facilities": 1,
+      "per10k65": 40.9
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 177,
+      "facilities": 1,
+      "per10k65": 32.4
+     },
+     {
+      "fips": "29031",
+      "name": "Cape Girardeau",
+      "state": "MO",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 117.8
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 161.8
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 174,
+      "facilities": 2,
+      "per10k65": 5.9
+     },
+     {
+      "fips": "17163",
+      "name": "St. Clair",
+      "state": "IL",
+      "services": 172,
+      "facilities": 1,
+      "per10k65": 39.1
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 172,
+      "facilities": 2,
+      "per10k65": 15.5
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 172,
+      "facilities": 4,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 168,
+      "facilities": 1,
+      "per10k65": 21.7
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 165,
+      "facilities": 1,
+      "per10k65": 21.5
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 165,
+      "facilities": 2,
+      "per10k65": 14.0
+     },
+     {
+      "fips": "34013",
+      "name": "Essex",
+      "state": "NJ",
+      "services": 163,
+      "facilities": 1,
+      "per10k65": 13.3
+     },
+     {
+      "fips": "36071",
+      "name": "Orange",
+      "state": "NY",
+      "services": 163,
+      "facilities": 1,
+      "per10k65": 27.4
+     },
+     {
+      "fips": "01101",
+      "name": "Montgomery",
+      "state": "AL",
+      "services": 162,
+      "facilities": 2,
+      "per10k65": 44.2
+     },
+     {
+      "fips": "12073",
+      "name": "Leon",
+      "state": "FL",
+      "services": 161,
+      "facilities": 1,
+      "per10k65": 36.6
+     },
+     {
+      "fips": "17089",
+      "name": "Kane",
+      "state": "IL",
+      "services": 161,
+      "facilities": 2,
+      "per10k65": 20.0
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 88.8
+     },
+     {
+      "fips": "25021",
+      "name": "Norfolk",
+      "state": "MA",
+      "services": 159,
+      "facilities": 1,
+      "per10k65": 12.3
+     },
+     {
+      "fips": "26065",
+      "name": "Ingham",
+      "state": "MI",
+      "services": 159,
+      "facilities": 1,
+      "per10k65": 37.7
+     },
+     {
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 158,
+      "facilities": 1,
+      "per10k65": 50.8
+     },
+     {
+      "fips": "08013",
+      "name": "Boulder",
+      "state": "CO",
+      "services": 158,
+      "facilities": 1,
+      "per10k65": 29.3
+     },
+     {
+      "fips": "54039",
+      "name": "Kanawha",
+      "state": "WV",
+      "services": 156,
+      "facilities": 1,
+      "per10k65": 39.9
+     },
+     {
+      "fips": "22073",
+      "name": "Ouachita",
+      "state": "LA",
+      "services": 155,
+      "facilities": 1,
+      "per10k65": 61.7
+     },
+     {
+      "fips": "39153",
+      "name": "Summit",
+      "state": "OH",
+      "services": 155,
+      "facilities": 2,
+      "per10k65": 14.8
+     },
+     {
+      "fips": "48451",
+      "name": "Tom Green",
+      "state": "TX",
+      "services": 154,
+      "facilities": 1,
+      "per10k65": 75.9
+     },
+     {
+      "fips": "45007",
+      "name": "Anderson",
+      "state": "SC",
+      "services": 154,
+      "facilities": 1,
+      "per10k65": 39.7
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 30.1
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 13.3
+     },
+     {
+      "fips": "42011",
+      "name": "Berks",
+      "state": "PA",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 43.7
+     },
+     {
+      "fips": "27003",
+      "name": "Anoka",
+      "state": "MN",
+      "services": 151,
+      "facilities": 1,
+      "per10k65": 26.4
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": 2023
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "CA",
+       "physicians": 895,
+       "totalUsd": 722711.51
+      },
+      {
+       "state": "FL",
+       "physicians": 967,
+       "totalUsd": 621753.46
+      },
+      {
+       "state": "NY",
+       "physicians": 641,
+       "totalUsd": 442011.11
+      },
+      {
+       "state": "TX",
+       "physicians": 704,
+       "totalUsd": 396034.15
+      },
+      {
+       "state": "VA",
+       "physicians": 126,
+       "totalUsd": 235902.54
+      },
+      {
+       "state": "TN",
+       "physicians": 123,
+       "totalUsd": 235403.79
+      },
+      {
+       "state": "IL",
+       "physicians": 216,
+       "totalUsd": 184919.83
+      },
+      {
+       "state": "PA",
+       "physicians": 228,
+       "totalUsd": 184653.43
+      },
+      {
+       "state": "AZ",
+       "physicians": 248,
+       "totalUsd": 172108.27
+      },
+      {
+       "state": "AR",
+       "physicians": 83,
+       "totalUsd": 156205.69
+      },
+      {
+       "state": "GA",
+       "physicians": 201,
+       "totalUsd": 155739.94
+      },
+      {
+       "state": "MI",
+       "physicians": 184,
+       "totalUsd": 150361.07
+      },
+      {
+       "state": "OH",
+       "physicians": 151,
+       "totalUsd": 137616.81
+      },
+      {
+       "state": "NJ",
+       "physicians": 359,
+       "totalUsd": 136398.9
+      },
+      {
+       "state": "SC",
+       "physicians": 175,
+       "totalUsd": 122276.43
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Abbott",
+      "city": "Sylmar",
+      "state": "California",
+      "lat": 34.308,
+      "lon": -118.449,
+      "trials": 5
+     },
+     {
+      "name": "Arkansas Heart Hospital",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 2
+     },
+     {
+      "name": "Arrhythmia Research Group",
+      "city": "Jonesboro",
+      "state": "Arkansas",
+      "lat": 35.842,
+      "lon": -90.704,
+      "trials": 2
+     },
+     {
+      "name": "Baptist Health Lexington",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "lat": 37.989,
+      "lon": -84.478,
+      "trials": 2
+     },
+     {
+      "name": "Cardiac Arrhythmia & Pacemaker Center",
+      "city": "Roslyn",
+      "state": "New York",
+      "lat": 40.8,
+      "lon": -73.651,
+      "trials": 2
+     },
+     {
+      "name": "Huntington Memorial Hospital",
+      "city": "Pasadena",
+      "state": "California",
+      "lat": 34.148,
+      "lon": -118.145,
+      "trials": 2
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 2
+     },
+     {
+      "name": "Memorial Hermann Hospital",
+      "city": "The Woodlands",
+      "state": "Texas",
+      "lat": 30.158,
+      "lon": -95.489,
+      "trials": 2
+     },
+     {
+      "name": "Mount Sinai Hospital",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "New York Presbyterian Hospital/Cornell University",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Premier Cardiology, Inc",
+      "city": "Newport Beach",
+      "state": "California",
+      "lat": 33.619,
+      "lon": -117.929,
+      "trials": 2
+     },
+     {
+      "name": "South Denver Cardiology Associates PC",
+      "city": "Littleton",
+      "state": "Colorado",
+      "lat": 39.613,
+      "lon": -105.017,
+      "trials": 2
+     },
+     {
+      "name": "South Texas Cardiovascular Consultants",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 2
+     },
+     {
+      "name": "Sparrow Clinical Research Institute",
+      "city": "Lansing",
+      "state": "Michigan",
+      "lat": 42.733,
+      "lon": -84.556,
+      "trials": 2
+     },
+     {
+      "name": "The Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "University of Pittsburgh Medical Center",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 2
+     },
+     {
+      "name": "University of Utah Hospital",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "lat": 40.761,
+      "lon": -111.891,
+      "trials": 2
+     },
+     {
+      "name": "AdventHealth Orlando",
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.538,
+      "lon": -81.379,
+      "trials": 1
+     },
+     {
+      "name": "Ascension St. John Hospital",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 1
+     },
+     {
+      "name": "Aspirus Wausau Hospital",
+      "city": "Wausau",
+      "state": "Wisconsin",
+      "lat": 44.959,
+      "lon": -89.63,
+      "trials": 1
+     },
+     {
+      "name": "Aurora Medical Group",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Medical Center",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.332,
+      "lon": -81.656,
+      "trials": 1
+     },
+     {
+      "name": "Bryan Heart",
+      "city": "Lincoln",
+      "state": "Nebraska",
+      "lat": 40.8,
+      "lon": -96.667,
+      "trials": 1
+     },
+     {
+      "name": "Catholic Medical Center",
+      "city": "Manchester",
+      "state": "New Hampshire",
+      "lat": 42.996,
+      "lon": -71.455,
+      "trials": 1
+     },
+     {
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.052,
+      "lon": -118.244,
+      "trials": 1
+     },
+     {
+      "name": "Charlton Memorial Hospital",
+      "city": "Fall River",
+      "state": "Massachusetts",
+      "lat": 41.701,
+      "lon": -71.155,
+      "trials": 1
+     },
+     {
+      "name": "Cone Health Medical Group HeartCare",
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "lat": 36.073,
+      "lon": -79.792,
+      "trials": 1
+     },
+     {
+      "name": "Donald Guthrie Foundation for Education & Research",
+      "city": "Sayre",
+      "state": "Pennsylvania",
+      "lat": 41.979,
+      "lon": -76.516,
+      "trials": 1
+     },
+     {
+      "name": "Emory University Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Franciscan Heart & Vascular Associates",
+      "city": "Tacoma",
+      "state": "Washington",
+      "lat": 47.253,
+      "lon": -122.444,
+      "trials": 1
+     },
+     {
+      "name": "Hightower Clinical",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "lat": 35.468,
+      "lon": -97.516,
+      "trials": 1
+     },
+     {
+      "name": "Honor Health",
+      "city": "Scottsdale",
+      "state": "Arizona",
+      "lat": 33.509,
+      "lon": -111.899,
+      "trials": 1
+     },
+     {
+      "name": "HonorHealth",
+      "city": "Scottsdale",
+      "state": "Arizona",
+      "lat": 33.509,
+      "lon": -111.899,
+      "trials": 1
+     },
+     {
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "Virginia",
+      "lat": 38.882,
+      "lon": -77.171,
+      "trials": 1
+     },
+     {
+      "name": "Integris Baptist Medical Center",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "lat": 35.468,
+      "lon": -97.516,
+      "trials": 1
+     },
+     {
+      "name": "Iowa Heart Center",
+      "city": "West Des Moines",
+      "state": "Iowa",
+      "lat": 41.577,
+      "lon": -93.711,
+      "trials": 1
+     },
+     {
+      "name": "Jersey Shore University Medical Center",
+      "city": "Ocean City",
+      "state": "New Jersey",
+      "lat": 39.278,
+      "lon": -74.575,
+      "trials": 1
+     },
+     {
+      "name": "Kaiser Permanente Los Angeles Medical Center",
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.052,
+      "lon": -118.244,
+      "trials": 1
+     },
+     {
+      "name": "Kansas City Cardiac Arrhythmia Research Foundation",
+      "city": "Overland Park",
+      "state": "Kansas",
+      "lat": 38.982,
+      "lon": -94.671,
+      "trials": 1
+     },
+     {
+      "name": "Kansas University Medical Center",
+      "city": "Kansas City",
+      "state": "Kansas",
+      "lat": 39.114,
+      "lon": -94.627,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 156,
+     "usSites": 100,
+     "trials": 11,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 11,
+    "trialsWithAeTables": 2,
+    "seriousEventRows": 251,
+    "seriousSubjectsAffected": 532,
+    "deathTermSubjects": 8,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 11,
+    "trialsWithAeTables": 2,
+    "trialsWithSerious": 2,
+    "totals": {
+     "serious": {
+      "rows": 251,
+      "subjects": 532
+     },
+     "other": {
+      "rows": 200,
+      "subjects": 760
+     },
+     "deathTermSubjects": 8
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Cardiac Arrhythmia - Atrial Fibrillation",
+      "organSystem": "Cardiac disorders",
+      "rows": 1,
+      "subjectsAffected": 41
+     },
+     {
+      "term": "Heart Failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 33
+     },
+     {
+      "term": "Infection, Local at Access Site, or Systemic",
+      "organSystem": "Infections and infestations",
+      "rows": 2,
+      "subjectsAffected": 24
+     },
+     {
+      "term": "Device Dislogdement",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 1,
+      "subjectsAffected": 12
+     },
+     {
+      "term": "Cardiac Arrhythmia - Supraventricular Arrhythmia",
+      "organSystem": "Cardiac disorders",
+      "rows": 1,
+      "subjectsAffected": 11
+     },
+     {
+      "term": "Palpitations",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Fall",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 3,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "Pain",
+      "organSystem": "Musculoskeletal and connective tissue disorders",
+      "rows": 2,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "Myocardial Infarction",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "Dizziness",
+      "organSystem": "General disorders",
+      "rows": 2,
+      "subjectsAffected": 9
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT05252702",
+      "title": "Aveir DR i2i Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2022",
+      "seriousRows": 129,
+      "seriousSubjects": 357
+     },
+     {
+      "nctId": "NCT04559945",
+      "title": "The LEADLESS II IDE Study for the Aveir VR Leadless Pacemaker System",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 122,
+      "seriousSubjects": 175
+     }
     ]
    },
-   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
-   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 4,
+    "countries": 4,
+    "sources": 4,
+    "firstForeignDate": "2024-04-09",
+    "latestAction": {
+     "country": "New Zealand",
+     "date": "2026-05-11",
+     "classification": "Hospital/Pharmacy/Laboratory"
+    },
+    "screenedOut": 0
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2026-05-11",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "Merlin Patient Care System Model 3650 MERLIN 3650 PATIENT CARE SYSTEM (PCS)",
+        "reason": "The manufacturer is contacting customers to inform them of a Merlin PCS 3650 programmer software update that addresses a potential software behaviour observed during the Pacing Capture Threshold (PCT) test of the AVEIR&trade; Leadless Pacemaker (LP). In rare circumstances, if intermittent loss of te",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36795"
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2024-08-19",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Aveir\u2122 Leadless Pacemaker \u00b7 Aveir\u2122 Leadless Pacemaker",
+        "reason": "Device compatibility",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/aveirtm-leadless-pacemaker"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2024-04-09",
+        "source": "mhra-fsn",
+        "actionType": "field-safety-notices",
+        "classification": null,
+        "product": "Field Safety Notices: 1 to 5 April 2024",
+        "reason": "List of Field Safety Notices from 1 to 5 April 2024",
+        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-1-to-5-april-2024"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2024-04-09",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Aveir Leadless Pacemaker, Right Ventricle LSP112V",
+        "reason": null,
+        "url": null
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2024,
+      "value": 3
+     },
+     {
+      "year": 2026,
+      "value": 1
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": true,
+     "registrations": 0,
+     "onMarket": 0,
+     "noLongerOnMarket": 0,
+     "riskClasses": null,
+     "manufacturers": null,
+     "note": "No EUDAMED UDI registration found for this device family (word-bounded trade-name match over 2.54M EU registrations). EU registration becomes mandatory for legacy devices 28 Nov 2026 \u2014 absence today is itself a datapoint."
+    },
+    "callouts": [],
+    "screenedOut": 0,
+    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
   }
  },
  "sources": [
@@ -921,7 +4298,9 @@
   "FDA 510(k) decisions + summary predicate citations",
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
-  "USPTO bibliographic grants"
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
  ],
  "dossierPrice": 12500
 }
