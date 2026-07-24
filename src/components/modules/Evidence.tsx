@@ -99,6 +99,7 @@ export default function Evidence({
   const [size, setSize] = useState<{ w: number; h: number } | null>(null)
   const [pageShown, setPageShown] = useState(page)
   const [pdfUrl, setPdfUrl] = useState<string | null>(null)
+  const [errDetail, setErrDetail] = useState<string | null>(null)
 
   useEffect(() => {
     let live = true
@@ -110,10 +111,12 @@ export default function Evidence({
       }
       const url = `${base}/portal/evidence/${encodeURIComponent(k)}.pdf`
       if (live) setPdfUrl(url)
+      let phase = 'fetch'
       try {
         const res = await fetch(url)
-        if (!res.ok) throw new Error(String(res.status))
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
         const data = await res.arrayBuffer()
+        phase = 'render'
         const doc = await pdfjs.getDocument({ data, ...DOC_OPTIONS }).promise
         const pageNo = Math.min(Math.max(1, page), doc.numPages)
         const p = await doc.getPage(pageNo)
@@ -145,8 +148,11 @@ export default function Evidence({
         setMarks(matchMarks(items, quote, terms))
         setSize({ w: cssWidth, h: cssH })
         setState('ready')
-      } catch {
-        if (live) setState('error')
+      } catch (err) {
+        if (live) {
+          setErrDetail(`${phase}: ${String(err).slice(0, 160)}`)
+          setState('error')
+        }
       }
     }
     void run()
@@ -171,6 +177,7 @@ export default function Evidence({
             Open the source PDF directly ↗
           </a>
         )}
+        {errDetail && <div className="evidenceErrDetail">{errDetail}</div>}
       </div>
     )
 
