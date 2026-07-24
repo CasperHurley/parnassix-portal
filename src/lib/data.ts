@@ -138,13 +138,27 @@ export interface ExpertProfileData {
     pending?: boolean
     note?: string
     counts?: Record<string, number>
-    cites?: { source: string; ref: string; case: string | null; date: string | null; snippet: string | null }[]
+    cites?: LitCite[]
+    nameOnly?: { source: string; case: string | null; date: string | null; url: string | null }[]
     source?: SourceObj
   }
   inventory: {
     onFile: { label: string; detail: string }[]
     onCommission: { label: string; price?: number }[]
   }
+}
+
+export interface LitCite {
+  source: string
+  ref: string
+  case: string | null
+  date: string | null
+  snippet: string | null
+  matchedForm?: string | null
+  signals?: string[]
+  court?: string | null
+  url?: string | null
+  docId?: string | null
 }
 
 const expertsCache = new Map<string, Promise<Record<string, ExpertProfileData>>>()

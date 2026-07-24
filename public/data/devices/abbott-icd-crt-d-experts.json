@@ -148,59 +148,10 @@
     },
     "articles": [
      {
-      "title": "Management of Arrhythmias in Older Adult Patients \u226575 Years Old Compared to Younger Patients <75 Years Old: Is Contemporary Practice Reflective of Evidence?",
-      "journal": "Cardiology in review",
+      "title": "Personalized artificial intelligence based left ventricular ejection fraction and systolic dysfunction assessment.",
+      "journal": "NPJ digital medicine",
       "year": 2026,
-      "pmid": "41870966",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Multicenter evaluation of the safety and efficacy of varying doses of cangrelor used in acute cerebrovascular stenting in patients with acute ischemic stroke.",
-      "journal": "Journal of neurointerventional surgery",
-      "year": 2026,
-      "pmid": "40506218",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Comparative safety, efficacy, and predictors of complete occlusion of flow diverter devices in the treatment of unruptured distal anterior cerebral artery aneur",
-      "journal": "Neurological sciences : official journal of the Italian Neur",
-      "year": 2026,
-      "pmid": "41706217",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Antiarrhythmic Drugs for Rhythm Control of Atrial Fibrillation: Unmet Needs and Future Directions.",
-      "journal": "The American journal of cardiology",
-      "year": 2026,
-      "pmid": "42019738",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Total product lifecycle regulatory considerations and recommendations for generative AI-enabled medical devices.",
-      "journal": "European heart journal. Digital health",
-      "year": 2026,
-      "pmid": "41788189",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Artificial Intelligence Powered Wearable and Portable Devices for Remote Cardiac Care and Population Health.",
-      "journal": "Current cardiology reports",
-      "year": 2026,
-      "pmid": "41945207",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Real-world performance of intrinsic antitachycardia pacing: Primary results from a global prospective postapproval registry study.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41500490",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Clinical and Economic Outcomes of Dronedarone Versus Amiodarone Among Patients With Atrial Fibrillation.",
-      "journal": "Journal of the American Heart Association",
-      "year": 2026,
-      "pmid": "41413395",
+      "pmid": "41951962",
       "tier": "corroborated"
      },
      {
@@ -211,10 +162,59 @@
       "tier": "corroborated"
      },
      {
-      "title": "Multicenter study of association between socioeconomic status and treatment of ruptured cerebral aneurysms compared to unruptured cerebral aneurysms: insights f",
+      "title": "Management of Arrhythmias in Older Adult Patients \u226575 Years Old Compared to Younger Patients <75 Years Old: Is Contemporary Practice Reflective of Evidence?",
+      "journal": "Cardiology in review",
+      "year": 2026,
+      "pmid": "41870966",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The present and the future of risk stratification for and prevention of sudden cardiac death: A Heart Rhythm Society think tank meeting.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42214646",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Total product lifecycle regulatory considerations and recommendations for generative AI-enabled medical devices.",
+      "journal": "European heart journal. Digital health",
+      "year": 2026,
+      "pmid": "41788189",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Establishing a national cardiopulmonary resuscitation program in Indian high schools and colleges: An expert collaborative call to action and implementation mod",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41927277",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical and Economic Outcomes of Dronedarone Versus Amiodarone Among Patients With Atrial Fibrillation.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2026,
+      "pmid": "41413395",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparative safety, efficacy, and predictors of complete occlusion of flow diverter devices in the treatment of unruptured distal anterior cerebral artery aneur",
+      "journal": "Neurological sciences : official journal of the Italian Neur",
+      "year": 2026,
+      "pmid": "41706217",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Multicenter evaluation of the safety and efficacy of varying doses of cangrelor used in acute cerebrovascular stenting in patients with acute ischemic stroke.",
       "journal": "Journal of neurointerventional surgery",
       "year": 2026,
-      "pmid": "40157743",
+      "pmid": "40506218",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Artificial Intelligence Powered Wearable and Portable Devices for Remote Cardiac Care and Population Health.",
+      "journal": "Current cardiology reports",
+      "year": 2026,
+      "pmid": "41945207",
       "tier": "corroborated"
      }
     ],
@@ -281,8 +281,29 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 2
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Morales v. Singh",
+      "date": "2024-01-19",
+      "url": "https://www.courtlistener.com/opinion/10215863/morales-v-singh/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "State Of Washington v. Jagmeet S. Dhaliwal",
+      "date": "2020-11-16",
+      "url": "https://www.courtlistener.com/opinion/4806386/state-of-washington-v-jagmeet-s-dhaliwal/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -304,7 +325,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -458,17 +479,17 @@
     },
     "articles": [
      {
-      "title": "Improving Vietnamese Immigrants' Cognitive Health Literacy Through University-Community Partnerships.",
-      "journal": "Health promotion practice",
-      "year": 2026,
-      "pmid": "41742838",
-      "tier": "corroborated"
-     },
-     {
       "title": "Synthesis of steroids fused with a pyridine at C11-C12 to accommodate the active site ceiling of cytochrome P450 8B1.",
       "journal": "Steroids",
       "year": 2026,
       "pmid": "42142607",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Improving Vietnamese Immigrants' Cognitive Health Literacy Through University-Community Partnerships.",
+      "journal": "Health promotion practice",
+      "year": 2026,
+      "pmid": "41742838",
       "tier": "corroborated"
      },
      {
@@ -797,10 +818,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Paced or sensed conduction time to determine programming with cardiac resynchronization therapy: The PASED-CRT Trial.",
-      "journal": "Pacing and clinical electrophysiology : PACE",
+      "title": "Inappropriate shock caused by P- and T-wave oversensing in a subcutaneous implantable cardiac defibrillator in a patient in sinus rhythm.",
+      "journal": "HeartRhythm case reports",
       "year": 2021,
-      "pmid": "33665812",
+      "pmid": "34307022",
       "tier": "corroborated"
      },
      {
@@ -811,17 +832,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Inappropriate shock caused by P- and T-wave oversensing in a subcutaneous implantable cardiac defibrillator in a patient in sinus rhythm.",
-      "journal": "HeartRhythm case reports",
+      "title": "Paced or sensed conduction time to determine programming with cardiac resynchronization therapy: The PASED-CRT Trial.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
       "year": 2021,
-      "pmid": "34307022",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Left Ventricular Enlargement, Cardiac Resynchronization Therapy Efficacy, and Impact of MultiPoint Pacing.",
-      "journal": "Circulation. Arrhythmia and electrophysiology",
-      "year": 2020,
-      "pmid": "33028082",
+      "pmid": "33665812",
       "tier": "corroborated"
      },
      {
@@ -832,6 +846,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Left Ventricular Enlargement, Cardiac Resynchronization Therapy Efficacy, and Impact of MultiPoint Pacing.",
+      "journal": "Circulation. Arrhythmia and electrophysiology",
+      "year": 2020,
+      "pmid": "33028082",
+      "tier": "corroborated"
+     },
+     {
       "title": "An Alarming Change: What Caused an Instance of Inappropriate Detection in a Wearable Cardioverter-defibrillator?",
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2020,
@@ -839,17 +860,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Rationale and design of a randomized trial to assess the safety and efficacy of MultiPoint Pacing (MPP) in cardiac resynchronization therapy: The MPP Trial.",
-      "journal": "Annals of noninvasive electrocardiology : the official journ",
-      "year": 2017,
-      "pmid": "28517367",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Efficacy of Multipoint Pacing in\u00a0Cardiac Resynchronization Therapy: The MultiPoint Pacing Trial.",
       "journal": "JACC. Clinical electrophysiology",
       "year": 2017,
       "pmid": "29759832",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Rationale and design of a randomized trial to assess the safety and efficacy of MultiPoint Pacing (MPP) in cardiac resynchronization therapy: The MPP Trial.",
+      "journal": "Annals of noninvasive electrocardiology : the official journ",
+      "year": 2017,
+      "pmid": "28517367",
       "tier": "corroborated"
      }
     ],
@@ -916,8 +937,32 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:corroborated": 1
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "9971895",
+      "case": "Margaret Pike v. Raffaele Corbisiero, M.D.",
+      "date": "2024-05-20",
+      "snippet": "SUPERIOR COURT OF NEW JERSEY APPELLATE DIVISION DOCKET NO. A-3516-22 MARGARET PIKE, executrix of the Estate of JOHN LONG, and MARGARET PIKE, individually, Plaintiffs-Appellants, v. RAFFAELE CORBISIERO, M.D., and DEBORAH HEART AND LUNG CENTER, Defendants-Respondents, and MICHAEL ZALENSKI, D.O., NICHOLAS E. ROY, D.O., CORINNE MIKLAS, D.O., and JEFFERSON CHERRY HILL HOSPITAL, i/j/s/a, Defendants. ______________________________ Submitted May 13, 2024 \u2014 Decided May",
+      "matchedForm": "RAFFAELE CORBISIERO",
+      "signals": [
+       "credential-adjacent",
+       "geo"
+      ],
+      "court": "njsuperctappdiv",
+      "url": "https://www.courtlistener.com/opinion/9505282/margaret-pike-v-raffaele-corbisiero-md/",
+      "docId": null
+     }
+    ],
+    "nameOnly": [],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -939,7 +984,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1070,6 +1115,20 @@
       "tier": "corroborated"
      },
      {
+      "title": "Quality-of-Life Recovery in Cushing's Disease: A Cluster Analysis.",
+      "journal": "The Canadian journal of neurological sciences. Le journal ca",
+      "year": 2026,
+      "pmid": "42163508",
+      "tier": "name-only"
+     },
+     {
+      "title": "Retrospective analysis on large-scale in-vivo dosimetric verification of total body irradiation using helical tomotherapy with optically stimulated luminescence",
+      "journal": "Radiological physics and technology",
+      "year": 2026,
+      "pmid": "41746496",
+      "tier": "name-only"
+     },
+     {
       "title": "Engineering dosimetric excellence in total body irradiation: Tomotherapy-driven protocols for precision and reproducibility.",
       "journal": "Precision radiation oncology",
       "year": 2026,
@@ -1084,31 +1143,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Serum Amyloid A (SAA) induces transcription affecting inflammation.",
-      "journal": "PloS one",
-      "year": 2026,
-      "pmid": "41712650",
-      "tier": "name-only"
-     },
-     {
       "title": "Neoadjuvant therapy in gall bladder cancer improves resectability and survival: a prospective study.",
       "journal": "HPB : the official journal of the International Hepato Pancr",
       "year": 2026,
       "pmid": "41714243",
-      "tier": "name-only"
-     },
-     {
-      "title": "Outcomes of Adjuvant Radiation Therapy in Penile Cancer.",
-      "journal": "Advances in radiation oncology",
-      "year": 2026,
-      "pmid": "41716955",
-      "tier": "name-only"
-     },
-     {
-      "title": "Quality-of-Life Recovery in Cushing's Disease: A Cluster Analysis.",
-      "journal": "The Canadian journal of neurological sciences. Le journal ca",
-      "year": 2026,
-      "pmid": "42163508",
       "tier": "name-only"
      },
      {
@@ -1119,10 +1157,17 @@
       "tier": "name-only"
      },
      {
-      "title": "Retrospective analysis on large-scale in-vivo dosimetric verification of total body irradiation using helical tomotherapy with optically stimulated luminescence",
-      "journal": "Radiological physics and technology",
+      "title": "Outcomes of Adjuvant Radiation Therapy in Penile Cancer.",
+      "journal": "Advances in radiation oncology",
       "year": 2026,
-      "pmid": "41746496",
+      "pmid": "41716955",
+      "tier": "name-only"
+     },
+     {
+      "title": "Serum Amyloid A (SAA) induces transcription affecting inflammation.",
+      "journal": "PloS one",
+      "year": 2026,
+      "pmid": "41712650",
       "tier": "name-only"
      },
      {
@@ -1196,8 +1241,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "United States v. Sethi",
+      "date": "2021-04-05",
+      "url": "https://www.courtlistener.com/opinion/9508234/united-states-v-sethi/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1219,7 +1279,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2185,13 +2245,6 @@
     },
     "articles": [
      {
-      "title": "Baseline QRS axis distinguishes para-Hisian PVC from outflow tract PVCs.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42066877",
-      "tier": "corroborated"
-     },
-     {
       "title": "Anticoagulants for the prevention and treatment of venous thromboembolism in humans exposed to microgravity: A hybrid systematic and narrative review.",
       "journal": "American heart journal plus : cardiology research and practi",
       "year": 2026,
@@ -2199,31 +2252,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "PARALLEL-VT: A pilot study of simultaneous multi-wavefront left ventricular mapping for identification of critical ablation sites.",
-      "journal": "Journal of interventional cardiac electrophysiology : an int",
+      "title": "Impact of prophylactic protamine administration following atrial fibrillation ablation on vascular and pericardial complications.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
-      "pmid": "42089937",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Ventricular Desynchronization Therapy in Obstructive Hypertrophic Cardiomyopathy: Importance of Atrioventricular Timing.",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2026,
-      "pmid": "41159985",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Limitations of the modular cardiac rhythm management system in managing slower ventricular tachycardias: A case report.",
-      "journal": "HeartRhythm case reports",
-      "year": 2026,
-      "pmid": "41727307",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Accuracy of Implantable Loop Recorders: Multicenter, Multidevice Comparison.",
-      "journal": "JACC. Clinical electrophysiology",
-      "year": 2026,
-      "pmid": "41686115",
+      "pmid": "41973848",
       "tier": "corroborated"
      },
      {
@@ -2234,6 +2266,34 @@
       "tier": "corroborated"
      },
      {
+      "title": "Baseline QRS axis distinguishes para-Hisian PVC from outflow tract PVCs.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42066877",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Limitations of the modular cardiac rhythm management system in managing slower ventricular tachycardias: A case report.",
+      "journal": "HeartRhythm case reports",
+      "year": 2026,
+      "pmid": "41727307",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ventricular Desynchronization Therapy in Obstructive Hypertrophic Cardiomyopathy: Importance of Atrioventricular Timing.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2026,
+      "pmid": "41159985",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Accuracy of Implantable Loop Recorders: Multicenter, Multidevice Comparison.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "41686115",
+      "tier": "corroborated"
+     },
+     {
       "title": "Left atrial mechanics following left bundle branch area pacing vs. non-conduction system pacing after atrioventricular node ablation in atrial fibrillation.",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
@@ -2241,10 +2301,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Impact of prophylactic protamine administration following atrial fibrillation ablation on vascular and pericardial complications.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "title": "PARALLEL-VT: A pilot study of simultaneous multi-wavefront left ventricular mapping for identification of critical ablation sites.",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
       "year": 2026,
-      "pmid": "41973848",
+      "pmid": "42089937",
       "tier": "corroborated"
      },
      {
@@ -2500,13 +2560,6 @@
     },
     "articles": [
      {
-      "title": "A new left atrial appendage isolation strategy for persistent atrial fibrillation requiring repeat ablation.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41422929",
-      "tier": "corroborated"
-     },
-     {
       "title": "Pulsed-Field Ablation for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
@@ -2514,10 +2567,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Return-to-Sport Evaluation After ST-Segment Elevation Myocardial Infarction and Persistent Systolic Dysfunction in a Masters Athlete.",
-      "journal": "JACC. Case reports",
+      "title": "Peak QRS/T ratio and the spatial ventricular gradient differentiate acute vs chronic left bundle branch block after transcatheter aortic valve replacement.",
+      "journal": "Heart rhythm O2",
       "year": 2026,
-      "pmid": "41906576",
+      "pmid": "42182990",
       "tier": "corroborated"
      },
      {
@@ -2525,6 +2578,27 @@
       "journal": "Heart rhythm",
       "year": 2026,
       "pmid": "41513059",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42033435",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A new left atrial appendage isolation strategy for persistent atrial fibrillation requiring repeat ablation.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41422929",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Return-to-Sport Evaluation After ST-Segment Elevation Myocardial Infarction and Persistent Systolic Dysfunction in a Masters Athlete.",
+      "journal": "JACC. Case reports",
+      "year": 2026,
+      "pmid": "41906576",
       "tier": "corroborated"
      },
      {
@@ -2542,31 +2616,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42033435",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Peak QRS/T ratio and the spatial ventricular gradient differentiate acute vs chronic left bundle branch block after transcatheter aortic valve replacement.",
-      "journal": "Heart rhythm O2",
-      "year": 2026,
-      "pmid": "42182990",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Annals On Call - Atrial Fibrillation: When Ablation Is the Way to Go.",
-      "journal": "Annals of internal medicine",
+      "title": "Race Comparisons in Patients With Cardiac Sarcoidosis: Insights From the Cardiac Sarcoidosis Consortium.",
+      "journal": "Circulation. Arrhythmia and electrophysiology",
       "year": 2025,
-      "pmid": "40889367",
+      "pmid": "40557494",
       "tier": "corroborated"
      },
      {
-      "title": "Annals On Call - Complications Associated With Transvenous Cardiac Implantable Devices.",
-      "journal": "Annals of internal medicine",
+      "title": "Factors associated with increased atrial fibrillation detection in patients with embolic stroke of undetermined source.",
+      "journal": "Journal of stroke and cerebrovascular diseases : the officia",
       "year": 2025,
-      "pmid": "41397275",
+      "pmid": "40345410",
       "tier": "corroborated"
      }
     ],
@@ -2633,8 +2693,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Champeau v. Blitzer",
+      "date": "2015-05-12",
+      "url": "https://www.courtlistener.com/opinion/2822272/champeau-v-blitzer/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2656,7 +2731,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2837,6 +2912,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "A Different Breed of Wolf: First Known Case of Wolf-Hirschorn Syndrome with Third-degree Atrioventricular Block Requiring Pacemaker Implantation.",
+      "journal": "The Journal of innovations in cardiac rhythm management",
+      "year": 2020,
+      "pmid": "32596030",
+      "tier": "corroborated"
+     },
+     {
       "title": "The Grand SANS FLUORO (SAy No Series to FLUOROsopy) Study: Examining Fluoroscopy Use in More than 1,000 Ablation Procedures.",
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2020,
@@ -2851,10 +2933,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A Different Breed of Wolf: First Known Case of Wolf-Hirschorn Syndrome with Third-degree Atrioventricular Block Requiring Pacemaker Implantation.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
-      "year": 2020,
-      "pmid": "32596030",
+      "title": "SANS FLUORO Supersized: A case report of Fluoroless Ablation in a Super Morbidly Obese Patient.",
+      "journal": "Journal of atrial fibrillation",
+      "year": 2018,
+      "pmid": "31139290",
       "tier": "corroborated"
      },
      {
@@ -2862,13 +2944,6 @@
       "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2018,
       "pmid": "32477787",
-      "tier": "corroborated"
-     },
-     {
-      "title": "SANS FLUORO Supersized: A case report of Fluoroless Ablation in a Super Morbidly Obese Patient.",
-      "journal": "Journal of atrial fibrillation",
-      "year": 2018,
-      "pmid": "31139290",
       "tier": "corroborated"
      },
      {

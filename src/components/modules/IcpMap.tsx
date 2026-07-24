@@ -1,6 +1,8 @@
 // US choropleth of state-grain CMS procedure volumes. Topology from us-atlas (lazy-loaded
 // so the catalog page never pays for it); no tiles, no network beyond the static import.
-import { geoPath } from 'd3-geo'
+// us-atlas 3.0.1 ships lon/lat geometry (NOT pre-projected), so we project through
+// geoAlbersUsa at the canonical 975x610 frame; territories outside the projection drop out.
+import { geoAlbersUsa, geoPath } from 'd3-geo'
 import { scaleLinear } from 'd3-scale'
 import { useEffect, useMemo, useState } from 'react'
 import type { FeatureCollection, Geometry } from 'geojson'
@@ -17,7 +19,6 @@ function loadStates(): Promise<StatesTopo> {
     topoCache = Promise.all([import('topojson-client'), import('us-atlas/states-10m.json')]).then(
       ([tj, atlas]) => {
         const topo = (atlas as { default?: unknown }).default ?? atlas
-        // us-atlas ships pre-projected (Albers USA) geometry — use a null-projection path.
         const t = topo as Parameters<typeof tj.feature>[0]
         const states = tj.feature(
           t,
@@ -48,7 +49,7 @@ export function IcpMap({ states, dataYear }: { states: IcpState[]; dataYear: num
   )
   const max = Math.max(...states.map((s) => s.services), 1)
   const opacity = scaleLinear().domain([0, max]).range([0.06, 0.95])
-  const path = useMemo(() => geoPath(), [])
+  const path = useMemo(() => geoPath(geoAlbersUsa().scale(1300).translate([487.5, 305])), [])
 
   return (
     <div className="mapRow">

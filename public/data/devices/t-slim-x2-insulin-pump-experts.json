@@ -117,24 +117,17 @@
     },
     "articles": [
      {
-      "title": "Automated Insulin Delivery Is Beneficial in Adults With Insulin-Treated Type 2 Diabetes With and Without GAD65 Antibodies.",
-      "journal": "Diabetes care",
-      "year": 2026,
-      "pmid": "41348329",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Consistent Benefit of Control-IQ+ Automated Insulin Delivery Across a Range of Characteristics of Adults with Type 2 Diabetes.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "41574573",
-      "tier": "corroborated"
-     },
-     {
       "title": "Simplified Meal Bolus Strategies with Control-IQ+ Automated Insulin Delivery Are Safe and Effective in Adults with Type 2 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
       "pmid": "41264341",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Automated Insulin Delivery Is Beneficial in Adults With Insulin-Treated Type 2 Diabetes With and Without GAD65 Antibodies.",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41348329",
       "tier": "corroborated"
      },
      {
@@ -152,6 +145,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Consistent Benefit of Control-IQ+ Automated Insulin Delivery Across a Range of Characteristics of Adults with Type 2 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41574573",
+      "tier": "corroborated"
+     },
+     {
       "title": "Cost-Utility Analysis of Control-IQ Technology Relative to Conventional Insulin Therapy in Adults with Type 1 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
@@ -159,17 +159,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Randomized, Crossover Trial of Control-IQ Technology with a Lower Treatment Range and a Modified Meal Bolus Module in Adults, Adolescents, Children, and Prescho",
-      "journal": "Diabetes technology & therapeutics",
+      "title": "Adults With Type 2 Diabetes Benefit From Automated Insulin Delivery Irrespective of C-Peptide Level.",
+      "journal": "Diabetes care",
       "year": 2025,
-      "pmid": "39601043",
+      "pmid": "40953318",
       "tier": "corroborated"
      },
      {
-      "title": "Retrospective analysis of impact of automated insulin delivery technology on acute care utilisation from 2019 to 2021.",
-      "journal": "Diabetic medicine : a journal of the British Diabetic Associ",
+      "title": "Glycemic and Patient-Reported Outcomes for Users of a New, Compact Automated Insulin Delivery System: A First Report.",
+      "journal": "Journal of diabetes science and technology",
       "year": 2025,
-      "pmid": "41045494",
+      "pmid": "39587715",
       "tier": "corroborated"
      },
      {
@@ -180,10 +180,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Glycemic and Patient-Reported Outcomes for Users of a New, Compact Automated Insulin Delivery System: A First Report.",
+      "title": "Fully Closed-Loop Insulin Delivery with High-Carbohydrate and High-Fat Meals Using the Tandem Freedom System.",
       "journal": "Journal of diabetes science and technology",
       "year": 2025,
-      "pmid": "39587715",
+      "pmid": "41236930",
       "tier": "corroborated"
      }
     ],
@@ -321,24 +321,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Determination of Gentamicin C-subtypes in Inner Ear Perilymph Using Liquid Chromatography with Fluorescence Detection.",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "year": 2026,
-      "pmid": "41666750",
-      "tier": "name-only"
-     },
-     {
-      "title": "Phase 1b study of ABBV-368, tilsotolimod, budigalimab, and nab-paclitaxel in patients with recurrent/metastatic head and neck squamous cell carcinoma.",
-      "journal": "Journal for immunotherapy of cancer",
-      "year": 2026,
-      "pmid": "41956545",
-      "tier": "name-only"
-     },
-     {
       "title": "Waiting for reward: preference for signalled delays increases with average wait time.",
       "journal": "Animal cognition",
       "year": 2026,
       "pmid": "41689659",
+      "tier": "name-only"
+     },
+     {
+      "title": "Risk Determinants of Acute Mountain Sickness in Trekkers in the Nepali Himalaya: A 36-Year Follow-Up.",
+      "journal": "High altitude medicine & biology",
+      "year": 2026,
+      "pmid": "40996419",
       "tier": "name-only"
      },
      {
@@ -349,10 +342,17 @@
       "tier": "name-only"
      },
      {
-      "title": "Risk Determinants of Acute Mountain Sickness in Trekkers in the Nepali Himalaya: A 36-Year Follow-Up.",
-      "journal": "High altitude medicine & biology",
+      "title": "Phase 1b study of ABBV-368, tilsotolimod, budigalimab, and nab-paclitaxel in patients with recurrent/metastatic head and neck squamous cell carcinoma.",
+      "journal": "Journal for immunotherapy of cancer",
       "year": 2026,
-      "pmid": "40996419",
+      "pmid": "41956545",
+      "tier": "name-only"
+     },
+     {
+      "title": "Determination of Gentamicin C-subtypes in Inner Ear Perilymph Using Liquid Chromatography with Fluorescence Detection.",
+      "journal": "Journal of pharmaceutical and biomedical analysis",
+      "year": 2026,
+      "pmid": "41666750",
       "tier": "name-only"
      },
      {
@@ -370,17 +370,17 @@
       "tier": "name-only"
      },
      {
-      "title": "Alpha-Emitting Radionuclides: Current Status and Future Perspectives.",
-      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "title": "Reflections on co-production: Developing a dementia research funding application with a diverse lived experience group.",
+      "journal": "Dementia (London, England)",
       "year": 2024,
-      "pmid": "38256909",
+      "pmid": "38321765",
       "tier": "name-only"
      },
      {
-      "title": "Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Frostbite: 2024 Update.",
-      "journal": "Wilderness & environmental medicine",
+      "title": "ABBV-319: a CD19-targeting glucocorticoid receptor modulator antibody-drug conjugate therapy for B-cell malignancies.",
+      "journal": "Blood",
       "year": 2024,
-      "pmid": "38577729",
+      "pmid": "38701407",
       "tier": "name-only"
      }
     ],
@@ -575,17 +575,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "A randomized, prospective trial comparing the efficacy of continuous subcutaneous insulin infusion with multiple daily injections using insulin glargine.",
-      "journal": "Diabetes care",
-      "year": 2004,
-      "pmid": "15220227",
-      "tier": "corroborated"
-     },
-     {
       "title": "Persistence of benefits of continuous subcutaneous insulin infusion in very young children with type 1 diabetes: a follow-up report.",
       "journal": "Pediatrics",
       "year": 2004,
       "pmid": "15574621",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A randomized, prospective trial comparing the efficacy of continuous subcutaneous insulin infusion with multiple daily injections using insulin glargine.",
+      "journal": "Diabetes care",
+      "year": 2004,
+      "pmid": "15220227",
       "tier": "corroborated"
      },
      {
@@ -596,10 +596,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Insulin pump therapy in children and adolescents.",
-      "journal": "Diabetes, nutrition & metabolism",
+      "title": "Are you ready for the pump? The decision to use an insulin pump is a serious one. Here are a few questions to consider first.",
+      "journal": "Diabetes forecast",
       "year": 2002,
-      "pmid": "12678461",
+      "pmid": "14768606",
       "tier": "corroborated"
      },
      {
@@ -844,20 +844,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Low-dose radiation use in diagnostic imaging and cancer therapy settings.",
-      "journal": "La Radiologia medica",
-      "year": 2018,
-      "pmid": "29671206",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Where Are the Opportunities for Reducing Health Care Spending Within Alternative Payment Models?",
-      "journal": "Journal of oncology practice",
-      "year": 2018,
-      "pmid": "28981388",
-      "tier": "corroborated"
-     },
-     {
       "title": "Outcomes of fluoroscopic and ultrasound-guided placement versus laparoscopic placement of peritoneal dialysis catheters.",
       "journal": "Clinical kidney journal",
       "year": 2018,
@@ -865,10 +851,24 @@
       "tier": "corroborated"
      },
      {
+      "title": "Low-dose radiation use in diagnostic imaging and cancer therapy settings.",
+      "journal": "La Radiologia medica",
+      "year": 2018,
+      "pmid": "29671206",
+      "tier": "corroborated"
+     },
+     {
       "title": "Postoperative radiosurgery for the treatment of metastatic brain tumor: Evaluation of local failure and leptomeningeal disease.",
       "journal": "Journal of clinical neuroscience : official journal of the N",
       "year": 2018,
       "pmid": "29248376",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Where Are the Opportunities for Reducing Health Care Spending Within Alternative Payment Models?",
+      "journal": "Journal of oncology practice",
+      "year": 2018,
+      "pmid": "28981388",
       "tier": "corroborated"
      }
     ],
@@ -936,8 +936,29 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 2
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Thomas v. Secretary, Department of Corrections",
+      "date": "2020-09-30",
+      "url": "https://www.courtlistener.com/opinion/9639456/thomas-v-secretary-department-of-corrections/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "in the Interest of B.S., a Child",
+      "date": "2013-07-25",
+      "url": "https://www.courtlistener.com/opinion/3079764/in-the-interest-of-bs-a-child/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -959,7 +980,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1083,17 +1104,17 @@
     },
     "articles": [
      {
-      "title": "The Study in Outpatient Medicine using Nudges to Improve Sleep (SOMNUS): study protocol for an 18-month factorial, cluster-randomized trial to increase guidelin",
-      "journal": "Trials",
-      "year": 2025,
-      "pmid": "41430294",
-      "tier": "corroborated"
-     },
-     {
       "title": "The 2021 WHO classification of tumors of the central nervous system: Responding to the challenge in low- and middle-income countries.",
       "journal": "Neuro-oncology practice",
       "year": 2025,
       "pmid": "40487579",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Study in Outpatient Medicine using Nudges to Improve Sleep (SOMNUS): study protocol for an 18-month factorial, cluster-randomized trial to increase guidelin",
+      "journal": "Trials",
+      "year": 2025,
+      "pmid": "41430294",
       "tier": "corroborated"
      },
      {
@@ -1118,10 +1139,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Insulin and disorders of behavioural flexibility.",
-      "journal": "Neuroscience and biobehavioral reviews",
+      "title": "Potential impact of NICE guidelines on referrals from primary care to nephrology: a primary care database and prospective research study.",
+      "journal": "The British journal of general practice : the journal of the",
       "year": 2023,
-      "pmid": "37059405",
+      "pmid": "36376072",
       "tier": "corroborated"
      },
      {
@@ -1132,17 +1153,17 @@
       "tier": "corroborated"
      },
      {
+      "title": "Insulin and disorders of behavioural flexibility.",
+      "journal": "Neuroscience and biobehavioral reviews",
+      "year": 2023,
+      "pmid": "37059405",
+      "tier": "corroborated"
+     },
+     {
       "title": "Processive kinetics in the three-step lanosterol 14\u03b1-demethylation reaction catalyzed by human cytochrome P450 51A1.",
       "journal": "The Journal of biological chemistry",
       "year": 2023,
       "pmid": "37209823",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Potential impact of NICE guidelines on referrals from primary care to nephrology: a primary care database and prospective research study.",
-      "journal": "The British journal of general practice : the journal of the",
-      "year": 2023,
-      "pmid": "36376072",
       "tier": "corroborated"
      },
      {
@@ -1217,8 +1238,163 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:corroborated": 21,
+     "courtlistener:name-only": 19
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "11212292",
+      "case": null,
+      "date": "2025-12-01",
+      "snippet": "setting. Lastly, he found the claimant able to handle the routine stresses of a routine, repetitive work setting. On reconsideration, 1 Ashley A. does not object to the R&R\u2019s recitation of the factual background of this case, so the Court adopts the R&R\u2019s factual background here. Mary Sullivan, Ph.D., concurred with Dr. Boyd\u2019s assessment and adopted his opined limitations in their entirety. Id. at 24. The ALJ found Dr. Boyd\u2019s and Dr. Sullivan\u2019s opinions partially persuasive: only insofar as they indicate that there are indeed limitations in the areas",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "mnd",
+      "url": "https://www.courtlistener.com/opinion/10745707/ashley-a-v-frank-bisignano-commissioner-of-social-security/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10651776",
+      "case": "Petree-Kroyer v. O'Malley",
+      "date": "2024-10-11",
+      "snippet": "Rehder v. Apfel, 205 F.3d 1056, 1060 (8th Cir. 2000). Plaintiff disputes the ALJ\u2019s determination regarding her social limitations in the RFC. (Pl.\u2019s Br. (Docket No. 9) at 4.) The state agency psychological consultants, Ellen Rozenfeld, Psy.D., and Mary Sullivan, Ph.D., opined that Plaintiff \u201cwould benefit from a work environment in which frequent social interactions with others, including coworkers and the public, is not a primary job requirement and incidental to the work performed.\u201d (Admin. R. at 31, 122, 133.) In the RFC, the ALJ concluded that Plaintiff",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "mnd",
+      "url": "https://www.courtlistener.com/opinion/10185182/petree-kroyer-v-omalley/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4230345",
+      "case": "In Re: Autumn B.",
+      "date": "2017-12-19",
+      "snippet": "as of Right; Judgment of the Juvenile Court Affirmed and Remanded BRANDON O. GIBSON, J., delivered the opinion of the court, in which CHARLES D. SUSANO, JR., and JOHN W. MCCLARTY, J.J., joined. Alan R. Beard, Chattanooga, Tennessee, for the appellant, Cintia L. C. Mary Sullivan Moore, Chattanooga, Tennessee, for the appellee, Jacob K. B. OPINION I. FACTS & PROCEDURAL HISTORY Appellant Cintia L. C. (\u201cMother\u201d) and Appellee Jacob K. B. (\u201cFather\u201d) have one child together (the \u201cChild\u201d), who was born on September",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "geo"
+      ],
+      "court": "tennctapp",
+      "url": "https://www.courtlistener.com/opinion/4453092/in-re-autumn-b/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "2785447",
+      "case": "Estate of Jack Hill v. Henry Ford Hospital",
+      "date": "2015-03-10",
+      "snippet": "Court HENRY FORD HOSPITAL and MARY LC No. 13-008712-NH SULLIVAN, M.D., Defendants-Appellants, and DR. JOHN DOE, Defendant. Before: TALBOT, C.J., and CAVANAGH and FORT HOOD, JJ. PER CURIAM. Henry Ford Hospital and Mary Sullivan, M.D., appeal by leave granted the trial court\u2019s order granting Sonya Browning\u2019s motion to compel discovery of Henry Ford\u2019s suicide protocol. We reverse and remand. This action arises from the suicide of Jack Hill. On April 14, 2011,1 the 54-year-old decedent was treated at Henry Ford Wyandotte",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "michctapp",
+      "url": "https://www.courtlistener.com/opinion/2785447/estate-of-jack-hill-v-henry-ford-hospital/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "1047332",
+      "case": "Michael Wilsey v. State of Tennessee",
+      "date": "2012-02-08",
+      "snippet": "Judgment of the Criminal Court Affirmed Pursuant to Rule 20, Rules of the Tennessee Court of Criminal Appeals J AMES C URWOOD W ITT, J R., J., delivered the opinion of the Court, in which N ORMA M CG EE O GLE and D. K ELLY T HOMAS, JJ., joined. Michael Donald Wilsey, pro se (on appeal); and Mary Sullivan Moore, Chattanooga, Tennessee (at trial). Robert E. Cooper, Jr., Attorney General and Reporter; Mark A. Fulks, Assistant Attorney General; R. Steven Bebb, District Attorney General; and Lance Pope, Assistant District Attorney General, for the appellee, State of Tennessee.",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "geo"
+      ],
+      "court": "tenncrimapp",
+      "url": "https://www.courtlistener.com/opinion/1047332/michael-wilsey-v-state-of-tennessee/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "1050892",
+      "case": "State of Tennessee v. Randy Bernard Braswell",
+      "date": "2009-12-14",
+      "snippet": "Donna Robinson Miller (on appeal) and Leonard Michele Caputo (at trial), Chattanooga, Tennessee, for the appellant, Randy Bernard Braswell. Robert E. Cooper, Jr., Attorney General and Reporter; David H. Findley, Senior Counsel; William H. Cox, III, District Attorney General; and Rachel Winfrey and Mary Sullivan Moore, Assistant District Attorneys General, for the appellee, State of Tennessee. OPINION At trial, Walter Harriston testified that on August 30, 2002, he lived in the same Chattanooga apartment complex where the Defendant and his girlfriend, Meka",
+      "matchedForm": "MARY SULLIVAN",
+      "signals": [
+       "geo"
+      ],
+      "court": "tenncrimapp",
+      "url": "https://www.courtlistener.com/opinion/1050892/state-of-tennessee-v-randy-bernard-braswell/",
+      "docId": null
+     }
+    ],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": null,
+      "date": "2025-11-17",
+      "url": "https://www.courtlistener.com/opinion/10744035/jherome-deguzman-derivatively-on-behalf-of-petco-health-and-wellness/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Hasan v. Sullivan",
+      "date": "2025-10-08",
+      "url": "https://www.courtlistener.com/opinion/10692649/hasan-v-sullivan/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Hasan v. Sullivan",
+      "date": "2025-10-08",
+      "url": "https://www.courtlistener.com/opinion/10703814/hasan-v-sullivan/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Thomas, Richard v. United States",
+      "date": "2025-06-11",
+      "url": "https://www.courtlistener.com/opinion/10603013/thomas-richard-v-united-states/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Sullivan v. Joudrey",
+      "date": "2024-09-16",
+      "url": "https://www.courtlistener.com/opinion/10176640/sullivan-v-joudrey/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Cardinal Point, LLC v. Edgewood Partners Insurance Center, Inc.",
+      "date": "2023-12-11",
+      "url": "https://www.courtlistener.com/opinion/10176911/cardinal-point-llc-v-edgewood-partners-insurance-center-inc/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Murphy v. Taylor",
+      "date": "2022-08-31",
+      "url": "https://www.courtlistener.com/opinion/9740754/murphy-v-taylor/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Katherine D. Morgan v. Kenneth F. Morgan, Jr.",
+      "date": "2021-12-07",
+      "url": "https://www.courtlistener.com/opinion/5303982/katherine-d-morgan-v-kenneth-f-morgan-jr/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Rebecca Wilson v. George Fleming and Fleming & Associates, L.L.P.",
+      "date": "2021-11-04",
+      "url": "https://www.courtlistener.com/opinion/5295475/rebecca-wilson-v-george-fleming-and-fleming-associates-llp/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Terrell v. Kijakazi",
+      "date": "2021-08-16",
+      "url": "https://www.courtlistener.com/opinion/9762547/terrell-v-kijakazi/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1240,7 +1416,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1412,24 +1588,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A nipple-like lesion: A case report of leiomyosarcoma on the back.",
-      "journal": "SAGE open medical case reports",
-      "year": 2026,
-      "pmid": "41542146",
-      "tier": "name-only"
-     },
-     {
       "title": "Evaluating success rates of rotary NiTi versus reciprocating files in endodontic treatment.",
       "journal": "Bioinformation",
       "year": 2026,
       "pmid": "42109403",
-      "tier": "name-only"
-     },
-     {
-      "title": "Ophthalmic manifestations of Chiari malformation: a systematic review.",
-      "journal": "Canadian journal of ophthalmology. Journal canadien d'ophtal",
-      "year": 2026,
-      "pmid": "41985550",
       "tier": "name-only"
      },
      {
@@ -1440,10 +1602,24 @@
       "tier": "name-only"
      },
      {
-      "title": "Assessment of oral mucosal temperature as a diagnostic marker for systemic inflammation among dental patients.",
-      "journal": "Bioinformation",
+      "title": "Ophthalmic manifestations of Chiari malformation: a systematic review.",
+      "journal": "Canadian journal of ophthalmology. Journal canadien d'ophtal",
+      "year": 2026,
+      "pmid": "41985550",
+      "tier": "name-only"
+     },
+     {
+      "title": "A nipple-like lesion: A case report of leiomyosarcoma on the back.",
+      "journal": "SAGE open medical case reports",
+      "year": 2026,
+      "pmid": "41542146",
+      "tier": "name-only"
+     },
+     {
+      "title": "Sex- and region-dependent neuroinflammation in Alzheimer's disease.",
+      "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Asso",
       "year": 2025,
-      "pmid": "41393453",
+      "pmid": "40247152",
       "tier": "name-only"
      },
      {
@@ -1454,10 +1630,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Sporophyte-directed gametogenesis in Arabidopsis.",
-      "journal": "Nature plants",
+      "title": "Assessment of oral mucosal temperature as a diagnostic marker for systemic inflammation among dental patients.",
+      "journal": "Bioinformation",
       "year": 2025,
-      "pmid": "40087543",
+      "pmid": "41393453",
       "tier": "name-only"
      }
     ],
@@ -1692,17 +1868,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Fixed-Dose Combinations of Pioglitazone and Metformin for Lung Cancer Prevention.",
-      "journal": "Cancer prevention research (Philadelphia, Pa.)",
-      "year": 2017,
-      "pmid": "28052934",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Preclinical Efficacy of Aerosol Pioglitazone on Lung Adenoma Prevention in A/J Mice.",
       "journal": "Cancer prevention research (Philadelphia, Pa.)",
       "year": 2017,
       "pmid": "27993834",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Fixed-Dose Combinations of Pioglitazone and Metformin for Lung Cancer Prevention.",
+      "journal": "Cancer prevention research (Philadelphia, Pa.)",
+      "year": 2017,
+      "pmid": "28052934",
       "tier": "corroborated"
      },
      {
@@ -1773,8 +1949,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "People v. Haynes",
+      "date": "2008-07-29",
+      "url": "https://www.courtlistener.com/opinion/839033/people-v-haynes/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1796,7 +1987,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2205,52 +2396,52 @@
       "tier": "corroborated"
      },
      {
-      "title": "Beyond Fixation: Persistent Genetic Variation Under Intense Selection.",
-      "journal": "bioRxiv : the preprint server for biology",
+      "title": "Simons Observatory: on-sky performance of radio-transparent multi-layer insulation using Styroace-II styrofoam.",
+      "journal": "Applied optics",
       "year": 2026,
-      "pmid": "41867759",
+      "pmid": "41842043",
       "tier": "name-only"
      },
      {
-      "title": "Rigorous genetic diagnosis review in natural history studies.",
-      "journal": "Orphanet journal of rare diseases",
+      "title": "Light Filtering as Depicted by New US Ophthalmic High-Energy Visible Band Scheme: Comparison of ACUVUE OASYS MAX 1-Day Contact Lenses With Other Lenses and \"Blu",
+      "journal": "Eye & contact lens",
       "year": 2026,
-      "pmid": "42050713",
+      "pmid": "41486494",
       "tier": "name-only"
      },
      {
-      "title": "Placental cytogenetic testing for confined placental mosaicism and obstetrical outcomes after discordant cell-free DNA screening results.",
-      "journal": "American journal of obstetrics & gynecology MFM",
+      "title": "Environmentally induced stress affects fitness of bold and shy alike: A long-term study of personality and feather corticosterone in Arctic-breeding kittiwakes.",
+      "journal": "The Journal of animal ecology",
       "year": 2026,
-      "pmid": "41520802",
+      "pmid": "41735228",
       "tier": "name-only"
      },
      {
-      "title": "Feasibility of neonatal intravenous nutrition for the management of gastroschisis in sub-Saharan Africa.",
-      "journal": "World journal of pediatric surgery",
+      "title": "Risk Factors, Diagnoses, and Clinical Characteristics of Synchronous and Metachronous Periprosthetic Joint Infections Following Total Joint Arthroplasty.",
+      "journal": "The Journal of arthroplasty",
       "year": 2026,
-      "pmid": "42205492",
+      "pmid": "40645532",
       "tier": "name-only"
      },
      {
-      "title": "Sex differences in the clinical presentation of patients with newly diagnosed multiple myeloma.",
-      "journal": "Cancer",
+      "title": "Impacts of urbanization on pathogens and pests of wild and cultivated plants.",
+      "journal": "Philosophical transactions of the Royal Society of London. S",
       "year": 2026,
-      "pmid": "41521749",
+      "pmid": "42206332",
       "tier": "name-only"
      },
      {
-      "title": "Thromboprophylaxis for Prevention of Venous Thromboembolism: Practice Patterns Among American Head and Neck Society Members.",
-      "journal": "The Annals of otology, rhinology, and laryngology",
+      "title": "Characterization of Clinical Phenotype to Glial Fibrillary Acidic Protein Concentrations in Alexander Disease.",
+      "journal": "Annals of clinical and translational neurology",
       "year": 2026,
-      "pmid": "40808623",
+      "pmid": "41513585",
       "tier": "name-only"
      },
      {
-      "title": "Normative modeling for quantitative brain MRI phenotyping and biomarker discovery for pediatric leukodystrophies.",
-      "journal": "medRxiv : the preprint server for health sciences",
+      "title": "Real-world comparative effectiveness of sotorasib versus docetaxel monotherapy in second line and beyond for advanced or metastatic non-small cell lung cancer: ",
+      "journal": "Lung cancer (Amsterdam, Netherlands)",
       "year": 2026,
-      "pmid": "42245025",
+      "pmid": "42229337",
       "tier": "name-only"
      }
     ],
@@ -2318,8 +2509,47 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 5
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "David Eugene White v. the State of Texas",
+      "date": "2022-11-09",
+      "url": "https://www.courtlistener.com/opinion/8511010/david-eugene-white-v-the-state-of-texas/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "John Doe v. Jane Doe",
+      "date": "2021-11-09",
+      "url": "https://www.courtlistener.com/opinion/10628936/john-doe-v-jane-doe/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Matthew Warfield v. State",
+      "date": "2015-12-22",
+      "url": "https://www.courtlistener.com/opinion/4298889/matthew-warfield-v-state/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Arnold v. Citimortgage, Incorporated",
+      "date": "2010-11-15",
+      "url": "https://www.courtlistener.com/opinion/179245/arnold-v-citimortgage-incorporated/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Kathleen A. Langdon v. Ella Maureen Arnold",
+      "date": "2002-09-17",
+      "url": "https://www.courtlistener.com/opinion/3029590/kathleen-a-langdon-v-ella-maureen-arnold/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2341,7 +2571,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2447,17 +2677,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Follow-up of children who undergo an uncomplicated surgical procedure: A caregiver survey to determine satisfaction, family impact, and preferences for alternat",
-      "journal": "Journal of pediatric surgery",
-      "year": 2022,
-      "pmid": "35109993",
-      "tier": "corroborated"
-     },
-     {
       "title": "Patient-led rapid titration of basal insulin in gestational diabetes is associated with improved glycaemic control and lower birthweight.",
       "journal": "Diabetic medicine : a journal of the British Diabetic Associ",
       "year": 2022,
       "pmid": "35900879",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Follow-up of children who undergo an uncomplicated surgical procedure: A caregiver survey to determine satisfaction, family impact, and preferences for alternat",
+      "journal": "Journal of pediatric surgery",
+      "year": 2022,
+      "pmid": "35109993",
       "tier": "corroborated"
      },
      {
@@ -2489,24 +2719,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Changes in Clinician Time Expenditure and Visit Quantity With Adoption of Artificial Intelligence-Powered Scribes: A Multisite Study.",
-      "journal": "JAMA",
+      "title": "Phosphate ions reverse the phase composition of silk fibroin condensates.",
+      "journal": "Materials horizons",
       "year": 2026,
-      "pmid": "41920565",
+      "pmid": "41972496",
       "tier": "name-only"
      },
      {
-      "title": "Beyond \"Best Places to Work\": The Hidden Weight of Stigma in Corporate Mental Health - A mixed-methods study in Brazil.",
-      "journal": "Revista brasileira de psiquiatria (Sao Paulo, Brazil : 1999)",
+      "title": "Mud sound speed profile constraints from sub-bottom arrival times.",
+      "journal": "JASA express letters",
       "year": 2026,
-      "pmid": "42190025",
+      "pmid": "41805808",
       "tier": "name-only"
      },
      {
-      "title": "Pressure Ulcer Prevention at Home for People with Long-term Neurological Conditions, Carers and Personal Assistants: Synopsis - a Participatory, Qualitative stu",
-      "journal": "Health and social care delivery research",
+      "title": "Symptom management: how can specialist paediatric palliative care teams help?",
+      "journal": "Archives of disease in childhood. Education and practice edi",
       "year": 2026,
-      "pmid": "42246207",
+      "pmid": "41577426",
       "tier": "name-only"
      }
     ],

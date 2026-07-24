@@ -572,32 +572,32 @@
      {
       "problem": "Over-Sensing",
       "reports": 72159,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT EXPERIENCED LIGHTHEADEDNESS AND PRESENTED TO THE HOSPITAL. UPON INTERROGATION, THE ATRIAL LEAD EXHIBITED NOISE; THE NOISE COULD NOT BE REPRODUCED. DEVICE REPROGRAMMING WAS PERFORMED AND THE LEAD REMAINED IMPLANTED."
+      "narrative": "IT WAS FURTHER REPORTED THAT DURING LEAD REPLACEMENT, THE LEAD WAS ATTEMPTED TO BE REPLACED BUT THE GUIDE WIRE COULD NOT BE ADVANCED AND LEAD REMOVAL WAS ABANDONED. THE LEAD REMAINS IN THE PATIENT OUT OF SERVICE. A NEW LEAD WAS IMPLANTED FROM THE RIGHT SIDE."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 65249,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT HAS DECEASED.  THERE IS NO KNOWN ALLEGATION FROM A HEALTH CARE PROFESSIONAL THAT SUGGESTS THAT THE DEATH WAS DEVICE RELATED.  THE CAUSE OF DEATH WAS UNKNOWN.  NO FURTHER INFORMATION WAS AVAILABLE."
+      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
      },
      {
       "problem": "Under-Sensing",
       "reports": 48998,
-      "narrative": "THE INFORMATION SUBMITTED REFLECTS ALL RELEVANT DATA RECEIVED. IF ADDITIONAL RELEVANT INFORMATION IS RECEIVED, A SUPPLEMENTAL REPORT WILL BE SUBMITTED. CONCOMITANT PRODUCT: 407652 LEAD IMPLANTED: (B)(6) 2011. (B)(4)."
+      "narrative": "PRODUCT EVENT SUMMARY: THE FULL LEAD WAS RETURNED, ANALYZED AND NO ANOMALIES WERE FOUND. VISUAL ANALYSIS OF THE LEAD INDICATED APPARENT EXPLANT DAMAGE. MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT"
      },
      {
       "problem": "High Capture Threshold",
       "reports": 45096,
-      "narrative": "IT WAS REPORTED THAT, DURING THE IMPLANT PROCEDURE, THE RIGHT ATRIAL (RA) LEAD EXHIBITED PLACEMENT DIFFICULTY AND HIGH THRESHOLD, WITH NO CAPTURE AND ABNORMAL IMPEDANCE. THE RA LEAD WAS ATTEMPTED/NOT USED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "IT WAS REPORTED THAT DURING THE IMPLANT OF A PACING LEAD IN THE LEFT BUNDLE BRANCH THERE WERE HIGH THRESHOLDS RECORDED. THE LEAD WAS REMOVED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "High impedance",
       "reports": 40504,
-      "narrative": "IT WAS FURTHER REPORTED THAT DURING LEAD REPLACEMENT, THE LEAD WAS ATTEMPTED TO BE REPLACED BUT THE GUIDE WIRE COULD NOT BE ADVANCED AND LEAD REMOVAL WAS ABANDONED. THE LEAD REMAINS IN THE PATIENT OUT OF SERVICE. A NEW LEAD WAS IMPLANTED FROM THE RIGHT SIDE."
+      "narrative": "IT WAS REPORTED THE RIGHT VENTRICULAR (RV) LEAD WAS FRACTURED AND EXHIBITED HIGH IMPEDANCE. THE RV LEAD WAS EXPLANTED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Signal Artifact/Noise",
       "reports": 33972,
-      "narrative": "IT WAS FURTHER REPORTED THAT DURING LEAD REPLACEMENT, THE LEAD WAS ATTEMPTED TO BE REPLACED BUT THE GUIDE WIRE COULD NOT BE ADVANCED AND LEAD REMOVAL WAS ABANDONED. THE LEAD REMAINS IN THE PATIENT OUT OF SERVICE. A NEW LEAD WAS IMPLANTED FROM THE RIGHT SIDE."
+      "narrative": "IT WAS FURTHER REPORTED THAT THE PATIENT EXPERIENCED SHORTNESS OF BREATH AND LOW ENERGY. IT WAS ALSO REPORTED THAT THE RA LEAD EXHIBITED A SUDDEN RISE IN THRESHOLDS. NO FURTHER PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Device Dislodged or Dislocated",
@@ -607,7 +607,7 @@
      {
       "problem": "Failure to Capture",
       "reports": 26476,
-      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
+      "narrative": "IT WAS REPORTED THAT DURING THE IMPLANT PROCEDURE, THERE WAS NO CAPTURE AT HIGH OUTPUT ON THE LEAD. THE LEAD WAS ATTEMPTED AND NOT USED. A TINED LEAD WAS USED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      }
     ]
    },
@@ -635,8 +635,8 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
-      "state": "IL",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OH",
       "total": 15632.16,
       "payments": 151,
       "years": "2022\u20132024",
@@ -662,7 +662,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
       "state": "UT",
       "total": 11826.63,
       "payments": 19,
@@ -680,7 +680,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "CA",
       "total": 10105.28,
       "payments": 21,
@@ -730,8 +730,8 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
-      "state": "IL",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OH",
       "total": 15632.16,
       "payments": 151,
       "years": "2022\u20132024",
@@ -760,7 +760,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
       "state": "UT",
       "total": 11826.63,
       "payments": 19,
@@ -780,7 +780,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "CA",
       "total": 10105.28,
       "payments": 21,
@@ -916,7 +916,7 @@
     "codes": [
      {
       "code": "93294",
-      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
       "services": 11885287
      },
      {
@@ -926,7 +926,7 @@
      },
      {
       "code": "93296",
-      "description": "Remote evaluations of single, dual, or multiple lead pacemaker system or implantable defibrillator system with technician review, support and distribution of results, up to 90 days",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
       "services": 9497032
      },
      {

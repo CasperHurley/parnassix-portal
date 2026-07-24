@@ -165,17 +165,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and Glycemic Outcomes During the MiniMed\u2122 Advanced Hybrid Closed-Loop System Pivotal Trial in Adolescents and Adults with Type 1 Diabetes.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2022,
-      "pmid": "34694909",
-      "tier": "corroborated"
-     },
-     {
       "title": "Glycemic outcomes of children 2-6\u2009years of age with type 1 diabetes during the pediatric MiniMed\u2122 670G system trial.",
       "journal": "Pediatric diabetes",
       "year": 2022,
       "pmid": "35001477",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes During the MiniMed\u2122 Advanced Hybrid Closed-Loop System Pivotal Trial in Adolescents and Adults with Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "34694909",
       "tier": "corroborated"
      },
      {
@@ -410,13 +410,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Once-weekly insulin efsitora alfa versus once-daily insulin degludec in adults with type 2 diabetes currently treated with basal insulin (QWINT-3): a phase 3, r",
-      "journal": "Lancet (London, England)",
-      "year": 2025,
-      "pmid": "40562047",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Effectiveness of MiniMed",
       "journal": "Diabetes technology & therapeutics",
       "year": 2025,
@@ -424,10 +417,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Early Real-World Performance of the MiniMed\u2122 780G Advanced Hybrid Closed-Loop System and Recommended Settings Use in the United States.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2024,
-      "pmid": "38377317",
+      "title": "Once-weekly insulin efsitora alfa versus once-daily insulin degludec in adults with type 2 diabetes currently treated with basal insulin (QWINT-3): a phase 3, r",
+      "journal": "Lancet (London, England)",
+      "year": 2025,
+      "pmid": "40562047",
       "tier": "corroborated"
      },
      {
@@ -438,10 +431,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and Glycemic Outcomes During the MiniMed",
+      "title": "Early Real-World Performance of the MiniMed\u2122 780G Advanced Hybrid Closed-Loop System and Recommended Settings Use in the United States.",
       "journal": "Diabetes technology & therapeutics",
-      "year": 2023,
-      "pmid": "37782145",
+      "year": 2024,
+      "pmid": "38377317",
       "tier": "corroborated"
      },
      {
@@ -452,10 +445,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Evaluation of Extended Infusion Set Performance in Adults with Type 1 Diabetes: Infusion Set Survival Rate and Glycemic Outcomes from a Pivotal Trial.",
+      "title": "Safety and Glycemic Outcomes During the MiniMed",
       "journal": "Diabetes technology & therapeutics",
-      "year": 2022,
-      "pmid": "35263188",
+      "year": 2023,
+      "pmid": "37782145",
       "tier": "corroborated"
      },
      {
@@ -463,6 +456,13 @@
       "journal": "Diabetes technology & therapeutics",
       "year": 2022,
       "pmid": "34694909",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evaluation of Extended Infusion Set Performance in Adults with Type 1 Diabetes: Infusion Set Survival Rate and Glycemic Outcomes from a Pivotal Trial.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "35263188",
       "tier": "corroborated"
      },
      {
@@ -537,8 +537,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "State v. Thrasher",
+      "date": "2018-12-18",
+      "url": "https://www.courtlistener.com/opinion/4574263/state-v-thrasher/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -560,7 +575,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -594,7 +609,7 @@
     "licenseState": "MN",
     "opState": "MN",
     "opCity": "Osseo",
-    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1063464766"
@@ -704,24 +719,17 @@
     },
     "articles": [
      {
+      "title": "Achieving Glycemic Targets in and out-of-School: Real-World Data From 1341 Italian Children Using the MiniMed 780G System During Auto Mode.",
+      "journal": "Pediatric diabetes",
+      "year": 2026,
+      "pmid": "41959591",
+      "tier": "corroborated"
+     },
+     {
       "title": "MiniMed 780G Advanced Hybrid Closed-Loop System Use During Days Without User-Initiated Boluses.",
       "journal": "Diabetes care",
       "year": 2026,
       "pmid": "41498529",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Raising the Bar: High Time in Range During the First Year of Diagnosis of Type 1 Diabetes in Children and Adolescents Using Automated Insulin Delivery with Inte",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "42178737",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Safety and Glycemic Outcomes of the MiniMed 780G System with a Disposable All-in-One Sensor.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "40824839",
       "tier": "corroborated"
      },
      {
@@ -732,20 +740,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "MiniMed",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "41968498",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Achieving Glycemic Targets in and out-of-School: Real-World Data From 1341 Italian Children Using the MiniMed 780G System During Auto Mode.",
-      "journal": "Pediatric diabetes",
-      "year": 2026,
-      "pmid": "41959591",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Effectiveness of MiniMed\u2122 780G Advanced Hybrid Closed-Loop Use with Ultrarapid Insulin Lispro-AABC in Pediatric and Adult Type 1 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
@@ -753,10 +747,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Safety and Effectiveness of MiniMed",
+      "title": "Safety and Glycemic Outcomes of the MiniMed 780G System with a Disposable All-in-One Sensor.",
       "journal": "Diabetes technology & therapeutics",
-      "year": 2025,
-      "pmid": "39912797",
+      "year": 2026,
+      "pmid": "40824839",
+      "tier": "corroborated"
+     },
+     {
+      "title": "MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41968498",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Raising the Bar: High Time in Range During the First Year of Diagnosis of Type 1 Diabetes in Children and Adolescents Using Automated Insulin Delivery with Inte",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42178737",
       "tier": "corroborated"
      },
      {
@@ -764,6 +772,13 @@
       "journal": "Frontiers in endocrinology",
       "year": 2025,
       "pmid": "41488135",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Effectiveness of MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2025,
+      "pmid": "39912797",
       "tier": "corroborated"
      },
      {
@@ -782,7 +797,7 @@
        "infusion pump",
        "insulin",
        "minimed",
-       "pediatric endocrinology"
+       "pediatrics"
       ],
       "affiliationGeo": [
        "Minnesota",
@@ -996,17 +1011,24 @@
     },
     "articles": [
      {
-      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
-      "journal": "Diabetes care",
-      "year": 2026,
-      "pmid": "41115044",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Effectiveness of MiniMed\u2122 780G Advanced Hybrid Closed-Loop Use with Ultrarapid Insulin Lispro-AABC in Pediatric and Adult Type 1 Diabetes.",
       "journal": "Diabetes technology & therapeutics",
       "year": 2026,
       "pmid": "42050782",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Continuous and Intermittent Glucose Monitoring in 2025.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41800628",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41115044",
       "tier": "corroborated"
      },
      {
@@ -1024,17 +1046,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Continuous and Intermittent Glucose Monitoring in 2025.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "41800628",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Exercise in",
-      "journal": "Diabetes care",
+      "title": "Accuracy of a 15-day Factory-Calibrated Continuous Glucose Monitoring System With Improved Sensor Design.",
+      "journal": "Journal of diabetes science and technology",
       "year": 2025,
-      "pmid": "40680105",
+      "pmid": "40183340",
       "tier": "corroborated"
      },
      {
@@ -1045,6 +1060,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Continuous and Intermittent Glucose Monitoring in 2024.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2025,
+      "pmid": "40094509",
+      "tier": "corroborated"
+     },
+     {
       "title": "A Randomized Trial Comparing Inhaled Insulin Plus Basal Insulin Versus Usual Care in Adults With Type 1 Diabetes.",
       "journal": "Diabetes care",
       "year": 2025,
@@ -1052,17 +1074,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Accuracy of a 15-day Factory-Calibrated Continuous Glucose Monitoring System With Improved Sensor Design.",
-      "journal": "Journal of diabetes science and technology",
-      "year": 2025,
-      "pmid": "40183340",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Continuous and Intermittent Glucose Monitoring in 2024.",
+      "title": "Safety and Effectiveness of MiniMed",
       "journal": "Diabetes technology & therapeutics",
       "year": 2025,
-      "pmid": "40094509",
+      "pmid": "39912797",
       "tier": "corroborated"
      }
     ],
@@ -1130,8 +1145,87 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:corroborated": 4,
+     "courtlistener:name-only": 2
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "9992238",
+      "case": "Wait v. Berryhill",
+      "date": "2019-09-19",
+      "snippet": "II. CLAIMS ON APPEAL Wait alleges that the ALJ\u2019s decision to deny her benefits is in error for the following reasons: 1. The ALJ erred in rejecting the opinion of treating physician Dr. Bruce Bode who opined that, due to her diabetes mellitus, she was not able to perform even sedentary work on an ongoing basis; 2. The ALJ erred in weighing the opinions of the treating psychiatrists David W. Hodo, M.D., David Hall, D.O., Barry Scanlon, M.D. and Atlanta Psychiatry",
+      "matchedForm": "BRUCE BODE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "alsd",
+      "url": "https://www.courtlistener.com/opinion/9525625/wait-v-berryhill/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10617037",
+      "case": "Hoyt v. CollaborativeMed, LLC",
+      "date": "2018-02-21",
+      "snippet": "FACTS In the 1980s and 90s, Dr. Paul C. Davidson developed an algorithm to calculate the amount of insulin needed for intravenous delivery based on a patient's glucose value. Another physician, Dr. Dennis Steade, computerized the algorithm and created what became known as \"Glucommander.\"2 Doctors Bruce Bode, Davidson, and Steade (collectively, the doctors) joined together to commercialize Glucommander. Before they could begin marketing Glucommander, the doctors had to secure approval from the U.S. Food and Drug Administration (FDA).3 The doctors also sought an additional partner. Grounsell, through his",
+      "matchedForm": "BRUCE BODE",
+      "signals": [
+       "device-keyword"
+      ],
+      "court": "scctapp",
+      "url": "https://www.courtlistener.com/opinion/10150439/hoyt-v-collaborativemed-llc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "814474",
+      "case": "Barbara Kragor v. Takeda Pharmaceuticals America, Inc.",
+      "date": "2012-12-20",
+      "snippet": "reasonable employer, an employee must meet that reason head on and rebut it, and the employee cannot succeed by simply quarreling with the wisdom of that reason.\u201d). In May of 2008, Takeda began looking into allegations that Ms. Kragor had violated the company\u2019s conduct policies by (1) providing Dr. Bruce Bode\u2014a physician who frequently used Takeda\u2019s products and was one of the company\u2019s best 7 Case: 11-16052 Date Filed: 12/20/2012 Page: 8 of 13 clients\u2014with discounted Delta Airlines tickets (referred to by the parties as \u201cbuddy passes\u201d),",
+      "matchedForm": "BRUCE BODE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ca11",
+      "url": "https://www.courtlistener.com/opinion/814474/barbara-kragor-v-takeda-pharmaceuticals-america-inc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "73978",
+      "case": "Allison v. McGhan Medical Corp.",
+      "date": "1999-08-18",
+      "snippet": "Allison was diagnosed with Hashimoto\u2019s thyroiditis (diffuse infiltration of the thyroid gland with white blood cells, resulting in diffuse goiter).2 In 1987, Allison was diagnosed with Type I diabetes mellitus.3 She also began experiencing debilitating fatigue, joint, muscle and nerve pain. In 1992 Dr. Bruce Bode, an endocrinologist, tested Allison for antinuclear antibodies and found that she had an extremely high titer of 1:5120.4 Bode referred Allison to Dr. Sam Schatten, a 1 Double lumen implants have an inner silicone shell filled with silicone gel surrounded by an outer silicone shell",
+      "matchedForm": "BRUCE BODE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ca11",
+      "url": "https://www.courtlistener.com/opinion/73978/allison-v-mcghan-medical-corp/",
+      "docId": null
+     }
+    ],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "International Union, United Automobile, Aerospace and Agricultural Implement Workers of America v. Honeywell International Inc.",
+      "date": "2023-01-04",
+      "url": "https://www.courtlistener.com/opinion/9753263/international-union-united-automobile-aerospace-and-agricultural/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "International Union, United Automobile, Aerospace and Agricultural Implement Workers of America v. Honeywell International Inc.",
+      "date": "2022-04-05",
+      "url": "https://www.courtlistener.com/opinion/9751690/international-union-united-automobile-aerospace-and-agricultural/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1153,7 +1247,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1316,52 +1410,10 @@
     },
     "articles": [
      {
-      "title": "Accounting for age-related increases in HbA1c more accurately quantifies risk of Type 1 Diabetes progression in islet autoantibody-positive adults.",
-      "journal": "medRxiv : the preprint server for health sciences",
-      "year": 2026,
-      "pmid": "41757176",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Persistent Burden of Severe Hypoglycemia and Impaired Awareness of Hypoglycemia Among People With Type 1 Diabetes Despite Technology Use: A Follow-up Survey.",
-      "journal": "Diabetes care",
-      "year": 2026,
-      "pmid": "41747141",
-      "tier": "corroborated"
-     },
-     {
-      "title": "International clinical opinion on transparency, standardisation, and calibration alignment in the performance evaluation of systems for continuous glucose monit",
-      "journal": "Diabetes, obesity & metabolism",
-      "year": 2026,
-      "pmid": "41582769",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
-      "journal": "Diabetes care",
-      "year": 2026,
-      "pmid": "41115044",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Challenges in and opportunities for individualising diabetes technology: a position statement by the European Association for the Study of Diabetes (EASD) and t",
-      "journal": "Diabetologia",
-      "year": 2026,
-      "pmid": "41820663",
-      "tier": "corroborated"
-     },
-     {
       "title": "Type 1 diabetes screening: reframing the debate from paternalism to partnership. Reply to Scaramuzza AE, Iafusco D, Cherubini V [letter] Type 1 diabetes screeni",
       "journal": "Diabetologia",
       "year": 2026,
       "pmid": "41579162",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Cardiovascular, Renal, and Hepatic Biomarkers Outside Guideline-Recommended Thresholds: Prevalence and Determinants in Type 1 Diabetes.",
-      "journal": "Diabetes technology & therapeutics",
-      "year": 2026,
-      "pmid": "42098923",
       "tier": "corroborated"
      },
      {
@@ -1372,17 +1424,59 @@
       "tier": "corroborated"
      },
      {
-      "title": "Impact of Early Initiation of Automated Insulin Delivery on Glycemia Two Years from Type 1 Diabetes Diagnosis.",
-      "journal": "Hormone research in paediatrics",
+      "title": "Exploring User Experiences With the Lift App for Emotional Well-Being Among Youth With Type 1 Diabetes: Qualitative Study.",
+      "journal": "JMIR diabetes",
       "year": 2026,
-      "pmid": "42234600",
+      "pmid": "42207974",
       "tier": "corroborated"
      },
      {
-      "title": "Continuous ketone monitoring for people with diabetes: international expert recommendations on the application of a new technology.",
-      "journal": "The lancet. Diabetes & endocrinology",
+      "title": "Continuous and Intermittent Glucose Monitoring in 2025.",
+      "journal": "Diabetes technology & therapeutics",
       "year": 2026,
-      "pmid": "41381175",
+      "pmid": "41800628",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41115044",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Adjunctive Treatment with GLP-1 and Dual GLP-1/GIP Receptor Agonists for People with Type 1 Diabetes: Consensus Report and Practical Guidelines for Safe Use.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42246488",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Challenges in and Opportunities for Individualizing Diabetes Technology: A Position Statement by the European Association for the Study of Diabetes (EASD) and t",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41817442",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Accounting for Age-Related Increases in HbA1c More Accurately Quantifies Risk of Type 1 Diabetes Progression in Islet Autoantibody-Positive Adults.",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "42090204",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Challenges in and opportunities for individualising diabetes technology: a position statement by the European Association for the Study of Diabetes (EASD) and t",
+      "journal": "Diabetologia",
+      "year": 2026,
+      "pmid": "41820663",
+      "tier": "corroborated"
+     },
+     {
+      "title": "International clinical opinion on transparency, standardisation, and calibration alignment in the performance evaluation of systems for continuous glucose monit",
+      "journal": "Diabetes, obesity & metabolism",
+      "year": 2026,
+      "pmid": "41582769",
       "tier": "corroborated"
      }
     ],
@@ -1689,8 +1783,29 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 2
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Higgins v. Mendoza",
+      "date": "2025-01-15",
+      "url": "https://www.courtlistener.com/opinion/10314128/higgins-v-mendoza/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Higgins v. Mendoza",
+      "date": "2025-01-15",
+      "url": "https://www.courtlistener.com/opinion/10314271/higgins-v-mendoza/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1712,7 +1827,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1846,10 +1961,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Discrepancies between current and ideal endovascular stroke treatment practice in Europe and North America: Results from UNMASK EVT, a multidisciplinary survey.",
-      "journal": "Interventional neuroradiology : journal of peritherapeutic n",
+      "title": "An international multicenter retrospective study to survey the landscape of thrombectomy in the treatment of anterior circulation acute ischemic stroke: outcome",
+      "journal": "Journal of neurointerventional surgery",
       "year": 2020,
-      "pmid": "32077353",
+      "pmid": "31239328",
       "tier": "corroborated"
      },
      {
@@ -1867,17 +1982,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "An international multicenter retrospective study to survey the landscape of thrombectomy in the treatment of anterior circulation acute ischemic stroke: outcome",
-      "journal": "Journal of neurointerventional surgery",
+      "title": "Discrepancies between current and ideal endovascular stroke treatment practice in Europe and North America: Results from UNMASK EVT, a multidisciplinary survey.",
+      "journal": "Interventional neuroradiology : journal of peritherapeutic n",
       "year": 2020,
-      "pmid": "31239328",
+      "pmid": "32077353",
       "tier": "corroborated"
      },
      {
-      "title": "'Real-world' comparison of first-line direct aspiration and stent retriever mechanical thrombectomy for the treatment of acute ischemic stroke in the anterior c",
-      "journal": "Journal of neurointerventional surgery",
+      "title": "Standards of practice in acute ischemic stroke intervention: International recommendations.",
+      "journal": "Interventional neuroradiology : journal of peritherapeutic n",
       "year": 2019,
-      "pmid": "30975738",
+      "pmid": "30352535",
       "tier": "corroborated"
      }
     ],
@@ -1915,8 +2030,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "JERRY DEAN RIVERA VS. STATE OF NEW JERSEY (L-0946-16, SOMERSET COUNTY AND STATEWIDE)",
+      "date": "2019-03-28",
+      "url": "https://www.courtlistener.com/opinion/4651735/jerry-dean-rivera-vs-state-of-new-jersey-l-0946-16-somerset-county-and/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1938,7 +2068,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2072,6 +2202,13 @@
       "tier": "name-only"
      },
      {
+      "title": "Omeprazole-clopidogrel interaction and neurovascular complications after flow-diverter device placement.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2022,
+      "pmid": "34083398",
+      "tier": "name-only"
+     },
+     {
       "title": "Stereotactic-Guided Transcerebellar Cisternoperitoneal Shunt Placement for Idiopathic Intracranial Hypertension.",
       "journal": "Operative neurosurgery (Hagerstown, Md.)",
       "year": 2022,
@@ -2086,17 +2223,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Omeprazole-clopidogrel interaction and neurovascular complications after flow-diverter device placement.",
-      "journal": "Journal of neurointerventional surgery",
-      "year": 2022,
-      "pmid": "34083398",
-      "tier": "name-only"
-     },
-     {
-      "title": "Insight Into a Successful Couples Match in Physical Medicine and Rehabilitation.",
-      "journal": "American journal of physical medicine & rehabilitation",
+      "title": "Corrigendum: Middle Meningeal Artery Embolization for Chronic Subdural Hematoma.",
+      "journal": "Frontiers in neurology",
       "year": 2021,
-      "pmid": "33852492",
+      "pmid": "33828525",
       "tier": "name-only"
      },
      {
@@ -2364,31 +2494,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A MEF2C transcription factor network regulates proliferation of glomerular endothelial cells in diabetic kidney disease.",
-      "journal": "Kidney international",
-      "year": 2026,
-      "pmid": "42055320",
-      "tier": "name-only"
-     },
-     {
-      "title": "Whither symbols in the era of advanced neural networks?",
-      "journal": "Trends in cognitive sciences",
-      "year": 2026,
-      "pmid": "41991425",
-      "tier": "name-only"
-     },
-     {
       "title": "A cross-species single-cell epigenome kidney atlas identifies epithelial cells as a driver of epigenetic aging.",
       "journal": "bioRxiv : the preprint server for biology",
       "year": 2026,
       "pmid": "41648348",
-      "tier": "name-only"
-     },
-     {
-      "title": "The use of cultured human hepatocytes as a test system to evaluate cell proliferation as a key event in nongenotoxic carcinogenesis.",
-      "journal": "Archives of toxicology",
-      "year": 2026,
-      "pmid": "42086803",
       "tier": "name-only"
      },
      {
@@ -2399,17 +2508,38 @@
       "tier": "name-only"
      },
      {
-      "title": "Correction: A Comprehensive Behavioral Dataset for the Abstraction and Reasoning Corpus.",
-      "journal": "Scientific data",
-      "year": 2025,
-      "pmid": "40846876",
+      "title": "Whither symbols in the era of advanced neural networks?",
+      "journal": "Trends in cognitive sciences",
+      "year": 2026,
+      "pmid": "41991425",
       "tier": "name-only"
      },
      {
-      "title": "A Comprehensive Behavioral Dataset for the Abstraction and Reasoning Corpus.",
-      "journal": "Scientific data",
+      "title": "A MEF2C transcription factor network regulates proliferation of glomerular endothelial cells in diabetic kidney disease.",
+      "journal": "Kidney international",
+      "year": 2026,
+      "pmid": "42055320",
+      "tier": "name-only"
+     },
+     {
+      "title": "The use of cultured human hepatocytes as a test system to evaluate cell proliferation as a key event in nongenotoxic carcinogenesis.",
+      "journal": "Archives of toxicology",
+      "year": 2026,
+      "pmid": "42086803",
+      "tier": "name-only"
+     },
+     {
+      "title": "A census of fish passage facilities at US hydropower developments across the conterminous United States.",
+      "journal": "Journal of environmental management",
       "year": 2025,
-      "pmid": "40775224",
+      "pmid": "40682956",
+      "tier": "name-only"
+     },
+     {
+      "title": "Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2025,
+      "pmid": "41040183",
       "tier": "name-only"
      }
     ],
@@ -2471,8 +2601,53 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 6
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Moore v. White",
+      "date": "2022-09-15",
+      "url": "https://www.courtlistener.com/opinion/8243668/moore-v-white/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Moore v. White",
+      "date": "2022-09-15",
+      "url": "https://www.courtlistener.com/opinion/8243668/moore-v-white/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Churchwell 21369-040 v. Unknown Party",
+      "date": "2020-02-27",
+      "url": "https://www.courtlistener.com/opinion/9756579/churchwell-21369-040-v-unknown-party/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Mancini v. Spagtacular, LLC",
+      "date": "2019-08-29",
+      "url": "https://www.courtlistener.com/opinion/4657627/mancini-v-spagtacular-llc/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "United States v. Bibbins",
+      "date": "2011-04-20",
+      "url": "https://www.courtlistener.com/opinion/215095/united-states-v-bibbins/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Hardy v. S.F. Phosphates Ltd.",
+      "date": "1999-06-18",
+      "url": "https://www.courtlistener.com/opinion/158109/hardy-v-sf-phosphates-ltd/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2494,7 +2669,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2646,10 +2821,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "The impact of intensive insulin protocols and restrictive blood transfusion strategies on glucose measurement in American Burn Association (ABA) verified burn c",
-      "journal": "Journal of burn care & research : official publication of th",
+      "title": "Directed overexpression of insulin in Leydig cells causes a progressive loss of germ cells.",
+      "journal": "Molecular and cellular endocrinology",
       "year": 2008,
-      "pmid": "18825791",
+      "pmid": "18692115",
       "tier": "corroborated"
      }
     ],
@@ -2680,8 +2855,41 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 4
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Faust Family Ltd. Partnership 2 v. G.W. Adams",
+      "date": "2026-03-16",
+      "url": "https://www.courtlistener.com/opinion/10810041/faust-family-ltd-partnership-2-v-gw-adams/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Wolf v. P.J.K. Food Service, LLC",
+      "date": "2021-10-27",
+      "url": "https://www.courtlistener.com/opinion/9739406/wolf-v-pjk-food-service-llc/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Saffer v. JP Morgan Chase Bank, N.A.",
+      "date": "2014-04-29",
+      "url": "https://www.courtlistener.com/opinion/2671741/saffer-v-jp-morgan-chase-bank-na/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Grief Cos etc v. Barbara J Hensley etc",
+      "date": "1996-08-13",
+      "url": "https://www.courtlistener.com/opinion/1067832/grief-cos-etc-v-barbara-j-hensley-etc/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2703,7 +2911,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",

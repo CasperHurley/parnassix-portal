@@ -597,12 +597,12 @@
      {
       "problem": "Contamination",
       "reports": 6411,
-      "narrative": "THE MANUFACTURER WAS PREVIOUSLY CONTACTED IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED LUNG CANCER. THE PATIENT DID NOT REPORT RECEIVING ANY MEDICAL INTERVENTIONS. THE DEVICE WAS RETURNED"
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED THE PATIENT TO BE HIGH RISK FOR A STROKE. THE PATIENT DID NOT REPORT TO RECEIVE MEDICAL INTERVENTION. THE MANUFACTURER'S INVESTIGATION IS ONGOING. A FOLLOW-UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETE."
      },
      {
       "problem": "Inadequate User Interface",
       "reports": 3224,
-      "narrative": "THE PATIENT WAS REMOVED FROM THE VENTILATOR AND PLACED ON AN ALTERNATE VENTILATOR. THE PATIENT WAS NOT HARMED OR INJURED AS A RESULT OF THE REPORTED EVENT."
+      "narrative": "THE DEFECTIVE FRONT BEZEL WAS RETURNED FOR FAILURE ANALYSIS. PREVIOUS INVESTIGATIONS HAVE SHOWN THE ROOT CAUSE OF NAVIGATION-RING FAILURES HAS BEEN DETERMINED TO BE DUE TO LIQUID INGRESS."
      },
      {
       "problem": "Corroded",
@@ -612,7 +612,7 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 2264,
-      "narrative": "A REPORT WAS RECEIVED REGARDING A (B)(6) MALE PATIENT WHO EXPERIENCED A RASH, ODD TASTE AND CHEST TIGHTNESS DURING TREATMENT. FOLLOW UP WITH THE HOME HEMODIALYSIS NURSE CONFIRMED NO MEDICAL INTERVENTION WAS REQUIRED. THE PATIENT WAS INSTRUCTED TO FLUSH THE SYSTEM WITH SALINE PRIOR TO TREATMENT. THE PATIENT EXPERIENCED THE SAME ISSUES WHEN IN TREATMENT AT THE CENTER USING NON-NXSTAGE EQUIPMENT. THE PATIENT CONTINUES T"
+      "narrative": "MY HUSBAND USED A PHILIPS DREAMSTATION CPAP MACHINE EVERY NIGHT FOR ABOUT A YEAR BEFORE HE BEGAN EXPERIENCING SHOULDER PAIN. AFTER GOING TO SEVERAL DOCTORS, HE WAS DIAGNOSED WITH LUNG CANCER IN THE FALL OF 2018 AND DIED IN (B)(6) OF 2019. FDA SAFETY REPORT ID # (B)(4)."
      },
      {
       "problem": "Electrical /Electronic Property Problem",
@@ -622,12 +622,12 @@
      {
       "problem": "Device Sensing Problem",
       "reports": 1266,
-      "narrative": "PHILIPS RECEIVED A COMPLAINT BY THE CUSTOMER ON THE V60 INDICATING THAT THE DEVICE DISPLAYED (POST)CHECK VENT: PROXIMAL PRESSURE SENSOR AUTO ZERO FAILED MESSAGE. ALARM OCCURRED WHILE A TEST RUN WAS BEING PERFORMED IN OUR SALES OFFICE IT WAS REPORTED THERE WAS NO PATIENT INVOLVEMENT AT THE TIME THE ISSUE WAS DISCOVERED. THE INVESTIGATION IS ONGOING."
+      "narrative": "ALTHOUGH REQUESTED, IT IS UNKNOWN IF THE PATIENT WAS CONNECTED TO THE VENTILATOR AT THE TIME OF THE EVENT. NO HARM WAS REPORTED. MULTIPLE ATTEMPTS WERE MADE TO OBTAIN ADDITIONAL INFORMATION AND DEVICE CONTEXT AT THE TIME OF THE REPORTED FAILURE. THE CUSTOMER HAD BEEN ADVISED BY TECHNICAL SUPPORT TO REPLACE THE DATA ACQUISITION (DA) BOARD OR SOLENOIDS. THE CUSTOMER REPORTED TO TECHNICAL SUPPORT THAT PARTS WERE REPLACE"
      },
      {
       "problem": "Device Alarm System",
       "reports": 888,
-      "narrative": "E1: REPORTING ADDRESS STATE: (B)(6). REPORTING ADDRESS POSTAL: (B)(6). REPORTING INSTITUTION PHONE #: (B)(6). REPORTER PHONE #: (B)(6)."
+      "narrative": "B4: (B)(6) 2021. THE CUSTOMER CONFIRMED THE REPORTED FAILURE. THEY CONFIRMED \"LOW TIDAL VOLUME\" ERROR. THE FIELD SERVICE ENGINEER REPLACED AIRFLOW SENSOR TO RESOLVE THE ISSUE. THE UNIT WAS TESTED AND IT WAS RETURNED TO SERVICE. ALTHOUGH REQUESTED, NO PARTS WERE RETURNED FOR FAILURE INVESTIGATION AT THIS TIME; THEREFORE, THE ROOT CAUSE AT THE COMPONENT LEVEL COULD NOT BE DETERMINED. IF THE PART IS RECEIVED, AN INVESTI"
      }
     ]
    },
@@ -759,6 +759,15 @@
      },
      {
       "from": "K241268",
+      "to": "K113068",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "with the Respironics compatible with the the devices with Humidification System One Humidifier Dreamstation Series Respironics Dreamstation which the Chambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation 1 and predicate is Respironics A-Series System",
+      "hop": 1,
+      "page": 7
+     },
+     {
+      "from": "K241268",
       "to": "K200480",
       "kind": "additional",
       "confidence": "medium",
@@ -774,15 +783,6 @@
       "quote": "THERMALITE\u00ae CPAP Heated Tubing Common and Breathing System, Heater Classification Name: Classification 21 CFR \u00a7868.5270 Regulation: Product Code: BZE Predicate: K140424 Philips Heated CPAP Tube Device Description: The Exceleron Medical, LLC (Exceleron) THERMALITE\u00ae CPAP Heated",
       "hop": 1,
       "page": 5
-     },
-     {
-      "from": "K241268",
-      "to": "K113068",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "with the Respironics compatible with the the devices with Humidification System One Humidifier Dreamstation Series Respironics Dreamstation which the Chambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation 1 and predicate is Respironics A-Series System",
-      "hop": 1,
-      "page": 7
      },
      {
       "from": "K241268",
@@ -849,21 +849,21 @@
      },
      {
       "from": "K133547",
-      "to": "K133647",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
-      "hop": 2,
-      "page": 8
-     },
-     {
-      "from": "K133547",
       "to": "K122051",
       "kind": "primary",
       "confidence": "high",
       "quote": "dicate NStage System\nOne. The NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was found to be substantially\nequivalent.\nE. Device Description/Indications for",
       "hop": 2,
       "page": 2
+     },
+     {
+      "from": "K133547",
+      "to": "K133647",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
+      "hop": 2,
+      "page": 8
      },
      {
       "from": "K140424",
@@ -876,19 +876,19 @@
      },
      {
       "from": "K140424",
-      "to": "K113068",
+      "to": "K121623",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "has a proprietary connector with two locking tabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier (K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623). Summary of Technological Characteristics of Device",
+      "quote": "makes it compatible with the Philips Respironics System One Humidifier (K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623). Summary of Technological Characteristics of Device Compared to the Predicate Devices The Philips Respironics Reusable Heated",
       "hop": 2,
       "page": 5
      },
      {
       "from": "K140424",
-      "to": "K121623",
+      "to": "K113068",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "makes it compatible with the Philips Respironics System One Humidifier (K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623). Summary of Technological Characteristics of Device Compared to the Predicate Devices The Philips Respironics Reusable Heated",
+      "quote": "has a proprietary connector with two locking tabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier (K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623). Summary of Technological Characteristics of Device",
       "hop": 2,
       "page": 5
      },

@@ -119,6 +119,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Has the Time Come to Stop Performing Routine Defibrillation Testing for Subcutaneous Implantable Cardioverter Defibrillators?",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2025,
+      "pmid": "40602943",
+      "tier": "corroborated"
+     },
+     {
       "title": "Ultrafast Spectroscopy and Dynamics of Photoredox Catalysis.",
       "journal": "Annual review of physical chemistry",
       "year": 2025,
@@ -130,13 +137,6 @@
       "journal": "JACC. Clinical electrophysiology",
       "year": 2025,
       "pmid": "40243967",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Has the Time Come to Stop Performing Routine Defibrillation Testing for Subcutaneous Implantable Cardioverter Defibrillators?",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2025,
-      "pmid": "40602943",
       "tier": "corroborated"
      },
      {
@@ -154,13 +154,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Implantable Cardioverter-Defibrillator Programming: It Is Time to Get Things Right With a Checklist Manifesto.",
-      "journal": "Journal of the American Heart Association",
-      "year": 2024,
-      "pmid": "39011962",
-      "tier": "corroborated"
-     },
-     {
       "title": "Left bundle branch area pacing in heart failure: A systematic review and meta-analysis with meta-regression.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2024,
@@ -175,10 +168,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Eyes on the Prize: Decoding the Ophthalmic Product Regulations and Intricacies of the U.S. Food and Drug Administration Approval.",
-      "journal": "Journal of ocular pharmacology and therapeutics : the offici",
+      "title": "Implantable Cardioverter-Defibrillator Programming: It Is Time to Get Things Right With a Checklist Manifesto.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2024,
+      "pmid": "39011962",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Postapproval Study of a Subcutaneous\u00a0Implantable Cardioverter-Defibrillator System.",
+      "journal": "Journal of the American College of Cardiology",
       "year": 2023,
-      "pmid": "37797226",
+      "pmid": "37495274",
       "tier": "corroborated"
      }
     ],
@@ -411,10 +411,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "The impact of fluctuations in boat velocity during the rowing cycle on race time.",
-      "journal": "Scandinavian journal of medicine & science in sports",
+      "title": "Cardiac amyloidosis responding to bortezomib: case report and review of literature.",
+      "journal": "Current cardiology reviews",
       "year": 2009,
-      "pmid": "18510593",
+      "pmid": "20676282",
       "tier": "name-only"
      },
      {
@@ -425,10 +425,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Cardiac amyloidosis responding to bortezomib: case report and review of literature.",
-      "journal": "Current cardiology reviews",
+      "title": "The impact of fluctuations in boat velocity during the rowing cycle on race time.",
+      "journal": "Scandinavian journal of medicine & science in sports",
       "year": 2009,
-      "pmid": "20676282",
+      "pmid": "18510593",
       "tier": "name-only"
      },
      {
@@ -467,10 +467,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Tako-tsubo syndrome as a consequence of transient ischemic attack.",
-      "journal": "Reviews in cardiovascular medicine",
+      "title": "Alveolar hemorrhage: an underdiagnosed complication of treatment with glycoprotein IIb/IIIa inhibitors.",
+      "journal": "Journal of interventional cardiology",
       "year": 2006,
-      "pmid": "16534494",
+      "pmid": "16881986",
       "tier": "name-only"
      }
     ],
@@ -722,20 +722,6 @@
     },
     "articles": [
      {
-      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41392573",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Comparative Performance, Procedural Characteristics and Safety of Micra Versus Aveir Leadless Pacemakers: Systematic Review.",
-      "journal": "Pacing and clinical electrophysiology : PACE",
-      "year": 2026,
-      "pmid": "41981963",
-      "tier": "corroborated"
-     },
-     {
       "title": "Tricuspid valve regurgitation with single- and dual-chamber helix-fixation leadless pacemakers.",
       "journal": "Heart rhythm",
       "year": 2026,
@@ -750,10 +736,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Commercial Implant Experience of a Helix-Fixation Dual-Chamber Leadless Pacemaker.",
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
       "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2025,
-      "pmid": "40347055",
+      "year": 2026,
+      "pmid": "41392573",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparative Performance, Procedural Characteristics and Safety of Micra Versus Aveir Leadless Pacemakers: Systematic Review.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2026,
+      "pmid": "41981963",
       "tier": "corroborated"
      },
      {
@@ -764,10 +757,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Challenging Extraction and Replacement of an Eight-year-old Nanostim Leadless Pacemaker and AVEIR Implant.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
-      "year": 2024,
-      "pmid": "39802076",
+      "title": "Commercial Implant Experience of a Helix-Fixation Dual-Chamber Leadless Pacemaker.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2025,
+      "pmid": "40347055",
       "tier": "corroborated"
      },
      {
@@ -775,6 +768,13 @@
       "journal": "Journal of interventional cardiac electrophysiology : an int",
       "year": 2024,
       "pmid": "38509402",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Challenging Extraction and Replacement of an Eight-year-old Nanostim Leadless Pacemaker and AVEIR Implant.",
+      "journal": "The Journal of innovations in cardiac rhythm management",
+      "year": 2024,
+      "pmid": "39802076",
       "tier": "corroborated"
      },
      {
@@ -1022,17 +1022,10 @@
     },
     "articles": [
      {
-      "title": "VERSA: Omnipolar vector mapping from arbitrarily positioned electrodes.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41620057",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Pulsed Field Ablation for the Treatment of Octogenarians With Atrial Fibrillation.",
+      "title": "Self-Administered Etripamil Nasal Spray Slows Ventricular Rate in Patients With Atrial Fibrillation: A Post Hoc Analysis of the NODE-303 Study.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
-      "pmid": "41528111",
+      "pmid": "41668514",
       "tier": "corroborated"
      },
      {
@@ -1043,24 +1036,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Self-Administered Etripamil Nasal Spray Slows Ventricular Rate in Patients With Atrial Fibrillation: A Post Hoc Analysis of the NODE-303 Study.",
+      "title": "Pulsed Field Ablation for the Treatment of Octogenarians With Atrial Fibrillation.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
-      "pmid": "41668514",
+      "pmid": "41528111",
       "tier": "corroborated"
      },
      {
-      "title": "Maximizing battery longevity of leadless pacemaker systems by optimizing individualized programming.",
-      "journal": "Heart rhythm",
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
+      "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
-      "pmid": "41101372",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
-      "year": 2026,
-      "pmid": "41732838",
+      "pmid": "41392573",
       "tier": "corroborated"
      },
      {
@@ -1071,10 +1057,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Bending the curve: Subcutaneous implantable cardioverter-defibrillator implant technique with pectus excavatum.",
+      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "41732838",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Maximizing battery longevity of leadless pacemaker systems by optimizing individualized programming.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41456848",
+      "pmid": "41101372",
       "tier": "corroborated"
      },
      {
@@ -1085,10 +1078,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
-      "journal": "Journal of cardiovascular electrophysiology",
+      "title": "VERSA: Omnipolar vector mapping from arbitrarily positioned electrodes.",
+      "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41392573",
+      "pmid": "41620057",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Atrial Fibrillation Following Autologous Stem Cell Transplantation in Multiple Myeloma: Incidence, Predictors, and Prognostic Impact.",
+      "journal": "JACC. CardioOncology",
+      "year": 2026,
+      "pmid": "41705749",
       "tier": "corroborated"
      }
     ],
@@ -1156,8 +1156,23 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": null,
+      "date": "2025-10-23",
+      "url": "https://www.courtlistener.com/opinion/10709983/formtec-llc-v-spherical-ip-llc/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -1179,7 +1194,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -1353,59 +1368,59 @@
     },
     "articles": [
      {
-      "title": "Cardiac implantable electronic device software reset and damage after pulsed field ablation using a monopolar lattice-tip catheter.",
-      "journal": "Heart rhythm",
+      "title": "Multicenter Study on the Safety of Pulsed Field Ablation in Over 40,000 Patients: MANIFEST-US.",
+      "journal": "Journal of the American College of Cardiology",
       "year": 2026,
-      "pmid": "41067477",
+      "pmid": "41389071",
       "tier": "corroborated"
      },
      {
-      "title": "Artificial Intelligence-guided Extra-pulmonary Vein Repeat Ablation with the Pentaspline Pulsed Field Ablation Catheter.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
-      "year": 2026,
-      "pmid": "42137500",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Safety and Chronic Atrial Lesion Formation With a Large-Tip, Contact-Force-Sensing Multipolar Pulsed Field Ablation Catheter: Effect of Application Number in a ",
-      "journal": "Circulation. Arrhythmia and electrophysiology",
-      "year": 2026,
-      "pmid": "41919387",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Pulsed-Field vs Thermal Ablation of Atrial Fibrillation in Patients From the Marshall Islands: A Study of Generalized Coronary Spasm.",
+      "title": "Impact of Lesion Delivery and Irrigation Rates on Neurovascular Events With PFA for Atrial Fibrillation.",
       "journal": "JACC. Clinical electrophysiology",
       "year": 2026,
-      "pmid": "41677481",
+      "pmid": "41670554",
       "tier": "corroborated"
      },
      {
-      "title": "Left atrial appendage occlusion and concomitant catheter ablation procedures.",
+      "title": "Pulsed Field Ablation as Initial Therapy for Persistent Atrial Fibrillation.",
+      "journal": "The New England journal of medicine",
+      "year": 2026,
+      "pmid": "42041224",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The SIMPLE registry: SIMplified approach for percutaneous LAA Exclusion.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41819243",
+      "pmid": "42142854",
       "tier": "corroborated"
      },
      {
-      "title": "LEAP2: A first-in-human evaluation of a chronically implanted novel leadless pacemaker for conduction system pacing.",
+      "title": "Outcomes of Left Atrial Appendage Occlusion With a Coated Device: Primary Analysis of HEAL-LAA.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "42138685",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation.",
+      "journal": "The New England journal of medicine",
+      "year": 2026,
+      "pmid": "41910347",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A randomized controlled trial of pulsed field ablation vs antiarrhythmic therapy as a first-line treatment for persistent atrial fibrillation: The AVANT GUARD t",
+      "journal": "Heart rhythm O2",
+      "year": 2026,
+      "pmid": "41908201",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and efficacy of Watchman extraction using a double transseptal approach.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "42044708",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Feasibility, procedural efficiency, and early imaging outcomes of concomitant pulsed field ablation and left atrial appendage closure: a prospective single-cent",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
-      "year": 2026,
-      "pmid": "41643194",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Single lattice-tip catheter workflow for artificial intelligence-guided spatiotemporal dispersion ablation.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41203188",
+      "pmid": "41864303",
       "tier": "corroborated"
      },
      {
@@ -1416,10 +1431,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Initial experience of atrial helix-fixation leadless pacemakers with extended battery longevity.",
+      "title": "Impact of age and diagnosis-to-ablation time on sex differences in 12-month outcomes after catheter ablation for atrial fibrillation: An admIRE subanalysis.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "42055100",
+      "pmid": "42002012",
       "tier": "corroborated"
      }
     ],
@@ -1544,7 +1559,7 @@
     "licenseState": "CA",
     "opState": "CA",
     "opCity": "NEWPORT BEACH",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1043425036"
@@ -1682,13 +1697,6 @@
     },
     "articles": [
      {
-      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41392573",
-      "tier": "corroborated"
-     },
-     {
       "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
@@ -1696,24 +1704,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Remote monitoring of leadless pacemakers using a novel conductive telemetry communication method.",
-      "journal": "Journal of interventional cardiac electrophysiology : an int",
-      "year": 2025,
-      "pmid": "40694240",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Evolving Use of Circulating Tumor DNA for HPV+ Oropharyngeal Carcinoma: Consensus Recommendations From the California Head and Neck Consortium.",
-      "journal": "JCO oncology practice",
-      "year": 2025,
-      "pmid": "41343754",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Novel Histopathologic Features of Extramammary Paget's Disease in Metastatic Primary Cutaneous Apocrine Carcinoma to the Esophagus.",
-      "journal": "Journal of cutaneous pathology",
-      "year": 2025,
-      "pmid": "40908558",
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41392573",
       "tier": "corroborated"
      },
      {
@@ -1724,10 +1718,31 @@
       "tier": "corroborated"
      },
      {
+      "title": "Novel Histopathologic Features of Extramammary Paget's Disease in Metastatic Primary Cutaneous Apocrine Carcinoma to the Esophagus.",
+      "journal": "Journal of cutaneous pathology",
+      "year": 2025,
+      "pmid": "40908558",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Remote monitoring of leadless pacemakers using a novel conductive telemetry communication method.",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
+      "year": 2025,
+      "pmid": "40694240",
+      "tier": "corroborated"
+     },
+     {
       "title": "Worldwide Chronic Retrieval Experience\u00a0of Helix-Fixation Leadless\u00a0Cardiac Pacemakers.",
       "journal": "Journal of the American College of Cardiology",
       "year": 2025,
       "pmid": "39772361",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evolving Use of Circulating Tumor DNA for HPV+ Oropharyngeal Carcinoma: Consensus Recommendations From the California Head and Neck Consortium.",
+      "journal": "JCO oncology practice",
+      "year": 2025,
+      "pmid": "41343754",
       "tier": "corroborated"
      },
      {
@@ -1758,7 +1773,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "internal medicine",
+       "clinical cardiac electrophysiology",
        "leadless",
        "pacemaker"
       ],
@@ -1798,16 +1813,16 @@
       "beneficiaries": 287
      },
      {
-      "code": "99454",
-      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordin",
-      "services": 326,
-      "beneficiaries": 34
-     },
-     {
       "code": "93010",
       "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
       "services": 326,
       "beneficiaries": 320
+     },
+     {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordin",
+      "services": 326,
+      "beneficiaries": 34
      }
     ],
     "source": {
@@ -2016,17 +2031,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Single Cell Transcriptomics Identifies Distinct Choroid Cell Populations Involved in Visually Guided Eye Growth.",
-      "journal": "Frontiers in ophthalmology",
-      "year": 2023,
-      "pmid": "38390290",
-      "tier": "corroborated"
-     },
-     {
       "title": "The Effects of Nitric Oxide on Choroidal Gene Expression.",
       "journal": "bioRxiv : the preprint server for biology",
       "year": 2023,
       "pmid": "37398322",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Single Cell Transcriptomics Identifies Distinct Choroid Cell Populations Involved in Visually Guided Eye Growth.",
+      "journal": "Frontiers in ophthalmology",
+      "year": 2023,
+      "pmid": "38390290",
       "tier": "corroborated"
      },
      {
@@ -2136,8 +2151,77 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:name-only": 21
+    },
+    "cites": [],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Randall L. Rice v. The Tennessee Democratic Executive Committee",
+      "date": "2026-03-30",
+      "url": "https://www.courtlistener.com/opinion/10829814/randall-l-rice-v-the-tennessee-democratic-executive-committee/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Eleit Technology, Inc. v. United States",
+      "date": "2026-01-30",
+      "url": "https://www.courtlistener.com/opinion/10781866/eleit-technology-inc-v-united-states/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Dwuan Hammond v. Sysco Corp.",
+      "date": "2023-12-21",
+      "url": "https://www.courtlistener.com/opinion/9454456/dwuan-hammond-v-sysco-corp/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Hammond v. Sysco Corporation",
+      "date": "2023-03-31",
+      "url": "https://www.courtlistener.com/opinion/9974702/hammond-v-sysco-corporation/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Curtis Lovelace v. James Keller",
+      "date": "2021-12-22",
+      "url": "https://www.courtlistener.com/opinion/5311383/curtis-lovelace-v-james-keller/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Lovelace v. Gibson",
+      "date": "2020-10-13",
+      "url": "https://www.courtlistener.com/opinion/9669515/lovelace-v-gibson/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "General Access Solutions, Ltd. v. Unified Patents, LLC",
+      "date": "2020-05-15",
+      "url": "https://www.courtlistener.com/opinion/4754399/general-access-solutions-ltd-v-unified-patents-llc/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Richard Powell v. Valero Energy Corporation and Valero Refining - Texas, L.P.",
+      "date": "2019-02-28",
+      "url": "https://www.courtlistener.com/opinion/4594980/richard-powell-v-valero-energy-corporation-and-valero-refining-texas/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "The Travelers Indemnity Company v. Construction Services of New Hampshire, LLC",
+      "date": "2017-11-29",
+      "url": "https://www.courtlistener.com/opinion/10270978/the-travelers-indemnity-company-v-construction-services-of-new-hampshire/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Quindon D. Thomas v. Chevron U.S.A., Inc.",
+      "date": "2017-01-26",
+      "url": "https://www.courtlistener.com/opinion/4341669/quindon-d-thomas-v-chevron-usa-inc/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2159,7 +2243,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2334,24 +2418,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41392573",
-      "tier": "corroborated"
-     },
-     {
       "title": "Atrioventricular synchrony maintained by a dual-chamber leadless pacemaker in real-world conditions.",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
       "pmid": "41554110",
-      "tier": "corroborated"
-     },
-     {
-      "title": "One-Year Outcomes of the MODULAR ATP Trial: A Novel Leadless Pacemaker in Wireless Communication With a Subcutaneous Implantable Cardioverter Defibrillator.",
-      "journal": "Circulation. Arrhythmia and electrophysiology",
-      "year": 2026,
-      "pmid": "41231774",
       "tier": "corroborated"
      },
      {
@@ -2362,6 +2432,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41392573",
+      "tier": "corroborated"
+     },
+     {
       "title": "LEAP2: A first-in-human evaluation of a chronically implanted novel leadless pacemaker for conduction system pacing.",
       "journal": "Heart rhythm",
       "year": 2026,
@@ -2369,17 +2446,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Dual-chamber leadless pacemaker implant procedural outcomes: Insights from the AVEIR DR i2i study.",
-      "journal": "Heart rhythm",
-      "year": 2025,
-      "pmid": "40089049",
+      "title": "One-Year Outcomes of the MODULAR ATP Trial: A Novel Leadless Pacemaker in Wireless Communication With a Subcutaneous Implantable Cardioverter Defibrillator.",
+      "journal": "Circulation. Arrhythmia and electrophysiology",
+      "year": 2026,
+      "pmid": "41231774",
       "tier": "corroborated"
      },
      {
-      "title": "Battery longevity of a helix-fixation dual-chamber leadless pacemaker: results from the AVEIR DR i2i Study.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "title": "Chronic wireless communication between dual-chamber leadless pacemaker devices.",
+      "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "40474610",
+      "pmid": "39427688",
       "tier": "corroborated"
      },
      {
@@ -2390,10 +2467,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Chronic wireless communication between dual-chamber leadless pacemaker devices.",
+      "title": "Temperature-based rate response in a leadless pacemaker system.",
       "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "39427688",
+      "pmid": "39581426",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dual-chamber leadless pacemaker implant procedural outcomes: Insights from the AVEIR DR i2i study.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "40089049",
       "tier": "corroborated"
      }
     ],
@@ -2656,6 +2740,13 @@
     },
     "articles": [
      {
+      "title": "Pacemaker implant and programming challenges in a young patient with painful left bundle branch block syndrome.",
+      "journal": "HeartRhythm case reports",
+      "year": 2026,
+      "pmid": "42028079",
+      "tier": "corroborated"
+     },
+     {
       "title": "Response to the letter to the editor entitled \"High-risk transvenous lead extraction can be safely performed in the electrophysiology laboratory\".",
       "journal": "Heart rhythm",
       "year": 2026,
@@ -2677,17 +2768,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Pacemaker implant and programming challenges in a young patient with painful left bundle branch block syndrome.",
-      "journal": "HeartRhythm case reports",
-      "year": 2026,
-      "pmid": "42028079",
+      "title": "Implementation of a standardized pain management protocol reduces the variability in prescription patterns following pediatric supracondylar humerus fractures.",
+      "journal": "Bulletin of the Hospital for Joint Disease (2013)",
+      "year": 2025,
+      "pmid": "41637605",
       "tier": "corroborated"
      },
      {
-      "title": "Bringing competency-based communication training to scale: A multi-institutional virtual simulation-based mastery learning curriculum for Emergency Medicine res",
-      "journal": "Medical teacher",
+      "title": "The monorail sistering technique: Use of a directable decapolar catheter to support a fragile lead fragment for extraction: A first experience and feasibility c",
+      "journal": "HeartRhythm case reports",
       "year": 2025,
-      "pmid": "38803304",
+      "pmid": "40896686",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Bilateral Lung Points without Pneumothorax: Exploring \"Lung Point\" Mimics.",
+      "journal": "POCUS journal",
+      "year": 2025,
+      "pmid": "41332510",
       "tier": "corroborated"
      },
      {
@@ -2698,20 +2796,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Empathic teaching: Making an impact on direct and indirect patient care.",
-      "journal": "HeartRhythm case reports",
-      "year": 2025,
-      "pmid": "40951648",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Implementation of a standardized pain management protocol reduces the variability in prescription patterns following pediatric supracondylar humerus fractures.",
-      "journal": "Bulletin of the Hospital for Joint Disease (2013)",
-      "year": 2025,
-      "pmid": "41637605",
-      "tier": "corroborated"
-     },
-     {
       "title": "Palliative Care Initiated in the Emergency Department: A Cluster Randomized Clinical Trial.",
       "journal": "JAMA",
       "year": 2025,
@@ -2719,10 +2803,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Neonatal Portal Vein Thrombosis: A Retrospective Study of Management and Follow-Up at One Institution.",
-      "journal": "Pediatric blood & cancer",
+      "title": "Transvenous lead extraction should be performed in the electrophysiology laboratory.",
+      "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "39937535",
+      "pmid": "40752877",
       "tier": "corroborated"
      }
     ],
@@ -2772,16 +2856,16 @@
       "beneficiaries": 28
      },
      {
-      "code": "93294",
-      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
-      "services": 49,
-      "beneficiaries": 19
-     },
-     {
       "code": "99291",
       "description": "Critical care, first 30-74 minutes",
       "services": 49,
       "beneficiaries": 35
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 49,
+      "beneficiaries": 19
      }
     ],
     "source": {
@@ -2790,8 +2874,93 @@
     }
    },
    "litigation": {
-    "pending": true,
-    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+    "counts": {
+     "courtlistener:corroborated": 1,
+     "courtlistener:name-only": 23
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "10851732",
+      "case": "B.T. v. Jefferson County Department of Human Resources and Legal Aid Society of Birmingham (Appeal from Jefferson Juvenile Court, Bessemer Division: JU-21-387.0",
+      "date": "2025-04-25",
+      "snippet": "going over the top, he's -- if he doesn't have that buffer, he's going to go over t[he] top.\" She went on to clarify that she was referring to the father's angry behavior towards the child and his methods of discipline described above. 12 CL-2024-0982 Dr. Joshua Cooper, a physician at Children's Hospital, testified that the child is one of his patients. Dr. Cooper testified that the child, who tested positive at birth for HIV, has been placed on a strict drug regimen to ensure that the virus may not mutate. According to Dr. Cooper, the child's HIV status has become",
+      "matchedForm": "JOSHUA COOPER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "alacivapp",
+      "url": "https://www.courtlistener.com/opinion/10385144/bt-v-jefferson-county-department-of-human-resources-and-legal-aid/",
+      "docId": null
+     }
+    ],
+    "nameOnly": [
+     {
+      "source": "courtlistener",
+      "case": "Joe W. Trimm Et Ano, V. Starbucks Corporation",
+      "date": "2025-12-29",
+      "url": "https://www.courtlistener.com/opinion/10766065/joe-w-trimm-et-ano-v-starbucks-corporation/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Johnson v. Gowdy",
+      "date": "2025-08-20",
+      "url": "https://www.courtlistener.com/opinion/10657843/johnson-v-gowdy/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Dennis Joshua Cooper v. State of Tennessee",
+      "date": "2022-02-02",
+      "url": "https://www.courtlistener.com/opinion/6247819/dennis-joshua-cooper-v-state-of-tennessee/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Wright, Tracy v. Joshua Cooper, d/b/a J&K Improvements",
+      "date": "2021-12-21",
+      "url": "https://www.courtlistener.com/opinion/5311007/wright-tracy-v-joshua-cooper-dba-jk-improvements/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Wright, Tracy v. Joshua Cooper d/b/a J&K Improvements",
+      "date": "2021-03-09",
+      "url": "https://www.courtlistener.com/opinion/4863146/wright-tracy-v-joshua-cooper-dba-jk-improvements/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Wright, Tracy  v. Joshua Cooper, d/b/a J&K Inprovements",
+      "date": "2021-01-29",
+      "url": "https://www.courtlistener.com/opinion/4852980/wright-tracy-v-joshua-cooper-dba-jk-inprovements/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "State v. Klafczynski",
+      "date": "2020-06-08",
+      "url": "https://www.courtlistener.com/opinion/4759323/state-v-klafczynski/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Piro v. Carlin",
+      "date": "2020-04-28",
+      "url": "https://www.courtlistener.com/opinion/10178194/piro-v-carlin/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Williams v. Social Security Administration, Commissioner of",
+      "date": "2019-07-08",
+      "url": "https://www.courtlistener.com/opinion/9966915/williams-v-social-security-administration-commissioner-of/"
+     },
+     {
+      "source": "courtlistener",
+      "case": "Williams v. Dart",
+      "date": "2019-02-27",
+      "url": "https://www.courtlistener.com/opinion/9673604/williams-v-dart/"
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
    },
    "inventory": {
     "onFile": [
@@ -2813,7 +2982,7 @@
      },
      {
       "label": "CourtListener + PTAB mentions",
-      "detail": "sweep in progress"
+      "detail": "on file"
      },
      {
       "label": "ICIJ IMDD",
@@ -2970,17 +3139,17 @@
       "tier": "corroborated"
      },
      {
+      "title": "Expanding antimicrobial chemotypes: indole-based DNA gyrase inhibitors with potential dual mechanism against multidrug-resistant bacteria.",
+      "journal": "Bioorganic & medicinal chemistry",
+      "year": 2026,
+      "pmid": "41161067",
+      "tier": "name-only"
+     },
+     {
       "title": "Quantitative fibrinogen disorders: A retrospective study from a tertiary care centre in India.",
       "journal": "The Indian journal of medical research",
       "year": 2026,
       "pmid": "42237844",
-      "tier": "name-only"
-     },
-     {
-      "title": "Polymorphic 3D genome architecture mediated by transposable elements.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "year": 2026,
-      "pmid": "41648318",
       "tier": "name-only"
      },
      {
@@ -2991,17 +3160,17 @@
       "tier": "name-only"
      },
      {
-      "title": "Expanding antimicrobial chemotypes: indole-based DNA gyrase inhibitors with potential dual mechanism against multidrug-resistant bacteria.",
-      "journal": "Bioorganic & medicinal chemistry",
+      "title": "CD44-targeted immunoliposomes for IL-1\u03b2 knockdown modulate macrophage-mediated inflammation.",
+      "journal": "Communications biology",
       "year": 2026,
-      "pmid": "41161067",
+      "pmid": "41974900",
       "tier": "name-only"
      },
      {
-      "title": "Estrone Linked BODIPYs: Assessing Their Role as Sonosensitizers for Antimicrobial Applications.",
-      "journal": "Chemistry, an Asian journal",
+      "title": "Economic burden of advanced non-small cell lung cancer (NSCLC): a systematic literature review.",
+      "journal": "Journal of medical economics",
       "year": 2026,
-      "pmid": "41603555",
+      "pmid": "41723781",
       "tier": "name-only"
      },
      {

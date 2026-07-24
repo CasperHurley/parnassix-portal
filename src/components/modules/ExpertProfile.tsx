@@ -1,9 +1,14 @@
 // The expanded per-physician profile — every layer local-corpus, every section carrying
 // its "How we know" fine print (dataset + match keys + caveat), with two-tier name-match
 // labeling (corroborated vs name-only) surfaced, never hidden.
+import { Suspense, lazy, useState } from 'react'
 import { scaleLinear } from 'd3-scale'
-import type { ExpertProfileData, SourceObj } from '../../lib/data'
+import type { ExpertProfileData, LitCite, SourceObj } from '../../lib/data'
 import { fmtNum, fmtUsd, fmtUsdCompact } from '../../lib/format'
+import OpinionReader from './OpinionReader'
+
+// pdf.js stays confined to the lazy evidence chunk (the Evidence.tsx precedent)
+const PtabEvidence = lazy(() => import('./PtabEvidence'))
 
 function HowWeKnow({ source }: { source?: SourceObj }) {
   if (!source) return null
@@ -30,6 +35,112 @@ function TierChip({ tier }: { tier: string }) {
     <span className="tierChip" data-tier={tier}>
       {tier === 'corroborated' ? 'corroborated' : 'name-only'}
     </span>
+  )
+}
+
+const SIGNAL_LABELS: Record<string, string> = {
+  'credential-adjacent': 'Dr./M.D. attached to name',
+  'device-keyword': 'device-topic context',
+  geo: 'geography match',
+  'declaration-title': 'named declaration',
+}
+
+function Highlighted({ text, term }: { text: string; term?: string | null }) {
+  if (!term) return <>{text}</>
+  const esc = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const parts = text.split(new RegExp(`(${esc})`, 'ig'))
+  return (
+    <>
+      {parts.map((p, i) =>
+        p.toLowerCase() === term.toLowerCase() ? (
+          <mark key={i} className="litMark">
+            {p}
+          </mark>
+        ) : (
+          p
+        ),
+      )}
+    </>
+  )
+}
+
+function citeTerms(ci: LitCite, expertName: string): string[] {
+  const parts = expertName.trim().split(/\s+/)
+  const lastFirst =
+    parts.length >= 2 ? `${parts[parts.length - 1]}, ${parts.slice(0, -1).join(' ')}` : null
+  return [...new Set([ci.matchedForm, expertName, lastFirst].filter((x): x is string => !!x))]
+}
+
+function LitCiteCard({ ci, expertName }: { ci: LitCite; expertName: string }) {
+  const [open, setOpen] = useState(false)
+  const [evidence, setEvidence] = useState(false)
+  const canRead = ci.source === 'courtlistener'
+  const canView = ci.source === 'ptab' && !!ci.docId
+  return (
+    <div className="litCard" data-open={open}>
+      <div
+        className="litCardMain"
+        role="button"
+        tabIndex={0}
+        onClick={() => setOpen(!open)}
+        onKeyDown={(e) => e.key === 'Enter' && setOpen(!open)}
+      >
+        <div className="litCardHead">
+          <span className="litCase">{ci.case ?? ci.ref}</span>
+          <span className="litMeta">
+            {ci.court && <span className="chip litCourt">{ci.court.toUpperCase()}</span>}
+            {ci.date && <span className="litDate">{ci.date}</span>}
+          </span>
+        </div>
+        <div className="chipRow litSignals">
+          <span className="chip">{ci.source === 'ptab' ? 'PTAB' : 'CourtListener'}</span>
+          {(ci.signals ?? []).map((s) => (
+            <span key={s} className="chip chipSignal">
+              {SIGNAL_LABELS[s] ?? s}
+            </span>
+          ))}
+        </div>
+        {ci.snippet && (
+          <div className="litSnippet" data-clamped={!open}>
+            “…
+            <Highlighted text={ci.snippet} term={ci.matchedForm} />
+            …”
+          </div>
+        )}
+      </div>
+      <div className="litCardFoot">
+        {(canRead || canView) && (
+          <button
+            className="litEvidenceBtn"
+            onClick={() => setEvidence(!evidence)}
+          >
+            {evidence ? 'hide evidence ▴' : canRead ? 'read in context ▾' : 'view filing ▾'}
+          </button>
+        )}
+        {ci.url && (
+          <a href={ci.url} target="_blank" rel="noreferrer" className="litOpenLink">
+            {ci.source === 'ptab' ? 'USPTO ↗' : 'CourtListener ↗'}
+          </a>
+        )}
+      </div>
+      {evidence && canRead && (
+        <OpinionReader
+          opinionId={ci.ref}
+          terms={citeTerms(ci, expertName)}
+          publicUrl={ci.url ?? null}
+        />
+      )}
+      {evidence && canView && (
+        <Suspense fallback={<div className="evidenceNote">Loading viewer…</div>}>
+          <PtabEvidence
+            trial={ci.ref}
+            doc={ci.docId!}
+            terms={citeTerms(ci, expertName)}
+            fallbackUrl={ci.url ?? null}
+          />
+        </Suspense>
+      )}
+    </div>
   )
 }
 
@@ -182,30 +293,64 @@ export function ExpertProfile({ p }: { p: ExpertProfileData }) {
       </div>
 
       <div className="epSection">
-        <div className="epHead">Litigation &amp; PTAB mentions</div>
+        <div className="epHead">
+          Litigation &amp; PTAB mentions{' '}
+          {!lit.pending && (
+            <span className="epHeadNote">
+              {fmtNum((lit.cites ?? []).length)} corroborated shown
+            </span>
+          )}
+        </div>
         {lit.pending ? (
           <div className="epEmpty">{lit.note}</div>
         ) : (
           <>
-            <div className="chipRow">
-              {Object.entries(lit.counts ?? {}).map(([k, v]) => (
-                <span key={k} className="chip">
-                  {k.replace(':', ' · ')}: {fmtNum(v)}
-                </span>
-              ))}
-              {Object.keys(lit.counts ?? {}).length === 0 && (
-                <span className="epEmpty">No full-name mentions found in the swept subsets.</span>
-              )}
-            </div>
-            {(lit.cites ?? []).map((ci, i) => (
-              <div key={i} className="epRow">
-                <span>
-                  <span className="epMuted">[{ci.source}]</span> {ci.case ?? ci.ref}
-                  {ci.snippet && <span className="epSnippet"> “…{ci.snippet}…”</span>}
-                </span>
-                <span className="epRowVal epMuted">{ci.date ?? ''}</span>
+            {(lit.cites ?? []).length === 0 && (
+              <div className="epEmpty">
+                No corroborated mentions — every full-name hit in the swept subsets lacked a
+                physician-specific signal (likely namesakes; listed below).
               </div>
+            )}
+            {(lit.cites ?? []).map((ci, i) => (
+              <LitCiteCard key={i} ci={ci} expertName={p.name} />
             ))}
+            {(lit.nameOnly ?? []).length > 0 && (
+              <details className="litNameOnly">
+                <summary>
+                  {fmtNum(
+                    Object.entries(lit.counts ?? {})
+                      .filter(([k]) => k.endsWith(':name-only'))
+                      .reduce((a, [, v]) => a + v, 0),
+                  )}{' '}
+                  name-only matches — likely people sharing the name, shown for completeness
+                </summary>
+                <div className="litNameOnlyNote">
+                  Graded name-only because nothing physician-specific (credential, device
+                  topic, geography) appeared near the name. Nothing is attributed from these.
+                </div>
+                {(lit.nameOnly ?? []).map((n, i) => (
+                  <div key={i} className="epRow">
+                    <span>
+                      <span className="epMuted">[{n.source}]</span> {n.case ?? '(untitled)'}
+                      {n.url && (
+                        <>
+                          {' '}
+                          <a
+                            href={n.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="litOpenLink"
+                          >
+                            open ↗
+                          </a>
+                        </>
+                      )}
+                    </span>
+                    <span className="epRowVal epMuted">{n.date ?? ''}</span>
+                  </div>
+                ))}
+              </details>
+            )}
           </>
         )}
         <HowWeKnow source={lit.source} />

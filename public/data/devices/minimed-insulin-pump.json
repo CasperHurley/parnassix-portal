@@ -642,19 +642,19 @@
     "edges": [
      {
       "from": "K253470",
-      "to": "K242775",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1890 Product Codes QFG, NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 1,
       "page": 5
      },
      {
       "from": "K253470",
-      "to": "K251032",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "1890 Product Codes QFG, NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
+      "to": "K242775",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 1,
       "page": 5
      },
@@ -762,7 +762,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics",
       "state": "MN",
       "total": 328190.62,
       "payments": 504,
@@ -858,7 +858,7 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics",
       "state": "MN",
       "total": 328190.62,
       "payments": 504,
@@ -1044,7 +1044,7 @@
      },
      {
       "code": "K0552",
-      "description": "Supplies for external drug infusion pump, syringe type cartridge, sterile, each",
+      "description": "Supplies for external non-insulin drug infusion pump, syringe type cartridge, sterile, each",
       "services": 19743023
      },
      {
