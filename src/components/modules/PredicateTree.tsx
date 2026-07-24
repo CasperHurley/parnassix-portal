@@ -1,4 +1,8 @@
+import { Suspense, lazy, useState } from 'react'
 import type { TreeEdge, TreeNode } from '../../lib/data'
+
+// pdf.js stays confined to this lazy chunk — nothing loads until a Verify click
+const Evidence = lazy(() => import('./Evidence'))
 
 const SHOW_CAP = 60
 
@@ -13,6 +17,7 @@ export function PredicateTree({
   edges: TreeEdge[]
   hopCapNote: string
 }) {
+  const [verifying, setVerifying] = useState<number | null>(null)
   const anchors = nodes.filter((n) => n.anchor)
   const anchorSet = new Set(anchors.map((n) => n.k))
   const hop1 = new Set(edges.filter((e) => e.hop === 1).map((e) => e.to))
@@ -63,8 +68,21 @@ export function PredicateTree({
               <span className="treeK">{e.to}</span>
               <span className="confChip">{e.confidence} confidence</span>
               <span className="confChip">hop {e.hop}</span>
+              {e.page != null && (
+                <button
+                  className="verifyBtn"
+                  onClick={() => setVerifying(verifying === i ? null : i)}
+                >
+                  {verifying === i ? 'Close source' : `Verify — source p.${e.page}`}
+                </button>
+              )}
             </div>
             {e.quote && <div className="treeQuote">“{e.quote}”</div>}
+            {verifying === i && e.page != null && (
+              <Suspense fallback={<div className="evidenceNote">Loading viewer…</div>}>
+                <Evidence k={e.from} page={e.page} quote={e.quote} terms={[e.from, e.to]} />
+              </Suspense>
+            )}
           </div>
         ))}
       </div>

@@ -424,17 +424,17 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 35300,
-      "narrative": "THE DEVICE REMAINS IMPLANTED AND ALL CONCOMITANT DEVICES REMAIN IN USE SO NOTHING WILL BE RETURNED TO THE MANUFACTURER FOR FURTHER EVALUATION. THIS DEVICE IS USED FOR TREATMENT AND NOT DIAGNOSIS. THE HEARTWARE\u00ae VENTRICULAR ASSIST SYSTEM IS INDICATED FOR USE AS A BRIDGE TO CARDIAC TRANSPLANTATION IN PATIENTS WHO ARE AT RISK OF DEATH FROM REFRACTORY END-STAGE LEFT VENTRICULAR HEART FAILURE. THE HEARTWARE\u00ae SYSTEM IS DES"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH A BACTERIAL DRIVELINE INFECTION. THE PATIENT RECEIVED INTRAVENOUS (IV) DRUG THERAPY INTERVENTION. THE VENTRICULAR ASSIST DEVICE (VAD) REMAINS IN USE. NO FURTHER PATIENT COMPLICATIONS WERE REPORTED AS A RESULT OF THE EVENT. THIS EVENT WAS REPORTED IN THE INTERMACS DATA REGISTRY THAT TRACKS CLINICAL OUTCOMES OF PATIENTS ON VENTRICULAR ASSIST DEVICE (VAD) SUPPORT. T"
      },
      {
       "problem": "Battery Problem",
       "reports": 9504,
-      "narrative": "THIS DEVICE IS USED FOR TREATMENT NOT DIAGNOSIS. THE VENTRICULAR ASSIST SYSTEM IS INDICATED FOR USE AS A BRIDGE TO CARDIAC TRANSPLANTATION AND DESTINATION THERAPY IN PATIENTS WHO ARE AT RISK OF DEATH FROM REFRACTORY END-STAGE LEFT VENTRICULAR HEART FAILURE. THE SYSTEM IS DESIGNED FOR IN-HOSPITAL AND OUT-OF-HOSPITAL SETTINGS. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+      "narrative": "IT WAS REPORTED THAT THE BATTERY WAS NOT CHARGING. THE BATTERY WOULD FLASH RED ON THE BATTERY CHARGER. THE BATTERY WILL BE REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Pumping Problem",
       "reports": 8361,
-      "narrative": "THIS DEVICE IS USED FOR TREATMENT NOT DIAGNOSIS. THE VENTRICULAR ASSIST SYSTEM IS INDICATED FOR USE AS A BRIDGE TO CARDIAC TRANSPLANTATION AND DESTINATION THERAPY IN PATIENTS WHO ARE AT RISK OF DEATH FROM REFRACTORY END-STAGE LEFT VENTRICULAR HEART FAILURE. THE SYSTEM IS DESIGNED FOR IN-HOSPITAL AND OUT-OF-HOSPITAL SETTINGS. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH PERSISTENT VENTRICULAR ASSIST DEVICE (VAD) LOW FLOW ALARMS AND SYMPTOMS OF RIGHT VENTRICULAR FAILURE. THERE WERE CONCERNS FOR OUTFLOW GRAFT OBSTRUCTION. IMAGING REVEALED NO SOURCE OF THROMBUS IN THE OUTFLOW GRAFT. DUE TO THE LOW FLOW ALARMS AND HIGH POWER DISPROPORTIONATE TO THE FLOW, THE PATIENT UNDERWENT OUTFLOW GRAFT STENTING. THE VAD AND OUTFLOW GRAFT REMAIN"
      },
      {
       "problem": "Power Problem",
@@ -444,22 +444,22 @@
      {
       "problem": "Connection Problem",
       "reports": 2923,
-      "narrative": "A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR DEVICE EVALUATION. PRODUCT EVENT SUMMARY: THE CONTROLLER AND BATTERY WERE RETURNED FOR EVALUATION. VARIOUS ANALYSES WERE CONDUCTED AND REVIEWED IN ORDER TO EVALUATE THE PERFORMANCE OF THE DEVICES IN RELATION TO THE REPORTED EVENT. FAILURE ANALYSIS OF THE RETURNED CONTROLLER REVEALED A BENT PIN, AS WELL AS A BROKEN CENTER PIN AND PIN SOCKET, WITHIN POWER PORT ONE. THE DAMAG"
+      "narrative": "IT WAS REPORTED THAT THERE WAS POOR MECHANICAL CONNECTION AT THE CONTROLLER POWER PORTS DUE TO A BENT PIN IN THE POWER PORT. THE CON TROLLER WAS EXCHANGED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Material Integrity Problem",
       "reports": 2574,
-      "narrative": "IT WAS REPORTED THAT THE CDC ADAPTER WAS BROKEN. THE CDC ADAPTER WILL BE REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "IT WAS REPORTED THAT THE VENTRICULAR ASSIST DEVICE (VAD) DRIVELINE APPEARED ABNORMAL. THE VAD REMAINS IN USE. NO PATIENT COMPLICATIONS WERE REPORTED AS PART OF THE EVENT. THIS EVENT WAS REPORTED IN THE Q3 2021 INTERMACS DATA REGISTRY THAT TRACKS CLINICAL OUTCOMES OF PATIENTS ON VENTRICULAR ASSIST DEVICE (VAD) SUPPORT. THE DATA REGISTRY DOES NOT CONTAIN DEVICE IDENTIFYING INFORMATION OR EVENT DATE AND THEREFORE CANNOT"
      },
      {
       "problem": "Break",
       "reports": 1688,
-      "narrative": "IT WAS REPORTED THAT THE SHOULDER PACK WAS DEFECTIVE/DAMAGED. THE PLASTIC WINDOW WAS DAMAGED AND THERE WAS POTENTIAL FOR THE BATTERY OR CONTROLLER TO FALL OUT. THE SHOULDER PACK REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "IT WAS REPORTED THAT THE ZIPPER ON THE SHOULDER PACK WAS DAMAGED. THE SHOULDER PACK REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 1441,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS ADMITTED DUE TO A SUSPECTED VENTRICULAR ASSIST DEVICE (VAD) THROMBUS DUE TO EXPERIENCING ELEVATED BLOOD PRESSURE AND HEMATURIA. THE VAD EXHIBITED HIGH FLOW AND POWER. THE PATIENT RECEIVED INTRAVENOUS TISSUE PLASMINOGEN ACTIVATOR AND THEIR INTERNATIONAL NORMALIZED RATIO WAS THERAPEUTIC. THE VAD REMAINS IN USE. NO FURTHER PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS ADMITTED DUE TO THE VENTRICULAR ASSIST DEVICE (VAD) EXHIBITING LOW FLOWS AND POWER AND AN OBSTRUCTION WAS SUSPECTED. A CONTRAST COMPUTERIZED TOMOGRAPHY (CT) SCAN REVEALED AN OUTFLOW GRAFT COMPRESSION. THE PATIENT HAD SURGERY WHERE THE EXTERIOR COMPRESSION OF THE OUTFLOW GRAFT OFG) WAS RELIEVED, AND THE VAD PARAMETERS HAVE RETURNED TO BASELINE. THE VAD AND OFG REMAIN IN USE. NO FUR"
      }
     ]
    },
@@ -478,7 +478,7 @@
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "PA",
       "total": 177481.31,
       "payments": 276,
@@ -497,7 +497,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CO",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -505,7 +505,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -515,7 +515,7 @@
      {
       "id": "p5",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
-      "state": "IL",
+      "state": "MA",
       "total": 96147.46,
       "payments": 204,
       "years": "2013\u20132021",
@@ -524,7 +524,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
+      "state": "MA",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -532,7 +532,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Advanced Heart Failure and Transplant Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "WA",
       "total": 90760.17,
       "payments": 137,
@@ -541,8 +541,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MO",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -551,7 +551,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CA",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",
@@ -572,7 +572,7 @@
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "PA",
       "total": 177481.31,
       "payments": 276,
@@ -593,7 +593,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CO",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -602,7 +602,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -613,7 +613,7 @@
      {
       "id": "p5",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
-      "state": "IL",
+      "state": "MA",
       "total": 96147.46,
       "payments": 204,
       "years": "2013\u20132021",
@@ -623,7 +623,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
+      "state": "MA",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -632,7 +632,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Advanced Heart Failure and Transplant Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "WA",
       "total": 90760.17,
       "payments": 137,
@@ -642,8 +642,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MO",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -653,7 +653,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WA",
+      "state": "CA",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",

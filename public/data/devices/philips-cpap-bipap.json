@@ -597,7 +597,7 @@
      {
       "problem": "Contamination",
       "reports": 6411,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED THE PATIENT TO BE HIGH RISK FOR A STROKE. THE PATIENT DID NOT REPORT TO RECEIVE MEDICAL INTERVENTION. THE MANUFACTURER'S INVESTIGATION IS ONGOING. A FOLLOW-UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETE."
+      "narrative": "THE MANUFACTURER PREVIOUSLY REPORTED AN ISSUE RELATED TO SOUND ABATEMENT FOAM. THIS ACTION WAS REPORTED TO FDA PER 21 CFR PART 806. THE DEVICE WILL BE CORRECTED PER RES 88058."
      },
      {
       "problem": "Inadequate User Interface",
@@ -607,12 +607,12 @@
      {
       "problem": "Corroded",
       "reports": 2674,
-      "narrative": "A DEVICE WAS RETURNED TO A THIRD-PARTY SERVICE CENTER IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. DURING THE EVALUATION OF THE DEVICE, THE THIRD-PARTY SERVICE CENTER VISUALLY INSPECTED THE DEVICE AND FOUND NO EVIDENCE OF FOAM DEGRADATION. THERE WERE SECONDARY FINDINGS THAT THE UNIT'S POWER CONNEC"
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION IN RELATION TO A DREAM STATION AUTO UNIT. THE DEVICE WAS RETURNED TO A THIRD-PARTY SERVICE CENTER. DURING VISUAL INSPECTION OF THE DEVICE, IT WAS DETERMINED THE POWER CONNECTOR OF THE UNIT WAS CORRODED. IN ADDITION, THERE WAS CONTAMINATION FROM DUST AND DIRT. DEVICE WAS SCRAPPED AT CUSTOMER'S REQUEST. ANALYSIS OF PAST EVENTS HAS NOT INDICATED AN ADVERSE EVENT HAS OCCURRED DUE TO"
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 2264,
-      "narrative": "A REPORT WAS RECEIVED REGARDING A (B)(6) MALE PATIENT WHO EXPERIENCED A RASH, ODD TASTE AND CHEST TIGHTNESS DURING TREATMENT. FOLLOW UP WITH THE HOME HEMODIALYSIS NURSE CONFIRMED NO MEDICAL INTERVENTION WAS REQUIRED. THE PATIENT WAS INSTRUCTED TO FLUSH THE SYSTEM WITH SALINE PRIOR TO TREATMENT. THE PATIENT EXPERIENCED THE SAME ISSUES WHEN IN TREATMENT AT THE CENTER USING NON-NXSTAGE EQUIPMENT. THE PATIENT CONTINUES T"
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A PATIENT EXPIRED WHILE USING A BIPAP A40. THE DEVICE HAS YET TO BE RETURNED TO THE MANUFACTURER FOR EVALUATION. A FOLLOW UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER HAS COMPLETED THE INVESTIGATION."
      },
      {
       "problem": "Electrical /Electronic Property Problem",
@@ -622,7 +622,7 @@
      {
       "problem": "Device Sensing Problem",
       "reports": 1266,
-      "narrative": "THIS IS IN REGARD TO THE DATA ACQUISITION (DA) PRINTED CIRCUIT BOARD ASSEMBLY (PCBA) WITH THE ACCUSATION OF: DEVICE ALARMS -PRESSURE SENSOR AUTO ZERO FAILURE FOUND DURING SETUP FOR USE OUTSIDE OF CLINICAL USE. FUNCTIONAL ANALYSIS WAS PERFORMED AND IDENTIFIED THAT THE DEVICE PRESSURE ACCURACY TESTING FAILED FOR MACHINE PRESSURE SENSOR WAS OUT OF SPEC AT ZERO CMH2O. IN ADDITION, THE SUSPECT DA PCBA OPERATES ON THE STAN"
+      "narrative": "THE FIELD SERVICE TECHNICIAN) EVALUATED THE DEVICE AND CONFIRMED THE REPORTED ISSUE. AFTER PERFORMING FLOW SENSOR ZERO CALIBRATION, THE FIELD SERVICE TECHNICIAN CONFIRMED THAT SOFTWARE VERSION 3.20 WAS INSTALLED, CLEANED THE DEVICE, PERFORMED RUNNING AND FUNCTIONAL TESTS, AND VERIFIED THAT THE TWO ISSUE WAS RESOLVED. THE DEVICE PASSED THE REQUIRED PERFORMANCE VERIFICATION TESTS PER PHILIPS STANDARD AND WAS RETURNED T"
      },
      {
       "problem": "Device Alarm System",
@@ -754,7 +754,8 @@
       "kind": "primary",
       "confidence": "high",
       "quote": "1.3. Legally Marketed Predicate Device\nThe legally marketed predicate device is the NxStage System One with Cartridge Express\ncleared under K061837. This predicate has not been subject to a design-rel",
-      "hop": 1
+      "hop": 1,
+      "page": 5
      },
      {
       "from": "K241268",
@@ -762,23 +763,8 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "140424 Same indications for use and 21 CFR \u00a7868.5270 (BZE)\nsame or similar technology.\nPhilips Respironics Reusable\nHeated Tubing\nReference K200480 Same indications for use and 21 CFR 868.5905 (BZD)\ns",
-      "hop": 1
-     },
-     {
-      "from": "K241268",
-      "to": "K140424",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "ed Tubing\nCommon and Breathing System, Heater\nClassification Name:\nClassification 21 CFR \u00a7868.5270\nRegulation:\nProduct Code: BZE\nPredicate: K140424 Philips Heated\nCPAP Tube\nDevice Description: The Exc",
-      "hop": 1
-     },
-     {
-      "from": "K241268",
-      "to": "K121623",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "espironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible.\nOne Heated Humidifier machine (K200480)) machine (K200480))\n(K121623).\nAnatomical Site Non-invasive Non-invasive Non-inva",
-      "hop": 1
+      "hop": 1,
+      "page": 6
      },
      {
       "from": "K241268",
@@ -786,7 +772,26 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "compatible with the the devices with\nHumidification System One Humidifier Dreamstation Series Respironics Dreamstation which the\nChambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation",
-      "hop": 1
+      "hop": 1,
+      "page": 7
+     },
+     {
+      "from": "K241268",
+      "to": "K140424",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ed Tubing\nCommon and Breathing System, Heater\nClassification Name:\nClassification 21 CFR \u00a7868.5270\nRegulation:\nProduct Code: BZE\nPredicate: K140424 Philips Heated\nCPAP Tube\nDevice Description: The Exc",
+      "hop": 1,
+      "page": 5
+     },
+     {
+      "from": "K241268",
+      "to": "K121623",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "espironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible.\nOne Heated Humidifier machine (K200480)) machine (K200480))\n(K121623).\nAnatomical Site Non-invasive Non-invasive Non-inva",
+      "hop": 1,
+      "page": 7
      },
      {
       "from": "K252377",
@@ -794,7 +799,8 @@
       "kind": "primary",
       "confidence": "high",
       "quote": "aled dialysate system\nFDA Review Panel: Gastroenterology/Urology\n1.3. Legally Marketed Predicate Device\nThe NxStage System One with NxView (K133547) is the legally marketed predicate device. This\npred",
-      "hop": 1
+      "hop": 1,
+      "page": 5
      },
      {
       "from": "K061837",
@@ -802,7 +808,8 @@
       "kind": "primary",
       "confidence": "medium",
       "quote": "Cartridge Express meets design specifications. The modified NxStage Cartridge\nExpress has been compared to the baseline as cleared through K050727 and found to\nbe substantially equivalent.\nConclusion:",
-      "hop": 2
+      "hop": 2,
+      "page": 2
      },
      {
       "from": "K113068",
@@ -810,7 +817,8 @@
       "kind": "primary",
       "confidence": "high",
       "quote": "ber 2011\nREMstar Auto A-Flex HT\nCAP System\nventilator, non-continuous (respirator) (21 CFR 868.5905,\nProduct Code BZD)\nREMstar Auto A-Flex (K091319)\nThe REMstar Auto A-Flex HT is the result of modific",
-      "hop": 2
+      "hop": 2,
+      "page": 1
      },
      {
       "from": "K121623",
@@ -818,7 +826,8 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "py features available if enabled by the health care professional.\nThe secondary device predicate, the Trilogy 200 was previously cleared in K093416. Similar to\nthe Trilogy 200, the BiPAP A40 can provi",
-      "hop": 2
+      "hop": 2,
+      "page": 3
      },
      {
       "from": "K121623",
@@ -826,7 +835,8 @@
       "kind": "primary",
       "confidence": "medium",
       "quote": null,
-      "hop": 2
+      "hop": 2,
+      "page": null
      },
      {
       "from": "K133547",
@@ -834,7 +844,8 @@
       "kind": "primary",
       "confidence": "high",
       "quote": "dicate NStage System\nOne. The NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was",
-      "hop": 2
+      "hop": 2,
+      "page": 2
      },
      {
       "from": "K133547",
@@ -842,7 +853,8 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was found to be substantially\nequ",
-      "hop": 2
+      "hop": 2,
+      "page": 2
      },
      {
       "from": "K133547",
@@ -850,15 +862,8 @@
       "kind": "document-wide",
       "confidence": "low",
       "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
-      "hop": 2
-     },
-     {
-      "from": "K140424",
-      "to": "K121623",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "s it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623).\nSummary of Technological Characteristics of Device",
-      "hop": 2
+      "hop": 2,
+      "page": 8
      },
      {
       "from": "K140424",
@@ -866,7 +871,8 @@
       "kind": "document-wide",
       "confidence": "low",
       "quote": "has a proprietary connector with two locking\ntabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated H",
-      "hop": 2
+      "hop": 2,
+      "page": 5
      },
      {
       "from": "K140424",
@@ -874,15 +880,17 @@
       "kind": "primary",
       "confidence": "medium",
       "quote": "/ B ZE \u2013 Breathing system, heater\nProduct Code\nRegulation Number 868.5270\nPredicate Device(s) Respironics Disposable Heated Wire Circuits (K110398)\nIntended Use:\nThe Philips Respironics Reusable Heate",
-      "hop": 2
+      "hop": 2,
+      "page": 4
      },
      {
-      "from": "K200480",
-      "to": "K131982",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "ication Name/\nProduct Code: Ventilator, Non-Continuous (Respirator), 21 CFR 868.5905,\nBZD\nPrimary Predicate Device: REMSTAR AUTO A-FLEX HT (K131982)\nSecondary Predicate Device: REMSTAR SE (K130077)\nSu",
-      "hop": 2
+      "from": "K140424",
+      "to": "K121623",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "s it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623).\nSummary of Technological Characteristics of Device",
+      "hop": 2,
+      "page": 5
      },
      {
       "from": "K200480",
@@ -890,7 +898,17 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "nuous (Respirator), 21 CFR 868.5905,\nBZD\nPrimary Predicate Device: REMSTAR AUTO A-FLEX HT (K131982)\nSecondary Predicate Device: REMSTAR SE (K130077)\nSubmission Reason: New Device\nRespironics Inc. Page",
-      "hop": 2
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K200480",
+      "to": "K131982",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ication Name/\nProduct Code: Ventilator, Non-Continuous (Respirator), 21 CFR 868.5905,\nBZD\nPrimary Predicate Device: REMSTAR AUTO A-FLEX HT (K131982)\nSecondary Predicate Device: REMSTAR SE (K130077)\nSu",
+      "hop": 2,
+      "page": 4
      }
     ],
     "hopCap": 2,
@@ -960,7 +978,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
       "state": "AL",
       "total": 3500.91,
       "payments": 8,
@@ -1060,7 +1078,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
       "state": "AL",
       "total": 3500.91,
       "payments": 8,

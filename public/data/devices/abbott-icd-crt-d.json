@@ -524,7 +524,7 @@
      {
       "problem": "Over-Sensing",
       "reports": 29461,
-      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "IT WAS REPORTED THAT PATIENT PRESENTED REMOTELY WITH POST PACED T-WAVE OVERSENSING (PPTWOS) PATIENT HAD NOT COME IN TO CLINIC FOR PROGRAMMING CHANGES YET. NO PATIENT CONSEQUENCES REPORTED."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
@@ -534,12 +534,12 @@
      {
       "problem": "Premature Discharge of Battery",
       "reports": 5603,
-      "narrative": "IT WAS REPORTED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR EXHIBITED PREMATURE BATTERY DEPLETION. THE DEVICE WAS EXPLANTED AND REPLACED. THE PATIENT WAS IN STABLE CONDITION."
+      "narrative": "FOLLOWING THE BATTERY PERFORMANCE ALERT (BPA) ADVISORY, A BPA WAS RECEIVED BY THE CLINICIAN AND THE DEVICE WAS EXPLANTED. THE PATIENT WAS STABLE."
      },
      {
       "problem": "Inappropriate or Unexpected Reset",
       "reports": 5526,
-      "narrative": "CORRECTION: INCORRECT H10. A DEVICE HISTORY RECORD (DHR) REVIEW WAS PERFORMED AND ALL REQUIRED MANUFACTURING PROCESSES AND INSPECTIONS STEPS WERE CONFIRMED TO BE COMPLETED PER THE REQUIREMENTS. THE DEVICE MET SPECIFICATIONS PRIOR TO LEAVING ABBOTT MANUFACTURING FACILITIES. THE PRODUCT WAS NOT RETURNED FOR ADDITIONAL EVALUATION. THEREFORE, THE EVENT COULD NOT BE CONFIRMED, AND THE CAUSE REMAINS UNKNOWN."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED REMOTELY VIA MERLIN.NET. REVIEW OF THE TRANSMISSION REVEALED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR WAS IN BACKUP VVI MODE. IT WAS NOTED THAT MULTIPLE ATTEMPTS TO PING THE MERLIN COMMUNICATOR TRIPPED THE CYBERSECURITY ALERT. THE DEVICE WAS SUCCESSFULLY RESTORED. THE PATIENT WAS IN STABLE CONDITION."
      },
      {
       "problem": "Battery Problem",
@@ -549,7 +549,7 @@
      {
       "problem": "Inappropriate/Inadequate Shock/Stimulation",
       "reports": 5111,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY ROOM AFTER RECEIVING INAPPROPRIATE SHOCKS DUE TO AF WITH RAPID VENTRICULAR RESPONSE. PROGRAMMING CHANGES WERE RECOMMENDED. THE PATIENT WAS STABLE AND WILL CONTINUE TO BE MONITORED WITH ROUTINE FOLLOW-UP."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      },
      {
       "problem": "Failure to Interrogate",
@@ -559,7 +559,7 @@
      {
       "problem": "Under-Sensing",
       "reports": 2122,
-      "narrative": "IT WAS REPORTED THAT POST-PROCEDURE PRE-DISCHARGE, THE DEVICE EXHIBITED FAR P WAVE OVERSENSING WAS SEEN ON VENTRICULAR EGM (VEGM) BUT NOT SENSED THROUGH THE DEVICE. A CHEST X-RAY WAS PERFORMED, AND NO ANOMALIES WERE SEEN. THE PATIENT WAS LATER DISCHARGED. THERE WERE NO ADVERSE CONSEQUENCES TO THE PATIENT."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      }
     ]
    },
@@ -587,7 +587,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -642,7 +642,7 @@
      {
       "id": "p8",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OH",
+      "state": "IL",
       "total": 29598.68,
       "payments": 67,
       "years": "2018\u20132024",
@@ -682,7 +682,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -743,7 +743,7 @@
      {
       "id": "p8",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OH",
+      "state": "IL",
       "total": 29598.68,
       "payments": 67,
       "years": "2018\u20132024",

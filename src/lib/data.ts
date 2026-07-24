@@ -67,6 +67,8 @@ export interface TreeEdge {
   confidence: string
   quote: string | null
   hop: number
+  /** 1-indexed page of the citing summary PDF the quote was extracted from */
+  page?: number | null
 }
 
 export interface ExpertCard {
@@ -214,6 +216,9 @@ function apiBase(): Promise<string | null> {
   }
   return apiBasePromise
 }
+
+/** Base URL of the live bridge, or null when unconfigured — the evidence viewer needs it. */
+export const getApiBase = (): Promise<string | null> => apiBase()
 
 const LIVE_TIMEOUT_MS = 5000
 
