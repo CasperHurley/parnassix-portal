@@ -161,7 +161,11 @@ export function ExpertProfile({ p }: { p: ExpertProfileData }) {
           {p.practice.dataYear && <span className="epHeadNote">Medicare {p.practice.dataYear}</span>}
         </div>
         {p.practice.procedures.length === 0 ? (
-          <div className="epEmpty">No Medicare utilization rows linkable (needs NPI).</div>
+          <div className="epEmpty">
+            {id.npi
+              ? 'No Medicare billing under this NPI in the latest data year (not all physicians bill Medicare directly).'
+              : 'No NPI on the payment records — Medicare utilization not linkable.'}
+          </div>
         ) : (
           p.practice.procedures.map((pr) => (
             <div key={pr.code} className="epRow">
