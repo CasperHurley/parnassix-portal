@@ -44,7 +44,7 @@ export function Experts({
             {!open && (
               <div className="expertFoot">
                 <button className="miniUnlock" onClick={() => onUnlockCard(t)}>
-                  Unlock profile — {fmtUsd(singlePrice)}
+                  Commission full profile — {fmtUsd(singlePrice)}
                 </button>
               </div>
             )}

@@ -597,7 +597,7 @@
      {
       "problem": "Contamination",
       "reports": 6411,
-      "narrative": "THE MANUFACTURER WAS CONTACTED IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. THE MANUFACTURER RECEIVED INFORMATION ALLEGING WAKING UP GASPING FOR BREATH, DEVICE TURNS OFF RANDOMLY, CORD OVERHEATING, PLASTIC PIECES IN TANK, AND A CAR ACCIDENT CAUSED BY FALLING ASLEEP WHILE DRIVING. MEDICAL INTERVENT"
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A CPAP DEVICE'S SOUND ABATEMENT FOAM BECAME DEGRADED AND CAUSED THE PATIENT TO BE HIGH RISK FOR A STROKE. THE PATIENT DID NOT REPORT TO RECEIVE MEDICAL INTERVENTION. THE MANUFACTURER'S INVESTIGATION IS ONGOING. A FOLLOW-UP REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETE."
      },
      {
       "problem": "Inadequate User Interface",
@@ -607,17 +607,17 @@
      {
       "problem": "Corroded",
       "reports": 2674,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION REGARDING A DREAMSTATION AUTO. THE DEVICE WAS RETURNED TO A THIRD PARTY SERVICE CENTER. DURING VISUAL INSPECTION OF THE DEVICE, CORROSION WAS FOUND ON THE POWER CONNECTOR. IN ADDITION, THE INSPECTION FOUND CORROSION ON METALLIC SURFACES, DUST AND DIRT WAS OBSERVED INSIDE THE DEVICE. THE DEVICE WAS SCRAPPED. THIS REPORT IS BEING SUBMITTED FOR THE CORROSION FOUND ON THE POWER CONNE"
+      "narrative": "A DEVICE WAS RETURNED TO A THIRD-PARTY SERVICE CENTER IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. DURING THE EVALUATION OF THE DEVICE, THE THIRD-PARTY SERVICE CENTER VISUALLY INSPECTED THE DEVICE AND FOUND NO EVIDENCE OF FOAM DEGRADATION. THERE WERE SECONDARY FINDINGS THAT THE UNIT'S POWER CONNEC"
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 2264,
-      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A PATIENT WITH A REM AUTO A-FLEX DEVICE HAS PASSED AWAY. THE REPORTED EVENT MAKES NO ALLEGATION OF ANY SPECIFIC DEVICE MALFUNCTION, USE ERROR, FAILURE, LABELING, OR OTHER DEFICIENCY THAT IS RELEVANT TO THE HARMS REPORTED; THEREFORE, BASED ON INFORMATION AVAILABLE AT THIS TIME, THE DEVICE DID NOT CAUSE OR CONTRIBUTE TO A SERIOUS INJURY OR DEATH. ADDITIONAL INFORMATION HAS"
+      "narrative": "A REPORT WAS RECEIVED REGARDING A (B)(6) MALE PATIENT WHO EXPERIENCED A RASH, ODD TASTE AND CHEST TIGHTNESS DURING TREATMENT. FOLLOW UP WITH THE HOME HEMODIALYSIS NURSE CONFIRMED NO MEDICAL INTERVENTION WAS REQUIRED. THE PATIENT WAS INSTRUCTED TO FLUSH THE SYSTEM WITH SALINE PRIOR TO TREATMENT. THE PATIENT EXPERIENCED THE SAME ISSUES WHEN IN TREATMENT AT THE CENTER USING NON-NXSTAGE EQUIPMENT. THE PATIENT CONTINUES T"
      },
      {
       "problem": "Electrical /Electronic Property Problem",
       "reports": 1616,
-      "narrative": "THE CUSTOMER REPORTED THAT THE UNIT IS DISPLAYING A DA PCBA ADC REFERENCE FAILED ERROR CODE. THE CUSTOMER CONTACTED PRODUCT SUPPORT AND REPORTED THE DATA ACQUISITION (DA) BOARD AND CABLE HAVE BEEN REPLACED TWICE AND THE UNIT IS STILL GETTING A VENT INOP ERROR MESSAGE AFTER A FEW HOURS OF RUNNING. THE CUSTOMER VERIFIED ALL 8 PINS ARE PROPERLY INSTALLED INTO THE (DA) PCBA. PRODUCT SUPPORT RECOMMENDED PART TO REPLACE PA"
+      "narrative": "THE BIPAP A40 PRO (UPDATE MATERIAL # FROM RA) IS SUBSTANTIALLY SIMILAR TO THE BIPAP A40 (1111169) AND WILL BE REPORTED IN THE UNITED STATES UNDER BIPAP A40, 501K NUMBER: K121623."
      },
      {
       "problem": "Device Sensing Problem",
@@ -627,7 +627,7 @@
      {
       "problem": "Device Alarm System",
       "reports": 888,
-      "narrative": "H11. DUE TO THE DAMAGE OF THE USER INTERFACE BEZEL, THE 1102 ERROR CODE WAS NOT CONFIRMED BY THE FSE (FIELD SERVICE ENGINEER) DURING THE ONSITE SERVICE VISIT ON 24JAN2023. H10. ON 28JUN2023, THE CUSTOMER CALLED THE FSE BACK AND INFORMED THE FSE THAT THE DEVICE HAD BEEN SCRAPPED. NO FURTHER WORK WAS PERFORMED BY PHILIPS TO CORRECT THE DEVICE ISSUE. THE INVESTIGATION CONCLUDES THAT NO FURTHER ACTION IS REQUIRED AT THIS"
+      "narrative": "AN AUTHORIZED SERVICE PROVIDER (ASP) EVALUATED THE VENTILATOR AND WAS UNABLE TO FIND AN ERROR DESPITE CHECKING THE LOGS. THE ASP PERFORMED TESTING AND ALL TESTS PASSED. BASED ON INFORMATION PROVIDED AND/OR SERVICE PERFORMED, THE CUSTOMERS ALLEGED MALFUNCTION WAS NOT CONFIRMED. THE ROOT CAUSE AT COMPONENT LEVEL CANNOT BE CONFIRMED."
      }
     ]
    },
@@ -758,10 +758,10 @@
      },
      {
       "from": "K241268",
-      "to": "K113068",
+      "to": "K200480",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "compatible with the the devices with\nHumidification System One Humidifier Dreamstation Series Respironics Dreamstation which the\nChambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation",
+      "quote": "140424 Same indications for use and 21 CFR \u00a7868.5270 (BZE)\nsame or similar technology.\nPhilips Respironics Reusable\nHeated Tubing\nReference K200480 Same indications for use and 21 CFR 868.5905 (BZD)\ns",
       "hop": 1
      },
      {
@@ -774,18 +774,18 @@
      },
      {
       "from": "K241268",
-      "to": "K200480",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "140424 Same indications for use and 21 CFR \u00a7868.5270 (BZE)\nsame or similar technology.\nPhilips Respironics Reusable\nHeated Tubing\nReference K200480 Same indications for use and 21 CFR 868.5905 (BZD)\ns",
-      "hop": 1
-     },
-     {
-      "from": "K241268",
       "to": "K121623",
       "kind": "additional",
       "confidence": "medium",
       "quote": "espironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible.\nOne Heated Humidifier machine (K200480)) machine (K200480))\n(K121623).\nAnatomical Site Non-invasive Non-invasive Non-inva",
+      "hop": 1
+     },
+     {
+      "from": "K241268",
+      "to": "K113068",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "compatible with the the devices with\nHumidification System One Humidifier Dreamstation Series Respironics Dreamstation which the\nChambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation",
       "hop": 1
      },
      {
@@ -830,10 +830,10 @@
      },
      {
       "from": "K133547",
-      "to": "K133647",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
+      "to": "K122051",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "dicate NStage System\nOne. The NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was",
       "hop": 2
      },
      {
@@ -846,18 +846,10 @@
      },
      {
       "from": "K133547",
-      "to": "K122051",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "dicate NStage System\nOne. The NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was",
-      "hop": 2
-     },
-     {
-      "from": "K140424",
-      "to": "K113068",
+      "to": "K133647",
       "kind": "document-wide",
       "confidence": "low",
-      "quote": "has a proprietary connector with two locking\ntabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated H",
+      "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
       "hop": 2
      },
      {
@@ -866,6 +858,14 @@
       "kind": "document-wide",
       "confidence": "low",
       "quote": "s it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623).\nSummary of Technological Characteristics of Device",
+      "hop": 2
+     },
+     {
+      "from": "K140424",
+      "to": "K113068",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "has a proprietary connector with two locking\ntabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated H",
       "hop": 2
      },
      {
@@ -1535,5 +1535,6 @@
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
   "USPTO bibliographic grants"
- ]
+ ],
+ "dossierPrice": 24500
 }

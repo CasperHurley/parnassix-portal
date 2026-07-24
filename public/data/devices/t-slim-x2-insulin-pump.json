@@ -377,32 +377,32 @@
      {
       "problem": "Incorrect Measurement",
       "reports": 97240,
-      "narrative": "IT WAS REPORTED THAT A MINIMUM FILL NOTIFICATION OCCURRED AFTER THE USER FILLED THE CARTRIDGE WITH 200 UNITS OF INSULIN DURING THE LOAD SEQUENCE. A NEW CARTRIDGE WAS LOADED TO RESOLVE THE ISSUE. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 265 MG/DL."
+      "narrative": "IT WAS REPORTED THAT THE CUSTOMER'S FILL ESTIMATE WAS INACCURATE AFTER LOADING THE CARTRIDGE WITH COLD INSULIN. THERE WAS NO REPORTED IMPACT TO THE CUSTOMER'S BLOOD GLUCOSE LEVEL."
      },
      {
       "problem": "Charging Problem",
       "reports": 94439,
-      "narrative": "IT WAS REPORTED THAT THE PUMP BATTERY COULD NOT BE CHARGED. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 177 MG/DL. THE CUSTOMER REVERTED TO AN ALTERNATE METHOD OF INSULIN THERAPY."
+      "narrative": "IT WAS REPORTED THAT THE PUMP COULD NOT BE CHARGED DESPITE THE ATTEMPT OF MULTIPLE USB CABLES, WALL ADAPTERS AND POWER SOURCES. THE CUSTOMER\u00bfS BLOOD GLUCOSE WAS 400S (MG/DL). REPORTEDLY THE CUSTOMER REVERTED TO MANUAL INJECTIONS FOR INSULIN THERAPY."
      },
      {
       "problem": "Battery Problem",
       "reports": 77245,
-      "narrative": "THE DEVICE HAS BEEN RECEIVED FOR EVALUATION; HOWEVER, DEVICE EVALUATION IS NOT YET COMPLETE. A SUPPLEMENTAL REPORT WILL BE FILED UPON COMPLETION OF THE EVALUATION. DEVICE NOT RETURNED."
+      "narrative": "IT WAS REPORTED THAT THE PUMP BATTERY WAS DEPLETING QUICKLY. THE CUSTOMER CONTINUED TO USE THE PUMP FOR INSULIN THERAPY. THERE WAS NO REPORTED IMPACT TO BLOOD GLUCOSE. CUSTOMER DECLINED TROUBLESHOOTING WITH TANDEM TECHNICAL SUPPORT."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 65369,
-      "narrative": "IT WAS REPORTED THAT THE CUSTOMER EXPERIENCED A LOW BLOOD GLUCOSE (BG) LEVEL OF APPROXIMATELY 20 MG/DL WITH AN UNKNOWN CAUSE. PARAMEDICS TRANSPORTED CUSTOMER TO THE EMERGENCY ROOM (ER) WHERE DEXTROSE WAS USED TO TREAT LOW BG. CUSTOMER WAS RELEASED FROM THE ER AFTER A FIVE HOURS FEELING BETTER."
+      "narrative": "IT WAS REPORTED THAT CUSTOMER PERFORMED THE LOAD FILL TUBING SEQUENCE WHILE CONNECTED AT THE INFUSION SET SITE. SUBSEQUENTLY, 25 UNITS OF INSULIN WAS INADVERTENTLY DELIVERED. THE CUSTOMER\u00bfS BLOOD GLUCOSE (BG) LOWERED TO 50 MG/DL. CUSTOMER CONSUMED GLUCOSE TABLETS TO ADDRESS BG. TANDEM TECHNICAL SUPPORT EDUCATED THE CUSTOMER TO NOT BE CONNECTED TO THE PUMP DURING THE FILL TUBING PROCESS."
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 62549,
-      "narrative": "IT WAS REPORTED THAT INTERMITTENT OCCLUSION ALARMS OCCURRED. CUSTOMER REPORTED USING APIDRA. TANDEM TECHNICAL SUPPORT INFORMED CUSTOMER THAT APIDRA IS OFF LABEL PER THE USER GUIDE. CUSTOMER CHANGED PUMP SUPPLIES TO ADDRESS THE ISSUE AND RESUMED INSULIN DELIVERY. CUSTOMER'S BLOOD GLUCOSE WAS 330 MG/DL."
+      "narrative": "IT WAS REPORTED THAT INTERMITTENT OCCLUSION ALARMS OCCURRED. SYSTEM CHECK WAS PERFORMED WITH TANDEM TECHNICAL SUPPORT AND THE ROOT CAUSE COULD NOT BE DETERMINED. CUSTOMER CHANGED PUMP SUPPLIES AND SUCCESSFULLY RESUMED INSULIN DELIVERY. CUSTOMER'S BLOOD GLUCOSE WAS 289 MG/DL."
      },
      {
       "problem": "Failure to Sense",
       "reports": 55150,
-      "narrative": "IT WAS REPORTED THAT THE PUMP TOUCHSCREEN TIMES OUT EARLY. CUSTOMER'S BLOOD GLUCOSE WAS 79 MG/DL. DURING TROUBLESHOOTING WITH TANDEM TECHNICAL SUPPORT, THE ISSUE WAS RESOLVED."
+      "narrative": "IT WAS REPORTED THAT THE PUMP FELL, AND THE TOUCH SCREEN BECAME SHATTERED AND UNRESPONSIVE. THERE WAS NO ADVERSE IMPACT TO CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL. REPORTEDLY, CUSTOMER REVERTED TO BACKUP PUMP FOR INSULIN THERAPY."
      },
      {
       "problem": "Communication or Transmission Problem",
@@ -515,22 +515,6 @@
     "edges": [
      {
       "from": "K203234",
-      "to": "K193483",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
-      "hop": 1
-     },
-     {
-      "from": "K203234",
-      "to": "K201214",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
-      "hop": 1
-     },
-     {
-      "from": "K203234",
       "to": "K200467",
       "kind": "document-wide",
       "confidence": "low",
@@ -543,6 +527,22 @@
       "kind": "document-wide",
       "confidence": "low",
       "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitor",
+      "hop": 1
+     },
+     {
+      "from": "K203234",
+      "to": "K193483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
+      "hop": 1
+     },
+     {
+      "from": "K203234",
+      "to": "K201214",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
       "hop": 1
      },
      {
@@ -563,18 +563,18 @@
      },
      {
       "from": "K232380",
-      "to": "K193483",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "ed from other interoperable devices.\nThe pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabe",
-      "hop": 1
-     },
-     {
-      "from": "K232380",
       "to": "K223931",
       "kind": "additional",
       "confidence": "medium",
       "quote": "betes management. The\nlatter is being submitted concurrently.\nIn addition, the Subject Device is compatible with iCGM systems cleared under K223931 21 CFR\n862.1355.",
+      "hop": 1
+     },
+     {
+      "from": "K232380",
+      "to": "K193483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ed from other interoperable devices.\nThe pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabe",
       "hop": 1
      },
      {
@@ -584,6 +584,22 @@
       "confidence": "medium",
       "quote": "ode\nClassification Name Alternate controller enabled infusion pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nPredicate Device K232380, t:slim X2 insulin pump with\ninteroperable technolog",
       "hop": 1
+     },
+     {
+      "from": "K193483",
+      "to": "P180008",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "XII. Discussion of the Non-Clinical Testing\nThe t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the\nBasal-IQ Technology algorithm and calculator. No new non-clinical la",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "K192841",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ techn",
+      "hop": 2
      },
      {
       "from": "K193483",
@@ -603,14 +619,6 @@
      },
      {
       "from": "K193483",
-      "to": "K192841",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ techn",
-      "hop": 2
-     },
-     {
-      "from": "K193483",
       "to": "DEN190034",
       "kind": "additional",
       "confidence": "medium",
@@ -626,27 +634,11 @@
       "hop": 2
      },
      {
-      "from": "K193483",
-      "to": "P180008",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "XII. Discussion of the Non-Clinical Testing\nThe t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the\nBasal-IQ Technology algorithm and calculator. No new non-clinical la",
-      "hop": 2
-     },
-     {
       "from": "K200467",
       "to": "DEN190034",
       "kind": "primary",
       "confidence": "high",
       "quote": "ation Name/Number\nInteroperable automated glycemic controller per 21 CFR 862.1356\nProduct Codes\nQJI\nPredicate Device\nControl-IQ technology (DEN190034)\nDevice Description\nThe Control-IQ technology, is ",
-      "hop": 2
-     },
-     {
-      "from": "K201214",
-      "to": "K193483",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "her interoperable devices. The Subject Device is compatible\nwith Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and\nControl IQ Technology (DEN190034) to aid in dia",
       "hop": 2
      },
      {
@@ -666,11 +658,19 @@
       "hop": 2
      },
      {
-      "from": "K203234",
+      "from": "K201214",
       "to": "K193483",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "her interoperable devices. The Subject Device is compatible\nwith Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and\nControl IQ Technology (DEN190034) to aid in dia",
+      "hop": 2
+     },
+     {
+      "from": "K203234",
+      "to": "K201214",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
       "hop": 2
      },
      {
@@ -691,10 +691,18 @@
      },
      {
       "from": "K203234",
-      "to": "K201214",
-      "kind": "primary",
+      "to": "K193483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
+      "hop": 2
+     },
+     {
+      "from": "K223931",
+      "to": "K213919",
+      "kind": "reference",
       "confidence": "medium",
-      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
+      "quote": "com G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018)\nDexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022)\n7.4. Device Description\nT",
       "hop": 2
      },
      {
@@ -714,19 +722,19 @@
       "hop": 2
      },
      {
-      "from": "K223931",
-      "to": "K213919",
-      "kind": "reference",
-      "confidence": "medium",
-      "quote": "com G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018)\nDexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022)\n7.4. Device Description\nT",
-      "hop": 2
-     },
-     {
       "from": "K232380",
       "to": "K200467",
       "kind": "additional",
       "confidence": "medium",
       "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The\nlatter is being s",
+      "hop": 2
+     },
+     {
+      "from": "K232380",
+      "to": "K203234",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "730\nProduct code QFG\nRegulatory class II\nPredicate devices t:slim X2 Insulin Pump with Interoperable Technology (with\nt:connect mobile app (K203234)\nIntended Use\nThe t:slim X2 Insulin Pump with Intero",
       "hop": 2
      },
      {
@@ -743,14 +751,6 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "ed from other interoperable devices.\nThe pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabe",
-      "hop": 2
-     },
-     {
-      "from": "K232380",
-      "to": "K203234",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "730\nProduct code QFG\nRegulatory class II\nPredicate devices t:slim X2 Insulin Pump with Interoperable Technology (with\nt:connect mobile app (K203234)\nIntended Use\nThe t:slim X2 Insulin Pump with Intero",
       "hop": 2
      }
     ],
@@ -812,7 +812,7 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
       "state": "TX",
       "total": 18831.22,
       "payments": 55,
@@ -911,7 +911,7 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
       "state": "TX",
       "total": 18831.22,
       "payments": 55,
@@ -1375,5 +1375,6 @@
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
   "USPTO bibliographic grants"
- ]
+ ],
+ "dossierPrice": 24500
 }

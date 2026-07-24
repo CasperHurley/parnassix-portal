@@ -36,13 +36,15 @@ export function ownedKeys(): string[] {
 }
 
 /** Hierarchy: everything ⊃ dossier:<slug> ⊃ per-module ⊃ per-card.
- *  The full dossier covers narratives/experts/ip/corporate; predicate-tree and
- *  icp-map are add-ons priced separately. Corporate also unlocks with any
- *  purchase touching the device (it is bundled, never sold alone). */
+ *  The CORE dossier (price_dossier.py model) covers narratives, the ranked expert
+ *  overlap, the predicate family tree (priced into the dossier where the pathway
+ *  carries one), and the corporate panel; the ICP pack and USPTO portfolio are
+ *  à-la-carte add-ons. Corporate also unlocks with any purchase touching the
+ *  device (bundled, never sold alone). */
 export function isUnlocked(owned: string[], slug: string, module: string, cardId?: string): boolean {
   if (owned.includes('everything')) return true
   const dossier = owned.includes(`dossier:${slug}`)
-  const inDossier = ['narratives', 'experts', 'ip', 'corporate'].includes(module)
+  const inDossier = ['narratives', 'experts', 'predicate-tree', 'corporate'].includes(module)
   if (dossier && inDossier) return true
   if (owned.includes(`${slug}:${module}`)) return true
   if (module === 'corporate' && owned.some((k) => k === `dossier:${slug}` || k.startsWith(`${slug}:`)))

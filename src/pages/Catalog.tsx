@@ -104,7 +104,7 @@ export function Catalog({
                 {owned ? (
                   <span className="cardOwned">Dossier licensed ✓</span>
                 ) : (
-                  <span className="cardPrice">Dossier {fmtUsd(pricing.dossier)}</span>
+                  <span className="cardPrice">Dossier {fmtUsd(d.dossierPrice)}</span>
                 )}
                 <span className="cardCta">Open →</span>
               </div>

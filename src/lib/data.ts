@@ -16,6 +16,7 @@ export interface CatalogDevice {
   pathway: string
   maturity: string
   stats: DeviceStats
+  dossierPrice: number
   hasTree: boolean
   hasIcp: boolean
 }
@@ -102,6 +103,7 @@ export interface DeviceDossier {
   pathway: string
   maturity: string
   stats: DeviceStats
+  dossierPrice: number
   summary: SummaryRow[]
   recentRecalls: RecentRecall[]
   timeline: TimelineSeries[]
@@ -156,8 +158,9 @@ export interface PricingItem {
 
 export interface Pricing {
   currency: string
-  dossier: number
+  dossierBase: number
   dossierIncludes: string[]
+  dossierNote: string
   items: PricingItem[]
   everything: { price: number; listSum: number; note: string }
   retainer: { label: string; blurb: string }

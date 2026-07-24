@@ -84,14 +84,14 @@ export function Dossier({
               className="buyBtn"
               onClick={() =>
                 buy(
-                  `${device.name} — full dossier`,
-                  pricing.dossier,
+                  `${device.name} — CORE dossier`,
+                  device.dossierPrice,
                   [`dossier:${device.slug}`],
-                  'Includes adverse-event narratives, all expert profiles, IP portfolio, and the corporate panel. Predicate lineage and the market pack are separate add-ons.',
+                  pricing.dossierNote,
                 )
               }
             >
-              Buy full dossier — {fmtUsd(pricing.dossier)}
+              Buy CORE dossier — {fmtUsd(device.dossierPrice)}
             </button>
           )}
           <span className="chip">{device.pathway}</span>
@@ -227,7 +227,8 @@ export function Dossier({
                     Unlock all {expTeaser.cards.length} profiles — {fmtUsd(priceOf(pricing, 'experts'))}
                   </button>
                   <span className="moduleTeaserStats">
-                    or unlock individual profiles below at {fmtUsd(priceOf(pricing, 'expert-single'))} each
+                    or commission a person-anchored deep-dive on any one expert at{' '}
+                    {fmtUsd(priceOf(pricing, 'expert-single'))}
                   </span>
                 </div>
               )}
@@ -239,9 +240,10 @@ export function Dossier({
                 singlePrice={priceOf(pricing, 'expert-single')}
                 onUnlockCard={(card) =>
                   buy(
-                    `${device.name} — single expert profile (${fmtUsd(card.total)} recipient)`,
+                    `${device.name} — expert profile, person-anchored deep-dive (${fmtUsd(card.total)} recipient)`,
                     priceOf(pricing, 'expert-single'),
                     [`${device.slug}:experts:${card.id}`],
+                    'A full profile on one named expert: every company and device that paid them, plus authored literature. Ordered à la carte — delivered as its own cited board.',
                   )
                 }
               />
@@ -287,8 +289,8 @@ export function Dossier({
           locked={!has(device.slug, 'corporate')}
           onUnlock={() =>
             buy(
-              `${device.name} — full dossier`,
-              pricing.dossier,
+              `${device.name} — CORE dossier`,
+              device.dossierPrice,
               [`dossier:${device.slug}`],
               'The corporate panel is bundled — it unlocks with any purchase on this device.',
             )

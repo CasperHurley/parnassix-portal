@@ -1,0 +1,12 @@
+# pages.dev edge-caches by URL and deploys do not reliably purge it (the publish-layer
+# lesson): mutable stable-URL content must revalidate; hashed /assets/* cache forever.
+/index.html
+  Cache-Control: max-age=0, must-revalidate
+/
+  Cache-Control: max-age=0, must-revalidate
+/live-config.json
+  Cache-Control: max-age=0, must-revalidate
+/data/*
+  Cache-Control: max-age=0, must-revalidate
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

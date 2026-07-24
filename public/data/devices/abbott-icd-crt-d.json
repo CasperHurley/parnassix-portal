@@ -524,7 +524,7 @@
      {
       "problem": "Over-Sensing",
       "reports": 29461,
-      "narrative": "IT WAS REPORTED THAT PATIENT PRESENTED REMOTELY WITH POST PACED T-WAVE OVERSENSING (PPTWOS) PATIENT HAD NOT COME IN TO CLINIC FOR PROGRAMMING CHANGES YET. NO PATIENT CONSEQUENCES REPORTED."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
@@ -534,7 +534,7 @@
      {
       "problem": "Premature Discharge of Battery",
       "reports": 5603,
-      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LI CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHANISM FOR TH"
+      "narrative": "IT WAS REPORTED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR EXHIBITED PREMATURE BATTERY DEPLETION. THE DEVICE WAS EXPLANTED AND REPLACED. THE PATIENT WAS IN STABLE CONDITION."
      },
      {
       "problem": "Inappropriate or Unexpected Reset",
@@ -549,17 +549,17 @@
      {
       "problem": "Inappropriate/Inadequate Shock/Stimulation",
       "reports": 5111,
-      "narrative": "A DEVICE HISTORY RECORD (DHR) REVIEW WAS PERFORMED AND ALL REQUIRED MANUFACTURING PROCESSES AND INSPECTIONS STEPS WERE CONFIRMED TO BE COMPLETED PER THE REQUIREMENTS. THE DEVICE MET SPECIFICATIONS PRIOR TO LEAVING ABBOTT MANUFACTURING FACILITIES."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY ROOM AFTER RECEIVING INAPPROPRIATE SHOCKS DUE TO AF WITH RAPID VENTRICULAR RESPONSE. PROGRAMMING CHANGES WERE RECOMMENDED. THE PATIENT WAS STABLE AND WILL CONTINUE TO BE MONITORED WITH ROUTINE FOLLOW-UP."
      },
      {
       "problem": "Failure to Interrogate",
       "reports": 3447,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY ROOM AFTER THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR EXHIBITED MULTIPLE INAPPORPRIATE SHOCK THERAPY EPISODES. THE PHYSICIAN ATTEMPTED TO USE A MAGNET BUT IT WAS UNSUCCESSFUL. IT WAS NOTED THAT THE PATIENT HAD AN MRI THAT DAY AND THE DEVICE WAS NOT PREPARED PER MRI PROTOCOL. IT WAS ALSO NOTED THAT THE DEVICE EXHIBITED DIAPHRAGMATIC STIMULATION AND BACKUP VVI"
+      "narrative": "ADDITIONAL INFORMATION RECEIVED INDICATED THAT THE DEVICE WAS ABLE TO BE INTERROGATED AS OPPOSED TO UNABLE TO BE INTERROGATED AS PREVIOUSLY REPORTED."
      },
      {
       "problem": "Under-Sensing",
       "reports": 2122,
-      "narrative": "FURTHER INFORMATION WAS REQUESTED BUT NOT YET RECEIVED. THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "IT WAS REPORTED THAT POST-PROCEDURE PRE-DISCHARGE, THE DEVICE EXHIBITED FAR P WAVE OVERSENSING WAS SEEN ON VENTRICULAR EGM (VEGM) BUT NOT SENSED THROUGH THE DEVICE. A CHEST X-RAY WAS PERFORMED, AND NO ANOMALIES WERE SEEN. THE PATIENT WAS LATER DISCHARGED. THERE WERE NO ADVERSE CONSEQUENCES TO THE PATIENT."
      }
     ]
    },
@@ -587,7 +587,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -682,7 +682,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -868,12 +868,12 @@
     "codes": [
      {
       "code": "93296",
-      "description": "Remote evaluations of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
       "services": 13455573
      },
      {
       "code": "93295",
-      "description": "Remote evaluations of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "description": "Remote evaluation of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
       "services": 6395985
      },
      {
@@ -1181,5 +1181,6 @@
   "CMS Open Payments",
   "CMS Medicare utilization (state grain)",
   "USPTO bibliographic grants"
- ]
+ ],
+ "dossierPrice": 12500
 }

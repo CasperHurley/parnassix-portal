@@ -14,6 +14,7 @@
     "recalls": 75,
     "classI": 21
    },
+   "dossierPrice": 24500,
    "hasTree": true,
    "hasIcp": true
   },
@@ -31,6 +32,7 @@
     "recalls": 229,
     "classI": 49
    },
+   "dossierPrice": 24500,
    "hasTree": true,
    "hasIcp": true
   },
@@ -48,6 +50,7 @@
     "recalls": 51,
     "classI": 3
    },
+   "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
   },
@@ -65,6 +68,7 @@
     "recalls": 97,
     "classI": 10
    },
+   "dossierPrice": 24500,
    "hasTree": true,
    "hasIcp": true
   },
@@ -82,6 +86,7 @@
     "recalls": 70,
     "classI": 33
    },
+   "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
   },
@@ -99,6 +104,7 @@
     "recalls": 19,
     "classI": 8
    },
+   "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
   },
@@ -116,6 +122,7 @@
     "recalls": 136,
     "classI": 1
    },
+   "dossierPrice": 24500,
    "hasTree": true,
    "hasIcp": true
   },
@@ -133,6 +140,7 @@
     "recalls": 603,
     "classI": 39
    },
+   "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
   },
@@ -150,6 +158,7 @@
     "recalls": 10,
     "classI": 4
    },
+   "dossierPrice": 24500,
    "hasTree": true,
    "hasIcp": true
   },
@@ -167,6 +176,7 @@
     "recalls": 2,
     "classI": 0
    },
+   "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
   }
