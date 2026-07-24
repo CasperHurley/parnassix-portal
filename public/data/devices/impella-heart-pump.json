@@ -420,37 +420,37 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 12747,
-      "narrative": "A PATIENT WITH CORONARY ARTERY DISEASE WAS TRANSFERRED INTO THE TERTIARY CENTER FOR CARE ESCALATION AND INTERVENTION. AN IMPELLA CP WAS PLACED FOR HEMODYNAMIC SUPPORT VIA FEMORAL ARTERY ACCESS. THIS PLACEMENT WAS DONE DESPITE KNOWLEDGE OF PERIPHERAL ARTERIAL DISEASE. THE CASE CONTINUED FOR THE ANGIOPLASTY WITH CORONARY ATHERECTOMY. AFTER THE ANGIOPLASTY THE PATIENT COMPLAINED OF DISCOMFORT AND BEGAN TO DETERIORATE. T"
+      "narrative": "THE COMPLAINANT REPORTED A (B)(6) YEAR OLD FEMALE HAD IMPELLA CP PUMP INSERTED IN THE LEFT FEMORAL. THE PATIENT WAS GOING TO THE OPERATING ROOM (OR) FOR A BILATERAL PERFUSION FOR THE ECMO LIMBS AND FOR A TAP AS THEY KNEW THERE WAS A NEED FOR PERICARDIAL DRAINAGE. UPON DRAINING, THE ANESTHESIA TEAM NOTED FRAGRANTLY RED BLOOD DRAINING IN LARGE AND CONSTANT FLOW. AFTER 15 MINUTES AND OVER 200CC OF DRAINAGE THEY DECIDED"
      },
      {
       "problem": "Restricted Flow rate",
       "reports": 1635,
-      "narrative": "THE INVESTIGATION INTO THE THROMBUS AND THE LOW PUMP FLOW ISSUE HAS BEEN COMPLETED. THE DEVICE WAS NOT RETURNED FOR INVESTIGATION. PER THE CLINICAL INFORMATION PROVIDED, DOCTOR FOUND FLOATING BIOMATERIAL IN LEFT VENTRICLE. THE CAUSE OF THE LOW PUMP FLOW ISSUE WAS MOST LIKELY BIOMATERIAL FOUND IN LV AND BIOMATERIAL INTERACTION WITH PUMP WAS NOTED DURING DATA LOG REVIEW."
+      "narrative": "THE IMPELLA CP DEVICE HAS NOT BEEN RETURNED FOR EVALUATION. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED. THIS REPORT IS BEING FILED AS PART OF A RETROSPECTIVE REVIEW OF HISTORICAL RECORDS."
      },
      {
       "problem": "Patient-Device Incompatibility",
       "reports": 1625,
-      "narrative": "THE USER FACILITY REPORTED A 52-YEAR-OLD MALE NOTED AS HEART TRANSPLANT REJECTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE MEDICAL TEAM WAS ABLE TO INSERT THE IMPELLA PUMP SEVERAL TIMES HOWEVER THE PUMP WOULD NOT MAINTAIN THE PROPER POSITION. AFTER A FEW FAILED ATTEMPTS THE MEDICAL TEAM DECIDED TO EXPLANT THE PUMP. THE IMPELLA RP WAS REPLACED WITH AND IMPELLA RP FLEX VIA RIGHT I"
+      "narrative": "PRODUCT WAS NOT RETURNED FOR INVESTIGATION. THE CAUSE OF THE DELIVERY ISSUE WAS PATIENT CONDITION RELATED TO ARTERY BIFURCATION, BASED ON PROVIDED CLINICAL DETAILS."
      },
      {
       "problem": "Pumping Stopped",
       "reports": 1221,
-      "narrative": "SINCE THE ORIGINAL REPORT WAS FILED, THE INVESTIGATION INTO THE PUMP STOP HAS CONCLUDED. THE PUMP WAS RETURNED FOR BENCHTOP ANALYSIS. THE PUMP WAS SEEN TO HAVE BIOMATERIAL ON THE INLET AN OUTLET OF THE PUMP. ADDITIONALLY, THERE WERE OPEN LINES WITHIN THE RED HANDLE OF THE PUMP. THE OPEN LINES CAUSED AN ELECTRICAL FAILURE OF THE PUMP. THIS WOULD HAVE BEEN DUE TO EXCESSIVE FORCE. THE FAILURE WILL BE MONITORED AND TREND"
+      "narrative": "THE DEVICE WAS RECEIVED AND AN EVALUATION IS UNDERWAY. A SUPPLEMENTAL MDR WILL BE SUBMITTED UPON COMPLETION OF OUR ANALYSIS."
      },
      {
       "problem": "Positioning Failure",
       "reports": 1033,
-      "narrative": "THE IMPELLA DEVICE WAS NOT RECEIVED FROM THE CUSTOMER AND THEREFORE, AN EVALUATION OF THE DEVICE WAS NOT POSSIBLE. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED."
+      "narrative": "THE USER FACILITY REPORTED A 52-YEAR-OLD MALE NOTED AS HEART TRANSPLANT REJECTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE MEDICAL TEAM WAS ABLE TO INSERT THE IMPELLA PUMP SEVERAL TIMES HOWEVER THE PUMP WOULD NOT MAINTAIN THE PROPER POSITION. AFTER A FEW FAILED ATTEMPTS THE MEDICAL TEAM DECIDED TO EXPLANT THE PUMP. THE IMPELLA RP WAS REPLACED WITH AND IMPELLA RP FLEX VIA RIGHT I"
      },
      {
       "problem": "Application Program Problem",
       "reports": 781,
-      "narrative": "THE USER FACILITY REPORTED A 53-YEAR-OLD MALE OF UNKNOWN RACE AND ETHNICITY IN ST ELEVATED MYOCARDIAL INFARCTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. IT WAS REPORTED THAT THE PATIENT WAS TRANSFERRED TO ANOTHER FACILITY AND IN THE FLIGHT CONTROLLER ERROR ALARM OCCURRED. ONCE ARRIVAL AT THE NEW FACILITY THE AUTOMATED IMPELLA CONTROLLER (AIC) WAS EXCHANGED. NO PATIENT HARM WAS REPO"
+      "narrative": "THE COMPLAINANT REPORTED THAT AN AIC (AUTOMATED IMPELLA CONTROLLER) ALARMED WITH A CONTROLLER ERROR ALARM. THE ALARM RESOLVED ITSELF WITHIN THIRTY SECONDS, HOWEVER THE DECISION WAS MADE TO SWAP THE CONSOLE FOR SERVICE. THE UNIT WAS REMOVED AND REPLACED BY A NEW AIC FOR ONGOING PATIENT SUPPORT. THERE WAS NO HARM TO THE PATIENT."
      },
      {
       "problem": "Fluid/Blood Leak",
       "reports": 678,
-      "narrative": "THE COMPLAINANT REPORTED THAT THE IMPELLA 5.5 HAS A CATHETER PURGE SIDE ARM AND PURGE YELLOW CONNECTOR LEAK. RECONNECTING THE CONNECTOR DID NOT IMPROVE THE LEAK, SO A THREE-WAY STOPCOCK WAS CONNECTED TO IMPROVE THE SITUATION. THERE WAS NO REPORTED HARM TO THE PATIENT."
+      "narrative": "THE DEVICE WAS USED FOR TREATMENT. THE DEVICE WAS DISCARDED AND NOT RETURNED FOR ANALYSIS, THEREFORE, THE CLINICAL OBSERVATION COULD NOT BE CONFIRMED. THE INVESTIGATION WILL FOCUS ON A REVIEW OF PRODUCT DOCUMENTATION. THE DEVICE HISTORY RECORD WAS REVIEWED TO CONFIRM THAT THE DEVICE PASSED ALL APPLICABLE IN-PROCESS AND FINAL INSPECTIONS. PER PROCEDURE ADELANTE S2S INTRODUCER SHEATH IN-PROCESS AND FINAL INSPECTION: VA"
      },
      {
       "problem": "Increase in Pressure",
@@ -561,7 +561,7 @@
       "to": "K063723",
       "kind": "primary",
       "confidence": "high",
-      "quote": "not currently exist for these devices.\n(i.e. none established under section 514 of the F D & C Act.)\nC. Predicate Device:\nThe IMPELLA 2.5 (K063723)\n0. Device Description:\nThe Impella 2.5 Plus is an up",
+      "quote": "Performance standards do not currently exist for these devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: The IMPELLA 2.5 (K063723) 0. Device Description: The Impella 2.5 Plus is an update to the design of the IMPELLA 2.5, which was",
       "hop": 1,
       "page": 1
      },
@@ -570,7 +570,7 @@
       "to": "K122084",
       "kind": "primary",
       "confidence": "high",
-      "quote": "ces.\n(i.e. none established under section 514 of the F D & C Act.)\nC. Predicate Device:\nOscor Introducer set, Model Adelante-S2 Introducer, K122084\nD. Device Description:\nThe Impella CP Introducer is ",
+      "quote": "devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: Oscor Introducer set, Model Adelante-S2 Introducer, K122084 D. Device Description: The Impella CP Introducer is packaged as a sterile kit, which includes an introducer sheath (consisting",
       "hop": 1,
       "page": 4
      },
@@ -579,7 +579,7 @@
       "to": "K780532",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "ntific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow\nPercutaneous Sheath Introducer, which is cleared under K780532.\nThe predicate devices have not been subjected to an",
+      "quote": "Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices have not been subjected to any design-related recall. D. Device Description: The Impella XR",
       "hop": 1,
       "page": 4
      },
@@ -588,26 +588,8 @@
       "to": "K180785",
       "kind": "primary",
       "confidence": "high",
-      "quote": "340\nRegulation Description: Catheter Introducer\nC. Predicate Device:\nBoston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow\nPercutaneous Sheath Introducer, whi",
+      "quote": "Class II, DYB, 21 CFR- 870.1340 Regulation Description: Catheter Introducer C. Predicate Device: Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices",
       "hop": 1,
-      "page": 4
-     },
-     {
-      "from": "K063723",
-      "to": "K991783",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "ar catheter (classified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Lan",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K063723",
-      "to": "K924643",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "r\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen Catheter - ",
-      "hop": 2,
       "page": 4
      },
      {
@@ -615,7 +597,7 @@
       "to": "K050168",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "keted Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168\nd. Device Description:\nThe IMPELLA RECOVER\u00ae LP 2.5 P",
+      "quote": "Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous Cardiac Support System (IMPELLA RECOVER LP 2.5 System)",
       "hop": 2,
       "page": 4
      },
@@ -624,7 +606,7 @@
       "to": "K924642",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "ified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen C",
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
       "hop": 2,
       "page": 4
      },
@@ -633,7 +615,25 @@
       "to": "K052570",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "er (classified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dua",
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K063723",
+      "to": "K924643",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous",
+      "hop": 2,
+      "page": 4
+     },
+     {
+      "from": "K063723",
+      "to": "K991783",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
       "hop": 2,
       "page": 4
      },
@@ -642,7 +642,7 @@
       "to": "K934901",
       "kind": "primary",
       "confidence": "high",
-      "quote": "niostasis Valve\nClassification Names: Catheter Introducer\nPredicate Devices: Tearaway Sheath Introducer Set with Integral Hemostaris\nValve (K934901)\nDevice Description: The components of the SafeSheat",
+      "quote": "1-eniostasis Valve Classification Names: Catheter Introducer Predicate Devices: Tearaway Sheath Introducer Set with Integral Hemostaris Valve (K934901) Device Description: The components of the SafeSheath MSP h Introducer Kit consists of a sheath with* sideport tubing, stopcock",
       "hop": 2,
       "page": 1
      },
@@ -651,7 +651,7 @@
       "to": "K140338",
       "kind": "primary",
       "confidence": "medium",
-      "quote": "roducer Set\nCommon Name Catheter introducer\nProduct Code DYB\nClassification Class II, 21 CFR Part 870.1340\nPrimary Predicate Creganna-Tactx K140338 27 August 2014\nDevice LotusTM Introducer Set\nReferen",
+      "quote": "Introducer Set Common Name Catheter introducer Product Code DYB Classification Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device",
       "hop": 2,
       "page": 4
      },
@@ -660,7 +660,7 @@
       "to": "K152225",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "ss II, 21 CFR Part 870.1340\nPrimary Predicate Creganna-Tactx K140338 27 August 2014\nDevice LotusTM Introducer Set\nReference Edwards eSheath K152225 24 November 2015\nDevice(s) Introducer Set\nDevice Des",
+      "quote": "Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device Description The iSLEEVETM Introducer Set is a sterile, single-use introducer",
       "hop": 2,
       "page": 4
      }
@@ -741,7 +741,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
       "state": "MA",
       "total": 670319.33,
       "payments": 46,
@@ -842,7 +842,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
       "state": "MA",
       "total": 670319.33,
       "payments": 46,

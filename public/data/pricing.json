@@ -25,10 +25,17 @@
   },
   {
    "id": "expert-single",
-   "label": "Expert profile \u2014 person-anchored deep-dive",
+   "label": "Expert profile \u2014 single (full profile)",
+   "price": 500,
+   "cls": "I",
+   "basis": "One full profile unlocked \u00e0 la carte; the all-profiles unlock covers ten"
+  },
+  {
+   "id": "expert-board",
+   "label": "Standalone expert-witness profiler board",
    "price": 2500,
    "cls": "II",
-   "basis": "Class II, ordered \u00e0 la carte per named expert"
+   "basis": "Person-anchored deep-dive board (every payer, every device, authored literature), commissioned per named expert"
   },
   {
    "id": "predicate-tree",

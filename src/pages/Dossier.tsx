@@ -227,15 +227,16 @@ export function Dossier({
                     className="unlockBtn"
                     onClick={() => moduleBuy('experts', 'all expert profiles')}
                   >
-                    Unlock all {expTeaser.cards.length} profiles — {fmtUsd(priceOf(pricing, 'experts'))}
+                    Unlock all remaining profiles — {fmtUsd(priceOf(pricing, 'experts'))}
                   </button>
                   <span className="moduleTeaserStats">
-                    or commission a person-anchored deep-dive on any one expert at{' '}
+                    or unlock any single full profile below at{' '}
                     {fmtUsd(priceOf(pricing, 'expert-single'))}
                   </span>
                 </div>
               )}
               <Experts
+                slug={device.slug}
                 teaserCards={expTeaser.cards}
                 payloadCards={m.experts.payload.cards}
                 moduleUnlocked={has(device.slug, 'experts')}
@@ -243,10 +244,10 @@ export function Dossier({
                 singlePrice={priceOf(pricing, 'expert-single')}
                 onUnlockCard={(card) =>
                   buy(
-                    `${device.name} — expert profile, person-anchored deep-dive (${fmtUsd(card.total)} recipient)`,
+                    `${device.name} — single expert full profile (${fmtUsd(card.total)} recipient)`,
                     priceOf(pricing, 'expert-single'),
                     [`${device.slug}:experts:${card.id}`],
-                    'A full profile on one named expert: every company and device that paid them, plus authored literature. Ordered à la carte — delivered as its own cited board.',
+                    'Unlocks the complete profile: payments deep-dive incl. research and ownership interests, authored literature, Medicare practice profile, and litigation/PTAB mentions — every section showing its source.',
                   )
                 }
               />

@@ -1,0 +1,2731 @@
+{
+ "profiles": {
+  "p1": {
+   "name": "Kevin Kaiserman",
+   "identity": {
+    "npi": "1437250859",
+    "registryName": "Kevin Kaiserman",
+    "credential": "MD",
+    "taxonomyCode": "2080P0205X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "West Covina",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1437250859"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 9128.9
+     },
+     {
+      "year": 2014,
+      "value": 17294.87
+     },
+     {
+      "year": 2015,
+      "value": 28328.64
+     },
+     {
+      "year": 2016,
+      "value": 69107.09
+     },
+     {
+      "year": 2017,
+      "value": 150026.03
+     },
+     {
+      "year": 2018,
+      "value": 196035.82
+     },
+     {
+      "year": 2019,
+      "value": 96694.95
+     },
+     {
+      "year": 2020,
+      "value": 52717.27
+     },
+     {
+      "year": 2021,
+      "value": 80.18
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 509209.05,
+      "records": 202
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 78674.4,
+      "records": 366
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 16080.3,
+      "records": 350
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 15450.0,
+      "records": 5
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 618974.0,
+      "records": 917
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 426.31,
+      "records": 5
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 13.44,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 2528495.34,
+     "records": 320
+    },
+    "researchPi": {
+     "total": null,
+     "records": 46
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1437250859",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 16,
+     "nameOnly": 9
+    },
+    "articles": [
+     {
+      "title": "Inhaled Insulin Dosing in a Randomized Trial in Adults With Type 1 Diabetes.",
+      "journal": "AACE endocrinology and diabetes",
+      "year": 2026,
+      "pmid": "42221396",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Replacing or Supplementing Automated Insulin Delivery With Inhaled Insulin: A 90-Day Randomized Controlled Trial.",
+      "journal": "Journal of diabetes science and technology",
+      "year": 2025,
+      "pmid": "41216773",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Reduction in Postprandial Peak Glucose With Increased Technosphere Insulin Dosage.",
+      "journal": "Journal of diabetes science and technology",
+      "year": 2024,
+      "pmid": "35833638",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Improved Glycemia with Hybrid Closed-Loop Versus Continuous Subcutaneous Insulin Infusion Therapy: Results from a Randomized Controlled Trial.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2023,
+      "pmid": "36472543",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Time-Action Profile of Technosphere Insulin in Children with Type\u00a01 Diabetes.",
+      "journal": "Diabetes therapy : research, treatment and education of diab",
+      "year": 2023,
+      "pmid": "36652106",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes During the MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2023,
+      "pmid": "37782145",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Glycemic Outcomes During Early Use of the MiniMed\u2122 780G Advanced Hybrid Closed-Loop System with Guardian\u2122 4 Sensor.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2023,
+      "pmid": "37252734",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes During the MiniMed\u2122 Advanced Hybrid Closed-Loop System Pivotal Trial in Adolescents and Adults with Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "34694909",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Glycemic outcomes of children 2-6\u2009years of age with type 1 diabetes during the pediatric MiniMed\u2122 670G system trial.",
+      "journal": "Pediatric diabetes",
+      "year": 2022,
+      "pmid": "35001477",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evaluation of Extended Infusion Set Performance in Adults with Type 1 Diabetes: Infusion Set Survival Rate and Glycemic Outcomes from a Pivotal Trial.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "35263188",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'KAISERMAN' + first initial 'K'",
+     "signals": {
+      "topicKeywords": [
+       "infusion pump",
+       "insulin",
+       "minimed",
+       "pediatric endocrinology"
+      ],
+      "affiliationGeo": [
+       "California",
+       "West Covina"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1437250859"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "778 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "16 corroborated + 9 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p2": {
+   "name": "James Thrasher",
+   "identity": {
+    "npi": "1841250875",
+    "registryName": "James Thrasher",
+    "credential": "M.D.",
+    "taxonomyCode": "207RE0101X",
+    "licenseState": "AR",
+    "opState": "AR",
+    "opCity": "Little Rock",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1841250875"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 24029.89
+     },
+     {
+      "year": 2014,
+      "value": 30077.88
+     },
+     {
+      "year": 2015,
+      "value": 36653.48
+     },
+     {
+      "year": 2016,
+      "value": 57531.38
+     },
+     {
+      "year": 2017,
+      "value": 56275.01
+     },
+     {
+      "year": 2018,
+      "value": 50615.18
+     },
+     {
+      "year": 2019,
+      "value": 38497.05
+     },
+     {
+      "year": 2020,
+      "value": 35943.45
+     },
+     {
+      "year": 2021,
+      "value": 15713.77
+     },
+     {
+      "year": 2022,
+      "value": 42614.17
+     },
+     {
+      "year": 2023,
+      "value": 30453.76
+     },
+     {
+      "year": 2024,
+      "value": 84248.38
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 402852.64,
+      "records": 134
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 57289.73,
+      "records": 308
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 25376.74,
+      "records": 9
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 16434.24,
+      "records": 582
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 700.05,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 329029.08,
+      "records": 725
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 172056.03,
+      "records": 216
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 1516.31,
+      "records": 90
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 39.47,
+      "records": 2
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 12.51,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 21996.9,
+     "records": 24
+    },
+    "researchPi": {
+     "total": null,
+     "records": 2135
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1841250875",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 24,
+     "nameOnly": 676
+    },
+    "articles": [
+     {
+      "title": "Safety and Glycemic Outcomes of the MiniMed 780G System with a Disposable All-in-One Sensor.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "40824839",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Once-weekly insulin efsitora alfa versus once-daily insulin degludec in adults with type 2 diabetes currently treated with basal insulin (QWINT-3): a phase 3, r",
+      "journal": "Lancet (London, England)",
+      "year": 2025,
+      "pmid": "40562047",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Effectiveness of MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2025,
+      "pmid": "39912797",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early Real-World Performance of the MiniMed\u2122 780G Advanced Hybrid Closed-Loop System and Recommended Settings Use in the United States.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2024,
+      "pmid": "38377317",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Chapter 4: Summary and a Patient Perspective on Living with Heart Failure.",
+      "journal": "The American journal of medicine",
+      "year": 2024,
+      "pmid": "38184325",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes During the MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2023,
+      "pmid": "37782145",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Glycemic Outcomes During Early Use of the MiniMed\u2122 780G Advanced Hybrid Closed-Loop System with Guardian\u2122 4 Sensor.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2023,
+      "pmid": "37252734",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evaluation of Extended Infusion Set Performance in Adults with Type 1 Diabetes: Infusion Set Survival Rate and Glycemic Outcomes from a Pivotal Trial.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "35263188",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes During the MiniMed\u2122 Advanced Hybrid Closed-Loop System Pivotal Trial in Adolescents and Adults with Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2022,
+      "pmid": "34694909",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Tolerability of Insulin Aspart Biosimilar SAR341402 Versus Originator Insulin Aspart (NovoLog) When Used in Insulin Pumps in Adults with Type 1 Diabe",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2020,
+      "pmid": "31833801",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'THRASHER' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "infusion pump",
+       "insulin",
+       "internal medicine",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "Arkansas",
+       "Little Rock"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1529,
+      "beneficiaries": 602
+     },
+     {
+      "code": "82962",
+      "description": "Blood glucose (sugar) test performed by hand-held instrument",
+      "services": 1330,
+      "beneficiaries": 491
+     },
+     {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 1168,
+      "beneficiaries": 467
+     },
+     {
+      "code": "95251",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin with in",
+      "services": 407,
+      "beneficiaries": 239
+     },
+     {
+      "code": "95249",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin",
+      "services": 224,
+      "beneficiaries": 165
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 131,
+      "beneficiaries": 131
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1841250875"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "667 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "24 corroborated + 676 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p3": {
+   "name": "Jennifer Mcvean",
+   "identity": {
+    "npi": "1063464766",
+    "registryName": "Jennifer Mcvean",
+    "credential": "M.D.",
+    "taxonomyCode": "2080P0205X",
+    "licenseState": "MN",
+    "opState": "MN",
+    "opCity": "Osseo",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1063464766"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 52.2
+     },
+     {
+      "year": 2014,
+      "value": 1985.49
+     },
+     {
+      "year": 2015,
+      "value": 23.37
+     },
+     {
+      "year": 2016,
+      "value": 125.51
+     },
+     {
+      "year": 2017,
+      "value": 3036.67
+     },
+     {
+      "year": 2018,
+      "value": 53782.62
+     },
+     {
+      "year": 2019,
+      "value": 147429.24
+     },
+     {
+      "year": 2020,
+      "value": 95374.95
+     },
+     {
+      "year": 2021,
+      "value": 54528.14
+     },
+     {
+      "year": 2023,
+      "value": 110.68
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 265670.5,
+      "records": 142
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 59175.4,
+      "records": 195
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 21922.5,
+      "records": 13
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 9548.41,
+      "records": 204
+     },
+     {
+      "nature": "Gift",
+      "total": 132.06,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 301305.4,
+      "records": 498
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 55143.47,
+      "records": 57
+     }
+    ],
+    "research": {
+     "total": 7000.0,
+     "records": 12
+    },
+    "researchPi": {
+     "total": null,
+     "records": 4
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1063464766",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 22,
+     "nameOnly": 7
+    },
+    "articles": [
+     {
+      "title": "MiniMed 780G Advanced Hybrid Closed-Loop System Use During Days Without User-Initiated Boluses.",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41498529",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Raising the Bar: High Time in Range During the First Year of Diagnosis of Type 1 Diabetes in Children and Adolescents Using Automated Insulin Delivery with Inte",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42178737",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes of the MiniMed 780G System with a Disposable All-in-One Sensor.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "40824839",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Automated insulin delivery with the MiniMed\u2122 780G system reduces burden by improving sleep and glycaemic control overnight.",
+      "journal": "Diabetes, obesity & metabolism",
+      "year": 2026,
+      "pmid": "41508747",
+      "tier": "corroborated"
+     },
+     {
+      "title": "MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41968498",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Achieving Glycemic Targets in and out-of-School: Real-World Data From 1341 Italian Children Using the MiniMed 780G System During Auto Mode.",
+      "journal": "Pediatric diabetes",
+      "year": 2026,
+      "pmid": "41959591",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Effectiveness of MiniMed\u2122 780G Advanced Hybrid Closed-Loop Use with Ultrarapid Insulin Lispro-AABC in Pediatric and Adult Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42050782",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Effectiveness of MiniMed",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2025,
+      "pmid": "39912797",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Automated basal insulin delivery versus multiple daily injections in type 1 diabetes: results from a randomized parallel controlled trial.",
+      "journal": "Frontiers in endocrinology",
+      "year": 2025,
+      "pmid": "41488135",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Development and Future of Automated Insulin Delivery (AID) Systems.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2024,
+      "pmid": "38377322",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'MCVEAN' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "infusion pump",
+       "insulin",
+       "minimed",
+       "pediatric endocrinology"
+      ],
+      "affiliationGeo": [
+       "Minnesota",
+       "Osseo"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1063464766"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "504 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "22 corroborated + 7 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p4": {
+   "name": "Bruce Bode",
+   "identity": {
+    "npi": "1841297751",
+    "registryName": "Bruce Bode",
+    "credential": "M.D.",
+    "taxonomyCode": "207RE0101X",
+    "licenseState": "GA",
+    "opState": "GA",
+    "opCity": "Atlanta",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1841297751"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 9011.09
+     },
+     {
+      "year": 2014,
+      "value": 60755.52
+     },
+     {
+      "year": 2015,
+      "value": 36215.67
+     },
+     {
+      "year": 2016,
+      "value": 38727.65
+     },
+     {
+      "year": 2017,
+      "value": 106844.04
+     },
+     {
+      "year": 2018,
+      "value": 30842.54
+     },
+     {
+      "year": 2019,
+      "value": 26677.31
+     },
+     {
+      "year": 2020,
+      "value": 24567.95
+     },
+     {
+      "year": 2021,
+      "value": 18575.63
+     },
+     {
+      "year": 2022,
+      "value": 39332.29
+     },
+     {
+      "year": 2023,
+      "value": 20310.39
+     },
+     {
+      "year": 2024,
+      "value": 9591.53
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 247456.25,
+      "records": 122
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 70525.0,
+      "records": 15
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 62807.18,
+      "records": 249
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 25026.28,
+      "records": 660
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 15250.73,
+      "records": 12
+     },
+     {
+      "nature": "Education",
+      "total": 386.17,
+      "records": 4
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 319289.82,
+      "records": 734
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 66533.86,
+      "records": 134
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 23486.63,
+      "records": 136
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 11981.12,
+      "records": 56
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 160.18,
+      "records": 2
+     }
+    ],
+    "research": {
+     "total": 270074.76,
+     "records": 34
+    },
+    "researchPi": {
+     "total": null,
+     "records": 2358
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1841297751",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 195,
+     "nameOnly": 266
+    },
+    "articles": [
+     {
+      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41115044",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Effectiveness of MiniMed\u2122 780G Advanced Hybrid Closed-Loop Use with Ultrarapid Insulin Lispro-AABC in Pediatric and Adult Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42050782",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Psychosocial outcomes among adults with type 1 diabetes using a tubeless automated insulin delivery system compared with sensor augmented pump therapy: A random",
+      "journal": "Diabetes, obesity & metabolism",
+      "year": 2026,
+      "pmid": "41508715",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Glycemic Outcomes of the MiniMed 780G System with a Disposable All-in-One Sensor.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "40824839",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Continuous and Intermittent Glucose Monitoring in 2025.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "41800628",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Exercise in",
+      "journal": "Diabetes care",
+      "year": 2025,
+      "pmid": "40680105",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Automated basal insulin delivery versus multiple daily injections in type 1 diabetes: results from a randomized parallel controlled trial.",
+      "journal": "Frontiers in endocrinology",
+      "year": 2025,
+      "pmid": "41488135",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Randomized Trial Comparing Inhaled Insulin Plus Basal Insulin Versus Usual Care in Adults With Type 1 Diabetes.",
+      "journal": "Diabetes care",
+      "year": 2025,
+      "pmid": "39641970",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Accuracy of a 15-day Factory-Calibrated Continuous Glucose Monitoring System With Improved Sensor Design.",
+      "journal": "Journal of diabetes science and technology",
+      "year": 2025,
+      "pmid": "40183340",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Continuous and Intermittent Glucose Monitoring in 2024.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2025,
+      "pmid": "40094509",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'BODE' + first initial 'B'",
+     "signals": {
+      "topicKeywords": [
+       "endocrinology, diabetes & metabolism",
+       "infusion pump",
+       "insulin",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "Georgia",
+       "Atlanta"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 3480,
+      "beneficiaries": 35
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1481,
+      "beneficiaries": 602
+     },
+     {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 1380,
+      "beneficiaries": 575
+     },
+     {
+      "code": "95251",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin with in",
+      "services": 833,
+      "beneficiaries": 344
+     },
+     {
+      "code": "82948",
+      "description": "Blood glucose (sugar) measurement using reagent strip",
+      "services": 717,
+      "beneficiaries": 357
+     },
+     {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 482,
+      "beneficiaries": 337
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1841297751"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "450 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "195 corroborated + 266 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p5": {
+   "name": "Jennifer Sherr",
+   "identity": {
+    "npi": "1598928491",
+    "registryName": "Jennifer Sherr",
+    "credential": "M.D.",
+    "taxonomyCode": "2080P0205X",
+    "licenseState": "CT",
+    "opState": "CT",
+    "opCity": "New Haven",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1598928491"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 297.84
+     },
+     {
+      "year": 2015,
+      "value": 73.14
+     },
+     {
+      "year": 2016,
+      "value": 6464.2
+     },
+     {
+      "year": 2017,
+      "value": 67154.08
+     },
+     {
+      "year": 2018,
+      "value": 78015.47
+     },
+     {
+      "year": 2019,
+      "value": 3578.44
+     },
+     {
+      "year": 2020,
+      "value": 10000.0
+     },
+     {
+      "year": 2021,
+      "value": 10777.07
+     },
+     {
+      "year": 2022,
+      "value": 14190.54
+     },
+     {
+      "year": 2023,
+      "value": 8412.06
+     },
+     {
+      "year": 2024,
+      "value": 13223.44
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 163225.0,
+      "records": 53
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 20712.52,
+      "records": 103
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 15150.0,
+      "records": 6
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 7578.76,
+      "records": 152
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 3500.0,
+      "records": 3
+     },
+     {
+      "nature": "Grant",
+      "total": 2020.0,
+      "records": 2
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 165569.88,
+      "records": 241
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 45853.11,
+      "records": 76
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 750.0,
+      "records": 1
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 13.29,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 1419.0,
+     "records": 1
+    },
+    "researchPi": {
+     "total": null,
+     "records": 246
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1598928491",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 149,
+     "nameOnly": 30
+    },
+    "articles": [
+     {
+      "title": "Accounting for age-related increases in HbA1c more accurately quantifies risk of Type 1 Diabetes progression in islet autoantibody-positive adults.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2026,
+      "pmid": "41757176",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Persistent Burden of Severe Hypoglycemia and Impaired Awareness of Hypoglycemia Among People With Type 1 Diabetes Despite Technology Use: A Follow-up Survey.",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41747141",
+      "tier": "corroborated"
+     },
+     {
+      "title": "International clinical opinion on transparency, standardisation, and calibration alignment in the performance evaluation of systems for continuous glucose monit",
+      "journal": "Diabetes, obesity & metabolism",
+      "year": 2026,
+      "pmid": "41582769",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Erratum. Use of the Omnipod 5 Automated Insulin Delivery System Activity Feature Reduces Insulin Delivery and Attenuates the Drop in Glycemia Associated With Ex",
+      "journal": "Diabetes care",
+      "year": 2026,
+      "pmid": "41115044",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Challenges in and opportunities for individualising diabetes technology: a position statement by the European Association for the Study of Diabetes (EASD) and t",
+      "journal": "Diabetologia",
+      "year": 2026,
+      "pmid": "41820663",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Type 1 diabetes screening: reframing the debate from paternalism to partnership. Reply to Scaramuzza AE, Iafusco D, Cherubini V [letter] Type 1 diabetes screeni",
+      "journal": "Diabetologia",
+      "year": 2026,
+      "pmid": "41579162",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Cardiovascular, Renal, and Hepatic Biomarkers Outside Guideline-Recommended Thresholds: Prevalence and Determinants in Type 1 Diabetes.",
+      "journal": "Diabetes technology & therapeutics",
+      "year": 2026,
+      "pmid": "42098923",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and pharmacokinetics of teplizumab in children less than 8 years of age with stage 2 type 1 diabetes.",
+      "journal": "Diabetologia",
+      "year": 2026,
+      "pmid": "41196293",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Impact of Early Initiation of Automated Insulin Delivery on Glycemia Two Years from Type 1 Diabetes Diagnosis.",
+      "journal": "Hormone research in paediatrics",
+      "year": 2026,
+      "pmid": "42234600",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Continuous ketone monitoring for people with diabetes: international expert recommendations on the application of a new technology.",
+      "journal": "The lancet. Diabetes & endocrinology",
+      "year": 2026,
+      "pmid": "41381175",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SHERR' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "infusion pump",
+       "insulin",
+       "minimed",
+       "pediatric endocrinology"
+      ],
+      "affiliationGeo": [
+       "Connecticut",
+       "New Haven"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1598928491"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "290 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "149 corroborated + 30 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p6": {
+   "name": "Lisa Higgins",
+   "identity": {
+    "npi": "1477956688",
+    "registryName": "Lisa Higgins",
+    "credential": "FNP",
+    "taxonomyCode": "363LF0000X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "VISALIA",
+    "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1477956688"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2021,
+      "value": 27782.59
+     },
+     {
+      "year": 2022,
+      "value": 19730.33
+     },
+     {
+      "year": 2023,
+      "value": 33750.44
+     },
+     {
+      "year": 2024,
+      "value": 58868.2
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 119777.38,
+      "records": 43
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 14654.56,
+      "records": 72
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 3487.12,
+      "records": 88
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 1562.5,
+      "records": 1
+     },
+     {
+      "nature": "Education",
+      "total": 650.0,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic, Inc.",
+      "total": 139945.35,
+      "records": 193
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 157.96,
+      "records": 10
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 28.25,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1477956688",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 17,
+     "nameOnly": 665
+    },
+    "articles": [
+     {
+      "title": "mRNA and Protein Expression of Fetal Insulin Receptor in Breast Cancer Cell Lines.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2025,
+      "pmid": "41473282",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The benefits of contributing to the citizen science platform iNaturalist as an identifier.",
+      "journal": "PLoS biology",
+      "year": 2022,
+      "pmid": "36355752",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Lessons for conservation from beneath the pavement.",
+      "journal": "Conservation biology : the journal of the Society for Conser",
+      "year": 2022,
+      "pmid": "36069058",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Exploring the participation of young citizen scientists in scientific research: The case of iNaturalist.",
+      "journal": "PloS one",
+      "year": 2021,
+      "pmid": "33465161",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Aging induced by D-galactose aggravates cardiac dysfunction via exacerbating mitochondrial dysfunction in obese insulin-resistant rats.",
+      "journal": "GeroScience",
+      "year": 2020,
+      "pmid": "31768765",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Improving dietary quality in youth with type 1 diabetes: randomized clinical trial of a family-based behavioral intervention.",
+      "journal": "The international journal of behavioral nutrition and physic",
+      "year": 2015,
+      "pmid": "25952160",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Inflammation associated with the postprandial lipolysis of triglyceride-rich lipoproteins by lipoprotein lipase.",
+      "journal": "Current atherosclerosis reports",
+      "year": 2009,
+      "pmid": "19361351",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Development of INT131 as a Selective PPARgamma Modulator: Approach to a Safer Insulin Sensitizer.",
+      "journal": "PPAR research",
+      "year": 2008,
+      "pmid": "18769500",
+      "tier": "corroborated"
+     },
+     {
+      "title": "In vivo effects of the human type I insulin-like growth factor receptor antibody A12 on androgen-dependent and androgen-independent xenograft human prostate tum",
+      "journal": "Clinical cancer research : an official journal of the Americ",
+      "year": 2005,
+      "pmid": "15837762",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Three-dimensional domain swapping in the folded and molten-globule states of cystatins, an amyloid-forming structural superfamily.",
+      "journal": "The EMBO journal",
+      "year": 2001,
+      "pmid": "11532941",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'HIGGINS' + first initial 'L'",
+     "signals": {
+      "topicKeywords": [
+       "family",
+       "infusion pump",
+       "insulin",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "California",
+       "VISALIA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 811,
+      "beneficiaries": 204
+     },
+     {
+      "code": "95251",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin with in",
+      "services": 396,
+      "beneficiaries": 127
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 67,
+      "beneficiaries": 67
+     },
+     {
+      "code": "G0108",
+      "description": "Diabetes outpatient self-management training services, individual, per 30 minutes",
+      "services": 48,
+      "beneficiaries": 43
+     },
+     {
+      "code": "G0447",
+      "description": "Face-to-face behavioral counseling for obesity, 15 minutes",
+      "services": 20,
+      "beneficiaries": 18
+     },
+     {
+      "code": "95249",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin",
+      "services": 17,
+      "beneficiaries": 16
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1477956688"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "154 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "17 corroborated + 665 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p7": {
+   "name": "Brenda Baxter",
+   "identity": {
+    "npi": "1487898201",
+    "registryName": "Brenda Baxter",
+    "credential": "ANP-BC",
+    "taxonomyCode": "363LA2200X",
+    "licenseState": "TN",
+    "opState": "TN",
+    "opCity": "Nashville",
+    "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Adult Health",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1487898201"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2021,
+      "value": 213.12
+     },
+     {
+      "year": 2022,
+      "value": 72.53
+     },
+     {
+      "year": 2023,
+      "value": 41194.07
+     },
+     {
+      "year": 2024,
+      "value": 84945.77
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 126013.48,
+      "records": 6
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 412.01,
+      "records": 13
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic, Inc.",
+      "total": 126382.22,
+      "records": 17
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 43.27,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1487898201",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 57,
+     "nameOnly": 380
+    },
+    "articles": [
+     {
+      "title": "POSITIVE: Perfusion imaging selection of ischemic stroke patients for endovascular therapy.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2022,
+      "pmid": "33632884",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Endovascular therapy in the distal neurovascular territory: results of a large prospective registry.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2021,
+      "pmid": "33323503",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The WOVEN trial: Wingspan One-year Vascular Events and Neurologic Outcomes.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2021,
+      "pmid": "32561658",
+      "tier": "corroborated"
+     },
+     {
+      "title": "First pass effect in patients with large vessel occlusion strokes undergoing neurothrombectomy: insights from the Trevo Retriever Registry.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2021,
+      "pmid": "33479032",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Discrepancy between post-treatment infarct volume and 90-day outcome in the ESCAPE randomized controlled trial.",
+      "journal": "International journal of stroke : official journal of the In",
+      "year": 2021,
+      "pmid": "32515694",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Discrepancies between current and ideal endovascular stroke treatment practice in Europe and North America: Results from UNMASK EVT, a multidisciplinary survey.",
+      "journal": "Interventional neuroradiology : journal of peritherapeutic n",
+      "year": 2020,
+      "pmid": "32077353",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Endovascular treatment decision in acute stroke: does physician gender matter? Insights from UNMASK EVT, an international, multidisciplinary survey.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2020,
+      "pmid": "31363043",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Time of day and endovascular treatment decision in acute stroke with relative endovascular treatment indication: insights from UNMASK EVT international survey.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2020,
+      "pmid": "31285376",
+      "tier": "corroborated"
+     },
+     {
+      "title": "An international multicenter retrospective study to survey the landscape of thrombectomy in the treatment of anterior circulation acute ischemic stroke: outcome",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2020,
+      "pmid": "31239328",
+      "tier": "corroborated"
+     },
+     {
+      "title": "'Real-world' comparison of first-line direct aspiration and stent retriever mechanical thrombectomy for the treatment of acute ischemic stroke in the anterior c",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2019,
+      "pmid": "30975738",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'BAXTER' + first initial 'B'",
+     "signals": {
+      "topicKeywords": [
+       "adult health",
+       "infusion pump",
+       "insulin",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "Tennessee",
+       "Nashville"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2020,
+    "procedures": [
+     {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28,
+      "beneficiaries": 18
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1487898201"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "10 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "57 corroborated + 380 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "1 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p8": {
+   "name": "Amanda Wakim",
+   "identity": {
+    "npi": "1245536408",
+    "registryName": "Amanda Wakim",
+    "credential": "MSN,FNP-BC",
+    "taxonomyCode": "363LP2300X",
+    "licenseState": "WV",
+    "opState": "WV",
+    "opCity": "Wheeling",
+    "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Primary Care",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1245536408"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2021,
+      "value": 16972.54
+     },
+     {
+      "year": 2022,
+      "value": 13209.94
+     },
+     {
+      "year": 2023,
+      "value": 65276.78
+     },
+     {
+      "year": 2024,
+      "value": 25348.36
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 119623.92,
+      "records": 15
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 1183.7,
+      "records": 23
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic, Inc.",
+      "total": 120319.6,
+      "records": 33
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 488.02,
+      "records": 5
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1245536408",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 44
+    },
+    "articles": [
+     {
+      "title": "Multicenter Real-World Assessment of the Effectiveness of V-Go Wearable Insulin Delivery Device in Adult Patients with Type 2 Diabetes (ENABLE Study): A Retrosp",
+      "journal": "Medical devices (Auckland, N.Z.)",
+      "year": 2020,
+      "pmid": "33061678",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The rehabilitation experiences, individual and combined effects of cognitive and physical rehabilitation on health and social outcomes in older athletes: A scop",
+      "journal": "PloS one",
+      "year": 2026,
+      "pmid": "41790807",
+      "tier": "name-only"
+     },
+     {
+      "title": "High prevalence but low referral rate of adrenal incidentalomas in a Lebanese tertiary hospital.",
+      "journal": "Frontiers in endocrinology",
+      "year": 2025,
+      "pmid": "40801028",
+      "tier": "name-only"
+     },
+     {
+      "title": "Trends in Spinal Pain Procedure Volumes and Reimbursements: An Analysis of 20\u2009Years of Medicare Data.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2025,
+      "pmid": "40395062",
+      "tier": "name-only"
+     },
+     {
+      "title": "A novel approach for the treatment of Morgagni hernias: robotic transabdominal preperitoneal diaphragmatic hernia repair.",
+      "journal": "Hernia : the journal of hernias and abdominal wall surgery",
+      "year": 2022,
+      "pmid": "34494141",
+      "tier": "name-only"
+     },
+     {
+      "title": "Stereotactic-Guided Transcerebellar Cisternoperitoneal Shunt Placement for Idiopathic Intracranial Hypertension.",
+      "journal": "Operative neurosurgery (Hagerstown, Md.)",
+      "year": 2022,
+      "pmid": "35972092",
+      "tier": "name-only"
+     },
+     {
+      "title": "Direct targeting of the ventral intermediate nucleus of the thalamus in deep brain stimulation for essential tremor: a prospective study with comparison to a hi",
+      "journal": "Journal of neurosurgery",
+      "year": 2022,
+      "pmid": "34560647",
+      "tier": "name-only"
+     },
+     {
+      "title": "Omeprazole-clopidogrel interaction and neurovascular complications after flow-diverter device placement.",
+      "journal": "Journal of neurointerventional surgery",
+      "year": 2022,
+      "pmid": "34083398",
+      "tier": "name-only"
+     },
+     {
+      "title": "Insight Into a Successful Couples Match in Physical Medicine and Rehabilitation.",
+      "journal": "American journal of physical medicine & rehabilitation",
+      "year": 2021,
+      "pmid": "33852492",
+      "tier": "name-only"
+     },
+     {
+      "title": "Medical student wellness in the United States during the COVID-19 pandemic: a nationwide survey.",
+      "journal": "BMC medical education",
+      "year": 2021,
+      "pmid": "34311722",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'WAKIM' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "infusion pump",
+       "insulin",
+       "minimed",
+       "primary care"
+      ],
+      "affiliationGeo": [
+       "West Virginia",
+       "Wheeling"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 321,
+      "beneficiaries": 155
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 100,
+      "beneficiaries": 91
+     },
+     {
+      "code": "95251",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin with in",
+      "services": 30,
+      "beneficiaries": 26
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 12,
+      "beneficiaries": 12
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1245536408"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "20 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "1 corroborated + 44 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "4 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p9": {
+   "name": "Brian Lake",
+   "identity": {
+    "npi": "1295887040",
+    "registryName": "Brian Lake",
+    "credential": "D.O.",
+    "taxonomyCode": "207RE0101X",
+    "licenseState": "FL",
+    "opState": "FL",
+    "opCity": "Pinellas Park",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1295887040"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 4224.65
+     },
+     {
+      "year": 2014,
+      "value": 10678.24
+     },
+     {
+      "year": 2015,
+      "value": 17371.32
+     },
+     {
+      "year": 2016,
+      "value": 15079.91
+     },
+     {
+      "year": 2017,
+      "value": 3490.51
+     },
+     {
+      "year": 2018,
+      "value": 18727.11
+     },
+     {
+      "year": 2019,
+      "value": 22330.63
+     },
+     {
+      "year": 2020,
+      "value": 35785.78
+     },
+     {
+      "year": 2021,
+      "value": 28680.97
+     },
+     {
+      "year": 2022,
+      "value": 29349.85
+     },
+     {
+      "year": 2023,
+      "value": 35514.58
+     },
+     {
+      "year": 2024,
+      "value": 64038.04
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 187354.65,
+      "records": 98
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 45638.35,
+      "records": 43
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 25474.7,
+      "records": 170
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 11985.69,
+      "records": 278
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 11025.0,
+      "records": 11
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 3700.0,
+      "records": 6
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 121248.35,
+      "records": 196
+     },
+     {
+      "company": "Medtronic MiniMed, Inc.",
+      "total": 116078.64,
+      "records": 291
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 45824.64,
+      "records": 105
+     },
+     {
+      "company": "Tandem Diabetes Care, Inc.",
+      "total": 2119.96,
+      "records": 15
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1295887040",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 3,
+     "nameOnly": 504
+    },
+    "articles": [
+     {
+      "title": "Recent Advances in Rare Earth Element Recovery: Liquid-Liquid Extraction and Magnetophoretic Separation.",
+      "journal": "Industrial & engineering chemistry research",
+      "year": 2025,
+      "pmid": "41113817",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Selective Liquid-Liquid Extraction of Thorium(IV) from Rare-Earth Element Mixtures.",
+      "journal": "Inorganic chemistry",
+      "year": 2024,
+      "pmid": "39018429",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Effect of some peroxisome proliferators on transforming growth factor-beta 1 gene expression and insulin-like growth factor II/mannose-6-phosphate receptor gene",
+      "journal": "Carcinogenesis",
+      "year": 1994,
+      "pmid": "8313539",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A MEF2C transcription factor network regulates proliferation of glomerular endothelial cells in diabetic kidney disease.",
+      "journal": "Kidney international",
+      "year": 2026,
+      "pmid": "42055320",
+      "tier": "name-only"
+     },
+     {
+      "title": "Whither symbols in the era of advanced neural networks?",
+      "journal": "Trends in cognitive sciences",
+      "year": 2026,
+      "pmid": "41991425",
+      "tier": "name-only"
+     },
+     {
+      "title": "A cross-species single-cell epigenome kidney atlas identifies epithelial cells as a driver of epigenetic aging.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2026,
+      "pmid": "41648348",
+      "tier": "name-only"
+     },
+     {
+      "title": "The use of cultured human hepatocytes as a test system to evaluate cell proliferation as a key event in nongenotoxic carcinogenesis.",
+      "journal": "Archives of toxicology",
+      "year": 2026,
+      "pmid": "42086803",
+      "tier": "name-only"
+     },
+     {
+      "title": "Circuit explained: How does a transformer perform compositional generalization.",
+      "journal": "PloS one",
+      "year": 2026,
+      "pmid": "41637434",
+      "tier": "name-only"
+     },
+     {
+      "title": "Correction: A Comprehensive Behavioral Dataset for the Abstraction and Reasoning Corpus.",
+      "journal": "Scientific data",
+      "year": 2025,
+      "pmid": "40846876",
+      "tier": "name-only"
+     },
+     {
+      "title": "A Comprehensive Behavioral Dataset for the Abstraction and Reasoning Corpus.",
+      "journal": "Scientific data",
+      "year": 2025,
+      "pmid": "40775224",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'LAKE' + first initial 'B'",
+     "signals": {
+      "topicKeywords": [
+       "endocrinology, diabetes & metabolism",
+       "infusion pump",
+       "insulin",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "Florida",
+       "Pinellas Park"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1182,
+      "beneficiaries": 547
+     },
+     {
+      "code": "95251",
+      "description": "Continuous monitoring of blood sugar level in tissue fluid using sensor under skin with in",
+      "services": 375,
+      "beneficiaries": 159
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 199,
+      "beneficiaries": 199
+     },
+     {
+      "code": "76536",
+      "description": "Ultrasound scan of head and neck soft tissue",
+      "services": 50,
+      "beneficiaries": 48
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 13,
+      "beneficiaries": 12
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1295887040"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "251 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "3 corroborated + 504 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "5 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p10": {
+   "name": "Susan Wolf",
+   "identity": {
+    "npi": "1275538506",
+    "registryName": "Sue Wolf",
+    "credential": "CNS",
+    "taxonomyCode": "364S00000X",
+    "licenseState": "WI",
+    "opState": "AZ",
+    "opCity": "La Crosse",
+    "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Clinical Nurse Specialist",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1275538506"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2021,
+      "value": 16506.55
+     },
+     {
+      "year": 2022,
+      "value": 8120.0
+     },
+     {
+      "year": 2023,
+      "value": 47115.62
+     },
+     {
+      "year": 2024,
+      "value": 39119.12
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 110861.29,
+      "records": 16
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic, Inc.",
+      "total": 110861.29,
+      "records": 16
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1275538506",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 35,
+     "nameOnly": 3609
+    },
+    "articles": [
+     {
+      "title": "Outcomes and Imaging Surveillance Adherence in Juxta-Renal Aortic Aneurysms Repairs: A VASQIP Retrospective Study.",
+      "journal": "Journal of endovascular therapy : an official journal of the",
+      "year": 2026,
+      "pmid": "39342447",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Long-haul flights and migratory routes of a nectar-feeding bat.",
+      "journal": "Ecology",
+      "year": 2025,
+      "pmid": "40213937",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Follow-up compliance in patients undergoing abdominal aortic aneurysm repair at Veterans Affairs hospitals.",
+      "journal": "Journal of vascular surgery",
+      "year": 2024,
+      "pmid": "38462060",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Metformin is associated with reduced risk of mortality and morbidity in burn patients compared to insulin.",
+      "journal": "Burns : journal of the International Society for Burn Injuri",
+      "year": 2024,
+      "pmid": "38981799",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Insulin-like growth factor 2 is produced by antral follicles and promotes preantral follicle development in macaques\u2020.",
+      "journal": "Biology of reproduction",
+      "year": 2021,
+      "pmid": "33348377",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Insulin and exercise improved muscle function in rats with severe burns and hindlimb unloading.",
+      "journal": "Physiological reports",
+      "year": 2019,
+      "pmid": "31353827",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pragmatic Tools for Sharing Genomic Research Results with the Relatives of Living and Deceased Research Participants.",
+      "journal": "The Journal of law, medicine & ethics : a journal of the Ame",
+      "year": 2018,
+      "pmid": "30008546",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical Nurse Specialist-Driven Practice Change: Standardizing Vital Sign Monitoring.",
+      "journal": "Clinical nurse specialist CNS",
+      "year": 2017,
+      "pmid": "28991018",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Insulin effects on glucose tolerance, hypermetabolic response, and circadian-metabolic protein expression in a rat burn and disuse model.",
+      "journal": "American journal of physiology. Regulatory, integrative and ",
+      "year": 2014,
+      "pmid": "24760998",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The impact of intensive insulin protocols and restrictive blood transfusion strategies on glucose measurement in American Burn Association (ABA) verified burn c",
+      "journal": "Journal of burn care & research : official publication of th",
+      "year": 2008,
+      "pmid": "18825791",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'WOLF' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "clinical nurse specialist",
+       "infusion pump",
+       "insulin",
+       "minimed"
+      ],
+      "affiliationGeo": [
+       "Arizona",
+       "La Crosse"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1275538506"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "16 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "35 corroborated + 3609 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  }
+ }
+}

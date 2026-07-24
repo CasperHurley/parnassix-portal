@@ -1,0 +1,2434 @@
+{
+ "profiles": {
+  "p1": {
+   "name": "Robert Gallaher",
+   "identity": {
+    "npi": "1437141264",
+    "registryName": "Robert Gallaher",
+    "credential": "MD FCCP FACP",
+    "taxonomyCode": "207RP1001X",
+    "licenseState": "NC",
+    "opState": "NC",
+    "opCity": "KINSTON",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1437141264"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2022,
+      "value": 4389.21
+     },
+     {
+      "year": 2023,
+      "value": 4376.66
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 8753.32,
+      "records": 4
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 12.55,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 8765.87,
+      "records": 5
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1437141264",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 19
+    },
+    "articles": [
+     {
+      "title": "Trapped Neutrophil Syndrome in a Border Collie.",
+      "journal": "Journal of the American Animal Hospital Association",
+      "year": 2020,
+      "pmid": "32182118",
+      "tier": "name-only"
+     },
+     {
+      "title": "Public Solicitation of Anonymous Organ Donors: A Position Paper by the Canadian Society of Transplantation.",
+      "journal": "Transplantation",
+      "year": 2017,
+      "pmid": "28009754",
+      "tier": "name-only"
+     },
+     {
+      "title": "Development of Electronic Medical Record-Based \"Rounds Report\" Results in Improved Resident Efficiency, More Time for Direct Patient Care and Education, and Les",
+      "journal": "The American surgeon",
+      "year": 2016,
+      "pmid": "27670576",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of Crotalaria juncea Amendment on Squash Infected with Meloidogyne incognita.",
+      "journal": "Journal of nematology",
+      "year": 2004,
+      "pmid": "19262819",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of winter cover crops on nematode population levels in north Florida.",
+      "journal": "Journal of nematology",
+      "year": 2004,
+      "pmid": "19262833",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of Crotalaria juncea Amendment on Nematode Communities in Soil with Different Agricultural Histories.",
+      "journal": "Journal of nematology",
+      "year": 2003,
+      "pmid": "19262764",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of Meloidogyne arenaria and Mulch Type on Okra in Microplot Experiments.",
+      "journal": "Journal of nematology",
+      "year": 1998,
+      "pmid": "19274256",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of Compost and Maize Cultivars on Plant-parasitic Nematodes.",
+      "journal": "Journal of nematology",
+      "year": 1997,
+      "pmid": "19274277",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of yard waste compost on nematode densities and maize yield.",
+      "journal": "Journal of nematology",
+      "year": 1996,
+      "pmid": "19277191",
+      "tier": "name-only"
+     },
+     {
+      "title": "Effect of yard waste compost on plant-parasitic nematode densities in vegetable crops.",
+      "journal": "Journal of nematology",
+      "year": 1995,
+      "pmid": "19277320",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'GALLAHER' + first initial 'R'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "philips",
+       "positive airway pressure",
+       "pulmonary disease"
+      ],
+      "affiliationGeo": [
+       "North Carolina",
+       "KINSTON"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 692,
+      "beneficiaries": 482
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 535,
+      "beneficiaries": 336
+     },
+     {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 219,
+      "beneficiaries": 187
+     },
+     {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 92,
+      "beneficiaries": 92
+     },
+     {
+      "code": "90694",
+      "description": "Influenza vaccine, quadrivalent inactivated, 0.5 ml dosage",
+      "services": 80,
+      "beneficiaries": 80
+     },
+     {
+      "code": "94726",
+      "description": "Test to determine lung volumes using sensors",
+      "services": 51,
+      "beneficiaries": 48
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1437141264"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "4 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 19 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p2": {
+   "name": "Scott Geisler",
+   "identity": {
+    "npi": "1336147933",
+    "registryName": "Scott Geisler",
+    "credential": "MD",
+    "taxonomyCode": "2084N0400X",
+    "licenseState": "IA",
+    "opState": "IA",
+    "opCity": "CEDAR RAPIDS",
+    "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1336147933"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 12.48
+     },
+     {
+      "year": 2014,
+      "value": 11.34
+     },
+     {
+      "year": 2015,
+      "value": 40.57
+     },
+     {
+      "year": 2016,
+      "value": 56.02
+     },
+     {
+      "year": 2017,
+      "value": 44.35
+     },
+     {
+      "year": 2018,
+      "value": 126.27
+     },
+     {
+      "year": 2019,
+      "value": 171.46
+     },
+     {
+      "year": 2021,
+      "value": 17.53
+     },
+     {
+      "year": 2022,
+      "value": 3161.68
+     },
+     {
+      "year": 2023,
+      "value": 2136.13
+     },
+     {
+      "year": 2024,
+      "value": 953.97
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 5838.56,
+      "records": 7
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 893.24,
+      "records": 26
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 5611.38,
+      "records": 20
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 932.48,
+      "records": 4
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 69.11,
+      "records": 2
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 65.86,
+      "records": 4
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 28.69,
+      "records": 1
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 24.28,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1336147933",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 275
+    },
+    "articles": [
+     {
+      "title": "Identification of a therapeutic threshold for AAV-STXBP1 gene therapy in a rodent model of STXBP1 developmental and epileptic encephalopathy.",
+      "journal": "Molecular therapy : the journal of the American Society of G",
+      "year": 2026,
+      "pmid": "41883162",
+      "tier": "name-only"
+     },
+     {
+      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses.",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "year": 2026,
+      "pmid": "41762427",
+      "tier": "name-only"
+     },
+     {
+      "title": "Analysis of the Additive Effects of Nutritional Strategies in Strength Training Interventions on Body Composition, Muscle Strength and Bone Mineral Density in P",
+      "journal": "Sports medicine - open",
+      "year": 2026,
+      "pmid": "41535482",
+      "tier": "name-only"
+     },
+     {
+      "title": "It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis.",
+      "journal": "Journal of science and medicine in sport",
+      "year": 2026,
+      "pmid": "41963141",
+      "tier": "name-only"
+     },
+     {
+      "title": "Aberrant calcium signaling and neuronal activity in the L271H CACNA1D (Cav1.3) iPSC model of neurodevelopmental disease.",
+      "journal": "Molecular psychiatry",
+      "year": 2026,
+      "pmid": "41513972",
+      "tier": "name-only"
+     },
+     {
+      "title": "Ribosome biogenesis is increased in hepatocellular carcinoma and represents a potential therapeutic target.",
+      "journal": "NAR cancer",
+      "year": 2026,
+      "pmid": "41551405",
+      "tier": "name-only"
+     },
+     {
+      "title": "Stac2 genetic deletion alters mouse chromaffin cells' Ca",
+      "journal": "The Journal of physiology",
+      "year": 2026,
+      "pmid": "42020143",
+      "tier": "name-only"
+     },
+     {
+      "title": "A Validated Method for the Simultaneous Measurement of Tryptophan, Kynurenine, Phenylalanine, and Tyrosine by High-Performance Liquid Chromatography-Ultraviolet",
+      "journal": "ACS omega",
+      "year": 2026,
+      "pmid": "41658142",
+      "tier": "name-only"
+     },
+     {
+      "title": "Training with an elastic bench press device provides comparable adaptations to conventional resistance training in trained men.",
+      "journal": "Biology of sport",
+      "year": 2026,
+      "pmid": "42220583",
+      "tier": "name-only"
+     },
+     {
+      "title": "Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study.",
+      "journal": "Frontiers in physiology",
+      "year": 2026,
+      "pmid": "42245829",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'GEISLER' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "neurology",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "Iowa",
+       "CEDAR RAPIDS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 239,
+      "beneficiaries": 204
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 145,
+      "beneficiaries": 116
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 75,
+      "beneficiaries": 75
+     },
+     {
+      "code": "95976",
+      "description": "Electronic analysis of neurostimulator generator with simple cranial nerve stimulator prog",
+      "services": 70,
+      "beneficiaries": 41
+     },
+     {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using ",
+      "services": 69,
+      "beneficiaries": 69
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 44,
+      "beneficiaries": 41
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1336147933"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "12 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 275 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p3": {
+   "name": "Ira Cheifetz",
+   "identity": {
+    "npi": "1033272802",
+    "registryName": "Ira Cheifetz",
+    "credential": "M.D",
+    "taxonomyCode": "2080P0203X",
+    "licenseState": "NC",
+    "opState": "NC",
+    "opCity": "DURHAM",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Critical Care Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1033272802"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 10000.0
+     },
+     {
+      "year": 2016,
+      "value": 2858.89
+     },
+     {
+      "year": 2017,
+      "value": 5037.25
+     },
+     {
+      "year": 2020,
+      "value": 230.0
+     },
+     {
+      "year": 2023,
+      "value": 121.58
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Education",
+      "total": 10000.0,
+      "records": 1
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 7480.0,
+      "records": 3
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 544.5,
+      "records": 1
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 223.22,
+      "records": 3
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 18126.14,
+      "records": 7
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 121.58,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 3
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1033272802",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 64,
+     "nameOnly": 129
+    },
+    "articles": [
+     {
+      "title": "Flexible Bronchoscopy in Pediatric Venovenous Extracorporeal Membrane Oxygenation.",
+      "journal": "Respiratory care",
+      "year": 2022,
+      "pmid": "35351825",
+      "tier": "corroborated"
+     },
+     {
+      "title": "High-Frequency Jet Ventilation in Pediatric Acute Respiratory Failure.",
+      "journal": "Respiratory care",
+      "year": 2021,
+      "pmid": "33008841",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Development of a novel intravascular oxygenator catheter: Oxygen mass transfer properties across nonporous hollow fiber membranes.",
+      "journal": "Biotechnology and bioengineering",
+      "year": 2021,
+      "pmid": "32959889",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children.",
+      "journal": "Pediatric critical care medicine : a journal of the Society ",
+      "year": 2020,
+      "pmid": "32032273",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Executive summary: surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children.",
+      "journal": "Intensive care medicine",
+      "year": 2020,
+      "pmid": "32030528",
+      "tier": "corroborated"
+     },
+     {
+      "title": "High-frequency oscillatory ventilation for PARDS: awaiting PROSPect.",
+      "journal": "Critical care (London, England)",
+      "year": 2020,
+      "pmid": "32216813",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Executive Summary: Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children.",
+      "journal": "Pediatric critical care medicine : a journal of the Society ",
+      "year": 2020,
+      "pmid": "32032264",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dead Space to Tidal Volume Ratio Is Associated With Higher Postextubation Support in Children.",
+      "journal": "Respiratory care",
+      "year": 2020,
+      "pmid": "32606073",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Extracorporeal Membrane Oxygenation for Hemodynamic Support.",
+      "journal": "Clinics in perinatology",
+      "year": 2020,
+      "pmid": "32713457",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Acute respiratory failure and the kinetics of neutrophil recovery in pediatric hematopoietic cell transplantation: a multicenter study.",
+      "journal": "Bone marrow transplantation",
+      "year": 2020,
+      "pmid": "31527817",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'CHEIFETZ' + first initial 'I'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "pediatric critical care medicine",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "North Carolina",
+       "DURHAM"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1033272802"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "64 corroborated + 129 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p4": {
+   "name": "Susie Fong",
+   "identity": {
+    "npi": "1447549654",
+    "registryName": "Susie Fong",
+    "credential": "M.D.",
+    "taxonomyCode": "207RS0012X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "ENCINO",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1447549654"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2022,
+      "value": 1983.32
+     },
+     {
+      "year": 2023,
+      "value": 1983.32
+     },
+     {
+      "year": 2024,
+      "value": 787.9
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 4754.54,
+      "records": 6
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 3966.64,
+      "records": 4
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 787.9,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1447549654",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 65,
+     "nameOnly": 1040
+    },
+    "articles": [
+     {
+      "title": "Recreational drug inhalation and socioenvironmental determinants of pulmonary infection in patients with HIV: a hospital-based case control study.",
+      "journal": "BMC public health",
+      "year": 2026,
+      "pmid": "42216131",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sleep-Related Hypoventilation in a Patient With Ehlers-Danlos Syndrome.",
+      "journal": "Cureus",
+      "year": 2026,
+      "pmid": "41873264",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sp1 mechanotransduction regulates breast cancer cell invasion in engineered viscoelastic extracellular matrices.",
+      "journal": "Biomaterials",
+      "year": 2026,
+      "pmid": "41106320",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Author Correction: A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
+      "journal": "Nature genetics",
+      "year": 2025,
+      "pmid": "39833330",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
+      "journal": "Nature genetics",
+      "year": 2025,
+      "pmid": "39558023",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implantation of engineered adipocytes suppresses tumor progression in cancer models.",
+      "journal": "Nature biotechnology",
+      "year": 2025,
+      "pmid": "39905264",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A deep learning model of tumor cell architecture elucidates response and resistance to CDK4/6 inhibitors.",
+      "journal": "Nature cancer",
+      "year": 2024,
+      "pmid": "38443662",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Author Correction: Integrative single-cell characterization of a frugivorous and an insectivorous bat kidney and pancreas.",
+      "journal": "Nature communications",
+      "year": 2024,
+      "pmid": "38413559",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Medicaid Insurance Is Associated With More Complications and Emergency Department Visits but Equivalent 5-Year Secondary Surgery Rate After Primary Hip Arthrosc",
+      "journal": "Arthroscopy : the journal of arthroscopic & related surgery ",
+      "year": 2024,
+      "pmid": "37597701",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Integrative single-cell characterization of a frugivorous and an insectivorous bat kidney and pancreas.",
+      "journal": "Nature communications",
+      "year": 2024,
+      "pmid": "38195585",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'FONG' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "philips",
+       "positive airway pressure",
+       "sleep medicine"
+      ],
+      "affiliationGeo": [
+       "California",
+       "ENCINO"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 247,
+      "beneficiaries": 187
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 152,
+      "beneficiaries": 152
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 133,
+      "beneficiaries": 108
+     },
+     {
+      "code": "95806",
+      "description": "Sleep study including heart rate, breathing, airflow, and effort",
+      "services": 106,
+      "beneficiaries": 100
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 32,
+      "beneficiaries": 31
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 29,
+      "beneficiaries": 25
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1447549654"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "6 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "65 corroborated + 1040 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p5": {
+   "name": "Yo El Ju",
+   "identity": {
+    "npi": "1528280393",
+    "registryName": "Yo-El Ju",
+    "credential": "MD",
+    "taxonomyCode": "2084N0400X",
+    "licenseState": "MO",
+    "opState": "MO",
+    "opCity": "SAINT LOUIS",
+    "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1528280393"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2015,
+      "value": 12424.0
+     },
+     {
+      "year": 2016,
+      "value": 9819.0
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Grant",
+      "total": 22243.0,
+      "records": 5
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 22243.0,
+      "records": 5
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1528280393",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 30,
+     "nameOnly": 3478
+    },
+    "articles": [
+     {
+      "title": "The North American Prodromal Synucleinopathy study: protocol for a multi-site, longitudinal, observational study of idiopathic/isolated rapid eye movement sleep",
+      "journal": "Sleep advances : a journal of the Sleep Research Society",
+      "year": 2026,
+      "pmid": "41725984",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Shared Pathogenic Pathways Between REM Sleep Behavior Disorder and Neurodegenerative and Psychiatric Disorders.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2026,
+      "pmid": "41674635",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Post-traumatic stress disorder and REM-sleep behavior disorder: exploring genetic associations and causal links.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2025,
+      "pmid": "40963755",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Mandibular Advancement vs Combined Airway and Positional Therapy for Snoring: A Randomized Clinical Trial.",
+      "journal": "JAMA otolaryngology-- head & neck surgery",
+      "year": 2024,
+      "pmid": "38780959",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comorbid neurotrauma increases neurodegenerative-relevant cognitive, motor, and autonomic dysfunction in patients with rapid eye movement sleep behavior disorde",
+      "journal": "Sleep",
+      "year": 2024,
+      "pmid": "38181205",
+      "tier": "corroborated"
+     },
+     {
+      "title": "IGLON5 Frequency in Idiopathic REM Sleep Behavior Disorder: A Multicenter Study.",
+      "journal": "Neurology(R) neuroimmunology & neuroinflammation",
+      "year": 2024,
+      "pmid": "39270144",
+      "tier": "corroborated"
+     },
+     {
+      "title": "TopoRoot+: computing whorl and soil line traits of field-excavated maize roots from CT imaging.",
+      "journal": "Plant methods",
+      "year": 2024,
+      "pmid": "39187896",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ethical Aspects of Prodromal Synucleinopathy Prognostic Counseling.",
+      "journal": "Seminars in neurology",
+      "year": 2023,
+      "pmid": "36693433",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sleep Behaviors, Genetic Predispositions, and Risk of Esophageal Cancer.",
+      "journal": "Cancer epidemiology, biomarkers & prevention : a publication",
+      "year": 2023,
+      "pmid": "37195052",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Baseline characteristics of the North American prodromal Synucleinopathy cohort.",
+      "journal": "Annals of clinical and translational neurology",
+      "year": 2023,
+      "pmid": "36751940",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'JU' + first initial 'Y'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "neurology",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "Missouri",
+       "SAINT LOUIS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 31,
+      "beneficiaries": 28
+     },
+     {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using ",
+      "services": 21,
+      "beneficiaries": 21
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 13,
+      "beneficiaries": 13
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1528280393"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "30 corroborated + 3478 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "3 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p6": {
+   "name": "Daniel Shade",
+   "identity": {
+    "npi": "1699738211",
+    "registryName": "Daniel Shade",
+    "credential": "MD",
+    "taxonomyCode": "207RP1001X",
+    "licenseState": "PA",
+    "opState": "PA",
+    "opCity": "PITTSBURGH",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Critical Care Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1699738211"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 76.14
+     },
+     {
+      "year": 2015,
+      "value": 47.17
+     },
+     {
+      "year": 2016,
+      "value": 98.69
+     },
+     {
+      "year": 2017,
+      "value": 4220.77
+     },
+     {
+      "year": 2018,
+      "value": 28.17
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 3292.0,
+      "records": 1
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 928.77,
+      "records": 1
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 250.17,
+      "records": 5
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 4470.94,
+      "records": 7
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1699738211",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 8,
+     "nameOnly": 101
+    },
+    "articles": [
+     {
+      "title": "Patient Safety Outcomes under Flexible and Standard Resident Duty-Hour Rules.",
+      "journal": "The New England journal of medicine",
+      "year": 2019,
+      "pmid": "30855740",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sleep and Alertness in a Duty-Hour Flexibility Trial in Internal Medicine.",
+      "journal": "The New England journal of medicine",
+      "year": 2019,
+      "pmid": "30855741",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Education Outcomes in a Duty-Hour Flexibility Trial in Internal Medicine.",
+      "journal": "The New England journal of medicine",
+      "year": 2018,
+      "pmid": "29557719",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Effects of Citalopram on Neuropsychiatric Symptoms in Alzheimer's Dementia: Evidence From the CitAD Study.",
+      "journal": "The American journal of psychiatry",
+      "year": 2016,
+      "pmid": "27032628",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heterogeneity of Treatment Response to Citalopram for Patients With Alzheimer's Disease With Aggression or Agitation: The CitAD Randomized Clinical Trial.",
+      "journal": "The American journal of psychiatry",
+      "year": 2016,
+      "pmid": "26771737",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Separating fact from factitious hemoptysis: a case report.",
+      "journal": "Critical care nurse",
+      "year": 2014,
+      "pmid": "25086092",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Relationship between resting hypercapnia and physiologic parameters before and after lung volume reduction surgery in severe chronic obstructive pulmonary disea",
+      "journal": "American journal of respiratory and critical care medicine",
+      "year": 1999,
+      "pmid": "10228102",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Play ball.",
+      "journal": "Journal of pediatric oncology nursing : official journal of ",
+      "year": 1996,
+      "pmid": "8854994",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Predominant Symptom in Gastroparesis: Relationships to Quality of Life, Treatments, and Outcome.",
+      "journal": "Neurogastroenterology and motility",
+      "year": 2026,
+      "pmid": "41833524",
+      "tier": "name-only"
+     },
+     {
+      "title": "Uncovering lipid biomarkers linked to methylphenidate efficacy in treating apathy in Alzheimer's disease: insights from the ADMET 2 trial.",
+      "journal": "Alzheimer's research & therapy",
+      "year": 2026,
+      "pmid": "42178577",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SHADE' + first initial 'D'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "critical care medicine",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "Pennsylvania",
+       "PITTSBURGH"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 70,
+      "beneficiaries": 35
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 70,
+      "beneficiaries": 56
+     },
+     {
+      "code": "95806",
+      "description": "Sleep study including heart rate, breathing, airflow, and effort",
+      "services": 63,
+      "beneficiaries": 63
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 52,
+      "beneficiaries": 52
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 47,
+      "beneficiaries": 47
+     },
+     {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2",
+      "services": 42,
+      "beneficiaries": 42
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1699738211"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "5 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "8 corroborated + 101 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p7": {
+   "name": "Michael Ledet",
+   "identity": {
+    "npi": "1407854482",
+    "registryName": "Michael Ledet",
+    "credential": "MD",
+    "taxonomyCode": "207QS1201X",
+    "licenseState": "AL",
+    "opState": "AL",
+    "opCity": "DAPHNE",
+    "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1407854482"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2015,
+      "value": 28.84
+     },
+     {
+      "year": 2016,
+      "value": 93.03
+     },
+     {
+      "year": 2017,
+      "value": 45.0
+     },
+     {
+      "year": 2018,
+      "value": 18.71
+     },
+     {
+      "year": 2019,
+      "value": 93.41
+     },
+     {
+      "year": 2020,
+      "value": 140.37
+     },
+     {
+      "year": 2021,
+      "value": 114.61
+     },
+     {
+      "year": 2022,
+      "value": 1235.73
+     },
+     {
+      "year": 2023,
+      "value": 1188.28
+     },
+     {
+      "year": 2024,
+      "value": 1213.98
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 3290.49,
+      "records": 3
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 881.47,
+      "records": 34
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 2683.21,
+      "records": 17
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 1098.83,
+      "records": 1
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 389.92,
+      "records": 19
+     }
+    ],
+    "research": {
+     "total": 84653.01,
+     "records": 8
+    },
+    "researchPi": {
+     "total": null,
+     "records": 98
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1407854482",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 7
+    },
+    "articles": [
+     {
+      "title": "Supporting College Athletes: Wellness Programs in the Era of NIL and Legal Reform.",
+      "journal": "Health promotion practice",
+      "year": 2025,
+      "pmid": "41472366",
+      "tier": "name-only"
+     },
+     {
+      "title": "Secreted sphingomyelins modulate low mammary cancer incidence observed in certain mammals.",
+      "journal": "Scientific reports",
+      "year": 2020,
+      "pmid": "33239740",
+      "tier": "name-only"
+     },
+     {
+      "title": "Conserved and variable: Understanding mammary stem cells across species.",
+      "journal": "Cytometry. Part A : the journal of the International Society",
+      "year": 2018,
+      "pmid": "28834173",
+      "tier": "name-only"
+     },
+     {
+      "title": "BB-Cl-Amidine as a novel therapeutic for canine and feline mammary cancer via activation of the endoplasmic reticulum stress pathway.",
+      "journal": "BMC cancer",
+      "year": 2018,
+      "pmid": "29649984",
+      "tier": "name-only"
+     },
+     {
+      "title": "The secretome from bovine mammosphere-derived cells (MDC) promotes angiogenesis, epithelial cell migration, and contains factors associated with defense and imm",
+      "journal": "Scientific reports",
+      "year": 2018,
+      "pmid": "29599438",
+      "tier": "name-only"
+     },
+     {
+      "title": "Differential signaling pathway activation in 7,12-dimethylbenz[a] anthracene (DMBA)-treated mammary stem/progenitor cells from species with varying mammary canc",
+      "journal": "Oncotarget",
+      "year": 2018,
+      "pmid": "30214683",
+      "tier": "name-only"
+     },
+     {
+      "title": "Potential side effects in patients treated with inhaled corticosteroids and long-acting beta2-agonists.",
+      "journal": "Respiratory medicine",
+      "year": 2009,
+      "pmid": "19136239",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'LEDET' + first initial 'M'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "family medicine",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "Alabama",
+       "DAPHNE"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 303,
+      "beneficiaries": 158
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 191,
+      "beneficiaries": 143
+     },
+     {
+      "code": "95810",
+      "description": "Sleep study in sleep lab (6 years or older)",
+      "services": 37,
+      "beneficiaries": 36
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 28,
+      "beneficiaries": 28
+     },
+     {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 26,
+      "beneficiaries": 26
+     },
+     {
+      "code": "95806",
+      "description": "Sleep study including heart rate, breathing, airflow, and effort",
+      "services": 14,
+      "beneficiaries": 14
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1407854482"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "8 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 7 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p8": {
+   "name": "Haranath Policherla",
+   "identity": {
+    "npi": "1669493912",
+    "registryName": "Haranath Policherla",
+    "credential": "M.D.",
+    "taxonomyCode": "2084N0400X",
+    "licenseState": "MI",
+    "opState": "MI",
+    "opCity": "HUNTINGTON WOODS",
+    "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1669493912"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2022,
+      "value": 1125.0
+     },
+     {
+      "year": 2023,
+      "value": 1125.0
+     },
+     {
+      "year": 2024,
+      "value": 1128.08
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 3378.08,
+      "records": 3
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 2250.0,
+      "records": 2
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 1128.08,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1669493912",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 2
+    },
+    "articles": [
+     {
+      "title": "Prior head injury accounts for the heterogeneity of the alcohol-epilepsy relationship.",
+      "journal": "Clinical EEG (electroencephalography)",
+      "year": 1992,
+      "pmid": "1628408",
+      "tier": "name-only"
+     },
+     {
+      "title": "Complete external ophthalmoplegia in a case of pseudotumor cerebri.",
+      "journal": "Headache",
+      "year": 1987,
+      "pmid": "3692820",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'POLICHERLA' + first initial 'H'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "neurology",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "Michigan",
+       "HUNTINGTON WOODS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 490,
+      "beneficiaries": 104
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 365,
+      "beneficiaries": 110
+     },
+     {
+      "code": "95885",
+      "description": "Needle measurement of electrical activity in arm or leg muscles, limited study",
+      "services": 72,
+      "beneficiaries": 61
+     },
+     {
+      "code": "93886",
+      "description": "Complete ultrasound of within the brain blood flow",
+      "services": 47,
+      "beneficiaries": 47
+     },
+     {
+      "code": "93880",
+      "description": "Ultrasound of both sides of head and neck blood flow",
+      "services": 46,
+      "beneficiaries": 46
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 42,
+      "beneficiaries": 41
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1669493912"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "3 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 2 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p9": {
+   "name": "Antoine Elhajjar",
+   "identity": {
+    "npi": "1558328203",
+    "registryName": "Antoine Elhajjar",
+    "credential": "M.D.",
+    "taxonomyCode": "174400000X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "LA QUINTA",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1558328203"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 72.08
+     },
+     {
+      "year": 2017,
+      "value": 101.33
+     },
+     {
+      "year": 2023,
+      "value": 2025.0
+     },
+     {
+      "year": 2024,
+      "value": 1342.6
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Long term medical supply or device loan",
+      "total": 3367.6,
+      "records": 2
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 173.41,
+      "records": 2
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 2025.0,
+      "records": 1
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 1342.6,
+      "records": 1
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 101.33,
+      "records": 1
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 72.08,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1558328203",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 2
+    },
+    "articles": [
+     {
+      "title": "Effect of fibrosis regionality on atrial fibrillation recurrence: insights from DECAAF II.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2023,
+      "pmid": "37428891",
+      "tier": "name-only"
+     },
+     {
+      "title": "Sleepsex: a variant of sleepwalking.",
+      "journal": "Archives of sexual behavior",
+      "year": 1998,
+      "pmid": "9604116",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'ELHAJJAR' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "philips",
+       "positive airway pressure",
+       "sleep medicine"
+      ],
+      "affiliationGeo": [
+       "California",
+       "LA QUINTA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 302,
+      "beneficiaries": 197
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 90,
+      "beneficiaries": 86
+     },
+     {
+      "code": "95886",
+      "description": "Needle measurement of electrical activity in arm or leg muscles, complete study",
+      "services": 75,
+      "beneficiaries": 36
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 57,
+      "beneficiaries": 57
+     },
+     {
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
+      "services": 41,
+      "beneficiaries": 40
+     },
+     {
+      "code": "95806",
+      "description": "Sleep study including heart rate, breathing, airflow, and effort",
+      "services": 40,
+      "beneficiaries": 39
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1558328203"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "2 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 2 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p10": {
+   "name": "Michelle Cao",
+   "identity": {
+    "npi": "1386791762",
+    "registryName": "Michelle Cao",
+    "credential": "DO",
+    "taxonomyCode": "207RC0200X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "REDWOOD CITY",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1386791762"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2017,
+      "value": 3252.35
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 3065.0,
+      "records": 1
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 187.35,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 3252.35,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1386791762",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 231,
+     "nameOnly": 6810
+    },
+    "articles": [
+     {
+      "title": "Escherichia coli Nissle 1917 Occupies Previously Undocumented Host Niches in the Insect-Parasitic Nematode Steinernema hermaphroditum.",
+      "journal": "Environmental microbiology reports",
+      "year": 2026,
+      "pmid": "41936383",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Establishment of DNA methylation during primate germ cell development.",
+      "journal": "Nature communications",
+      "year": 2026,
+      "pmid": "41951630",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Respiratory insufficiency and sleep impairment in facioscapulohumeral muscular dystrophy.",
+      "journal": "Neuromuscular disorders : NMD",
+      "year": 2026,
+      "pmid": "41980375",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dose-escalated stereotactic body radiotherapy re-irradiation in patients with recurrent head and neck cancer: a prospective phase 2 study using automated non-co",
+      "journal": "Radiotherapy and oncology : journal of the European Society ",
+      "year": 2026,
+      "pmid": "41242408",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dosimetric Comparison of Magnetic Resonance Imaging Guided Versus Reduced Margin Computed Tomography Guided Stereotactic Body Radiation Therapy for Localized Pr",
+      "journal": "International journal of radiation oncology, biology, physic",
+      "year": 2026,
+      "pmid": "40482729",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Stereotactic Intensity-modulated Radiotherapy After Radical Prostatectomy (SCIMITAR): 4-Year Outcomes of a Phase 2 Clinical Trial.",
+      "journal": "European urology",
+      "year": 2026,
+      "pmid": "41033921",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Toward Non-Invasive MR-Based Target Delineation for Ventricular Tachycardia Stereotactic Radiotherapy: Development of a 3D Wideband LGE MRI Technique.",
+      "journal": "International journal of radiation oncology, biology, physic",
+      "year": 2026,
+      "pmid": "42235692",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dosimetry Analysis of",
+      "journal": "Journal of nuclear medicine : official publication, Society ",
+      "year": 2026,
+      "pmid": "41927282",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Performance of the quadripolar CRT-D system: Five-year results from the Quadripolar Pacing Post-Approval Study.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "38971416",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Remote Patient Monitoring for Global Emergencies: Case Study in Patients With COVID-19.",
+      "journal": "JMIR formative research",
+      "year": 2025,
+      "pmid": "40680176",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'CAO' + first initial 'M'",
+     "signals": {
+      "topicKeywords": [
+       "bipap",
+       "cpap",
+       "internal medicine",
+       "philips",
+       "positive airway pressure"
+      ],
+      "affiliationGeo": [
+       "California",
+       "REDWOOD CITY"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 151,
+      "beneficiaries": 74
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 141,
+      "beneficiaries": 108
+     },
+     {
+      "code": "94729",
+      "description": "Test to examine how well the lungs exchange gases",
+      "services": 128,
+      "beneficiaries": 127
+     },
+     {
+      "code": "94060",
+      "description": "Test to measure expiratory airflow and volume changes before and after medication administ",
+      "services": 95,
+      "beneficiaries": 94
+     },
+     {
+      "code": "94726",
+      "description": "Test to determine lung volumes using sensors",
+      "services": 71,
+      "beneficiaries": 71
+     },
+     {
+      "code": "94010",
+      "description": "Test to measure expiratory airflow and volume",
+      "services": 65,
+      "beneficiaries": 64
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1386791762"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "2 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "231 corroborated + 6810 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,3099 @@
+{
+ "profiles": {
+  "p1": {
+   "name": "Scott Silvestry",
+   "identity": {
+    "npi": "1922028547",
+    "registryName": "Scott Silvestry",
+    "credential": "MD",
+    "taxonomyCode": "204F00000X",
+    "licenseState": "FL",
+    "opState": "MO",
+    "opCity": "ORLANDO",
+    "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1922028547"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 30516.53
+     },
+     {
+      "year": 2014,
+      "value": 71922.14
+     },
+     {
+      "year": 2015,
+      "value": 57630.49
+     },
+     {
+      "year": 2016,
+      "value": 22387.71
+     },
+     {
+      "year": 2017,
+      "value": 92453.37
+     },
+     {
+      "year": 2018,
+      "value": 115521.11
+     },
+     {
+      "year": 2019,
+      "value": 51987.93
+     },
+     {
+      "year": 2020,
+      "value": 28324.84
+     },
+     {
+      "year": 2021,
+      "value": 65457.17
+     },
+     {
+      "year": 2022,
+      "value": 90928.09
+     },
+     {
+      "year": 2023,
+      "value": 150373.87
+     },
+     {
+      "year": 2024,
+      "value": 164623.11
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Honoraria",
+      "total": 330116.31,
+      "records": 59
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 252730.05,
+      "records": 131
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 234320.24,
+      "records": 304
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 90950.0,
+      "records": 30
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 26746.24,
+      "records": 318
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 5700.0,
+      "records": 3
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "ABIOMED",
+      "total": 418852.97,
+      "records": 227
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 271413.68,
+      "records": 319
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 134888.15,
+      "records": 173
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 63148.94,
+      "records": 66
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 31159.88,
+      "records": 42
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 12120.42,
+      "records": 17
+     }
+    ],
+    "research": {
+     "total": 1227.2,
+     "records": 15
+    },
+    "researchPi": {
+     "total": null,
+     "records": 133
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1922028547",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 119,
+     "nameOnly": 38
+    },
+    "articles": [
+     {
+      "title": "Determining the individualized probability of myocardial recovery: The multicenter RecoverHeart calculator.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "42001916",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Temporary Mechanical Circulatory Support and Shock Teams in High-Risk Cardiac Surgery: The Strategic Evolution of Protected Cardiac Surgery.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "41544922",
+      "tier": "corroborated"
+     },
+     {
+      "title": "EACTS Expert Consensus Document on protected cardiac surgery: pre-emptive use of temporary mechanical circulatory support in adult cardiac surgery patients at h",
+      "journal": "European journal of cardio-thoracic surgery : official journ",
+      "year": 2026,
+      "pmid": "41063414",
+      "tier": "corroborated"
+     },
+     {
+      "title": "How to diagnose and manage emergency medical conditions in patients on left ventricular assist device support: A clinician's field guide.",
+      "journal": "Trends in cardiovascular medicine",
+      "year": 2025,
+      "pmid": "39638079",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of Surgically Implanted Impella Microaxial Flow Pumps in Heart Failure-Related Cardiogenic Shock.",
+      "journal": "Journal of cardiac failure",
+      "year": 2025,
+      "pmid": "40164407",
+      "tier": "corroborated"
+     },
+     {
+      "title": "When the Data Changes, So Should We: Rethinking Aspirin in the Modern LVAD Era.",
+      "journal": "JACC. Heart failure",
+      "year": 2025,
+      "pmid": "40515747",
+      "tier": "corroborated"
+     },
+     {
+      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
+      "journal": "European journal of cardio-thoracic surgery : official journ",
+      "year": 2025,
+      "pmid": "41063410",
+      "tier": "corroborated"
+     },
+     {
+      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2025,
+      "pmid": "41075929",
+      "tier": "corroborated"
+     },
+     {
+      "title": "EACTS/STS/AATS Guidelines on temporary mechanical circulatory support in adult cardiac surgery.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2025,
+      "pmid": "41075999",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Chilling Choices: Heart Transplant Outcomes Using SherpaPak With Long Ischemic Time Versus Traditional Ice Storage With Short Ischemic Time.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2025,
+      "pmid": "39666506",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SILVESTRY' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "surgery",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Missouri",
+       "ORLANDO"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 93,
+      "beneficiaries": 30
+     },
+     {
+      "code": "93750",
+      "description": "Evaluation of lower heart chamber assist device",
+      "services": 84,
+      "beneficiaries": 25
+     },
+     {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 26,
+      "beneficiaries": 20
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1922028547"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "194 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "119 corroborated + 38 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "3 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p2": {
+   "name": "Douglas Horstmanshof",
+   "identity": {
+    "npi": "1881688760",
+    "registryName": "Douglas Horstmanshof",
+    "credential": "MD",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "MI",
+    "opState": "OK",
+    "opCity": "OKLAHOMA CITY",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1881688760"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 3152.67
+     },
+     {
+      "year": 2014,
+      "value": 22218.37
+     },
+     {
+      "year": 2015,
+      "value": 6659.01
+     },
+     {
+      "year": 2016,
+      "value": 370.51
+     },
+     {
+      "year": 2017,
+      "value": 42572.04
+     },
+     {
+      "year": 2018,
+      "value": 29663.32
+     },
+     {
+      "year": 2019,
+      "value": 53286.03
+     },
+     {
+      "year": 2020,
+      "value": 19733.54
+     },
+     {
+      "year": 2021,
+      "value": 10627.45
+     },
+     {
+      "year": 2022,
+      "value": 18581.54
+     },
+     {
+      "year": 2023,
+      "value": 25248.37
+     },
+     {
+      "year": 2024,
+      "value": 55087.85
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 186309.4,
+      "records": 127
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 69439.3,
+      "records": 137
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 25942.73,
+      "records": 373
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 5000.0,
+      "records": 1
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 500.0,
+      "records": 1
+     },
+     {
+      "nature": "Education",
+      "total": 9.27,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 254940.55,
+      "records": 507
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 30358.83,
+      "records": 119
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 1638.8,
+      "records": 10
+     },
+     {
+      "company": "Thoratec Europe Limited",
+      "total": 232.99,
+      "records": 2
+     },
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 29.53,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 156
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1881688760",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 41,
+     "nameOnly": 4
+    },
+    "articles": [
+     {
+      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
+      "journal": "Journal of cardiac failure",
+      "year": 2025,
+      "pmid": "39855458",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Omentoplasty for ventricular assist device infections: Encouraging outcomes.",
+      "journal": "JHLT open",
+      "year": 2025,
+      "pmid": "40292043",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Concurrent valvular procedures during left ventricular assist device implantation and outcomes: A comprehensive analysis of the Multicenter Study of MagLev Tech",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2023,
+      "pmid": "35643769",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Predictors of 5-Year Mortality in Patients Managed With a Magnetically Levitated Left Ventricular Assist Device.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2023,
+      "pmid": "37612008",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The 2023 International Society for Heart and Lung Transplantation Guidelines for Mechanical Circulatory Support: A 10- Year Update.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2023,
+      "pmid": "37245143",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes in Smaller Body Size Adults After HeartMate 3 Left Ventricular Assist Device Implantation.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2022,
+      "pmid": "35452663",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of COVID-19 in heart failure, LVAD, and heart transplant patients in an advanced heart failure practice.",
+      "journal": "American heart journal plus : cardiology research and practi",
+      "year": 2022,
+      "pmid": "36345551",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Oncostatin M: a Potential Biomarker to Predict Infection in Patients with Left Ventricular Assist Devices.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2022,
+      "pmid": "34772849",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Five-Year Outcomes in Patients With Fully Magnetically Levitated vs Axial-Flow Left Ventricular Assist Devices in the MOMENTUM 3 Randomized Trial.",
+      "journal": "JAMA",
+      "year": 2022,
+      "pmid": "36074476",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A principal components analysis of factors associated with successful implementation of an LVAD decision support tool.",
+      "journal": "BMC medical informatics and decision making",
+      "year": 2021,
+      "pmid": "33743685",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'HORSTMANSHOF' + first initial 'D'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "heartmate",
+       "lvad",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Oklahoma",
+       "OKLAHOMA CITY"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93306",
+      "description": "Ultrasound of heart with color-depicted blood flow, rate, direction and valve function",
+      "services": 313,
+      "beneficiaries": 280
+     },
+     {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 238,
+      "beneficiaries": 72
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 100,
+      "beneficiaries": 81
+     },
+     {
+      "code": "93750",
+      "description": "Evaluation of lower heart chamber assist device",
+      "services": 92,
+      "beneficiaries": 18
+     },
+     {
+      "code": "93308",
+      "description": "Ultrasound of heart, follow-up",
+      "services": 92,
+      "beneficiaries": 39
+     },
+     {
+      "code": "93321",
+      "description": "Ultrasound of heart blood flow, valves and chambers, follow-up",
+      "services": 90,
+      "beneficiaries": 40
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1881688760"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "288 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "41 corroborated + 4 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p3": {
+   "name": "Valluvan Jeevanandam",
+   "identity": {
+    "npi": "1285738344",
+    "registryName": "Valluvan Jeevanandam",
+    "credential": null,
+    "taxonomyCode": "208G00000X",
+    "licenseState": "IL",
+    "opState": "IL",
+    "opCity": "CHICAGO",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1285738344"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 1017.79
+     },
+     {
+      "year": 2014,
+      "value": 13349.98
+     },
+     {
+      "year": 2015,
+      "value": 26173.91
+     },
+     {
+      "year": 2016,
+      "value": 16573.43
+     },
+     {
+      "year": 2017,
+      "value": 7918.04
+     },
+     {
+      "year": 2018,
+      "value": 16470.37
+     },
+     {
+      "year": 2019,
+      "value": 69434.76
+     },
+     {
+      "year": 2020,
+      "value": 25608.89
+     },
+     {
+      "year": 2021,
+      "value": 15024.83
+     },
+     {
+      "year": 2022,
+      "value": 1211.48
+     },
+     {
+      "year": 2023,
+      "value": 523.57
+     },
+     {
+      "year": 2024,
+      "value": 417.62
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 160575.0,
+      "records": 103
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 20056.1,
+      "records": 92
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 10711.17,
+      "records": 161
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 2300.0,
+      "records": 2
+     },
+     {
+      "nature": "Education",
+      "total": 82.4,
+      "records": 11
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 154036.41,
+      "records": 240
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 33483.46,
+      "records": 99
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 4552.07,
+      "records": 13
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 1142.81,
+      "records": 5
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 275.88,
+      "records": 11
+     },
+     {
+      "company": "ABIOMED",
+      "total": 234.04,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 72
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1285738344",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 198,
+     "nameOnly": 107
+    },
+    "articles": [
+     {
+      "title": "Association between listing hemodynamics and heart transplantation waitlist outcomes: An analysis of the Scientific Registry of Transplant Recipients.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41276097",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Mitigating Post-operative Right Ventricular Dysfunction After Left Ventricular Assist Device: The RV Protection Study.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "39954845",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Alternative Measures of Body Composition and Outcomes Following Heart Transplant.",
+      "journal": "Clinical transplantation",
+      "year": 2026,
+      "pmid": "41615227",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Two-staged aortic repair for acute type A aortic dissection in patients refusing blood transfusion.",
+      "journal": "Vascular",
+      "year": 2026,
+      "pmid": "39960071",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Bloodless heart transplantation in patients who refuse transfusion: An 11-year case series.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "40935286",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Commentary: Modifiable recipient factors that can decrease primary donor heart dysfunction.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "42025992",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Combined heart and liver transplant in a patient with failing Fontan and total situs inversus.",
+      "journal": "JTCVS techniques",
+      "year": 2025,
+      "pmid": "40641768",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Donor Selection for Heart Transplantation in 2025.",
+      "journal": "JACC. Heart failure",
+      "year": 2025,
+      "pmid": "39570235",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Mechanism of Typical Atrial Flutter in a Patient After Cardiac Transplant: Functional Slowing From Geometric Distortion.",
+      "journal": "JACC. Case reports",
+      "year": 2025,
+      "pmid": "40996405",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early and Late Outcomes of Ambulatory Counter Pulsation Devices as a Bridge to Heart Transplantation.",
+      "journal": "Cardiology",
+      "year": 2025,
+      "pmid": "40293434",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'JEEVANANDAM' + first initial 'V'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "thoracic surgery (cardiothoracic vascular surgery)",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Illinois",
+       "CHICAGO"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "33508",
+      "description": "Harvest of vein using an endoscope",
+      "services": 34,
+      "beneficiaries": 34
+     },
+     {
+      "code": "33533",
+      "description": "Coronary artery bypass using artery graft, 1 graft",
+      "services": 30,
+      "beneficiaries": 30
+     },
+     {
+      "code": "33405",
+      "description": "Replacement of aortic valve on heart-lung machine",
+      "services": 23,
+      "beneficiaries": 23
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 16,
+      "beneficiaries": 16
+     },
+     {
+      "code": "33518",
+      "description": "Coronary artery bypass using vein or artery graft, 2 grafts",
+      "services": 16,
+      "beneficiaries": 16
+     },
+     {
+      "code": "33641",
+      "description": "Repair of congenital defect between upper heart chambers on heart-lung machine",
+      "services": 12,
+      "beneficiaries": 12
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1285738344"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "198 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "198 corroborated + 107 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p4": {
+   "name": "Angela Lorts",
+   "identity": {
+    "npi": "1861407348",
+    "registryName": "Angela Lorts",
+    "credential": "MD",
+    "taxonomyCode": "2080P0202X",
+    "licenseState": "OH",
+    "opState": "OH",
+    "opCity": "CINCINNATI",
+    "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Cardiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1861407348"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 99.34
+     },
+     {
+      "year": 2016,
+      "value": 968.71
+     },
+     {
+      "year": 2017,
+      "value": 2637.29
+     },
+     {
+      "year": 2018,
+      "value": 7668.27
+     },
+     {
+      "year": 2019,
+      "value": 37593.36
+     },
+     {
+      "year": 2020,
+      "value": 24481.12
+     },
+     {
+      "year": 2021,
+      "value": 34876.06
+     },
+     {
+      "year": 2022,
+      "value": 14335.78
+     },
+     {
+      "year": 2023,
+      "value": 21985.23
+     },
+     {
+      "year": 2024,
+      "value": 18467.57
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 127035.0,
+      "records": 92
+     },
+     {
+      "nature": "Honoraria",
+      "total": 13000.0,
+      "records": 2
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 12545.17,
+      "records": 42
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 6470.06,
+      "records": 93
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 4062.5,
+      "records": 2
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 140810.3,
+      "records": 197
+     },
+     {
+      "company": "ABIOMED",
+      "total": 16136.28,
+      "records": 16
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 4566.81,
+      "records": 12
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 1500.0,
+      "records": 5
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 99.34,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 1
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1861407348",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 167,
+     "nameOnly": 26
+    },
+    "articles": [
+     {
+      "title": "Contemporary outcomes of mechanical circulatory support using paracorporeal continuous flow pump in children: A report from the ACTION learning network.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "40602507",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prospective Multicenter Evaluation of a Novel Active Driving System for Pediatric Ventricular Assist Device Support.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2026,
+      "pmid": "42089850",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heart Transplantation and Ventricular Assist Device in Duchenne Muscular Dystrophy: A New Era.",
+      "journal": "Pediatric transplantation",
+      "year": 2026,
+      "pmid": "41424087",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Cardiac Medication Use in ACTION for Duchenne Muscular Dystrophy Cardiomyopathy.",
+      "journal": "Pediatric cardiology",
+      "year": 2026,
+      "pmid": "40540017",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Multicenter Registry Analysis of Bivalirudin for Primary Anticoagulation in Pediatric HeartMate 3 Recipients: ACTION Analysis.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2026,
+      "pmid": "41813628",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Capturing Physiological Data in Children With Heart Failure Using Wearable Digital Technology: Lessons From Pilot Project.",
+      "journal": "CJC pediatric and congenital heart disease",
+      "year": 2025,
+      "pmid": "41624757",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Can Children With a VAD Overcome Intellectual and Motor Disabilities After Heart Transplantation in the United States?",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2025,
+      "pmid": "40288732",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Increasing Utilization of the Impella Device as a Bridge-to-Transplantation in Pediatric Heart Centers Across the United States.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": 2025,
+      "pmid": "40313165",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Complex stenting of an obstructed outflow graft of a heartmate 3 in an adult after a mustard procedure.",
+      "journal": "Cardiology in the young",
+      "year": 2025,
+      "pmid": "40653774",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heart Transplantation Outcomes for Fontan Patients When Using Contemporary Strategies: Heart-Liver Transplantation and Ventricular Assist Device Therapy.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": 2025,
+      "pmid": "39814360",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'LORTS' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "pediatric cardiology",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Ohio",
+       "CINCINNATI"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1861407348"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "144 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "167 corroborated + 26 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p5": {
+   "name": "David Morales",
+   "identity": {
+    "npi": "1407936818",
+    "registryName": "David Morales",
+    "credential": "MD",
+    "taxonomyCode": "208G00000X",
+    "licenseState": "OH",
+    "opState": "OH",
+    "opCity": "CINCINNATI",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1407936818"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 135.86
+     },
+     {
+      "year": 2014,
+      "value": 1025.75
+     },
+     {
+      "year": 2015,
+      "value": 1128.41
+     },
+     {
+      "year": 2016,
+      "value": 2626.78
+     },
+     {
+      "year": 2017,
+      "value": 1181.58
+     },
+     {
+      "year": 2018,
+      "value": 1911.19
+     },
+     {
+      "year": 2019,
+      "value": 26923.58
+     },
+     {
+      "year": 2020,
+      "value": 37035.37
+     },
+     {
+      "year": 2021,
+      "value": 48276.65
+     },
+     {
+      "year": 2022,
+      "value": 8586.47
+     },
+     {
+      "year": 2023,
+      "value": 6240.82
+     },
+     {
+      "year": 2024,
+      "value": 609.9
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 116982.5,
+      "records": 75
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 9918.9,
+      "records": 23
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 8381.39,
+      "records": 165
+     },
+     {
+      "nature": "Education",
+      "total": 399.57,
+      "records": 2
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 125608.89,
+      "records": 148
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 5447.56,
+      "records": 51
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 1818.04,
+      "records": 27
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 1118.47,
+      "records": 24
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 998.51,
+      "records": 3
+     },
+     {
+      "company": "ABIOMED",
+      "total": 401.77,
+      "records": 3
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 13
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1407936818",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 334,
+     "nameOnly": 904
+    },
+    "articles": [
+     {
+      "title": "Ex Vivo Hydrodynamic Assessment of Expanded Polytetrafluoroethylene Trileaflet Pulmonary Valves.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2026,
+      "pmid": "40810548",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of Fontan patients undergoing combined heart-liver transplantation in pediatric hospitals across the United States.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "40818789",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Commentary: No Longer Baffling: Surgeon-Derived Virtual Reality Surgical Simulations are Transforming Complex Congenital Intracardiac Repairs.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "42178042",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Practice Patterns and Outcomes of Hemodialysis in Infants Undergoing Congenital Heart Surgery in the United States.",
+      "journal": "Pediatric cardiology",
+      "year": 2026,
+      "pmid": "41511517",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Timing of Arterial Switch Operation in Dextro-Transposition of Great Arteries with Intact Septum: Factors Associated with Delay, Practice Variation, and Associa",
+      "journal": "Pediatric cardiology",
+      "year": 2026,
+      "pmid": "40411558",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Rethinking paracorporeal lung assist device support in the modern era: Why so different than ECMO?",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41985769",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Contrasting the Performance of a Surgeon-Fashioned Extracellular Matrix Cylindrical Tricuspid Valve Versus a Mechanical Valve.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": 2026,
+      "pmid": "40790959",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and Feasibility of Implanting Dual-Chamber Permanent Pacemakers in Patients Under 3 kg.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": 2026,
+      "pmid": "40641427",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Ninth Annual STS-Pedimacs Report: Pediatric VAD Outcomes and the Expanding Role of Biventricular Support.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "42229777",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Reply: Standardization for the unique heart; criteria for Fontan combined heart liver transplantation.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "41014310",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'MORALES' + first initial 'D'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "thoracic surgery (cardiothoracic vascular surgery)",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Ohio",
+       "CINCINNATI"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": null,
+    "procedures": [],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1407936818"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "86 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "334 corroborated + 904 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "0 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p6": {
+   "name": "Mandeep Mehra",
+   "identity": {
+    "npi": "1043265978",
+    "registryName": "Mandeep Mehra",
+    "credential": "M.D.",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "MD",
+    "opState": "MA",
+    "opCity": "BOSTON",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1043265978"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 217.88
+     },
+     {
+      "year": 2014,
+      "value": 1772.02
+     },
+     {
+      "year": 2015,
+      "value": 9324.81
+     },
+     {
+      "year": 2016,
+      "value": 29.43
+     },
+     {
+      "year": 2017,
+      "value": 140.48
+     },
+     {
+      "year": 2018,
+      "value": 14987.88
+     },
+     {
+      "year": 2019,
+      "value": 112087.48
+     },
+     {
+      "year": 2020,
+      "value": 77785.0
+     },
+     {
+      "year": 2021,
+      "value": 36846.5
+     },
+     {
+      "year": 2022,
+      "value": 18844.52
+     },
+     {
+      "year": 2023,
+      "value": 4877.16
+     },
+     {
+      "year": 2024,
+      "value": 202.17
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 245784.5,
+      "records": 304
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 23570.62,
+      "records": 24
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 4610.21,
+      "records": 49
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 3150.0,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 265647.21,
+      "records": 351
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 11291.85,
+      "records": 24
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 123.98,
+      "records": 1
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 52.29,
+      "records": 2
+     }
+    ],
+    "research": {
+     "total": 7067.85,
+     "records": 6
+    },
+    "researchPi": {
+     "total": null,
+     "records": 1
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1043265978",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 349,
+     "nameOnly": 500
+    },
+    "articles": [
+     {
+      "title": "Effects of Icosapent Ethyl on Risk and Duration of Hospitalizations and Death in REDUCE-IT.",
+      "journal": "European journal of preventive cardiology",
+      "year": 2026,
+      "pmid": "41544244",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Rationale, design, and baseline characteristics of the multicENter, randomized, open-label, parallel group, study to evaluate the use of sacubitril/valsartan in",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "40818766",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Single-beat right ventricular-pulmonary artery coupling and residual heart failure in patients with a HeartMate 3 left ventricular assist device.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41949525",
+      "tier": "corroborated"
+     },
+     {
+      "title": "10-Year Survival and Renal Outcomes After Simultaneous Heart-Kidney Transplantation in Heart Retransplant Recipients.",
+      "journal": "JACC. Heart failure",
+      "year": 2026,
+      "pmid": "42171542",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heart Replacement Therapy in Young Patients: A Comparative Analysis of HeartMate 3 LVAD and Heart Transplant Using MOMENTUM 3 and UNOS Registry.",
+      "journal": "JACC. Heart failure",
+      "year": 2026,
+      "pmid": "41653179",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Physician-Directed Patient Self-Management Using an Implantable IVC Congestion Sensor: Insights From FUTURE-HFII.",
+      "journal": "JACC. Heart failure",
+      "year": 2026,
+      "pmid": "41860506",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of DCD Versus DBD Heart Transplantation: Impact of Primary Graft Dysfunction Recovery Trajectory.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "42229574",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The future of durable mechanical circulatory support devices: Emerging innovations.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41580103",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Impact on survival of T cell-depleting or interleukin-2 receptor antagonist induction therapy in simultaneous heart-kidney transplantation: A national registry ",
+      "journal": "American journal of transplantation : official journal of th",
+      "year": 2026,
+      "pmid": "42162917",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Long-term Safety and Performance of an Implantable IVC Sensor for Congestion-Guided Management in Heart Failure: 12-Month Results from the FUTURE-HF Trial Portf",
+      "journal": "European journal of heart failure",
+      "year": 2026,
+      "pmid": "41841702",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'MEHRA' + first initial 'M'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "heartmate",
+       "lvad",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Massachusetts",
+       "BOSTON"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 1142,
+      "beneficiaries": 937
+     },
+     {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 135,
+      "beneficiaries": 49
+     },
+     {
+      "code": "93750",
+      "description": "Evaluation of lower heart chamber assist device",
+      "services": 117,
+      "beneficiaries": 17
+     },
+     {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 76,
+      "beneficiaries": 20
+     },
+     {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 66,
+      "beneficiaries": 37
+     },
+     {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at le",
+      "services": 27,
+      "beneficiaries": 22
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1043265978"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "196 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "349 corroborated + 500 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p7": {
+   "name": "Igor Gosev",
+   "identity": {
+    "npi": "1598033649",
+    "registryName": "Igor Gosev",
+    "credential": "MD, PHD",
+    "taxonomyCode": "208G00000X",
+    "licenseState": "NJ",
+    "opState": "NY",
+    "opCity": "WORCESTER",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1598033649"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 2054.47
+     },
+     {
+      "year": 2014,
+      "value": 6037.55
+     },
+     {
+      "year": 2015,
+      "value": 4465.41
+     },
+     {
+      "year": 2016,
+      "value": 708.94
+     },
+     {
+      "year": 2017,
+      "value": 4144.81
+     },
+     {
+      "year": 2018,
+      "value": 17200.1
+     },
+     {
+      "year": 2019,
+      "value": 20362.57
+     },
+     {
+      "year": 2020,
+      "value": 25286.38
+     },
+     {
+      "year": 2021,
+      "value": 3966.48
+     },
+     {
+      "year": 2022,
+      "value": 13818.71
+     },
+     {
+      "year": 2023,
+      "value": 17737.35
+     },
+     {
+      "year": 2024,
+      "value": 19955.15
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 78039.5,
+      "records": 59
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 33244.22,
+      "records": 128
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 20879.2,
+      "records": 338
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 3575.0,
+      "records": 4
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 120652.37,
+      "records": 394
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 10676.44,
+      "records": 99
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 2630.86,
+      "records": 24
+     },
+     {
+      "company": "ABIOMED",
+      "total": 1778.25,
+      "records": 12
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 55
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1598033649",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 58,
+     "nameOnly": 37
+    },
+    "articles": [
+     {
+      "title": "Net Prolongation of Life in Advanced Heart Failure: An Intentional Strategy of Durable LVAD Therapy Followed by Heart Transplantation.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41833594",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early right ventricular failure following HeartMate 3 left ventricular assist device implantation: Risk factors and outcomes.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41903627",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Survival and Readmission Burden in Advanced Heart Failure Patients Managed With Ventricular Assist Device Versus Continued Medical Therapy.",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2025,
+      "pmid": "40028781",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implantable Cardioverter-Defibrillators and Cardiovascular Resynchronization Therapy with Left Ventricular Assist DevicesA MOMENTUM 3 Trial Analysis.",
+      "journal": "Journal of cardiac failure",
+      "year": 2025,
+      "pmid": "39855458",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Ventricular Assist Devices: Advances, Complications, and Pitfalls.",
+      "journal": "Radiology. Cardiothoracic imaging",
+      "year": 2025,
+      "pmid": "40874839",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ventricular assist device using a thoracotomy-based implant technique: Multi-Center Implantation of the HeartMate 3 in Subjects With Heart Failure Using Surgica",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2024,
+      "pmid": "38367698",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Correlations Between Quantitative EEG Parameters and Cortical Blood Flow in Patients Undergoing Extracorporeal Membrane Oxygenation With and Without Encephalopa",
+      "journal": "Journal of clinical neurophysiology : official publication o",
+      "year": 2024,
+      "pmid": "37934074",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Insurance-based Disparities in Outcomes and Extracorporeal Membrane Oxygenation Utilization for Hospitalized COVID-19 Patients.",
+      "journal": "Anesthesiology",
+      "year": 2024,
+      "pmid": "38526387",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Defining optimal left ventricular assist device short-term outcomes may provide insight into programmatic quality assessment.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2024,
+      "pmid": "39142525",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Blood pressure monitoring gaps in patients with left ventricular assist devices presenting for non-cardiac surgeries.",
+      "journal": "Journal of clinical anesthesia",
+      "year": 2024,
+      "pmid": "39053216",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'GOSEV' + first initial 'I'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "thoracic surgery (cardiothoracic vascular surgery)",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "New York",
+       "WORCESTER"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93750",
+      "description": "Evaluation of lower heart chamber assist device",
+      "services": 79,
+      "beneficiaries": 13
+     },
+     {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 55,
+      "beneficiaries": 13
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1598033649"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "280 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "58 corroborated + 37 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "2 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p8": {
+   "name": "Christopher Salerno",
+   "identity": {
+    "npi": "1245259837",
+    "registryName": "Christopher Salerno",
+    "credential": null,
+    "taxonomyCode": "208G00000X",
+    "licenseState": "IL",
+    "opState": "IN",
+    "opCity": "INDIANAPOLIS",
+    "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1245259837"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 7722.39
+     },
+     {
+      "year": 2014,
+      "value": 9016.57
+     },
+     {
+      "year": 2015,
+      "value": 17805.49
+     },
+     {
+      "year": 2016,
+      "value": 4583.79
+     },
+     {
+      "year": 2017,
+      "value": 47414.34
+     },
+     {
+      "year": 2018,
+      "value": 28494.82
+     },
+     {
+      "year": 2019,
+      "value": 30036.54
+     },
+     {
+      "year": 2020,
+      "value": 26107.94
+     },
+     {
+      "year": 2021,
+      "value": 10777.19
+     },
+     {
+      "year": 2022,
+      "value": 4233.73
+     },
+     {
+      "year": 2023,
+      "value": 25941.08
+     },
+     {
+      "year": 2024,
+      "value": 13530.68
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 112623.0,
+      "records": 70
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 44450.0,
+      "records": 18
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 39419.34,
+      "records": 166
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 22672.22,
+      "records": 292
+     },
+     {
+      "nature": "Education",
+      "total": 5000.0,
+      "records": 2
+     },
+     {
+      "nature": "Honoraria",
+      "total": 1500.0,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 135427.06,
+      "records": 287
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 43577.4,
+      "records": 104
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 30795.71,
+      "records": 104
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 8047.4,
+      "records": 19
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 6285.86,
+      "records": 19
+     },
+     {
+      "company": "ABIOMED",
+      "total": 1531.13,
+      "records": 16
+     }
+    ],
+    "research": {
+     "total": 1660.6,
+     "records": 15
+    },
+    "researchPi": {
+     "total": null,
+     "records": 28
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1245259837",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 55,
+     "nameOnly": 299
+    },
+    "articles": [
+     {
+      "title": "Mitigating Post-operative Right Ventricular Dysfunction After Left Ventricular Assist Device: The RV Protection Study.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "39954845",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Design and rationale for the clinical investigation of a novel, magnetically levitated left ventricular assist device for the treatment of refractory heart fail",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2025,
+      "pmid": "40064407",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Contemporary Outcomes in the Use of Durable LVADs: An Update From The Society of Thoracic Surgeons Intermacs Database.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2024,
+      "pmid": "37769701",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Ventricular Assist Device and the Current State of the Art: HeartMate 3 at 5 Years.",
+      "journal": "Heart failure clinics",
+      "year": 2024,
+      "pmid": "37953024",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ventricular assist device using a thoracotomy-based implant technique: Multi-Center Implantation of the HeartMate 3 in Subjects With Heart Failure Using Surgica",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2024,
+      "pmid": "38367698",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Extrinsic outflow graft obstruction of the HeartMate 3 LVAD: A state-of-the-art review.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2024,
+      "pmid": "39019352",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Concurrent valvular procedures during left ventricular assist device implantation and outcomes: A comprehensive analysis of the Multicenter Study of MagLev Tech",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2023,
+      "pmid": "35643769",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Concomitant left atrial appendage closure during left ventricular assist device surgery can reduce ischaemic cerebrovascular accidents.",
+      "journal": "Interdisciplinary cardiovascular and thoracic surgery",
+      "year": 2023,
+      "pmid": "37421402",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Predictors of 5-Year Mortality in Patients Managed With a Magnetically Levitated Left Ventricular Assist Device.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2023,
+      "pmid": "37612008",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The prognostic role of advanced hemodynamic variables in patients with left ventricular assist devices.",
+      "journal": "Artificial organs",
+      "year": 2023,
+      "pmid": "36305735",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SALERNO' + first initial 'C'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "transplant surgery",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Indiana",
+       "INDIANAPOLIS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 32,
+      "beneficiaries": 32
+     },
+     {
+      "code": "33533",
+      "description": "Coronary artery bypass using artery graft, 1 graft",
+      "services": 22,
+      "beneficiaries": 22
+     },
+     {
+      "code": "33508",
+      "description": "Harvest of vein using an endoscope",
+      "services": 21,
+      "beneficiaries": 21
+     },
+     {
+      "code": "33518",
+      "description": "Coronary artery bypass using vein or artery graft, 2 grafts",
+      "services": 13,
+      "beneficiaries": 13
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1245259837"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "238 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "55 corroborated + 299 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "4 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p9": {
+   "name": "Aditya Bansal",
+   "identity": {
+    "npi": "1922219815",
+    "registryName": "Aditya Bansal",
+    "credential": "MD",
+    "taxonomyCode": "208G00000X",
+    "licenseState": "LA",
+    "opState": "LA",
+    "opCity": "NEW ORLEANS",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1922219815"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 1693.69
+     },
+     {
+      "year": 2014,
+      "value": 11745.69
+     },
+     {
+      "year": 2015,
+      "value": 18683.37
+     },
+     {
+      "year": 2016,
+      "value": 2010.93
+     },
+     {
+      "year": 2017,
+      "value": 34823.27
+     },
+     {
+      "year": 2018,
+      "value": 22364.31
+     },
+     {
+      "year": 2019,
+      "value": 56449.43
+     },
+     {
+      "year": 2020,
+      "value": 9223.87
+     },
+     {
+      "year": 2021,
+      "value": 14896.17
+     },
+     {
+      "year": 2022,
+      "value": 31853.49
+     },
+     {
+      "year": 2023,
+      "value": 4160.13
+     },
+     {
+      "year": 2024,
+      "value": 903.69
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 114335.0,
+      "records": 71
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 56838.49,
+      "records": 131
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 16686.0,
+      "records": 269
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 14300.0,
+      "records": 5
+     },
+     {
+      "nature": "Honoraria",
+      "total": 3000.0,
+      "records": 1
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 2125.0,
+      "records": 3
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 166287.88,
+      "records": 271
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 19996.37,
+      "records": 83
+     },
+     {
+      "company": "ABIOMED",
+      "total": 16641.26,
+      "records": 63
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 4518.12,
+      "records": 39
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 692.99,
+      "records": 6
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 432.59,
+      "records": 8
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 99
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1922219815",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 35,
+     "nameOnly": 2606
+    },
+    "articles": [
+     {
+      "title": "Concomitant Surgical Procedures and Aspirin Avoidance With Left Ventricular Assist Device Therapy.",
+      "journal": "JACC. Heart failure",
+      "year": 2025,
+      "pmid": "40208135",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Emergent decommissioning of HeartMate 3 for life-threatening hemorrhage.",
+      "journal": "Journal of vascular surgery cases and innovative techniques",
+      "year": 2024,
+      "pmid": "38313380",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Aspirin and Hemocompatibility Events With a Left Ventricular Assist Device in Advanced Heart Failure: The ARIES-HM3 Randomized Clinical Trial.",
+      "journal": "JAMA",
+      "year": 2023,
+      "pmid": "37950897",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Six-month outcomes in postapproval HeartMate3 patients: A single-center US experience.",
+      "journal": "Journal of cardiac surgery",
+      "year": 2022,
+      "pmid": "35385586",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Ventricular Assist Devices: A Primer For the General Cardiologist.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2022,
+      "pmid": "36515226",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Endovascular Management of Chronic Mesenteric Ischemia in a Patient With Left Ventricular Assist Device.",
+      "journal": "Current problems in cardiology",
+      "year": 2022,
+      "pmid": "35245598",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prediction of Survival After Implantation of a Fully Magnetically Levitated Left\u00a0Ventricular Assist Device.",
+      "journal": "JACC. Heart failure",
+      "year": 2022,
+      "pmid": "36456068",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Cerebral protection during percutaneous intervention for left ventricular assist device outflow graft obstruction.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
+      "year": 2022,
+      "pmid": "35612519",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left Ventricular Assist Device Implantation to the Left Subclavian Artery With Distal Banding: A Novel Technique for Hostile Chest.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2022,
+      "pmid": "34492215",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Six-month outcomes in postapproval HeartMate3 patients: A single-center US experience.",
+      "journal": "Journal of cardiac surgery",
+      "year": 2022,
+      "pmid": "35385586",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'BANSAL' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "thoracic surgery (cardiothoracic vascular surgery)",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Louisiana",
+       "NEW ORLEANS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 62,
+      "beneficiaries": 33
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 12,
+      "beneficiaries": 11
+     },
+     {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 11,
+      "beneficiaries": 11
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1922219815"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "182 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "35 corroborated + 2606 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "3 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p10": {
+   "name": "Edward Soltesz",
+   "identity": {
+    "npi": "1629015730",
+    "registryName": "Edward Soltesz",
+    "credential": "MD",
+    "taxonomyCode": "208G00000X",
+    "licenseState": "OH",
+    "opState": "OH",
+    "opCity": "CLEVELAND",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1629015730"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 728.07
+     },
+     {
+      "year": 2014,
+      "value": 113.41
+     },
+     {
+      "year": 2015,
+      "value": 1080.77
+     },
+     {
+      "year": 2016,
+      "value": 4501.9
+     },
+     {
+      "year": 2017,
+      "value": 67757.88
+     },
+     {
+      "year": 2018,
+      "value": 136607.08
+     },
+     {
+      "year": 2019,
+      "value": 94799.9
+     },
+     {
+      "year": 2020,
+      "value": 62788.04
+     },
+     {
+      "year": 2021,
+      "value": 50162.75
+     },
+     {
+      "year": 2022,
+      "value": 75099.59
+     },
+     {
+      "year": 2023,
+      "value": 98820.45
+     },
+     {
+      "year": 2024,
+      "value": 165165.37
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Honoraria",
+      "total": 327500.0,
+      "records": 89
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 274616.98,
+      "records": 109
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 72190.19,
+      "records": 249
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 62250.0,
+      "records": 18
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 15068.04,
+      "records": 243
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 6000.0,
+      "records": 3
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "ABIOMED",
+      "total": 388434.69,
+      "records": 322
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 367095.92,
+      "records": 365
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 1238.68,
+      "records": 14
+     },
+     {
+      "company": "HeartWare, Inc.",
+      "total": 658.33,
+      "records": 2
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 129.23,
+      "records": 6
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 68.36,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 51
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1629015730",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 210,
+     "nameOnly": 36
+    },
+    "articles": [
+     {
+      "title": "Management of Medium to Giant Coronary Artery Fistulas.",
+      "journal": "JACC. Case reports",
+      "year": 2026,
+      "pmid": "41335065",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Design and rationale of the Impella\u00ae-protected cardiac surgery trial (IMPACT): A multicenter, single-arm pilot study in high-risk cardiac surgery patients.",
+      "journal": "American heart journal",
+      "year": 2026,
+      "pmid": "41895564",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Is a patent internal thoracic artery-to-left anterior descending artery still a risk factor in patients undergoing isolated redo coronary artery bypass grafting",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "42092509",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heart and heart-liver transplantation in Amish patients with propionic acidemia.",
+      "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+      "year": 2026,
+      "pmid": "41545277",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Reply: Importance of clinical context in choice of analytical method.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "41961044",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Extended Zone Right Internal Thoracic Artery Coronary Artery Bypass Grafting.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "42044827",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heterogeneity in HeartMate 3 implanting center infection management reveals opportunities for quality improvement and best practice initiatives during left vent",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "40738195",
+      "tier": "corroborated"
+     },
+     {
+      "title": "National Outcomes of Cardiac Surgery in Patients with History of Bariatric Surgery.",
+      "journal": "Obesity surgery",
+      "year": 2026,
+      "pmid": "41845020",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Association Between Social Vulnerability and Postoperative Complications and Readmission Among Cardiovascular Surgery Patients.",
+      "journal": "Population health management",
+      "year": 2026,
+      "pmid": "41804948",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Radical Pericardiectomy and Use of Cardiopulmonary Bypass for Constrictive Pericarditis.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "41443402",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SOLTESZ' + first initial 'E'",
+     "signals": {
+      "topicKeywords": [
+       "heartmate",
+       "lvad",
+       "thoracic surgery (cardiothoracic vascular surgery)",
+       "ventricular assist"
+      ],
+      "affiliationGeo": [
+       "Ohio",
+       "CLEVELAND"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 48,
+      "beneficiaries": 48
+     },
+     {
+      "code": "33533",
+      "description": "Coronary artery bypass using artery graft, 1 graft",
+      "services": 36,
+      "beneficiaries": 36
+     },
+     {
+      "code": "33508",
+      "description": "Harvest of vein using an endoscope",
+      "services": 34,
+      "beneficiaries": 34
+     },
+     {
+      "code": "33259",
+      "description": "Extensive destruction and reconstruction of right upper heart chamber on heart-lung machin",
+      "services": 15,
+      "beneficiaries": 15
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 14,
+      "beneficiaries": 12
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 13,
+      "beneficiaries": 13
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1629015730"
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "134 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "210 corroborated + 36 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "AACT clinical-trials roles (external)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -372,7 +372,7 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 17461,
-      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: A DIRECT CORRELATION BETWEEN ON HEARTMATE 3 LEFT VENTRICULAR ASSIST SYSTEM (LVAS), SERIAL NUMBER (B)(6) , AND THE REPORTED EVENTS COULD NOT BE CONCLUSIVELY ESTABLISHED. ADDITIONALLY, THE REPORTED LOW FLOW ALARMS COULD NOT BE CONFIRMED THROUGH REVIEW OF THE SUBMITTED LOG FILES. A SPECIFIC CAUSE FOR THE REPORTED ALARMS COULD NOT BE CONCLUSIVELY DETERMINED THROUGH THIS EVALUATION"
+      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETED."
      },
      {
       "problem": "Infusion or Flow Problem",
@@ -382,22 +382,22 @@
      {
       "problem": "Mechanical Problem",
       "reports": 2349,
-      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: A DIRECT CORRELATION BETWEEN HEARTMATE 3 LVAS, SERIAL NUMBER (B)(6) AND THE REPORTED HEART FAILURE AND HYPERVOLEMIA COULD NOT BE CONCLUSIVELY DETERMINED THROUGH THIS INVESTIGATION. THE SUBMITTED CONTROLLER AND LVAD PERIODIC AND EVENT LOG FILES CAPTURED ROUTINE EVENTS. THE PUMP APPEARED TO FUNCTION AS INTENDED AND OPERATED AT THE SET SPEED FOR THE DURATION OF THE FILE. THE RELE"
+      "narrative": "SECTION D4: LOT NUMBER WAS NOT PROVIDED, AND EXPIRATION DATE AND MANUFACTURE DATE (H4) CANNOT BE DETERMINED. THE PRIMARY UDI NUMBER IN D4 IS REFLECTIVE OF ALL AVAILABLE INFORMATION. NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED ONCE THE MANUFACTURER\u00bfS INVESTIGATION IS COMPLETE."
      },
      {
       "problem": "Electrical Power Problem",
       "reports": 1375,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT REPORTED HAVING FREQUENT LOW VOLTAGE ADVISORIES DESPITE HAVING AMPLE BATTERY POWER. A LOG FILE WAS SENT IN FOR REVIEW WHICH FOUND THAT THE CONTROLLER LEAD WAS READING THE BATTERY POWER/ POWER MODULE INCORRECTLY. THE CONTROLLER WAS EXCHANGED. NO ADDITIONAL INFORMATION WAS PROVIDED."
+      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: THE REPORTED EVENT OF A BACKUP BATTERY FAULT ALARM WAS CONFIRMED VIA THE LOG FILE. A REVIEW OF THE SUBMITTED LOG FILE SPANNED APPROXIMATELY 5 DAYS ((B)(6) 2021 PER TIME STAMP). THE BACKUP BATTERY FAULT ALARM ACTIVATED ON (B)(6) 2021 AT 18:25 DUE TO A FAILED LOAD TEST. THE BACKUP BATTERY FAILED THE LOAD TEST DUE TO THE LOADED VOLTAGE BEING UNDER THE ACCEPTABLE THRESHOLD AS COMP"
      },
      {
       "problem": "Disconnection",
       "reports": 1033,
-      "narrative": "SECTION A3: PATIENT GENDER NOT YET PROVIDED. NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER\u00bfS INVESTIGATION IS COMPLETED."
+      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER\u00bfS INVESTIGATION IS COMPLETED"
      },
      {
       "problem": "Insufficient Information",
       "reports": 896,
-      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: A SPECIFIC CAUSE FOR THE REPORTED LVAD FAULT COULD NOT BE CONCLUSIVELY DETERMINED THROUGH THE EVALUATION OF HEARTMATE 3 LEFT VENTRICULAR ASSIST SYSTEM (LVAS), SERIAL NUMBER (B)(6). (B)(6) WAS RETURNED ASSEMBLED WITH THE PUMP CABLE INTACT. THE MODULAR CABLE WAS NOT RETURNED. THE SEALED OUTFLOW GRAFT, SEALED OUTFLOW GRAFT BEND RELIEF, OUTFLOW GRAFT CLIP, AND THE APICAL CUFF WAS"
+      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED ONCE THE MANUFACTURER\u00bfS INVESTIGATION IS COMPLETED."
      },
      {
       "problem": "Pumping Stopped",
@@ -407,7 +407,7 @@
      {
       "problem": "No Apparent Adverse Event",
       "reports": 755,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY DEPARTMENT WITH PUMP STOPS. LOG FILES WERE SENT FOR ANALYSIS TO DETERMINE WHETHER PUMP STOPS WERE HAPPENING ON WALL POWER ONLY OR ALSO ON BATTERY POWER. A REVIEW OF THE LOG FILES NOTED 104 PULSATILITY INDEX (PI) EVENTS OCCURRING (B)(6) 2021 12:27 AM TO (B)(6) 2021 AT 12:01 PM. THE PATIENT WAS SLEEPING ON BATTERY POWER WHICH WAS NOT RECOMMENDED. NO OTHER UNUS"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED WITH A TWISTED DRIVELINE AND EXPOSED WIRE ON THE MODULAR CABLE. THE PATIENT STATED THAT THE MODULAR CABLE GOT SLAMMED IN THE CAR DOOR. THE CONTROLLER AND MODULAR CABLE WERE CHANGED OUT IN CLINIC AND THE ISSUE WAS RESOLVED. BASIC METABOLIC PANEL (BMP), LACTATE DEHYDROGENASE (LDH), INTERNATIONAL NORMALIZED RATIO (INR), AND A COMPLETE BLOOD COUNT (CBC) WAS DRAWN AND REVIEWED. A"
      }
     ]
    },
@@ -426,8 +426,8 @@
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "MO",
       "total": 150020.52,
       "payments": 194,
       "years": "2013\u20132024",
@@ -435,8 +435,8 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
-      "state": "KS",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "OK",
       "total": 146833.01,
       "payments": 288,
       "years": "2014\u20132024",
@@ -462,7 +462,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "OH",
       "total": 115980.23,
       "payments": 86,
@@ -471,7 +471,7 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "MA",
       "total": 105930.01,
       "payments": 196,
@@ -480,8 +480,8 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
-      "state": "MA",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
       "total": 105048.38,
       "payments": 280,
       "years": "2013\u20132024",
@@ -489,7 +489,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
       "state": "IN",
       "total": 104406.12,
       "payments": 238,
@@ -507,7 +507,7 @@
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "OH",
       "total": 93501.65,
       "payments": 134,
@@ -520,8 +520,8 @@
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "MO",
       "total": 150020.52,
       "payments": 194,
       "years": "2013\u20132024",
@@ -530,8 +530,8 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
-      "state": "KS",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "OK",
       "total": 146833.01,
       "payments": 288,
       "years": "2014\u20132024",
@@ -560,7 +560,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "OH",
       "total": 115980.23,
       "payments": 86,
@@ -570,7 +570,7 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
       "state": "MA",
       "total": 105930.01,
       "payments": 196,
@@ -580,8 +580,8 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
-      "state": "MA",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
       "total": 105048.38,
       "payments": 280,
       "years": "2013\u20132024",
@@ -590,7 +590,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
       "state": "IN",
       "total": 104406.12,
       "payments": 238,
@@ -610,7 +610,7 @@
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
       "state": "OH",
       "total": 93501.65,
       "payments": 134,

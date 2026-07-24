@@ -88,6 +88,78 @@ export interface IcpState {
   beneficiaries: number
 }
 
+// ---- expert profile sidecar (devices/<slug>-experts.json) ----
+
+export interface SourceObj {
+  dataset: string
+  match?: string
+  caveat?: string
+  signals?: { topicKeywords?: string[]; affiliationGeo?: string[] }
+}
+
+export interface PayBucket {
+  total: number | null
+  records: number
+}
+
+export interface ExpertProfileData {
+  name: string
+  identity: {
+    npi: string | null
+    registryName?: string
+    credential?: string | null
+    taxonomyCode?: string | null
+    licenseState?: string | null
+    opState: string | null
+    opCity: string | null
+    specialty: string | null
+    source: SourceObj
+  }
+  payments: {
+    yearly: SeriesPoint[]
+    byNature: { nature: string | null; total: number; records: number }[]
+    byCompany: { company: string; total: number; records: number }[]
+    research?: PayBucket | null
+    researchPi?: PayBucket | null
+    ownership?: PayBucket | null
+    source: SourceObj
+  }
+  literature: {
+    counts: { corroborated: number; nameOnly: number }
+    articles: { title: string; journal: string; year: number; pmid: string; tier: string }[]
+    source: SourceObj
+  }
+  practice: {
+    dataYear: number | null
+    procedures: { code: string; description: string; services: number; beneficiaries: number }[]
+    source: SourceObj
+  }
+  litigation: {
+    pending?: boolean
+    note?: string
+    counts?: Record<string, number>
+    cites?: { source: string; ref: string; case: string | null; date: string | null; snippet: string | null }[]
+    source?: SourceObj
+  }
+  inventory: {
+    onFile: { label: string; detail: string }[]
+    onCommission: { label: string; price?: number }[]
+  }
+}
+
+const expertsCache = new Map<string, Promise<Record<string, ExpertProfileData>>>()
+export function loadExpertsDetail(slug: string): Promise<Record<string, ExpertProfileData>> {
+  if (!expertsCache.has(slug)) {
+    expertsCache.set(
+      slug,
+      fetchJson<{ profiles: Record<string, ExpertProfileData> }>(
+        `/devices/${slug}-experts.json`,
+      ).then((d) => d.profiles),
+    )
+  }
+  return expertsCache.get(slug)!
+}
+
 export interface Module<T, U> {
   teaser?: T
   payload?: U

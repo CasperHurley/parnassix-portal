@@ -559,17 +559,17 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 90793,
-      "narrative": "THE CUSTOMER REPORTED VIA PHONE CALL THAT THEY WERE HOSPITALIZED DUE TO DIABETIC KETOACIDOSIS AND HYPERGLYCEMIA ON (B)(6) 2022. THE CUSTOMER'S BLOOD GLUCOSE LEVEL AT THE TIME OF INCIDENT WAS 1400 MG/DL. CUSTOMER WAS TREATED WITH INTRAVENOUS INSULIN. INSULIN PUMP WAS NOT ON AUTO MODE. THE INSULIN PUMP WILL NOT BE RETURNED FOR ANALYSIS."
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. THE DEVICE WILL BE RETURNED FOR ANALYSIS AND FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME."
      },
      {
       "problem": "No Display/Image",
       "reports": 85063,
-      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT. THE DEVICE HAS BEEN RETURNED, BUT NOT YET EVALUATED. FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UP"
+      "narrative": "THE CUSTOMER FATHER REPORTED VIA PHONE CALL THAT THERE WAS A BLANK DISPLAY ON THE INSULIN PUMP. THE FATHER REPORTED THE BATTERY WAS CHANGED, BUT THE BLANK DISPLAY PERSISTED. CUSTOMER'S BLOOD GLUCOSE WAS UNKNOWN. THE FATHER AGREED TO RETURN THE INSULIN PUMP FOR ANALYSIS."
      },
      {
       "problem": "Material Integrity Problem",
       "reports": 77268,
-      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UPON INFORMATION OBT"
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. THE DEVICE WILL BE RETURNED FOR ANALYSIS AND FURTHER INFORMATION WILL FOLLOW ONCE THE ANALYSIS HAS BEEN COMPLETED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. THE INSULIN PUMP INVOLVED IN THIS EVENT IS THE 640G INSULIN INFUSION PUMP, WHICH IS NOT MARKETED IN THE UNITED STATES. HOWEVER, T"
      },
      {
       "problem": "Appropriate Term/Code Not Available",
@@ -579,7 +579,7 @@
      {
       "problem": "Obstruction of Flow",
       "reports": 67087,
-      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UPON INFORMATION OBT"
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE."
      }
     ]
    },
@@ -645,7 +645,7 @@
       "to": "K242775",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "lass Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 1,
       "page": 5
      },
@@ -654,7 +654,7 @@
       "to": "K251032",
       "kind": "primary",
       "confidence": "high",
-      "quote": "ce Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "quote": "1890 Product Codes QFG, NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 1,
       "page": 5
      },
@@ -663,9 +663,18 @@
       "to": "K242775",
       "kind": "primary",
       "confidence": "high",
-      "quote": "NDC\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nNDC InPen System App (K242775)\nDevice Description",
+      "quote": "1890 Product Codes NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device NDC InPen System App (K242775) Device Description",
       "hop": 1,
       "page": 4
+     },
+     {
+      "from": "K253743",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "in Infusion Pump\nRegulation Number 21 CFR 880.5730\nProduct Codes QFG\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device K251032 - MiniMed 780G Flex Pump with Interoperable Technology\nDevice Description\nThe MiniMed Flex pump is an alternate controller enabled",
+      "hop": 1,
+      "page": 7
      },
      {
       "from": "K253743",
@@ -677,20 +686,11 @@
       "page": 10
      },
      {
-      "from": "K253743",
-      "to": "K251032",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "in Infusion Pump\nRegulation Number 21 CFR 880.5730\nProduct Codes QFG\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device K251032 - MiniMed 780G Flex Pump with Interoperable Technolo",
-      "hop": 1,
-      "page": 7
-     },
-     {
       "from": "K242775",
       "to": "K201337",
       "kind": "primary",
       "confidence": "high",
-      "quote": "System\nCommon Name Pen Injector with Dose Calculator\nPredicate Device\nInPen\u2122 System (MMT-8060/MMT-8061)\nName and Model ID\nPredicate 510(k)\nK201337\nNumber\nClass II\nClassification Name\nPiston syringe wi",
+      "quote": "General Information Name of Device InPen System Common Name Pen Injector with Dose Calculator Predicate Device InPen\u2122 System (MMT-8060/MMT-8061) Name and Model ID Predicate 510(k) K201337 Number Class II Classification Name Piston syringe with Drug Dose Calculator Product Code",
       "hop": 2,
       "page": 5
      },
@@ -699,7 +699,7 @@
       "to": "K242775",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "ormation\nProduct Code Predicate Device\nQFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 15",
+      "quote": "Information Product Code Predicate Device QFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380) NDC InPen Dose Calculator (K242775) Page 1 of 15",
       "hop": 2,
       "page": 5
      },
@@ -708,7 +708,7 @@
       "to": "K232380",
       "kind": "primary",
       "confidence": "high",
-      "quote": "Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 15",
+      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380) NDC InPen Dose Calculator (K242775) Page 1 of 15",
       "hop": 2,
       "page": 5
      },
@@ -717,7 +717,7 @@
       "to": "K251032",
       "kind": "primary",
       "confidence": "high",
-      "quote": "ce Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "quote": "1890 Product Codes QFG, NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 2,
       "page": 5
      },
@@ -726,7 +726,7 @@
       "to": "K242775",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "lass Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
       "hop": 2,
       "page": 5
      }
