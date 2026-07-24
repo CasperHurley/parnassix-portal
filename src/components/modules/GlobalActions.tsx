@@ -120,7 +120,7 @@ export function GlobalActions({ payload }: { payload: GlobalActionsPayload }) {
         </div>
       ))}
 
-      <div className="litScreenNote">{payload.screenedNote}</div>
+      {payload.screenedOut > 0 && <div className="litScreenNote">{payload.screenedNote}</div>}
       <div className="gaAttribution">{payload.attribution}</div>
     </div>
   )
