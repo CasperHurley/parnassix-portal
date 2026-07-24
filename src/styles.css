@@ -48,6 +48,8 @@ button { font-family: var(--font); }
 .brandName { font-weight: 700; letter-spacing: 0.16em; font-size: 15px; }
 .brandSub { color: var(--muted); font-size: 12px; letter-spacing: 0.06em; }
 .topbarSpacer { flex: 1; }
+.sourcePill { font-size: 11.5px; color: var(--faint); letter-spacing: 0.04em; }
+.sourcePill[data-live='true'] { color: var(--ok); }
 .ownedPill {
   font-size: 12px; color: var(--accent);
   border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);

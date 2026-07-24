@@ -164,14 +164,70 @@ export interface Pricing {
   basis: string
 }
 
+// ---------------------------------------------------------------- live API bridge
+// The deployed site prefers CURRENT data from the workspace machine (read-only FastAPI
+// tunneled via Tailscale Funnel — the Edition B pattern); the baked /data snapshot is the
+// fallback when the tunnel is down. site root /live-config.json carries the api base.
+
+export type DataSource = 'live' | 'snapshot'
+let dataSource: DataSource = 'snapshot'
+const sourceListeners = new Set<(s: DataSource) => void>()
+
+export function onDataSource(fn: (s: DataSource) => void): () => void {
+  sourceListeners.add(fn)
+  fn(dataSource)
+  return () => sourceListeners.delete(fn)
+}
+
+function setSource(s: DataSource) {
+  if (s !== dataSource) {
+    dataSource = s
+    sourceListeners.forEach((fn) => fn(s))
+  }
+}
+
+let apiBasePromise: Promise<string | null> | null = null
+function apiBase(): Promise<string | null> {
+  if (!apiBasePromise) {
+    apiBasePromise = fetch('/live-config.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((cfg: { apiBase?: string } | null) => {
+        const base = cfg?.apiBase?.replace(/\/$/, '') ?? null
+        return base && /^https?:\/\//.test(base) ? base : null
+      })
+      .catch(() => null)
+  }
+  return apiBasePromise
+}
+
+const LIVE_TIMEOUT_MS = 5000
+
 async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(path)
+  const base = await apiBase()
+  if (base) {
+    try {
+      const ctl = new AbortController()
+      const timer = setTimeout(() => ctl.abort(), LIVE_TIMEOUT_MS)
+      const res = await fetch(`${base}/portal${path}`, { signal: ctl.signal })
+      clearTimeout(timer)
+      if (res.ok) {
+        const body = (await res.json()) as T & { error?: string }
+        if (!body || (body as { error?: string }).error) throw new Error('live error payload')
+        setSource('live')
+        return body
+      }
+    } catch {
+      // fall through to the baked snapshot
+    }
+  }
+  setSource('snapshot')
+  const res = await fetch(`/data${path}`)
   if (!res.ok) throw new Error(`${path}: ${res.status}`)
   return (await res.json()) as T
 }
 
 export const loadCatalog = () =>
-  fetchJson<{ devices: CatalogDevice[] }>('/data/catalog.json').then((d) => d.devices)
-export const loadPricing = () => fetchJson<Pricing>('/data/pricing.json')
+  fetchJson<{ devices: CatalogDevice[] }>('/catalog.json').then((d) => d.devices)
+export const loadPricing = () => fetchJson<Pricing>('/pricing.json')
 export const loadDevice = (slug: string) =>
-  fetchJson<DeviceDossier>(`/data/devices/${slug}.json`)
+  fetchJson<DeviceDossier>(`/devices/${slug}.json`)

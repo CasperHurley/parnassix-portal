@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Catalog } from './pages/Catalog'
 import { Dossier } from './pages/Dossier'
-import { loadCatalog, loadPricing, type CatalogDevice, type Pricing } from './lib/data'
+import {
+  loadCatalog,
+  loadPricing,
+  onDataSource,
+  type CatalogDevice,
+  type DataSource,
+  type Pricing,
+} from './lib/data'
 import { usePurchases } from './lib/purchases'
 
 function readSlug(): string | null {
@@ -19,12 +26,17 @@ export function App() {
   const [catalog, setCatalog] = useState<CatalogDevice[] | null>(null)
   const [pricing, setPricing] = useState<Pricing | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [source, setSource] = useState<DataSource>('snapshot')
   const { owned, resetDemo } = usePurchases()
 
   useEffect(() => {
     const onPop = () => setSlug(readSlug())
     window.addEventListener('popstate', onPop)
-    return () => window.removeEventListener('popstate', onPop)
+    const offSource = onDataSource(setSource)
+    return () => {
+      window.removeEventListener('popstate', onPop)
+      offSource()
+    }
   }, [])
 
   useEffect(() => {
@@ -44,6 +56,17 @@ export function App() {
           <span className="brandSub">Device Litigation Intelligence</span>
         </div>
         <div className="topbarSpacer" />
+        <span
+          className="sourcePill"
+          data-live={source === 'live'}
+          title={
+            source === 'live'
+              ? 'Data served live from the Aneural corpus'
+              : 'Live bridge unreachable — showing the bundled snapshot'
+          }
+        >
+          {source === 'live' ? '● live data' : '○ snapshot'}
+        </span>
         {owned.length > 0 && (
           <span className="ownedPill">
             {owned.includes('everything') ? 'Full license' : `${owned.length} purchase${owned.length > 1 ? 's' : ''}`}
