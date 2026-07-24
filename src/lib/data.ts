@@ -153,7 +153,16 @@ export interface PricingItem {
   id: string
   label: string
   price: number
+  cls: string
+  cadence?: 'monthly'
   basis: string
+}
+
+export interface TokenClass {
+  cls: string
+  name: string
+  price: number
+  scope: string
 }
 
 export interface Pricing {
@@ -162,6 +171,9 @@ export interface Pricing {
   dossierIncludes: string[]
   dossierNote: string
   items: PricingItem[]
+  tokenClasses: TokenClass[]
+  surcharge: { label: string; multiplier: number; note: string }
+  demandMap: { tiers: { label: string; monthly: number }[]; note: string }
   everything: { price: number; listSum: number; note: string }
   retainer: { label: string; blurb: string }
   basis: string

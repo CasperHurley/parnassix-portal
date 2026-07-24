@@ -8,6 +8,9 @@ export function ModuleCard({
   teaserStats,
   locked,
   price,
+  priceSuffix,
+  cls,
+  unlockVerb,
   onUnlock,
   notApplicable,
   reason,
@@ -22,6 +25,12 @@ export function ModuleCard({
   teaserStats?: string
   locked: boolean
   price?: number
+  /** e.g. '/mo' for the Demand Map subscription */
+  priceSuffix?: string
+  /** token-class chip, e.g. 'II', 'IV', 'sub' */
+  cls?: string
+  /** 'Unlock' (default) or 'Subscribe' for recurring items */
+  unlockVerb?: string
   onUnlock?: () => void
   notApplicable?: boolean
   reason?: string
@@ -37,12 +46,15 @@ export function ModuleCard({
     <section className="module" id={anchorId}>
       <div className="moduleHead">
         <span className="moduleTitle">{title}</span>
+        {cls && (
+          <span className="clsChip">{cls === 'sub' ? 'Subscription' : `Class ${cls}`}</span>
+        )}
         {teaserStats && <span className="moduleTeaserStats">{teaserStats}</span>}
         {notApplicable || hideStatus ? null : locked ? (
           <span className="priceChip">
-            {price != null && fmtUsd(price)}
+            {price != null && `${fmtUsd(price)}${priceSuffix ?? ''}`}
             <button className="unlockBtn" onClick={onUnlock}>
-              Unlock
+              {unlockVerb ?? 'Unlock'}
             </button>
           </span>
         ) : (
@@ -62,7 +74,8 @@ export function ModuleCard({
           <div className="lockVeil">
             <span className="lockVeilText">🔒 {teaserStats ?? 'Purchase to unlock'}</span>
             <button className="unlockBtn" onClick={onUnlock}>
-              Unlock — {price != null ? fmtUsd(price) : ''}
+              {unlockVerb ?? 'Unlock'} — {price != null ? fmtUsd(price) : ''}
+              {priceSuffix ?? ''}
             </button>
           </div>
         </div>

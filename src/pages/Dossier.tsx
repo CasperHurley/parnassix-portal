@@ -54,8 +54,8 @@ export function Dossier({
   const scrollToModule = (moduleId: string) =>
     document.getElementById(`mod-${moduleId}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-  const buy = (label: string, price: number, keys: string[], note?: string) =>
-    setIntent({ label, price, keys, note })
+  const buy = (label: string, price: number, keys: string[], note?: string, suffix?: string) =>
+    setIntent({ label, price, keys, note, suffix })
 
   const moduleBuy = (moduleId: string, label: string) =>
     buy(`${device.name} — ${label}`, priceOf(pricing, moduleId), [`${device.slug}:${moduleId}`])
@@ -161,6 +161,7 @@ export function Dossier({
         <ModuleCard
           anchorId="mod-narratives"
           title="Untangled adverse-event narratives"
+          cls="II"
           teaserStats={
             m.narratives.teaser
               ? `${fmtNum(m.narratives.teaser.narratives)} narratives · ${fmtNum(
@@ -180,6 +181,7 @@ export function Dossier({
         <ModuleCard
           anchorId="mod-predicate-tree"
           title="510(k) predicate lineage"
+          cls="IV"
           teaserStats={
             treeApplies && m['predicate-tree'].teaser
               ? `${m['predicate-tree'].teaser.devices} devices · ${m['predicate-tree'].teaser.citations} cited claims · ${m['predicate-tree'].teaser.hops}-hop cap`
@@ -205,6 +207,7 @@ export function Dossier({
         <ModuleCard
           anchorId="mod-experts"
           title="Paid expert profiles"
+          cls="II"
           teaserStats={
             expTeaser
               ? `${fmtNum(expTeaser.physicians)} physicians · ${fmtUsdCompact(expTeaser.totalPaid)} total (${expTeaser.scope}-scope)`
@@ -253,15 +256,31 @@ export function Dossier({
 
         <ModuleCard
           anchorId="mod-icp-map"
-          title="Market — procedure geography (ICP pack)"
+          title="Demand Map — targeting intelligence"
+          cls="sub"
           teaserStats={
             icpApplies && m['icp-map'].teaser
-              ? `${m['icp-map'].teaser.states} states · ${m['icp-map'].teaser.procedureCodes} procedure codes · CMS ${m['icp-map'].teaser.dataYear}`
+              ? `${m['icp-map'].teaser.states} states · ${m['icp-map'].teaser.procedureCodes} procedure codes · CMS ${m['icp-map'].teaser.dataYear} · refreshed monthly`
               : undefined
           }
           locked={!has(device.slug, 'icp-map')}
           price={priceOf(pricing, 'icp-map')}
-          onUnlock={() => moduleBuy('icp-map', 'market / ICP geographic pack')}
+          priceSuffix="/mo"
+          unlockVerb="Subscribe"
+          onUnlock={() =>
+            buy(
+              `${device.name} — Demand Map subscription (single device family)`,
+              priceOf(pricing, 'icp-map'),
+              [`${device.slug}:icp-map`],
+              `${fmtUsd(priceOf(pricing, 'icp-map'))}/month, refreshed monthly. ` +
+                pricing.demandMap.tiers
+                  .slice(1)
+                  .map((t) => `${t.label}: ${fmtUsd(t.monthly)}/mo`)
+                  .join(' · ') +
+                '. Recurring — never bundled into a one-time license.',
+              '/mo',
+            )
+          }
           notApplicable={m['icp-map'].notApplicable}
           reason={m['icp-map'].reason}
           caveat={m['icp-map'].caveat}
@@ -313,6 +332,7 @@ export function Dossier({
         <ModuleCard
           anchorId="mod-ip"
           title="USPTO filings"
+          cls="I"
           teaserStats={
             m.ip.teaser ? `${fmtNum(m.ip.teaser.patents)} granted patents (assignee match)` : undefined
           }

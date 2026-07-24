@@ -67,6 +67,40 @@ export function Catalog({
         )}
       </div>
 
+      <div className="tariffCard">
+        <div className="tariffHead">
+          <span className="tariffTitle">The Consultation Token System — published tariff</span>
+          <span className="tariffBasis">{pricing.basis}</span>
+        </div>
+        <div className="tariffGrid">
+          {pricing.tokenClasses.map((t) => (
+            <div key={t.cls} className="tariffRow">
+              <span className="tariffCls">Class {t.cls}</span>
+              <span className="tariffName">{t.name}</span>
+              <span className="tariffScope">{t.scope}</span>
+              <span className="tariffPrice">{fmtUsd(t.price)}</span>
+            </div>
+          ))}
+          <div className="tariffRow">
+            <span className="tariffCls">×{pricing.surcharge.multiplier.toFixed(1)}</span>
+            <span className="tariffName">{pricing.surcharge.label}</span>
+            <span className="tariffScope">{pricing.surcharge.note}</span>
+            <span className="tariffPrice" />
+          </div>
+          {pricing.demandMap.tiers.map((t, i) => (
+            <div key={t.label} className="tariffRow tariffSub">
+              <span className="tariffCls">Map</span>
+              <span className="tariffName">Demand Map — {t.label}</span>
+              <span className="tariffScope">{i === 0 ? pricing.demandMap.note : ''}</span>
+              <span className="tariffPrice">{fmtUsd(t.monthly)}/mo</span>
+            </div>
+          ))}
+        </div>
+        <div className="tariffFoot">
+          <strong>{pricing.retainer.label}:</strong> {pricing.retainer.blurb}
+        </div>
+      </div>
+
       <div className="grid">
         {devices.map((d) => {
           const owned = ownsDossier(d.slug)

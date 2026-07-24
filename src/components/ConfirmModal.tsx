@@ -5,6 +5,8 @@ export interface PurchaseIntent {
   price: number
   keys: string[]
   note?: string
+  /** e.g. '/mo' for subscriptions */
+  suffix?: string
 }
 
 export function ConfirmModal({
@@ -21,7 +23,10 @@ export function ConfirmModal({
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <h3 className="modalTitle">Confirm purchase</h3>
         <div className="modalItem">{intent.label}</div>
-        <div className="modalPrice">{fmtUsd(intent.price)}</div>
+        <div className="modalPrice">
+          {fmtUsd(intent.price)}
+          {intent.suffix ?? ''}
+        </div>
         {intent.note && <div className="modalNote">{intent.note}</div>}
         <div className="modalNote" style={{ marginTop: 8 }}>
           Demonstration checkout — no payment is processed. The content unlocks immediately

@@ -13,47 +13,108 @@
    "id": "narratives",
    "label": "MAUDE adverse-event exhibit (untangled narratives)",
    "price": 2500,
+   "cls": "II",
    "basis": "Class II verified exhibit"
   },
   {
    "id": "experts",
    "label": "Paid-KOL overlap, ranked (device-anchored)",
    "price": 2500,
+   "cls": "II",
    "basis": "Class II verified dossier"
   },
   {
    "id": "expert-single",
    "label": "Expert profile \u2014 person-anchored deep-dive",
    "price": 2500,
+   "cls": "II",
    "basis": "Class II, ordered \u00e0 la carte per named expert"
   },
   {
    "id": "predicate-tree",
    "label": "510(k) predicate family tree",
    "price": 12000,
+   "cls": "IV",
    "basis": "Class IV bespoke build (IV+ $18,000 above 300 cited documents)"
   },
   {
    "id": "icp-map",
-   "label": "Compliant client acquisition \u2014 ICP geographic pack",
-   "price": 5000,
-   "basis": "Class III corpus sweep"
+   "label": "Demand Map \u2014 targeting intelligence",
+   "price": 2500,
+   "cls": "sub",
+   "cadence": "monthly",
+   "basis": "Subscription, not a reading: $2,500/mo single family \u00b7 $7,500/mo practice (\u22645 families) \u00b7 $15,000/mo firm-wide"
   },
   {
    "id": "ip",
    "label": "USPTO filings portfolio",
    "price": 300,
+   "cls": "I",
    "basis": "Class I lookup"
   }
  ],
+ "tokenClasses": [
+  {
+   "cls": "I",
+   "name": "Lookup",
+   "price": 300,
+   "scope": "one question, one entity, existing tables \u2014 machine-verified"
+  },
+  {
+   "cls": "II",
+   "name": "Oracle reading \u2014 verified dossier",
+   "price": 2500,
+   "scope": "one subject, exhaustively; every figure cited to a query, table, or PDF page"
+  },
+  {
+   "cls": "III",
+   "name": "Corpus sweep",
+   "price": 5000,
+   "scope": "a whole class/industry question over the full corpus; a ranked worklist"
+  },
+  {
+   "cls": "IV",
+   "name": "Bespoke build",
+   "price": 12000,
+   "scope": "a full family tree or a new dataset materialized"
+  },
+  {
+   "cls": "IV+",
+   "name": "Bespoke build, heavy",
+   "price": 18000,
+   "scope": "above 300 cited documents \u2014 banded by verification burden"
+  }
+ ],
+ "surcharge": {
+  "label": "Emergency Priority Surcharge",
+  "multiplier": 2.0,
+  "note": "Published, not discretionary: any reading that must jump the queue bills at \u00d72.0. Retained firms carry priority up to their allotment."
+ },
+ "demandMap": {
+  "tiers": [
+   {
+    "label": "Single device family",
+    "monthly": 2500
+   },
+   {
+    "label": "Practice \u2014 up to 5 families",
+    "monthly": 7500
+   },
+   {
+    "label": "Firm-wide + media planning",
+    "monthly": 15000
+   }
+  ],
+  "note": "The recurring anchor: monthly-refreshed targeting intelligence that sits above whoever buys the media. Sold per month, per scope \u2014 never bundled one-time."
+ },
  "everything": {
-  "price": 143000,
-  "listSum": 238000,
-  "note": "One-time license to every dossier and module below, at the retained rate (40% off the itemized sum)."
+  "price": 113000,
+  "listSum": 188000,
+  "note": "One-time license to every dossier below at the retained rate (40% off the itemized sum). Demand Map subscriptions are separate and recurring."
  },
  "retainer": {
   "label": "Promanteia retainer",
-  "blurb": "Annual retainer: readings at ~40% off list, front-of-queue priority, and standing recall alerting on your devices \u2014 new FDA recall and enforcement actions pushed as they post."
+  "blurb": "Anchored on the Demand Map subscription: the monthly map IS the retainer, with an annual reading allotment drawn against it at ~40% off list, front-of-queue priority, carved exclusivity on your named device families, and standing recall alerting. Rush readings bill the published \u00d72.0 Emergency Priority Surcharge."
  },
- "basis": "Measured cost-to-serve tariff (priced by scope of claim and verification burden, not compute)."
+ "basis": "The Consultation Token System: readings priced by published class \u2014 scope of claim and verification burden, never hours or compute."
 }
