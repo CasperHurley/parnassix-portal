@@ -17,8 +17,6 @@ const DOC_OPTIONS = {
   cMapUrl: '/pdfjs/cmaps/',
   cMapPacked: true,
   standardFontDataUrl: '/pdfjs/standard_fonts/',
-  wasmUrl: '/pdfjs/wasm/',
-  iccUrl: '/pdfjs/iccs/',
 }
 
 interface ItemBox {
@@ -133,7 +131,7 @@ export default function Evidence({
         const cssH = viewport.height / dpr
         canvas.style.width = `${cssWidth}px`
         canvas.style.height = `${cssH}px`
-        await p.render({ canvas, canvasContext: canvas.getContext('2d')!, viewport }).promise
+        await p.render({ canvasContext: canvas.getContext('2d')!, viewport }).promise
         // text geometry in CSS pixels
         const tv = p.getViewport({ scale })
         const tc = await p.getTextContent()
