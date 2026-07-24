@@ -1,0 +1,58 @@
+{
+ "currency": "USD",
+ "dossier": 2500,
+ "dossierIncludes": [
+  "narratives",
+  "experts",
+  "ip",
+  "corporate"
+ ],
+ "items": [
+  {
+   "id": "narratives",
+   "label": "Untangled adverse-event narratives",
+   "price": 1200,
+   "basis": "Class II slice"
+  },
+  {
+   "id": "experts",
+   "label": "Paid expert profiles \u2014 all for device",
+   "price": 2500,
+   "basis": "Class II verified dossier"
+  },
+  {
+   "id": "expert-single",
+   "label": "Paid expert profile \u2014 single",
+   "price": 500,
+   "basis": "Class I\u2013II"
+  },
+  {
+   "id": "predicate-tree",
+   "label": "510(k) predicate lineage (2-hop)",
+   "price": 12000,
+   "basis": "Class IV bespoke build"
+  },
+  {
+   "id": "icp-map",
+   "label": "Market / ICP geographic pack",
+   "price": 5000,
+   "basis": "Class III corpus sweep"
+  },
+  {
+   "id": "ip",
+   "label": "USPTO filings portfolio",
+   "price": 800,
+   "basis": "Class I lookup"
+  }
+ ],
+ "everything": {
+  "price": 81000,
+  "listSum": 135000,
+  "note": "One-time license to every dossier and module below, at 40% off the itemized sum."
+ },
+ "retainer": {
+  "label": "Promanteia retainer",
+  "blurb": "Annual retainer: token allotment at ~40% off list, front-of-queue priority, and standing recall alerting on your devices \u2014 new FDA recall and enforcement actions pushed as they post."
+ },
+ "basis": "Measured cost-to-serve tariff (priced by scope of claim, not compute)."
+}

@@ -1,0 +1,2276 @@
+{
+ "slug": "evolut-tavr-valve",
+ "name": "Evolut TAVR valve",
+ "maker": "Medtronic \u00b7 Structural heart",
+ "rank": 7,
+ "pathway": "pma (P130021 \u2014 corpus 'mixed' was delivery catheters)",
+ "maturity": "dormant",
+ "stats": {
+  "deaths": 2764,
+  "injuries": 19220,
+  "malfunctions": 6889,
+  "recalls": 136,
+  "classI": 1
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Medtronic \u00b7 Structural heart"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (P130021 \u2014 corpus 'mixed' was delivery catheters)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "The implanted valve is pure PMA Class III (P130021 + ~170 supplements); the 152 '510(k) rows' are peripheral delivery/loading systems, not the valve. Riegel preemption applies squarely. The 14 nonconforming-material recalls feed a narrow parallel manufacturing-defect theory \u2014 the only surviving hook. The $12k predicate tree does NOT apply (no 510(k) lineage); substitute a PMA supplement-lineage ma"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "dormant"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 2764,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 19220,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 6889,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 136,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 1,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Adverse Event Without Identified Device or Use Problem",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 17186,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 59908285.33,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Michael Caskey",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "California",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 1934,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2026-05-12",
+   "classification": "Unclassified",
+   "reason": "During the manufacturing process, Medtronic personnel identified an assembly issue where the tubing was incorrectly positioned. The short tube was attached to the bottom of the canister, and the long tube was attached to",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-05-12",
+   "classification": "Unclassified",
+   "reason": "During the manufacturing process, Medtronic personnel identified an assembly issue where the tubing was incorrectly positioned. The short tube was attached to the bottom of the canister, and the long tube was attached to",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-04-14",
+   "classification": "Class II",
+   "reason": "The potential for stiffness value errors when a specific range of image reconstruction parameters is used in combination with Resoundant's algorithm, leading to the reconstruction voxel size settings in the default MRE s",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-04-14",
+   "classification": "Class II",
+   "reason": "The potential for stiffness value errors when a specific range of image reconstruction parameters is used in combination with Resoundant's algorithm, leading to the reconstruction voxel size settings in the default MRE s",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-26",
+   "classification": "Class II",
+   "reason": "GE HealthCare has become aware of a potential security vulnerability impacting AW Server deployed via Edison Health Link (EHL) based CT Smart Subscription used in conjunction with certain Revolution Apex, Revolution Asce",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-26",
+   "classification": "Class II",
+   "reason": "GE HealthCare has become aware of a potential security vulnerability impacting AW Server deployed via Edison Health Link (EHL) based CT Smart Subscription used in conjunction with certain Revolution Apex, Revolution Asce",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2002,
+     "value": 1
+    },
+    {
+     "year": 2006,
+     "value": 2
+    },
+    {
+     "year": 2008,
+     "value": 3
+    },
+    {
+     "year": 2009,
+     "value": 4
+    },
+    {
+     "year": 2010,
+     "value": 1
+    },
+    {
+     "year": 2011,
+     "value": 5
+    },
+    {
+     "year": 2012,
+     "value": 3
+    },
+    {
+     "year": 2013,
+     "value": 12
+    },
+    {
+     "year": 2014,
+     "value": 6
+    },
+    {
+     "year": 2015,
+     "value": 5
+    },
+    {
+     "year": 2016,
+     "value": 2
+    },
+    {
+     "year": 2017,
+     "value": 9
+    },
+    {
+     "year": 2018,
+     "value": 6
+    },
+    {
+     "year": 2019,
+     "value": 4
+    },
+    {
+     "year": 2020,
+     "value": 12
+    },
+    {
+     "year": 2021,
+     "value": 13
+    },
+    {
+     "year": 2022,
+     "value": 2
+    },
+    {
+     "year": 2023,
+     "value": 3
+    },
+    {
+     "year": 2024,
+     "value": 19
+    },
+    {
+     "year": 2025,
+     "value": 13
+    },
+    {
+     "year": 2026,
+     "value": 11
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2003,
+     "value": 1
+    },
+    {
+     "year": 2008,
+     "value": 4
+    },
+    {
+     "year": 2009,
+     "value": 6
+    },
+    {
+     "year": 2010,
+     "value": 5
+    },
+    {
+     "year": 2011,
+     "value": 2
+    },
+    {
+     "year": 2012,
+     "value": 8
+    },
+    {
+     "year": 2013,
+     "value": 2
+    },
+    {
+     "year": 2014,
+     "value": 3
+    },
+    {
+     "year": 2015,
+     "value": 10
+    },
+    {
+     "year": 2016,
+     "value": 40
+    },
+    {
+     "year": 2017,
+     "value": 49
+    },
+    {
+     "year": 2018,
+     "value": 109
+    },
+    {
+     "year": 2019,
+     "value": 98
+    },
+    {
+     "year": 2020,
+     "value": 202
+    },
+    {
+     "year": 2021,
+     "value": 260
+    },
+    {
+     "year": 2022,
+     "value": 312
+    },
+    {
+     "year": 2023,
+     "value": 567
+    },
+    {
+     "year": 2024,
+     "value": 614
+    },
+    {
+     "year": 2025,
+     "value": 26
+    },
+    {
+     "year": 2026,
+     "value": 446
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1996,
+     "value": 1
+    },
+    {
+     "year": 1997,
+     "value": 1
+    },
+    {
+     "year": 1999,
+     "value": 4
+    },
+    {
+     "year": 2000,
+     "value": 2
+    },
+    {
+     "year": 2001,
+     "value": 2
+    },
+    {
+     "year": 2005,
+     "value": 2
+    },
+    {
+     "year": 2006,
+     "value": 4
+    },
+    {
+     "year": 2007,
+     "value": 5
+    },
+    {
+     "year": 2008,
+     "value": 16
+    },
+    {
+     "year": 2009,
+     "value": 87
+    },
+    {
+     "year": 2010,
+     "value": 73
+    },
+    {
+     "year": 2011,
+     "value": 70
+    },
+    {
+     "year": 2012,
+     "value": 54
+    },
+    {
+     "year": 2013,
+     "value": 65
+    },
+    {
+     "year": 2014,
+     "value": 55
+    },
+    {
+     "year": 2015,
+     "value": 159
+    },
+    {
+     "year": 2016,
+     "value": 640
+    },
+    {
+     "year": 2017,
+     "value": 1012
+    },
+    {
+     "year": 2018,
+     "value": 1323
+    },
+    {
+     "year": 2019,
+     "value": 1519
+    },
+    {
+     "year": 2020,
+     "value": 1636
+    },
+    {
+     "year": 2021,
+     "value": 1670
+    },
+    {
+     "year": 2022,
+     "value": 1795
+    },
+    {
+     "year": 2023,
+     "value": 2594
+    },
+    {
+     "year": 2024,
+     "value": 3408
+    },
+    {
+     "year": 2025,
+     "value": 169
+    },
+    {
+     "year": 2026,
+     "value": 2854
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2015,
+     "value": 5827.24
+    },
+    {
+     "year": 2016,
+     "value": 6924106.1
+    },
+    {
+     "year": 2017,
+     "value": 6378069.6
+    },
+    {
+     "year": 2018,
+     "value": 7821284.69
+    },
+    {
+     "year": 2019,
+     "value": 8023886.7
+    },
+    {
+     "year": 2020,
+     "value": 5029701.83
+    },
+    {
+     "year": 2021,
+     "value": 5080929.27
+    },
+    {
+     "year": 2022,
+     "value": 6197667.84
+    },
+    {
+     "year": 2023,
+     "value": 7116894.39
+    },
+    {
+     "year": 2024,
+     "value": 7329917.67
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 36
+    },
+    {
+     "year": 1991,
+     "value": 32
+    },
+    {
+     "year": 1992,
+     "value": 71
+    },
+    {
+     "year": 1993,
+     "value": 65
+    },
+    {
+     "year": 1994,
+     "value": 116
+    },
+    {
+     "year": 1995,
+     "value": 96
+    },
+    {
+     "year": 1996,
+     "value": 85
+    },
+    {
+     "year": 1997,
+     "value": 93
+    },
+    {
+     "year": 1998,
+     "value": 250
+    },
+    {
+     "year": 1999,
+     "value": 221
+    },
+    {
+     "year": 2000,
+     "value": 260
+    },
+    {
+     "year": 2001,
+     "value": 236
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 94028,
+    "distinctProblemCodes": 243,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 6875,
+      "narrative": "MEDTRONIC RECEIVED INFORMATION THAT NINE DAYS FOLLOWING THE IMPLANT OF THIS TRANSCATHETER BIOPROSTHETIC VALVE, ATRIAL FIBRILLATION (AFIB) WAS OBSERVED. MEDICAL THERAPY WAS PERFORMED AND A FEVER ENSUED. NO ADDITIONAL ADVERSE PATIENT EFFECTS WERE REPORTED."
+     },
+     {
+      "problem": "Patient Device Interaction Problem",
+      "reports": 3669,
+      "narrative": "UPDATED DATA: B5. PARAGRAPH SIX ADDED. H6. PATIENT AND DEVICE CODES ADDED ADDITIONAL CODES. ANNEX G ADDED. MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE"
+     },
+     {
+      "problem": "Device Dislodged or Dislocated",
+      "reports": 3502,
+      "narrative": "OTHER RELEVANT DEVICE(S) ARE: PRODUCT ID: E VPROPLUS-34US, SERIAL/LOT #: (B)(4), UBD: 14-AUG-2020, UDI#: (B)(4). PRODUCT ANALYSIS: THE DEVICES REMAINS IMPLANTED, THEREFORE NO PRODUCT ANALYSIS CAN BE PERFORMED. CONCLUSION: WITHOUT THE RETURN OF THE PRODUCTS, NO DEFINITIVE CONCLUSION CAN BE MADE REGARDING THE CLINICAL OBSERVATION. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+     },
+     {
+      "problem": "Perivalvular Leak",
+      "reports": 2902,
+      "narrative": "B5: ADDITIONAL INFORMATION WAS RECEIVED THAT DURING THE IMPLANT PROCEDURE OF THIS TRANSCATHETER BIOPROSTHETIC VALVE A 22 MILLIMETER (MM) NON-MEDTRONIC BALLOON WAS USED FOR THE AORTIC VALVULOPLASTY (BAV). FURTHER, SIX MONTHS FOLLOWING THE IMPLANT OF THIS TRANSCATHETER VALVE, A TRANSESOPHAGEAL ECHOCARDIOGRAM (TEE) REVEALED MILD TO MODERATE PARAVALVULAR LEAK (PVL). ONE YEAR AFTER THE IMPLANT, A TRANSESOPHAGEAL ECHOCARDI"
+     },
+     {
+      "problem": "Insufficient Information",
+      "reports": 2709,
+      "narrative": "TVT REGISTRY EXEMPTION NUMBER: E2014038 QUARTERLY REPORTING PERIOD: Q3 2020 TOTAL NUMBER OF EVENTS BEING SUMMARIZED: 5 UNDER THE TERMS AND CONDITIONS OF THE REGISTRY, ANONYMIZED PATIENT DEMOGRAPHICS DETAILS AND LIMITED DETAILS WERE PROVIDED REGARDING THE ADVERSE EVENTS AND OUTCOMES. THE LISTED EVENT DATE IS THE DATE THE INFORMATION WAS RECEIVED BY MEDTRONIC. THE PATIENT INFORMATION INCLUDED IN SECTION A. IS AN AVERAG"
+     },
+     {
+      "problem": "Material Invagination",
+      "reports": 1124,
+      "narrative": "ADDITIONAL CODES: ANNEX F MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH R"
+     },
+     {
+      "problem": "Activation Failure",
+      "reports": 1081,
+      "narrative": "MEDTRONIC RECEIVED INFORMATION THAT DURING THE IMPLANT OF THIS TRANSCATHETER BIOPROSTHETIC VALVE, THE VALVE WAS RECAPTURED ONCE. AS THE VALVE WAS BEING RECAPTURED RAPIDLY, EXCESS FORCE WAS APPLIED THAT CAUSED INVAGINATION OF THE VALVE FRAME. ONCE THE INFOLDED PORTION OF THE VALVE ENTERED THE DELIVERY CATHETER SYSTEM (DCS) CAPSULE, THE DCS WOULD NO LONGER RESPOND TO ATTEMPTS TO DEPLOY OR RECAPTURE THE VALVE. THE DELIV"
+     },
+     {
+      "problem": "Gradient Increase",
+      "reports": 602,
+      "narrative": "MEDTRONIC RECEIVED INFORMATION THAT DURING THE IMPLANT OF THIS TRANSCATHETER BIOPROSTHETIC VALVE, DIRECT ARTERIAL CUTDOWN ACCESS WAS PERFORMED TO THE LEFT COMMON FEMORAL ARTERY (CFA) AND A 5FR SHEATH WAS PLACED. PERCUTANEOUS ACCESS WAS COMPLETED BY THE IMPLANTING PHYSICIAN TO THE RIGHT CFA. ANGIOGRAPHY OF THE RIGHT CFA ACCESS SITE SHOWED THAT THE SHEATH WAS IN THE MIDPORTION OF THE CFA. MODERATE-SEVERE CALCIFICATION"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 52,
+    "citations": 101,
+    "hops": 2,
+    "anchors": [
+     "K253185",
+     "K250954",
+     "K251148"
+    ]
+   },
+   "payload": {
+    "anchors": [
+     "K253185",
+     "K250954",
+     "K251148"
+    ],
+    "nodes": [
+     {
+      "k": "K041661",
+      "name": "NOBEL BIOCARE ENDOSSEOUS IMPLANTS",
+      "anchor": false
+     },
+     {
+      "k": "K050406",
+      "name": "NOBELSPEEDY IMPLANTS",
+      "anchor": false
+     },
+     {
+      "k": "K051719",
+      "name": "A.B. DENTAL DEVICES",
+      "anchor": false
+     },
+     {
+      "k": "K060137",
+      "name": "KODAK ECLIPSE IMAGE PROCESSING SOFTWARE",
+      "anchor": false
+     },
+     {
+      "k": "K063341",
+      "name": "3I OSSEOTITE CERTAIN DENTAL IMPLANTS",
+      "anchor": false
+     },
+     {
+      "k": "K071370",
+      "name": "NOBELACTIVE INTERNAL CONNECTION IMPLANT",
+      "anchor": false
+     },
+     {
+      "k": "K073033",
+      "name": "LEGACY DENTAL IMPLANTS",
+      "anchor": false
+     },
+     {
+      "k": "K090318",
+      "name": "CARESTREAM DRX-1 SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K102436",
+      "name": "NOBEL ACTIVE 3.0",
+      "anchor": false
+     },
+     {
+      "k": "K120062",
+      "name": "DRX-REVOLUTION MOBILE X-RAY SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K123784",
+      "name": "STRAUMANN DENTAL IMPLANT SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K130464",
+      "name": "CARESTREAM DRX-1 SYSTEM WITH DRX 2530C DETECTOR",
+      "anchor": false
+     },
+     {
+      "k": "K133731",
+      "name": "NOBELACTIVE WIDE PLATFORM (WP)",
+      "anchor": false
+     },
+     {
+      "k": "K142260",
+      "name": "NobelActive",
+      "anchor": false
+     },
+     {
+      "k": "K143142",
+      "name": "JDENTALCARE Implant System",
+      "anchor": false
+     },
+     {
+      "k": "K150766",
+      "name": "Carestream DRX-1 System",
+      "anchor": false
+     },
+     {
+      "k": "K153111",
+      "name": "TOUAREG CloseFit\u0099 UNP 2.75mmD",
+      "anchor": false
+     },
+     {
+      "k": "K153142",
+      "name": "Carestream DRX-1 System with DRX Plus 4343 Detectors",
+      "anchor": false
+     },
+     {
+      "k": "K160119",
+      "name": "NobelSpeedy Groovy",
+      "anchor": false
+     },
+     {
+      "k": "K161730",
+      "name": "Wireless Digital Flat Panel Detector",
+      "anchor": false
+     },
+     {
+      "k": "K163203",
+      "name": "Carestream DRX-Evolution",
+      "anchor": false
+     },
+     {
+      "k": "K163349",
+      "name": "MIS V3 Conical Connection Dental Implant System\u00ad",
+      "anchor": false
+     },
+     {
+      "k": "K171142",
+      "name": "Healing Cap Multi-Unit Titanium",
+      "anchor": false
+     },
+     {
+      "k": "K180809",
+      "name": "Eclipse II",
+      "anchor": false
+     },
+     {
+      "k": "K182081",
+      "name": "JDentalCare Implant System JDIcon",
+      "anchor": false
+     },
+     {
+      "k": "K183245",
+      "name": "Carestream DRX-1 System with DRX Plus 2530 Detectors",
+      "anchor": false
+     },
+     {
+      "k": "K183425",
+      "name": "CARDIOVIT AT-102 G2",
+      "anchor": false
+     },
+     {
+      "k": "K190330",
+      "name": "DRX-Evolution/Plus with Dual Energy",
+      "anchor": false
+     },
+     {
+      "k": "K191025",
+      "name": "DRX-Revolution Mobile X-ray System",
+      "anchor": false
+     },
+     {
+      "k": "K191205",
+      "name": "",
+      "anchor": false
+     },
+     {
+      "k": "K192512",
+      "name": "Focus 35C Detector, Trimax 35C Detector",
+      "anchor": false
+     },
+     {
+      "k": "K200622",
+      "name": "Focus 43C detector, TRIMAX 43C detector",
+      "anchor": false
+     },
+     {
+      "k": "K201373",
+      "name": "DRX-Compass",
+      "anchor": false
+     },
+     {
+      "k": "K202344",
+      "name": "TiUltra Implants and Xeal Abutments",
+      "anchor": false
+     },
+     {
+      "k": "K202441",
+      "name": "Eclipse II with Smart Noise Cancellation",
+      "anchor": false
+     },
+     {
+      "k": "K203159",
+      "name": "Lux 35 Detector",
+      "anchor": false
+     },
+     {
+      "k": "K210314",
+      "name": "Mars1717X Wireless Digital Flat Panel Detector",
+      "anchor": false
+     },
+     {
+      "k": "K210316",
+      "name": "Mars 1417X Wireless Digital Flat Panel Detector",
+      "anchor": false
+     },
+     {
+      "k": "K213307",
+      "name": "Eclipse II with Smart Noise Cancellation",
+      "anchor": false
+     },
+     {
+      "k": "K213529",
+      "name": "Focus HD 43 Detector",
+      "anchor": false
+     },
+     {
+      "k": "K213646",
+      "name": "Focus HD 35 Detector",
+      "anchor": false
+     },
+     {
+      "k": "K220536",
+      "name": "Digital flat panel detector",
+      "anchor": false
+     },
+     {
+      "k": "K223842",
+      "name": "DRX - Compass",
+      "anchor": false
+     },
+     {
+      "k": "K230059",
+      "name": "Digital Flat Panel Detector",
+      "anchor": false
+     },
+     {
+      "k": "K233381",
+      "name": "DRX-Evolution Plus System",
+      "anchor": false
+     },
+     {
+      "k": "K233896",
+      "name": "JDentalCare Dental Implant System: JDEvolution; JDEvolution plus; JDIcon; JDIcon",
+      "anchor": false
+     },
+     {
+      "k": "K235185",
+      "name": "",
+      "anchor": false
+     },
+     {
+      "k": "K241505",
+      "name": "DRX-Revolution Mobile X-ray System",
+      "anchor": false
+     },
+     {
+      "k": "K243556",
+      "name": "Lux HD 35 Detector (Lux HD 35); Lux HD 43 Detector (Lux HD 43)",
+      "anchor": false
+     },
+     {
+      "k": "K250954",
+      "name": "DRX-Evolution Plus X-ray System, DRX-Compass Mobile X-ray System, Lux HD 35 dete",
+      "anchor": true
+     },
+     {
+      "k": "K251148",
+      "name": "JDEvolution Plus L and JDEvolution Plus LE",
+      "anchor": true
+     },
+     {
+      "k": "K253185",
+      "name": "Lux HD Detectors, DRX-LC Detector, DRX-Revolution Mobile X-Ray System",
+      "anchor": true
+     }
+    ],
+    "edges": [
+     {
+      "from": "K250954",
+      "to": "K213529",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ux HD 43\n35 DEC feature, however it will be\n(K213646) (K243556) compatible with Lux HD for\n\u2022 Focus HD\ngeneral radiography purpose only.\n43\n(K213529)\nDR ImageView Software v2.0 Same Verification and Va",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K183245",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "feature Lux HD integration testing with the\n\u2022 DRX Plus \u2022 Lux HD 35 (K243556) DR\nCompatib 2530 systems passed and is provided in\nle Digital (K183245) \u2022 Lux HD 43 (K243556) this submission.\nFlat \u2022 Focus",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K202441",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "529) for use with the previously cleared Eclipse II w/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX Evolution P",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K233381",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ice Class Class II\nDevice Code(s) KPR, MQB\nRegulation Number(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate Device(s) DRX-Compass X-ray System (K2238",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K213307",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "leared Eclipse II w/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K2238",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K213646",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "atib 2530 systems passed and is provided in\nle Digital (K183245) \u2022 Lux HD 43 (K243556) this submission.\nFlat \u2022 Focus HD\nPanel\n35\nDetectors (K213646)\n\u2022 Focus HD\nCompass: New detectors without DEC\n\u2022 DRX",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K243556",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "cation Name(s) Stationary X-ray System\nDevice Class Class II\nDevice Code(s) KPR, MQB\nRegulation Number(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate",
+      "hop": 1
+     },
+     {
+      "from": "K250954",
+      "to": "K223842",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "umber(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate Device(s) DRX-Compass X-ray System (K223842)\nP a g e 1 | 6",
+      "hop": 1
+     },
+     {
+      "from": "K251148",
+      "to": "K182081",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "e following:\n510(k) Product\nApplicant Device name\nNumber code\nJ DENTAL CARE S.r.l. JDEvolution K143142 DZE, NHA\nJ DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA\nJDentalCare Dental Implant System:\nJ DENTAL",
+      "hop": 1
+     },
+     {
+      "from": "K251148",
+      "to": "K050406",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Dental Implant System:\nJ DENTAL CARE S.r.l. K233896 DZE, NHA\nJDEvolution plus; JDEvolution S; JDIcon\nNobel Biocare AB NobelSpeedy Implants K050406 DZE\nThis reference device has not been subject to a d",
+      "hop": 1
+     },
+     {
+      "from": "K251148",
+      "to": "K160119",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "he following predicate device legally marketed\nin US:\nProduct\nApplicant Device name 510(k) Number\ncode\nNobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE\nThis predicate device has not been subject to a ",
+      "hop": 1
+     },
+     {
+      "from": "K251148",
+      "to": "K233896",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "RE S.r.l. JDEvolution K143142 DZE, NHA\nJ DENTAL CARE S.r.l. JDIcon K182081 DZE, NHA\nJDentalCare Dental Implant System:\nJ DENTAL CARE S.r.l. K233896 DZE, NHA\nJDEvolution plus; JDEvolution S; JDIcon\nNob",
+      "hop": 1
+     },
+     {
+      "from": "K251148",
+      "to": "K143142",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ference device that has been considered is the following:\n510(k) Product\nApplicant Device name\nNumber code\nJ DENTAL CARE S.r.l. JDEvolution K143142 DZE, NHA\nJ DENTAL CARE S.r.l. JDIcon K182081 DZE, NH",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K235185",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "510(k) number: K235185\n510(k) Summary\n510(k) Owner Name Carestream Health\n510(k) Owner Address 150 Verona Street\nRochester, New York 14608\n510(k) Owner Contact In",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K230059",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059) confirmed by verification and\nDigit",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K243556",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "e after acquisition.\nDevice Description\nThe DRX-Revolution Mobile X-ray system will support the new Lux HD Detectors with the DEC\nfunction (K243556), additionally the detectors will also support the o",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K202441",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "X-LC for use with the previously cleared Eclipse II\nw/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX-Revolution ",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K203159",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": ") confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector impact image quality.\nDetectors (K203159) The detectors being added are\npreviously cleared de",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K223842",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "base version of the software (2.0) has been cleared with the following Carestream DR\nsystems\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K223842)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus X-ra",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K183245",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(K243556) similar; any differences\nCompatible DRX Plus 2530C DRX-LC (K230059) DRX-LC (K230059) confirmed by verification and\nDigital Flat (K183245) validation testing and do not\nPanel Lux 35 Detector ",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K233381",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "gital x-ray\nsystems. The base version of the software (2.0) has been cleared with the following Carestream DR\nsystems\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K223842)\n\u2022 DRX-Revolution (K241505)\n",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K153142",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "em, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243556) Lux HD DQE/MTF data are\n4343C (K153142) Lux HD 43 (K243556) Lux HD 43 (K243556) similar; an",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K213307",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "leared Eclipse II\nw/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX-Revolution (K241505)\n\u2022 DRX-Evolution Plus (K2",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K250954",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "obile\nMobile X-ray System X-ray System, DRX- X-ray System (K253185)\n(K241505) Compass X-ray\nSystem, Lux HD 35\nDetector, Lux HD 43\nDetector (K250954)\nDRX Plus 3543C, Lux HD 35 (K243556) Lux HD 35 (K243",
+      "hop": 1
+     },
+     {
+      "from": "K253185",
+      "to": "K241505",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ll support the new Lux HD Detectors with the DEC\nfunction (K243556), additionally the detectors will also support the optional SNC feature (K241505).\nCarestream Mobile X-ray Systems\nDRX-Revolution Mob",
+      "hop": 1
+     },
+     {
+      "from": "K050406",
+      "to": "K041661",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "(21 CFR 872.3640)\nTrade or Proprietary\nor Model Name: NOBELSPEEDyT Implants\nLegally Marketed Device(s): Nobel Biocare Endosseous Implants (K041661)\nDevice Description:\nNobel Biocare's NOBELSPEEDYTM Im",
+      "hop": 2
+     },
+     {
+      "from": "K143142",
+      "to": "K071370",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "the following predicate device:\n510(k) Product\nApplicant Device name\nNumber code\nNobel Active Internal Connection DZE\nNobel Biocare USA LLC K071370\nImplant NHA",
+      "hop": 2
+     },
+     {
+      "from": "K143142",
+      "to": "K073033",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "bel Active 3.0 K102436\nNHA\nA.B. Dental Devices Limited A.B Dental Devices K051719 DZE\nLegacy system Dental Implants With\nImplant Direct LLC K073033 DZE\nHA Coating\n4. Device Description\nJDentalCare\u00aeimp",
+      "hop": 2
+     },
+     {
+      "from": "K143142",
+      "to": "K051719",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "uct\nApplicant Device name\nNumber code\nDZE\nNobel Biocare USA LLC Nobel Active 3.0 K102436\nNHA\nA.B. Dental Devices Limited A.B Dental Devices K051719 DZE\nLegacy system Dental Implants With\nImplant Direc",
+      "hop": 2
+     },
+     {
+      "from": "K143142",
+      "to": "K102436",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Reference devices considered are listed below:\n510(k) Product\nApplicant Device name\nNumber code\nDZE\nNobel Biocare USA LLC Nobel Active 3.0 K102436\nNHA\nA.B. Dental Devices Limited A.B Dental Devices K0",
+      "hop": 2
+     },
+     {
+      "from": "K153142",
+      "to": "K150766",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "CFR 892.1680\nPredicate Device: Carestream DRX-1 System (with DRX Plus\n3543 Detectors)\nManufactured by: Carestream Health, Inc.\n510(k) No.: K150766 (June 24, 2015)\nClassification Regulation: 21 CFR 892",
+      "hop": 2
+     },
+     {
+      "from": "K160119",
+      "to": "K133731",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "B NobelSpeedy\u00ae Groovy\nTraditional 510(k)\nThe following is used as reference device within the submission:\n\u2022 NobelActive Wide Platform (WP), K133731, Nobel Biocare\nIV. Device Description\nNobelSpeedy\u00ae G",
+      "hop": 2
+     },
+     {
+      "from": "K160119",
+      "to": "K063341",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "lowing devices:\nPrimary Predicate\n\u2022 NobelSpeedy\u00ae Implants, K050406, Nobel Biocare\nAdditional Predicate\n\u2022 Osseotite Certain Dental Implants, K063341, Implant Innovations Inc (3i)",
+      "hop": 2
+     },
+     {
+      "from": "K160119",
+      "to": "K050406",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "uct Code: DZE\nIII. Predicate Device\nSubstantial equivalence is claimed to the following devices:\nPrimary Predicate\n\u2022 NobelSpeedy\u00ae Implants, K050406, Nobel Biocare\nAdditional Predicate\n\u2022 Osseotite Cert",
+      "hop": 2
+     },
+     {
+      "from": "K182081",
+      "to": "K123784",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "it\u2122 UNP 2.75mmD K153111\nSystems Ltd.\nNobel Biocare USA LLC Nobel Active 3.0 K102436\nStraumann USA LLC Straumann\u00ae Dental Implant System SLA\u00ae K123784\n4. Device Description\nJDentalCare\u00ae implant system JD",
+      "hop": 2
+     },
+     {
+      "from": "K182081",
+      "to": "K102436",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Applicant Device name\nNumber\nAdin Dental Implants\nTOUAREG CloseFit\u2122 UNP 2.75mmD K153111\nSystems Ltd.\nNobel Biocare USA LLC Nobel Active 3.0 K102436\nStraumann USA LLC Straumann\u00ae Dental Implant System S",
+      "hop": 2
+     },
+     {
+      "from": "K182081",
+      "to": "K143142",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ice is the following:\n510(k) Product\nApplicant Device name Device Model name\nNumber code\nJ Dental Care JDentalCare\u00ae Implant DZE\nJDEvolution K143142\nS.r.l. System NHA\nPage 1 / 15\nVol001-5/80",
+      "hop": 2
+     },
+     {
+      "from": "K182081",
+      "to": "K153111",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "he following reference devices have been considered:\n510(k)\nApplicant Device name\nNumber\nAdin Dental Implants\nTOUAREG CloseFit\u2122 UNP 2.75mmD K153111\nSystems Ltd.\nNobel Biocare USA LLC Nobel Active 3.0 ",
+      "hop": 2
+     },
+     {
+      "from": "K183245",
+      "to": "K150766",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "CFR 892.1680\nPredicate Device: Carestream DRX-1 System (with DRX Plus\n3543 Detectors)\nManufactured by: Carestream Health, Inc.\n510(k) No.: K150766 (June 24, 2015)\nRegulation Number: 21 CFR 892.1680\nCl",
+      "hop": 2
+     },
+     {
+      "from": "K183245",
+      "to": "K180809",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "43\nDetectors and the new DRX Plus 2530 and DRX Plus 2530C Detectors are used in\ncombination with the image processing software (Eclipse II; K180809) and user interface\nresident on the DRX-1 System Con",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K130464",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "3543C (CsI) (K203159)\n* DRX Plus 2530C (Kl83245)\n* Carestream DRX-1 System w/DRX-1 Detector (K090318)\n* DRX-1C (K120062), DRX 2530C (CsI) (K130464)\nSummary of Clinical Testing\nA clinical evaluation wa",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K150766",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "e for\nall supported detector types and exposure levels tested.\nA complete list of the supported detectors:\n* DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1)\n* DRX Plus 3543C & DRX Plus",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K090318",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159)\n* DRX Plus 2530C (Kl83245)\n* Carestream DRX-1 System w/DRX-1 Detector (K090318)\n* DRX-1C (K120062), DRX 2530C (CsI) (K130464)\nSumma",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K180809",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ass 11\nProduct Code MQB\nRegulation Number 21 CFR 892.1680\nRegulation Description Stationary X-ray system\nPredicate Device Eclipse 11 510(k) K180809\nCarestream Health, Inc. is submitting this Tradition",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K153142",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "plete list of the supported detectors:\n* DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1)\n* DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159)\n* DRX Plus 2530C (Kl8324",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K203159",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "detectors:\n* DRX Plus 3543 & DRX Plus 4343 (K150766), DRX-L (GOS) (K19061 1)\n* DRX Plus 3543C & DRX Plus 4343C (K153142), Lux 3543C (CsI) (K203159)\n* DRX Plus 2530C (Kl83245)\n* Carestream DRX-1 System",
+      "hop": 2
+     },
+     {
+      "from": "K202441",
+      "to": "K120062",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "X Plus 4343C (K153142), Lux 3543C (CsI) (K203159)\n* DRX Plus 2530C (Kl83245)\n* Carestream DRX-1 System w/DRX-1 Detector (K090318)\n* DRX-1C (K120062), DRX 2530C (CsI) (K130464)\nSummary of Clinical Test",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K183425",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ance with DRX-1 under K150766. Additionally, the DRX-1\nSystem has clearance for the following Carestream detectors:\n\u2022 K130464 (DRX 2530C)\n\u2022 K183425 (DRX Plus 2530 Detector)\n\u2022 K150766 (DRX 3543 Plus De",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K060137",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "may be used. Excluded from the\nindications for use are\nmammography, fluoroscopy, and\nangiography applications\nImage Eclipse Image Software (K060137) Eclipse Image Software Predicate software used a 4-",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K163203",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ew Software has obtained several FDA clearances for use with Carestream Digital Radiography\nSystems used with the Carestream flat panels:\n\u25aa K163203 \u2013 DRX Evolution System with Image View Software\n\u25aa K1",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K130464",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "X Plus 3543) has clearance with DRX-1 under K150766. Additionally, the DRX-1\nSystem has clearance for the following Carestream detectors:\n\u2022 K130464 (DRX 2530C)\n\u2022 K183425 (DRX Plus 2530 Detector)\n\u2022 K15",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K150766",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Flat Panel Detector. Caresteam believes the modified DRX Plus 3543C Flat Panel\nDetector is substantially equivalent to the cleared device (K150766).\nDate Summary Prepared: August 15 2020\nPredicate Sub",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K180809",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "transformed into data for viewing and then put into DICOM\nformat for output. Image Eclipse Processing Software II has been cleared for use (K180809) with\nprevious Carestream DRX Plus 2530C under K1834",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K090318",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "material and cesium iodide\nscintillator. The modified detector, like the predicate is designed to interact with Carestream\u2019s DRX-1\nSystem (K090318).\nThe modified DRX Plus 3543C Detector, like the pred",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K191205",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "th Carestream Digital Radiography\nSystems used with the Carestream flat panels:\n\u25aa K163203 \u2013 DRX Evolution System with Image View Software\n\u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Softw",
+      "hop": 2
+     },
+     {
+      "from": "K203159",
+      "to": "K201373",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "flat panels:\n\u25aa K163203 \u2013 DRX Evolution System with Image View Software\n\u25aa K191205 \u2013 DRX-Mobile Revolution System with Image View Software\n\u25aa K201373 \u2013 DRX-Compass\nSummary of Guidance & Standards Complia",
+      "hop": 2
+     },
+     {
+      "from": "K213307",
+      "to": "K202441",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ion Name Stationary X-ray system\nDevice Class Class II\nDevice Code MQB\nRegulation Number 21 CFR 892.1680\nPredicate Device Eclipse II 510(k) K202441\nIndications for Use\n\"The software performs digital e",
+      "hop": 2
+     },
+     {
+      "from": "K213529",
+      "to": "K210314",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "17X\nProduct Code: MQB\nClassification Name: Stationary X-Ray System\nRegulation Number: 21 CFR 892.1680\nDevice Class: Class II\nFDA 510 (k) #: K210314\n5. Description of the Device [21 CFR 807.92(a)(4)]\nF",
+      "hop": 2
+     },
+     {
+      "from": "K213646",
+      "to": "K210316",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "17X\nProduct Code: MQB\nClassification Name: Stationary X-Ray System\nRegulation Number: 21 CFR 892.1680\nDevice Class: Class II\nFDA 510 (k) #: K210316\n5. Description of the Device [21 CFR 807.92(a)(4)]\nF",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K200622",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "as\nDevices (Detector) (K150766) the predicate devices and the\nFocus 35C Detector (K192512) additional detectors listed\nFocus 43C Detector (K200622) below:\nDRX Plus 2530 (K183245)\nFocus HD 35 (K213646)",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K201373",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ryke@carestream.com\n585-489-7627\nDate Summary Prepared: December 9, 2022\nPredicate\n510(k) Submitter: Carestream Health, Inc.\n510(k) Number: K201373\nTrade Name: DRX-Compass\nDevice: System, X-Ray, Stati",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K150766",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "m\nDRX-Compass System\n(K201373)\nDigital Radiography Imaging Carestream DRX Plus Detectors Supports the same detectors as\nDevices (Detector) (K150766) the predicate devices and the\nFocus 35C Detector (K",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K203159",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "additional detectors listed\nFocus 43C Detector (K200622) below:\nDRX Plus 2530 (K183245)\nFocus HD 35 (K213646)\nFocus HD 43 (K213529)\nLux 35 (K203159)\nApplication System Software Image View Software Sam",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K183245",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": ") the predicate devices and the\nFocus 35C Detector (K192512) additional detectors listed\nFocus 43C Detector (K200622) below:\nDRX Plus 2530 (K183245)\nFocus HD 35 (K213646)\nFocus HD 43 (K213529)\nLux 35 ",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K192512",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Carestream DRX Plus Detectors Supports the same detectors as\nDevices (Detector) (K150766) the predicate devices and the\nFocus 35C Detector (K192512) additional detectors listed\nFocus 43C Detector (K20",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K213646",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "s and the\nFocus 35C Detector (K192512) additional detectors listed\nFocus 43C Detector (K200622) below:\nDRX Plus 2530 (K183245)\nFocus HD 35 (K213646)\nFocus HD 43 (K213529)\nLux 35 (K203159)\nApplication ",
+      "hop": 2
+     },
+     {
+      "from": "K223842",
+      "to": "K213529",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "tector (K192512) additional detectors listed\nFocus 43C Detector (K200622) below:\nDRX Plus 2530 (K183245)\nFocus HD 35 (K213646)\nFocus HD 43 (K213529)\nLux 35 (K203159)\nApplication System Software Image ",
+      "hop": 2
+     },
+     {
+      "from": "K230059",
+      "to": "K220536",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Ray Imaging Technology\n[510(k)] Application\n(Haining) Limited\nProduct Code: MQB\nClassification Name: Stationary x-ray system\nFDA 510 (k) #: K220536\n5. Description of the Device [21 CFR 807.92(a)(4)]\nV",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K220536",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "2504 Cesium Iodide No\nFocus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No\nFocus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No\nDRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No\nLux 35 K203159 139",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K213646",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "for\nDetector Name Number Pixel Size Pixel Matrix Material Dual Energy\nDRX Plus 2530C K183245 98\u00b5m 3016 x 2504 Cesium Iodide No\nFocus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No\nFocus 43 HD K21352",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K190330",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "t.faust@carestream.com\n603-686-2054\nDate Summary Prepared: March 5, 2024\nPredicate\n510(k) Submitter: Carestream Health, Inc.\n510(k) Number: K190330\nTrade Name: DRX-Evolution Plus\nDevice: System, X-Ray",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K230059",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "additional detectors listed\nDetectors below:\nDRX Plus 2530C (K183245)\nFocus HD 35 (K213646)\nFocus HD 43 (K213529)\nLUX 35 (K203159)\nDRX-LC (K230059)\nApplication System Software Image View Software Same",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K183245",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Evolution Plus system:\n510(k) Scintillator Can be used for\nDetector Name Number Pixel Size Pixel Matrix Material Dual Energy\nDRX Plus 2530C K183245 98\u00b5m 3016 x 2504 Cesium Iodide No\nFocus 35 HD K21364",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K203159",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "500 x 4300 Cesium Iodide No\nFocus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No\nDRX-LC K220536 139\u00b5m 3064 x 8696 Cesium Iodide No\nLux 35 K203159 139\u00b5m 2560 x 3072 Cesium Iodide Yes\nTable 1\nSubstant",
+      "hop": 2
+     },
+     {
+      "from": "K233381",
+      "to": "K213529",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ial Dual Energy\nDRX Plus 2530C K183245 98\u00b5m 3016 x 2504 Cesium Iodide No\nFocus 35 HD K213646 100\u00b5m 3500 x 4300 Cesium Iodide No\nFocus 43 HD K213529 100\u00b5m 4267 x 4267 Cesium Iodide No\nDRX-LC K220536 13",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K143142",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ve been considered are the following:\n510(k) Product\nApplicant Device name\nNumber code\nJDentalCare\u00ae Implant System DZE\nJ DENTAL CARE S.r.l. K143142\nJDEvolution\u00ae NHA\nAdin Dental Implants DZE\nTOUAREG Cl",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K171142",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "care AB NobelSpeedy\u00ae Groovy K160119 DZE\nDZE\nNobel Biocare AB Nobel Active K142260\nNHA\nNobel Biocare Healing Cap Multi-Unit\nNobel Biocare AB K171142 NHA\nTitanium\nMIS Implants MIS V3 Conical Connection ",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K160119",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "UNP 2.75mmD K153111\nSystems Ltd. NHA\nNobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE\nNobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE\nDZE\nNobel Biocare AB Nobel Active K142260\nNHA\nNob",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K182081",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "dicate device legally\nmarketed in US:\nProduct\nApplicant Device name 510(k) Number\ncode\nJDentalCare\u00ae Implant System DZE\nJ DENTAL CARE S.r.l. K182081\nJDIcon\u00ae NHA\nThese predicate devices have not been su",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K202344",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "n\u00ae NHA\nAdin Dental Implants DZE\nTOUAREG CloseFit\u2122 UNP 2.75mmD K153111\nSystems Ltd. NHA\nNobel Biocare AB TiUltra Implants and Xeal Abutments K202344 DZE\nNobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K153111",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "r code\nJDentalCare\u00ae Implant System DZE\nJ DENTAL CARE S.r.l. K143142\nJDEvolution\u00ae NHA\nAdin Dental Implants DZE\nTOUAREG CloseFit\u2122 UNP 2.75mmD K153111\nSystems Ltd. NHA\nNobel Biocare AB TiUltra Implants a",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K142260",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ocare AB TiUltra Implants and Xeal Abutments K202344 DZE\nNobel Biocare AB NobelSpeedy\u00ae Groovy K160119 DZE\nDZE\nNobel Biocare AB Nobel Active K142260\nNHA\nNobel Biocare Healing Cap Multi-Unit\nNobel Bioca",
+      "hop": 2
+     },
+     {
+      "from": "K233896",
+      "to": "K163349",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "60\nNHA\nNobel Biocare Healing Cap Multi-Unit\nNobel Biocare AB K171142 NHA\nTitanium\nMIS Implants MIS V3 Conical Connection Dental Implant DZE\nK163349\nTechnologies System NHA\nThis reference devices have ",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K153142",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "llowing legally marketed Carestream\ndetectors (same detectors cleared with the predicate device): DRX Plus 3543C (K150766), DRX Plus\n4343C (K153142), DRX Plus 2530C (K183245).\n\u2022 The Lux 35 detector is",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K163203",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "adiography application software has been cleared for use across the following Carestream\ndigital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842),\nDRX-Revolution (K191",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K150766",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "is compatible with the following legally marketed Carestream\ndetectors (same detectors cleared with the predicate device): DRX Plus 3543C (K150766), DRX Plus\n4343C (K153142), DRX Plus 2530C (K183245).",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K203159",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "30C (K183245).\n\u2022 The Lux 35 detector is an additional detector that will be available for sale with the DRX-Revolution.\nLux 35 was cleared (K203159) in a separate submission and is determined substant",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K191025",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "X-ray system\nDevice Class Class II\nDevice Code IZL\nRegulation Number 21 CFR 892.1720.\nPredicate Device DRX-Revolution Mobile X-Ray System (K191025)\nCarestream Health, Inc. is submitting this Tradition",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K202441",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "eView Software Same No impact\nSoftware\nSmart Noise No Yes SNC is cleared with a stationary\nCancellation (SNC) x-ray system (DRX Evolution -\nK202441). SNC functions the\nsame on the DRX-Revolution\nsyste",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K223842",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "e has been cleared for use across the following Carestream\ndigital radiography devices: DRX-Evolution System (K163203), DRX-Compass System (K223842),\nDRX-Revolution (K191025).\n\u2022 The ImageView software",
+      "hop": 2
+     },
+     {
+      "from": "K241505",
+      "to": "K183245",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "arestream\ndetectors (same detectors cleared with the predicate device): DRX Plus 3543C (K150766), DRX Plus\n4343C (K153142), DRX Plus 2530C (K183245).\n\u2022 The Lux 35 detector is an additional detector th",
+      "hop": 2
+     },
+     {
+      "from": "K243556",
+      "to": "K161730",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "e Device: Proposed Device: Reference device\nFocus HD 43 Detector Lux HD 35 Detector Mars1417V-PSI\nLux HD 43 Detector\n510(K) K213529 K243556 K161730\nNumber\nIntended Use The Focus HD 43 Detector is Same",
+      "hop": 2
+     },
+     {
+      "from": "K243556",
+      "to": "K213529",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "43\nProduct Code: MQB\nClassification Name: Stationary X-Ray System\nRegulation Number: 21 CFR 892.1680\nDevice Class: Class II\nFDA 510 (k) #: K213529\n5. Description of the Device [21 CFR 807.92(a)(4)]\nLu",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K183245",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "feature Lux HD integration testing with the\n\u2022 DRX Plus \u2022 Lux HD 35 (K243556) DR\nCompatib 2530 systems passed and is provided in\nle Digital (K183245) \u2022 Lux HD 43 (K243556) this submission.\nFlat \u2022 Focus",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K213529",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ux HD 43\n35 DEC feature, however it will be\n(K213646) (K243556) compatible with Lux HD for\n\u2022 Focus HD\ngeneral radiography purpose only.\n43\n(K213529)\nDR ImageView Software v2.0 Same Verification and Va",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K233381",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ice Class Class II\nDevice Code(s) KPR, MQB\nRegulation Number(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate Device(s) DRX-Compass X-ray System (K2238",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K213646",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "atib 2530 systems passed and is provided in\nle Digital (K183245) \u2022 Lux HD 43 (K243556) this submission.\nFlat \u2022 Focus HD\nPanel\n35\nDetectors (K213646)\n\u2022 Focus HD\nCompass: New detectors without DEC\n\u2022 DRX",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K243556",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "cation Name(s) Stationary X-ray System\nDevice Class Class II\nDevice Code(s) KPR, MQB\nRegulation Number(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K223842",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "umber(s) 21 CFR 892.1680\nLux HD Detectors (K243556)\nDRX-Evolution Plus X-ray System (K233381)\nPredicate Device(s) DRX-Compass X-ray System (K223842)\nP a g e 1 | 6",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K202441",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "529) for use with the previously cleared Eclipse II w/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX Evolution P",
+      "hop": 2
+     },
+     {
+      "from": "K250954",
+      "to": "K213307",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "leared Eclipse II w/SNC.\nSmart Noise Cancellation clearances:\n\u2022 Eclipse II with Enhanced Noise Reduction (K202441)\n\u2022 Eclipse II SNC Claims (K213307)\n\u2022 DRX Evolution Plus (K233381)\n\u2022 DRX Compass (K2238",
+      "hop": 2
+     }
+    ],
+    "hopCap": 2,
+    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 17186,
+    "totalPaid": 59908285.33,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "state": "AZ",
+      "total": 6526199.94,
+      "payments": 2830,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "OH",
+      "total": 1857468.19,
+      "payments": 1075,
+      "years": "2016\u20132022",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "PA",
+      "total": 1771484.01,
+      "payments": 1829,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "OH",
+      "total": 1305323.02,
+      "payments": 1412,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "VA",
+      "total": 1048853.25,
+      "payments": 1021,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 955516.65,
+      "payments": 996,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "AZ",
+      "total": 900936.39,
+      "payments": 811,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "VA",
+      "total": 852522.49,
+      "payments": 885,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
+      "total": 820419.62,
+      "payments": 556,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
+      "total": 784544.82,
+      "payments": 355,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "state": "AZ",
+      "total": 6526199.94,
+      "payments": 2830,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Michael Caskey"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "OH",
+      "total": 1857468.19,
+      "payments": 1075,
+      "years": "2016\u20132022",
+      "topNature": "Travel and Lodging",
+      "name": "Daniel Watson"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "PA",
+      "total": 1771484.01,
+      "payments": 1829,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Hemal Gada"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "OH",
+      "total": 1305323.02,
+      "payments": 1412,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Guilherme Attizzani"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "VA",
+      "total": 1048853.25,
+      "payments": 1021,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Basel Ramlawi"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 955516.65,
+      "payments": 996,
+      "years": "2016\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Nishant Sethi"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "AZ",
+      "total": 900936.39,
+      "payments": 811,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Timothy Byrne"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "VA",
+      "total": 852522.49,
+      "payments": 885,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Paul Mahoney"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
+      "total": 820419.62,
+      "payments": 556,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Gilbert Tang"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "NY",
+      "total": 784544.82,
+      "payments": 355,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "John Goncalves"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "MERIT MEDICAL SYSTEMS INC",
+    "nParents": 50,
+    "inspections": 3561,
+    "citations": 2484,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 4729,
+     "inMdl": 82,
+     "terminationRatio": 0.99,
+     "firstFiled": "1984-04-20",
+     "lastFiled": "2021-06-11"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 1934,
+    "assignees": [
+     "Medtronic"
+    ]
+   },
+   "payload": {
+    "patents": 1934,
+    "recent": [
+     {
+      "id": "RE37480",
+      "title": "Cardiac pacer which compensates for effects of abrupt changes in heart rate",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6334068",
+      "title": "Intraoperative neuroelectrophysiological monitor",
+      "year": 2001,
+      "assignee": "Medtronic Xomed, Inc."
+     },
+     {
+      "id": "6334070",
+      "title": "Visual and aural user interface for an automated external defibrillator",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452318",
+      "title": "Electrode connector",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452323",
+      "title": "Glucose sensor",
+      "year": 2001,
+      "assignee": "Medtronic Minimed Inc."
+     },
+     {
+      "id": "6331189",
+      "title": "Flexible medical stent",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6329929",
+      "title": "Telemetry system with phase-locking noise suppressing receiver",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     },
+     {
+      "id": "6330475",
+      "title": "System and a corresponding method for treating defibrillation in a heart",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 52,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 11840
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "33361",
+      "description": "Replacement of aortic valve with prosthetic valve, accessed through the skin",
+      "services": 661727
+     },
+     {
+      "code": "33405",
+      "description": "Replacement of aortic valve using artificial valve on heart-lung machine, open procedure",
+      "services": 172468
+     },
+     {
+      "code": "33362",
+      "description": "Replacement of aortic valve with prosthetic valve, open procedure",
+      "services": 45909
+     },
+     {
+      "code": "33418",
+      "description": "Replacement of aortic valve with prosthetic valve accessed through the skin",
+      "services": 35481
+     },
+     {
+      "code": "33419",
+      "description": "Replacement of aortic valve with prosthetic valve accessed through the skin",
+      "services": 12137
+     },
+     {
+      "code": "33363",
+      "description": "Replacement of aortic valve with prosthetic valve, open procedure",
+      "services": 11782
+     }
+    ],
+    "states": [
+     {
+      "state": "California",
+      "services": 11840,
+      "beneficiaries": 7443
+     },
+     {
+      "state": "Florida",
+      "services": 10110,
+      "beneficiaries": 6683
+     },
+     {
+      "state": "New York",
+      "services": 9517,
+      "beneficiaries": 6062
+     },
+     {
+      "state": "Texas",
+      "services": 7444,
+      "beneficiaries": 4950
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 7027,
+      "beneficiaries": 4414
+     },
+     {
+      "state": "Illinois",
+      "services": 5411,
+      "beneficiaries": 3623
+     },
+     {
+      "state": "Ohio",
+      "services": 4486,
+      "beneficiaries": 3103
+     },
+     {
+      "state": "Virginia",
+      "services": 4124,
+      "beneficiaries": 2763
+     },
+     {
+      "state": "Michigan",
+      "services": 4015,
+      "beneficiaries": 2614
+     },
+     {
+      "state": "New Jersey",
+      "services": 3943,
+      "beneficiaries": 2804
+     },
+     {
+      "state": "Massachusetts",
+      "services": 3908,
+      "beneficiaries": 2633
+     },
+     {
+      "state": "North Carolina",
+      "services": 3594,
+      "beneficiaries": 2368
+     },
+     {
+      "state": "Washington",
+      "services": 3574,
+      "beneficiaries": 2312
+     },
+     {
+      "state": "Minnesota",
+      "services": 3551,
+      "beneficiaries": 2164
+     },
+     {
+      "state": "Tennessee",
+      "services": 3548,
+      "beneficiaries": 2370
+     },
+     {
+      "state": "Georgia",
+      "services": 3142,
+      "beneficiaries": 1954
+     },
+     {
+      "state": "Indiana",
+      "services": 3037,
+      "beneficiaries": 1996
+     },
+     {
+      "state": "Arizona",
+      "services": 2967,
+      "beneficiaries": 1969
+     },
+     {
+      "state": "Missouri",
+      "services": 2818,
+      "beneficiaries": 1946
+     },
+     {
+      "state": "Wisconsin",
+      "services": 2768,
+      "beneficiaries": 1709
+     },
+     {
+      "state": "South Carolina",
+      "services": 2689,
+      "beneficiaries": 1652
+     },
+     {
+      "state": "Maryland",
+      "services": 2212,
+      "beneficiaries": 1480
+     },
+     {
+      "state": "Oregon",
+      "services": 2059,
+      "beneficiaries": 1335
+     },
+     {
+      "state": "Kansas",
+      "services": 1925,
+      "beneficiaries": 1242
+     },
+     {
+      "state": "Alabama",
+      "services": 1807,
+      "beneficiaries": 1179
+     },
+     {
+      "state": "Colorado",
+      "services": 1669,
+      "beneficiaries": 1164
+     },
+     {
+      "state": "Kentucky",
+      "services": 1650,
+      "beneficiaries": 1088
+     },
+     {
+      "state": "Oklahoma",
+      "services": 1615,
+      "beneficiaries": 981
+     },
+     {
+      "state": "Louisiana",
+      "services": 1550,
+      "beneficiaries": 976
+     },
+     {
+      "state": "New Hampshire",
+      "services": 1524,
+      "beneficiaries": 926
+     },
+     {
+      "state": "Iowa",
+      "services": 1372,
+      "beneficiaries": 918
+     },
+     {
+      "state": "Arkansas",
+      "services": 1142,
+      "beneficiaries": 745
+     },
+     {
+      "state": "Connecticut",
+      "services": 1034,
+      "beneficiaries": 752
+     },
+     {
+      "state": "Mississippi",
+      "services": 1028,
+      "beneficiaries": 670
+     },
+     {
+      "state": "Utah",
+      "services": 1020,
+      "beneficiaries": 703
+     },
+     {
+      "state": "Nebraska",
+      "services": 924,
+      "beneficiaries": 609
+     },
+     {
+      "state": "Nevada",
+      "services": 907,
+      "beneficiaries": 582
+     },
+     {
+      "state": "South Dakota",
+      "services": 801,
+      "beneficiaries": 435
+     },
+     {
+      "state": "Idaho",
+      "services": 715,
+      "beneficiaries": 461
+     },
+     {
+      "state": "Montana",
+      "services": 711,
+      "beneficiaries": 464
+     },
+     {
+      "state": "North Dakota",
+      "services": 668,
+      "beneficiaries": 460
+     },
+     {
+      "state": "District of Columbia",
+      "services": 625,
+      "beneficiaries": 383
+     },
+     {
+      "state": "Rhode Island",
+      "services": 590,
+      "beneficiaries": 487
+     },
+     {
+      "state": "West Virginia",
+      "services": 507,
+      "beneficiaries": 366
+     },
+     {
+      "state": "Delaware",
+      "services": 463,
+      "beneficiaries": 344
+     },
+     {
+      "state": "Maine",
+      "services": 412,
+      "beneficiaries": 269
+     },
+     {
+      "state": "Vermont",
+      "services": 376,
+      "beneficiaries": 209
+     },
+     {
+      "state": "New Mexico",
+      "services": 353,
+      "beneficiaries": 235
+     },
+     {
+      "state": "Alaska",
+      "services": 221,
+      "beneficiaries": 194
+     },
+     {
+      "state": "Hawaii",
+      "services": 128,
+      "beneficiaries": 123
+     },
+     {
+      "state": "Wyoming",
+      "services": 119,
+      "beneficiaries": 101
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 28,
+      "beneficiaries": 21
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

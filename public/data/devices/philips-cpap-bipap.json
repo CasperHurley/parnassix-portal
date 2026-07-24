@@ -1,0 +1,1539 @@
+{
+ "slug": "philips-cpap-bipap",
+ "name": "Philips CPAP/BiPAP",
+ "maker": "Philips Respironics \u00b7 Respiratory",
+ "rank": 2,
+ "pathway": "510k (no preemption bar)",
+ "maturity": "settled",
+ "stats": {
+  "deaths": 4180,
+  "injuries": 51027,
+  "malfunctions": 208385,
+  "recalls": 229,
+  "classI": 49
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Philips Respironics \u00b7 Respiratory"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "510k (no preemption bar)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "510(k) pathway \u2014 not Riegel-preempted. Preemption is not the gate here; maturity is."
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "settled"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 4180,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 51027,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 208385,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 229,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 49,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Degraded",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 1168,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 155087.89,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Robert Gallaher",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "Florida",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 16066,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "In some situations, the Obstruction Alarm does not trigger within the timeframe dictated by the relevant standards and may take up to four breaths.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "In some situations, the Obstruction Alarm does not trigger within the timeframe dictated by the relevant standards and may take up to four breaths.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "In some situations, the Obstruction Alarm does not trigger within the timeframe dictated by the relevant standards and may take up to four breaths.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "In some situations, the Obstruction Alarm does not trigger within the timeframe dictated by the relevant standards and may take up to four breaths.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "Using non-pneumatic nebulizers with Trilogy Evo Platform ventilators may result in a discrepancy between the set tidal volume and the tidal volume received by the patient.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-03-02",
+   "classification": "Class I",
+   "reason": "Using non-pneumatic nebulizers with Trilogy Evo Platform ventilators may result in a discrepancy between the set tidal volume and the tidal volume received by the patient.",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2004,
+     "value": 1
+    },
+    {
+     "year": 2005,
+     "value": 2
+    },
+    {
+     "year": 2006,
+     "value": 9
+    },
+    {
+     "year": 2007,
+     "value": 50
+    },
+    {
+     "year": 2008,
+     "value": 2
+    },
+    {
+     "year": 2009,
+     "value": 39
+    },
+    {
+     "year": 2010,
+     "value": 3
+    },
+    {
+     "year": 2011,
+     "value": 11
+    },
+    {
+     "year": 2012,
+     "value": 2
+    },
+    {
+     "year": 2013,
+     "value": 3
+    },
+    {
+     "year": 2014,
+     "value": 9
+    },
+    {
+     "year": 2015,
+     "value": 5
+    },
+    {
+     "year": 2017,
+     "value": 2
+    },
+    {
+     "year": 2018,
+     "value": 2
+    },
+    {
+     "year": 2019,
+     "value": 5
+    },
+    {
+     "year": 2020,
+     "value": 33
+    },
+    {
+     "year": 2021,
+     "value": 14
+    },
+    {
+     "year": 2022,
+     "value": 10
+    },
+    {
+     "year": 2023,
+     "value": 5
+    },
+    {
+     "year": 2024,
+     "value": 8
+    },
+    {
+     "year": 2025,
+     "value": 6
+    },
+    {
+     "year": 2026,
+     "value": 8
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1997,
+     "value": 2
+    },
+    {
+     "year": 1999,
+     "value": 3
+    },
+    {
+     "year": 2000,
+     "value": 4
+    },
+    {
+     "year": 2001,
+     "value": 5
+    },
+    {
+     "year": 2002,
+     "value": 2
+    },
+    {
+     "year": 2003,
+     "value": 1
+    },
+    {
+     "year": 2004,
+     "value": 9
+    },
+    {
+     "year": 2005,
+     "value": 2
+    },
+    {
+     "year": 2006,
+     "value": 1
+    },
+    {
+     "year": 2007,
+     "value": 4
+    },
+    {
+     "year": 2008,
+     "value": 3
+    },
+    {
+     "year": 2009,
+     "value": 13
+    },
+    {
+     "year": 2010,
+     "value": 18
+    },
+    {
+     "year": 2011,
+     "value": 8
+    },
+    {
+     "year": 2012,
+     "value": 13
+    },
+    {
+     "year": 2013,
+     "value": 13
+    },
+    {
+     "year": 2014,
+     "value": 21
+    },
+    {
+     "year": 2015,
+     "value": 12
+    },
+    {
+     "year": 2016,
+     "value": 17
+    },
+    {
+     "year": 2017,
+     "value": 16
+    },
+    {
+     "year": 2018,
+     "value": 12
+    },
+    {
+     "year": 2019,
+     "value": 15
+    },
+    {
+     "year": 2020,
+     "value": 26
+    },
+    {
+     "year": 2021,
+     "value": 133
+    },
+    {
+     "year": 2022,
+     "value": 337
+    },
+    {
+     "year": 2023,
+     "value": 374
+    },
+    {
+     "year": 2024,
+     "value": 2984
+    },
+    {
+     "year": 2025,
+     "value": 22
+    },
+    {
+     "year": 2026,
+     "value": 110
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1995,
+     "value": 2
+    },
+    {
+     "year": 1996,
+     "value": 1
+    },
+    {
+     "year": 1997,
+     "value": 3
+    },
+    {
+     "year": 1998,
+     "value": 1
+    },
+    {
+     "year": 1999,
+     "value": 4
+    },
+    {
+     "year": 2000,
+     "value": 4
+    },
+    {
+     "year": 2001,
+     "value": 6
+    },
+    {
+     "year": 2002,
+     "value": 6
+    },
+    {
+     "year": 2003,
+     "value": 5
+    },
+    {
+     "year": 2004,
+     "value": 12
+    },
+    {
+     "year": 2005,
+     "value": 19
+    },
+    {
+     "year": 2006,
+     "value": 197
+    },
+    {
+     "year": 2007,
+     "value": 392
+    },
+    {
+     "year": 2008,
+     "value": 597
+    },
+    {
+     "year": 2009,
+     "value": 313
+    },
+    {
+     "year": 2010,
+     "value": 147
+    },
+    {
+     "year": 2011,
+     "value": 134
+    },
+    {
+     "year": 2012,
+     "value": 105
+    },
+    {
+     "year": 2013,
+     "value": 47
+    },
+    {
+     "year": 2014,
+     "value": 51
+    },
+    {
+     "year": 2015,
+     "value": 59
+    },
+    {
+     "year": 2016,
+     "value": 75
+    },
+    {
+     "year": 2017,
+     "value": 79
+    },
+    {
+     "year": 2018,
+     "value": 82
+    },
+    {
+     "year": 2019,
+     "value": 110
+    },
+    {
+     "year": 2020,
+     "value": 114
+    },
+    {
+     "year": 2021,
+     "value": 2414
+    },
+    {
+     "year": 2022,
+     "value": 4993
+    },
+    {
+     "year": 2023,
+     "value": 3451
+    },
+    {
+     "year": 2024,
+     "value": 37437
+    },
+    {
+     "year": 2025,
+     "value": 17
+    },
+    {
+     "year": 2026,
+     "value": 149
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2016,
+     "value": 14804.3
+    },
+    {
+     "year": 2017,
+     "value": 27165.91
+    },
+    {
+     "year": 2018,
+     "value": 12790.52
+    },
+    {
+     "year": 2019,
+     "value": 6873.76
+    },
+    {
+     "year": 2020,
+     "value": 2336.2
+    },
+    {
+     "year": 2021,
+     "value": 6436.34
+    },
+    {
+     "year": 2022,
+     "value": 33320.2
+    },
+    {
+     "year": 2023,
+     "value": 30823.33
+    },
+    {
+     "year": 2024,
+     "value": 20537.33
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 772
+    },
+    {
+     "year": 1991,
+     "value": 812
+    },
+    {
+     "year": 1992,
+     "value": 658
+    },
+    {
+     "year": 1993,
+     "value": 540
+    },
+    {
+     "year": 1994,
+     "value": 495
+    },
+    {
+     "year": 1995,
+     "value": 597
+    },
+    {
+     "year": 1996,
+     "value": 607
+    },
+    {
+     "year": 1997,
+     "value": 603
+    },
+    {
+     "year": 1998,
+     "value": 864
+    },
+    {
+     "year": 1999,
+     "value": 897
+    },
+    {
+     "year": 2000,
+     "value": 890
+    },
+    {
+     "year": 2001,
+     "value": 1066
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 504217,
+    "distinctProblemCodes": 300,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Degraded",
+      "reports": 189915,
+      "narrative": "THE MANUFACTURER PREVIOUSLY REPORTED AN ALLEGATION OF AN ISSUE RELATED TO SOUND ABATEMENT FOAM. UPON FURTHER REVIEW, THIS DEVICE WAS A REPAIRED DEVICE AND DID NOT CONTAIN SOUND ABATEMENT FOAM THAT WOULD BE LIKELY TO CAUSE OR CONTRIBUTE TO DEATH OR SERIOUS INJURY AND IS NOT IN SCOPE OF RES 88058. THEREFORE, THERE IS NO ALLEGATION OF A REPORTABLE EVENT ASSOCIATED WITH THE DEVICE AT THIS TIME."
+     },
+     {
+      "problem": "Contamination",
+      "reports": 6411,
+      "narrative": "THE MANUFACTURER WAS CONTACTED IN REFERENCE TO THE VOLUNTARY FIELD SAFETY NOTICE / RECALL NOTIFICATION RELATED TO THE SOUND ABATEMENT FOAM IN CERTAIN CPAP, BIPAP, AND MECHANICAL VENTILATOR DEVICES. THE MANUFACTURER RECEIVED INFORMATION ALLEGING WAKING UP GASPING FOR BREATH, DEVICE TURNS OFF RANDOMLY, CORD OVERHEATING, PLASTIC PIECES IN TANK, AND A CAR ACCIDENT CAUSED BY FALLING ASLEEP WHILE DRIVING. MEDICAL INTERVENT"
+     },
+     {
+      "problem": "Inadequate User Interface",
+      "reports": 3224,
+      "narrative": "THE PATIENT WAS REMOVED FROM THE VENTILATOR AND PLACED ON AN ALTERNATE VENTILATOR. THE PATIENT WAS NOT HARMED OR INJURED AS A RESULT OF THE REPORTED EVENT."
+     },
+     {
+      "problem": "Corroded",
+      "reports": 2674,
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION REGARDING A DREAMSTATION AUTO. THE DEVICE WAS RETURNED TO A THIRD PARTY SERVICE CENTER. DURING VISUAL INSPECTION OF THE DEVICE, CORROSION WAS FOUND ON THE POWER CONNECTOR. IN ADDITION, THE INSPECTION FOUND CORROSION ON METALLIC SURFACES, DUST AND DIRT WAS OBSERVED INSIDE THE DEVICE. THE DEVICE WAS SCRAPPED. THIS REPORT IS BEING SUBMITTED FOR THE CORROSION FOUND ON THE POWER CONNE"
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 2264,
+      "narrative": "THE MANUFACTURER RECEIVED INFORMATION ALLEGING A PATIENT WITH A REM AUTO A-FLEX DEVICE HAS PASSED AWAY. THE REPORTED EVENT MAKES NO ALLEGATION OF ANY SPECIFIC DEVICE MALFUNCTION, USE ERROR, FAILURE, LABELING, OR OTHER DEFICIENCY THAT IS RELEVANT TO THE HARMS REPORTED; THEREFORE, BASED ON INFORMATION AVAILABLE AT THIS TIME, THE DEVICE DID NOT CAUSE OR CONTRIBUTE TO A SERIOUS INJURY OR DEATH. ADDITIONAL INFORMATION HAS"
+     },
+     {
+      "problem": "Electrical /Electronic Property Problem",
+      "reports": 1616,
+      "narrative": "THE CUSTOMER REPORTED THAT THE UNIT IS DISPLAYING A DA PCBA ADC REFERENCE FAILED ERROR CODE. THE CUSTOMER CONTACTED PRODUCT SUPPORT AND REPORTED THE DATA ACQUISITION (DA) BOARD AND CABLE HAVE BEEN REPLACED TWICE AND THE UNIT IS STILL GETTING A VENT INOP ERROR MESSAGE AFTER A FEW HOURS OF RUNNING. THE CUSTOMER VERIFIED ALL 8 PINS ARE PROPERLY INSTALLED INTO THE (DA) PCBA. PRODUCT SUPPORT RECOMMENDED PART TO REPLACE PA"
+     },
+     {
+      "problem": "Device Sensing Problem",
+      "reports": 1266,
+      "narrative": "THIS IS IN REGARD TO THE DATA ACQUISITION (DA) PRINTED CIRCUIT BOARD ASSEMBLY (PCBA) WITH THE ACCUSATION OF: DEVICE ALARMS -PRESSURE SENSOR AUTO ZERO FAILURE FOUND DURING SETUP FOR USE OUTSIDE OF CLINICAL USE. FUNCTIONAL ANALYSIS WAS PERFORMED AND IDENTIFIED THAT THE DEVICE PRESSURE ACCURACY TESTING FAILED FOR MACHINE PRESSURE SENSOR WAS OUT OF SPEC AT ZERO CMH2O. IN ADDITION, THE SUSPECT DA PCBA OPERATES ON THE STAN"
+     },
+     {
+      "problem": "Device Alarm System",
+      "reports": 888,
+      "narrative": "H11. DUE TO THE DAMAGE OF THE USER INTERFACE BEZEL, THE 1102 ERROR CODE WAS NOT CONFIRMED BY THE FSE (FIELD SERVICE ENGINEER) DURING THE ONSITE SERVICE VISIT ON 24JAN2023. H10. ON 28JUN2023, THE CUSTOMER CALLED THE FSE BACK AND INFORMED THE FSE THAT THE DEVICE HAD BEEN SCRAPPED. NO FURTHER WORK WAS PERFORMED BY PHILIPS TO CORRECT THE DEVICE ISSUE. THE INVESTIGATION CONCLUDES THAT NO FURTHER ACTION IS REQUIRED AT THIS"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 19,
+    "citations": 18,
+    "hops": 2,
+    "anchors": [
+     "K252377",
+     "K241268",
+     "K232803"
+    ]
+   },
+   "payload": {
+    "anchors": [
+     "K252377",
+     "K241268",
+     "K232803"
+    ],
+    "nodes": [
+     {
+      "k": "K040074",
+      "name": "ONEVIEW INTERFACE",
+      "anchor": false
+     },
+     {
+      "k": "K050727",
+      "name": "MODIFICATION TO NXSTAGE CARTRIDGE EXPRESS",
+      "anchor": false
+     },
+     {
+      "k": "K061837",
+      "name": "NXSTAGE CARTRIDGE EXPRESS",
+      "anchor": false
+     },
+     {
+      "k": "K091319",
+      "name": "REMSTAR AUTO A-FLEX",
+      "anchor": false
+     },
+     {
+      "k": "K093416",
+      "name": "TRILOGY 200 VENTILATOR",
+      "anchor": false
+     },
+     {
+      "k": "K110398",
+      "name": "RESPIRONICS DISPOSABLE HEATED WIRE CIRCUITS",
+      "anchor": false
+     },
+     {
+      "k": "K113053",
+      "name": "BIPAP A 30 VENTILATORY SUPPORT SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K113068",
+      "name": "REMSTAR AUTO A-FLEX HT",
+      "anchor": false
+     },
+     {
+      "k": "K121623",
+      "name": "BIPAP A 40 VENTILATORY SUPPORT SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K122051",
+      "name": "NXSTAGE SYSTEM ONE",
+      "anchor": false
+     },
+     {
+      "k": "K130077",
+      "name": "REMSTAR SE",
+      "anchor": false
+     },
+     {
+      "k": "K131982",
+      "name": "REMSTAR AUTO A-FLEX HT",
+      "anchor": false
+     },
+     {
+      "k": "K133547",
+      "name": "NXSTAGE SYSTEM ONE WITH NXVIEW",
+      "anchor": false
+     },
+     {
+      "k": "K133647",
+      "name": "EMV3.1 PRO BLOOD GLUCOSE SYSTEM AND EMV3.1 SELF MONITORING BLOOD GLUCOSE SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K140424",
+      "name": "RESPIRONICS REUSABLE HEATED TUBING",
+      "anchor": false
+     },
+     {
+      "k": "K200480",
+      "name": "DreamStation 2 System, DreamStation 2 Advanced System",
+      "anchor": false
+     },
+     {
+      "k": "K232803",
+      "name": "NxStage System One with Cartridge Express (CAR-170-E and CAR-172-E)",
+      "anchor": true
+     },
+     {
+      "k": "K241268",
+      "name": "Thermalite Heated CPAP Tube (CTUBH06H15DS-2, CTUBH15-DS)",
+      "anchor": true
+     },
+     {
+      "k": "K252377",
+      "name": "NxStage System One with NxView",
+      "anchor": true
+     }
+    ],
+    "edges": [
+     {
+      "from": "K232803",
+      "to": "K061837",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1.3. Legally Marketed Predicate Device\nThe legally marketed predicate device is the NxStage System One with Cartridge Express\ncleared under K061837. This predicate has not been subject to a design-rel",
+      "hop": 1
+     },
+     {
+      "from": "K241268",
+      "to": "K113068",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "compatible with the the devices with\nHumidification System One Humidifier Dreamstation Series Respironics Dreamstation which the\nChambers (K113068) and Philips (Dreamstation 1 and Series (Dreamstation",
+      "hop": 1
+     },
+     {
+      "from": "K241268",
+      "to": "K140424",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ed Tubing\nCommon and Breathing System, Heater\nClassification Name:\nClassification 21 CFR \u00a7868.5270\nRegulation:\nProduct Code: BZE\nPredicate: K140424 Philips Heated\nCPAP Tube\nDevice Description: The Exc",
+      "hop": 1
+     },
+     {
+      "from": "K241268",
+      "to": "K200480",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "140424 Same indications for use and 21 CFR \u00a7868.5270 (BZE)\nsame or similar technology.\nPhilips Respironics Reusable\nHeated Tubing\nReference K200480 Same indications for use and 21 CFR 868.5905 (BZD)\ns",
+      "hop": 1
+     },
+     {
+      "from": "K241268",
+      "to": "K121623",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "espironics A-Series System Dreamstation 2 CPAP Dreamstation 2 CPAP compatible.\nOne Heated Humidifier machine (K200480)) machine (K200480))\n(K121623).\nAnatomical Site Non-invasive Non-invasive Non-inva",
+      "hop": 1
+     },
+     {
+      "from": "K252377",
+      "to": "K133547",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "aled dialysate system\nFDA Review Panel: Gastroenterology/Urology\n1.3. Legally Marketed Predicate Device\nThe NxStage System One with NxView (K133547) is the legally marketed predicate device. This\npred",
+      "hop": 1
+     },
+     {
+      "from": "K061837",
+      "to": "K050727",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Cartridge Express meets design specifications. The modified NxStage Cartridge\nExpress has been compared to the baseline as cleared through K050727 and found to\nbe substantially equivalent.\nConclusion:",
+      "hop": 2
+     },
+     {
+      "from": "K113068",
+      "to": "K091319",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ber 2011\nREMstar Auto A-Flex HT\nCAP System\nventilator, non-continuous (respirator) (21 CFR 868.5905,\nProduct Code BZD)\nREMstar Auto A-Flex (K091319)\nThe REMstar Auto A-Flex HT is the result of modific",
+      "hop": 2
+     },
+     {
+      "from": "K121623",
+      "to": "K093416",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "py features available if enabled by the health care professional.\nThe secondary device predicate, the Trilogy 200 was previously cleared in K093416. Similar to\nthe Trilogy 200, the BiPAP A40 can provi",
+      "hop": 2
+     },
+     {
+      "from": "K121623",
+      "to": "K113053",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 2
+     },
+     {
+      "from": "K133547",
+      "to": "K133647",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "INDICATIONS FOR USE\n510(k) Number (If known): K133647\nDevice Name:\nNStage\u00ae System One \u2122M with NxView T\nIndications for Use:\nThe NStage System One is indicated for the\ntreatment of acute and chr",
+      "hop": 2
+     },
+     {
+      "from": "K133547",
+      "to": "K040074",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was found to be substantially\nequ",
+      "hop": 2
+     },
+     {
+      "from": "K133547",
+      "to": "K122051",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "dicate NStage System\nOne. The NxStage System One with NxView has been compared to the\nlegally marketed predicate devices as cleared through K122051 (April 23,\n2013) and K040074 (April 8, 2004) and was",
+      "hop": 2
+     },
+     {
+      "from": "K140424",
+      "to": "K113068",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "has a proprietary connector with two locking\ntabs (unchanged) that makes it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated H",
+      "hop": 2
+     },
+     {
+      "from": "K140424",
+      "to": "K121623",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "s it compatible with the Philips Respironics System One Humidifier\n(K113068) and Philips Respironics A-Series System One Heated Humidifier (K121623).\nSummary of Technological Characteristics of Device",
+      "hop": 2
+     },
+     {
+      "from": "K140424",
+      "to": "K110398",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "/ B ZE \u2013 Breathing system, heater\nProduct Code\nRegulation Number 868.5270\nPredicate Device(s) Respironics Disposable Heated Wire Circuits (K110398)\nIntended Use:\nThe Philips Respironics Reusable Heate",
+      "hop": 2
+     },
+     {
+      "from": "K200480",
+      "to": "K131982",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ication Name/\nProduct Code: Ventilator, Non-Continuous (Respirator), 21 CFR 868.5905,\nBZD\nPrimary Predicate Device: REMSTAR AUTO A-FLEX HT (K131982)\nSecondary Predicate Device: REMSTAR SE (K130077)\nSu",
+      "hop": 2
+     },
+     {
+      "from": "K200480",
+      "to": "K130077",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "nuous (Respirator), 21 CFR 868.5905,\nBZD\nPrimary Predicate Device: REMSTAR AUTO A-FLEX HT (K131982)\nSecondary Predicate Device: REMSTAR SE (K130077)\nSubmission Reason: New Device\nRespironics Inc. Page",
+      "hop": 2
+     }
+    ],
+    "hopCap": 2,
+    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 1168,
+    "totalPaid": 155087.89,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease",
+      "state": "NC",
+      "total": 8753.32,
+      "payments": 4,
+      "years": "2022\u20132023",
+      "topNature": "Long term medical supply or device loan"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "IA",
+      "total": 6045.78,
+      "payments": 12,
+      "years": "2016\u20132024",
+      "topNature": "Long term medical supply or device loan"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Critical Care Medicine",
+      "state": "NC",
+      "total": 5000.0,
+      "payments": 1,
+      "years": "2017",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+      "state": "CA",
+      "total": 4754.54,
+      "payments": 6,
+      "years": "2022\u20132024",
+      "topNature": "Long term medical supply or device loan"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "MO",
+      "total": 4500.0,
+      "payments": 1,
+      "years": "2016",
+      "topNature": "Grant"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Critical Care Medicine",
+      "state": "PA",
+      "total": 4347.63,
+      "payments": 5,
+      "years": "2016\u20132018",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "AL",
+      "total": 3500.91,
+      "payments": 8,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "MI",
+      "total": 3378.08,
+      "payments": 3,
+      "years": "2022\u20132024",
+      "topNature": "Long term medical supply or device loan"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+      "state": "CA",
+      "total": 3367.6,
+      "payments": 2,
+      "years": "2023\u20132024",
+      "topNature": "Long term medical supply or device loan"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "CA",
+      "total": 3252.35,
+      "payments": 2,
+      "years": "2017",
+      "topNature": "Travel and Lodging"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease",
+      "state": "NC",
+      "total": 8753.32,
+      "payments": 4,
+      "years": "2022\u20132023",
+      "topNature": "Long term medical supply or device loan",
+      "name": "Robert Gallaher"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "IA",
+      "total": 6045.78,
+      "payments": 12,
+      "years": "2016\u20132024",
+      "topNature": "Long term medical supply or device loan",
+      "name": "Scott Geisler"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Critical Care Medicine",
+      "state": "NC",
+      "total": 5000.0,
+      "payments": 1,
+      "years": "2017",
+      "topNature": "Consulting Fee",
+      "name": "Ira Cheifetz"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+      "state": "CA",
+      "total": 4754.54,
+      "payments": 6,
+      "years": "2022\u20132024",
+      "topNature": "Long term medical supply or device loan",
+      "name": "Susie Fong"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "MO",
+      "total": 4500.0,
+      "payments": 1,
+      "years": "2016",
+      "topNature": "Grant",
+      "name": "Yo El Ju"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Critical Care Medicine",
+      "state": "PA",
+      "total": 4347.63,
+      "payments": 5,
+      "years": "2016\u20132018",
+      "topNature": "Food and Beverage",
+      "name": "Daniel Shade"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "AL",
+      "total": 3500.91,
+      "payments": 8,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Michael Ledet"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology",
+      "state": "MI",
+      "total": 3378.08,
+      "payments": 3,
+      "years": "2022\u20132024",
+      "topNature": "Long term medical supply or device loan",
+      "name": "Haranath Policherla"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Sleep Medicine",
+      "state": "CA",
+      "total": 3367.6,
+      "payments": 2,
+      "years": "2023\u20132024",
+      "topNature": "Long term medical supply or device loan",
+      "name": "Antoine Elhajjar"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "CA",
+      "total": 3252.35,
+      "payments": 2,
+      "years": "2017",
+      "topNature": "Travel and Lodging",
+      "name": "Michelle Cao"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "RESPIRONICS INC",
+    "nParents": 69,
+    "inspections": 4630,
+    "citations": 3909,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 34,
+     "inMdl": 0,
+     "terminationRatio": 1.0,
+     "firstFiled": "1984-07-31",
+     "lastFiled": "2020-10-06"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 16066,
+    "assignees": [
+     "Philips",
+     "Respironics"
+    ]
+   },
+   "payload": {
+    "patents": 16066,
+    "recent": [
+     {
+      "id": "6333500",
+      "title": "Method of inspecting a substrate furnished with a phosphor layer",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     },
+     {
+      "id": "6333965",
+      "title": "X-ray examination apparatus with a brightness control system",
+      "year": 2001,
+      "assignee": "U. S. Philips Corporation"
+     },
+     {
+      "id": "6334023",
+      "title": "Method of and arrangement for recording and reproducing video images",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     },
+     {
+      "id": "6334198",
+      "title": "Method and arrangement for controlling multiply-activated test access port control modules",
+      "year": 2001,
+      "assignee": "Koninklijke Philips Electronics N.V. (KPENV)"
+     },
+     {
+      "id": "6334206",
+      "title": "Forgery prevention microcontroller circuit",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     },
+     {
+      "id": "6331368",
+      "title": "Test object for use in detecting aberrations of an optical imaging system",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     },
+     {
+      "id": "6331467",
+      "title": "Method of manufacturing a trench gate field effect semiconductor device",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     },
+     {
+      "id": "6331686",
+      "title": "Apparatus having a switch which is operable via a dome-shaped elastic cover",
+      "year": 2001,
+      "assignee": "U.S. Philips Corporation"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 59,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 2746108
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "A7038",
+      "description": "Filter, disposable, used with positive airway pressure device",
+      "services": 173530249
+     },
+     {
+      "code": "E0601",
+      "description": "Continuous positive airway pressure (cpap) device",
+      "services": 39190884
+     },
+     {
+      "code": "A7035",
+      "description": "Headgear used with positive airway pressure device",
+      "services": 22127304
+     },
+     {
+      "code": "A7034",
+      "description": "Nasal interface (mask or cannula type) used with positive airway pressure device, with or without head strap",
+      "services": 19720421
+     },
+     {
+      "code": "A7037",
+      "description": "Tubing used with positive airway pressure device",
+      "services": 16840308
+     },
+     {
+      "code": "A4604",
+      "description": "Tubing with integrated heating element for use with positive airway pressure device",
+      "services": 16777789
+     }
+    ],
+    "states": [
+     {
+      "state": "Florida",
+      "services": 2746108,
+      "beneficiaries": 529078
+     },
+     {
+      "state": "California",
+      "services": 2692524,
+      "beneficiaries": 521636
+     },
+     {
+      "state": "Texas",
+      "services": 2389054,
+      "beneficiaries": 466895
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 1500946,
+      "beneficiaries": 295292
+     },
+     {
+      "state": "Illinois",
+      "services": 1494546,
+      "beneficiaries": 304634
+     },
+     {
+      "state": "New York",
+      "services": 1319908,
+      "beneficiaries": 264478
+     },
+     {
+      "state": "Ohio",
+      "services": 1259360,
+      "beneficiaries": 260164
+     },
+     {
+      "state": "Virginia",
+      "services": 1199027,
+      "beneficiaries": 237810
+     },
+     {
+      "state": "North Carolina",
+      "services": 1186762,
+      "beneficiaries": 239361
+     },
+     {
+      "state": "Tennessee",
+      "services": 1024876,
+      "beneficiaries": 200632
+     },
+     {
+      "state": "Georgia",
+      "services": 999996,
+      "beneficiaries": 201546
+     },
+     {
+      "state": "Massachusetts",
+      "services": 983334,
+      "beneficiaries": 186335
+     },
+     {
+      "state": "Washington",
+      "services": 952807,
+      "beneficiaries": 206400
+     },
+     {
+      "state": "Indiana",
+      "services": 931995,
+      "beneficiaries": 191567
+     },
+     {
+      "state": "Michigan",
+      "services": 916929,
+      "beneficiaries": 201559
+     },
+     {
+      "state": "Missouri",
+      "services": 910032,
+      "beneficiaries": 185065
+     },
+     {
+      "state": "South Carolina",
+      "services": 839662,
+      "beneficiaries": 166802
+     },
+     {
+      "state": "Arizona",
+      "services": 809964,
+      "beneficiaries": 162159
+     },
+     {
+      "state": "Wisconsin",
+      "services": 736393,
+      "beneficiaries": 167293
+     },
+     {
+      "state": "Maryland",
+      "services": 727606,
+      "beneficiaries": 149085
+     },
+     {
+      "state": "New Jersey",
+      "services": 700140,
+      "beneficiaries": 141626
+     },
+     {
+      "state": "Colorado",
+      "services": 688040,
+      "beneficiaries": 135763
+     },
+     {
+      "state": "Kentucky",
+      "services": 622251,
+      "beneficiaries": 126968
+     },
+     {
+      "state": "Minnesota",
+      "services": 585247,
+      "beneficiaries": 134992
+     },
+     {
+      "state": "Iowa",
+      "services": 572083,
+      "beneficiaries": 134840
+     },
+     {
+      "state": "Kansas",
+      "services": 512715,
+      "beneficiaries": 114393
+     },
+     {
+      "state": "Oklahoma",
+      "services": 511156,
+      "beneficiaries": 112445
+     },
+     {
+      "state": "Arkansas",
+      "services": 509435,
+      "beneficiaries": 98119
+     },
+     {
+      "state": "Oregon",
+      "services": 504277,
+      "beneficiaries": 109189
+     },
+     {
+      "state": "Alabama",
+      "services": 494687,
+      "beneficiaries": 109676
+     },
+     {
+      "state": "Mississippi",
+      "services": 459755,
+      "beneficiaries": 97719
+     },
+     {
+      "state": "Louisiana",
+      "services": 440120,
+      "beneficiaries": 97441
+     },
+     {
+      "state": "Nebraska",
+      "services": 433504,
+      "beneficiaries": 86066
+     },
+     {
+      "state": "Utah",
+      "services": 348057,
+      "beneficiaries": 74457
+     },
+     {
+      "state": "Connecticut",
+      "services": 297833,
+      "beneficiaries": 56159
+     },
+     {
+      "state": "Nevada",
+      "services": 291004,
+      "beneficiaries": 55492
+     },
+     {
+      "state": "Idaho",
+      "services": 260331,
+      "beneficiaries": 58901
+     },
+     {
+      "state": "Montana",
+      "services": 226305,
+      "beneficiaries": 54155
+     },
+     {
+      "state": "New Hampshire",
+      "services": 226179,
+      "beneficiaries": 44609
+     },
+     {
+      "state": "New Mexico",
+      "services": 201253,
+      "beneficiaries": 39788
+     },
+     {
+      "state": "Delaware",
+      "services": 195963,
+      "beneficiaries": 37577
+     },
+     {
+      "state": "West Virginia",
+      "services": 182677,
+      "beneficiaries": 38647
+     },
+     {
+      "state": "South Dakota",
+      "services": 181249,
+      "beneficiaries": 42775
+     },
+     {
+      "state": "Maine",
+      "services": 155021,
+      "beneficiaries": 31071
+     },
+     {
+      "state": "North Dakota",
+      "services": 115187,
+      "beneficiaries": 30585
+     },
+     {
+      "state": "Wyoming",
+      "services": 111322,
+      "beneficiaries": 22241
+     },
+     {
+      "state": "Rhode Island",
+      "services": 106003,
+      "beneficiaries": 19740
+     },
+     {
+      "state": "Alaska",
+      "services": 95552,
+      "beneficiaries": 21691
+     },
+     {
+      "state": "Vermont",
+      "services": 82581,
+      "beneficiaries": 15579
+     },
+     {
+      "state": "Hawaii",
+      "services": 78973,
+      "beneficiaries": 18296
+     },
+     {
+      "state": "District of Columbia",
+      "services": 53290,
+      "beneficiaries": 11186
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 17993,
+      "beneficiaries": 5264
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 6123,
+      "beneficiaries": 1187
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 2604,
+      "beneficiaries": 639
+     },
+     {
+      "state": "Armed Forces Pacific",
+      "services": 697,
+      "beneficiaries": 174
+     },
+     {
+      "state": "Foreign Country",
+      "services": 476,
+      "beneficiaries": 119
+     },
+     {
+      "state": "Guam",
+      "services": 334,
+      "beneficiaries": 102
+     },
+     {
+      "state": "Unknown",
+      "services": 146,
+      "beneficiaries": 0
+     },
+     {
+      "state": "Northern Mariana Islands",
+      "services": 37,
+      "beneficiaries": 0
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

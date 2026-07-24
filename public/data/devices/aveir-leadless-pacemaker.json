@@ -1,0 +1,926 @@
+{
+ "slug": "aveir-leadless-pacemaker",
+ "name": "Aveir leadless pacemaker",
+ "maker": "Abbott \u00b7 Cardiac rhythm",
+ "rank": 10,
+ "pathway": "pma (Class III, approved 2022 VR / 2023 DR)",
+ "maturity": "early",
+ "stats": {
+  "deaths": 203,
+  "injuries": 1281,
+  "malfunctions": 2574,
+  "recalls": 2,
+  "classI": 0
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Cardiac rhythm"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (Class III, approved 2022 VR / 2023 DR)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "Legally the CLEANEST parallel-claim setup of any PMA device scored \u2014 but temporally premature. Riegel bars design/warning (inherent leadless risks: perforation, dislodgement, retrieval \u2014 all approved-design tradeoffs, NOT actionable). BUT the recall record is manufacturing deviation: the Feb 2025 recall (Aveir DR/VR) cites units exposed to higher-than-normal production temperatures \u2192 glass-insulat"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "early"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 203,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 1281,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 2574,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 2,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 0,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Stretched",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 7163,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 5471267.22,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Raul Weiss",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "New York",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2483,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2025-02-15",
+   "classification": "Class II",
+   "reason": "Due to a manufacturing issue, leadless pacemakers may have been exposed to higher than normal temperatures which may result in premature battery failure.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-02-05",
+   "classification": "Class II",
+   "reason": "Their is a potential that electromagnetic interference may cause leadless pacemaker may result in mode change.",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2024,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 1
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2022,
+     "value": 4
+    },
+    {
+     "year": 2023,
+     "value": 41
+    },
+    {
+     "year": 2024,
+     "value": 44
+    },
+    {
+     "year": 2025,
+     "value": 2
+    },
+    {
+     "year": 2026,
+     "value": 112
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2022,
+     "value": 27
+    },
+    {
+     "year": 2023,
+     "value": 142
+    },
+    {
+     "year": 2024,
+     "value": 403
+    },
+    {
+     "year": 2025,
+     "value": 16
+    },
+    {
+     "year": 2026,
+     "value": 693
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2022,
+     "value": 1023777.28
+    },
+    {
+     "year": 2023,
+     "value": 1933172.06
+    },
+    {
+     "year": 2024,
+     "value": 2514317.88
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 72
+    },
+    {
+     "year": 1991,
+     "value": 88
+    },
+    {
+     "year": 1992,
+     "value": 141
+    },
+    {
+     "year": 1993,
+     "value": 142
+    },
+    {
+     "year": 1994,
+     "value": 150
+    },
+    {
+     "year": 1995,
+     "value": 119
+    },
+    {
+     "year": 1996,
+     "value": 191
+    },
+    {
+     "year": 1997,
+     "value": 205
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 156
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 130
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 6898,
+    "distinctProblemCodes": 66,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Stretched",
+      "reports": 363,
+      "narrative": "A DEVICE HISTORY RECORD (DHR) REVIEW WAS PERFORMED AND ALL REQUIRED MANUFACTURING PROCESSES AND INSPECTIONS STEPS WERE CONFIRMED TO BE COMPLETED PER THE REQUIREMENTS. THE DEVICE MET SPECIFICATIONS PRIOR TO LEAVING ABBOTT MANUFACTURING FACILITIES."
+     },
+     {
+      "problem": "Device Dislodged or Dislocated",
+      "reports": 298,
+      "narrative": "IT WAS REPORTED THAT DURING THE PROCEDURE THE LEADLESS PACEMAKER DISLODGED POST RELEASE AND TRAVELED TO THE PULMONARY ARTERY. THE DEVICE WAS RETRIEVED AND REMOVED FROM THE BODY. THE PATIENT WAS REIMPLANTED WITH A NEW DEVICE AND WAS STABLE."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 298,
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO AN IMPLANT PROCEDURE. DURING THE PROCEDURE, AFTER IMPLANTING THE VENTRICULAR LEADLESS PACEMAKER AND WHILE IMPLANTING THE ATRIAL LEADLESS PACEMAKER WITH ITS RESPECTIVE DELIVERY CATHETERS, THE PATIENT EXPERIENCED A SEIZURE. THE CAUSE OF THE SEIZURE WAS UNKNOWN. THE ATRIAL DEVICE WAS NOT IMPLANTED. THE VENTRICULAR DEVICE REMAINED IMPLANTED. THE PATIENT CONDITION WAS STABLE P"
+     },
+     {
+      "problem": "Premature Separation",
+      "reports": 220,
+      "narrative": "THE REPORTED EVENT OF PREMATURE RELEASE WAS CONFIRMED. AS RECEIVED, A CATHETER WAS RETURNED IN ONE PIECE WITH TRACES OF BLOOD. X-RAY EXAMINATION FOUND ONE OF THE TETHER WIRES WAS BROKEN AND BUCKLED AT THE TRANSITION ZONE. THE CAUSE OF THE REPORTED EVENT WAS DUE BROKEN TETHER WIRE AT THE TRANSITION ZONE."
+     },
+     {
+      "problem": "Failure to Capture",
+      "reports": 210,
+      "narrative": "SUS VOLUNTARY EVENT REPORT WAS RECEIVED. MEDWATCH: MW5144546. SUS VOLUNTARY EVENT REPORT WAS RECEIVED. MEDWATCH: MW5144547."
+     },
+     {
+      "problem": "Capturing Problem",
+      "reports": 205,
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED IN CLINIC FOR A FOLLOW-UP. UPON INTERROGATION, IT WAS NOTED THAT THE LEADLESS PACEMAKER EXHIBITED HIGH CAPTURE THRESHOLD AND VARYING PACING IMPEDANCE. PROGRAMMING CHANGES WERE MADE. THERE WERE NO PATIENT CONSEQUENCES."
+     },
+     {
+      "problem": "Inappropriate or Unexpected Reset",
+      "reports": 122,
+      "narrative": "IT WAS REPORTED THAT THE FAST PATH SUMMARY INDICATED THE DEVICE WAS IN EVVI MODE. THE PROVIDED INFORMATION WAS REVIEWED BY ABBOTT ENGINEERING AND IT WAS CONFIRMED THAT AN INAPPROPRIATE MODE CHANGE TO EVVI MODE OCCURRED, WITH EVIDENCE CONSISTENT WITH A ROOT CAUSE OF THE LP INTERPRETING EMI AS A FALSE-POSITIVE TELEMETRY COMMAND TO CHANGE MODE. THE DEVICE IS SUBJECT TO THE AVEIR UNEXPECTED AND INADVERTENT MODE CHANGE AC"
+     },
+     {
+      "problem": "Separation Failure",
+      "reports": 120,
+      "narrative": "REPORTED EVENT OF SEPARATION FAILURE WAS NOT CONFIRMED. VISUAL INSPECTION FOUND NO ANOMALY ON THE HELIX. THE INNER DIAMETER OF THE DEVICE DOCKING BUTTON WHERE THE BULLETS ON THE TETHER INTERACT WAS WITHIN SPECIFICATION. FURTHER ANALYSIS PERFORMED FOUND NO ANOMALY. LONGEVITY ASSESSMENT WAS PERFORMED, AND DEVICE WAS IN THE NORMAL RANGE OF OPERATION WITH APPROPRIATE REMAINING LONGEVITY. A DEVICE HISTORY RECORD (DHR) REV"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "notApplicable": true,
+   "reason": "PMA-pathway device \u2014 there is no 510(k) predicate lineage. A PMA supplement-lineage map is available on request.",
+   "source": "FDA 510(k) summaries predicate-edge extraction."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 7163,
+    "totalPaid": 5471267.22,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "FL",
+      "total": 212290.54,
+      "payments": 42,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "TN",
+      "total": 185487.5,
+      "payments": 23,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "DC",
+      "total": 164541.93,
+      "payments": 311,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "NY",
+      "total": 118044.64,
+      "payments": 131,
+      "years": "2022\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "AR",
+      "total": 113544.35,
+      "payments": 213,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 95990.04,
+      "payments": 211,
+      "years": "2022\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OK",
+      "total": 84175.43,
+      "payments": 209,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 69571.71,
+      "payments": 187,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "PA",
+      "total": 64102.55,
+      "payments": 28,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "AZ",
+      "total": 59663.36,
+      "payments": 179,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "FL",
+      "total": 212290.54,
+      "payments": 42,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Raul Weiss"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "TN",
+      "total": 185487.5,
+      "payments": 23,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Stephen Fahrig"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "DC",
+      "total": 164541.93,
+      "payments": 311,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Cyrus Hadadi"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "NY",
+      "total": 118044.64,
+      "payments": 131,
+      "years": "2022\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "James Ip"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "AR",
+      "total": 113544.35,
+      "payments": 213,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Devi Nair"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 95990.04,
+      "payments": 211,
+      "years": "2022\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Rajesh Banker"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OK",
+      "total": 84175.43,
+      "payments": 209,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "John Summers"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 69571.71,
+      "payments": 187,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Rahul Doshi"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "PA",
+      "total": 64102.55,
+      "payments": 28,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Joshua Cooper"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "AZ",
+      "total": 59663.36,
+      "payments": 179,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Himanshu Shukla"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "Edwards Lifesciences Holding, Inc.",
+    "nParents": 37,
+    "inspections": 4971,
+    "citations": 2956,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8484,
+     "inMdl": 7232,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2483,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2483,
+    "recent": [
+     {
+      "id": "D452163",
+      "title": "Motorcycle motor clock",
+      "year": 2001,
+      "assignee": "Abbott; Michael"
+     },
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 55,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 526098
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "93294",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 11885287
+     },
+     {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 10504201
+     },
+     {
+      "code": "93296",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "services": 9497032
+     },
+     {
+      "code": "93288",
+      "description": "Evaluation of parameters of single, dual, or multiple lead pacemaker including device connection, recording, and disconnection",
+      "services": 2877152
+     },
+     {
+      "code": "93293",
+      "description": "Telephonic evaluation of single, dual, or multiple lead pacemaker heart rhythm strips up to 90 days",
+      "services": 1942365
+     },
+     {
+      "code": "93279",
+      "description": "Evaluation, testing, and programming adjustment of permanent single lead pacemaker system with physician analysis, review, and report",
+      "services": 1758092
+     }
+    ],
+    "states": [
+     {
+      "state": "New York",
+      "services": 526098,
+      "beneficiaries": 204282
+     },
+     {
+      "state": "Florida",
+      "services": 359802,
+      "beneficiaries": 165140
+     },
+     {
+      "state": "Texas",
+      "services": 329779,
+      "beneficiaries": 147510
+     },
+     {
+      "state": "California",
+      "services": 308905,
+      "beneficiaries": 147639
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 214891,
+      "beneficiaries": 98378
+     },
+     {
+      "state": "Illinois",
+      "services": 173706,
+      "beneficiaries": 82285
+     },
+     {
+      "state": "Ohio",
+      "services": 165397,
+      "beneficiaries": 75013
+     },
+     {
+      "state": "North Carolina",
+      "services": 150056,
+      "beneficiaries": 67144
+     },
+     {
+      "state": "New Jersey",
+      "services": 128027,
+      "beneficiaries": 57933
+     },
+     {
+      "state": "Tennessee",
+      "services": 124072,
+      "beneficiaries": 58547
+     },
+     {
+      "state": "Georgia",
+      "services": 122640,
+      "beneficiaries": 53541
+     },
+     {
+      "state": "Virginia",
+      "services": 117651,
+      "beneficiaries": 56007
+     },
+     {
+      "state": "Massachusetts",
+      "services": 116287,
+      "beneficiaries": 54905
+     },
+     {
+      "state": "Missouri",
+      "services": 112122,
+      "beneficiaries": 50012
+     },
+     {
+      "state": "Indiana",
+      "services": 111530,
+      "beneficiaries": 51034
+     },
+     {
+      "state": "Arizona",
+      "services": 109727,
+      "beneficiaries": 48197
+     },
+     {
+      "state": "South Carolina",
+      "services": 102852,
+      "beneficiaries": 47511
+     },
+     {
+      "state": "Washington",
+      "services": 98709,
+      "beneficiaries": 43905
+     },
+     {
+      "state": "Michigan",
+      "services": 91083,
+      "beneficiaries": 47245
+     },
+     {
+      "state": "Minnesota",
+      "services": 84757,
+      "beneficiaries": 41247
+     },
+     {
+      "state": "Kansas",
+      "services": 76720,
+      "beneficiaries": 34190
+     },
+     {
+      "state": "Alabama",
+      "services": 74984,
+      "beneficiaries": 34583
+     },
+     {
+      "state": "Maryland",
+      "services": 73087,
+      "beneficiaries": 36743
+     },
+     {
+      "state": "Colorado",
+      "services": 71970,
+      "beneficiaries": 29899
+     },
+     {
+      "state": "Kentucky",
+      "services": 71488,
+      "beneficiaries": 31837
+     },
+     {
+      "state": "Louisiana",
+      "services": 60447,
+      "beneficiaries": 27444
+     },
+     {
+      "state": "Oklahoma",
+      "services": 59101,
+      "beneficiaries": 26830
+     },
+     {
+      "state": "Wisconsin",
+      "services": 55868,
+      "beneficiaries": 30408
+     },
+     {
+      "state": "Arkansas",
+      "services": 55713,
+      "beneficiaries": 26989
+     },
+     {
+      "state": "Iowa",
+      "services": 52066,
+      "beneficiaries": 23259
+     },
+     {
+      "state": "Nebraska",
+      "services": 51238,
+      "beneficiaries": 22153
+     },
+     {
+      "state": "Mississippi",
+      "services": 49643,
+      "beneficiaries": 24038
+     },
+     {
+      "state": "Connecticut",
+      "services": 45319,
+      "beneficiaries": 22164
+     },
+     {
+      "state": "Oregon",
+      "services": 37475,
+      "beneficiaries": 19349
+     },
+     {
+      "state": "West Virginia",
+      "services": 27996,
+      "beneficiaries": 13341
+     },
+     {
+      "state": "Utah",
+      "services": 27717,
+      "beneficiaries": 14216
+     },
+     {
+      "state": "Nevada",
+      "services": 20961,
+      "beneficiaries": 11173
+     },
+     {
+      "state": "Montana",
+      "services": 19969,
+      "beneficiaries": 9746
+     },
+     {
+      "state": "Delaware",
+      "services": 19273,
+      "beneficiaries": 10265
+     },
+     {
+      "state": "Idaho",
+      "services": 17212,
+      "beneficiaries": 10120
+     },
+     {
+      "state": "New Hampshire",
+      "services": 15540,
+      "beneficiaries": 8171
+     },
+     {
+      "state": "Alaska",
+      "services": 15116,
+      "beneficiaries": 5594
+     },
+     {
+      "state": "South Dakota",
+      "services": 14038,
+      "beneficiaries": 7375
+     },
+     {
+      "state": "New Mexico",
+      "services": 11682,
+      "beneficiaries": 5522
+     },
+     {
+      "state": "Maine",
+      "services": 10986,
+      "beneficiaries": 6167
+     },
+     {
+      "state": "North Dakota",
+      "services": 9892,
+      "beneficiaries": 5664
+     },
+     {
+      "state": "Rhode Island",
+      "services": 7276,
+      "beneficiaries": 3915
+     },
+     {
+      "state": "District of Columbia",
+      "services": 7104,
+      "beneficiaries": 4073
+     },
+     {
+      "state": "Vermont",
+      "services": 4986,
+      "beneficiaries": 2880
+     },
+     {
+      "state": "Hawaii",
+      "services": 4708,
+      "beneficiaries": 2498
+     },
+     {
+      "state": "Wyoming",
+      "services": 4267,
+      "beneficiaries": 2504
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 1021,
+      "beneficiaries": 586
+     },
+     {
+      "state": "Guam",
+      "services": 189,
+      "beneficiaries": 108
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 95,
+      "beneficiaries": 53
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 13,
+      "beneficiaries": 12
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

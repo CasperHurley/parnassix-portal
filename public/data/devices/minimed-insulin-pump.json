@@ -1,0 +1,1346 @@
+{
+ "slug": "minimed-insulin-pump",
+ "name": "MiniMed insulin pump",
+ "maker": "Medtronic \u00b7 Diabetes",
+ "rank": 4,
+ "pathway": "pma (P120010/P150001/P160017) \u2014 with a 2025 510k migration",
+ "maturity": "maturing",
+ "stats": {
+  "deaths": 2033,
+  "injuries": 149687,
+  "malfunctions": 978951,
+  "recalls": 97,
+  "classI": 10
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Medtronic \u00b7 Diabetes"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (P120010/P150001/P160017) \u2014 with a 2025 510k migration"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted on the 2015-2024 injury cohort (Rieger v. Medtronic MiniMed, LASC, full dismissal 1/28/2025). TWO live cracks: (1) parallel/manufacturing \u2014 the 2020 retainer-ring recall is a spec-deviation story; (2) fraudulent concealment \u2014 Burgess v. Medtronic (LASC), MSJ DENIED 3/27/2025, prima facie concealment found. NEW finding: Medtronic moved the 780G onto the Class II 510(k) QFG pathway in "
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "maturing"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 2033,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 149687,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 978951,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 97,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 10,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Break",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 16703,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 8419099.39,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Kevin Kaiserman",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "Florida",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 1934,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2026-05-27",
+   "classification": "Unclassified",
+   "reason": "A software anomaly can occur when the pump is paired with the Instinct sensor. Under certain circumstances, the pump unexpectedly stops delivering insulin and displays two error messages back-to-back: Pump Error 53 follo",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-13",
+   "classification": "Class II",
+   "reason": "All Medtronic MiniMed infusion pumps (Paradigm series, 600 series, and BLE 700 series) were found to be affected by unintended over- and under-delivery of insulin when the pump is elevated or lowered relative to the infu",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-13",
+   "classification": "Class II",
+   "reason": "All Medtronic MiniMed infusion pumps (Paradigm series, 600 series, and BLE 700 series) were found to be affected by unintended over- and under-delivery of insulin when the pump is elevated or lowered relative to the infu",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-13",
+   "classification": "Class II",
+   "reason": "All Medtronic MiniMed infusion pumps (Paradigm series, 600 series, and BLE 700 series) were found to be affected by unintended over- and under-delivery of insulin when the pump is elevated or lowered relative to the infu",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-13",
+   "classification": "Class II",
+   "reason": "All Medtronic MiniMed infusion pumps (Paradigm series, 600 series, and BLE 700 series) were found to be affected by unintended over- and under-delivery of insulin when the pump is elevated or lowered relative to the infu",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-13",
+   "classification": "Class II",
+   "reason": "All Medtronic MiniMed infusion pumps (Paradigm series, 600 series, and BLE 700 series) were found to be affected by unintended over- and under-delivery of insulin when the pump is elevated or lowered relative to the infu",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2003,
+     "value": 1
+    },
+    {
+     "year": 2004,
+     "value": 5
+    },
+    {
+     "year": 2007,
+     "value": 1
+    },
+    {
+     "year": 2011,
+     "value": 2
+    },
+    {
+     "year": 2013,
+     "value": 3
+    },
+    {
+     "year": 2014,
+     "value": 6
+    },
+    {
+     "year": 2015,
+     "value": 3
+    },
+    {
+     "year": 2016,
+     "value": 1
+    },
+    {
+     "year": 2017,
+     "value": 10
+    },
+    {
+     "year": 2018,
+     "value": 4
+    },
+    {
+     "year": 2019,
+     "value": 20
+    },
+    {
+     "year": 2020,
+     "value": 3
+    },
+    {
+     "year": 2021,
+     "value": 2
+    },
+    {
+     "year": 2022,
+     "value": 11
+    },
+    {
+     "year": 2024,
+     "value": 3
+    },
+    {
+     "year": 2025,
+     "value": 10
+    },
+    {
+     "year": 2026,
+     "value": 12
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1999,
+     "value": 1
+    },
+    {
+     "year": 2000,
+     "value": 2
+    },
+    {
+     "year": 2001,
+     "value": 9
+    },
+    {
+     "year": 2002,
+     "value": 6
+    },
+    {
+     "year": 2003,
+     "value": 52
+    },
+    {
+     "year": 2004,
+     "value": 10
+    },
+    {
+     "year": 2008,
+     "value": 1
+    },
+    {
+     "year": 2009,
+     "value": 2
+    },
+    {
+     "year": 2011,
+     "value": 1
+    },
+    {
+     "year": 2013,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 2
+    },
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 1
+    },
+    {
+     "year": 2017,
+     "value": 51
+    },
+    {
+     "year": 2018,
+     "value": 102
+    },
+    {
+     "year": 2019,
+     "value": 113
+    },
+    {
+     "year": 2020,
+     "value": 194
+    },
+    {
+     "year": 2021,
+     "value": 239
+    },
+    {
+     "year": 2022,
+     "value": 524
+    },
+    {
+     "year": 2023,
+     "value": 391
+    },
+    {
+     "year": 2024,
+     "value": 285
+    },
+    {
+     "year": 2025,
+     "value": 1
+    },
+    {
+     "year": 2026,
+     "value": 44
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1997,
+     "value": 7
+    },
+    {
+     "year": 1998,
+     "value": 16
+    },
+    {
+     "year": 1999,
+     "value": 25
+    },
+    {
+     "year": 2000,
+     "value": 10
+    },
+    {
+     "year": 2001,
+     "value": 25
+    },
+    {
+     "year": 2002,
+     "value": 37
+    },
+    {
+     "year": 2003,
+     "value": 1101
+    },
+    {
+     "year": 2004,
+     "value": 510
+    },
+    {
+     "year": 2005,
+     "value": 10
+    },
+    {
+     "year": 2006,
+     "value": 9
+    },
+    {
+     "year": 2007,
+     "value": 7
+    },
+    {
+     "year": 2008,
+     "value": 10
+    },
+    {
+     "year": 2009,
+     "value": 29
+    },
+    {
+     "year": 2010,
+     "value": 9
+    },
+    {
+     "year": 2011,
+     "value": 10
+    },
+    {
+     "year": 2012,
+     "value": 3
+    },
+    {
+     "year": 2013,
+     "value": 7
+    },
+    {
+     "year": 2014,
+     "value": 19
+    },
+    {
+     "year": 2015,
+     "value": 43
+    },
+    {
+     "year": 2016,
+     "value": 544
+    },
+    {
+     "year": 2017,
+     "value": 9516
+    },
+    {
+     "year": 2018,
+     "value": 20211
+    },
+    {
+     "year": 2019,
+     "value": 21086
+    },
+    {
+     "year": 2020,
+     "value": 18063
+    },
+    {
+     "year": 2021,
+     "value": 15307
+    },
+    {
+     "year": 2022,
+     "value": 16643
+    },
+    {
+     "year": 2023,
+     "value": 17294
+    },
+    {
+     "year": 2024,
+     "value": 17073
+    },
+    {
+     "year": 2025,
+     "value": 66
+    },
+    {
+     "year": 2026,
+     "value": 11996
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2015,
+     "value": 25486.71
+    },
+    {
+     "year": 2016,
+     "value": 766950.31
+    },
+    {
+     "year": 2017,
+     "value": 1105845.68
+    },
+    {
+     "year": 2018,
+     "value": 1332675.49
+    },
+    {
+     "year": 2019,
+     "value": 899721.34
+    },
+    {
+     "year": 2020,
+     "value": 472527.86
+    },
+    {
+     "year": 2021,
+     "value": 544899.56
+    },
+    {
+     "year": 2022,
+     "value": 705032.23
+    },
+    {
+     "year": 2023,
+     "value": 993249.7
+    },
+    {
+     "year": 2024,
+     "value": 1572710.51
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 36
+    },
+    {
+     "year": 1991,
+     "value": 32
+    },
+    {
+     "year": 1992,
+     "value": 71
+    },
+    {
+     "year": 1993,
+     "value": 65
+    },
+    {
+     "year": 1994,
+     "value": 116
+    },
+    {
+     "year": 1995,
+     "value": 96
+    },
+    {
+     "year": 1996,
+     "value": 85
+    },
+    {
+     "year": 1997,
+     "value": 93
+    },
+    {
+     "year": 1998,
+     "value": 250
+    },
+    {
+     "year": 1999,
+     "value": 221
+    },
+    {
+     "year": 2000,
+     "value": 260
+    },
+    {
+     "year": 2001,
+     "value": 236
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 2995435,
+    "distinctProblemCodes": 340,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Break",
+      "reports": 215062,
+      "narrative": "INFORMATION RECEIVED BY MEDTRONIC INDICATED THAT THE INSULIN PUMP RETAINER RING WAS CRACKED. CUSTOMER STATED THAT THE RESERVOIR WAS NOT LOCKING IN PLACE WHEN INSERTED INTO THE INSULIN PUMP. NO HARM REQUIRING MEDICAL INTERVENTION WAS REPORTED. THE INSULIN PUMP WILL BE RETURNED FOR THE ANALYSIS."
+     },
+     {
+      "problem": "Power Problem",
+      "reports": 179469,
+      "narrative": "INFORMATION RECEIVED BY MEDTRONIC INDICATED THAT THE INSULIN PUMP ALARMED REPLACE BATTERY ALARM. CUSTOMER RECEIVED A LOW BATTERY ALERT PRIOR TO THE REPLACE BATTERY ALERT OR REPLACE BATTERY NOW ALARM. CUSTOMER STATED THAT THE BATTERY CAP WAS NOT LOOSE, CRACKED OR DAMAGED. THIS WAS THE SECOND OCCURRENCE OF REPLACE BATTERY ALERT OR REPLACE BATTERY NOW ALARM IN LESS THAN 8 HOURS AFTER A LOW BATTERY WARNING. NO HARM REQUI"
+     },
+     {
+      "problem": "Patient Device Interaction Problem",
+      "reports": 146098,
+      "narrative": "UNABLE TO PERFORM DISPLACEMENT TEST DUE TO DETACHED RETAINER, MISSING RESERVOIR TUBE O-RING AND BROKEN RESERVOIR TUBE LIP. TEST RESERVOIR DOES NOT LOCK PROPERLY INSIDE THE RESERVOIR TUBE DUE TO DETACHED RETAINER. (B)(4)."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 90793,
+      "narrative": "THE CUSTOMER REPORTED VIA PHONE CALL THAT EMERGENCY MEDICAL SERVICES WAS DISPATCHED AND THEY EXPERIENCED HIGH BLOOD GLUCOSE ON (B)(6) 2020 WITH BLOOD GLUCOSE OF 451 MG/DL. OTHER BLOOD GLUCOSE LEVEL WAS 414 MG/DL. CUSTOMER WAS USING INSULIN PUMP SYSTEM WITHIN 48 HOURS OF REPORTED HIGH BLOOD GLUCOSE EVENT. CUSTOMER TREATED WITH MANUAL INJECTION AND INSULIN PEN. CUSTOMER STATED AUTO MODE FEATURE WAS NOT ACTIVE AT THE TI"
+     },
+     {
+      "problem": "No Display/Image",
+      "reports": 85063,
+      "narrative": "THE CUSTOMER FATHER REPORTED VIA PHONE CALL THAT THERE WAS A BLANK DISPLAY ON THE INSULIN PUMP. THE FATHER REPORTED THE BATTERY WAS CHANGED, BUT THE BLANK DISPLAY PERSISTED. CUSTOMER'S BLOOD GLUCOSE WAS UNKNOWN. THE FATHER AGREED TO RETURN THE INSULIN PUMP FOR ANALYSIS."
+     },
+     {
+      "problem": "Material Integrity Problem",
+      "reports": 77268,
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE. MEDTRONIC, INC. (MEDTRONIC) IS SUBMITTING THIS REPORT TO COMPLY WITH 21 C.F.R. PART 803, THE MEDICAL DEVICE REPORTING REGULATION. THIS REPORT IS BASED UPON INFORMATION OBT"
+     },
+     {
+      "problem": "Appropriate Term/Code Not Available",
+      "reports": 71601,
+      "narrative": "THE CUSTOMER REPORTED VIA PHONE CALL THAT THEY EXPERIENCED HIGH BLOOD GLUCOSE. BLOOD GLUCOSE READING WENT UP TO 416 MG/DL. CUSTOMER STATED THAT THEY MANUALLY SUSPENDED THE INSULIN PUMP. CUSTOMER DECLINED TO TROUBLESHOOT FOR REPORTED HIGH BLOOD GLUCOSE EVENT. AUTO MODE FEATURE WAS ACTIVE AT THE TIME OF INCIDENT. THE CUSTOMER STATED THAT INSULIN PUMP HAD PUMP ERROR ALARM AND THEY WERE ABLE TO CLEAR THE ALARM. THE INSUL"
+     },
+     {
+      "problem": "Obstruction of Flow",
+      "reports": 67087,
+      "narrative": "(B)(4). CURRENTLY IT IS UNKNOWN WHETHER OR NOT THE DEVICE MAY HAVE CAUSED OR CONTRIBUTED TO THE EVENT AS NO PRODUCT HAS BEEN RETURNED. NO CONCLUSION CAN BE DRAWN AT THIS TIME. WE THEREFORE CONSIDER THIS REPORT COMPLETE TO THE BEST OF OUR KNOWLEDGE."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 7,
+    "citations": 10,
+    "hops": 2,
+    "anchors": [
+     "K253743",
+     "K253470",
+     "K253512"
+    ]
+   },
+   "payload": {
+    "anchors": [
+     "K253743",
+     "K253470",
+     "K253512"
+    ],
+    "nodes": [
+     {
+      "k": "K201337",
+      "name": "InPen System",
+      "anchor": false
+     },
+     {
+      "k": "K232380",
+      "name": "t:slim X2 Insulin Pump with Interoperable Technology",
+      "anchor": false
+     },
+     {
+      "k": "K242775",
+      "name": "InPen System App (MMT-8060 (iOS), MMT-8061 (Android))",
+      "anchor": false
+     },
+     {
+      "k": "K251032",
+      "name": "MiniMed 780G insulin pump",
+      "anchor": false
+     },
+     {
+      "k": "K253470",
+      "name": "MiniMed 780G Insulin Pump (MMT-1884); MiniMed 780G Insulin Pump Kit (MMT-1894)",
+      "anchor": true
+     },
+     {
+      "k": "K253512",
+      "name": "MiniMed Go App",
+      "anchor": true
+     },
+     {
+      "k": "K253743",
+      "name": "MiniMed Flex pump",
+      "anchor": true
+     }
+    ],
+    "edges": [
+     {
+      "from": "K253470",
+      "to": "K242775",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "lass Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "hop": 1
+     },
+     {
+      "from": "K253470",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ce Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "hop": 1
+     },
+     {
+      "from": "K253512",
+      "to": "K242775",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "NDC\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nNDC InPen System App (K242775)\nDevice Description",
+      "hop": 1
+     },
+     {
+      "from": "K253743",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "in Infusion Pump\nRegulation Number 21 CFR 880.5730\nProduct Codes QFG\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device K251032 - MiniMed 780G Flex Pump with Interoperable Technolo",
+      "hop": 1
+     },
+     {
+      "from": "K253743",
+      "to": "K253470",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "app where\nnotifications are presented for the user to\nreview and acknowledge.\n1 MiniMed 780G pump use with Fiasp and Lyumjev was cleared in K253470.\nPage 4 of 7",
+      "hop": 1
+     },
+     {
+      "from": "K242775",
+      "to": "K201337",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "System\nCommon Name Pen Injector with Dose Calculator\nPredicate Device\nInPen\u2122 System (MMT-8060/MMT-8061)\nName and Model ID\nPredicate 510(k)\nK201337\nNumber\nClass II\nClassification Name\nPiston syringe wi",
+      "hop": 2
+     },
+     {
+      "from": "K251032",
+      "to": "K242775",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ormation\nProduct Code Predicate Device\nQFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 15",
+      "hop": 2
+     },
+     {
+      "from": "K251032",
+      "to": "K232380",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 15",
+      "hop": 2
+     },
+     {
+      "from": "K253470",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ce Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "hop": 2
+     },
+     {
+      "from": "K253470",
+      "to": "K242775",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "lass Class II\nPredicate Device Information\nProduct Code Predicate Device\nQFG MiniMed 780G Insulin Pump (K251032)\nNDC InPen Dose Calculator (K242775)\nPage 1 of 11",
+      "hop": 2
+     }
+    ],
+    "hopCap": 2,
+    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 16703,
+    "totalPaid": 8419099.39,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CA",
+      "total": 519457.4,
+      "payments": 778,
+      "years": "2016\u20132020",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "AR",
+      "total": 355596.98,
+      "payments": 667,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "MN",
+      "total": 328190.62,
+      "payments": 504,
+      "years": "2016\u20132023",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "GA",
+      "total": 210376.65,
+      "payments": 450,
+      "years": "2015\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CT",
+      "total": 176634.07,
+      "payments": 290,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "CA",
+      "total": 133999.21,
+      "payments": 154,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Adult Health",
+      "state": "TN",
+      "total": 126101.49,
+      "payments": 10,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p8",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Primary Care",
+      "state": "WV",
+      "total": 119852.88,
+      "payments": 20,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "FL",
+      "total": 116782.76,
+      "payments": 251,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Clinical Nurse Specialist",
+      "state": "WI",
+      "total": 110861.29,
+      "payments": 16,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CA",
+      "total": 519457.4,
+      "payments": 778,
+      "years": "2016\u20132020",
+      "topNature": "Travel and Lodging",
+      "name": "Kevin Kaiserman"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "AR",
+      "total": 355596.98,
+      "payments": 667,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "James Thrasher"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "MN",
+      "total": 328190.62,
+      "payments": 504,
+      "years": "2016\u20132023",
+      "topNature": "Food and Beverage",
+      "name": "Jennifer Mcvean"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "GA",
+      "total": 210376.65,
+      "payments": 450,
+      "years": "2015\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Bruce Bode"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CT",
+      "total": 176634.07,
+      "payments": 290,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Jennifer Sherr"
+     },
+     {
+      "id": "p6",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "CA",
+      "total": 133999.21,
+      "payments": 154,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Lisa Higgins"
+     },
+     {
+      "id": "p7",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Adult Health",
+      "state": "TN",
+      "total": 126101.49,
+      "payments": 10,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Brenda Baxter"
+     },
+     {
+      "id": "p8",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Primary Care",
+      "state": "WV",
+      "total": 119852.88,
+      "payments": 20,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Amanda Wakim"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "FL",
+      "total": 116782.76,
+      "payments": 251,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Brian Lake"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Clinical Nurse Specialist",
+      "state": "WI",
+      "total": 110861.29,
+      "payments": 16,
+      "years": "2021\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Susan Wolf"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "Medtronic plc",
+    "nParents": 95,
+    "inspections": 10765,
+    "citations": 8345,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 4729,
+     "inMdl": 82,
+     "terminationRatio": 0.99,
+     "firstFiled": "1984-04-20",
+     "lastFiled": "2021-06-11"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 1934,
+    "assignees": [
+     "Medtronic"
+    ]
+   },
+   "payload": {
+    "patents": 1934,
+    "recent": [
+     {
+      "id": "RE37480",
+      "title": "Cardiac pacer which compensates for effects of abrupt changes in heart rate",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6334068",
+      "title": "Intraoperative neuroelectrophysiological monitor",
+      "year": 2001,
+      "assignee": "Medtronic Xomed, Inc."
+     },
+     {
+      "id": "6334070",
+      "title": "Visual and aural user interface for an automated external defibrillator",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452318",
+      "title": "Electrode connector",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452323",
+      "title": "Glucose sensor",
+      "year": 2001,
+      "assignee": "Medtronic Minimed Inc."
+     },
+     {
+      "id": "6331189",
+      "title": "Flexible medical stent",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6329929",
+      "title": "Telemetry system with phase-locking noise suppressing receiver",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     },
+     {
+      "id": "6330475",
+      "title": "System and a corresponding method for treating defibrillation in a heart",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 55,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 1730689
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "J1817",
+      "description": "Insulin for administration through dme (i.e., insulin pump) per 50 units",
+      "services": 116311038
+     },
+     {
+      "code": "A4225",
+      "description": "Supplies for external insulin infusion pump, syringe type cartridge, sterile, each",
+      "services": 38508462
+     },
+     {
+      "code": "K0552",
+      "description": "Supplies for external drug infusion pump, syringe type cartridge, sterile, each",
+      "services": 19743023
+     },
+     {
+      "code": "A4224",
+      "description": "Supplies for maintenance of insulin infusion catheter, per week",
+      "services": 15845620
+     },
+     {
+      "code": "A4222",
+      "description": "Infusion supplies for external drug infusion pump, per cassette or bag (list drugs separately)",
+      "services": 7228389
+     },
+     {
+      "code": "83525",
+      "description": "Insulin measurement",
+      "services": 3357151
+     }
+    ],
+    "states": [
+     {
+      "state": "Florida",
+      "services": 1730689,
+      "beneficiaries": 38090
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 1395707,
+      "beneficiaries": 12913
+     },
+     {
+      "state": "California",
+      "services": 1340084,
+      "beneficiaries": 33489
+     },
+     {
+      "state": "Texas",
+      "services": 1254166,
+      "beneficiaries": 31946
+     },
+     {
+      "state": "Illinois",
+      "services": 1022288,
+      "beneficiaries": 11477
+     },
+     {
+      "state": "New York",
+      "services": 957684,
+      "beneficiaries": 19162
+     },
+     {
+      "state": "Ohio",
+      "services": 886605,
+      "beneficiaries": 21941
+     },
+     {
+      "state": "Tennessee",
+      "services": 875924,
+      "beneficiaries": 9986
+     },
+     {
+      "state": "North Carolina",
+      "services": 812706,
+      "beneficiaries": 22795
+     },
+     {
+      "state": "Georgia",
+      "services": 717100,
+      "beneficiaries": 10981
+     },
+     {
+      "state": "Missouri",
+      "services": 708625,
+      "beneficiaries": 5807
+     },
+     {
+      "state": "Indiana",
+      "services": 707795,
+      "beneficiaries": 5160
+     },
+     {
+      "state": "Minnesota",
+      "services": 669207,
+      "beneficiaries": 5286
+     },
+     {
+      "state": "Virginia",
+      "services": 637317,
+      "beneficiaries": 5613
+     },
+     {
+      "state": "Michigan",
+      "services": 637261,
+      "beneficiaries": 5672
+     },
+     {
+      "state": "Alabama",
+      "services": 596183,
+      "beneficiaries": 9026
+     },
+     {
+      "state": "Massachusetts",
+      "services": 551085,
+      "beneficiaries": 21132
+     },
+     {
+      "state": "Washington",
+      "services": 546888,
+      "beneficiaries": 7058
+     },
+     {
+      "state": "Arizona",
+      "services": 503413,
+      "beneficiaries": 12843
+     },
+     {
+      "state": "Wisconsin",
+      "services": 501175,
+      "beneficiaries": 4308
+     },
+     {
+      "state": "New Jersey",
+      "services": 478913,
+      "beneficiaries": 24085
+     },
+     {
+      "state": "Maryland",
+      "services": 433747,
+      "beneficiaries": 7421
+     },
+     {
+      "state": "South Carolina",
+      "services": 390180,
+      "beneficiaries": 6284
+     },
+     {
+      "state": "Kentucky",
+      "services": 386679,
+      "beneficiaries": 3485
+     },
+     {
+      "state": "Kansas",
+      "services": 373391,
+      "beneficiaries": 6756
+     },
+     {
+      "state": "Iowa",
+      "services": 360150,
+      "beneficiaries": 2463
+     },
+     {
+      "state": "Colorado",
+      "services": 337840,
+      "beneficiaries": 4070
+     },
+     {
+      "state": "Mississippi",
+      "services": 325114,
+      "beneficiaries": 2257
+     },
+     {
+      "state": "Arkansas",
+      "services": 309090,
+      "beneficiaries": 2299
+     },
+     {
+      "state": "Nebraska",
+      "services": 283891,
+      "beneficiaries": 2004
+     },
+     {
+      "state": "Oregon",
+      "services": 280928,
+      "beneficiaries": 4270
+     },
+     {
+      "state": "Louisiana",
+      "services": 260557,
+      "beneficiaries": 3691
+     },
+     {
+      "state": "Oklahoma",
+      "services": 250790,
+      "beneficiaries": 4309
+     },
+     {
+      "state": "Utah",
+      "services": 228935,
+      "beneficiaries": 2301
+     },
+     {
+      "state": "South Dakota",
+      "services": 179504,
+      "beneficiaries": 1384
+     },
+     {
+      "state": "Connecticut",
+      "services": 178706,
+      "beneficiaries": 1574
+     },
+     {
+      "state": "Idaho",
+      "services": 150863,
+      "beneficiaries": 1677
+     },
+     {
+      "state": "New Hampshire",
+      "services": 150178,
+      "beneficiaries": 1147
+     },
+     {
+      "state": "Maine",
+      "services": 146992,
+      "beneficiaries": 1108
+     },
+     {
+      "state": "North Dakota",
+      "services": 146991,
+      "beneficiaries": 1485
+     },
+     {
+      "state": "Montana",
+      "services": 134109,
+      "beneficiaries": 1026
+     },
+     {
+      "state": "West Virginia",
+      "services": 127044,
+      "beneficiaries": 1115
+     },
+     {
+      "state": "Nevada",
+      "services": 121661,
+      "beneficiaries": 2496
+     },
+     {
+      "state": "New Mexico",
+      "services": 103329,
+      "beneficiaries": 1129
+     },
+     {
+      "state": "Delaware",
+      "services": 93174,
+      "beneficiaries": 701
+     },
+     {
+      "state": "Rhode Island",
+      "services": 78095,
+      "beneficiaries": 534
+     },
+     {
+      "state": "Vermont",
+      "services": 64889,
+      "beneficiaries": 497
+     },
+     {
+      "state": "Wyoming",
+      "services": 31692,
+      "beneficiaries": 257
+     },
+     {
+      "state": "Alaska",
+      "services": 31135,
+      "beneficiaries": 331
+     },
+     {
+      "state": "District of Columbia",
+      "services": 28257,
+      "beneficiaries": 301
+     },
+     {
+      "state": "Hawaii",
+      "services": 22026,
+      "beneficiaries": 885
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 5318,
+      "beneficiaries": 439
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 3584,
+      "beneficiaries": 0
+     },
+     {
+      "state": "Armed Forces Pacific",
+      "services": 2743,
+      "beneficiaries": 26
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 20,
+      "beneficiaries": 16
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

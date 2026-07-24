@@ -1,0 +1,1043 @@
+{
+ "slug": "impella-heart-pump",
+ "name": "Impella heart pump",
+ "maker": "Abiomed (J&J) \u00b7 Structural heart",
+ "rank": 1,
+ "pathway": "pma-dominant (mixed: early gens 510k, current gens PMA)",
+ "maturity": "early",
+ "stats": {
+  "deaths": 4552,
+  "injuries": 19446,
+  "malfunctions": 13287,
+  "recalls": 75,
+  "classI": 21
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abiomed (J&J) \u00b7 Structural heart"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma-dominant (mixed: early gens 510k, current gens PMA)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted on design/warning, BUT the parallel-claim path is live and is the theory being run. Lester v. Abiomed (N.D. Ohio 1:25-cv-01081): 6 of 9 counts survived a motion to dismiss (Doc. 33, 3/31/2026) \u2014 the shape of a partial 360k(a) grant. Complaint exhibits are the parallel-claim signature: Sept 2023 FDA Warning Letter, manufacturing/component/software recalls. Manufacturing-defect + regul"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "early"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 4552,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 19446,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 13287,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 75,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 21,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Adverse Event Without Identified Device or Use Problem",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 43319,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 52843494.14,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Eric Rose",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "Florida",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 33,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-06-11",
+   "classification": "Unclassified",
+   "reason": "A potential for introducer sheath leakage from under the sheath cap and along the hub score lines, identified in 14Fr and 23Fr Introducers. These manufacturing issues are not visually detectable by the user, and 14Fr or ",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2010,
+     "value": 1
+    },
+    {
+     "year": 2011,
+     "value": 1
+    },
+    {
+     "year": 2021,
+     "value": 1
+    },
+    {
+     "year": 2023,
+     "value": 23
+    },
+    {
+     "year": 2024,
+     "value": 19
+    },
+    {
+     "year": 2025,
+     "value": 5
+    },
+    {
+     "year": 2026,
+     "value": 25
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2008,
+     "value": 4
+    },
+    {
+     "year": 2010,
+     "value": 1
+    },
+    {
+     "year": 2012,
+     "value": 2
+    },
+    {
+     "year": 2014,
+     "value": 7
+    },
+    {
+     "year": 2015,
+     "value": 2
+    },
+    {
+     "year": 2016,
+     "value": 7
+    },
+    {
+     "year": 2017,
+     "value": 11
+    },
+    {
+     "year": 2018,
+     "value": 13
+    },
+    {
+     "year": 2019,
+     "value": 6
+    },
+    {
+     "year": 2020,
+     "value": 8
+    },
+    {
+     "year": 2021,
+     "value": 46
+    },
+    {
+     "year": 2022,
+     "value": 62
+    },
+    {
+     "year": 2023,
+     "value": 264
+    },
+    {
+     "year": 2024,
+     "value": 1991
+    },
+    {
+     "year": 2025,
+     "value": 64
+    },
+    {
+     "year": 2026,
+     "value": 2064
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2008,
+     "value": 1
+    },
+    {
+     "year": 2009,
+     "value": 4
+    },
+    {
+     "year": 2010,
+     "value": 5
+    },
+    {
+     "year": 2012,
+     "value": 6
+    },
+    {
+     "year": 2013,
+     "value": 14
+    },
+    {
+     "year": 2014,
+     "value": 6
+    },
+    {
+     "year": 2015,
+     "value": 7
+    },
+    {
+     "year": 2016,
+     "value": 45
+    },
+    {
+     "year": 2017,
+     "value": 90
+    },
+    {
+     "year": 2018,
+     "value": 145
+    },
+    {
+     "year": 2019,
+     "value": 322
+    },
+    {
+     "year": 2020,
+     "value": 317
+    },
+    {
+     "year": 2021,
+     "value": 467
+    },
+    {
+     "year": 2022,
+     "value": 417
+    },
+    {
+     "year": 2023,
+     "value": 1918
+    },
+    {
+     "year": 2024,
+     "value": 9660
+    },
+    {
+     "year": 2025,
+     "value": 155
+    },
+    {
+     "year": 2026,
+     "value": 5867
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2013,
+     "value": 196142.2
+    },
+    {
+     "year": 2014,
+     "value": 1288357.96
+    },
+    {
+     "year": 2015,
+     "value": 3117388.93
+    },
+    {
+     "year": 2016,
+     "value": 4438603.34
+    },
+    {
+     "year": 2017,
+     "value": 7212685.24
+    },
+    {
+     "year": 2018,
+     "value": 4219500.02
+    },
+    {
+     "year": 2019,
+     "value": 4098680.2
+    },
+    {
+     "year": 2020,
+     "value": 2385886.72
+    },
+    {
+     "year": 2021,
+     "value": 3663631.08
+    },
+    {
+     "year": 2022,
+     "value": 5650861.73
+    },
+    {
+     "year": 2023,
+     "value": 7715230.75
+    },
+    {
+     "year": 2024,
+     "value": 8856525.97
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 5
+    },
+    {
+     "year": 1991,
+     "value": 2
+    },
+    {
+     "year": 1992,
+     "value": 4
+    },
+    {
+     "year": 1993,
+     "value": 1
+    },
+    {
+     "year": 1997,
+     "value": 2
+    },
+    {
+     "year": 1998,
+     "value": 2
+    },
+    {
+     "year": 2000,
+     "value": 2
+    },
+    {
+     "year": 2001,
+     "value": 8
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 107582,
+    "distinctProblemCodes": 252,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 12747,
+      "narrative": "THE COMPLAINANT REPORTED A (B)(6) YEAR OLD FEMALE HAD IMPELLA CP PUMP INSERTED IN THE LEFT FEMORAL. THE PATIENT WAS GOING TO THE OPERATING ROOM (OR) FOR A BILATERAL PERFUSION FOR THE ECMO LIMBS AND FOR A TAP AS THEY KNEW THERE WAS A NEED FOR PERICARDIAL DRAINAGE. UPON DRAINING, THE ANESTHESIA TEAM NOTED FRAGRANTLY RED BLOOD DRAINING IN LARGE AND CONSTANT FLOW. AFTER 15 MINUTES AND OVER 200CC OF DRAINAGE THEY DECIDED"
+     },
+     {
+      "problem": "Restricted Flow rate",
+      "reports": 1635,
+      "narrative": "THE IMPELLA DEVICE WAS NOT RECEIVED FROM THE CUSTOMER AND THEREFORE, AN EVALUATION OF THE DEVICE WAS NOT POSSIBLE. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED."
+     },
+     {
+      "problem": "Patient-Device Incompatibility",
+      "reports": 1625,
+      "narrative": "THE COMPLAINANT REPORTED A PATIENT WAS GOING TO BE IMPLANTED WITH AN IMPELLA CP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. IT WAS REPORTED THAT THE PHYSICIAN MADE ATTEMPTS TO INSERT THE IMPELLA CP DEVICE. DELIVERY FAILED AND THE IMPELLA CP KINKED WITH ATTEMPTED INSERTION. THE IMPELLA CP DEVICE WAS REMOVED, AND THE TEAM ADJUSTED THE GRAFT AND REPLACED WITH AN IMPELLA 5.5 DEVICE. NO PATIENT HARM OR INJURY NOTED."
+     },
+     {
+      "problem": "Pumping Stopped",
+      "reports": 1221,
+      "narrative": "THE COMPLAINANT REPORTED A PATIENT IN ACUTE MYOCARDIAL INFARCTION/CARDIOGENIC SHOCK WAS IMPLANTED WITH AN IMPELLA CP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. IT WAS REPORTED WHILE ON IMPELLA CP SUPPORT, THE PATIENT EXPERIENCED OOZING AT THE IMPELLA ACCESS SITE. THE SITE WAS DERMABONDED AND THE PATIENT WAS TRANSFUSED WITH ONE UNIT OF PACKED RED BLOOD CELLS. IT WAS ALSO REPORTED THAT THE PURGE FLUID LEAKED FROM THE Y"
+     },
+     {
+      "problem": "Positioning Failure",
+      "reports": 1033,
+      "narrative": "THE INVESTIGATION FOR THE REPORTED OPTICAL ISSUES AND POSITIONING ISSUES HAS BEEN COMPLETED. THE IMPELLA 5.5 PUMP WAS RETURNED. THE PUMP WAS VISUALLY INSPECTED AND CATHETER WAS FOUND TO BE TORQUED/KINKED DURING SUPPORT. NO OTHER PHYSICAL ABNORMALITIES OR DAMAGES WERE FOUND. THE OPTICAL BENCH 5S PARAMETERS WERE FOUND TO BE NORMAL AND THE LIGHT CONTINUITY TEST PASSED WITHOUT ANY ISSUES. PUMP WAS CONNECTED TO THE CONSOL"
+     },
+     {
+      "problem": "Application Program Problem",
+      "reports": 781,
+      "narrative": "A.1 ADDED INFORMATION AS IT WAS INADVERTENTLY OMITTED FROM THE INITIAL MANUFACTURER DEVICE REPORT NUMBER 1220648-2023-04612. A.2 AGE SHOULD HAVE BEEN LEFT BLANK IN ACCORDANCE WITH UPDATED PROCEDURES ON THE INITIAL MANUFACTURER DEVICE REPORT NUMBER 1220648-2023-04612 AS NO PATIENT WAS INVOLVED. D.2 COMMON DEVICE NAME WAS REVISED IN ACCORDANCE WITH UPDATED PROCEDURES SINCE THE INITIAL MANUFACTURER DEVICE REPORT NUMBER"
+     },
+     {
+      "problem": "Fluid/Blood Leak",
+      "reports": 678,
+      "narrative": "THE INVESTIGATION FOR THE REPORTED PURGE LEAK HAS BEEN COMPLETED. THE PRODUCT WAS NOT RETURNED. HOWEVER, CLINICAL DETAILS WAS SUFFICIENT TO DETERMINE THE ROOT CAUSE. THE ROOT CAUSE OF THE DAMAGED SIDEARM IS MOST LIKELY DUE TO USE AS THE CLINICAL STATED THAT IS OCCURRED MOST LIKELY DUE TO TRANSPORT TO THE ICU. THE INSTRUCTIONS FOR USE REFERENCED IN THE INITIAL REPORT IS FROM IFU FOR IMPELLA CP WITH SMARTASSIST FOR USE"
+     },
+     {
+      "problem": "Increase in Pressure",
+      "reports": 677,
+      "narrative": "THE COMPLAINANT REPORTED DURING IMPELLA 5.5 SUPPORT FOR 65-YEAR-OLD MALE PATIENT, THE PURGE PRESSURE WAS HIGH. THERE WERE NO KINKS OR EXTERNAL INFLUENCES NOTED. THERE WAS NO REPORTED PATIENT HARM."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 15,
+    "citations": 12,
+    "hops": 2,
+    "anchors": [
+     "K202330",
+     "K192769",
+     "K112892"
+    ]
+   },
+   "payload": {
+    "anchors": [
+     "K202330",
+     "K192769",
+     "K112892"
+    ],
+    "nodes": [
+     {
+      "k": "K050168",
+      "name": "LANGSTON DUAL LUMEN PRESSURE MONITORING CATHETER",
+      "anchor": false
+     },
+     {
+      "k": "K052570",
+      "name": "TANDEMHEART TRANSSEPTAL CANNULA SET-EF, MODEL 5140-6221",
+      "anchor": false
+     },
+     {
+      "k": "K063723",
+      "name": "IMPELLA RECOVER LP 2.5 PERCUTANEOUS CARDIAC SUPPORT SYSTEM",
+      "anchor": false
+     },
+     {
+      "k": "K112892",
+      "name": "IMPELLA 2.5 PLUS CATHETER",
+      "anchor": true
+     },
+     {
+      "k": "K122084",
+      "name": "INTRODUCER SET, MODEL ADELANTE-S SERIES",
+      "anchor": false
+     },
+     {
+      "k": "K140338",
+      "name": "CREGANNA TACTX LOTUS INTRODUCER SET (SMALL), CREGANNA TACTX LOTUS INTRODUCER SET",
+      "anchor": false
+     },
+     {
+      "k": "K152225",
+      "name": "Edwards eSheath Introducer Set",
+      "anchor": false
+     },
+     {
+      "k": "K180785",
+      "name": "iSLEEVE Introducer Set",
+      "anchor": false
+     },
+     {
+      "k": "K192769",
+      "name": "Impella CP Introducer",
+      "anchor": true
+     },
+     {
+      "k": "K202330",
+      "name": "Impella XR Sheath Set",
+      "anchor": true
+     },
+     {
+      "k": "K780532",
+      "name": "PERCUTANEOUS SHEATH INTRODUCER KIT",
+      "anchor": false
+     },
+     {
+      "k": "K924642",
+      "name": "MEDTRONIC BIO-MEDICUS FEMORAL CANNULA/INTRODUCER",
+      "anchor": false
+     },
+     {
+      "k": "K924643",
+      "name": "MEDTRONIC BIO-MEDICUS CANNULA INSERTION KIT",
+      "anchor": false
+     },
+     {
+      "k": "K934901",
+      "name": "TEAR-AWAY SHEATH INTRODUCER SET WITH INTEGRAL HEMOSTASIS VALVE",
+      "anchor": false
+     },
+     {
+      "k": "K991783",
+      "name": "AB-180 XC SYSTEM, MODEL AB-180XC",
+      "anchor": false
+     }
+    ],
+    "edges": [
+     {
+      "from": "K112892",
+      "to": "K063723",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "not currently exist for these devices.\n(i.e. none established under section 514 of the F D & C Act.)\nC. Predicate Device:\nThe IMPELLA 2.5 (K063723)\n0. Device Description:\nThe Impella 2.5 Plus is an up",
+      "hop": 1
+     },
+     {
+      "from": "K192769",
+      "to": "K122084",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ces.\n(i.e. none established under section 514 of the F D & C Act.)\nC. Predicate Device:\nOscor Introducer set, Model Adelante-S2 Introducer, K122084\nD. Device Description:\nThe Impella CP Introducer is ",
+      "hop": 1
+     },
+     {
+      "from": "K202330",
+      "to": "K780532",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ntific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow\nPercutaneous Sheath Introducer, which is cleared under K780532.\nThe predicate devices have not been subjected to an",
+      "hop": 1
+     },
+     {
+      "from": "K202330",
+      "to": "K180785",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "340\nRegulation Description: Catheter Introducer\nC. Predicate Device:\nBoston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow\nPercutaneous Sheath Introducer, whi",
+      "hop": 1
+     },
+     {
+      "from": "K063723",
+      "to": "K050168",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "keted Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168\nd. Device Description:\nThe IMPELLA RECOVER\u00ae LP 2.5 P",
+      "hop": 2
+     },
+     {
+      "from": "K063723",
+      "to": "K924643",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "r\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen Catheter - ",
+      "hop": 2
+     },
+     {
+      "from": "K063723",
+      "to": "K924642",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dual Lumen C",
+      "hop": 2
+     },
+     {
+      "from": "K063723",
+      "to": "K052570",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "er (classified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Langston Dua",
+      "hop": 2
+     },
+     {
+      "from": "K063723",
+      "to": "K991783",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ar catheter (classified under\n870.1200)\nProduct Code: 74KFM, 74DWF, 74DQO\nc. Legally Marketed Predicate Devices\n\u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643\n\u2022 Vascular Solutions Lan",
+      "hop": 2
+     },
+     {
+      "from": "K122084",
+      "to": "K934901",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "niostasis Valve\nClassification Names: Catheter Introducer\nPredicate Devices: Tearaway Sheath Introducer Set with Integral Hemostaris\nValve (K934901)\nDevice Description: The components of the SafeSheat",
+      "hop": 2
+     },
+     {
+      "from": "K180785",
+      "to": "K152225",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ss II, 21 CFR Part 870.1340\nPrimary Predicate Creganna-Tactx K140338 27 August 2014\nDevice LotusTM Introducer Set\nReference Edwards eSheath K152225 24 November 2015\nDevice(s) Introducer Set\nDevice Des",
+      "hop": 2
+     },
+     {
+      "from": "K180785",
+      "to": "K140338",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "roducer Set\nCommon Name Catheter introducer\nProduct Code DYB\nClassification Class II, 21 CFR Part 870.1340\nPrimary Predicate Creganna-Tactx K140338 27 August 2014\nDevice LotusTM Introducer Set\nReferen",
+      "hop": 2
+     }
+    ],
+    "hopCap": 2,
+    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 43319,
+    "totalPaid": 52843494.14,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 6884480.56,
+      "payments": 114,
+      "years": "2015\u20132022",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "VA",
+      "total": 3849009.75,
+      "payments": 1910,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 1692175.86,
+      "payments": 647,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MI",
+      "total": 1046782.84,
+      "payments": 893,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NJ",
+      "total": 1021080.73,
+      "payments": 315,
+      "years": "2015\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 883296.66,
+      "payments": 789,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "NY",
+      "total": 830201.7,
+      "payments": 637,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MA",
+      "total": 670319.33,
+      "payments": 46,
+      "years": "2013\u20132022",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "NJ",
+      "total": 604513.57,
+      "payments": 580,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "LA",
+      "total": 460846.17,
+      "payments": 476,
+      "years": "2013\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 6884480.56,
+      "payments": 114,
+      "years": "2015\u20132022",
+      "topNature": "Travel and Lodging",
+      "name": "Eric Rose"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "VA",
+      "total": 3849009.75,
+      "payments": 1910,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "George Vetrovec"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 1692175.86,
+      "payments": 647,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Navin Kapur"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MI",
+      "total": 1046782.84,
+      "payments": 893,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Amir Kaki"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NJ",
+      "total": 1021080.73,
+      "payments": 315,
+      "years": "2015\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Daniel Burkhoff"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 883296.66,
+      "payments": 789,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Mark Anderson"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "NY",
+      "total": 830201.7,
+      "payments": 637,
+      "years": "2013\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Marc Dickstein"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MA",
+      "total": 670319.33,
+      "payments": 46,
+      "years": "2013\u20132022",
+      "topNature": "Travel and Lodging",
+      "name": "W Gerald Austen"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "NJ",
+      "total": 604513.57,
+      "payments": 580,
+      "years": "2014\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Rajiv Tayal"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "LA",
+      "total": 460846.17,
+      "payments": 476,
+      "years": "2013\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Rajan Patel"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "BOSTON SCIENTIFIC CORP",
+    "nParents": 55,
+    "inspections": 8770,
+    "citations": 4457,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 2,
+     "inMdl": 0,
+     "terminationRatio": 1.0,
+     "firstFiled": "2007-08-28",
+     "lastFiled": "2019-02-27"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 33,
+    "assignees": [
+     "Abiomed"
+    ]
+   },
+   "payload": {
+    "patents": 33,
+    "recent": [
+     {
+      "id": "6324430",
+      "title": "Magnetic shield for primary coil of transcutaneous energy transfer device",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6324431",
+      "title": "Transcutaneous energy transfer device with magnetic field protected components in secondary coil",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6319231",
+      "title": "Medical connector",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6314322",
+      "title": "System and method for treating dilated cardiomyopathy using end diastolic volume (EDV) sensing",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6228023",
+      "title": "Tissue pick and method for use in minimally invasive surgical procedures",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6224540",
+      "title": "Passive girdle for heart ventricle for therapeutic aid to patients having ventricular dilatation",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6210318",
+      "title": "Stented balloon pump system and method for using same",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     },
+     {
+      "id": "6212430",
+      "title": "Electromagnetic field source with detection of position of secondary coil in relation to multiple primary coils",
+      "year": 2001,
+      "assignee": "Abiomed, Inc."
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 8,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 16848
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "Q0508",
+      "description": "Miscellaneous supply or accessory for use with an implanted ventricular assist device",
+      "services": 199227
+     },
+     {
+      "code": "Q0509",
+      "description": "Miscellaneous supply or accessory for use with any implanted ventricular assist device for which payment was not made under medicare part a",
+      "services": 49434
+     },
+     {
+      "code": "Q0506",
+      "description": "Battery, lithium-ion, for use with electric or electric/pneumatic ventricular assist device, replacement only",
+      "services": 15668
+     },
+     {
+      "code": "Q0497",
+      "description": "Battery clips for use with electric or electric/pneumatic ventricular assist device, replacement only",
+      "services": 2177
+     },
+     {
+      "code": "Q0499",
+      "description": "Belt/vest/bag for use to carry external peripheral components of any type ventricular assist device, replacement only",
+      "services": 995
+     },
+     {
+      "code": "Q0498",
+      "description": "Holster for use with electric or electric/pneumatic ventricular assist device, replacement only",
+      "services": 950
+     }
+    ],
+    "states": [
+     {
+      "state": "Florida",
+      "services": 16848,
+      "beneficiaries": 3073
+     },
+     {
+      "state": "Tennessee",
+      "services": 4072,
+      "beneficiaries": 569
+     },
+     {
+      "state": "Ohio",
+      "services": 3974,
+      "beneficiaries": 49
+     },
+     {
+      "state": "California",
+      "services": 3448,
+      "beneficiaries": 436
+     },
+     {
+      "state": "Indiana",
+      "services": 2832,
+      "beneficiaries": 577
+     },
+     {
+      "state": "Arizona",
+      "services": 101,
+      "beneficiaries": 36
+     },
+     {
+      "state": "Minnesota",
+      "services": 92,
+      "beneficiaries": 21
+     },
+     {
+      "state": "North Carolina",
+      "services": 30,
+      "beneficiaries": 18
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

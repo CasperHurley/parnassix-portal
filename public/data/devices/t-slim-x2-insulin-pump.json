@@ -1,0 +1,1379 @@
+{
+ "slug": "t-slim-x2-insulin-pump",
+ "name": "t:slim X2 insulin pump",
+ "maker": "Tandem \u00b7 Diabetes",
+ "rank": 9,
+ "pathway": "510k / De Novo (QFG, Class II \u2014 NOT preempted)",
+ "maturity": "early",
+ "stats": {
+  "deaths": 257,
+  "injuries": 128712,
+  "malfunctions": 964382,
+  "recalls": 10,
+  "classI": 4
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Tandem \u00b7 Diabetes"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "510k / De Novo (QFG, Class II \u2014 NOT preempted)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "THE RARE NON-PREEMPTED DEVICE IN THE TOP 10. Product code QFG = 'Alternate Controller Enabled Insulin Infusion Pump', Class II, 21 CFR 880.5730, created by De Novo DEN180058 (2019-02-14). No PMA \u2014 so Riegel does NOT apply; Medtronic v. Lohr governs and ordinary state design-defect + failure-to-warn claims SURVIVE. The corpus '35 PMA rows' are Tandem's Dexcom-CGM combos, not the pump. This flips t:"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "early"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 257,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 128712,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 964382,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 10,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 4,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Pumping Stopped",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 6860,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 1414441.41,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Jordan Pinsker",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "Florida",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 339,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2025-08-05",
+   "classification": "Class II",
+   "reason": "A software defect in versions 7.9.0.1 and 7.10.1 of the pump software for Tandem t:slim X2 and version 7.9.0.1 of the Tandem Mobi pump with Control-IQ+ technology that are paired with a G7 sensor may result in an unexpec",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-07-21",
+   "classification": "Class I",
+   "reason": "Insulin pumps manufactured with speakers from Revision A and B may malfunction (\"Malfunction 16\") which prevents audible alerts and causes the pumps to become inoperable and stop infusing insulin which could result in a ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-07-03",
+   "classification": "Class II",
+   "reason": "an app\ndefect that occurs when the phone is set to a right-to-left language, which causes app-pump pairing issues and\ngraphical defects, which can potentially lead to incorrect therapy decisions and subsequent hypoglycem",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-02-27",
+   "classification": "Class I",
+   "reason": "A software defect in Version 7.9 of the pump software for Tandem t:slim X2 and Tandem Mobi pumps, when used with Control IQ+ technology, will cause the pump to incorrectly interpolate glucose trends when the Estimated Gl",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-03-05",
+   "classification": "Class I",
+   "reason": "During normal use, the mobile app version 2.7 may crash and be automatically relaunched by the iOS operating system. This cycle intermittently repeats, which leads to excessive Bluetooth communication that may result in ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2022-05-24",
+   "classification": "Class II",
+   "reason": "Insulin pumps may have the following issues: 1) Malfunction 6 Non-Volatile Memory, 2) Inaccurate (Fluctuating) Battery Life Display, 3) Touchscreen Staying On, 4) Unexpected Open Loop, that can be mitigated with a softwa",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2018,
+     "value": 1
+    },
+    {
+     "year": 2020,
+     "value": 1
+    },
+    {
+     "year": 2022,
+     "value": 2
+    },
+    {
+     "year": 2024,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 4
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2013,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 7
+    },
+    {
+     "year": 2015,
+     "value": 20
+    },
+    {
+     "year": 2016,
+     "value": 23
+    },
+    {
+     "year": 2017,
+     "value": 22
+    },
+    {
+     "year": 2018,
+     "value": 21
+    },
+    {
+     "year": 2019,
+     "value": 37
+    },
+    {
+     "year": 2020,
+     "value": 6
+    },
+    {
+     "year": 2021,
+     "value": 13
+    },
+    {
+     "year": 2022,
+     "value": 31
+    },
+    {
+     "year": 2023,
+     "value": 29
+    },
+    {
+     "year": 2024,
+     "value": 30
+    },
+    {
+     "year": 2026,
+     "value": 17
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2013,
+     "value": 53
+    },
+    {
+     "year": 2014,
+     "value": 1675
+    },
+    {
+     "year": 2015,
+     "value": 4958
+    },
+    {
+     "year": 2016,
+     "value": 12606
+    },
+    {
+     "year": 2017,
+     "value": 12792
+    },
+    {
+     "year": 2018,
+     "value": 4361
+    },
+    {
+     "year": 2019,
+     "value": 7357
+    },
+    {
+     "year": 2020,
+     "value": 10304
+    },
+    {
+     "year": 2021,
+     "value": 12219
+    },
+    {
+     "year": 2022,
+     "value": 11832
+    },
+    {
+     "year": 2023,
+     "value": 14241
+    },
+    {
+     "year": 2024,
+     "value": 23017
+    },
+    {
+     "year": 2025,
+     "value": 157
+    },
+    {
+     "year": 2026,
+     "value": 13140
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2020,
+     "value": 539133.92
+    },
+    {
+     "year": 2022,
+     "value": 183925.88
+    },
+    {
+     "year": 2023,
+     "value": 221932.33
+    },
+    {
+     "year": 2024,
+     "value": 469449.28
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 14
+    },
+    {
+     "year": 1991,
+     "value": 13
+    },
+    {
+     "year": 1992,
+     "value": 8
+    },
+    {
+     "year": 1993,
+     "value": 16
+    },
+    {
+     "year": 1994,
+     "value": 25
+    },
+    {
+     "year": 1995,
+     "value": 20
+    },
+    {
+     "year": 1996,
+     "value": 25
+    },
+    {
+     "year": 1997,
+     "value": 22
+    },
+    {
+     "year": 1998,
+     "value": 52
+    },
+    {
+     "year": 1999,
+     "value": 40
+    },
+    {
+     "year": 2000,
+     "value": 21
+    },
+    {
+     "year": 2001,
+     "value": 7
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 2058284,
+    "distinctProblemCodes": 256,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Pumping Stopped",
+      "reports": 246562,
+      "narrative": "IT WAS REPORTED THAT A MALFUNCTION ALARM OCCURRED. THE CUSTOMER REVERTED TO AN ALTERNATE METHOD OF INSULIN THERAPY. THERE WAS NO ADVERSE IMPACT TO THE CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL."
+     },
+     {
+      "problem": "Incorrect Measurement",
+      "reports": 97240,
+      "narrative": "IT WAS REPORTED THAT A MINIMUM FILL NOTIFICATION OCCURRED AFTER THE USER FILLED THE CARTRIDGE WITH 200 UNITS OF INSULIN DURING THE LOAD SEQUENCE. A NEW CARTRIDGE WAS LOADED TO RESOLVE THE ISSUE. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 265 MG/DL."
+     },
+     {
+      "problem": "Charging Problem",
+      "reports": 94439,
+      "narrative": "IT WAS REPORTED THAT THE PUMP BATTERY COULD NOT BE CHARGED. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 177 MG/DL. THE CUSTOMER REVERTED TO AN ALTERNATE METHOD OF INSULIN THERAPY."
+     },
+     {
+      "problem": "Battery Problem",
+      "reports": 77245,
+      "narrative": "THE DEVICE HAS BEEN RECEIVED FOR EVALUATION; HOWEVER, DEVICE EVALUATION IS NOT YET COMPLETE. A SUPPLEMENTAL REPORT WILL BE FILED UPON COMPLETION OF THE EVALUATION. DEVICE NOT RETURNED."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 65369,
+      "narrative": "IT WAS REPORTED THAT THE CUSTOMER EXPERIENCED A LOW BLOOD GLUCOSE (BG) LEVEL OF APPROXIMATELY 20 MG/DL WITH AN UNKNOWN CAUSE. PARAMEDICS TRANSPORTED CUSTOMER TO THE EMERGENCY ROOM (ER) WHERE DEXTROSE WAS USED TO TREAT LOW BG. CUSTOMER WAS RELEASED FROM THE ER AFTER A FIVE HOURS FEELING BETTER."
+     },
+     {
+      "problem": "Obstruction of Flow",
+      "reports": 62549,
+      "narrative": "IT WAS REPORTED THAT INTERMITTENT OCCLUSION ALARMS OCCURRED. CUSTOMER REPORTED USING APIDRA. TANDEM TECHNICAL SUPPORT INFORMED CUSTOMER THAT APIDRA IS OFF LABEL PER THE USER GUIDE. CUSTOMER CHANGED PUMP SUPPLIES TO ADDRESS THE ISSUE AND RESUMED INSULIN DELIVERY. CUSTOMER'S BLOOD GLUCOSE WAS 330 MG/DL."
+     },
+     {
+      "problem": "Failure to Sense",
+      "reports": 55150,
+      "narrative": "IT WAS REPORTED THAT THE PUMP TOUCHSCREEN TIMES OUT EARLY. CUSTOMER'S BLOOD GLUCOSE WAS 79 MG/DL. DURING TROUBLESHOOTING WITH TANDEM TECHNICAL SUPPORT, THE ISSUE WAS RESOLVED."
+     },
+     {
+      "problem": "Communication or Transmission Problem",
+      "reports": 44002,
+      "narrative": "IT WAS REPORTED THAT THE CUSTOMER WENT TO THE EMERGENCY ROOM AND WAS SUBSEQUENTLY ADMITTED TO THE INTENSIVE CARE UNIT DUE TO A BLOOD GLUCOSE (BG) LEVEL OF 35 MG/DL; CAUSE WAS NOT KNOWN. REPORTEDLY, THERE WAS A BLOOD CLOT IN THE CUSTOMER\u00bfS LUNG. CUSTOMER CONSUMED CARBOHYDRATES AND WAS TREATED WITH BLOOD THINNERS AND INTRAVENOUS LIQUIDS. CUSTOMER DID NOT SPECIFY WHAT INTRAVENOUS LIQUIDS WERE ADMINISTERED. CUSTOMER WAS"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 16,
+    "citations": 30,
+    "hops": 2,
+    "anchors": [
+     "K250792",
+     "K232380",
+     "K203234"
+    ]
+   },
+   "payload": {
+    "anchors": [
+     "K250792",
+     "K232380",
+     "K203234"
+    ],
+    "nodes": [
+     {
+      "k": "DEN170088",
+      "name": "Dexcom G6 Continuous Glucose Monitoring System",
+      "anchor": false
+     },
+     {
+      "k": "DEN180058",
+      "name": "t:slim X2 insulin pump with interoperable technology",
+      "anchor": false
+     },
+     {
+      "k": "DEN190034",
+      "name": "Control-IQ Technology",
+      "anchor": false
+     },
+     {
+      "k": "K190487",
+      "name": "InPen Dose Calculator",
+      "anchor": false
+     },
+     {
+      "k": "K192841",
+      "name": "InPen System",
+      "anchor": false
+     },
+     {
+      "k": "K193483",
+      "name": "Basal-IQ Technology",
+      "anchor": false
+     },
+     {
+      "k": "K200467",
+      "name": "Control-IQ Technology",
+      "anchor": false
+     },
+     {
+      "k": "K201214",
+      "name": "t:slim X2 Insulin Pump with Interoperable Technology",
+      "anchor": false
+     },
+     {
+      "k": "K203234",
+      "name": "t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app)",
+      "anchor": true
+     },
+     {
+      "k": "K213919",
+      "name": "Dexcom G7 Continuous Glucose Monitoring System",
+      "anchor": false
+     },
+     {
+      "k": "K221259",
+      "name": "Dexcom G6 Continuous Glucose Monitoring (CGM) System, Dexcom G6 Glucose Program ",
+      "anchor": false
+     },
+     {
+      "k": "K223931",
+      "name": "Dexcom G6 Continuous Glucose Monitoring (CGM) System",
+      "anchor": false
+     },
+     {
+      "k": "K232380",
+      "name": "t:slim X2 Insulin Pump with Interoperable Technology",
+      "anchor": true
+     },
+     {
+      "k": "K250792",
+      "name": "t:slim X2 insulin pump with interoperable technology",
+      "anchor": true
+     },
+     {
+      "k": "P140015",
+      "name": "",
+      "anchor": false
+     },
+     {
+      "k": "P180008",
+      "name": "",
+      "anchor": false
+     }
+    ],
+    "edges": [
+     {
+      "from": "K203234",
+      "to": "K193483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
+      "hop": 1
+     },
+     {
+      "from": "K203234",
+      "to": "K201214",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
+      "hop": 1
+     },
+     {
+      "from": "K203234",
+      "to": "K200467",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "utomated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabetes management.\nIV. Comparison with ",
+      "hop": 1
+     },
+     {
+      "from": "K203234",
+      "to": "DEN170088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitor",
+      "hop": 1
+     },
+     {
+      "from": "K232380",
+      "to": "K203234",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "730\nProduct code QFG\nRegulatory class II\nPredicate devices t:slim X2 Insulin Pump with Interoperable Technology (with\nt:connect mobile app (K203234)\nIntended Use\nThe t:slim X2 Insulin Pump with Intero",
+      "hop": 1
+     },
+     {
+      "from": "K232380",
+      "to": "K200467",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The\nlatter is being s",
+      "hop": 1
+     },
+     {
+      "from": "K232380",
+      "to": "K193483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ed from other interoperable devices.\nThe pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabe",
+      "hop": 1
+     },
+     {
+      "from": "K232380",
+      "to": "K223931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "betes management. The\nlatter is being submitted concurrently.\nIn addition, the Subject Device is compatible with iCGM systems cleared under K223931 21 CFR\n862.1355.",
+      "hop": 1
+     },
+     {
+      "from": "K250792",
+      "to": "K232380",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ode\nClassification Name Alternate controller enabled infusion pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nPredicate Device K232380, t:slim X2 insulin pump with\ninteroperable technolog",
+      "hop": 1
+     },
+     {
+      "from": "K193483",
+      "to": "P140015",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ance data presented demonstrates that the Basal-IQ Technology of the already\napproved t:slim X2 Insulin Pump paired with the Dexcom G5 CGM (P140015/S020) can be\nused safely and that it functions as in",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "K190487",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Calculator\nPredicate Device Subject Device\n(K190487, InPen Dose Calculator) (K193483)\nIndications The InPen dose calculator, a The bolus calculator is indicated for\nfor Use component of the I",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "K192841",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ techn",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "DEN190034",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "or 21 CFR 868.1890\nVII. Device Class Class II\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen D",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "DEN180058",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "led\nInfusion Pump (cleared under 21 CFR 880.5730)(ACE pump). Basal-IQ technology is only\ncompatible with the Tandem t:slim X2 insulin pump (DEN180058). The Basal-IQ software\nand algorithm can receive ",
+      "hop": 2
+     },
+     {
+      "from": "K193483",
+      "to": "P180008",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "XII. Discussion of the Non-Clinical Testing\nThe t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the\nBasal-IQ Technology algorithm and calculator. No new non-clinical la",
+      "hop": 2
+     },
+     {
+      "from": "K200467",
+      "to": "DEN190034",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ation Name/Number\nInteroperable automated glycemic controller per 21 CFR 862.1356\nProduct Codes\nQJI\nPredicate Device\nControl-IQ technology (DEN190034)\nDevice Description\nThe Control-IQ technology, is ",
+      "hop": 2
+     },
+     {
+      "from": "K201214",
+      "to": "K193483",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "her interoperable devices. The Subject Device is compatible\nwith Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and\nControl IQ Technology (DEN190034) to aid in dia",
+      "hop": 2
+     },
+     {
+      "from": "K201214",
+      "to": "DEN190034",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "ct Device is compatible\nwith Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and\nControl IQ Technology (DEN190034) to aid in diabetes management. In addition, the S",
+      "hop": 2
+     },
+     {
+      "from": "K201214",
+      "to": "DEN180058",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "to ensure that the software\nconforms to patient needs and intended uses.\nAdherence of the Special Controls listed in the Predicate Device (DEN180058), and present in the\nSubject Device, show continued",
+      "hop": 2
+     },
+     {
+      "from": "K203234",
+      "to": "K193483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "control, or otherwise impact, any automated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabet",
+      "hop": 2
+     },
+     {
+      "from": "K203234",
+      "to": "K200467",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "utomated dosing\nalgorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology\n(K193483) and Control-IQ Technology (K200467) to aid in diabetes management.\nIV. Comparison with ",
+      "hop": 2
+     },
+     {
+      "from": "K203234",
+      "to": "DEN170088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitor",
+      "hop": 2
+     },
+     {
+      "from": "K203234",
+      "to": "K201214",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e Controller Enabled Infusion Pump\nRegulation Number 21 CFR 880.5730\nDevice Class Class II\nClassification Product Code QFG\nPredicate Device K201214 t:slim X2 Insulin Pump with Interoperable\nTechnology",
+      "hop": 2
+     },
+     {
+      "from": "K223931",
+      "to": "K221259",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Review Panel Clinical Chemistry\n7.3. Predicate and Reference Devices\nPredicate Device\nDexcom G6 Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022)\nReference Devices\nDexcom G6 ",
+      "hop": 2
+     },
+     {
+      "from": "K223931",
+      "to": "DEN170088",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "us Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022)\nReference Devices\nDexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018)\nDexcom G7 Continuous Gluc",
+      "hop": 2
+     },
+     {
+      "from": "K223931",
+      "to": "K213919",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "com G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018)\nDexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022)\n7.4. Device Description\nT",
+      "hop": 2
+     },
+     {
+      "from": "K232380",
+      "to": "K200467",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The\nlatter is being s",
+      "hop": 2
+     },
+     {
+      "from": "K232380",
+      "to": "K223931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "betes management. The\nlatter is being submitted concurrently.\nIn addition, the Subject Device is compatible with iCGM systems cleared under K223931 21 CFR\n862.1355.",
+      "hop": 2
+     },
+     {
+      "from": "K232380",
+      "to": "K193483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ed from other interoperable devices.\nThe pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ\nTechnology (K193483) and Control IQ Technology (K200467) to aid in diabe",
+      "hop": 2
+     },
+     {
+      "from": "K232380",
+      "to": "K203234",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "730\nProduct code QFG\nRegulatory class II\nPredicate devices t:slim X2 Insulin Pump with Interoperable Technology (with\nt:connect mobile app (K203234)\nIntended Use\nThe t:slim X2 Insulin Pump with Intero",
+      "hop": 2
+     }
+    ],
+    "hopCap": 2,
+    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 6860,
+    "totalPaid": 1414441.41,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CA",
+      "total": 45243.18,
+      "payments": 17,
+      "years": "2020\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p2",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner",
+      "state": "PA",
+      "total": 26287.93,
+      "payments": 31,
+      "years": "2024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p3",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Clinical Nurse Specialist|Medical-Surgical",
+      "state": "CT",
+      "total": 26087.63,
+      "payments": 59,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "AL",
+      "total": 22242.58,
+      "payments": 89,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p5",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Primary Care",
+      "state": "TN",
+      "total": 20410.7,
+      "payments": 46,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "TX",
+      "total": 18831.22,
+      "payments": 55,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p7",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner",
+      "state": "MN",
+      "total": 17479.01,
+      "payments": 39,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "UT",
+      "total": 17441.3,
+      "payments": 65,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     },
+     {
+      "id": "p9",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Adult Health",
+      "state": "MS",
+      "total": 15569.89,
+      "payments": 31,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "NM",
+      "total": 13362.38,
+      "payments": 28,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "CA",
+      "total": 45243.18,
+      "payments": 17,
+      "years": "2020\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Jordan Pinsker"
+     },
+     {
+      "id": "p2",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner",
+      "state": "PA",
+      "total": 26287.93,
+      "payments": 31,
+      "years": "2024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Mary Jane Mcdevitt"
+     },
+     {
+      "id": "p3",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Clinical Nurse Specialist|Medical-Surgical",
+      "state": "CT",
+      "total": 26087.63,
+      "payments": 59,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Joann Ahern"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "AL",
+      "total": 22242.58,
+      "payments": 89,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Bethany Jackson"
+     },
+     {
+      "id": "p5",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Primary Care",
+      "state": "TN",
+      "total": 20410.7,
+      "payments": 46,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Mary Sullivan"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "TX",
+      "total": 18831.22,
+      "payments": 55,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Jasbir Dhawan"
+     },
+     {
+      "id": "p7",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner",
+      "state": "MN",
+      "total": 17479.01,
+      "payments": 39,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Annette Haynes"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "UT",
+      "total": 17441.3,
+      "payments": 65,
+      "years": "2020\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Michael Swinyard"
+     },
+     {
+      "id": "p9",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Adult Health",
+      "state": "MS",
+      "total": 15569.89,
+      "payments": 31,
+      "years": "2022\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Kathleen Arnold"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "NM",
+      "total": 13362.38,
+      "payments": 28,
+      "years": "2022\u20132024",
+      "topNature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "name": "Carol Holland"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "BAXTER HEALTHCARE CORP",
+    "nParents": 66,
+    "inspections": 8257,
+    "citations": 6750,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 1,
+     "inMdl": 0,
+     "terminationRatio": 1.0,
+     "firstFiled": "1993-11-04",
+     "lastFiled": "1993-11-04"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 339,
+    "assignees": [
+     "Tandem"
+    ]
+   },
+   "payload": {
+    "patents": 339,
+    "recent": [
+     {
+      "id": "6212926",
+      "title": "Method for spin forming a tube",
+      "year": 2001,
+      "assignee": "Tandem Systems, Inc."
+     },
+     {
+      "id": "6195754",
+      "title": "Method and apparatus for tolerating power outages of variable duration in a multi-processor system",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6192433",
+      "title": "Automatic SCSI termination readjustment",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6189023",
+      "title": "Simulating shared code thread modules with shared code fibers",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6189111",
+      "title": "Resource harvesting in scalable, fault tolerant, single system image clusters",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6175882",
+      "title": "Network system for a first module port auto configuring same mode as a second module port",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6173249",
+      "title": "Method of determining termination of a process under a simulated operating system",
+      "year": 2001,
+      "assignee": "Tandem Computers Incorporated"
+     },
+     {
+      "id": "6163834",
+      "title": "Two level address translation and memory registration system and method",
+      "year": 2000,
+      "assignee": "Tandem Computers Incorporated"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 55,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 1730689
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "J1817",
+      "description": "Insulin for administration through dme (i.e., insulin pump) per 50 units",
+      "services": 116311038
+     },
+     {
+      "code": "A4225",
+      "description": "Supplies for external insulin infusion pump, syringe type cartridge, sterile, each",
+      "services": 38508462
+     },
+     {
+      "code": "K0552",
+      "description": "Supplies for external drug infusion pump, syringe type cartridge, sterile, each",
+      "services": 19743023
+     },
+     {
+      "code": "A4224",
+      "description": "Supplies for maintenance of insulin infusion catheter, per week",
+      "services": 15845620
+     },
+     {
+      "code": "A4222",
+      "description": "Infusion supplies for external drug infusion pump, per cassette or bag (list drugs separately)",
+      "services": 7228389
+     },
+     {
+      "code": "83525",
+      "description": "Insulin measurement",
+      "services": 3357151
+     }
+    ],
+    "states": [
+     {
+      "state": "Florida",
+      "services": 1730689,
+      "beneficiaries": 38090
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 1395707,
+      "beneficiaries": 12913
+     },
+     {
+      "state": "California",
+      "services": 1340084,
+      "beneficiaries": 33489
+     },
+     {
+      "state": "Texas",
+      "services": 1254166,
+      "beneficiaries": 31946
+     },
+     {
+      "state": "Illinois",
+      "services": 1022288,
+      "beneficiaries": 11477
+     },
+     {
+      "state": "New York",
+      "services": 957684,
+      "beneficiaries": 19162
+     },
+     {
+      "state": "Ohio",
+      "services": 886605,
+      "beneficiaries": 21941
+     },
+     {
+      "state": "Tennessee",
+      "services": 875924,
+      "beneficiaries": 9986
+     },
+     {
+      "state": "North Carolina",
+      "services": 812706,
+      "beneficiaries": 22795
+     },
+     {
+      "state": "Georgia",
+      "services": 717100,
+      "beneficiaries": 10981
+     },
+     {
+      "state": "Missouri",
+      "services": 708625,
+      "beneficiaries": 5807
+     },
+     {
+      "state": "Indiana",
+      "services": 707795,
+      "beneficiaries": 5160
+     },
+     {
+      "state": "Minnesota",
+      "services": 669207,
+      "beneficiaries": 5286
+     },
+     {
+      "state": "Virginia",
+      "services": 637317,
+      "beneficiaries": 5613
+     },
+     {
+      "state": "Michigan",
+      "services": 637261,
+      "beneficiaries": 5672
+     },
+     {
+      "state": "Alabama",
+      "services": 596183,
+      "beneficiaries": 9026
+     },
+     {
+      "state": "Massachusetts",
+      "services": 551085,
+      "beneficiaries": 21132
+     },
+     {
+      "state": "Washington",
+      "services": 546888,
+      "beneficiaries": 7058
+     },
+     {
+      "state": "Arizona",
+      "services": 503413,
+      "beneficiaries": 12843
+     },
+     {
+      "state": "Wisconsin",
+      "services": 501175,
+      "beneficiaries": 4308
+     },
+     {
+      "state": "New Jersey",
+      "services": 478913,
+      "beneficiaries": 24085
+     },
+     {
+      "state": "Maryland",
+      "services": 433747,
+      "beneficiaries": 7421
+     },
+     {
+      "state": "South Carolina",
+      "services": 390180,
+      "beneficiaries": 6284
+     },
+     {
+      "state": "Kentucky",
+      "services": 386679,
+      "beneficiaries": 3485
+     },
+     {
+      "state": "Kansas",
+      "services": 373391,
+      "beneficiaries": 6756
+     },
+     {
+      "state": "Iowa",
+      "services": 360150,
+      "beneficiaries": 2463
+     },
+     {
+      "state": "Colorado",
+      "services": 337840,
+      "beneficiaries": 4070
+     },
+     {
+      "state": "Mississippi",
+      "services": 325114,
+      "beneficiaries": 2257
+     },
+     {
+      "state": "Arkansas",
+      "services": 309090,
+      "beneficiaries": 2299
+     },
+     {
+      "state": "Nebraska",
+      "services": 283891,
+      "beneficiaries": 2004
+     },
+     {
+      "state": "Oregon",
+      "services": 280928,
+      "beneficiaries": 4270
+     },
+     {
+      "state": "Louisiana",
+      "services": 260557,
+      "beneficiaries": 3691
+     },
+     {
+      "state": "Oklahoma",
+      "services": 250790,
+      "beneficiaries": 4309
+     },
+     {
+      "state": "Utah",
+      "services": 228935,
+      "beneficiaries": 2301
+     },
+     {
+      "state": "South Dakota",
+      "services": 179504,
+      "beneficiaries": 1384
+     },
+     {
+      "state": "Connecticut",
+      "services": 178706,
+      "beneficiaries": 1574
+     },
+     {
+      "state": "Idaho",
+      "services": 150863,
+      "beneficiaries": 1677
+     },
+     {
+      "state": "New Hampshire",
+      "services": 150178,
+      "beneficiaries": 1147
+     },
+     {
+      "state": "Maine",
+      "services": 146992,
+      "beneficiaries": 1108
+     },
+     {
+      "state": "North Dakota",
+      "services": 146991,
+      "beneficiaries": 1485
+     },
+     {
+      "state": "Montana",
+      "services": 134109,
+      "beneficiaries": 1026
+     },
+     {
+      "state": "West Virginia",
+      "services": 127044,
+      "beneficiaries": 1115
+     },
+     {
+      "state": "Nevada",
+      "services": 121661,
+      "beneficiaries": 2496
+     },
+     {
+      "state": "New Mexico",
+      "services": 103329,
+      "beneficiaries": 1129
+     },
+     {
+      "state": "Delaware",
+      "services": 93174,
+      "beneficiaries": 701
+     },
+     {
+      "state": "Rhode Island",
+      "services": 78095,
+      "beneficiaries": 534
+     },
+     {
+      "state": "Vermont",
+      "services": 64889,
+      "beneficiaries": 497
+     },
+     {
+      "state": "Wyoming",
+      "services": 31692,
+      "beneficiaries": 257
+     },
+     {
+      "state": "Alaska",
+      "services": 31135,
+      "beneficiaries": 331
+     },
+     {
+      "state": "District of Columbia",
+      "services": 28257,
+      "beneficiaries": 301
+     },
+     {
+      "state": "Hawaii",
+      "services": 22026,
+      "beneficiaries": 885
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 5318,
+      "beneficiaries": 439
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 3584,
+      "beneficiaries": 0
+     },
+     {
+      "state": "Armed Forces Pacific",
+      "services": 2743,
+      "beneficiaries": 26
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 20,
+      "beneficiaries": 16
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "slug": "mri-surescan-pacing-leads",
+ "name": "MRI Surescan / pacing leads",
+ "maker": "Medtronic \u00b7 Cardiac rhythm",
+ "rank": 3,
+ "pathway": "pma (P090013)",
+ "maturity": "dormant",
+ "stats": {
+  "deaths": 15113,
+  "injuries": 285075,
+  "malfunctions": 235776,
+  "recalls": 51,
+  "classI": 3
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Medtronic \u00b7 Cardiac rhythm"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (P090013)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted, and the parallel-claim seam does NOT reach the harmed product. The nonconforming-material recalls are on SureScan GENERATORS (Cobalt/Crome/Evera \u2014 weld crack, 2024-04-16); the 108,662 harm reports are anchored on the CapSureFix LEAD, whose most recent nonconforming recall is 2004. Sprint Fidelis (8th Cir. 2010) is on point for the lead. The manufacturing-defect predicate and the har"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "dormant"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 15113,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 285075,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 235776,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 51,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 3,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Over-Sensing",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 10222,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 2980632.94,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Charles Swerdlow",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "New York",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 1934,
+   "format": "number"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2025-04-29",
+   "classification": "Class II",
+   "reason": "Identified devices may experience sudden battery power failure without alarm, power supply power-on-resets, and interruption of therapy. Potential patient harms include insufficient pacing support leading to cardiac arre",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-04-16",
+   "classification": "Class II",
+   "reason": "Potential for manufacturing defect. Weld crack led to devices failing at the leak check step in manufacturing.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-04-16",
+   "classification": "Class II",
+   "reason": "Potential for manufacturing defect. Weld crack led to devices failing at the leak check step in manufacturing.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-04-16",
+   "classification": "Class II",
+   "reason": "Potential for manufacturing defect. Weld crack led to devices failing at the leak check step in manufacturing.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-04-16",
+   "classification": "Class II",
+   "reason": "Potential for manufacturing defect. Weld crack led to devices failing at the leak check step in manufacturing.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-04-16",
+   "classification": "Class II",
+   "reason": "Potential for manufacturing defect. Weld crack led to devices failing at the leak check step in manufacturing.",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2004,
+     "value": 1
+    },
+    {
+     "year": 2010,
+     "value": 3
+    },
+    {
+     "year": 2013,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 2
+    },
+    {
+     "year": 2017,
+     "value": 2
+    },
+    {
+     "year": 2018,
+     "value": 4
+    },
+    {
+     "year": 2019,
+     "value": 2
+    },
+    {
+     "year": 2020,
+     "value": 3
+    },
+    {
+     "year": 2021,
+     "value": 6
+    },
+    {
+     "year": 2022,
+     "value": 1
+    },
+    {
+     "year": 2023,
+     "value": 1
+    },
+    {
+     "year": 2024,
+     "value": 22
+    },
+    {
+     "year": 2025,
+     "value": 1
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1996,
+     "value": 1
+    },
+    {
+     "year": 1997,
+     "value": 7
+    },
+    {
+     "year": 1998,
+     "value": 10
+    },
+    {
+     "year": 1999,
+     "value": 5
+    },
+    {
+     "year": 2000,
+     "value": 8
+    },
+    {
+     "year": 2001,
+     "value": 18
+    },
+    {
+     "year": 2002,
+     "value": 15
+    },
+    {
+     "year": 2003,
+     "value": 15
+    },
+    {
+     "year": 2004,
+     "value": 19
+    },
+    {
+     "year": 2005,
+     "value": 19
+    },
+    {
+     "year": 2006,
+     "value": 54
+    },
+    {
+     "year": 2007,
+     "value": 29
+    },
+    {
+     "year": 2008,
+     "value": 109
+    },
+    {
+     "year": 2009,
+     "value": 112
+    },
+    {
+     "year": 2010,
+     "value": 576
+    },
+    {
+     "year": 2011,
+     "value": 1838
+    },
+    {
+     "year": 2012,
+     "value": 2678
+    },
+    {
+     "year": 2013,
+     "value": 990
+    },
+    {
+     "year": 2014,
+     "value": 954
+    },
+    {
+     "year": 2015,
+     "value": 806
+    },
+    {
+     "year": 2016,
+     "value": 577
+    },
+    {
+     "year": 2017,
+     "value": 896
+    },
+    {
+     "year": 2018,
+     "value": 757
+    },
+    {
+     "year": 2019,
+     "value": 695
+    },
+    {
+     "year": 2020,
+     "value": 595
+    },
+    {
+     "year": 2021,
+     "value": 537
+    },
+    {
+     "year": 2022,
+     "value": 623
+    },
+    {
+     "year": 2023,
+     "value": 936
+    },
+    {
+     "year": 2024,
+     "value": 772
+    },
+    {
+     "year": 2025,
+     "value": 6
+    },
+    {
+     "year": 2026,
+     "value": 456
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1996,
+     "value": 6
+    },
+    {
+     "year": 1997,
+     "value": 316
+    },
+    {
+     "year": 1998,
+     "value": 297
+    },
+    {
+     "year": 1999,
+     "value": 178
+    },
+    {
+     "year": 2000,
+     "value": 350
+    },
+    {
+     "year": 2001,
+     "value": 438
+    },
+    {
+     "year": 2002,
+     "value": 420
+    },
+    {
+     "year": 2003,
+     "value": 378
+    },
+    {
+     "year": 2004,
+     "value": 421
+    },
+    {
+     "year": 2005,
+     "value": 641
+    },
+    {
+     "year": 2006,
+     "value": 1275
+    },
+    {
+     "year": 2007,
+     "value": 1623
+    },
+    {
+     "year": 2008,
+     "value": 2192
+    },
+    {
+     "year": 2009,
+     "value": 2741
+    },
+    {
+     "year": 2010,
+     "value": 5391
+    },
+    {
+     "year": 2011,
+     "value": 8828
+    },
+    {
+     "year": 2012,
+     "value": 9875
+    },
+    {
+     "year": 2013,
+     "value": 9608
+    },
+    {
+     "year": 2014,
+     "value": 12720
+    },
+    {
+     "year": 2015,
+     "value": 13348
+    },
+    {
+     "year": 2016,
+     "value": 13529
+    },
+    {
+     "year": 2017,
+     "value": 14012
+    },
+    {
+     "year": 2018,
+     "value": 17103
+    },
+    {
+     "year": 2019,
+     "value": 22175
+    },
+    {
+     "year": 2020,
+     "value": 23815
+    },
+    {
+     "year": 2021,
+     "value": 25004
+    },
+    {
+     "year": 2022,
+     "value": 24924
+    },
+    {
+     "year": 2023,
+     "value": 27290
+    },
+    {
+     "year": 2024,
+     "value": 28285
+    },
+    {
+     "year": 2025,
+     "value": 285
+    },
+    {
+     "year": 2026,
+     "value": 17604
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1766.94
+    },
+    {
+     "year": 2016,
+     "value": 23339.82
+    },
+    {
+     "year": 2017,
+     "value": 11758.57
+    },
+    {
+     "year": 2018,
+     "value": 27772.93
+    },
+    {
+     "year": 2019,
+     "value": 53207.04
+    },
+    {
+     "year": 2020,
+     "value": 32104.62
+    },
+    {
+     "year": 2021,
+     "value": 73766.79
+    },
+    {
+     "year": 2022,
+     "value": 658243.87
+    },
+    {
+     "year": 2023,
+     "value": 701715.79
+    },
+    {
+     "year": 2024,
+     "value": 1396956.57
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 36
+    },
+    {
+     "year": 1991,
+     "value": 32
+    },
+    {
+     "year": 1992,
+     "value": 71
+    },
+    {
+     "year": 1993,
+     "value": 65
+    },
+    {
+     "year": 1994,
+     "value": 116
+    },
+    {
+     "year": 1995,
+     "value": 96
+    },
+    {
+     "year": 1996,
+     "value": 85
+    },
+    {
+     "year": 1997,
+     "value": 93
+    },
+    {
+     "year": 1998,
+     "value": 250
+    },
+    {
+     "year": 1999,
+     "value": 221
+    },
+    {
+     "year": 2000,
+     "value": 260
+    },
+    {
+     "year": 2001,
+     "value": 236
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 1391097,
+    "distinctProblemCodes": 308,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Over-Sensing",
+      "reports": 72159,
+      "narrative": "IT WAS REPORTED THAT THE RIGHT VENTRICULAR (RV) LEAD TRIGGERED A LEAD INTEGRITY ALERT (LIA) FOR SHORT V-V INTERVALS AND NON-SUSTAINED HIGH RATE EPISODES. THE RV LEAD REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 65249,
+      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
+     },
+     {
+      "problem": "Under-Sensing",
+      "reports": 48998,
+      "narrative": "IT WAS REPORTED THAT THE RIGHT ATRIAL (RA) LEAD EXHIBITED INTERMITTENT UNDERSENSING OF ATRIAL ARRHYTHMIAS NOTED ON PRESENT RHYTHM CAUSING \" INCONSISTENT VENTRICULAR PACED RATES \". THE LEAD REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+     },
+     {
+      "problem": "High Capture Threshold",
+      "reports": 45096,
+      "narrative": "PRODUCT EVENT SUMMARY: THE LEAD WAS NOT RETURNED FOR ANALYSIS, HOWEVER, PERFORMANCE DATA COLLECTED FROM THE DEVICE WAS RECEIVED AND ANALYZED. ANALYSIS OF THE DEVICE MEMORY INDICATED PACING CAPTURE THRESHOLD IN THE LEFT VENTRICLE WAS HIGH. ANALYSIS OF THE DEVICE MEMORY INDICATED THE IMPEDANCE TREND OF THE LEFT VENTRICULAR PACING LEAD WAS DECREASING. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL"
+     },
+     {
+      "problem": "High impedance",
+      "reports": 40504,
+      "narrative": "IT WAS REPORTED THE RIGHT VENTRICULAR (RV) LEAD WAS FRACTURED AND EXHIBITED HIGH IMPEDANCE. THE RV LEAD WAS EXPLANTED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+     },
+     {
+      "problem": "Signal Artifact/Noise",
+      "reports": 33972,
+      "narrative": "IT WAS FURTHER REPORTED THAT DURING LEAD REPLACEMENT, THE LEAD WAS ATTEMPTED TO BE REPLACED BUT THE GUIDE WIRE COULD NOT BE ADVANCED AND LEAD REMOVAL WAS ABANDONED. THE LEAD REMAINS IN THE PATIENT OUT OF SERVICE. A NEW LEAD WAS IMPLANTED FROM THE RIGHT SIDE."
+     },
+     {
+      "problem": "Device Dislodged or Dislocated",
+      "reports": 33654,
+      "narrative": "THE REPORTED FIELD EVENT OF DISLODGEMENT, HIGH CAPTURE THRESHOLD, AND HIGH IMPEDANCE WERE NOT CONFIRMED. THE DAMAGE FOUND WAS SUSTAINED DURING THE SURGICAL PROCEDURE. THE LEAD WAS OTHERWISE NORMAL."
+     },
+     {
+      "problem": "Failure to Capture",
+      "reports": 26476,
+      "narrative": "IT WAS REPORTED THAT THE RIGHT ATRIAL (RA) LEAD DISLODGED ONE DAY AFTER IMPLANT. IT WAS FURTHER REPORTED THAT THE RA LEAD EXHIBITED NON-CAPTURE AND FAR FIELD R-WAVE (FFRW) OVER-SENSING. THE RA LEAD WAS RE-POSITIONED AND REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "notApplicable": true,
+   "reason": "PMA-pathway device \u2014 there is no 510(k) predicate lineage. A PMA supplement-lineage map is available on request.",
+   "source": "FDA 510(k) summaries predicate-edge extraction."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 10222,
+    "totalPaid": 2980632.94,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 200597.36,
+      "payments": 37,
+      "years": "2016\u20132024",
+      "topNature": "Royalty or License"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OH",
+      "total": 15632.16,
+      "payments": 151,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "FL",
+      "total": 14410.94,
+      "payments": 137,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "GA",
+      "total": 14235.0,
+      "payments": 31,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "UT",
+      "total": 11826.63,
+      "payments": 19,
+      "years": "2019\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "VA",
+      "total": 11033.94,
+      "payments": 76,
+      "years": "2023\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 10105.28,
+      "payments": 21,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "FL",
+      "total": 9806.56,
+      "payments": 13,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 9467.32,
+      "payments": 21,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Physician Assistant",
+      "state": "NY",
+      "total": 9175.93,
+      "payments": 271,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 200597.36,
+      "payments": 37,
+      "years": "2016\u20132024",
+      "topNature": "Royalty or License",
+      "name": "Charles Swerdlow"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "OH",
+      "total": 15632.16,
+      "payments": 151,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Anish Amin"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "FL",
+      "total": 14410.94,
+      "payments": 137,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "David Wilson"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "GA",
+      "total": 14235.0,
+      "payments": 31,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee",
+      "name": "Ashish Bhimani"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "UT",
+      "total": 11826.63,
+      "payments": 19,
+      "years": "2019\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Roger Freedman"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "VA",
+      "total": 11033.94,
+      "payments": 76,
+      "years": "2023\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Oliver Monfredi"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "CA",
+      "total": 10105.28,
+      "payments": 21,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Ivan Ho"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "FL",
+      "total": 9806.56,
+      "payments": 13,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Raul Weiss"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 9467.32,
+      "payments": 21,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Pugazhendhi Vijayaraman"
+     },
+     {
+      "id": "p10",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Physician Assistant",
+      "state": "NY",
+      "total": 9175.93,
+      "payments": 271,
+      "years": "2022\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Hannibal Gambino"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "MEDTRONIC INC",
+    "nParents": 12,
+    "inspections": 2403,
+    "citations": 1570,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 4729,
+     "inMdl": 82,
+     "terminationRatio": 0.99,
+     "firstFiled": "1984-04-20",
+     "lastFiled": "2021-06-11"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 1934,
+    "assignees": [
+     "Medtronic"
+    ]
+   },
+   "payload": {
+    "patents": 1934,
+    "recent": [
+     {
+      "id": "RE37480",
+      "title": "Cardiac pacer which compensates for effects of abrupt changes in heart rate",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6334068",
+      "title": "Intraoperative neuroelectrophysiological monitor",
+      "year": 2001,
+      "assignee": "Medtronic Xomed, Inc."
+     },
+     {
+      "id": "6334070",
+      "title": "Visual and aural user interface for an automated external defibrillator",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452318",
+      "title": "Electrode connector",
+      "year": 2001,
+      "assignee": "Medtronic Physio-Control Manufacturing Corp."
+     },
+     {
+      "id": "D452323",
+      "title": "Glucose sensor",
+      "year": 2001,
+      "assignee": "Medtronic Minimed Inc."
+     },
+     {
+      "id": "6331189",
+      "title": "Flexible medical stent",
+      "year": 2001,
+      "assignee": "Medtronic, Inc."
+     },
+     {
+      "id": "6329929",
+      "title": "Telemetry system with phase-locking noise suppressing receiver",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     },
+     {
+      "id": "6330475",
+      "title": "System and a corresponding method for treating defibrillation in a heart",
+      "year": 2001,
+      "assignee": "Medtronic Inc."
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+   },
+   "source": "USPTO bibliographic grant records matched on assignee name."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 55,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 526098
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "93294",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 11885287
+     },
+     {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 10504201
+     },
+     {
+      "code": "93296",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "services": 9497032
+     },
+     {
+      "code": "93288",
+      "description": "Evaluation of parameters of single, dual, or multiple lead pacemaker including device connection, recording, and disconnection",
+      "services": 2877152
+     },
+     {
+      "code": "93293",
+      "description": "Telephonic evaluation of single, dual, or multiple lead pacemaker heart rhythm strips up to 90 days",
+      "services": 1942365
+     },
+     {
+      "code": "93279",
+      "description": "Evaluation, testing, and programming adjustment of permanent single lead pacemaker system with physician analysis, review, and report",
+      "services": 1758092
+     }
+    ],
+    "states": [
+     {
+      "state": "New York",
+      "services": 526098,
+      "beneficiaries": 204282
+     },
+     {
+      "state": "Florida",
+      "services": 359802,
+      "beneficiaries": 165140
+     },
+     {
+      "state": "Texas",
+      "services": 329779,
+      "beneficiaries": 147510
+     },
+     {
+      "state": "California",
+      "services": 308905,
+      "beneficiaries": 147639
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 214891,
+      "beneficiaries": 98378
+     },
+     {
+      "state": "Illinois",
+      "services": 173706,
+      "beneficiaries": 82285
+     },
+     {
+      "state": "Ohio",
+      "services": 165397,
+      "beneficiaries": 75013
+     },
+     {
+      "state": "North Carolina",
+      "services": 150056,
+      "beneficiaries": 67144
+     },
+     {
+      "state": "New Jersey",
+      "services": 128027,
+      "beneficiaries": 57933
+     },
+     {
+      "state": "Tennessee",
+      "services": 124072,
+      "beneficiaries": 58547
+     },
+     {
+      "state": "Georgia",
+      "services": 122640,
+      "beneficiaries": 53541
+     },
+     {
+      "state": "Virginia",
+      "services": 117651,
+      "beneficiaries": 56007
+     },
+     {
+      "state": "Massachusetts",
+      "services": 116287,
+      "beneficiaries": 54905
+     },
+     {
+      "state": "Missouri",
+      "services": 112122,
+      "beneficiaries": 50012
+     },
+     {
+      "state": "Indiana",
+      "services": 111530,
+      "beneficiaries": 51034
+     },
+     {
+      "state": "Arizona",
+      "services": 109727,
+      "beneficiaries": 48197
+     },
+     {
+      "state": "South Carolina",
+      "services": 102852,
+      "beneficiaries": 47511
+     },
+     {
+      "state": "Washington",
+      "services": 98709,
+      "beneficiaries": 43905
+     },
+     {
+      "state": "Michigan",
+      "services": 91083,
+      "beneficiaries": 47245
+     },
+     {
+      "state": "Minnesota",
+      "services": 84757,
+      "beneficiaries": 41247
+     },
+     {
+      "state": "Kansas",
+      "services": 76720,
+      "beneficiaries": 34190
+     },
+     {
+      "state": "Alabama",
+      "services": 74984,
+      "beneficiaries": 34583
+     },
+     {
+      "state": "Maryland",
+      "services": 73087,
+      "beneficiaries": 36743
+     },
+     {
+      "state": "Colorado",
+      "services": 71970,
+      "beneficiaries": 29899
+     },
+     {
+      "state": "Kentucky",
+      "services": 71488,
+      "beneficiaries": 31837
+     },
+     {
+      "state": "Louisiana",
+      "services": 60447,
+      "beneficiaries": 27444
+     },
+     {
+      "state": "Oklahoma",
+      "services": 59101,
+      "beneficiaries": 26830
+     },
+     {
+      "state": "Wisconsin",
+      "services": 55868,
+      "beneficiaries": 30408
+     },
+     {
+      "state": "Arkansas",
+      "services": 55713,
+      "beneficiaries": 26989
+     },
+     {
+      "state": "Iowa",
+      "services": 52066,
+      "beneficiaries": 23259
+     },
+     {
+      "state": "Nebraska",
+      "services": 51238,
+      "beneficiaries": 22153
+     },
+     {
+      "state": "Mississippi",
+      "services": 49643,
+      "beneficiaries": 24038
+     },
+     {
+      "state": "Connecticut",
+      "services": 45319,
+      "beneficiaries": 22164
+     },
+     {
+      "state": "Oregon",
+      "services": 37475,
+      "beneficiaries": 19349
+     },
+     {
+      "state": "West Virginia",
+      "services": 27996,
+      "beneficiaries": 13341
+     },
+     {
+      "state": "Utah",
+      "services": 27717,
+      "beneficiaries": 14216
+     },
+     {
+      "state": "Nevada",
+      "services": 20961,
+      "beneficiaries": 11173
+     },
+     {
+      "state": "Montana",
+      "services": 19969,
+      "beneficiaries": 9746
+     },
+     {
+      "state": "Delaware",
+      "services": 19273,
+      "beneficiaries": 10265
+     },
+     {
+      "state": "Idaho",
+      "services": 17212,
+      "beneficiaries": 10120
+     },
+     {
+      "state": "New Hampshire",
+      "services": 15540,
+      "beneficiaries": 8171
+     },
+     {
+      "state": "Alaska",
+      "services": 15116,
+      "beneficiaries": 5594
+     },
+     {
+      "state": "South Dakota",
+      "services": 14038,
+      "beneficiaries": 7375
+     },
+     {
+      "state": "New Mexico",
+      "services": 11682,
+      "beneficiaries": 5522
+     },
+     {
+      "state": "Maine",
+      "services": 10986,
+      "beneficiaries": 6167
+     },
+     {
+      "state": "North Dakota",
+      "services": 9892,
+      "beneficiaries": 5664
+     },
+     {
+      "state": "Rhode Island",
+      "services": 7276,
+      "beneficiaries": 3915
+     },
+     {
+      "state": "District of Columbia",
+      "services": 7104,
+      "beneficiaries": 4073
+     },
+     {
+      "state": "Vermont",
+      "services": 4986,
+      "beneficiaries": 2880
+     },
+     {
+      "state": "Hawaii",
+      "services": 4708,
+      "beneficiaries": 2498
+     },
+     {
+      "state": "Wyoming",
+      "services": 4267,
+      "beneficiaries": 2504
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 1021,
+      "beneficiaries": 586
+     },
+     {
+      "state": "Guam",
+      "services": 189,
+      "beneficiaries": 108
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 95,
+      "beneficiaries": 53
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 13,
+      "beneficiaries": 12
+     }
+    ]
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "USPTO bibliographic grants"
+ ]
+}

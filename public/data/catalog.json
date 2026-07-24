@@ -1,0 +1,174 @@
+{
+ "devices": [
+  {
+   "slug": "impella-heart-pump",
+   "name": "Impella heart pump",
+   "maker": "Abiomed (J&J) \u00b7 Structural heart",
+   "rank": 1,
+   "pathway": "pma-dominant (mixed: early gens 510k, current gens PMA)",
+   "maturity": "early",
+   "stats": {
+    "deaths": 4552,
+    "injuries": 19446,
+    "malfunctions": 13287,
+    "recalls": 75,
+    "classI": 21
+   },
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "philips-cpap-bipap",
+   "name": "Philips CPAP/BiPAP",
+   "maker": "Philips Respironics \u00b7 Respiratory",
+   "rank": 2,
+   "pathway": "510k (no preemption bar)",
+   "maturity": "settled",
+   "stats": {
+    "deaths": 4180,
+    "injuries": 51027,
+    "malfunctions": 208385,
+    "recalls": 229,
+    "classI": 49
+   },
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "mri-surescan-pacing-leads",
+   "name": "MRI Surescan / pacing leads",
+   "maker": "Medtronic \u00b7 Cardiac rhythm",
+   "rank": 3,
+   "pathway": "pma (P090013)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 15113,
+    "injuries": 285075,
+    "malfunctions": 235776,
+    "recalls": 51,
+    "classI": 3
+   },
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "minimed-insulin-pump",
+   "name": "MiniMed insulin pump",
+   "maker": "Medtronic \u00b7 Diabetes",
+   "rank": 4,
+   "pathway": "pma (P120010/P150001/P160017) \u2014 with a 2025 510k migration",
+   "maturity": "maturing",
+   "stats": {
+    "deaths": 2033,
+    "injuries": 149687,
+    "malfunctions": 978951,
+    "recalls": 97,
+    "classI": 10
+   },
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "heartware-hvad",
+   "name": "HeartWare HVAD",
+   "maker": "Medtronic / HeartWare \u00b7 Structural heart",
+   "rank": 5,
+   "pathway": "pma (pure \u2014 no 510k predicate)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 6881,
+    "injuries": 37268,
+    "malfunctions": 30816,
+    "recalls": 70,
+    "classI": 33
+   },
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "heartmate-3-lvad",
+   "name": "HeartMate 3 LVAD",
+   "maker": "Abbott / Thoratec \u00b7 Structural heart",
+   "rank": 6,
+   "pathway": "pma (pure)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 7177,
+    "injuries": 14976,
+    "malfunctions": 9074,
+    "recalls": 19,
+    "classI": 8
+   },
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "evolut-tavr-valve",
+   "name": "Evolut TAVR valve",
+   "maker": "Medtronic \u00b7 Structural heart",
+   "rank": 7,
+   "pathway": "pma (P130021 \u2014 corpus 'mixed' was delivery catheters)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 2764,
+    "injuries": 19220,
+    "malfunctions": 6889,
+    "recalls": 136,
+    "classI": 1
+   },
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "abbott-icd-crt-d",
+   "name": "Abbott ICD/CRT-D",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 8,
+   "pathway": "pma (P910023, ex-St. Jude)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 2223,
+    "injuries": 44330,
+    "malfunctions": 53593,
+    "recalls": 603,
+    "classI": 39
+   },
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "t-slim-x2-insulin-pump",
+   "name": "t:slim X2 insulin pump",
+   "maker": "Tandem \u00b7 Diabetes",
+   "rank": 9,
+   "pathway": "510k / De Novo (QFG, Class II \u2014 NOT preempted)",
+   "maturity": "early",
+   "stats": {
+    "deaths": 257,
+    "injuries": 128712,
+    "malfunctions": 964382,
+    "recalls": 10,
+    "classI": 4
+   },
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "aveir-leadless-pacemaker",
+   "name": "Aveir leadless pacemaker",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 10,
+   "pathway": "pma (Class III, approved 2022 VR / 2023 DR)",
+   "maturity": "early",
+   "stats": {
+    "deaths": 203,
+    "injuries": 1281,
+    "malfunctions": 2574,
+    "recalls": 2,
+    "classI": 0
+   },
+   "hasTree": false,
+   "hasIcp": true
+  }
+ ]
+}
