@@ -64,6 +64,12 @@ function Highlighted({ text, term }: { text: string; term?: string | null }) {
   )
 }
 
+function nameOnlyCount(counts?: Record<string, number>): number {
+  return Object.entries(counts ?? {})
+    .filter(([k]) => k.endsWith(':name-only'))
+    .reduce((a, [, v]) => a + v, 0)
+}
+
 function citeTerms(ci: LitCite, expertName: string): string[] {
   const parts = expertName.trim().split(/\s+/)
   const lastFirst =
@@ -307,49 +313,19 @@ export function ExpertProfile({ p }: { p: ExpertProfileData }) {
           <>
             {(lit.cites ?? []).length === 0 && (
               <div className="epEmpty">
-                No corroborated mentions — every full-name hit in the swept subsets lacked a
-                physician-specific signal (likely namesakes; listed below).
+                No corroborated litigation or PTAB mentions for this physician in the swept
+                subsets.
               </div>
             )}
             {(lit.cites ?? []).map((ci, i) => (
               <LitCiteCard key={i} ci={ci} expertName={p.name} />
             ))}
-            {(lit.nameOnly ?? []).length > 0 && (
-              <details className="litNameOnly">
-                <summary>
-                  {fmtNum(
-                    Object.entries(lit.counts ?? {})
-                      .filter(([k]) => k.endsWith(':name-only'))
-                      .reduce((a, [, v]) => a + v, 0),
-                  )}{' '}
-                  name-only matches — likely people sharing the name, shown for completeness
-                </summary>
-                <div className="litNameOnlyNote">
-                  Graded name-only because nothing physician-specific (credential, device
-                  topic, geography) appeared near the name. Nothing is attributed from these.
-                </div>
-                {(lit.nameOnly ?? []).map((n, i) => (
-                  <div key={i} className="epRow">
-                    <span>
-                      <span className="epMuted">[{n.source}]</span> {n.case ?? '(untitled)'}
-                      {n.url && (
-                        <>
-                          {' '}
-                          <a
-                            href={n.url}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="litOpenLink"
-                          >
-                            open ↗
-                          </a>
-                        </>
-                      )}
-                    </span>
-                    <span className="epRowVal epMuted">{n.date ?? ''}</span>
-                  </div>
-                ))}
-              </details>
+            {nameOnlyCount(lit.counts) > 0 && (
+              <div className="litScreenNote">
+                {fmtNum(nameOnlyCount(lit.counts))} additional full-name matches were
+                screened out as likely namesakes (no physician-specific signal near the
+                name) and are not attributed to this physician.
+              </div>
             )}
           </>
         )}

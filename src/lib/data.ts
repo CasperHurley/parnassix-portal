@@ -139,7 +139,6 @@ export interface ExpertProfileData {
     note?: string
     counts?: Record<string, number>
     cites?: LitCite[]
-    nameOnly?: { source: string; case: string | null; date: string | null; url: string | null }[]
     source?: SourceObj
   }
   inventory: {
