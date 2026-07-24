@@ -3,8 +3,11 @@
 // every cited K-number boxed — the same treatment the desktop citation preview gives.
 // pdf.js runtime assets are served from /pdfjs/ (cmaps/wasm/fonts — scanned filings
 // paint blank without them).
-import * as pdfjs from 'pdfjs-dist'
-import workerUrl from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
+// LEGACY build on purpose (the desktop-app lesson): the modern build assumes
+// bleeding-edge engine features (Promise.try …) that older mobile Safari lacks —
+// the failure mode is a phone that fetched the PDF fine and then can't render it.
+import * as pdfjs from 'pdfjs-dist/legacy/build/pdf.mjs'
+import workerUrl from 'pdfjs-dist/legacy/build/pdf.worker.min.mjs?url'
 import { useEffect, useRef, useState } from 'react'
 import { getApiBase } from '../../lib/data'
 
@@ -95,6 +98,7 @@ export default function Evidence({
   const [marks, setMarks] = useState<Marks | null>(null)
   const [size, setSize] = useState<{ w: number; h: number } | null>(null)
   const [pageShown, setPageShown] = useState(page)
+  const [pdfUrl, setPdfUrl] = useState<string | null>(null)
 
   useEffect(() => {
     let live = true
@@ -104,8 +108,10 @@ export default function Evidence({
         if (live) setState('no-bridge')
         return
       }
+      const url = `${base}/portal/evidence/${encodeURIComponent(k)}.pdf`
+      if (live) setPdfUrl(url)
       try {
-        const res = await fetch(`${base}/portal/evidence/${encodeURIComponent(k)}.pdf`)
+        const res = await fetch(url)
         if (!res.ok) throw new Error(String(res.status))
         const data = await res.arrayBuffer()
         const doc = await pdfjs.getDocument({ data, ...DOC_OPTIONS }).promise
@@ -159,8 +165,12 @@ export default function Evidence({
   if (state === 'error')
     return (
       <div className="evidenceNote">
-        The evidence bridge is unreachable right now — the source PDF ({k}, p.{page}) will
-        open here when it is back.
+        The inline viewer couldn't render this source here ({k}, p.{page}).{' '}
+        {pdfUrl && (
+          <a href={pdfUrl} target="_blank" rel="noreferrer">
+            Open the source PDF directly ↗
+          </a>
+        )}
       </div>
     )
 
@@ -168,6 +178,11 @@ export default function Evidence({
     <div className="evidenceWrap" ref={wrapRef}>
       <div className="evidenceHead">
         {k} — 510(k) summary, page {pageShown}
+        {pdfUrl && (
+          <a className="evidenceOpen" href={pdfUrl} target="_blank" rel="noreferrer">
+            open PDF ↗
+          </a>
+        )}
         {marks && !marks.ellipse && quote && state === 'ready' && (
           <span className="evidenceMiss"> · quote not text-matchable on this scan — passage shown below</span>
         )}

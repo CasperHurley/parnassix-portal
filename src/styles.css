@@ -328,6 +328,7 @@ button { font-family: var(--font); }
 .evidenceWrap { margin: 12px 0 6px; }
 .evidenceHead { color: var(--muted); font-size: 12px; margin-bottom: 8px; font-family: var(--mono); }
 .evidenceMiss { color: var(--price); font-family: var(--font); }
+.evidenceOpen { margin-left: 10px; font-family: var(--font); font-size: 11.5px; }
 .evidenceCanvasBox {
   position: relative; border: 1px solid var(--border-hot); border-radius: 8px;
   overflow: hidden; background: #fff; min-height: 120px;
