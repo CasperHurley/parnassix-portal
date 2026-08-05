@@ -1,0 +1,3201 @@
+{
+ "profiles": {
+  "p1": {
+   "name": "Stephen Fahrig",
+   "identity": {
+    "npi": "1285627398",
+    "registryName": "Stephen Fahrig",
+    "credential": "MD",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "TN",
+    "opState": "TN",
+    "opCity": "NASHVILLE",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1285627398"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2016,
+      "value": 16.79
+     },
+     {
+      "year": 2017,
+      "value": 38112.14
+     },
+     {
+      "year": 2018,
+      "value": 39974.24
+     },
+     {
+      "year": 2019,
+      "value": 81420.27
+     },
+     {
+      "year": 2020,
+      "value": 48535.69
+     },
+     {
+      "year": 2021,
+      "value": 93794.58
+     },
+     {
+      "year": 2022,
+      "value": 202539.06
+     },
+     {
+      "year": 2023,
+      "value": 153155.47
+     },
+     {
+      "year": 2024,
+      "value": 19992.17
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 671655.0,
+      "records": 305
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 3493.69,
+      "records": 15
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 2391.72,
+      "records": 36
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 672147.23,
+      "records": 310
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 3394.74,
+      "records": 27
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 1998.44,
+      "records": 19
+     }
+    ],
+    "research": {
+     "total": 52788.75,
+     "records": 16
+    },
+    "researchPi": {
+     "total": null,
+     "records": 57
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1285627398",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 13
+    },
+    "articles": [
+     {
+      "title": "Diffuse ST segment elevation: what's your diagnosis? Acute pericarditis.",
+      "journal": "Tennessee medicine : journal of the Tennessee Medical Associ",
+      "year": 2009,
+      "pmid": "19385371",
+      "tier": "name-only"
+     },
+     {
+      "title": "Cardiac amyloidosis responding to bortezomib: case report and review of literature.",
+      "journal": "Current cardiology reviews",
+      "year": 2009,
+      "pmid": "20676282",
+      "tier": "name-only"
+     },
+     {
+      "title": "The impact of fluctuations in boat velocity during the rowing cycle on race time.",
+      "journal": "Scandinavian journal of medicine & science in sports",
+      "year": 2009,
+      "pmid": "18510593",
+      "tier": "name-only"
+     },
+     {
+      "title": "ST segment elevation in lead aVR: what to expect from this orphan?",
+      "journal": "Tennessee medicine : journal of the Tennessee Medical Associ",
+      "year": 2008,
+      "pmid": "19097353",
+      "tier": "name-only"
+     },
+     {
+      "title": "Initial description of radiofrequency catheter ablation as treatment for atrial flutter in Marfan's syndrome: a case report and literature review.",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
+      "year": 2007,
+      "pmid": "17597390",
+      "tier": "name-only"
+     },
+     {
+      "title": "Atrial flutter and myotonic dystrophy in a male adolescent treated with radiofrequency catheter ablation.",
+      "journal": "Reviews in cardiovascular medicine",
+      "year": 2007,
+      "pmid": "17603429",
+      "tier": "name-only"
+     },
+     {
+      "title": "Methadone and torsade de pointes: case report and review of the literature.",
+      "journal": "Tennessee medicine : journal of the Tennessee Medical Associ",
+      "year": 2007,
+      "pmid": "17378505",
+      "tier": "name-only"
+     },
+     {
+      "title": "Tako-tsubo syndrome as a consequence of transient ischemic attack.",
+      "journal": "Reviews in cardiovascular medicine",
+      "year": 2006,
+      "pmid": "16534494",
+      "tier": "name-only"
+     },
+     {
+      "title": "Tricuspid valve malfunction and ventricular pacemaker lead: case report and review of the literature.",
+      "journal": "Echocardiography (Mount Kisco, N.Y.)",
+      "year": 2006,
+      "pmid": "16970722",
+      "tier": "name-only"
+     },
+     {
+      "title": "Alveolar hemorrhage: an underdiagnosed complication of treatment with glycoprotein IIb/IIIa inhibitors.",
+      "journal": "Journal of interventional cardiology",
+      "year": 2006,
+      "pmid": "16881986",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'FAHRIG' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "clinical cardiac electrophysiology",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Tennessee",
+       "NASHVILLE"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defi",
+      "services": 2400,
+      "beneficiaries": 780
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 1863,
+      "beneficiaries": 597
+     },
+     {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular phy",
+      "services": 942,
+      "beneficiaries": 157
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 723,
+      "beneficiaries": 642
+     },
+     {
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "services": 657,
+      "beneficiaries": 89
+     },
+     {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 583,
+      "beneficiaries": 458
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1285627398"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'STEPHEN FAHRIG'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "53 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 13 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p2": {
+   "name": "Lee Biblo",
+   "identity": {
+    "npi": "1740230275",
+    "registryName": "Lee Biblo",
+    "credential": "MD",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "WI",
+    "opState": "WI",
+    "opCity": "MILWAUKEE",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1740230275"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2017,
+      "value": 61200.0
+     },
+     {
+      "year": 2018,
+      "value": 41625.0
+     },
+     {
+      "year": 2019,
+      "value": 138375.0
+     },
+     {
+      "year": 2021,
+      "value": 116775.0
+     },
+     {
+      "year": 2022,
+      "value": 23625.0
+     },
+     {
+      "year": 2023,
+      "value": 787.5
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 382387.5,
+      "records": 179
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 382387.5,
+      "records": 179
+     }
+    ],
+    "research": {
+     "total": 70987.5,
+     "records": 8
+    },
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1740230275",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 2,
+     "nameOnly": 43
+    },
+    "articles": [
+     {
+      "title": "Favorable results of implantable cardioverter-defibrillator implantation in patients older than 70 years.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 1997,
+      "pmid": "9436560",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Combined internal cardioverter-defibrillator implantation and myocardial revascularization for ischemic ventricular arrhythmias: optimal cost-effective strategy",
+      "journal": "Cardiovascular surgery (London, England)",
+      "year": 1995,
+      "pmid": "7582993",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pregnancy and short-coupled torsades de pointes.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2013,
+      "pmid": "21039642",
+      "tier": "name-only"
+     },
+     {
+      "title": "Impact of localizing general medical teams to a single nursing unit.",
+      "journal": "Journal of hospital medicine",
+      "year": 2012,
+      "pmid": "22791661",
+      "tier": "name-only"
+     },
+     {
+      "title": "A comparison of outcomes of general medical inpatient care provided by a hospitalist-physician assistant model vs a traditional resident-based model.",
+      "journal": "Journal of hospital medicine",
+      "year": 2011,
+      "pmid": "21387547",
+      "tier": "name-only"
+     },
+     {
+      "title": "It's the writing on the wall: Whiteboards improve inpatient satisfaction with provider communication.",
+      "journal": "American journal of medical quality : the official journal o",
+      "year": 2011,
+      "pmid": "20870743",
+      "tier": "name-only"
+     },
+     {
+      "title": "Right ventricular reverse remodeling is possible despite twenty-one years of absent tricuspid valve and severe right ventricular failure.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2010,
+      "pmid": "19660272",
+      "tier": "name-only"
+     },
+     {
+      "title": "Torsade de pointes following intravenous haloperidol administration in a patient with complete heart block.",
+      "journal": "WMJ : official publication of the State Medical Society of W",
+      "year": 2009,
+      "pmid": "19326637",
+      "tier": "name-only"
+     },
+     {
+      "title": "Torsades de pointes associated with ziprasidone.",
+      "journal": "Psychosomatics",
+      "year": 2006,
+      "pmid": "16684946",
+      "tier": "name-only"
+     },
+     {
+      "title": "To catch a moving target.",
+      "journal": "Heart rhythm",
+      "year": 2006,
+      "pmid": "16731461",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'BIBLO' + first initial 'L'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Wisconsin",
+       "MILWAUKEE"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2016,
+    "procedures": [
+     {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 52,
+      "beneficiaries": 15
+     },
+     {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 11,
+      "beneficiaries": 11
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1740230275"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'LEE BIBLO'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "25 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "2 corroborated + 43 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "2 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p3": {
+   "name": "Andrew Epstein",
+   "identity": {
+    "npi": "1649214800",
+    "registryName": "Andrew Epstein",
+    "credential": "MD",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "PA",
+    "opState": "PA",
+    "opCity": "PHILADELPHIA",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1649214800"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 1297.37
+     },
+     {
+      "year": 2014,
+      "value": 366.63
+     },
+     {
+      "year": 2015,
+      "value": 13741.65
+     },
+     {
+      "year": 2016,
+      "value": 337.18
+     },
+     {
+      "year": 2017,
+      "value": 82593.36
+     },
+     {
+      "year": 2018,
+      "value": 39974.27
+     },
+     {
+      "year": 2019,
+      "value": 29662.32
+     },
+     {
+      "year": 2020,
+      "value": 16647.72
+     },
+     {
+      "year": 2021,
+      "value": 7530.15
+     },
+     {
+      "year": 2022,
+      "value": 4512.02
+     },
+     {
+      "year": 2023,
+      "value": 8270.25
+     },
+     {
+      "year": 2024,
+      "value": 155.95
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 169405.0,
+      "records": 151
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 20000.0,
+      "records": 4
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 10667.38,
+      "records": 33
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 4982.89,
+      "records": 93
+     },
+     {
+      "nature": "Grant",
+      "total": 26.22,
+      "records": 1
+     },
+     {
+      "nature": "Education",
+      "total": 7.38,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 175602.33,
+      "records": 198
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 29309.7,
+      "records": 77
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 143.72,
+      "records": 5
+     },
+     {
+      "company": "Vascular Solutions, Inc.",
+      "total": 14.53,
+      "records": 1
+     },
+     {
+      "company": "Medtronic Xomed, Inc.",
+      "total": 10.67,
+      "records": 1
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 7.92,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 115589.75,
+     "records": 43
+    },
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1649214800",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 227,
+     "nameOnly": 1509
+    },
+    "articles": [
+     {
+      "title": "Quantitative Vector Screening to Improve Sensing and Reduce Inappropriate Shocks With the Subcutaneous Implantable Cardioverter Defibrillator.",
+      "journal": "Circulation. Arrhythmia and electrophysiology",
+      "year": 2026,
+      "pmid": "42003472",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Contemporary Study of New Onset Atrial Fibrillation Treatment Strategies at a Large Academic Tertiary Care Center.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2025,
+      "pmid": "39930876",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Stepwise Anatomical Approach to Ablation of Intramural Outflow Tract Ventricular Arrhythmias Guided by Septal Coronary Venous Mapping.",
+      "journal": "Circulation",
+      "year": 2025,
+      "pmid": "40286266",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Detection and Significance of Nonsustained Ventricular Tachycardia in a Post-Stroke Population.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2025,
+      "pmid": "40938226",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Changes in Physician Workforce Composition and Rehospitalization From Post-Acute Care in Nursing Homes Between 2012 and 2019.",
+      "journal": "Journal of the American Medical Directors Association",
+      "year": 2025,
+      "pmid": "41022141",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Anatomic approach to mitral isthmus ablation guided by left atrial intracardiac echocardiography.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "40285764",
+      "tier": "corroborated"
+     },
+     {
+      "title": "ACC/AHA/ASE/HFSA/HRS/SCAI/SCCT/SCMR 2025 Appropriate Use Criteria for Implantable Cardioverter-Defibrillators, Cardiac Resynchronization Therapy, and Pacing.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2025,
+      "pmid": "39808105",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes in patients with cardiac amyloidosis undergoing catheter ablation for atrial arrhythmias.",
+      "journal": "Heart rhythm O2",
+      "year": 2025,
+      "pmid": "40917191",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Temporary Restoration of Sinus Rhythm Improves Outcomes of Catheter Ablation for Longstanding Persistent Atrial Fibrillation.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2025,
+      "pmid": "40548820",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Long-term risk of right coronary artery injury after catheter ablation of cavotricuspid isthmus-dependent flutter.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "39304007",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'EPSTEIN' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Pennsylvania",
+       "PHILADELPHIA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2021,
+    "procedures": [
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ekg) using at least 12 leads with interpretation and report",
+      "services": 18,
+      "beneficiaries": 17
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1649214800"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 2
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Andrew Epstein, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03667378",
+      "place": "Memorial Sloan Kettering Cancer Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Investigating the Impact of Proactive Palliative Care"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Andrew Epstein, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01912131",
+      "place": "Memorial Sloan Kettering Cancer Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Person-Centered Oncology Care and Choices (P-COCC): Piloting and Initial Randomized Testing of a Combined Valu"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ANDREW EPSTEIN' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 1,
+     "courtlistener:name-only": 4
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "4583261",
+      "case": "Christopher W. Sartin v. Alonzo Mcpike",
+      "date": "2020-11-03",
+      "snippet": "Gilbert subsequently filed a summary judgment motion, arguing that he owed no duty to Sartin because Sartin was not his patient and that there was no evidence that McPike\u2019s sudden loss of consciousness was foreseeable or preventable. Dr. Gilbert submitted the declarations of Dr. Peter Kudenchuk and Dr. Andrew Epstein, two cardiac specialists. Both Dr. Kudenchuk and Dr. Epstein gave an opinion that McPike had no evidence of coronary artery disease or any other heart condition either before or after the accident, and that his cardiac arrest was unexpected and unpreventable. Sartin again relied on Dr. Fletcher\u2019s",
+      "matchedForm": "ANDREW EPSTEIN",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "washctapp",
+      "url": "https://www.courtlistener.com/opinion/4802914/christopher-w-sartin-v-alonzo-mcpike/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "33 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "227 corroborated + 1509 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "1 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 2 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p4": {
+   "name": "Christian Machado",
+   "identity": {
+    "npi": "1780667246",
+    "registryName": "Christian Machado",
+    "credential": "MD",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "MI",
+    "opState": "MI",
+    "opCity": "SOUTHFIELD",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1780667246"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 510.97
+     },
+     {
+      "year": 2015,
+      "value": 352.85
+     },
+     {
+      "year": 2016,
+      "value": 82.21
+     },
+     {
+      "year": 2017,
+      "value": 17764.62
+     },
+     {
+      "year": 2018,
+      "value": 19189.42
+     },
+     {
+      "year": 2019,
+      "value": 15480.4
+     },
+     {
+      "year": 2020,
+      "value": 269.82
+     },
+     {
+      "year": 2021,
+      "value": 1019.65
+     },
+     {
+      "year": 2022,
+      "value": 1888.29
+     },
+     {
+      "year": 2023,
+      "value": 770.2
+     },
+     {
+      "year": 2024,
+      "value": 2225.36
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 48066.5,
+      "records": 39
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 8001.22,
+      "records": 134
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 3486.07,
+      "records": 17
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 58136.11,
+      "records": 163
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 519.92,
+      "records": 8
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 480.11,
+      "records": 7
+     },
+     {
+      "company": "Thoratec Corporation",
+      "total": 153.1,
+      "records": 3
+     },
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 152.78,
+      "records": 3
+     },
+     {
+      "company": "Medtronic Xomed, Inc.",
+      "total": 44.9,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 23250.0,
+     "records": 13
+    },
+    "researchPi": {
+     "total": null,
+     "records": 210
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1780667246",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 32,
+     "nameOnly": 1538
+    },
+    "articles": [
+     {
+      "title": "An Accord Between Man and Machine: Concordance Between Traditional and Novel Mapping Techniques for Atrioventricular Nodal Reentrant Tachycardia Ablation.",
+      "journal": "Cureus",
+      "year": 2025,
+      "pmid": "40551938",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Striatal damage may underlie motor learning impairment following experimental mild traumatic brain injury in mice.",
+      "journal": "Molecular and cellular neurosciences",
+      "year": 2025,
+      "pmid": "40378904",
+      "tier": "corroborated"
+     },
+     {
+      "title": "\"A heart within the heart\": A rare case of a large left atrial appendage occluder device-related thrombus.",
+      "journal": "HeartRhythm case reports",
+      "year": 2024,
+      "pmid": "38766611",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Nigrostriatal Inflammation Is Associated with Nonmotor Symptoms in an Experimental Model of Prodromal Parkinson's Disease.",
+      "journal": "Neuroscience",
+      "year": 2024,
+      "pmid": "38750924",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implant efficiency and clinical performance of Aveir\u2122 VR and Micra\u2122 VR leadless pacemaker: A multicenter comparative analysis of 67 patients.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2023,
+      "pmid": "37382396",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Validation of a Deep Learning Algorithm for Continuous, Real-Time Detection of Atrial Fibrillation Using a Wrist-Worn Device in an Ambulatory Environment.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2023,
+      "pmid": "37750558",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Assessing Correlation Between Thoracic Impedance and Remotely Monitored Pulmonary Artery Pressure in Chronic Systolic Heart Failure.",
+      "journal": "Cardiology research",
+      "year": 2023,
+      "pmid": "36896229",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Implantable Cardioverter-defibrillator Magnetic Interference by the iPhone 12: Is It Clinically Significant?",
+      "journal": "The Journal of innovations in cardiac rhythm management",
+      "year": 2022,
+      "pmid": "35949649",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Patients' and family members' views on pacemaker reuse: An international survey.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2022,
+      "pmid": "35040526",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Long-term longevity and clinical outcomes of Linox S/SD implantable cardioverter-defibrillator leads: a single-center experience.",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
+      "year": 2021,
+      "pmid": "32488749",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'MACHADO' + first initial 'C'",
+     "signals": {
+      "topicKeywords": [
+       "clinical cardiac electrophysiology",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Michigan",
+       "SOUTHFIELD"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 215,
+      "beneficiaries": 169
+     },
+     {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at ",
+      "services": 184,
+      "beneficiaries": 139
+     },
+     {
+      "code": "93280",
+      "description": "Programming of dual lead pacemaker system",
+      "services": 173,
+      "beneficiaries": 121
+     },
+     {
+      "code": "93295",
+      "description": "Evaluation of single, dual, or multiple lead implantable defibrillator system, remote up t",
+      "services": 155,
+      "beneficiaries": 79
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 141,
+      "beneficiaries": 65
+     },
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 126,
+      "beneficiaries": 114
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1780667246"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'CHRISTIAN MACHADO'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "15 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "32 corroborated + 1538 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p5": {
+   "name": "Jesse Sethi",
+   "identity": {
+    "npi": "1528033917",
+    "registryName": "Jesse Sethi",
+    "credential": "MD",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "AZ",
+    "opState": "AZ",
+    "opCity": "SUN CITY WEST",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1528033917"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 112.5
+     },
+     {
+      "year": 2014,
+      "value": 44.88
+     },
+     {
+      "year": 2017,
+      "value": 43082.08
+     },
+     {
+      "year": 2018,
+      "value": 36826.92
+     },
+     {
+      "year": 2019,
+      "value": 70872.88
+     },
+     {
+      "year": 2020,
+      "value": 51643.3
+     },
+     {
+      "year": 2021,
+      "value": 25149.71
+     },
+     {
+      "year": 2022,
+      "value": 1858.31
+     },
+     {
+      "year": 2023,
+      "value": 104.52
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 223019.8,
+      "records": 388
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 6536.59,
+      "records": 71
+     },
+     {
+      "nature": "Education",
+      "total": 138.71,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 229310.73,
+      "records": 454
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 351.32,
+      "records": 4
+     },
+     {
+      "company": "CorMatrix Cardiovascular Inc.",
+      "total": 22.59,
+      "records": 1
+     },
+     {
+      "company": "Vascular Solutions, Inc.",
+      "total": 10.46,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1528033917",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 305
+    },
+    "articles": [
+     {
+      "title": "Slowing Thoracic Aortic Aneurysm Growth with Statins: A Meta-Analysis.",
+      "journal": "Current cardiology reviews",
+      "year": 2025,
+      "pmid": "39949099",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Quality-of-Life Recovery in Cushing's Disease: A Cluster Analysis.",
+      "journal": "The Canadian journal of neurological sciences. Le journal ca",
+      "year": 2026,
+      "pmid": "42163508",
+      "tier": "name-only"
+     },
+     {
+      "title": "Outcomes of Adjuvant Radiation Therapy in Penile Cancer.",
+      "journal": "Advances in radiation oncology",
+      "year": 2026,
+      "pmid": "41716955",
+      "tier": "name-only"
+     },
+     {
+      "title": "Serum Amyloid A (SAA) induces transcription affecting inflammation.",
+      "journal": "PloS one",
+      "year": 2026,
+      "pmid": "41712650",
+      "tier": "name-only"
+     },
+     {
+      "title": "Neoadjuvant therapy in gall bladder cancer improves resectability and survival: a prospective study.",
+      "journal": "HPB : the official journal of the International Hepato Pancr",
+      "year": 2026,
+      "pmid": "41714243",
+      "tier": "name-only"
+     },
+     {
+      "title": "Retrospective analysis on large-scale in-vivo dosimetric verification of total body irradiation using helical tomotherapy with optically stimulated luminescence",
+      "journal": "Radiological physics and technology",
+      "year": 2026,
+      "pmid": "41746496",
+      "tier": "name-only"
+     },
+     {
+      "title": "Corrigendum to \"Randomized Controlled Trial on the Efficacy of Reduced-Dose Cyclical Corticosteroids and Cyclophosphamide in Primary Membranous Nephropathy\" [",
+      "journal": "Kidney international reports",
+      "year": 2026,
+      "pmid": "41630892",
+      "tier": "name-only"
+     },
+     {
+      "title": "Symmetrical Drug-Related Intertriginous and Flexural Exanthema (SDRIFE)-Like Presentation in a Case of Systemic Contact Dermatitis to Paraphenylenediamine (PPD)",
+      "journal": "Cureus",
+      "year": 2026,
+      "pmid": "41694879",
+      "tier": "name-only"
+     },
+     {
+      "title": "Pastors' perceptions of faith-based cancer prevention/early detection programs in Virginia: a mixed methods study.",
+      "journal": "Health education research",
+      "year": 2026,
+      "pmid": "41894482",
+      "tier": "name-only"
+     },
+     {
+      "title": "Engineering dosimetric excellence in total body irradiation: Tomotherapy-driven protocols for precision and reproducibility.",
+      "journal": "Precision radiation oncology",
+      "year": 2026,
+      "pmid": "42022356",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SETHI' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Arizona",
+       "SUN CITY WEST"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2021,
+    "procedures": [
+     {
+      "code": "93296",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker system or implantable defib",
+      "services": 590,
+      "beneficiaries": 308
+     },
+     {
+      "code": "93295",
+      "description": "Remote evaluations of defibrillator up to 90 days with analysis, review and report",
+      "services": 512,
+      "beneficiaries": 271
+     },
+     {
+      "code": "93000",
+      "description": "Routine ekg using at least 12 leads including interpretation and report",
+      "services": 240,
+      "beneficiaries": 198
+     },
+     {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 174,
+      "beneficiaries": 151
+     },
+     {
+      "code": "99211",
+      "description": "Established patient outpatient visit, minimal presenting problem",
+      "services": 141,
+      "beneficiaries": 32
+     },
+     {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 123,
+      "beneficiaries": 35
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1528033917"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JESSE SETHI'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "25 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "1 corroborated + 305 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p6": {
+   "name": "Robert Schaller",
+   "identity": {
+    "npi": "1083806780",
+    "registryName": "Robert Schaller",
+    "credential": "DO",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "PA",
+    "opState": "PA",
+    "opCity": "PHILADELPHIA",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1083806780"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 418.64
+     },
+     {
+      "year": 2015,
+      "value": 132.49
+     },
+     {
+      "year": 2016,
+      "value": 666.53
+     },
+     {
+      "year": 2017,
+      "value": 9524.25
+     },
+     {
+      "year": 2018,
+      "value": 41233.94
+     },
+     {
+      "year": 2019,
+      "value": 37827.23
+     },
+     {
+      "year": 2020,
+      "value": 15183.82
+     },
+     {
+      "year": 2021,
+      "value": 16056.39
+     },
+     {
+      "year": 2022,
+      "value": 21504.88
+     },
+     {
+      "year": 2023,
+      "value": 72791.67
+     },
+     {
+      "year": 2024,
+      "value": 31359.78
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 105789.63,
+      "records": 60
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 90393.75,
+      "records": 29
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 35031.29,
+      "records": 131
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 12984.32,
+      "records": 207
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 2500.0,
+      "records": 1
+     },
+     {
+      "nature": "Education",
+      "total": 0.63,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Medtronic, Inc.",
+      "total": 83648.43,
+      "records": 142
+     },
+     {
+      "company": "Abbott Laboratories",
+      "total": 68944.71,
+      "records": 156
+     },
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 48885.13,
+      "records": 41
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 32077.82,
+      "records": 71
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 12632.41,
+      "records": 15
+     },
+     {
+      "company": "ABIOMED",
+      "total": 277.09,
+      "records": 2
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 85
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1083806780",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 223,
+     "nameOnly": 343
+    },
+    "articles": [
+     {
+      "title": "Response to the letter to the editor entitled \"High-risk transvenous lead extraction can be safely performed in the electrophysiology laboratory\".",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40946733",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Leadless atrial versus transvenous pacing for sinus node dysfunction: 1-year outcomes from the leadless ARRIVE real-world study.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "42047477",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Transvenous lead extraction and the shape of risk.",
+      "journal": "Heart rhythm O2",
+      "year": 2026,
+      "pmid": "41737940",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Drug-coated balloon venoplasty for symptomatic lead-related venous stenosis.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41205887",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ablation of idiopathic ventricular arrhythmias from the right ventricular apex.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41274323",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Intracardiac echocardiography-guided implantation of an atrial leadless pacemaker.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40704952",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Intraseptal Mapping of Premature Ventricular Complexes Using Multipolar Catheters.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "42142088",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Predicting Survival in Ventricular Tachycardia Storm: The CHAMPS Risk Score and Implications for Ablation Timing.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "41537718",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Improved implantable cardioverter-defibrillator shock efficacy using programmable pulse width.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42055103",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Conduction system pacing for the prevention and cure of pacing-induced cardiomyopathy: Bundled care.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40882901",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'SCHALLER' + first initial 'R'",
+     "signals": {
+      "topicKeywords": [
+       "clinical cardiac electrophysiology",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Pennsylvania",
+       "PHILADELPHIA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 1582,
+      "beneficiaries": 1118
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 189,
+      "beneficiaries": 70
+     },
+     {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 179,
+      "beneficiaries": 133
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 173,
+      "beneficiaries": 151
+     },
+     {
+      "code": "93295",
+      "description": "Evaluation of single, dual, or multiple lead implantable defibrillator system, remote up t",
+      "services": 150,
+      "beneficiaries": 57
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 99,
+      "beneficiaries": 86
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1083806780"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 2,
+     "nameOnly": 0
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Robert Schaller",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05265520",
+      "place": "University of Pennsylvania \u2014 Philadelphia, Pennsylvania",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "His-Bundle Corrective Pacing in Heart Failure"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Robert Schaller, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05650658",
+      "place": "University of Pennsylvania \u2014 Philadelphia, Pennsylvania",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Left vs Left Randomized Clinical Trial"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ROBERT SCHALLER' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "4 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "223 corroborated + 343 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "2 corroborated + 0 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p7": {
+   "name": "Marc Roelke",
+   "identity": {
+    "npi": "1851391429",
+    "registryName": "Marc Roelke",
+    "credential": "M.D.",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "NJ",
+    "opState": "NJ",
+    "opCity": "WEST ORANGE",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1851391429"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 3660.9
+     },
+     {
+      "year": 2014,
+      "value": 298.89
+     },
+     {
+      "year": 2015,
+      "value": 4531.54
+     },
+     {
+      "year": 2016,
+      "value": 3327.7
+     },
+     {
+      "year": 2017,
+      "value": 55899.81
+     },
+     {
+      "year": 2018,
+      "value": 27324.96
+     },
+     {
+      "year": 2019,
+      "value": 19131.63
+     },
+     {
+      "year": 2020,
+      "value": 8529.74
+     },
+     {
+      "year": 2021,
+      "value": 9983.71
+     },
+     {
+      "year": 2022,
+      "value": 10693.98
+     },
+     {
+      "year": 2023,
+      "value": 14698.53
+     },
+     {
+      "year": 2024,
+      "value": 7180.72
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 151570.0,
+      "records": 127
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 10187.15,
+      "records": 30
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 3504.96,
+      "records": 157
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 140101.75,
+      "records": 143
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 18936.75,
+      "records": 87
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 5847.07,
+      "records": 77
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 132.59,
+      "records": 1
+     },
+     {
+      "company": "ABIOMED",
+      "total": 109.69,
+      "records": 2
+     },
+     {
+      "company": "Philips North America LLC",
+      "total": 91.84,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 101821.0,
+     "records": 20
+    },
+    "researchPi": {
+     "total": null,
+     "records": 58
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1851391429",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 13,
+     "nameOnly": 95
+    },
+    "articles": [
+     {
+      "title": "Prioritizing elective cardiovascular procedures during the COVID-19 pandemic: The cardiovascular medically necessary, time-sensitive procedure scorecard.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
+      "year": 2020,
+      "pmid": "32588955",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Postshock AAI pacing associated with asystole despite programming postshock DDD pacing.",
+      "journal": "Heart rhythm",
+      "year": 2011,
+      "pmid": "21421081",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Patients' attitudes toward implanted defibrillator shocks.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2000,
+      "pmid": "10879375",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Serial lead impedance measurements confirm fixation of helical screw electrodes during pacemaker implantation.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2000,
+      "pmid": "10793439",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pacemaker interference with screening mammography.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 1999,
+      "pmid": "10456645",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Should unipolar pacemaker leads be banned? Lessons from pacemaker/implantable cardioverter defibrillator interactions.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 1997,
+      "pmid": "9272547",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The treatment of patients with infected implantable cardioverter-defibrillator systems.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 1997,
+      "pmid": "9011681",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Inhibition of bradycardia pacing caused by far-field atrial sensing in a third-generation cardioverter defibrillator with an automatic gain feature.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 1996,
+      "pmid": "8848369",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Images in clinical medicine. Shock delivered by an implantable cardioverter-defibrillator in response to spontaneous ventricular fibrillation.",
+      "journal": "The New England journal of medicine",
+      "year": 1995,
+      "pmid": "7870141",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Electrocardiographic pseudo-infarct patterns after implantation of cardioverter-defibrillators.",
+      "journal": "American heart journal",
+      "year": 1995,
+      "pmid": "7832098",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'ROELKE' + first initial 'M'",
+     "signals": {
+      "topicKeywords": [
+       "clinical cardiac electrophysiology",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "New Jersey",
+       "WEST ORANGE"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defi",
+      "services": 944,
+      "beneficiaries": 634
+     },
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 917,
+      "beneficiaries": 770
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 766,
+      "beneficiaries": 436
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 573,
+      "beneficiaries": 395
+     },
+     {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 466,
+      "beneficiaries": 262
+     },
+     {
+      "code": "93295",
+      "description": "Evaluation of single, dual, or multiple lead implantable defibrillator system, remote up t",
+      "services": 386,
+      "beneficiaries": 249
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1851391429"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'MARC ROELKE'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "10 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "13 corroborated + 95 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p8": {
+   "name": "Vinod Jayam",
+   "identity": {
+    "npi": "1801953757",
+    "registryName": "Vinod Jayam",
+    "credential": "M.D.",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "NY",
+    "opState": "NY",
+    "opCity": "ROSLYN",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1801953757"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2015,
+      "value": 18.25
+     },
+     {
+      "year": 2016,
+      "value": 89.29
+     },
+     {
+      "year": 2017,
+      "value": 6032.56
+     },
+     {
+      "year": 2018,
+      "value": 17974.8
+     },
+     {
+      "year": 2019,
+      "value": 2567.12
+     },
+     {
+      "year": 2020,
+      "value": 156.63
+     },
+     {
+      "year": 2021,
+      "value": 263.67
+     },
+     {
+      "year": 2022,
+      "value": 659.99
+     },
+     {
+      "year": 2023,
+      "value": 1660.83
+     },
+     {
+      "year": 2024,
+      "value": 1515.39
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 25200.0,
+      "records": 27
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 4194.25,
+      "records": 125
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 1544.28,
+      "records": 6
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 29468.45,
+      "records": 135
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 1325.42,
+      "records": 18
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 144.66,
+      "records": 5
+     }
+    ],
+    "research": {
+     "total": 13500.0,
+     "records": 3
+    },
+    "researchPi": {
+     "total": null,
+     "records": 8
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1801953757",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 3,
+     "nameOnly": 18
+    },
+    "articles": [
+     {
+      "title": "Congenital Absence of the Left Atrial Appendage: Role of Multimodality Imaging.",
+      "journal": "CASE (Philadelphia, Pa.)",
+      "year": 2023,
+      "pmid": "37396472",
+      "tier": "corroborated"
+     },
+     {
+      "title": "CTA Detection of Left Atrial Stasis and Thrombus in Patients with Atrial Fibrillation.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2016,
+      "pmid": "27730660",
+      "tier": "corroborated"
+     },
+     {
+      "title": "High defibrillation thresholds in transvenous biphasic implantable defibrillators: clinical predictors and prognostic implications.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2003,
+      "pmid": "12685138",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Society for Cardiovascular Magnetic Resonance 2021 cases of SCMR and COVID-19 case collection series.",
+      "journal": "Journal of cardiovascular magnetic resonance : official jour",
+      "year": 2022,
+      "pmid": "35787291",
+      "tier": "name-only"
+     },
+     {
+      "title": "The benefit of upgrading chronically right ventricle-paced heart failure patients to resynchronization therapy demonstrated by strain rate imaging.",
+      "journal": "Heart rhythm",
+      "year": 2006,
+      "pmid": "16567291",
+      "tier": "name-only"
+     },
+     {
+      "title": "Safety and efficacy of circumferential pulmonary vein catheter ablation of atrial fibrillation.",
+      "journal": "Heart rhythm",
+      "year": 2005,
+      "pmid": "15851264",
+      "tier": "name-only"
+     },
+     {
+      "title": "Atrial volume reduction following catheter ablation of atrial fibrillation and relation to reduction in pulmonary vein size: an evaluation using magnetic resona",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
+      "year": 2005,
+      "pmid": "16133837",
+      "tier": "name-only"
+     },
+     {
+      "title": "Incidence and predictors of pulmonary vein stenosis following catheter ablation of atrial fibrillation using the anatomic pulmonary vein ablation approach: resu",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2005,
+      "pmid": "16101625",
+      "tier": "name-only"
+     },
+     {
+      "title": "Internal defibrillation with minimal skeletal muscle activation: a new paradigm toward painless defibrillation.",
+      "journal": "Heart rhythm",
+      "year": 2005,
+      "pmid": "16188591",
+      "tier": "name-only"
+     },
+     {
+      "title": "Clinical prediction of cavotricuspid isthmus dependence in patients referred for catheter ablation of \"typical\" atrial flutter.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2005,
+      "pmid": "16174018",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'JAYAM' + first initial 'V'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "New York",
+       "ROSLYN"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular phy",
+      "services": 4396,
+      "beneficiaries": 1705
+     },
+     {
+      "code": "93297",
+      "description": "Evaluation of implantable heart and blood vessel monitoring system, remote up to 30 days",
+      "services": 3487,
+      "beneficiaries": 1052
+     },
+     {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 2940,
+      "beneficiaries": 1401
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 2088,
+      "beneficiaries": 1137
+     },
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 1073,
+      "beneficiaries": 827
+     },
+     {
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "services": 958,
+      "beneficiaries": 676
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1801953757"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'VINOD JAYAM'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "17 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "3 corroborated + 18 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p9": {
+   "name": "Noah Chelliah",
+   "identity": {
+    "npi": "1952485740",
+    "registryName": "Noah Chelliah",
+    "credential": "MD",
+    "taxonomyCode": "207RC0000X",
+    "licenseState": "ND",
+    "opState": "ND",
+    "opCity": "GRAND FORKS",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1952485740"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2015,
+      "value": 39.64
+     },
+     {
+      "year": 2017,
+      "value": 35218.4
+     },
+     {
+      "year": 2018,
+      "value": 79162.07
+     },
+     {
+      "year": 2019,
+      "value": 48227.87
+     },
+     {
+      "year": 2020,
+      "value": 48146.08
+     },
+     {
+      "year": 2021,
+      "value": 6378.57
+     },
+     {
+      "year": 2022,
+      "value": 5452.68
+     },
+     {
+      "year": 2023,
+      "value": 1310.33
+     },
+     {
+      "year": 2024,
+      "value": 1822.27
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 204088.0,
+      "records": 150
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 10910.15,
+      "records": 50
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 10735.46,
+      "records": 400
+     },
+     {
+      "nature": "Education",
+      "total": 24.3,
+      "records": 2
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 225684.1,
+      "records": 598
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 73.81,
+      "records": 4
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 16
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1952485740",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 8
+    },
+    "articles": [
+     {
+      "title": "Analysis of the relative costs and effectiveness of primary angioplasty versus tissue-type plasminogen activator: the Primary Angioplasty in Myocardial Infarcti",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 1997,
+      "pmid": "9120173",
+      "tier": "name-only"
+     },
+     {
+      "title": "Outcome of different reperfusion strategies in patients with former contraindications to thrombolytic therapy: a comparison of primary angioplasty and tissue pl",
+      "journal": "Catheterization and cardiovascular diagnosis",
+      "year": 1996,
+      "pmid": "8958418",
+      "tier": "name-only"
+     },
+     {
+      "title": "Influence of acute myocardial infarction location on in-hospital and late outcome after primary percutaneous transluminal coronary angioplasty versus tissue pla",
+      "journal": "The American journal of cardiology",
+      "year": 1996,
+      "pmid": "8712112",
+      "tier": "name-only"
+     },
+     {
+      "title": "Comparison of in-hospital outcome in men versus women treated by either thrombolytic therapy or primary coronary angioplasty for acute myocardial infarction.",
+      "journal": "The American journal of cardiology",
+      "year": 1995,
+      "pmid": "7747700",
+      "tier": "name-only"
+     },
+     {
+      "title": "Implications of recurrent ischemia after reperfusion therapy in acute myocardial infarction: a comparison of thrombolytic therapy and primary angioplasty.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 1995,
+      "pmid": "7797777",
+      "tier": "name-only"
+     },
+     {
+      "title": "Predictors of in-hospital and 6-month outcome after acute myocardial infarction in the reperfusion era: the Primary Angioplasty in Myocardial Infarction (PAMI) ",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 1995,
+      "pmid": "7829790",
+      "tier": "name-only"
+     },
+     {
+      "title": "A comparison of immediate angioplasty with thrombolytic therapy for acute myocardial infarction. The Primary Angioplasty in Myocardial Infarction Study Group.",
+      "journal": "The New England journal of medicine",
+      "year": 1993,
+      "pmid": "8433725",
+      "tier": "name-only"
+     },
+     {
+      "title": "A prospective, randomized trial comparing combination half-dose tissue-type plasminogen activator and streptokinase with full-dose tissue-type plasminogen activ",
+      "journal": "Circulation",
+      "year": 1991,
+      "pmid": "1907228",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'CHELLIAH' + first initial 'N'",
+     "signals": {
+      "topicKeywords": [
+       "cardiovascular disease",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "North Dakota",
+       "GRAND FORKS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular phy",
+      "services": 364,
+      "beneficiaries": 51
+     },
+     {
+      "code": "93297",
+      "description": "Evaluation of implantable heart and blood vessel monitoring system, remote up to 30 days",
+      "services": 306,
+      "beneficiaries": 44
+     },
+     {
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "services": 221,
+      "beneficiaries": 44
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 157,
+      "beneficiaries": 80
+     },
+     {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defi",
+      "services": 117,
+      "beneficiaries": 41
+     },
+     {
+      "code": "93295",
+      "description": "Evaluation of single, dual, or multiple lead implantable defibrillator system, remote up t",
+      "services": 100,
+      "beneficiaries": 37
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1952485740"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'NOAH CHELLIAH'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "3 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "0 corroborated + 8 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p10": {
+   "name": "Roger Freedman",
+   "identity": {
+    "npi": "1790866580",
+    "registryName": "Roger Freedman",
+    "credential": "MD",
+    "taxonomyCode": "207RC0001X",
+    "licenseState": "UT",
+    "opState": "ID",
+    "opCity": "IDAHO FALLS",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1790866580"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 1810.65
+     },
+     {
+      "year": 2014,
+      "value": 85.78
+     },
+     {
+      "year": 2015,
+      "value": 115.19
+     },
+     {
+      "year": 2016,
+      "value": 1906.03
+     },
+     {
+      "year": 2017,
+      "value": 19268.96
+     },
+     {
+      "year": 2018,
+      "value": 11464.63
+     },
+     {
+      "year": 2019,
+      "value": 24018.64
+     },
+     {
+      "year": 2020,
+      "value": 7352.44
+     },
+     {
+      "year": 2021,
+      "value": 17035.01
+     },
+     {
+      "year": 2022,
+      "value": 11171.99
+     },
+     {
+      "year": 2023,
+      "value": 1625.8
+     },
+     {
+      "year": 2024,
+      "value": 8736.57
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 80098.0,
+      "records": 105
+     },
+     {
+      "nature": "Education",
+      "total": 8619.97,
+      "records": 7
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 8500.0,
+      "records": 4
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 4689.03,
+      "records": 25
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 2684.69,
+      "records": 92
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 91478.3,
+      "records": 141
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 12435.74,
+      "records": 77
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 627.06,
+      "records": 13
+     },
+     {
+      "company": "ABIOMED",
+      "total": 35.37,
+      "records": 1
+     },
+     {
+      "company": "Vascular Solutions, Inc.",
+      "total": 15.22,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 23239.89,
+     "records": 21
+    },
+    "researchPi": {
+     "total": null,
+     "records": 218
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1790866580",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 7,
+     "nameOnly": 1247
+    },
+    "articles": [
+     {
+      "title": "Real-World Safety Profile of the Extravascular (EV) Implantable Defibrillator System: Insights From the MAUDE Database.",
+      "journal": "Circulation. Arrhythmia and electrophysiology",
+      "year": 2025,
+      "pmid": "40474858",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Assessing Interdisciplinary Trainees' Objective and Self-Reported Knowledge of Autism Spectrum Disorder and Confidence in\u00a0Providing Services.",
+      "journal": "Journal of autism and developmental disorders",
+      "year": 2022,
+      "pmid": "33725234",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prevalence of externalized conductors in Riata and Riata ST silicone leads: results from the prospective, multicenter Riata Lead Evaluation Study.",
+      "journal": "Heart rhythm",
+      "year": 2013,
+      "pmid": "23994078",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Performance of dedicated versus integrated bipolar defibrillator leads with CRT-defibrillators: results from a Prospective Multicenter Study.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
+      "year": 2009,
+      "pmid": "19170903",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ventral striatal blood flow is altered by acute nicotine but not withdrawal from nicotine.",
+      "journal": "Neuropsychopharmacology : official publication of the Americ",
+      "year": 2008,
+      "pmid": "17460613",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Large septic pulmonary embolism complicating extraction of an infected transvenous defibrillator lead.",
+      "journal": "Heart rhythm",
+      "year": 2006,
+      "pmid": "16567305",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Use of implantable pacemakers and implantable defibrillators in hypertrophic cardiomyopathy.",
+      "journal": "Current opinion in cardiology",
+      "year": 2001,
+      "pmid": "11124720",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sequential Electrocardiographic Progression of Alternating Bundle Branch Block Culminating in Complete Atrioventricular Block.",
+      "journal": "JACC. Case reports",
+      "year": 2026,
+      "pmid": "42165471",
+      "tier": "name-only"
+     },
+     {
+      "title": "Digitally engaging participants in cancer clinical trials: Design and pilot of the Alliance Participant Engagement Portal (PEP).",
+      "journal": "JNCI cancer spectrum",
+      "year": 2026,
+      "pmid": "41968797",
+      "tier": "name-only"
+     },
+     {
+      "title": "Hemodynamic Consequences and Clinical Outcomes With Intravenous Lidocaine Infusion in Patients With Atrial Fibrillation.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41857798",
+      "tier": "name-only"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'FREEDMAN' + first initial 'R'",
+     "signals": {
+      "topicKeywords": [
+       "clinical cardiac electrophysiology",
+       "defibrillator",
+       "durata",
+       "riata"
+      ],
+      "affiliationGeo": [
+       "Idaho",
+       "IDAHO FALLS"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 1056,
+      "beneficiaries": 908
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 575,
+      "beneficiaries": 395
+     },
+     {
+      "code": "93228",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with review and report by health care pro",
+      "services": 216,
+      "beneficiaries": 213
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 175,
+      "beneficiaries": 150
+     },
+     {
+      "code": "93288",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system",
+      "services": 160,
+      "beneficiaries": 119
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 137,
+      "beneficiaries": 103
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1790866580"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'ROGER FREEDMAN'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:name-only": 1
+    },
+    "cites": [],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "13 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "7 corroborated + 1247 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  }
+ }
+}

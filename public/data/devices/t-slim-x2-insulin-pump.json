@@ -80,11 +80,6 @@
    "module": "icp-map"
   },
   {
-   "label": "Granted patents (assignee)",
-   "value": 339,
-   "format": "number"
-  },
-  {
    "label": "Foreign regulator actions",
    "value": 15,
    "format": "number",
@@ -316,62 +311,6 @@
    ]
   },
   {
-   "key": "patents",
-   "label": "Patent grants",
-   "unit": "patents",
-   "module": "ip",
-   "points": [
-    {
-     "year": 1990,
-     "value": 14
-    },
-    {
-     "year": 1991,
-     "value": 13
-    },
-    {
-     "year": 1992,
-     "value": 8
-    },
-    {
-     "year": 1993,
-     "value": 16
-    },
-    {
-     "year": 1994,
-     "value": 25
-    },
-    {
-     "year": 1995,
-     "value": 20
-    },
-    {
-     "year": 1996,
-     "value": 25
-    },
-    {
-     "year": 1997,
-     "value": 22
-    },
-    {
-     "year": 1998,
-     "value": 52
-    },
-    {
-     "year": 1999,
-     "value": 40
-    },
-    {
-     "year": 2000,
-     "value": 21
-    },
-    {
-     "year": 2001,
-     "value": 7
-    }
-   ]
-  },
-  {
    "key": "foreignActions",
    "label": "Foreign regulator actions",
    "unit": "actions",
@@ -421,37 +360,37 @@
      {
       "problem": "Incorrect Measurement",
       "reports": 97240,
-      "narrative": "IT WAS REPORTED THAT THE CUSTOMER'S FILL ESTIMATE WAS INACCURATE AFTER LOADING THE CARTRIDGE WITH COLD INSULIN. THERE WAS NO REPORTED IMPACT TO THE CUSTOMER'S BLOOD GLUCOSE LEVEL."
+      "narrative": "IT WAS REPORTED THAT A MINIMUM FILL NOTIFICATION OCCURRED AFTER THE USER FILLED THE CARTRIDGE WITH 200 UNITS OF INSULIN DURING THE LOAD SEQUENCE. A NEW CARTRIDGE WAS LOADED TO RESOLVE THE ISSUE. CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL WAS 265 MG/DL."
      },
      {
       "problem": "Charging Problem",
       "reports": 94439,
-      "narrative": "IT WAS REPORTED THAT THE PUMP COULD NOT BE CHARGED DESPITE THE ATTEMPT OF MULTIPLE USB CABLES, WALL ADAPTERS AND POWER SOURCES. THE CUSTOMER\u00bfS BLOOD GLUCOSE WAS 400S (MG/DL). REPORTEDLY THE CUSTOMER REVERTED TO MANUAL INJECTIONS FOR INSULIN THERAPY."
+      "narrative": "IT WAS REPORTED THAT THE CUSTOMER'S PUMP HAS DIFFICULTY CHARGING DUE TO A DAMAGED USB PORT. THERE WAS NO IMPACT TO THE CUSTOMER'S BLOOD GLUCOSE LEVEL."
      },
      {
       "problem": "Battery Problem",
       "reports": 77245,
-      "narrative": "NO PRODUCT WAS RETURNED FOR EVALUATION. SHOULD NEW RELEVANT INFORMATION BECOME AVAILABLE, A SUPPLEMENTAL REPORT WILL BE SUBMITTED."
+      "narrative": "IT WAS REPORTED THAT THE PUMP BATTERY WAS INTERMITTENTLY DEPLETING QUICKLY. ADDITIONALLY, IT WAS REPORTED THAT THE PUMP SHUT OFF UNEXPECTEDLY. CUSTOMER CONFIRMED PUMP DISPLAY TURNED ON WHEN PLUGGED INTO A POWER SOURCE. CUSTOMER'S BLOOD GLUCOSE WAS 600 MG/DL. A MANUAL INSULIN INJECTION WAS USED TO ADDRESS BG. CUSTOMER DECLINED TROUBLESHOOTING WITH TANDEM TECHNICAL SUPPORT."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 65369,
-      "narrative": "IT WAS REPORTED THAT THE CUSTOMER EXPERIENCED A LOW BLOOD GLUCOSE (BG) LEVEL OF APPROXIMATELY 20 MG/DL WITH AN UNKNOWN CAUSE. PARAMEDICS TRANSPORTED CUSTOMER TO THE EMERGENCY ROOM (ER) WHERE DEXTROSE WAS USED TO TREAT LOW BG. CUSTOMER WAS RELEASED FROM THE ER AFTER A FIVE HOURS FEELING BETTER."
+      "narrative": "IT WAS REPORTED THAT CUSTOMER PERFORMED THE LOAD FILL TUBING SEQUENCE WHILE CONNECTED AT THE INFUSION SET SITE. SUBSEQUENTLY, 25 UNITS OF INSULIN WAS INADVERTENTLY DELIVERED. THE CUSTOMER\u00bfS BLOOD GLUCOSE (BG) LOWERED TO 50 MG/DL. CUSTOMER CONSUMED GLUCOSE TABLETS TO ADDRESS BG. TANDEM TECHNICAL SUPPORT EDUCATED THE CUSTOMER TO NOT BE CONNECTED TO THE PUMP DURING THE FILL TUBING PROCESS."
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 62549,
-      "narrative": "IT WAS REPORTED THAT AN OCCLUSION ALARM OCCURRED. CUSTOMER'S BLOOD GLUCOSE WAS 135 MG/DL. REPORTEDLY, THE PUMP SUPPLIES WERE CHANGED TO ADDRESS THE ISSUE AND INSULIN DELIVERY WAS RESUMED."
+      "narrative": "IT WAS REPORTED THAT INTERMITTENT OCCLUSION ALARMS OCCURRED. CUSTOMER REPORTED USING APIDRA. TANDEM TECHNICAL SUPPORT INFORMED CUSTOMER THAT APIDRA IS OFF LABEL PER THE USER GUIDE. CUSTOMER CHANGED PUMP SUPPLIES TO ADDRESS THE ISSUE AND RESUMED INSULIN DELIVERY. CUSTOMER'S BLOOD GLUCOSE WAS 330 MG/DL."
      },
      {
       "problem": "Failure to Sense",
       "reports": 55150,
-      "narrative": "IT WAS REPORTED THAT THE PUMP FELL, AND THE TOUCH SCREEN BECAME SHATTERED AND UNRESPONSIVE. THERE WAS NO ADVERSE IMPACT TO CUSTOMER\u00bfS BLOOD GLUCOSE LEVEL. REPORTEDLY, CUSTOMER REVERTED TO BACKUP PUMP FOR INSULIN THERAPY."
+      "narrative": "IT WAS REPORTED THAT THE PUMP TOUCHSCREEN WAS UNRESPONSIVE, A CARTRIDGE ALARM (ALARM 1) AND SCREEN BUTTON ALARM (ALARM 22) OCCURRED. CONTACT COULD NOT RECALL DETAILS THAT LED UP TO THE ALARMS. THE TOUCHSCREEN ISSUE WAS RESOLVE WHEN THE BUTTON ALARM OCCURRED. THERE WAS NO REPORTED IMPACT TO CUSTOMER'S BLOOD GLUCOSE. CONTACT DECLINED TANDEM TECHNICAL SUPPORT'S OFFER TO TROUBLESHOOT THE REPORTED ALARMS."
      },
      {
       "problem": "Communication or Transmission Problem",
       "reports": 44002,
-      "narrative": "IT WAS REPORTED THAT THE CUSTOMER WENT TO THE EMERGENCY ROOM AND WAS SUBSEQUENTLY ADMITTED TO THE INTENSIVE CARE UNIT DUE TO A BLOOD GLUCOSE (BG) LEVEL OF 35 MG/DL; CAUSE WAS NOT KNOWN. REPORTEDLY, THERE WAS A BLOOD CLOT IN THE CUSTOMER\u00bfS LUNG. CUSTOMER CONSUMED CARBOHYDRATES AND WAS TREATED WITH BLOOD THINNERS AND INTRAVENOUS LIQUIDS. CUSTOMER DID NOT SPECIFY WHAT INTRAVENOUS LIQUIDS WERE ADMINISTERED. CUSTOMER WAS"
+      "narrative": "THE DEVICE IS EXPECTED TO BE RETURNED; HOWEVER, THE DEVICE HAS NOT YET BEEN RECEIVED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED IF THE DEVICE IS RECEIVED."
      }
     ]
    },
@@ -459,104 +398,1159 @@
   },
   "predicate-tree": {
    "teaser": {
-    "devices": 16,
-    "citations": 30,
-    "hops": 2,
+    "devices": 148,
+    "citations": 228,
     "anchors": [
      "K250792",
      "K232380",
-     "K203234"
-    ]
+     "K203234",
+     "K201214",
+     "K162080",
+     "K160056",
+     "K160482",
+     "K141758",
+     "K133593",
+     "K111210"
+    ],
+    "accessories": 0,
+    "generationsUp": 7,
+    "generationsDown": 4
    },
    "payload": {
     "anchors": [
      "K250792",
      "K232380",
-     "K203234"
+     "K203234",
+     "K201214",
+     "K162080",
+     "K160056",
+     "K160482",
+     "K141758",
+     "K133593",
+     "K111210"
     ],
+    "accessories": [],
     "nodes": [
+     {
+      "k": "DEN140016",
+      "name": "STUDIO ON THE CLOUD DATA MANAGEMENT SOFTWARE",
+      "anchor": false,
+      "level": 5
+     },
      {
       "k": "DEN170088",
       "name": "Dexcom G6 Continuous Glucose Monitoring System",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "DEN180058",
       "name": "t:slim X2 insulin pump with interoperable technology",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "DEN190034",
       "name": "Control-IQ Technology",
-      "anchor": false
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K001864",
+      "name": "SYNTHES CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K002733",
+      "name": "SUMMIT OCCIPITO-CERVICO-THORACIC (OCT) SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K003780",
+      "name": "VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K010359",
+      "name": "INNOVO",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K010681",
+      "name": "SUMMIT OCCIPITO-CERVICO-THORACIC (OCT) SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K011969",
+      "name": "SYNTHES CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K012891",
+      "name": "OXIMAX PULSE OXIMETRY SYSTEM WITH N-595 PULSE OXIMETER AND OXIMAX SENSORS AND CA",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K013222",
+      "name": "SUMMIT OCCIPITO-CERVICO- THORACIC (OCT) SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K013309",
+      "name": "GLUCOPRO EVO INFUSION PUMP",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K021009",
+      "name": "OCTAFIX OCCIPITAL CERVICAL PLATING SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K021705",
+      "name": "MODIFICATION TO TOWNLEY TRANSFACEPEDICULAR SCREW FIXATION SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K022015",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K022048",
+      "name": "INTERPORE CROSS INTERNATIONAL (ICI) OCCIPITO-CERVICO-THORACIC (OCT) ROD AND PLAT",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K022190",
+      "name": "MODIFICATION TO SUMMIT OCCIPITO-CERVICO-THORACIC (OCT) SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K022677",
+      "name": "MEDLEY SPO2 MODULE, MODEL 8210 & SPO2 SENSORS & CABLE",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K023264",
+      "name": "MEDLEY SYRINGE PUMP MODULE SYSTEM, MODEL 8110",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K023555",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K023675",
+      "name": "SYNTHES CERVIFIX/ AXON",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K030103",
+      "name": "SUMMIT OCT SPINAL SYSTEM MINIPOLYAXIAL SCREWS",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K030459",
+      "name": "MEDLEY SYSTEM WITH MEDICATION MANAGEMENT SYSTEM (MMS)",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K031985",
+      "name": "SPINAL CONCEPTS INC. NEX-LINK SPINAL FIXATION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K032854",
+      "name": "UNOMEDICAL MONICA INFUSION SET",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K033961",
+      "name": "ALTIUS OCT SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K040899",
+      "name": "MEDEX 3000 SERIES MR SYRINGE INFUSION PUMP",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K041203",
+      "name": "SUMMIT OCT SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042402",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042432",
+      "name": "PHARMGUARD TOOLBOX, MODEL G6000782",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K042498",
+      "name": "VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042508",
+      "name": "SUMIT OCT SPINAL SYSTEM AND MOUNTAINEER OCT SPINAL SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042524",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042789",
+      "name": "VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K042873",
+      "name": "ANIMAS MODEL IR1250 INSULIN INFUSION PUMP",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K043229",
+      "name": "MODIFICATION TO ALTIUS OCT SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K050312",
+      "name": "AMIGO INSULIN PUMP",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K050979",
+      "name": "S4 SPINAL SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K051264",
+      "name": "COMFORT AND INSET SUBCUTANEOUS INFUSION SETS FOR USE WITH ABBOTT INFUSION PUMPS",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K052180",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K052376",
+      "name": "MODIFICATION TO: VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K052402",
+      "name": "VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K052734",
+      "name": "MODIFICATION TO: VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K052847",
+      "name": "CAPLESS PEDICLE SCREW SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K053483",
+      "name": "MODIFICATION TO VERTEX RECONSTRUCTION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K054841",
+      "name": "",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K060152",
+      "name": "MODIFICATION TO S4 SPINAL SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K060203",
+      "name": "MODIFICATION TO CD HORIZON SPINAL SYSTEM",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K061591",
+      "name": "MODIFICATION TO CD HORIZON SPINAL SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K062012",
+      "name": "S4 CERVICAL OCCIPITAL PLATE SPINAL SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K062254",
+      "name": "AXIS FIXATION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K062323",
+      "name": "DELTEC COZMO INSULIN INFUSION PUMP WITH COZMONITOR BLOOD GLUCOSE METER, MODELS 2",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K062327",
+      "name": "MODIFICATION TO S4 SPINAL SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K062934",
+      "name": "SIERRA",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K071613",
+      "name": "AMIGO INSULIN PUMP",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K072282",
+      "name": "CAPLESS LI PEDICLE SCREW SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K090224",
+      "name": "FORTEX PEDICLE SCREW SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K092420",
+      "name": "KRD1 PEDICLE SCREW SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K100147",
+      "name": "S4 CERVICAL OCCIPITAL PLATE SPINAL SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K100605",
+      "name": "MIS SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K111210",
+      "name": "T:SLIM (TM) INSULIN DELIVERY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K111353",
+      "name": "ACCU-CHECK COMBO SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K111386",
+      "name": "MEDFUSION MODEL 4000 SYRINGE INFUSION PUMP, PHARMGUARD TOOLBOX 2 MEDICATION SAFE",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K122163",
+      "name": "CERTEX SPINAL IMPLANT SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K123164",
+      "name": "SPINEFRONTIER PEDFUSE PEDICLE SCREW SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K123744",
+      "name": "",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K123766",
+      "name": "NOVOPEN ECHO, A DIAL A DOSE INSULIN DELIVERY PEN",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K133094",
+      "name": "CERTEX OCT SPINAL IMPLANT SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K133593",
+      "name": "T:SLIM INSULIN DELIVERY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K141758",
+      "name": "T:SLIM INSULIN DELIVERY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K141929",
+      "name": "ACCU-CHEK CONNECT DIABETES MANAGEMENT APP",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K142838",
+      "name": "Synapse Occipital-Cervical-Thoracic (OCT) System",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K143189",
+      "name": "t:flex Insulin Delivery System",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K150482",
+      "name": "",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K150910",
+      "name": "ACCU-CHEK Connect Diabetes Management App",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K151938",
+      "name": "S4 Cervical Spinal and Occiput Systems",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K160056",
+      "name": "t:slim Insulin Delivery System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K160428",
+      "name": "Certex Spinal Fixation System",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K160482",
+      "name": "t:slim Insulin Delivery System, t:flex Insulin Delivery System, Tandem Device Up",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K160629",
+      "name": "InPen",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K162080",
+      "name": "t:slim Insulin Delivery System, t:flex Insulin Delivery System, Tandem Device Up",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K182041",
+      "name": "Dexcom G6 Glucose Program Continuous Glucose Monitoring System",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K182405",
+      "name": "Dexcom Pro Q Continuous Glucose Monitoring System",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K183206",
+      "name": "Dexcom G6 Continuous Glucose Monitoring System",
+      "anchor": false,
+      "level": 5
      },
      {
       "k": "K190487",
       "name": "InPen Dose Calculator",
-      "anchor": false
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K191450",
+      "name": "Dexcom G6 Continuous Glucose Monitoring System, Dexcom G6 Glucose Program Contin",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K191833",
+      "name": "Dexcom G6 Pro Continuous Glucose Monitoring System",
+      "anchor": false,
+      "level": 3
      },
      {
       "k": "K192841",
       "name": "InPen System",
-      "anchor": false
+      "anchor": false,
+      "level": 2
      },
      {
       "k": "K193483",
       "name": "Basal-IQ Technology",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "K200467",
       "name": "Control-IQ Technology",
-      "anchor": false
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K200876",
+      "name": "Dexcom G6 Continuous Glucose Monitoring System, Dexcom G6 Glucose Program Contin",
+      "anchor": false,
+      "level": 4
      },
      {
       "k": "K201214",
       "name": "t:slim X2 Insulin Pump with Interoperable Technology",
-      "anchor": false
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K201328",
+      "name": "Dexcom G6 Continuous Glucose Monitoring (CGM) System",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K203089",
+      "name": "Dexcom G6 Glucose Program Continuous Glucose Monitoring (CGM) System",
+      "anchor": false,
+      "level": 3
      },
      {
       "k": "K203234",
       "name": "t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app)",
-      "anchor": true
+      "anchor": true,
+      "level": 0
      },
      {
       "k": "K213919",
       "name": "Dexcom G7 Continuous Glucose Monitoring System",
-      "anchor": false
+      "anchor": false,
+      "level": 2
      },
      {
       "k": "K221259",
       "name": "Dexcom G6 Continuous Glucose Monitoring (CGM) System, Dexcom G6 Glucose Program ",
-      "anchor": false
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K223213",
+      "name": "Tandem Mobi Insulin Pump with Interoperable Technology",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K223846",
+      "name": "iLet\u00ae ACE Pump",
+      "anchor": false,
+      "level": -1
      },
      {
       "k": "K223931",
       "name": "Dexcom G6 Continuous Glucose Monitoring (CGM) System",
-      "anchor": false
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K231485",
+      "name": "iLet\u00ae ACE Pump",
+      "anchor": false,
+      "level": -2
      },
      {
       "k": "K232380",
       "name": "t:slim X2 Insulin Pump with Interoperable Technology",
-      "anchor": true
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K233044",
+      "name": "Tandem Mobi insulin pump with interoperable technology",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K240158",
+      "name": "Modular Medical MODD1 Insulin Delivery System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K240309",
+      "name": "Tandem Mobi insulin pump with interoperable technology",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K241078",
+      "name": "Tandem Mobi Insulin Pump with interoperable technology",
+      "anchor": false,
+      "level": -2
      },
      {
       "k": "K250792",
       "name": "t:slim X2 insulin pump with interoperable technology",
-      "anchor": true
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K251032",
+      "name": "MiniMed 780G insulin pump",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K252770",
+      "name": "iLet ACE Pump",
+      "anchor": false,
+      "level": -3
+     },
+     {
+      "k": "K253074",
+      "name": "Tandem Mobi insulin pump with interoperable technology",
+      "anchor": false,
+      "level": -3
+     },
+     {
+      "k": "K253470",
+      "name": "MiniMed 780G Insulin Pump (MMT-1884); MiniMed 780G Insulin Pump Kit (MMT-1894)",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K253534",
+      "name": "Pivot Insulin Delivery System",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K253701",
+      "name": "SmartGuard Technology; Predictive Low Glucose Technology",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K253743",
+      "name": "MiniMed Flex pump",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K253976",
+      "name": "iLet ACE Pump",
+      "anchor": false,
+      "level": -4
+     },
+     {
+      "k": "K853033",
+      "name": "HARTSHILL RECT & WIRES, SPINAL FIXATION SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K904039",
+      "name": "REFLECTANCE SENSOR (RS-10)",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K912135",
+      "name": "XY IMAGING TABLE",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K940147",
+      "name": "AUTO SYRINGE AS40A INFUSION PUMP",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K941562",
+      "name": "1ML LUER-LOK SYRINGE",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K950099",
+      "name": "SYNERGY(TM) TI POSTERIOR SPINAL SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K950419",
+      "name": "THE IMED ORION INFUSION PUMP AND ADMINISTRATION SETS",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K952222",
+      "name": "NELLCOR N-20PA PORTABLE PULSE OXIMETER",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K953076",
+      "name": "TOWNLEY FACET/PEDICULAR SCREW PLATING SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K955642",
+      "name": "NELLCOR SYMPHONY N-3000 PATIENT MONITOR W/SP02 & ECG/N-3200 DISPLAY/PRINTER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K960001",
+      "name": "MINIMED INFUSION PUMP, MODEL MMT-507",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K965221",
+      "name": "RANSFORD CERVICAL FIXATION SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K972135",
+      "name": "MAERSK MEDICAL PURELINE COMFORT SUBCUTANEOUS INFUSION SET",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K973044",
+      "name": "DISETRONIC H-TRON PLUS V 100 INSULIN INFUSION PUMP",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K974332",
+      "name": "VARIABLE PRESSURE SYRINGE PUMP",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K982255",
+      "name": "MODEL 2000 PULSE OXIMETER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K982322",
+      "name": "SYNTHES SPINE OCCIPITAL-CERVICAL PLATE/ROD AND HOOK SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K982640",
+      "name": "MEDEX 3000 SERIES SYRINGE INFUSION PUMP",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K984371",
+      "name": "MEPITEL NON ADHERENT SILICONE DRESSING",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K984377",
+      "name": "SYNTHES SPINE CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K984722",
+      "name": "",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K990801",
+      "name": "MINIMED 508 INSULIN PUMP",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K990965",
+      "name": "SYNTHES CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K991089",
+      "name": "SYNTHES CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K991823",
+      "name": "N-395 PULSE OXIMETER, MODEL N-395",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K992300",
+      "name": "QUICK-SERTER, MODEL 395",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K992739",
+      "name": "CLICK'X",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K993631",
+      "name": "QUALITROL TUMOR MARKER CONTROL, LEVELS 1 AND 2",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K993637",
+      "name": "N-395 PULSE OXIMETER, WITH EXTENDED DEVICE CLAIMS",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K994187",
+      "name": "SYNTHES CERVIFIX SYSTEM",
+      "anchor": false,
+      "level": 5
      },
      {
       "k": "P140015",
       "name": "",
-      "anchor": false
+      "anchor": false,
+      "level": 2
      },
      {
       "k": "P180008",
       "name": "",
-      "anchor": false
+      "anchor": false,
+      "level": 2
      }
     ],
     "edges": [
+     {
+      "from": "K111210",
+      "to": "K071613",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Pump/ /21 C.F.R. 880.5725 Predicate Devices Medtronic MiniMed's 508 Insulin Pump (K990801) Nipro Diabetes Systems, Inc.'s Amigo Insulin Pump (K071613) Intended Use / Indications for Use The t:SlimTM Insulin Delivery System is intended for the subcutaneous delivery of insulin, at",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111210",
+      "to": "K990801",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "August 3, 2011 Common or Usual Name / Classification Regulation Insulin Pump/ /21 C.F.R. 880.5725 Predicate Devices Medtronic MiniMed's 508 Insulin Pump (K990801) Nipro Diabetes Systems, Inc.'s Amigo Insulin Pump (K071613) Intended Use / Indications for Use The t:SlimTM Insulin",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111210",
+      "to": "K051264",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "slimn Pump\" or\n.Pump\"),\n2. a dedicated, disposable 3mL (300 unit) insulin cartridge (\"cartridge\");\n3. an UnoMedical ComfortTM Infusion Set (K051264), or an equivalently FDA cleared\ninfusion set (\"infusion set\"); and\n4. accessories, including a Becton Dickenson 3mL sterile",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K133593",
+      "to": "K111210",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": null,
+      "hop": 1,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K133593",
+      "to": "K051264",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "\"t:slim Pump\" or\"Pump\"),\n2. a dedicated, disposable 3mL (300 unit) insulin cartridge (\"cartridge\");\n3. an Unoedical ComfortTM Infusion Set (K051264), or an equivalently FDA cleared\ninfusion set (\"infusion set\"); and\n4. accessories, including a Becton Dickenson 3mL sterile",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K141758",
+      "to": "K111210",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "me\nInsulininfusionpump\nClassificationName\nInfusionPumpper21CFR880.5725\nPredicateDevices\nTandemDiabetesCare,Inc.t:slim\u00aeInsulinDeliverySystem(K111210,K133593)\nPurposeofthe510(k)notification\nThet:slim\u00aeInsulinDeliverySystemisamodificationtothepreviouslyclearedt:slim\u00aeInsulin\nDeliveryS",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K141758",
+      "to": "K941562",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "40)InfusionSet(K051264),oranequivalentlyFDAcleared\ninfusionset(\u201cinfusionset\u201d);and\n4. accessories,includingaBectonDickenson3mLsterilesyringe(K941562) and26gauge\nsterileneedle,orequivalentlyclearedsyringeandneedle,aswellasanACpower\nsupplyandDCcaradapterpowersupplywithUSBforcharging",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K141758",
+      "to": "K133593",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ininfusionpump\nClassificationName\nInfusionPumpper21CFR880.5725\nPredicateDevices\nTandemDiabetesCare,Inc.t:slim\u00aeInsulinDeliverySystem(K111210,K133593)\nPurposeofthe510(k)notification\nThet:slim\u00aeInsulinDeliverySystemisamodificationtothepreviouslyclearedt:slim\u00aeInsulin\nDeliverySystem.\nI",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K141758",
+      "to": "K051264",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "onpump(\u201ct:slimPump\u201dor\u201cPump\u201d);\n2. adedicated,disposable3mL(300unit)insulincartridge(\u201ccartridge\u201d);\n3. anUnoMedicalComfort(cid:140)InfusionSet(K051264),oranequivalentlyFDAcleared\ninfusionset(\u201cinfusionset\u201d);and\n4. accessories,includingaBectonDickenson3mLsterilesyringe(K941562)",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160056",
+      "to": "K051264",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "(\u201ct:slim Pump\u201d or \u201cPump\u201d); 2. a dedicated, disposable 3.0 mL (300 unit) insulin cartridge (\u201ccartridge\u201d); 3. an UnoMedical Comfort\u2122 Infusion Set (K051264), or an equivalently FDA cleared infusion set (\u201cinfusion set\u201d); and 4. accessories, including a 3 mL sterile syringe and 26",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160056",
+      "to": "K141758",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Pump per 21 CFR 880.5725 Product Code LZG, Insulin infusion Pump Predicate Devices Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System (K141758) Purpose of the 510(k) notification The purpose of this 510(k) is to describe modified indications for use for the t:slim\u00ae",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160482",
+      "to": "K143189",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate Device Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System (K141758) Tandem Diabetes Care, Inc. t:flex\u2122 Insulin Delivery System (K143189) Medfusion\u00ae Model 4000 Syringe Infusion Pump with the PharmGuard\u00ae Toolbox2 Medication Safety Software (K111386). Device",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160482",
+      "to": "K111386",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "t:flex\u2122 Insulin Delivery System (K143189) Medfusion\u00ae Model 4000 Syringe Infusion Pump with the PharmGuard\u00ae Toolbox2 Medication Safety Software (K111386). Device Description The t:slim\u00ae and t:flex\u2122 Insulin Delivery Systems facilitate the subcutaneous delivery of insulin, at set",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160482",
+      "to": "K141758",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5725 Product Codes LZG, Insulin Infusion Pump MRZ, Infusion Pump Accessories Predicate Device Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System (K141758) Tandem Diabetes Care, Inc. t:flex\u2122 Insulin Delivery System (K143189) Medfusion\u00ae Model 4000 Syringe Infusion Pump",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160482",
+      "to": "K051264",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "(2) a dedicated disposable 3.0 mL (300 units) and 4.8 mL (480 units) insulin cartridge, respectively; (3) UnoMedical\u2019s Comfort\u2122 Infusion Set (K051264), or an equivalently cleared set; and (4) additional device accessories including a sterile syringe and needle (for cartridge",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K162080",
+      "to": "K160482",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "slim Insulin Delivery System cleared under K160056 with the updated software and accessories cleared for the t:slim Insulin Delivery System cleared under K160482. The t:slim Insulin Delivery System was cleared under K160482 with updated software and with the Tandem Device",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162080",
+      "to": "K160056",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "flex\u00ae Insulin Delivery System, Tandem Device Updater (K160428) Reference Predicate Device: Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System (K160056) Purpose of the 510(k) notification The purpose of this 510(k) is to describe modified indications for use of the",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162080",
+      "to": "K150482",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "slim Insulin Delivery System. The t:slim Insulin Delivery System was cleared under K160056 with indications for 6 years and greater, but was cleared separately under K150482 with an updated",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K162080",
+      "to": "K160428",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Primary Predicate Device: Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System, t:flex\u00ae Insulin Delivery System, Tandem Device Updater (K160428) Reference Predicate Device: Tandem Diabetes Care, Inc. t:slim\u00ae Insulin Delivery System (K160056) Purpose of the 510(k)",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162080",
+      "to": "K051264",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "(2) a dedicated disposable 3.0 mL (300 units) and 4.8 mL (480 units) insulin cartridge, respectively; (3) UnoMedical\u2019s Comfort\u2122 Infusion Set (K051264), or an equivalently cleared set; and (4) additional device accessories including a sterile syringe and needle (for cartridge",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K201214",
+      "to": "K193483",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "other interoperable devices. The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K201214",
+      "to": "DEN180058",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "to ensure that the software conforms to patient needs and intended uses. Adherence of the Special Controls listed in the Predicate Device (DEN180058), and present in the Subject Device, show continued assurance of the safety and effectiveness of the Subject Device. XIV.",
+      "hop": 1,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K201214",
+      "to": "DEN190034",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM systems cleared under 21 CFR",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
      {
       "from": "K203234",
       "to": "DEN170088",
@@ -564,7 +1558,18 @@
       "confidence": "low",
       "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitoring System or other\ncompatible iCGM\n\u2022 #K193483: Basal-IQ\nTechnology\n\u2022 #K200467:",
       "hop": 1,
+      "dir": "up",
       "page": 6
+     },
+     {
+      "from": "K203234",
+      "to": "K200467",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
      },
      {
       "from": "K203234",
@@ -573,6 +1578,7 @@
       "confidence": "medium",
       "quote": "Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Classification Product Code QFG Predicate Device K201214 t:slim X2 Insulin Pump with Interoperable Technology I. Purpose of Traditional 510(k) Request to add the t:connect mobile",
       "hop": 1,
+      "dir": "up",
       "page": 4
      },
      {
@@ -582,25 +1588,8 @@
       "confidence": "low",
       "quote": "connect mobile app does not control, or otherwise impact, any automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate",
       "hop": 1,
+      "dir": "up",
       "page": 5
-     },
-     {
-      "from": "K203234",
-      "to": "K200467",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
-      "hop": 1,
-      "page": 5
-     },
-     {
-      "from": "K232380",
-      "to": "K193483",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
-      "hop": 1,
-      "page": 6
      },
      {
       "from": "K232380",
@@ -609,6 +1598,27 @@
       "confidence": "medium",
       "quote": "diabetes management. The latter is being submitted concurrently. In addition, the Subject Device is compatible with iCGM systems cleared under K223931 21 CFR 862.1355.",
       "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K232380",
+      "to": "K200467",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition, the Subject Device is compatible with iCGM",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K232380",
+      "to": "K193483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
+      "hop": 1,
+      "dir": "up",
       "page": 6
      },
      {
@@ -618,16 +1628,8 @@
       "confidence": "medium",
       "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
       "hop": 1,
+      "dir": "up",
       "page": 5
-     },
-     {
-      "from": "K232380",
-      "to": "K200467",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition, the Subject Device is compatible with iCGM",
-      "hop": 1,
-      "page": 6
      },
      {
       "from": "K250792",
@@ -636,7 +1638,158 @@
       "confidence": "medium",
       "quote": "Code Classification Name Alternate controller enabled infusion pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K232380, t:slim X2 insulin pump with interoperable technology I. Device Under Review The Subject Device, t:slim X2 insulin pump with",
       "hop": 1,
+      "dir": "up",
       "page": 5
+     },
+     {
+      "from": "K051264",
+      "to": "K032854",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "tTM Subcutaneous Infusion Sets for use with the Abbott\nPump are substantially equivalent to the Unomnedical ComfortTM'(K972135) and\nInset\u00ae (K032854) sets.\n8.6 Technological Characteristics\nThe ComfortTm and Inset1'mS ubcutaneous Infusion Sets for use with the Abbott\nPump have",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K051264",
+      "to": "K972135",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "he Comfort~m and lnsetTM Subcutaneous Infusion Sets for use with the Abbott\nPump are substantially equivalent to the Unomnedical ComfortTM'(K972135) and\nInset\u00ae (K032854) sets.\n8.6 Technological Characteristics\nThe ComfortTm and Inset1'mS ubcutaneous Infusion Sets for use with",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071613",
+      "to": "K042873",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "21 CFR \u00a7 880.5725 Establishment registration: Nipro Diabetes Systems, Inc. #1 066380 Predicate device(s) Animas IR1250 Insulin Infusion Pump K042873 Nipro Amigo\u00ae Insulin Pump K050312 Smiths Medical Deltec Cozmo\u00ae Insulin Pump K062323 02-0003",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071613",
+      "to": "K050312",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "5725 Establishment registration: Nipro Diabetes Systems, Inc. #1 066380 Predicate device(s) Animas IR1250 Insulin Infusion Pump K042873 Nipro Amigo\u00ae Insulin Pump K050312 Smiths Medical Deltec Cozmo\u00ae Insulin Pump K062323 02-0003",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071613",
+      "to": "K062323",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "#1 066380 Predicate device(s) Animas IR1250 Insulin Infusion Pump K042873 Nipro Amigo\u00ae Insulin Pump K050312 Smiths Medical Deltec Cozmo\u00ae Insulin Pump K062323 02-0003",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111386",
+      "to": "K023264",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "usion\u00ae Model 3500 Syringe Infusior\n'ump (K040899), PharmGuard\u00ae Toolbox (K042432), ALARIS Medical Systems, Inc. Medley\"\nSyringe Pump Module (K023264), and the ALARIS Medical Systems Inc. Medley System\nwith Medication Management System (K030459).\nDevice Description\n\u2022\nThe",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111386",
+      "to": "K042432",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "cate Device(s)\nThe predicate devices are the currently marketed Medfusion\u00ae Model 3500 Syringe Infusior\n'ump (K040899), PharmGuard\u00ae Toolbox (K042432), ALARIS Medical Systems, Inc. Medley\"\nSyringe Pump Module (K023264), and the ALARIS Medical Systems Inc. Medley System\nwith",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111386",
+      "to": "K040899",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ation:\n21 CFR $880.5725\n\u2022\nPredicate Device(s)\nThe predicate devices are the currently marketed Medfusion\u00ae Model 3500 Syringe Infusior\n'ump (K040899), PharmGuard\u00ae Toolbox (K042432), ALARIS Medical Systems, Inc. Medley\"\nSyringe Pump Module (K023264), and the ALARIS Medical Systems",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111386",
+      "to": "K030459",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "l Systems, Inc. Medley\"\nSyringe Pump Module (K023264), and the ALARIS Medical Systems Inc. Medley System\nwith Medication Management System (K030459).\nDevice Description\n\u2022\nThe Medfusion\u00ae Model 4000 Syringe Infusion Pump software version I.I is a wireless",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K143189",
+      "to": "K141758",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "me\nInsulininfusionpump\nClassificationName\nInfusionPumpper21CFR880.5725\nPredicateDevices\nTandemDiabetesCare,Inc.t:slim\u00aeInsulinDeliverySystem(K141758)\nPurposeofthe510(k)notification\nThet:flex(cid:140)InsulinDeliverySystemisamodificationtothepreviouslyclearedt:slim\u00aeInsulinDelivery\nS",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K143189",
+      "to": "K051264",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "3. anUnoMedicalComfort(cid:140)InfusionSet(K051264),oranequivalentlyFDAcleared\ninfusionset(\u201cinfusionset\u201d);and\n4. accessories,includinga5mLsterilesyringe and26gaugesterileneedle,aswellasan\nAC",
+      "hop": 2,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160428",
+      "to": "K151938",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "April 27, 2016 Classifications: Unclassified Class: Unclassified Product Codes: NKG, KWP Primary Predicate: Aesculap S4 Cervical Occipital Plate Spinal System (K151938) Additional Predicates: Certex Spinal Fixation System (K133094, K122163) Aesculap S4 Cervical Occipital Plate",
+      "hop": 2,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160428",
+      "to": "K122163",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "NKG, KWP Primary Predicate: Aesculap S4 Cervical Occipital Plate Spinal System (K151938) Additional Predicates: Certex Spinal Fixation System (K133094, K122163) Aesculap S4 Cervical Occipital Plate Spinal System (K151938) Indications For Use: The intended use of the Certex",
+      "hop": 2,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160428",
+      "to": "K133094",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "NKG, KWP Primary Predicate: Aesculap S4 Cervical Occipital Plate Spinal System (K151938) Additional Predicates: Certex Spinal Fixation System (K133094, K122163) Aesculap S4 Cervical Occipital Plate Spinal System (K151938) Indications For Use: The intended use of the Certex",
+      "hop": 2,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K193483",
+      "to": "DEN190034",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "or 21 CFR 868.1890\nVII. Device Class Class II\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
      },
      {
       "from": "K193483",
@@ -645,24 +1798,7 @@
       "confidence": "medium",
       "quote": "Enabled Infusion Pump (cleared under 21 CFR 880.5730)(ACE pump). Basal-IQ technology is only compatible with the Tandem t:slim X2 insulin pump (DEN180058). The Basal-IQ software and algorithm can receive interstitial sensor glucose values from a compatible iCGM system (cleared",
       "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K193483",
-      "to": "K190487",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "Calculator Predicate Device Subject Device (K190487, InPen Dose Calculator) (K193483) Indications The InPen dose calculator, a The bolus calculator is indicated for for Use component of the InPen",
-      "hop": 2,
-      "page": 7
-     },
-     {
-      "from": "K193483",
-      "to": "K192841",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose Suspend (PLGS) algorithm for the\nmanagement",
-      "hop": 2,
+      "dir": "up",
       "page": 4
      },
      {
@@ -672,16 +1808,28 @@
       "confidence": "low",
       "quote": "XII. Discussion of the Non-Clinical Testing The t:slim X2 with Basal-IQ Technology, previously approved under P180008, contains the Basal-IQ Technology algorithm and calculator. No new non-clinical laboratory studies were needed for the separation from that",
       "hop": 2,
+      "dir": "up",
       "page": 8
      },
      {
       "from": "K193483",
-      "to": "DEN190034",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "or 21 CFR 868.1890\nVII. Device Class Class II\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose",
+      "to": "K192841",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "I\nVIII. Classification Product Code\nAlgorithm QJS\nCalculator NDC\nIX. Predicate Device\nAlgorithm DEN190034, Control-IQ technology\nCalculator K192841, InPen Dose Calculator\nX. Description\nBasal-IQ technology is a Predictive Low Glucose Suspend (PLGS) algorithm for the\nmanagement",
       "hop": 2,
+      "dir": "up",
       "page": 4
+     },
+     {
+      "from": "K193483",
+      "to": "K190487",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Calculator Predicate Device Subject Device (K190487, InPen Dose Calculator) (K193483) Indications The InPen dose calculator, a The bolus calculator is indicated for for Use component of the InPen",
+      "hop": 2,
+      "dir": "up",
+      "page": 7
      },
      {
       "from": "K193483",
@@ -690,6 +1838,7 @@
       "confidence": "low",
       "quote": "The performance data presented demonstrates that the Basal-IQ Technology of the already approved t:slim X2 Insulin Pump paired with the Dexcom G5 CGM (P140015/S020) can be used safely and that it functions as intended. The analysis of input specifications is adequate to assure",
       "hop": 2,
+      "dir": "up",
       "page": 8
      },
      {
@@ -699,78 +1848,7 @@
       "confidence": "high",
       "quote": "ation Name/Number\nInteroperable automated glycemic controller per 21 CFR 862.1356\nProduct Codes\nQJI\nPredicate Device\nControl-IQ technology (DEN190034)\nDevice Description\nThe Control-IQ technology, is an interoperable automated glycemic controller. Thisis a device\nintended to",
       "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K201214",
-      "to": "DEN190034",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM systems cleared under 21 CFR",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K201214",
-      "to": "DEN180058",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "to ensure that the software conforms to patient needs and intended uses. Adherence of the Special Controls listed in the Predicate Device (DEN180058), and present in the Subject Device, show continued assurance of the safety and effectiveness of the Subject Device. XIV.",
-      "hop": 2,
-      "page": 7
-     },
-     {
-      "from": "K201214",
-      "to": "K193483",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "other interoperable devices. The Subject Device is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (DEN190034) to aid in diabetes management. In addition, the Subject Device is compatible with iCGM",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K203234",
-      "to": "K193483",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "connect mobile app does not control, or otherwise impact, any automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K203234",
-      "to": "K200467",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "automated dosing algorithms of Interoperable Automated Glycemic Controllers such as Basal-IQ Technology (K193483) and Control-IQ Technology (K200467) to aid in diabetes management. IV. Comparison with Predicate Predicate Device Subject Device K201214 K203234 Indications The",
-      "hop": 2,
-      "page": 5
-     },
-     {
-      "from": "K203234",
-      "to": "K201214",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Classification Product Code QFG Predicate Device K201214 t:slim X2 Insulin Pump with Interoperable Technology I. Purpose of Traditional 510(k) Request to add the t:connect mobile",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K203234",
-      "to": "DEN170088",
-      "kind": "document-wide",
-      "confidence": "low",
-      "quote": "e patient based on\nhealth care provider\nrecommendations.\nPrescription Use Yes Same\nCompatible The Pump is compatible with:\nInteroperable\n\u2022 #DEN170088: Dexcom G6\nDevices\nContinuous Glucose Same\nMonitoring System or other\ncompatible iCGM\n\u2022 #K193483: Basal-IQ\nTechnology\n\u2022 #K200467:",
-      "hop": 2,
-      "page": 6
-     },
-     {
-      "from": "K223931",
-      "to": "K221259",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "1355 Product Code QBJ Review Panel Clinical Chemistry 7.3. Predicate and Reference Devices Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022) Reference Devices Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088,",
-      "hop": 2,
+      "dir": "up",
       "page": 4
      },
      {
@@ -780,6 +1858,17 @@
       "confidence": "medium",
       "quote": "Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022) Reference Devices Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018) Dexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022) 7.4.",
       "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K223931",
+      "to": "K221259",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1355 Product Code QBJ Review Panel Clinical Chemistry 7.3. Predicate and Reference Devices Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K221259, cleared July 29, 2022) Reference Devices Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088,",
+      "hop": 2,
+      "dir": "up",
       "page": 4
      },
      {
@@ -789,49 +1878,1733 @@
       "confidence": "medium",
       "quote": "Dexcom G6 Continuous Glucose Monitoring (CGM) System (DEN170088, granted March 27, 2018) Dexcom G7 Continuous Glucose Monitoring (CGM) System (K213919, cleared December 8, 2022) 7.4. Device Description The proposed Dexcom G6 CGM System is based on the same physical principles",
       "hop": 2,
+      "dir": "up",
       "page": 4
      },
      {
-      "from": "K232380",
-      "to": "K203234",
+      "from": "K023264",
+      "to": "K982640",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "0(k) No. Date\nCleared\nModel P7000 Variable Syringe ALARIS Medical K974332 12/29/98\nPump Systems, Inc.\nMedex 3000 Series Syringe Medex, Inc. K982640 4/6/99\nInfusion Pump, Model 30 1O a\nINTENDED USE\nThe MEDLEYTMSy ringe Pump is intended for use in today\u2019s growing",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K023264",
+      "to": "K974332",
       "kind": "primary",
       "confidence": "medium",
-      "quote": "880.5730 Product code QFG Regulatory class II Predicate devices t:slim X2 Insulin Pump with Interoperable Technology (with t:connect mobile app (K203234) Intended Use The t:slim X2 Insulin Pump with Interoperable Technology (the Pump) is intended for the subcutaneous delivery of",
-      "hop": 2,
+      "quote": "alent to the following predicate devices:\nPredicate Device Manufacturer 510(k) No. Date\nCleared\nModel P7000 Variable Syringe ALARIS Medical K974332 12/29/98\nPump Systems, Inc.\nMedex 3000 Series Syringe Medex, Inc. K982640 4/6/99\nInfusion Pump, Model 30 1O a\nINTENDED USE\nThe",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K030459",
+      "to": "K023264",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Programming Module (PM) and attachable/detachable modules. Current infusion modules available are a Pump Module (K950419) and a Syringe Module (K023264). Monitoring modules currently include Pulse Oximetry (SpO2) using Nellcor (K022677) and Masimo (KO 10966) technology. Page 1",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K030459",
+      "to": "K022677",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Current infusion modules available are a Pump Module (K950419) and a Syringe Module (K023264). Monitoring modules currently include Pulse Oximetry (SpO2) using Nellcor (K022677) and Masimo (KO 10966) technology. Page 1 of4 - . 0512",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K030459",
+      "to": "K950419",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "system that consists of a Programming Module (PM) and attachable/detachable modules. Current infusion modules available are a Pump Module (K950419) and a Syringe Module (K023264). Monitoring modules currently include Pulse Oximetry (SpO2) using Nellcor (K022677) and Masimo (KO",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K032854",
+      "to": "K992300",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Maersk Medical Pureline Comfort Subcutaneous Infusion Set, 5 10K number K972 135 MiniMed Quick-Serter Infusion Set Insertion System, 510K number K992300 Description of the Modified Device: The Unomedical Monica Set is an infusion administration set, connecting to a",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K032854",
+      "to": "K972135",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 3,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K050312",
+      "to": "K013309",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "use, operating principle, overall design, performance, technology, features, functions, and materials to the GlucoPro EVA Pump as described in K013309. Amigo Insulin Pump GlucoPro EVA (This Submission) (K0 13309) Intended for the subcutaneous Intended for the subcutaneous",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K122163",
+      "to": "K062934",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Product Dimensions * Mechanical Performance PREDICATE DEVICES * Aesculap, Inc. S4 Spinal System (1<050979) * Seaspine, Inc. Sierra System (K062934) * X-spine Fortex Spinal Fixation System (K090224) PERFORMANCE DATA The implant components were tested using the following",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K122163",
+      "to": "K090224",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "PREDICATE DEVICES * Aesculap, Inc. S4 Spinal System (1<050979) * Seaspine, Inc. Sierra System (K062934) * X-spine Fortex Spinal Fixation System (K090224) PERFORMANCE DATA The implant components were tested using the following standards: ASTM F1717 -Standard Test Met hods for",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K133094",
+      "to": "K062012",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "DICATE DEVICES\n* X-spine Systems, Inc. - Centex Spinal Implant System (K122163)\n* Aesculap, LLC -S4 Cervical Occipital Plate Spinal System (K062012)\nEQUIVALENCE TO MARKETED PRODUCT\nX-spine Systems, Inc. has submitted information to demonstrate that, for the purposes of",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K133094",
+      "to": "K122163",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "dance with ASTM F1 36 and will be provided clean but non-sterile.\nPREDICATE DEVICES\n* X-spine Systems, Inc. - Centex Spinal Implant System (K122163)\n* Aesculap, LLC -S4 Cervical Occipital Plate Spinal System (K062012)\nEQUIVALENCE TO MARKETED PRODUCT\nX-spine Systems, Inc. has",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K151938",
+      "to": "K062012",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "S4C Spinal System (Additional lengths polyaxial screws) cleared under K060152, the Aesculap S4C Spinal System: Occiput Plate cleared under K062012, the Aesculap S4C Spinal System (Modification to Cross Connector & Add. Smooth Shank Screws) cleared under K062327, and the Aesculap",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151938",
+      "to": "K060152",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "including the Aesculap S4C Spinal System cleared under K050979, the Aesculap S4C Spinal System (Additional lengths polyaxial screws) cleared under K060152, the Aesculap S4C Spinal System: Occiput Plate cleared under K062012, the Aesculap S4C Spinal System (Modification to Cross",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151938",
+      "to": "K100147",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "(Modification to Cross Connector & Add. Smooth Shank Screws) cleared under K062327, and the Aesculap S4C Mini-Occiput Spinal System cleared under K100147. DEVICE DESCRIPTION The Aesculap S4 Cervical Spinal and Occiput Systems are implant systems used to facilitate the biological",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151938",
+      "to": "K062327",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "Occiput Plate cleared under K062012, the Aesculap S4C Spinal System (Modification to Cross Connector & Add. Smooth Shank Screws) cleared under K062327, and the Aesculap S4C Mini-Occiput Spinal System cleared under K100147. DEVICE DESCRIPTION The Aesculap S4 Cervical Spinal and",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151938",
+      "to": "K050979",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "this submission represent an expanded indication for the entire S4 Cervical System, including the Aesculap S4C Spinal System cleared under K050979, the Aesculap S4C Spinal System (Additional lengths polyaxial screws) cleared under K060152, the Aesculap S4C Spinal System: Occiput",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151938",
+      "to": "K142838",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "devices, and the device is therefore found to be substantially equivalent. PREDICATE DEVICE \uf0b7 Synapse Occipital-Cervical-Thoracic (OCT) System (K142838) REFERENCE DEVICES \uf0b7 Aesculap S4C Spinal System (K050979) \uf0b7 Aesculap S4C Spinal System (Additional lengths polyaxial screws)",
+      "hop": 3,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K190487",
+      "to": "K160629",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Insulin Dose Calculator Classification Name: Predictive pulmonary-function value calculator (21 CFR 868.1890); Class II Product Codes: NDC III. PREDICATE DEVICES InPen System (K160629) This predicate has not been subject to a design-related recall. No reference devices were used",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K192841",
+      "to": "K160629",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Pen Injector with Dose Calculator Classification Name: Piston Syringe Classification Regulation: 21 CFR 880.5860; Class II Product Codes: FMF, NDC III. PREDICATE DEVICES InPen\u2122 System (K160629) IV. DEVICE DESCRIPTION The InPen System consists of a manually-controlled pen",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K213919",
+      "to": "K201328",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring (CGM) System (K201328) 5.4 DEVICE DESCRIPTION: The Dexcom G7 Continuous Glucose Monitoring System (G7 System) is an interoperable connected device that measures",
+      "hop": 3,
+      "dir": "up",
       "page": 5
      },
      {
-      "from": "K232380",
-      "to": "K200467",
+      "from": "K221259",
+      "to": "K201328",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "7.3. Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K201328, cleared July 15, 2021) Dexcom G6 Glucose Program CGM System (K203089, cleared August 17, 2021) Dexcom G6 Professional CGM System (K191833,",
+      "hop": 3,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K221259",
+      "to": "K191833",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition, the Subject Device is compatible with iCGM",
-      "hop": 2,
+      "quote": "(K201328, cleared July 15, 2021) Dexcom G6 Glucose Program CGM System (K203089, cleared August 17, 2021) Dexcom G6 Professional CGM System (K191833, cleared October 7, 2019) 7.4. Device Description The proposed Dexcom G6 CGM System, Dexcom G6 Glucose Program CGM System, and",
+      "hop": 3,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K221259",
+      "to": "K203089",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate Device Dexcom G6 Continuous Glucose Monitoring (CGM) System (K201328, cleared July 15, 2021) Dexcom G6 Glucose Program CGM System (K203089, cleared August 17, 2021) Dexcom G6 Professional CGM System (K191833, cleared October 7, 2019) 7.4. Device Description The",
+      "hop": 3,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K972135",
+      "to": "K912135",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "\u2022510(K) SUMMARY\nK912135\n9.0 Summary of Safety and Effectiveness\nAub 26 i.:\n9.1 Trade/Proprietary Name:\nMaersk Medical Pureline \u2122 Comfort \u2122 Subcutaneous Infusion Se",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013309",
+      "to": "K973044",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "mp (21 CFR \u00a7SS0.5725), C h\n3807.92 (a)(3)\nLegally Marketed Substantially t Gquivalent Devices: Disetronic EI-Tran Plus V 100 infusion\npump (K973044) and Minim& 'vfodel507 (K960001)\n13 escriptiori of Device: The GhicIPro Inksion Pump is intended far use with tile",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013309",
+      "to": "K960001",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "92 (a)(3)\nLegally Marketed Substantially t Gquivalent Devices: Disetronic EI-Tran Plus V 100 infusion\npump (K973044) and Minim& 'vfodel507 (K960001)\n13 escriptiori of Device: The GhicIPro Inksion Pump is intended far use with tile disposable\ncompatible infUsicPn sets and the",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022677",
+      "to": "K012891",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "SUBSTANTIAL EQUIVALENCE The MEDLEY Sp02 Module, Model 82 10 is similar to the predicate devices (MEDLEY Sp02 Module, Model 8220, KO 10966, and the Nellcor OxiMax Pulse Oximetry System, K012891) in that they have the same intended use, operating principles, technological design,",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K050979",
+      "to": "K031985",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "UBSTANTIAL EQUIVALENCE\nAesculap believes that the new S4 Spinal System is substantially equivalent in design to:\n* Nex- Link Spinal System (K031985)\n\u2022 Vertex Spinal System (K042789, 042524)\n* Summit Spinal System (K013222, K030103, K041203)\nS",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K050979",
+      "to": "K041203",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "valent in design to:\n* Nex- Link Spinal System (K031985)\n\u2022 Vertex Spinal System (K042789, 042524)\n* Summit Spinal System (K013222, K030103, K041203)\nS",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K050979",
+      "to": "K042789",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "elieves that the new S4 Spinal System is substantially equivalent in design to:\n* Nex- Link Spinal System (K031985)\n\u2022 Vertex Spinal System (K042789, 042524)\n* Summit Spinal System (K013222, K030103, K041203)\nS",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K050979",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "substantially equivalent in design to:\n* Nex- Link Spinal System (K031985)\n\u2022 Vertex Spinal System (K042789, 042524)\n* Summit Spinal System (K013222, K030103, K041203)\nS",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K050979",
+      "to": "K030103",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ally equivalent in design to:\n* Nex- Link Spinal System (K031985)\n\u2022 Vertex Spinal System (K042789, 042524)\n* Summit Spinal System (K013222, K030103, K041203)\nS",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K060152",
+      "to": "K050979",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Inc. believes that the S4 Spinal System additions are substantially equivalent to the existing components of the Aesculap's S4 Spinal System (K050979). DEVICE DESCRIPTION The S4 Spinal System consists of 3.5mm rods in 6 lengths, thin and thick lamina hooks, 3.5 and '4.0mmn",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062327",
+      "to": "K060152",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "the addition of the smooth shank screws are substantially equivalent to the existing components of the Aesculap's S4 Spinal System (K050979/K060152). DEVICE DESCRIPTION The S4 Spinal System consists of 3.5mm rods in 6 lengths, thin and thick lamina hooks, 3.5 and 4.0mm polyaxial",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062327",
+      "to": "K050979",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "connector and the addition of the smooth shank screws are substantially equivalent to the existing components of the Aesculap's S4 Spinal System (K050979/K060152). DEVICE DESCRIPTION The S4 Spinal System consists of 3.5mm rods in 6 lengths, thin and thick lamina hooks, 3.5 and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K030103",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Sierra TM The devices used for comparison in this summary are DePuy Acromed's Summit and Mountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Device Trade Name: SierraTM\nThe devices used for comparison in this summary are DePuy Acromed's Summit and\nMountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190,\nK030103, K041203, and K042508), Interpore Cross International's Altius OCT\nSystem (K022048, K033961, and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K052376",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "rade Name: SierraTM\nThe devices used for comparison in this summary are DePuy Acromed's Summit and\nMountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190,\nK030103, K041203, and K042508), Interpore Cross International's Altius OCT\nSystem (K022048, K033961, and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K053483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K022048",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498,",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K022015",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Cross International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K052734",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K022190",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Sierra TM The devices used for comparison in this summary are DePuy Acromed's Summit and Mountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K003780",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K042508",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Sierra TM The devices used for comparison in this summary are DePuy Acromed's Summit and Mountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Name: Sierra TM The devices used for comparison in this summary are DePuy Acromed's Summit and Mountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229),",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K023555",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K043229",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180,",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K033961",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498,",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K042498",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K052180",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K041203",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Sierra TM The devices used for comparison in this summary are DePuy Acromed's Summit and Mountaineer OCT Spinal Systems (K002733, K010681, K013222, K022190, K030103, K041203, and K042508), Interpore Cross International's Altius OCT System (K022048, K033961, and K043229), and",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K042524",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062934",
+      "to": "K042402",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "International's Altius OCT System (K022048, K033961, and K043229), and Medtronic Sofamor Danek's Vertex Reconstructive System (K003780, K022015, K023555, K042402, K042498, K042524, K052180, K052376, K052734, and K053483). 24",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K090224",
+      "to": "K052847",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Fortex Pedicle Screw System is substantially equivalent in indications and design principles to the predicate Capless Pedicle Screw System (K052847) and Capless LI Pedicle Screw System (K072282). Page 11 of 41",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K090224",
+      "to": "K072282",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "equivalent in indications and design principles to the predicate Capless Pedicle Screw System (K052847) and Capless LI Pedicle Screw System (K072282). Page 11 of 41",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K100147",
+      "to": "K062012",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "believes that the modifications made to the 54 Cervical Occipital Plating Spinal System is substantially equivalent to our predicate system (K062012). ,DEVICE DESCRI.PTION The AIS\u00ae S4 Cervical Occipital Plate Spinal System is an implant system used to facilitate the biological",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K142838",
+      "to": "K062254",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "NKG Appliance, Fixation, Spinal Interlaminal Orthopaedic and Rehabilitation Devices Panel Class 2 per 21 CFR 888.3050 Product Code: KWP Predicate Device: K062254- Medtronic Sofamor Danek\u2019s AXIS\u00ae Fixation System Device Description: The Synapse OCT System, including Synapse, OC",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160629",
+      "to": "K123766",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Pen Injector with Dose Calculator Classification Name: Piston Syringe Classification Regulation: (21 CFR \u00a7880.5860); Class II Product code: FMF, NDC III. PREDICATE DEVICES NovoPen\u00ae Echo (K123766) ACCU-CHEK\u00ae Bolus Advisor (K150910) These predicates have not been subject to a",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K160629",
+      "to": "K150910",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Piston Syringe Classification Regulation: (21 CFR \u00a7880.5860); Class II Product code: FMF, NDC III. PREDICATE DEVICES NovoPen\u00ae Echo (K123766) ACCU-CHEK\u00ae Bolus Advisor (K150910) These predicates have not been subject to a design-related recall. No reference devices were used in",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K191833",
+      "to": "K191450",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring System (K191450) 5.4 DEVICE DESCRIPTION: 5.4.1 Dexcom G6 Pro Continuous Glucose Monitoring System The Dexcom G6 Pro Continuous Glucose Monitoring (G6 Pro)",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K201328",
+      "to": "K200876",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring (CGM) System (K200876) 5.4 DEVICE DESCRIPTION: The Dexcom G6 Continuous Glucose Monitoring System (G6 System) is an interoperable connected device that measures",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K203089",
+      "to": "K200876",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Review Panel Clinical Chemistry 5.3 PREDICATE DEVICE: Dexcom G6 Glucose Program Continuous Glucose Monitoring (CGM) System (K200876) 5.4 DEVICE DESCRIPTION: The Dexcom G6 Glucose Program Continuous Glucose Monitoring (CGM) System measures and displays glucose values and",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K203089",
+      "to": "DEN170088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "No impact to clinical validation. The accuracy of the Factory Calibrated G6 CGM System was demonstrated to meet the iCGM (21 CFR 862.1355) Special Controls requirements in DEN170088. The predicate and proposed Glucose Program Systems use the same sensor and transmitter as the G6",
+      "hop": 4,
+      "dir": "up",
+      "page": 9
+     },
+     {
+      "from": "K974332",
+      "to": "K940147",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e\nPump\nCommon Name:\nSyringe Pump\nClassification Name: Infusion Pump\nPREDICATE DEVICE:\nBaxter Corporation, Auto Syringe AS40A Infusion\nPump, K940147\nDEVICE DESCRIPTION: The P7000 is a variable pressure syringe pump\nsuitable for critical care applications.' This",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K002733",
+      "to": "K990965",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 5,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K002733",
+      "to": "K982322",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 5,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K002733",
+      "to": "K001864",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 5,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K002733",
+      "to": "K991089",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "id:13)\nPREDICATE DEVICES: RansfordC ervicalF ixationS ystem(K 9652 21 )(cid:13)\nSynthesC erviFixS ystem(K 982322,K 984377,K 990965,(cid:13)\nK991089, K994187,K 001864)(cid:13)\nINTENDED USE: When intendedto promotef usiono f the cervicals pinea",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K002733",
+      "to": "K984377",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 5,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K002733",
+      "to": "K994187",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "EDICATE DEVICES: RansfordC ervicalF ixationS ystem(K 9652 21 )(cid:13)\nSynthesC erviFixS ystem(K 982322,K 984377,K 990965,(cid:13)\nK991089, K994187,K 001864)(cid:13)\nINTENDED USE: When intendedto promotef usiono f the cervicals pinea nd(cid:13)\noccipito-cervico-thorajcuincc",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K002733",
+      "to": "K965221",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 5,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K012891",
+      "to": "K952222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "vice Claims,\n510(k) #K993637\n3. Nellcor Inc. Reflectance Sensor (RS-10), 510(k)\n#K904039\n4. Nellcor N-20PA Portable Pulse Oximeter,\n510(k) #K952222\nI.\nDevice Description\nThe OxiMAX Pulse Oximetry System is designed for continuous, non-invasive\npresentation or",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K012891",
+      "to": "K993637",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "nnett Inc. N-395 Pulse\nOximeter, 510(k) #K991823\n2. Nellcor Puritan Bennett Inc. N-395 Pulse\nOximeter, With Extended Device Claims,\n510(k) #K993637\n3. Nellcor Inc. Reflectance Sensor (RS-10), 510(k)\n#K904039\n4. Nellcor N-20PA Portable Pulse Oximeter,\n510(k) #K952222\nI.\nDevice",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K012891",
+      "to": "K991823",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ucer and Electrode Cable (including\nconnector) (74DSA) (per 21 CPR \u00a7870.2900)\n1. Nellcor Puritan Bennett Inc. N-395 Pulse\nOximeter, 510(k) #K991823\n2. Nellcor Puritan Bennett Inc. N-395 Pulse\nOximeter, With Extended Device Claims,\n510(k) #K993637\n3. Nellcor Inc. Reflectance",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K012891",
+      "to": "K904039",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Puritan Bennett Inc. N-395 Pulse\nOximeter, With Extended Device Claims,\n510(k) #K993637\n3. Nellcor Inc. Reflectance Sensor (RS-10), 510(k)\n#K904039\n4. Nellcor N-20PA Portable Pulse Oximeter,\n510(k) #K952222\nI.\nDevice Description\nThe OxiMAX Pulse Oximetry System is designed for",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013222",
+      "to": "K001864",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "IETARY NAME:\nPREDICATE DEVICES:\nINTENDED USE:\nSummit OCT Spinal System\nSummit OCT Spinal System (K002733, K010681)\nSynthes CerviFix System (K001864)\nWhen intended to promote fusion of the cervical spine and\noccipito-cervico-thoracic junction (occiput-T3), the",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013222",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "EPARED:\nCLASSIFICATION NAME:\nPROPRIETARY NAME:\nPREDICATE DEVICES:\nINTENDED USE:\nSummit OCT Spinal System\nSummit OCT Spinal System (K002733, K010681)\nSynthes CerviFix System (K001864)\nWhen intended to promote fusion of the cervical spine and\noccipito-cervico-thoracic junction",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013222",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": ":\nDATE PREPARED:\nCLASSIFICATION NAME:\nPROPRIETARY NAME:\nPREDICATE DEVICES:\nINTENDED USE:\nSummit OCT Spinal System\nSummit OCT Spinal System (K002733, K010681)\nSynthes CerviFix System (K001864)\nWhen intended to promote fusion of the cervical spine and\noccipito-cervico-thoracic",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022190",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Appliance, Fixation, Spinal lnterlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222) INTENDED USE: When intended to promote fusion of the cervical spine and",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022190",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Appliance, Fixation, Spinal lnterlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222) INTENDED USE: When intended to promote fusion of the cervical spine and",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022190",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Appliance, Fixation, Spinal lnterlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222) INTENDED USE: When intended to promote fusion of the cervical spine and",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K030103",
+      "to": "K022190",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "on\nPROPRIETARY NAME: Summit OCT Spinal System Minipolyaxial Screws\nPREDICATE DEVICES: Summit OCT Spinal System (K002733, KO1 0681,\nK013222, K022190)\nDEVICE DESCRIPTION: The Summit OCT Spinal System Minipolyaxial\nScrews are designed to accept a 3.0mm rod and are\navailable in",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K030103",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "hosis, Spinal Pedicle Fixation\nPROPRIETARY NAME: Summit OCT Spinal System Minipolyaxial Screws\nPREDICATE DEVICES: Summit OCT Spinal System (K002733, KO1 0681,\nK013222, K022190)\nDEVICE DESCRIPTION: The Summit OCT Spinal System Minipolyaxial\nScrews are designed to accept a 3.0mm",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K030103",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "le Fixation\nPROPRIETARY NAME: Summit OCT Spinal System Minipolyaxial Screws\nPREDICATE DEVICES: Summit OCT Spinal System (K002733, KO1 0681,\nK013222, K022190)\nDEVICE DESCRIPTION: The Summit OCT Spinal System Minipolyaxial\nScrews are designed to accept a 3.0mm rod and",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041203",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Appliance, Fixation, Spinal Interlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103) DEVICE DESCRIPTION: Addition of 3.5mm rod to the Summit OCT Spinal",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041203",
+      "to": "K030103",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103) DEVICE DESCRIPTION: Addition of 3.5mm rod to the Summit OCT Spinal System. The Summit OCT Spinal System also contains Class 1",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041203",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Appliance, Fixation, Spinal Interlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103) DEVICE DESCRIPTION: Addition of 3.5mm rod to the Summit OCT Spinal",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041203",
+      "to": "K022190",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103) DEVICE DESCRIPTION: Addition of 3.5mm rod to the Summit OCT Spinal System. The Summit OCT Spinal System also contains",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041203",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Appliance, Fixation, Spinal Interlaminal Orthosis, Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103) DEVICE DESCRIPTION: Addition of 3.5mm rod to the Summit OCT Spinal",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042402",
+      "to": "K023555",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "trates that the VERTEXTM Reconstrul ion System\nis substantially equivalent to VERTEXTM Reconstruction System that was previously cleared in\nK023555 and K003780.\nC~~~~~002\nft\nq~'\n~~ ~ ~~~~~~~O.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042402",
+      "to": "K003780",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "the VERTEXTM Reconstrul ion System\nis substantially equivalent to VERTEXTM Reconstruction System that was previously cleared in\nK023555 and K003780.\nC~~~~~002\nft\nq~'\n~~ ~ ~~~~~~~O.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042498",
+      "to": "K003780",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Reconstruction System multi axial screws are substantially equivalent to VERTEXTNI Reconstruction System multi axial screws previously cleared in K003780. 00052",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042508",
+      "to": "K984377",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to the Summit OCT Spinal System and Mountaineer OCT Spinal System. The Summit OCT",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K030103",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "NAME: Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to the Summit OCT Spinal System",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K041203",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to the Summit OCT Spinal System and",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K002733",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Spinal Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K013222",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Fixation PROPRIETARY NAME: Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to the",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K022190",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "PROPRIETARY NAME: Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to the Summit OCT",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042508",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Pedicle Fixation PROPRIETARY NAME: Summit OCT Spinal System Mountaineer OCT Spinal System PREDICATE DEVICES: Summit OCT Spinal System (K002733, K010681, K013222, K022190, K030103, and K041203) SYNTHES Spine CerviFix System (K984377) DEVICE DESCRIPTION: Addition of components to",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042524",
+      "to": "K023555",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "rates that the VERTEXTMI Reconstruction System\nis substantially equivalent to VERTEXTM Reconstruction System that was previously cleared in\nK023555 and K003780.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042524",
+      "to": "K003780",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "the VERTEXTM I Reconstruction System is substantially equivalent to VERTEXTM Reconstruction System that was previously cleared in K023555 and K003780.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042789",
+      "to": "K003780",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "subject VERTEXTm Reconstruction System components are substantially equivalent to VERTEXTm Reconstruction System components previously cleared in K003780 (SE 9/28/0 1).",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052180",
+      "to": "K042498",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "subject VERTEXTNI Reconstruction System components are substantially equivalent to VERTEX\u00ae Reconstruction System components previously cleared in K042498 (SE 10/07/04) and K042789 (SE7 12/21/04).",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052180",
+      "to": "K042789",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "System components are substantially equivalent to VERTEX\u00ae Reconstruction System components previously cleared in K042498 (SE 10/07/04) and K042789 (SE7 12/21/04).",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052376",
+      "to": "K042524",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "nstrates that the VERTEX\u00ae Reconstruction System\nis substantially equivalent to VERTEX\u00ae~Reconstruction System that was previously cleared in\nK042524 and K003780.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052376",
+      "to": "K003780",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "t the VERTEX\u00ae Reconstruction System\nis substantially equivalent to VERTEX\u00ae~Reconstruction System that was previously cleared in\nK042524 and K003780.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052734",
+      "to": "K052180",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "substantially equivalent to VERTEX\u00ae pre-curved occipital plate/rod components previously cleared in K052402, and to the set screws cleared in K052180 and K042498.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052734",
+      "to": "K042498",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "equivalent to VERTEX\u00ae pre-curved occipital plate/rod components previously cleared in K052402, and to the set screws cleared in K052180 and K042498.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052734",
+      "to": "K052402",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "VERTEX\u00ae Reconstruction System components are substantially equivalent to VERTEX\u00ae pre-curved occipital plate/rod components previously cleared in K052402, and to the set screws cleared in K052180 and K042498.",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052847",
+      "to": "K054841",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "510(k) Premarket Notification\nCapless' Pedicle Screw System\nIndications for Use\n510(k) Number (iF known): K054841\nDevice Name: Capless\u2122\u2122 Pedicle Screw System\nIndications for Use:\nThe Capless Pedicle Screw System is indicated for the treatment of severe",
+      "hop": 5,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K053483",
+      "to": "K042789",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "subject VERTEXTM Reconstruction System components are substantially equivalent to VERTEX\u00ae Reconstruction System components previously cleared in K042789 (SE 12/21/04). The labeling is identical to that cleared in K052734 (SE 10/21/05).",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K053483",
+      "to": "K052734",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "equivalent to VERTEX\u00ae Reconstruction System components previously cleared in K042789 (SE 12/21/04). The labeling is identical to that cleared in K052734 (SE 10/21/05).",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K062254",
+      "to": "K953076",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "commercially available posterior cervical fixation systems and other pre-enactment devices including the TOWNLEY\u00ae Transfacetpedicular Fixation System (K953076, SE 2/19/97 and K021705, SE 07/24/02). Literature, mechanical test reports and clinical data were supplied in support of",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K062254",
+      "to": "K021705",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "cervical fixation systems and other pre-enactment devices including the TOWNLEY\u00ae Transfacetpedicular Fixation System (K953076, SE 2/19/97 and K021705, SE 07/24/02). Literature, mechanical test reports and clinical data were supplied in support of establishing a claim of",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K123766",
+      "to": "K123164",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "2013.08.14 12:33:40\n-04'00'\n(Division Sign-Off)\nDivision of Anesthesiology, General Hospital\nfection Control, Dental Devices\n510(k) Number: K123164\nPage 4 - 1",
+      "hop": 5,
+      "dir": "up",
       "page": 6
      },
      {
-      "from": "K232380",
-      "to": "K193483",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "received from other interoperable devices. The pump is compatible with Interoperable Automated Glycemic Controllers, such as Basal-IQ Technology (K193483) and Control IQ Technology (K200467) to aid in diabetes management. The latter is being submitted concurrently. In addition,",
-      "hop": 2,
+      "from": "K123766",
+      "to": "K123744",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Indications for Use Statement\n510(k) Number (if known): K123744\nDevice Name: NovoPen Echo*\nIndications For Use: The NovoPen Echo* is a re-useable pen injector designed for single patient\nuse by diabetics",
+      "hop": 5,
+      "dir": "up",
       "page": 6
      },
      {
-      "from": "K232380",
-      "to": "K223931",
+      "from": "K123766",
+      "to": "K010359",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Name:\nRegulation:\nClass:\n3. Predicate Device:\n510(k) cleared device (Primary Predicate Device)\nManufacturer:\nProprietary Name:\nNovo Nordisk\nK010359 Innovo\u2122\n\u2022 AUG 1 5 2013\nNovoPen Echo\u00ae\nDial-A-Dose Insulin Delivery Device (Pen Injector)\nSyringe/Piston (FMF)\n21 CFR 880.5860\nClass",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K150910",
+      "to": "K141929",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "NDC Secondary Classification Regulations: 21 C.F.R. \u00a7 880.5725, 862.1345, 862.2100; Class II Product Code: LZG, LFR, JQP 3) Predicate ACCU-CHEK Connect Diabetes Management App (K141929), concurrence device received on March 16, 2015. Continued on next page 4 1/7",
+      "hop": 5,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K191450",
+      "to": "K183206",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II Classification Regulation 21 CFR 862.1355 Product Code QDL 6.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring (CGM) System (K183206) Dexcom G6 Glucose Program Continuous Glucose Monitoring System (K182041) Dexcom Pro Q Continuous Glucose Monitoring System",
+      "hop": 5,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K191450",
+      "to": "K182041",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "diabetes management. The latter is being submitted concurrently. In addition, the Subject Device is compatible with iCGM systems cleared under K223931 21 CFR 862.1355.",
-      "hop": 2,
+      "quote": "3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring (CGM) System (K183206) Dexcom G6 Glucose Program Continuous Glucose Monitoring System (K182041) Dexcom Pro Q Continuous Glucose Monitoring System (K182405) 6.4 DEVICE DESCRIPTION: 6.4.1 Dexcom G6 Continuous Glucose",
+      "hop": 5,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K191450",
+      "to": "K182405",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "System (K183206) Dexcom G6 Glucose Program Continuous Glucose Monitoring System (K182041) Dexcom Pro Q Continuous Glucose Monitoring System (K182405) 6.4 DEVICE DESCRIPTION: 6.4.1 Dexcom G6 Continuous Glucose Monitoring (CGM) System The Dexcom G6 Continuous Glucose Monitoring",
+      "hop": 5,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K191450",
+      "to": "DEN140016",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "it enters an error state, or when it requires the user to enter information. The app also supports connectivity to Dexcom Share and Follow (DEN140016). 6.4.3 Dexcom Pro Q Continuous Glucose Monitoring System The Dexcom Pro Q Continuous Glucose Monitoring System (Dexcom Pro Q",
+      "hop": 5,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K200876",
+      "to": "K191450",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II Classification 21 CFR 862.1355 Regulation Product Code QDK 5.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring (CGM) System (K191450) Dexcom G6 Glucose Program Continuous Glucose Monitoring (CGM) System (K191450) 5.4 DEVICE DESCRIPTION: 5.4.1 Dexcom G6",
+      "hop": 5,
+      "dir": "up",
       "page": 6
+     },
+     {
+      "from": "K052402",
+      "to": "K022048",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Synthes CerviFix\u00ae System (K023675), the Summit OCT Spinal System (K010681), and the Interpore Cross International OCT Rod and Plate System (K022048).",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052402",
+      "to": "K982322",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "similar legally marketed occipito-cervico-thoracic fixation devices including the Synthes Spine Occipital-Cervical Plate/Rod and Hook System (K982322), the OctaFix Occipital Cervical Plating System (K021009), the Synthes CerviFix\u00ae System (K023675), the Summit OCT Spinal System",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052402",
+      "to": "K023675",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Occipital-Cervical Plate/Rod and Hook System (K982322), the OctaFix Occipital Cervical Plating System (K021009), the Synthes CerviFix\u00ae System (K023675), the Summit OCT Spinal System (K010681), and the Interpore Cross International OCT Rod and Plate System (K022048).",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052402",
+      "to": "K021009",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "devices including the Synthes Spine Occipital-Cervical Plate/Rod and Hook System (K982322), the OctaFix Occipital Cervical Plating System (K021009), the Synthes CerviFix\u00ae System (K023675), the Summit OCT Spinal System (K010681), and the Interpore Cross International OCT Rod and",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052402",
+      "to": "K010681",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "System (K982322), the OctaFix Occipital Cervical Plating System (K021009), the Synthes CerviFix\u00ae System (K023675), the Summit OCT Spinal System (K010681), and the Interpore Cross International OCT Rod and Plate System (K022048).",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K123164",
+      "to": "K061591",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K950099 Synergy Posterior Spinal System\n-\nK992739 - Synthes USS Click-X Variable Axis System\nK1 00605 - Spine Wave MIS Pedicle Screw System\nK061591 Medtronic CID Horizon Spinal System\n-\n4. Device Description\nThe SpineFrontier\u00ae PedFuse\u00ae Pedicle Screw System consists",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K123164",
+      "to": "K092420",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "lolisthesis Spinal Fixation\nOrthosis, Spinal Pedicle Fixation\n(21 CFR 888.3070(b)(1)), Class 11\nProduct Code: MNH, MNI\n3. Predicate Devices\nK092420 - SpineFrontier\u00ae KRD 1 TM Pedicle Screw System\nK950099 Synergy Posterior Spinal System\n-\nK992739 - Synthes USS Click-X Variable",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K123164",
+      "to": "K950099",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "xation\n(21 CFR 888.3070(b)(1)), Class 11\nProduct Code: MNH, MNI\n3. Predicate Devices\nK092420 - SpineFrontier\u00ae KRD 1 TM Pedicle Screw System\nK950099 Synergy Posterior Spinal System\n-\nK992739 - Synthes USS Click-X Variable Axis System\nK1 00605 - Spine Wave MIS Pedicle Screw",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K123164",
+      "to": "K992739",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "roduct Code: MNH, MNI\n3. Predicate Devices\nK092420 - SpineFrontier\u00ae KRD 1 TM Pedicle Screw System\nK950099 Synergy Posterior Spinal System\n-\nK992739 - Synthes USS Click-X Variable Axis System\nK1 00605 - Spine Wave MIS Pedicle Screw System\nK061591 Medtronic CID Horizon Spinal",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K123164",
+      "to": "K100605",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 6,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K141929",
+      "to": "K111353",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 6,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K182041",
+      "to": "DEN170088",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Regulation 21 CFR 862.1355 Product Code QDK Review Panel Clinical Chemistry C. Predicate Device: Dexcom G6 Continuous Glucose Monitoring System (DEN170088) D. Device Description:",
+      "hop": 6,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K182041",
+      "to": "DEN140016",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "when it enters an error state, or when requiring the user to enter information. The app also supports connectivity to Dexcom Share and Follow (DEN140016), however, the new app is a separate device from the Share and Follow apps. E. Indications for Use: The Dexcom G6 Glucose",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K182405",
+      "to": "DEN170088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "5.6 COMPARISON WITH THE PREDICATE DEVICE: Device Dexcom Pro Q System (K182405) Dexcom G6 CGM System (DEN170088) Trade Name Dexcom Pro Q Continuous Glucose Dexcom G6 Continuous Glucose Monitoring System Monitoring System Manufacturer Dexcom, Inc. Dexcom,",
+      "hop": 6,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K183206",
+      "to": "DEN170088",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5.3 PREDICATE DEVICE: Dexcom G6 Continuous Glucose Monitoring System (DEN170088) 5.4 DEVICE DESCRIPTION: The Dexcom G6 Continuous Glucose Monitoring System consists of three main components: a sensor, a Bluetooth Low Energy",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K965221",
+      "to": "K853033",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "evice(s):\nThe RANSFORD CERVICAL FIXATION SYSTEM\" is substantially equivalent to the following device:\n1. Hartshill Spinal Fixation System - K853033\n9. Comparison to Predicate Device(s):\nSurgicraft, Ltd. currently manufactures a legally marketed device for the same indications as",
+      "hop": 6,
+      "dir": "up",
+      "page": 3
+     },
+     {
+      "from": "K982322",
+      "to": "K965221",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "han M. Gilbert\n9/4/98\nDevice: Synthes Spine Occipital-Cervical Plate/Rod and Hook System compared to the Ransford Cervical\nFixation System (K965221)\n\u2022\nDegenerative disc disease of the cervical vertebrae (neck pain of discogenic origin with\ndegeneration of the disc as confirmed",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K984377",
+      "to": "K984371",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "VIFR7) ; JAN 2 1 1999 510(k) Premarket Notification K984377 - Synthes CerviFix System - Additional Information Summary of Safety and Effectiveness Information",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K991089",
+      "to": "K984722",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "via the 510(k) process. The methods for use and instrumentation to implant this system is similar to that of the Synthes CerviFix Systems, K984722. Based on the above, the Synthes Spine CerviFix System is substantially equivalent to components cleared in previously cleared",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K991823",
+      "to": "K982255",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "are as follows:\n1. N-3000 Pulse Oximeter, Nellcor Puritan Bennett Inc., K955642\n2. Model 2000 Pulse Oximeter, Ivy Biomedical Systems, Inc., K982255\nSection 16.e Device Description\nN-395 displays digital values of SpO, and Pulse Rate. Pulse Amplitude is displayed by\nmeans of a",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K991823",
+      "to": "K955642",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ished accuracy\nspecifications with the N-395. The predicate devices are as follows:\n1. N-3000 Pulse Oximeter, Nellcor Puritan Bennett Inc., K955642\n2. Model 2000 Pulse Oximeter, Ivy Biomedical Systems, Inc., K982255\nSection 16.e Device Description\nN-395 displays digital values",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K993637",
+      "to": "K991823",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "are of short duration or small magnitude. This submission requests clearance for a labeling modification to the original N-395, cleared under K991823, to extend Motion Performance Claims to three additional oximetry sensors, as follows: 920",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K993637",
+      "to": "K993631",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "NOV-22-99 12: 15 FROM: NPB QUALITY\nNOV 2 4 1999\nSUMMARY OF SAFETY AND EFFECTIVENESS\nID: 760 603 5907\nPAGE\nK993631\n5/9\nSUBMITTER:\nDATE:\nCOMMON NAME:\nPROPRIETARY NAME:\nCONTACT:\nCLASSIFICATION:\nPREDICATE DEVICES:\nNellcor Puritan Bennett inc.\nA subsidiary o",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K993637",
+      "to": "K982255",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "are as follows:\n1. N-3000 Pulse Oximeter, Nellcor Puritan Bennett Inc., K955642\n2. Model 2000 Pulse Oximeter, Ivy Biomedical Systems, Inc.,\nK982255\n1.\nDEVICE DESCRIPTION\nThe N-395 Pulse Oximeter is manufactured by Nellcor Puritan Bennett Inc., in GALWAY,\nIreland.\nThe N-395 is a",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K993637",
+      "to": "K955642",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "-5901\nClass II per 21 CFR 870.2700/74DQA\nOximeter\nPredicate devices are as follows:\n1. N-3000 Pulse Oximeter, Nellcor Puritan Bennett Inc., K955642\n2. Model 2000 Pulse Oximeter, Ivy Biomedical Systems, Inc.,\nK982255\n1.\nDEVICE DESCRIPTION\nThe N-395 Pulse Oximeter is manufactured",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K021009",
+      "to": "K011969",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "tervertebral Body Fixation Orthosis (888.3060/KWQ)\nSpinal Fixation System\nOctaFix Occiptal Cervical Plating System\nSynthes CerviFix System (K011969)\nof the OctaFix Occipital Cervical Plating System are manufactured from medical grade Ti-6AI-4V ELI\nINDICATIONS\nThe OctaFix",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K061591",
+      "to": "K060203",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Spinal System applications (K(042025 and K(020709 respectively). The labeling is identical to that of the CD HORIZON\u00ae Spinal System cleared in K060203.",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K223213",
+      "to": "K203234",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "QFG Classification Name Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K203234, t:slim X2 Insulin Pump with interoperable technology (with t:connect Mobile app) Reference Device K200467, Control-IQ Technology",
+      "hop": 1,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K223846",
+      "to": "K201214",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Alternate controller enabled infusion pump (21 CFR 880.5730, QFG) Predicate Devices t:slim X2 insulin pump with interoperable technology (Tandem Diabetes Care, Inc., K201214) Description of the iLet ACE Pump The iLet ACE Pump is an alternate controller enabled (ACE) pump",
+      "hop": 1,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K233044",
+      "to": "K203234",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The pump is indicated for use in individuals six years of age and greater. III. Technological Characteristics Compared to Predicate Device K203234 Predicate Device Subject K223213 Device Indications for The Tandem Mobi Insulin Pump with interoperable SAME Use/ Intended",
+      "hop": 1,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K240158",
+      "to": "K160056",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Infusion, Insulin Regulation 21 CFR 880.5725 - Infusion pump Submission Type Traditional 510(k) Predicate Device t:slim\u00ae Insulin Delivery System (K160056) Date Prepared September 4, 2024 Modular Medical, Inc. Modular Medical MODD1 Insulin Delivery System Traditional 510(k) Page",
+      "hop": 1,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K240309",
+      "to": "K232380",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Clinical Testing: Clinical testing was provided to support this 510(k) Notification. The clinical testing provided was the same testing provided in 510(k) K232380.",
+      "hop": 1,
+      "dir": "down",
+      "page": 7
+     },
+     {
+      "from": "K251032",
+      "to": "K232380",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class Class II Predicate Device Information Product Code Predicate Device QFG Tandem t:slim X2 Insulin Pump with Interoperable Technology (K232380) NDC InPen Dose Calculator (K242775) Page 1 of 15",
+      "hop": 1,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K231485",
+      "to": "K223846",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Alternate controller enabled infusion pump Regulation Number, Device Class and Pro Code: 21CFR 880.5730, Class II, QFG Predicate Device: iLet\u00ae ACE Pump (Beta Bionics, Inc., K223846) Purpose of Special 510(k) Notification: The User Guide and Quick Reference Guide are being",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K233044",
+      "to": "K223213",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "QFG Classification Name Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K223213, Tandem Mobi Insulin Pump with interoperable technology I. Device Under Review The Subject Device, Tandem Mobi insulin pump with",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K240309",
+      "to": "K233044",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "QFG Classification Name Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K233044, Tandem Mobi Insulin Pump with interoperable technology I. Device Under Review The Subject Device, Tandem Mobi insulin pump with",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K241078",
+      "to": "K240309",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "QFG Classification Name Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K240309, Tandem Mobi Insulin Pump with interoperable technology I. Device Under Review The Subject Device, Tandem Mobi insulin pump with",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K253470",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1890 Product Codes QFG, NDC Device Panel Clinical Chemistry Device Class Class II Predicate Device Information Product Code Predicate Device QFG MiniMed 780G Insulin Pump (K251032) NDC InPen Dose Calculator (K242775) Page 1 of 11",
+      "hop": 2,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K253534",
+      "to": "K240158",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "gulation 21 CFR 880.5725 - Infusion pump\nSubmission Type Traditional 510(k)\nPredicate Device Modular Medical MODD1 Insulin Delivery System\n(K240158)\nDate Prepared March 12, 2026\nModular Medical, Inc.\nPivot Insulin Delivery System\nTraditional 510(k)\nPage 1 of 4",
+      "hop": 2,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K253701",
+      "to": "K251032",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Regulation Number 21 CFR 862.1356 Product Codes QJI, QJS, NDC Predicate Device K251217 - SmartGuard Technology and Predictive Low Glucose Technology K251032 - MiniMed 780G insulin pump Device Panel Clinical Chemistry Device Class Class II Device Description for SmartGuard",
+      "hop": 2,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K253743",
+      "to": "K251032",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "in Infusion Pump\nRegulation Number 21 CFR 880.5730\nProduct Codes QFG\nDevice Panel Clinical Chemistry\nDevice Class Class II\nPredicate Device K251032 - MiniMed 780G Flex Pump with Interoperable Technology\nDevice Description\nThe MiniMed Flex pump is an alternate controller enabled",
+      "hop": 2,
+      "dir": "down",
+      "page": 7
+     },
+     {
+      "from": "K252770",
+      "to": "K231485",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Alternate controller enabled infusion pump Regulation Number, Device Class and Pro Code: 21CFR 880.5730, Class II, QFG Predicate Device: iLet\u00ae ACE Pump (Beta Bionics, Inc., K231485) Device Description: The iLet ACE Pump described herein includes changes to the graphic user",
+      "hop": 3,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K253074",
+      "to": "K241078",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "QFG Classification Name Alternate Controller Enabled Infusion Pump Regulation Number 21 CFR 880.5730 Device Class Class II Predicate Device K241078, Tandem Mobi Insulin Pump with interoperable technology I. Device Under Review The Subject Device, Tandem Mobi insulin pump with",
+      "hop": 3,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K253701",
+      "to": "K253470",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "SmartGuard Technology for the management of Type 2 diabetes is cleared under K253585. 2 The use of Lyumjev and Fiasp insulins is cleared under K253470. Page 5 of 10",
+      "hop": 3,
+      "dir": "down",
+      "page": 9
+     },
+     {
+      "from": "K253743",
+      "to": "K253470",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "app where\nnotifications are presented for the user to\nreview and acknowledge.\n1 MiniMed 780G pump use with Fiasp and Lyumjev was cleared in K253470.\nPage 4 of 7",
+      "hop": 3,
+      "dir": "down",
+      "page": 10
+     },
+     {
+      "from": "K253976",
+      "to": "K252770",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "sion pump\nRegulation Number, Device Class and Pro Code: 21CFR 880.5730, Class II, QFG\nPredicate Device: iLet\u00ae ACE Pump (Beta Bionics, Inc., K252770)\nDevice Description:\nThe iLet ACE Pump described herein includes a color LCD display and associated changes as\nwell as a Pause",
+      "hop": 4,
+      "dir": "down",
+      "page": 5
      }
     ],
-    "hopCap": 2,
-    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+    "note": "Lineage is walked to the earliest cited predicate and the latest citing descendant held in the corpus. Descendant coverage is bounded by the 510(k)-summary extraction: clearances filed with a 510(k) Statement (no public summary) cannot appear as citing devices. Row-capped \u2014 the deepest branches are truncated."
    },
-   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked in both directions from this device's own clearances; branded accessory clearances listed separately."
   },
   "experts": {
    "teaser": {
@@ -1057,67 +3830,9 @@
    "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
   },
   "ip": {
-   "teaser": {
-    "patents": 339,
-    "assignees": [
-     "Tandem"
-    ]
-   },
-   "payload": {
-    "patents": 339,
-    "recent": [
-     {
-      "id": "6212926",
-      "title": "Method for spin forming a tube",
-      "year": 2001,
-      "assignee": "Tandem Systems, Inc."
-     },
-     {
-      "id": "6195754",
-      "title": "Method and apparatus for tolerating power outages of variable duration in a multi-processor system",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6192433",
-      "title": "Automatic SCSI termination readjustment",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6189023",
-      "title": "Simulating shared code thread modules with shared code fibers",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6189111",
-      "title": "Resource harvesting in scalable, fault tolerant, single system image clusters",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6175882",
-      "title": "Network system for a first module port auto configuring same mode as a second module port",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6173249",
-      "title": "Method of determining termination of a process under a simulated operating system",
-      "year": 2001,
-      "assignee": "Tandem Computers Incorporated"
-     },
-     {
-      "id": "6163834",
-      "title": "Two level address translation and memory registration system and method",
-      "year": 2000,
-      "assignee": "Tandem Computers Incorporated"
-     }
-    ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
-   },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "notApplicable": true,
+   "reason": "No granted patents matched the curated assignees for Tandem \u2014 grant corpus covers 1970\u20132001.",
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -1797,13 +4512,19 @@
     "topSeriousTerms": [
      {
       "term": "Ketosis",
-      "organSystem": "Blood and lymphatic system disorders",
+      "organSystem": "Endocrine disorders",
       "rows": 5,
       "subjectsAffected": 10
      },
      {
-      "term": "Hypoglycemia",
-      "organSystem": "Blood and lymphatic system disorders",
+      "term": "Severe Hypoglycemia",
+      "organSystem": "Endocrine disorders",
+      "rows": 3,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "COVID-19",
+      "organSystem": "Infections and infestations",
       "rows": 4,
       "subjectsAffected": 4
      },
@@ -1814,22 +4535,22 @@
       "subjectsAffected": 4
      },
      {
+      "term": "Hypoglycemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 4,
+      "subjectsAffected": 4
+     },
+     {
       "term": "Diabetic ketoacidosis",
       "organSystem": "Endocrine disorders",
       "rows": 8,
       "subjectsAffected": 4
      },
      {
-      "term": "COVID-19",
-      "organSystem": "Infections and infestations",
+      "term": "Severe hypoglycemia",
+      "organSystem": "Blood and lymphatic system disorders",
       "rows": 4,
-      "subjectsAffected": 4
-     },
-     {
-      "term": "Severe Hypoglycemia",
-      "organSystem": "Endocrine disorders",
-      "rows": 3,
-      "subjectsAffected": 4
+      "subjectsAffected": 3
      },
      {
       "term": "Severe hypoglycemic event",
@@ -1844,14 +4565,8 @@
       "subjectsAffected": 3
      },
      {
-      "term": "Severe hypoglycemia",
-      "organSystem": "Blood and lymphatic system disorders",
-      "rows": 4,
-      "subjectsAffected": 3
-     },
-     {
-      "term": "Hyperglycaemia",
-      "organSystem": "Metabolism and nutrition disorders",
+      "term": "Other Serious Adverse Event",
+      "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and ",
       "rows": 2,
       "subjectsAffected": 2
      }
@@ -1894,15 +4609,6 @@
       "seriousSubjects": 11
      },
      {
-      "nctId": "NCT04796779",
-      "title": "The Pediatric Artificial Pancreas (PEDAP) Trial of Control-IQ Technology in Young Children in Type 1 Diabetes",
-      "phase": "NA",
-      "status": "COMPLETED",
-      "startYear": "2021",
-      "seriousRows": 6,
-      "seriousSubjects": 5
-     },
-     {
       "nctId": "NCT05403502",
       "title": "Safety Evaluation of an Advanced Hybrid Closed Loop System Using Lyumjev With the Tandem t:Slim X2 Insulin Pump With Con",
       "phase": "NA",
@@ -1912,13 +4618,13 @@
       "seriousSubjects": 5
      },
      {
-      "nctId": "NCT03748433",
-      "title": "Assessment of the Impact of Real-Time Continuous Glucose Monitoring on People Presenting With Severe Hypoglycaemia",
+      "nctId": "NCT04796779",
+      "title": "The Pediatric Artificial Pancreas (PEDAP) Trial of Control-IQ Technology in Young Children in Type 1 Diabetes",
       "phase": "NA",
-      "status": "TERMINATED",
-      "startYear": "2019",
-      "seriousRows": 2,
-      "seriousSubjects": 4
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 6,
+      "seriousSubjects": 5
      },
      {
       "nctId": "NCT03563313",
@@ -1927,6 +4633,15 @@
       "status": "COMPLETED",
       "startYear": "2018",
       "seriousRows": 8,
+      "seriousSubjects": 4
+     },
+     {
+      "nctId": "NCT03748433",
+      "title": "Assessment of the Impact of Real-Time Continuous Glucose Monitoring on People Presenting With Severe Hypoglycaemia",
+      "phase": "NA",
+      "status": "TERMINATED",
+      "startYear": "2019",
+      "seriousRows": 2,
       "seriousSubjects": 4
      }
     ]

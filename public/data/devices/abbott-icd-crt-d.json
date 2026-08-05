@@ -81,7 +81,7 @@
   },
   {
    "label": "Granted patents (assignee)",
-   "value": 2483,
+   "value": 2452,
    "format": "number"
   },
   {
@@ -475,35 +475,35 @@
    "points": [
     {
      "year": 1990,
-     "value": 72
+     "value": 70
     },
     {
      "year": 1991,
-     "value": 88
+     "value": 87
     },
     {
      "year": 1992,
-     "value": 141
+     "value": 139
     },
     {
      "year": 1993,
-     "value": 142
+     "value": 141
     },
     {
      "year": 1994,
-     "value": 150
+     "value": 149
     },
     {
      "year": 1995,
-     "value": 119
+     "value": 117
     },
     {
      "year": 1996,
-     "value": 191
+     "value": 190
     },
     {
      "year": 1997,
-     "value": 205
+     "value": 203
     },
     {
      "year": 1998,
@@ -511,7 +511,7 @@
     },
     {
      "year": 1999,
-     "value": 156
+     "value": 155
     },
     {
      "year": 2000,
@@ -519,7 +519,7 @@
     },
     {
      "year": 2001,
-     "value": 130
+     "value": 129
     }
    ]
   },
@@ -572,7 +572,7 @@
      {
       "problem": "Over-Sensing",
       "reports": 29461,
-      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "IT WAS REPORTED THAT PATIENT PRESENTED REMOTELY WITH POST PACED T-WAVE OVERSENSING (PPTWOS) PATIENT HAD NOT COME IN TO CLINIC FOR PROGRAMMING CHANGES YET. NO PATIENT CONSEQUENCES REPORTED."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
@@ -582,27 +582,27 @@
      {
       "problem": "Premature Discharge of Battery",
       "reports": 5603,
-      "narrative": "FOLLOWING THE BATTERY PERFORMANCE ALERT (BPA) ADVISORY, A BPA WAS RECEIVED BY THE CLINICIAN AND THE DEVICE WAS EXPLANTED. THE PATIENT WAS STABLE."
+      "narrative": "IT WAS REPORTED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR EXHIBITED PREMATURE BATTERY DEPLETION. THE DEVICE WAS EXPLANTED AND REPLACED. THE PATIENT WAS IN STABLE CONDITION."
      },
      {
       "problem": "Inappropriate or Unexpected Reset",
       "reports": 5526,
-      "narrative": "THE REPORTED BACKUP VVI WAS CONFIRMED IN THE LABORATORY VIA REVIEW OF THE DEVICE IMAGE. THE DEVICE WAS TESTED ON THE BENCH AND NO ANOMALY WAS FOUND. THE CAUSE OF THE REPORTED BACKUP VVI COULD NOT BE DETERMINED."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      },
      {
       "problem": "Battery Problem",
       "reports": 5304,
-      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LITHIUM (LI) CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHAN"
+      "narrative": "ADDITIONAL INFORMATION: PREMATURE BATTERY DEPLETION WAS CONFIRMED BY ANALYSIS. NO SOURCES OF HIGH CURRENT WERE NOTED. THE CAUSE OF THE PREMATURE BATTERY DEPLETION WAS CONSISTENT WITH LI CLUSTER FORMATION. FROM THESE ANALYSES, IN THE ABSENCE OF HIGH CURRENT DRAW, IT IS PROBABLE THAT THE PREMATURE BATTERY DEPLETION WAS CAUSED BY A LITHIUM CLUSTER INDUCED SHORT CIRCUIT. LI CLUSTERS ARE A KNOWN DEPLETION MECHANISM FOR TH"
      },
      {
       "problem": "Inappropriate/Inadequate Shock/Stimulation",
       "reports": 5111,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY ROOM AFTER RECEIVING INAPPROPRIATE SHOCKS DUE TO AF WITH RAPID VENTRICULAR RESPONSE. PROGRAMMING CHANGES WERE RECOMMENDED. THE PATIENT WAS STABLE AND WILL CONTINUE TO BE MONITORED WITH ROUTINE FOLLOW-UP."
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
      },
      {
       "problem": "Failure to Interrogate",
       "reports": 3447,
-      "narrative": "ADDITIONAL INFORMATION RECEIVED INDICATED THAT THE DEVICE WAS ABLE TO BE INTERROGATED AS OPPOSED TO UNABLE TO BE INTERROGATED AS PREVIOUSLY REPORTED."
+      "narrative": "IT WAS REPORTED BY THE PATIENT THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR WAS UNABLE TO PAIR WITH MOBILE APPLICATION VIA BLUETOOTH. NO INTERVENTION WAS PERFORMED. THERE WERE NO PATIENT CONSEQUENCES."
      },
      {
       "problem": "Under-Sensing",
@@ -635,7 +635,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -690,7 +690,7 @@
      {
       "id": "p8",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OH",
+      "state": "IL",
       "total": 29598.68,
       "payments": 67,
       "years": "2018\u20132024",
@@ -730,7 +730,7 @@
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "TX",
       "total": 45809.38,
       "payments": 30,
@@ -791,7 +791,7 @@
      {
       "id": "p8",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OH",
+      "state": "IL",
       "total": 29598.68,
       "payments": 67,
       "years": "2018\u20132024",
@@ -843,20 +843,40 @@
   },
   "ip": {
    "teaser": {
-    "patents": 2483,
+    "patents": 2452,
     "assignees": [
      "Abbott"
     ]
    },
    "payload": {
-    "patents": 2483,
-    "recent": [
+    "patents": 2452,
+    "assignees": [
      {
-      "id": "D452163",
-      "title": "Motorcycle motor clock",
-      "year": 2001,
-      "assignee": "Abbott; Michael"
+      "name": "Abbott Laboratories",
+      "patents": 2436
      },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Laboratories Ltd.",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Laboratories & Central Glass Co LTD",
+      "patents": 1
+     }
+    ],
+    "recent": [
      {
       "id": "6329157",
       "title": "Antigen cocktails and uses thereof",
@@ -898,11 +918,17 @@
       "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
       "year": 2001,
       "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
      }
     ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
    },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -1444,31 +1470,21 @@
       ]
      },
      {
-      "ccn": "240010",
-      "name": "Mayo Clinic Hospital Rochester",
-      "city": "Rochester",
-      "state": "MN",
-      "countyFips": "27109",
-      "lat": 43.971,
-      "lon": -92.508,
-      "discharges": 49,
-      "outpatientServices": 111,
-      "rating": "5",
+      "ccn": "440048",
+      "name": "Baptist Memorial Hospital",
+      "city": "Memphis",
+      "state": "TN",
+      "countyFips": "47157",
+      "lat": 35.124,
+      "lon": -89.853,
+      "discharges": 11,
+      "outpatientServices": 149,
+      "rating": "2",
       "topDrgs": [
-       {
-        "code": "277",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
-        "n": 19
-       },
-       {
-        "code": "275",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
-        "n": 16
-       },
        {
         "code": "276",
         "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
-        "n": 14
+        "n": 11
        }
       ]
      },
@@ -1502,21 +1518,31 @@
       ]
      },
      {
-      "ccn": "440048",
-      "name": "Baptist Memorial Hospital",
-      "city": "Memphis",
-      "state": "TN",
-      "countyFips": "47157",
-      "lat": 35.124,
-      "lon": -89.853,
-      "discharges": 11,
-      "outpatientServices": 149,
-      "rating": "2",
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 49,
+      "outpatientServices": 111,
+      "rating": "5",
       "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       },
        {
         "code": "276",
         "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
-        "n": 11
+        "n": 14
        }
       ]
      },
@@ -1533,13 +1559,13 @@
       "rating": "3",
       "topDrgs": [
        {
-        "code": "277",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
         "n": 22
        },
        {
-        "code": "276",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
         "n": 22
        }
       ]
@@ -1557,13 +1583,13 @@
       "rating": "5",
       "topDrgs": [
        {
-        "code": "276",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
         "n": 21
        },
        {
-        "code": "277",
-        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
         "n": 21
        }
       ]
@@ -1927,12 +1953,12 @@
       "per10k65": 6.9
      },
      {
-      "fips": "27109",
-      "name": "Olmsted",
-      "state": "MN",
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
       "services": 160,
       "facilities": 1,
-      "per10k65": 58.4
+      "per10k65": 11.8
      },
      {
       "fips": "11001",
@@ -1943,12 +1969,12 @@
       "per10k65": 18.4
      },
      {
-      "fips": "47157",
-      "name": "Shelby",
-      "state": "TN",
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
       "services": 160,
       "facilities": 1,
-      "per10k65": 11.8
+      "per10k65": 58.4
      },
      {
       "fips": "17167",
@@ -2127,14 +2153,6 @@
       "per10k65": 4.8
      },
      {
-      "fips": "36103",
-      "name": "Suffolk",
-      "state": "NY",
-      "services": 95,
-      "facilities": 1,
-      "per10k65": 3.5
-     },
-     {
       "fips": "18163",
       "name": "Vanderburgh",
       "state": "IN",
@@ -2151,6 +2169,14 @@
       "per10k65": 5.5
      },
      {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
       "fips": "37063",
       "name": "Durham",
       "state": "NC",
@@ -2159,20 +2185,20 @@
       "per10k65": 18.9
      },
      {
-      "fips": "20209",
-      "name": "Wyandotte",
-      "state": "KS",
-      "services": 89,
-      "facilities": 1,
-      "per10k65": 39.8
-     },
-     {
       "fips": "31109",
       "name": "Lancaster",
       "state": "NE",
       "services": 89,
       "facilities": 1,
       "per10k65": 17.8
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 39.8
      },
      {
       "fips": "45079",
@@ -2247,20 +2273,20 @@
       "per10k65": 11.3
      },
      {
-      "fips": "25013",
-      "name": "Hampden",
-      "state": "MA",
-      "services": 72,
-      "facilities": 1,
-      "per10k65": 8.5
-     },
-     {
       "fips": "45051",
       "name": "Horry",
       "state": "SC",
       "services": 72,
       "facilities": 1,
       "per10k65": 7.1
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 72,
+      "facilities": 1,
+      "per10k65": 8.5
      },
      {
       "fips": "35001",
@@ -2319,20 +2345,20 @@
       "per10k65": 8.0
      },
      {
-      "fips": "09003",
-      "name": "Hartford",
-      "state": "CT",
-      "services": 59,
-      "facilities": 1,
-      "per10k65": null
-     },
-     {
       "fips": "12099",
       "name": "Palm Beach",
       "state": "FL",
       "services": 59,
       "facilities": 1,
       "per10k65": 1.5
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 59,
+      "facilities": 1,
+      "per10k65": null
      },
      {
       "fips": "25001",
@@ -2359,20 +2385,20 @@
       "per10k65": 13.2
      },
      {
-      "fips": "20091",
-      "name": "Johnson",
-      "state": "KS",
-      "services": 48,
-      "facilities": 1,
-      "per10k65": 4.8
-     },
-     {
       "fips": "12021",
       "name": "Collier",
       "state": "FL",
       "services": 48,
       "facilities": 1,
       "per10k65": 3.6
+     },
+     {
+      "fips": "20091",
+      "name": "Johnson",
+      "state": "KS",
+      "services": 48,
+      "facilities": 1,
+      "per10k65": 4.8
      },
      {
       "fips": "42017",
@@ -2637,7 +2663,7 @@
       "trials": 6
      },
      {
-      "name": "The University of Texas Health Science Center at Houston",
+      "name": "The University of Texas health Science Center at Houston",
       "city": "Houston",
       "state": "Texas",
       "lat": 29.763,
@@ -2914,13 +2940,13 @@
       "subjectsAffected": 51
      },
      {
-      "term": "Leukopenia NOS",
+      "term": "Neutrophil count",
       "organSystem": "Investigations",
       "rows": 3,
       "subjectsAffected": 46
      },
      {
-      "term": "Neutrophil count",
+      "term": "Leukopenia NOS",
       "organSystem": "Investigations",
       "rows": 3,
       "subjectsAffected": 46
@@ -2932,6 +2958,12 @@
       "subjectsAffected": 43
      },
      {
+      "term": "Lymphopenia",
+      "organSystem": "Investigations",
+      "rows": 3,
+      "subjectsAffected": 39
+     },
+     {
       "term": "Cardiac Arrhythmias",
       "organSystem": "Cardiac disorders",
       "rows": 2,
@@ -2941,12 +2973,6 @@
       "term": "Major Infection",
       "organSystem": "Infections and infestations",
       "rows": 2,
-      "subjectsAffected": 39
-     },
-     {
-      "term": "Lymphopenia",
-      "organSystem": "Investigations",
-      "rows": 3,
       "subjectsAffected": 39
      }
     ],
@@ -3059,6 +3085,15 @@
        },
        {
         "date": "2018-05-31",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class II",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra, Promote Quadra and Ellipse ICD & CRT-D Devices",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2018-05-31",
         "source": "icij-imdd",
         "actionType": "Recall",
         "classification": "Class II",
@@ -3067,11 +3102,11 @@
         "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2018-RN-00669-1"
        },
        {
-        "date": "2018-05-31",
+        "date": "2017-08-28",
         "source": "tga-drac",
         "actionType": "Hazard Alert",
         "classification": "Class II",
-        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra, Promote Quadra and Ellipse ICD & CRT-D Devices",
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra devices",
         "reason": "Action level: Hospital",
         "url": null
        },
@@ -3083,15 +3118,6 @@
         "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra devices(Implantable cardiac defibrillator (ICD) and cardiac resynchronisation therapy defibrillator (CRT-D) devices)\nManufact",
         "reason": "St Jude Medical (SJM) is providing additional information following on from the previous notification in October 2016 (RC-2016-RN-01316-1).Previously there was no method to identify devices subject to premature battery depletion prior to reaching the ERI voltage. SJM have developed Battery Performan",
         "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2017-RN-01122-1"
-       },
-       {
-        "date": "2017-08-28",
-        "source": "tga-drac",
-        "actionType": "Hazard Alert",
-        "classification": "Class II",
-        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura and Unify Quadra devices",
-        "reason": "Action level: Hospital",
-        "url": null
        },
        {
         "date": "2016-10-11",
@@ -3165,6 +3191,15 @@
        },
        {
         "date": "2016-10-17",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra All",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2016-10-17",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
@@ -3173,11 +3208,11 @@
         "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20161011_01"
        },
        {
-        "date": "2016-10-17",
+        "date": "2015-12-28",
         "source": "swissmedic-fsca",
         "actionType": "Field Safety Corrective Action",
         "classification": null,
-        "product": "Fortify, Fortify Assura, Quadra Assura, Quadra Assura MP, Unify, Unify Assura, Unify Quadra All",
+        "product": "Ellipse, Fortify Assura, Unify Assura, Quadra Assura, Assurity, Assurity+, Allure RF, Allure Quadra RF, Quadra Allure MP RF All \u00b7 Merlin@Home RF Remote Monitoring Transmitter EX1150",
         "reason": null,
         "url": null
        },
@@ -3189,15 +3224,6 @@
         "product": "Ellipse, Fortify Assura, Unify Assura, Quadra Assura, Assurity, Assurity+, Allure RF, Allure Quadra RF, Quadra Allure MP RF",
         "reason": null,
         "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150818_11"
-       },
-       {
-        "date": "2015-12-28",
-        "source": "swissmedic-fsca",
-        "actionType": "Field Safety Corrective Action",
-        "classification": null,
-        "product": "Merlin@Home RF Remote Monitoring Transmitter EX1150 \u00b7 Ellipse, Fortify Assura, Unify Assura, Quadra Assura, Assurity, Assurity+, Allure RF, Allure Quadra RF, Quadra Allure MP RF All",
-        "reason": null,
-        "url": null
        }
       ]
      },

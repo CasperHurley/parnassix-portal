@@ -86,7 +86,7 @@
   },
   {
    "label": "Foreign regulator actions",
-   "value": 55,
+   "value": 54,
    "format": "number",
    "module": "global-actions"
   },
@@ -426,10 +426,6 @@
    "module": "global-actions",
    "points": [
     {
-     "year": 2005,
-     "value": 1
-    },
-    {
      "year": 2010,
      "value": 3
     },
@@ -472,12 +468,12 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 12747,
-      "narrative": "THE USER FACILITY REPORTED THAT DURING SUPPORT OF THE IMPELLA 5.5 ON (B)(6) 2025, THE PATIENT IN ICU, HAD SUDDEN LARGE, BLACK TARRY STOOL CONCERN FOR GASTROINTESTINAL BLEED GIB AND SIGNIFICANT HEMOPTYSIS. PER ICU DOC, CONCERN FOR SYSTEMIC BLEEDING IN SETTING OF SYSTEMIC ANTICOAGULATION BEFORE AND IN OR AS WELL AS ANTI-PLT THERAPY ONGOING SURGICAL PROCEDURE LAD STENT. OPTIMIZE I'S/O'S. HEPARIN IS BEING WITHHELD FOR A"
+      "narrative": "A (B)(6) YEAR OLD PATIENT WITH MULTIPLE CARDIAC COMORBIDITIES WAS BROUGHT TO THE MEDICAL CENTER FOR A HIGH RISK CORONARY ANGIOPLASTY, AS HE WAS NOT A REPEAT SURGICAL CANDIDATE. HE HAD AN IMPELLA CP PLACED FOR HEMODYNAMIC SUPPORT DURING THE ANGIOPLASTY. AT THE CONCLUSION OF THE ANGIOPLASTY THE IMPELLA WAS EXPLANTED AND THE ACCESS SITE CLOSED BY THE MANTA DEVICE. SHORTLY AFTER THE DEVICE WAS PLACED THE PATIENT BEGAN TO"
      },
      {
       "problem": "Restricted Flow rate",
       "reports": 1635,
-      "narrative": "THE IMPELLA DEVICE WAS NOT RECEIVED FROM THE CUSTOMER AND THEREFORE, AN EVALUATION OF THE DEVICE WAS NOT POSSIBLE. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED. INSTRUCTIONS FOR USE FOR THE RELATED EVENT ARE AS FOLLOWS: \u00bfMAINTAINING ACT AT OR ABOVE 250 SECONDS WILL HELP PREVENT A THROMBUS FROM ENTERING THE CATHETER AND CAUSING A SUDDEN STOP ON STARTUP.\u00bf \u00bfUNRESOLVED PURGE PRESSURE HIGH ALARM IF NOT RES"
+      "narrative": "THE COMPLAINANT REPORTED A PATIENT IN ACUTE MYOCARDIAL INFARCTION/CARDIOGENIC SHOCK WAS IMPLANTED WITH AN IMPELLA CP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE COMPLAINANT REPORTED SUCTION ISSUES DURING IMPELLA SUPPORT. THE CAUSE FOR THE ISSUE WAS FOUND TO BE A FIBRIN CLOT WITHIN THE MOTOR. REPOSITIONING AND FLUID MANIPULATION WERE ATTEMPTED TO TROUBLESHOOT THE ISSUE, BUT SUCTION REMAINED. AS A RESULT, THE DECISI"
      },
      {
       "problem": "Patient-Device Incompatibility",
@@ -487,27 +483,27 @@
      {
       "problem": "Pumping Stopped",
       "reports": 1221,
-      "narrative": "THE DEVICE WAS RECEIVED AND AN EVALUATION IS UNDERWAY. A SUPPLEMENTAL MDR WILL BE SUBMITTED UPON COMPLETION OF OUR ANALYSIS."
+      "narrative": "THE AIC CONSOLE WAS RETURNED AND AN INVESTIGATION CONCLUDED THE PUMP STOP WAS RELATED TO A DEFECTIVE SUB-CIRCUIT COMPONENT WITHIN THE CONSOLE (PUMP MOTOR DRIVER)."
      },
      {
       "problem": "Positioning Failure",
       "reports": 1033,
-      "narrative": "THE USER FACILITY REPORTED A 52-YEAR-OLD MALE NOTED AS HEART TRANSPLANT REJECTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. THE MEDICAL TEAM WAS ABLE TO INSERT THE IMPELLA PUMP SEVERAL TIMES HOWEVER THE PUMP WOULD NOT MAINTAIN THE PROPER POSITION. AFTER A FEW FAILED ATTEMPTS THE MEDICAL TEAM DECIDED TO EXPLANT THE PUMP. THE IMPELLA RP WAS REPLACED WITH AND IMPELLA RP FLEX VIA RIGHT I"
+      "narrative": "THE INVESTIGATION FOR THE REPORTED POSITIONING ISSUE HAS BEEN COMPLETED. PRODUCT WAS NOT RETURNED FOR REVIEW. THE PUMP HAD NOT BEEN SUTURED IN PLACE YET AT THE TIME OF THE DISLODGEMENT. THE ROOT CAUSE OF POSITIONING ISSUE WAS MOST LIKELY USE-RELATED."
      },
      {
       "problem": "Application Program Problem",
       "reports": 781,
-      "narrative": "THE USER FACILITY REPORTED A 53-YEAR-OLD MALE OF UNKNOWN RACE AND ETHNICITY IN ST ELEVATED MYOCARDIAL INFARCTION WAS IMPLANTED WITH AN IMPELLA RP DEVICE FOR MECHANICAL CIRCULATORY SUPPORT. IT WAS REPORTED THAT THE PATIENT WAS TRANSFERRED TO ANOTHER FACILITY AND IN THE FLIGHT CONTROLLER ERROR ALARM OCCURRED. ONCE ARRIVAL AT THE NEW FACILITY THE AUTOMATED IMPELLA CONTROLLER (AIC) WAS EXCHANGED. NO PATIENT HARM WAS REPO"
+      "narrative": "THE IMPELLA DEVICE WAS NOT RECEIVED FROM THE CUSTOMER AND THEREFORE, AN EVALUATION OF THE DEVICE WAS NOT POSSIBLE. UPON INVESTIGATION CLOSURE, A SUPPLEMENTAL MDR WILL BE FILED."
      },
      {
       "problem": "Fluid/Blood Leak",
       "reports": 678,
-      "narrative": "IT WAS REPORTED THAT A 14FR INTRODUCER APPEARED NOT TO BE SEALED (LEAK). THE PROBLEM WAS FOUND DURING PREPARATION FOR AN ACUTE MYOCARDIAL INFARCTION (AMI)/ CARDIOGENIC SHOCK (CGS) PROCEDURE ON A (B)(6)- YEAR OLD MALE PATIENT. THE PHYSICIANS DECIDED QUICKLY TO OPEN ANOTHER IMPELLA SET FOR A NEW INTRODUCER AS THE PATIENT WAS IN VERY POOR CONDITION. THE PATIENT EXPIRED AT SOME POINT DURING, OR AFTER THE PROCEDURE WAS CO"
+      "narrative": "THE DEVICE WAS USED FOR TREATMENT. THE DEVICE WAS DISCARDED AND NOT RETURNED FOR ANALYSIS, THEREFORE, THE CLINICAL OBSERVATION COULD NOT BE CONFIRMED. THE INVESTIGATION WILL FOCUS ON A REVIEW OF PRODUCT DOCUMENTATION. THE DEVICE HISTORY RECORD WAS REVIEWED TO CONFIRM THAT THE DEVICE PASSED ALL APPLICABLE IN-PROCESS AND FINAL INSPECTIONS. PER PROCEDURE ADELANTE S2S INTRODUCER SHEATH IN-PROCESS AND FINAL INSPECTION: VA"
      },
      {
       "problem": "Increase in Pressure",
       "reports": 677,
-      "narrative": "THE INVESTIGATION INTO THE REPORTED HIGH PURGE PRESSURE, PUMP STOP AND THROMBUS HAS BEEN COMPLETED SINCE THE ORIGINAL REPORT WAS FILED. IMPELLA WAS RETURNED WITH THE PUMP CATHETER CUT NEAR THE MOTOR HOUSING SIDE. THE PUMP WAS VISUALLY INSPECTED AND FOUND BIOMATERIAL TO BE INGESTED IN THE OUTFLOW, PURGE GAP, IMPELLER AND THE INFLOW. CATHETER WAS STRIPPED NEAR THE MOTOR HOUSING FROM 20 CM MARKING AND OBSERVED BLOOD TO"
+      "narrative": "THE DATA LOGS WERE RETURNED AND CONFIRM A GRADUAL INCREASE IN PURGE PRESSURE WHEN HEPARIN WAS REMOVED. HEPARIN WAS ADDED BACK INTO THE PURGE SYSTEM BUT THE PURGE PRESSURE REMAINED HIGH. THE PUMP WAS RETURNED AND RUN IN THE LAB AND THE HIGH PURGE PRESSURE WAS NOT REPRODUCED AND NO BLOCKAGES COULD BE SEEN. THE ROOT CAUSE OF THE HIGH PURGE PRESSURE IS MOST LIKELY A BIOMATERIAL BUILDUP. IMPELLA CP WITH SMART ASSIST SYSTE"
      }
     ]
    },
@@ -515,133 +511,260 @@
   },
   "predicate-tree": {
    "teaser": {
-    "devices": 15,
-    "citations": 12,
-    "hops": 2,
+    "devices": 34,
+    "citations": 37,
     "anchors": [
-     "K202330",
-     "K192769",
-     "K112892"
-    ]
+     "K112892",
+     "K083111",
+     "K063723"
+    ],
+    "accessories": 4,
+    "generationsUp": 4,
+    "generationsDown": 5
    },
    "payload": {
     "anchors": [
-     "K202330",
-     "K192769",
-     "K112892"
+     "K112892",
+     "K083111",
+     "K063723"
     ],
-    "nodes": [
+    "accessories": [
      {
-      "k": "K050168",
-      "name": "LANGSTON DUAL LUMEN PRESSURE MONITORING CATHETER",
-      "anchor": false
-     },
-     {
-      "k": "K052570",
-      "name": "TANDEMHEART TRANSSEPTAL CANNULA SET-EF, MODEL 5140-6221",
-      "anchor": false
-     },
-     {
-      "k": "K063723",
-      "name": "IMPELLA RECOVER LP 2.5 PERCUTANEOUS CARDIAC SUPPORT SYSTEM",
-      "anchor": false
-     },
-     {
-      "k": "K112892",
-      "name": "IMPELLA 2.5 PLUS CATHETER",
-      "anchor": true
-     },
-     {
-      "k": "K122084",
-      "name": "INTRODUCER SET, MODEL ADELANTE-S SERIES",
-      "anchor": false
-     },
-     {
-      "k": "K140338",
-      "name": "CREGANNA TACTX LOTUS INTRODUCER SET (SMALL), CREGANNA TACTX LOTUS INTRODUCER SET",
-      "anchor": false
-     },
-     {
-      "k": "K152225",
-      "name": "Edwards eSheath Introducer Set",
-      "anchor": false
-     },
-     {
-      "k": "K180785",
-      "name": "iSLEEVE Introducer Set",
-      "anchor": false
+      "k": "K202330",
+      "name": "Impella XR Sheath Set",
+      "date": "2020-12-07"
      },
      {
       "k": "K192769",
       "name": "Impella CP Introducer",
-      "anchor": true
+      "date": "2019-11-18"
      },
      {
-      "k": "K202330",
-      "name": "Impella XR Sheath Set",
-      "anchor": true
+      "k": "K110845",
+      "name": "IMPELLA CONTROLLER WITH FLOW CONTROL",
+      "date": "2011-04-27"
      },
      {
-      "k": "K780532",
-      "name": "PERCUTANEOUS SHEATH INTRODUCER KIT",
-      "anchor": false
+      "k": "K093801",
+      "name": "IMPELLA CONTROLLER",
+      "date": "2010-07-08"
+     }
+    ],
+    "nodes": [
+     {
+      "k": "K030398",
+      "name": "CARDIACASSIST TRANSSEPTAL CANNULA SET, MODEL 5132-6221",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K031827",
+      "name": "ULTRAFLEX VENOUS CANNULA, MODEL 970XX AND CB970XX",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K032632",
+      "name": "REMOTE ACCESS PERFUSION CANNULA LEFT AXILLARY 21 FRENCH",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K050168",
+      "name": "LANGSTON DUAL LUMEN PRESSURE MONITORING CATHETER",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K052081",
+      "name": "REMOTE ACCESS PERFUSION (RAP) FEMORAL VENOUS CANNULA",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K052570",
+      "name": "TANDEMHEART TRANSSEPTAL CANNULA SET-EF, MODEL 5140-6221",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K060101",
+      "name": "ESTECH AORTIC EASY FLOW CANNULA",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K063723",
+      "name": "IMPELLA RECOVER LP 2.5 PERCUTANEOUS CARDIAC SUPPORT SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K083111",
+      "name": "IMPELLA 5.0 CATHETER FAMILY",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K093801",
+      "name": "IMPELLA CONTROLLER",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K102726",
+      "name": "CARDIOHELP SYSTEM",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K110845",
+      "name": "IMPELLA CONTROLLER WITH FLOW CONTROL",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K112892",
+      "name": "IMPELLA 2.5 PLUS CATHETER",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K133265",
+      "name": "QUADROX-IR ADULT AND SMALL ADULT",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K133598",
+      "name": "CARDIOHELP SYSTEM",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K191935",
+      "name": "Nautilus Smart ECMO Module",
+      "anchor": false,
+      "level": -3
+     },
+     {
+      "k": "K232767",
+      "name": "Nautilus VF ECMO Oxygenator",
+      "anchor": false,
+      "level": -4
+     },
+     {
+      "k": "K240880",
+      "name": "VitalFlow Set with Balance Biosurface",
+      "anchor": false,
+      "level": -5
+     },
+     {
+      "k": "K780953",
+      "name": "MODEL 1861 BLOOD PUMP",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K845045",
+      "name": "VENOUS RETURN  CATHETER SS-1",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K852698",
+      "name": "BIO MEDICUS BIO PUMP MODEL BP-80",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K854511",
+      "name": "ELECATH PERCUTANEOUS LEFT ATRIAL CANNULATION SET",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K891576",
+      "name": "FEM-FLEX FEMORAL ACCESS CANNULATION SET",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K891687",
+      "name": "EXTRACORPOREAL CIRCUIT WITH BIO-ACTIVE SURFACE",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K896978",
+      "name": "CLOSED CHEST SUPPORT CIRCUIT W/BIO-ACTIVE SURFACE",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K913176",
+      "name": "DELPHIN II CENTRIFUGAL SYSTEM",
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "K924642",
       "name": "MEDTRONIC BIO-MEDICUS FEMORAL CANNULA/INTRODUCER",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "K924643",
       "name": "MEDTRONIC BIO-MEDICUS CANNULA INSERTION KIT",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      },
      {
-      "k": "K934901",
-      "name": "TEAR-AWAY SHEATH INTRODUCER SET WITH INTEGRAL HEMOSTASIS VALVE",
-      "anchor": false
+      "k": "K934127",
+      "name": "SARNS LOW JETTING AORTIC ARCH CANNULA",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K943739",
+      "name": "SOFTOUCH DIAGNOSTIC INTRAVASCULAR CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K943934",
+      "name": "AORTIC ARCH CANNULAS",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K973011",
+      "name": "BPX80 BIO-PUMP (BPX80)",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K990573",
+      "name": "ESTECH ARTERIAL REMOTE ACCESS PERFUSION CANNULA",
+      "anchor": false,
+      "level": 1
      },
      {
       "k": "K991783",
       "name": "AB-180 XC SYSTEM, MODEL AB-180XC",
-      "anchor": false
+      "anchor": false,
+      "level": 1
      }
     ],
     "edges": [
      {
-      "from": "K112892",
-      "to": "K063723",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "Performance standards do not currently exist for these devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: The IMPELLA 2.5 (K063723) 0. Device Description: The Impella 2.5 Plus is an update to the design of the IMPELLA 2.5, which was",
-      "hop": 1,
-      "page": 1
-     },
-     {
-      "from": "K192769",
-      "to": "K122084",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: Oscor Introducer set, Model Adelante-S2 Introducer, K122084 D. Device Description: The Impella CP Introducer is packaged as a sterile kit, which includes an introducer sheath (consisting",
-      "hop": 1,
-      "page": 4
-     },
-     {
-      "from": "K202330",
-      "to": "K780532",
+      "from": "K063723",
+      "to": "K052570",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices have not been subjected to any design-related recall. D. Device Description: The Impella XR",
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
       "hop": 1,
-      "page": 4
-     },
-     {
-      "from": "K202330",
-      "to": "K180785",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "Class II, DYB, 21 CFR- 870.1340 Regulation Description: Catheter Introducer C. Predicate Device: Boston Scientific 14 Fr iSLEEVE Introducer Set, which is cleared under K180785, and 10 Fr Arrow Percutaneous Sheath Introducer, which is cleared under K780532. The predicate devices",
-      "hop": 1,
+      "dir": "up",
       "page": 4
      },
      {
@@ -650,25 +773,8 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K063723",
-      "to": "K924643",
-      "kind": "additional",
-      "confidence": "medium",
-      "quote": "under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous",
-      "hop": 2,
-      "page": 4
-     },
-     {
-      "from": "K063723",
-      "to": "K991783",
-      "kind": "primary",
-      "confidence": "high",
-      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
-      "hop": 2,
+      "hop": 1,
+      "dir": "up",
       "page": 4
      },
      {
@@ -677,50 +783,354 @@
       "kind": "additional",
       "confidence": "medium",
       "quote": "Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous Cardiac Support System (IMPELLA RECOVER LP 2.5 System)",
-      "hop": 2,
+      "hop": 1,
+      "dir": "up",
       "page": 4
      },
      {
       "from": "K063723",
-      "to": "K052570",
+      "to": "K924643",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
-      "hop": 2,
+      "quote": "under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device Description: The IMPELLA RECOVER\u00ae LP 2.5 Percutaneous",
+      "hop": 1,
+      "dir": "up",
       "page": 4
      },
      {
-      "from": "K122084",
-      "to": "K934901",
+      "from": "K063723",
+      "to": "K991783",
       "kind": "primary",
       "confidence": "high",
-      "quote": "1-eniostasis Valve Classification Names: Catheter Introducer Predicate Devices: Tearaway Sheath Introducer Set with Integral Hemostaris Valve (K934901) Device Description: The components of the SafeSheath MSP h Introducer Kit consists of a sheath with* sideport tubing, stopcock",
-      "hop": 2,
+      "quote": "4210) Diagnostic intravascular catheter (classified under 870.1200) Product Code: 74KFM, 74DWF, 74DQO c. Legally Marketed Predicate Devices \u2022 TandemHeart PTVA System - K991783, K052570 ,K924642 , K924643 \u2022 Vascular Solutions Langston Dual Lumen Catheter - K050168 d. Device",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K083111",
+      "to": "K990573",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Non-roller Type Cardiopulmonary Bypass (CPB) Blood Pump Predicate Devices: IMPELLA 2.5 (K063723) Estech 21 Fr RAP Cannula (K032632) Estech 21 Fr RAP Femoral Cannula (K990573) Estech Easy Flow Aortic Cannulae (K060101) Calmed 18-24 Fr Aortic Arch Cannulae (K943934) Sam's Delpin",
+      "hop": 1,
+      "dir": "up",
       "page": 1
      },
      {
-      "from": "K180785",
-      "to": "K152225",
+      "from": "K083111",
+      "to": "K063723",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Extracorporeal Circulatory Support System Classification Name: Non-roller Type Cardiopulmonary Bypass (CPB) Blood Pump Predicate Devices: IMPELLA 2.5 (K063723) Estech 21 Fr RAP Cannula (K032632) Estech 21 Fr RAP Femoral Cannula (K990573) Estech Easy Flow Aortic Cannulae",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083111",
+      "to": "K943934",
       "kind": "additional",
       "confidence": "medium",
-      "quote": "Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device Description The iSLEEVETM Introducer Set is a sterile, single-use introducer",
+      "quote": "5 (K063723) Estech 21 Fr RAP Cannula (K032632) Estech 21 Fr RAP Femoral Cannula (K990573) Estech Easy Flow Aortic Cannulae (K060101) Calmed 18-24 Fr Aortic Arch Cannulae (K943934) Sam's Delpin Centrifugal Pump (K913176) Device Description: The IMPELLA 5.0 catheter family",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083111",
+      "to": "K060101",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Devices: IMPELLA 2.5 (K063723) Estech 21 Fr RAP Cannula (K032632) Estech 21 Fr RAP Femoral Cannula (K990573) Estech Easy Flow Aortic Cannulae (K060101) Calmed 18-24 Fr Aortic Arch Cannulae (K943934) Sam's Delpin Centrifugal Pump (K913176) Device Description: The IMPELLA 5.0",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083111",
+      "to": "K032632",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Extracorporeal Circulatory Support System Classification Name: Non-roller Type Cardiopulmonary Bypass (CPB) Blood Pump Predicate Devices: IMPELLA 2.5 (K063723) Estech 21 Fr RAP Cannula (K032632) Estech 21 Fr RAP Femoral Cannula (K990573) Estech Easy Flow Aortic Cannulae",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083111",
+      "to": "K913176",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Cannula (K990573) Estech Easy Flow Aortic Cannulae (K060101) Calmed 18-24 Fr Aortic Arch Cannulae (K943934) Sam's Delpin Centrifugal Pump (K913176) Device Description: The IMPELLA 5.0 catheter family (IMPELLA 5.0) is an extension of the IMPELLA Percutaneous Cardiac Support",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K112892",
+      "to": "K063723",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Performance standards do not currently exist for these devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: The IMPELLA 2.5 (K063723) 0. Device Description: The Impella 2.5 Plus is an update to the design of the IMPELLA 2.5, which was",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K032632",
+      "to": "K990573",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ce Name: ESTECH Remote Access Axillary Access Arterial\nPerfusion Cannula Cannula\nManufacturer: ESTECH Edwards Lifesciences\n5 1O (k) Number: K990573 KO02578\nSubstantial Equivalence 1999-03-1 1 2002-04- 1 1\nDecision Date:\nD. Device Description\nThe ESTECH Remote Access Perfusion",
       "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K050168",
+      "to": "K943739",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "delivery of contrast media during angiographic studies. The DLP catheter consists of the Merit Medical Softouch Diagnostic Intravascular Catheter (K943739) as the inner lumen and -an extruded outer lumen designed by Vascular Solutions. The inner lumen and hub assembly are",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052570",
+      "to": "K924642",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Enhanced Flow Transseptal Cannula Classification Name: Catheter Cannula Predicate Devices CardiacAssist Transseptal Cannula Set (K030398) MDT Biomedicus Femoral Cannula 96670-021 (K924642) Device Description The Tandeml-eart Transseptal Cannula Set-EF consists of three",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052570",
+      "to": "K030398",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "CardiacAssist Transseptal Cannula Set-EF Common Name: Enhanced Flow Transseptal Cannula Classification Name: Catheter Cannula Predicate Devices CardiacAssist Transseptal Cannula Set (K030398) MDT Biomedicus Femoral Cannula 96670-021 (K924642) Device Description The Tandeml-eart",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K060101",
+      "to": "K052081",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ESTECH Aortic Easy Flow Cannula Predicate Device Information: Predicate Devices: Low Jetting Aortic Arch Cannula (K934127) ESTECH Remote Access Perfusion FV Cannula (K052081) Predicate Device Manufacturers: Sams a division of Terumo ESTECH, Inc. Predicate Device Common Name:",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K060101",
+      "to": "K934127",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Device Proprietary Name: ESTECH Aortic Easy Flow Cannula Predicate Device Information: Predicate Devices: Low Jetting Aortic Arch Cannula (K934127) ESTECH Remote Access Perfusion FV Cannula (K052081) Predicate Device Manufacturers: Sams a division of Terumo ESTECH, Inc.",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K991783",
+      "to": "K780953",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "cate Device or Legally Marketed Device\nMedtronic BP-80 Bio-Pump\u00ae, K973011, K852698\nHemadyne Minnimed\u2122 Model 1861 Extracorporeal Blood Pump, K780953\n510(k) Summary\nK991783\nDevice Description\nThe AB-180 XC Blood Pump provides extracorporeal circulatory system support with\nthe",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K991783",
+      "to": "K973011",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Cardiac Assist Technologies, Inc.\nAB-180 XC System\nPredicate Device or Legally Marketed Device\nMedtronic BP-80 Bio-Pump\u00ae, K973011, K852698\nHemadyne Minnimed\u2122 Model 1861 Extracorporeal Blood Pump, K780953\n510(k) Summary\nK991783\nDevice Description\nThe AB-180 XC Blood Pum",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K991783",
+      "to": "K852698",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Cardiac Assist Technologies, Inc.\nAB-180 XC System\nPredicate Device or Legally Marketed Device\nMedtronic BP-80 Bio-Pump\u00ae, K973011, K852698\nHemadyne Minnimed\u2122 Model 1861 Extracorporeal Blood Pump, K780953\n510(k) Summary\nK991783\nDevice Description\nThe AB-180 XC Blood Pump provide",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K030398",
+      "to": "K854511",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "t\nCommon Name: Transseptal Cannula\nClassification Name: Catheter Cannula\nPredicate Device\nElecath Percutaneous Left Atrial Cannulation Set (K854511)\nDevice Description\nThe Transseptal Cannula Set consists of three components: (1) 21 Fr. Transseptal\nCannula, (2) 13 Fr. Obturator,",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052081",
+      "to": "K891576",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "I, DWF\nPredicate Device Information:\nPredicate Devices: ULTRAFLEXTM Venous Cannula\n(K031827)\nRMI Fern-Flex Fernoral Access Cannulation\nSet (K891576)\nPredicate Device Manufacturers: Medtronic\nResearch Medical Incorporation\nPredicate Device Common Name: Cardiopulmonary bypass",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052081",
+      "to": "K031827",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": ", 21 CFR 870.421 0\nDevice Classification & Code: Class 1I, DWF\nPredicate Device Information:\nPredicate Devices: ULTRAFLEXTM Venous Cannula\n(K031827)\nRMI Fern-Flex Fernoral Access Cannulation\nSet (K891576)\nPredicate Device Manufacturers: Medtronic\nResearch Medical",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K973011",
+      "to": "K891687",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "CE OR LEGALLY MARKETED DEVICE\nMetronic Bio-Medicus, Inc. - BP-80 Bio-Pump\u00ae (K852698)\nMetronic Cardiopulmonary - CBBP-80 Bio-Pump\u00ae (K852698, K891687 and K896978)\nMetronic\nBio-Medicus, Inc.\n510(k) Notification - BPX-80 Bio-Pump\u00ae\nAugust 12, 1997\nConfidential\nPage 9",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K973011",
+      "to": "K896978",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Y MARKETED DEVICE\nMetronic Bio-Medicus, Inc. - BP-80 Bio-Pump\u00ae (K852698)\nMetronic Cardiopulmonary - CBBP-80 Bio-Pump\u00ae (K852698, K891687 and K896978)\nMetronic\nBio-Medicus, Inc.\n510(k) Notification - BPX-80 Bio-Pump\u00ae\nAugust 12, 1997\nConfidential\nPage 9",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K973011",
+      "to": "K852698",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "iopulmonary bypass blood pump (21 CFR - 870.4360)\nPREDICATE DEVICE OR LEGALLY MARKETED DEVICE\nMetronic Bio-Medicus, Inc. - BP-80 Bio-Pump\u00ae (K852698)\nMetronic Cardiopulmonary - CBBP-80 Bio-Pump\u00ae (K852698, K891687 and K896978)\nMetronic\nBio-Medicus, Inc.\n510(k) Notification -",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K031827",
+      "to": "K924642",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Cardiopulmonary bypass vascular catheter, cannula or tubing Classification: Class I1 Predicate Devices: VC28 Venous Cannula K845045 Bio-Medicus8 Femoral Cannula and Introducer K924642 Extracorporeal Circuit with Bio-Active Surface K8918687",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K031827",
+      "to": "K845045",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ULTRAFLEXTMVenous Cannula 23,29 Fr. Common Name: Cardiopulmonary bypass vascular catheter, cannula or tubing Classification: Class I1 Predicate Devices: VC28 Venous Cannula K845045 Bio-Medicus8 Femoral Cannula and Introducer K924642 Extracorporeal Circuit with Bio-Active Surface",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K093801",
+      "to": "K063723",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "System, which were cleared for use together as an extracorporeal bypass control unit for the RECOVER LP 2.5 PERCUTANEOUS CARDIAC SUPPORT SYSTEM, K063723. 0. Device Description: The IMPELLA Controller is a microprocessor-based pump motor driver and purge system. It is designed to",
+      "hop": 1,
+      "dir": "down",
+      "page": 1
+     },
+     {
+      "from": "K102726",
+      "to": "K083111",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 1,
+      "dir": "down",
+      "page": null
+     },
+     {
+      "from": "K110845",
+      "to": "K093801",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Performance standards do not currently exist for these devices. (i.e. none established under section 514 of the F D & C Act.) C. Predicate Device: The Impella Controller (K093801). D. Device Description: The IMPELLA Controller with Flow Control is identical to the IMPELLA",
+      "hop": 2,
+      "dir": "down",
+      "page": 1
+     },
+     {
+      "from": "K133265",
+      "to": "K102726",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "The holding clamp is applied by the perfusionist prior to use. Legally marketed MAQUET Predicate Devices: Primary predicate device: QUADROX-iR Adult K102726, QUADROX-iR Small Adult K102726 Secondary predicate devices: QUADROX-i Adult Microporous Membrane Oxygenators K132829,",
+      "hop": 2,
+      "dir": "down",
+      "page": 2
+     },
+     {
+      "from": "K133598",
+      "to": "K102726",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 2,
+      "dir": "down",
+      "page": null
+     },
+     {
+      "from": "K191935",
+      "to": "K133598",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "4100 Product Code: BYS Predicate: 81 FR 7451, Feb. 12, 2016 Reference Devices: Maquet Quadrox iD Oxygenator (K150267) CARDIOHELP System, Model CARDIOHELP-i (K133598) Indications for Use: The NautilusTM ECMO Oxygenator with integrated heat exchanger is intended to provide",
+      "hop": 3,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K232767",
+      "to": "K191935",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Extracorporeal circuit and accessories for long-term respiratory/cardiopulmonary failure Regulation Number: 21 CFR 870.4100 Product Code: BYS Predicate: Nautilus\u2122 Smart ECMO Module (K191935) Nautilus\u2122 ECMO Oxygenator (K191935) Indications for Use: The NautilusTM VF ECMO",
+      "hop": 4,
+      "dir": "down",
       "page": 4
      },
      {
-      "from": "K180785",
-      "to": "K140338",
-      "kind": "primary",
-      "confidence": "medium",
-      "quote": "Introducer Set Common Name Catheter introducer Product Code DYB Classification Class II, 21 CFR Part 870.1340 Primary Predicate Creganna-Tactx K140338 27 August 2014 Device LotusTM Introducer Set Reference Edwards eSheath K152225 24 November 2015 Device(s) Introducer Set Device",
-      "hop": 2,
-      "page": 4
+      "from": "K240880",
+      "to": "K232767",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Tubing and Accessories Sets for Extracorporeal Membrane Oxygenation (ECMO) with Balance\u2122 Biosurface (K223168) Nautilus VF ECMO Oxygenator (K232767) VitalFlow Centrifugal Pump (K223898) Tubing Pack (K171979)",
+      "hop": 5,
+      "dir": "down",
+      "page": 5
      }
     ],
-    "hopCap": 2,
-    "hopCapNote": "Lineage is capped at 2 hops from this device \u2014 the full multi-generation family tree is a separate build."
+    "note": "Lineage is walked to the earliest cited predicate and the latest citing descendant held in the corpus. Descendant coverage is bounded by the 510(k)-summary extraction: clearances filed with a 510(k) Statement (no public summary) cannot appear as citing devices."
    },
-   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked upward from this device's own clearances."
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked in both directions from this device's own clearances; branded accessory clearances listed separately."
   },
   "experts": {
    "teaser": {
@@ -775,8 +1185,8 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "MA",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "PA",
       "total": 883296.66,
       "payments": 789,
       "years": "2013\u20132024",
@@ -874,8 +1284,8 @@
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "MA",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "PA",
       "total": 883296.66,
       "payments": 789,
       "years": "2013\u20132024",
@@ -954,6 +1364,32 @@
    },
    "payload": {
     "patents": 33,
+    "assignees": [
+     {
+      "name": "Abiomed, Inc.",
+      "patents": 21
+     },
+     {
+      "name": "Abiomed Cardiovascular, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abiomed R & D, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "ABIOMED Cardiovascular, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abiomed Limited Partnership",
+      "patents": 2
+     },
+     {
+      "name": "Abiomed R&D, Inc.",
+      "patents": 1
+     }
+    ],
     "recent": [
      {
       "id": "6324430",
@@ -1004,9 +1440,9 @@
       "assignee": "Abiomed, Inc."
      }
     ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
    },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -1118,8 +1554,8 @@
         "n": 40
        },
        {
-        "code": "268",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
         "n": 17
        }
       ]
@@ -1381,30 +1817,6 @@
       ]
      },
      {
-      "ccn": "360180",
-      "name": "Cleveland Clinic",
-      "city": "Cleveland",
-      "state": "OH",
-      "countyFips": "39035",
-      "lat": 41.555,
-      "lon": -81.605,
-      "discharges": 77,
-      "outpatientServices": null,
-      "rating": "5",
-      "topDrgs": [
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 46
-       },
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 31
-       }
-      ]
-     },
-     {
       "ccn": "310015",
       "name": "Morristown Medical Center",
       "city": "Morristown",
@@ -1430,6 +1842,30 @@
         "code": "001",
         "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
         "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 77,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 46
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 31
        }
       ]
      },
@@ -1463,6 +1899,30 @@
       ]
      },
      {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 74,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 39
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 35
+       }
+      ]
+     },
+     {
       "ccn": "300003",
       "name": "Mary Hitchcock Memorial Hospital",
       "city": "Lebanon",
@@ -1488,30 +1948,6 @@
         "code": "268",
         "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
         "n": 11
-       }
-      ]
-     },
-     {
-      "ccn": "050625",
-      "name": "Cedars-Sinai Medical Center",
-      "city": "Los Angeles",
-      "state": "CA",
-      "countyFips": "06037",
-      "lat": 34.073,
-      "lon": -118.373,
-      "discharges": 74,
-      "outpatientServices": null,
-      "rating": "5",
-      "topDrgs": [
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 39
-       },
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 35
        }
       ]
      },
@@ -1632,31 +2068,31 @@
       ]
      },
      {
-      "ccn": "240057",
-      "name": "Abbott Northwestern Hospital",
-      "city": "Minneapolis",
-      "state": "MN",
-      "countyFips": "27053",
-      "lat": 44.935,
-      "lon": -93.253,
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
       "discharges": 67,
       "outpatientServices": null,
-      "rating": "4",
+      "rating": "5",
       "topDrgs": [
        {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
         "n": 36
        },
        {
         "code": "001",
         "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 20
+        "n": 19
        },
        {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
-        "n": 11
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 12
        }
       ]
      },
@@ -1685,31 +2121,31 @@
       ]
      },
      {
-      "ccn": "220110",
-      "name": "Brigham And Women'S Hospital",
-      "city": "Boston",
-      "state": "MA",
-      "countyFips": "25025",
-      "lat": 42.339,
-      "lon": -71.095,
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
       "discharges": 67,
       "outpatientServices": null,
-      "rating": "5",
+      "rating": "4",
       "topDrgs": [
        {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 36
        },
        {
         "code": "001",
         "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 19
+        "n": 20
        },
        {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 12
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
        }
       ]
      },
@@ -1743,6 +2179,35 @@
       ]
      },
      {
+      "ccn": "050454",
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "countyFips": "06075",
+      "lat": 37.727,
+      "lon": -123.032,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
       "ccn": "450388",
       "name": "Methodist Hospital",
       "city": "San Antonio",
@@ -1768,35 +2233,6 @@
         "code": "269",
         "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 13
-       }
-      ]
-     },
-     {
-      "ccn": "050454",
-      "name": "Ucsf Medical Center",
-      "city": "San Francisco",
-      "state": "CA",
-      "countyFips": "06075",
-      "lat": 37.727,
-      "lon": -123.032,
-      "discharges": 63,
-      "outpatientServices": null,
-      "rating": "5",
-      "topDrgs": [
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 29
-       },
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 17
-       },
-       {
-        "code": "268",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
-        "n": 17
        }
       ]
      }
@@ -2379,20 +2815,20 @@
       "per10k65": 3.0
      },
      {
-      "fips": "27145",
-      "name": "Stearns",
-      "state": "MN",
-      "services": 42,
-      "facilities": 1,
-      "per10k65": 16.2
-     },
-     {
       "fips": "13089",
       "name": "DeKalb",
       "state": "GA",
       "services": 42,
       "facilities": 1,
       "per10k65": 4.0
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 16.2
      },
      {
       "fips": "20209",
@@ -2419,20 +2855,20 @@
       "per10k65": 4.0
      },
      {
-      "fips": "12021",
-      "name": "Collier",
-      "state": "FL",
-      "services": 39,
-      "facilities": 1,
-      "per10k65": 2.9
-     },
-     {
       "fips": "37021",
       "name": "Buncombe",
       "state": "NC",
       "services": 39,
       "facilities": 1,
       "per10k65": 6.7
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 2.9
      },
      {
       "fips": "04019",
@@ -2475,20 +2911,20 @@
       "per10k65": 4.5
      },
      {
-      "fips": "05125",
-      "name": "Saline",
-      "state": "AR",
-      "services": 35,
-      "facilities": 1,
-      "per10k65": 14.9
-     },
-     {
       "fips": "42133",
       "name": "York",
       "state": "PA",
       "services": 35,
       "facilities": 1,
       "per10k65": 4.0
+     },
+     {
+      "fips": "05125",
+      "name": "Saline",
+      "state": "AR",
+      "services": 35,
+      "facilities": 1,
+      "per10k65": 14.9
      },
      {
       "fips": "53067",
@@ -2523,30 +2959,6 @@
       "per10k65": 1.4
      },
      {
-      "fips": "18163",
-      "name": "Vanderburgh",
-      "state": "IN",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 9.1
-     },
-     {
-      "fips": "36067",
-      "name": "Onondaga",
-      "state": "NY",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 3.4
-     },
-     {
-      "fips": "08001",
-      "name": "Adams",
-      "state": "CO",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 5.0
-     },
-     {
       "fips": "46103",
       "name": "Pennington",
       "state": "SD",
@@ -2563,28 +2975,36 @@
       "per10k65": 1.9
      },
      {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 9.1
+     },
+     {
       "fips": "48439",
       "name": "Tarrant",
       "state": "TX",
       "services": 30,
       "facilities": 2,
       "per10k65": 1.1
-     },
-     {
-      "fips": "25027",
-      "name": "Worcester",
-      "state": "MA",
-      "services": 29,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "05005",
-      "name": "Baxter",
-      "state": "AR",
-      "services": 29,
-      "facilities": 1,
-      "per10k65": 22.1
      },
      {
       "fips": "05143",
@@ -2595,20 +3015,28 @@
       "per10k65": 9.2
      },
      {
+      "fips": "05005",
+      "name": "Baxter",
+      "state": "AR",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
       "fips": "27123",
       "name": "Ramsey",
       "state": "MN",
       "services": 29,
       "facilities": 2,
       "per10k65": 3.4
-     },
-     {
-      "fips": "13067",
-      "name": "Cobb",
-      "state": "GA",
-      "services": 28,
-      "facilities": 1,
-      "per10k65": 2.6
      },
      {
       "fips": "26125",
@@ -2619,12 +3047,28 @@
       "per10k65": 1.2
      },
      {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 2.6
+     },
+     {
       "fips": "51760",
       "name": "Richmond",
       "state": "VA",
       "services": 28,
       "facilities": 2,
       "per10k65": 8.7
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 7.8
      },
      {
       "fips": "42043",
@@ -2643,12 +3087,12 @@
       "per10k65": 2.8
      },
      {
-      "fips": "28049",
-      "name": "Hinds",
-      "state": "MS",
-      "services": 28,
-      "facilities": 2,
-      "per10k65": 7.8
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 3.2
      },
      {
       "fips": "12011",
@@ -2667,46 +3111,6 @@
       "per10k65": 7.8
      },
      {
-      "fips": "25013",
-      "name": "Hampden",
-      "state": "MA",
-      "services": 27,
-      "facilities": 1,
-      "per10k65": 3.2
-     },
-     {
-      "fips": "48441",
-      "name": "Taylor",
-      "state": "TX",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 11.9
-     },
-     {
-      "fips": "51840",
-      "name": "Winchester",
-      "state": "VA",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 55.7
-     },
-     {
-      "fips": "24045",
-      "name": "Wicomico",
-      "state": "MD",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 14.9
-     },
-     {
-      "fips": "39061",
-      "name": "Hamilton",
-      "state": "OH",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
       "fips": "28081",
       "name": "Lee",
       "state": "MS",
@@ -2721,6 +3125,38 @@
       "services": 26,
       "facilities": 1,
       "per10k65": 5.2
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 55.7
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 11.9
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 1.9
      },
      {
       "fips": "34005",
@@ -2747,28 +3183,20 @@
       "per10k65": 1.0
      },
      {
-      "fips": "46099",
-      "name": "Minnehaha",
-      "state": "SD",
-      "services": 24,
-      "facilities": 1,
-      "per10k65": 8.5
-     },
-     {
-      "fips": "26163",
-      "name": "Wayne",
-      "state": "MI",
-      "services": 24,
-      "facilities": 1,
-      "per10k65": 0.8
-     },
-     {
       "fips": "50007",
       "name": "Chittenden",
       "state": "VT",
       "services": 24,
       "facilities": 1,
       "per10k65": 8.4
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 11.5
      },
      {
       "fips": "38017",
@@ -2779,12 +3207,20 @@
       "per10k65": 9.5
      },
      {
-      "fips": "19103",
-      "name": "Johnson",
-      "state": "IA",
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
       "services": 24,
       "facilities": 1,
-      "per10k65": 11.5
+      "per10k65": 0.8
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.5
      },
      {
       "fips": "42003",
@@ -2811,20 +3247,20 @@
       "per10k65": 2.3
      },
      {
-      "fips": "08041",
-      "name": "El Paso",
-      "state": "CO",
-      "services": 22,
-      "facilities": 1,
-      "per10k65": 2.1
-     },
-     {
       "fips": "17143",
       "name": "Peoria",
       "state": "IL",
       "services": 22,
       "facilities": 1,
       "per10k65": 6.7
+     },
+     {
+      "fips": "08041",
+      "name": "El Paso",
+      "state": "CO",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 2.1
      },
      {
       "fips": "12099",
@@ -2835,12 +3271,12 @@
       "per10k65": 0.6
      },
      {
-      "fips": "47163",
-      "name": "Sullivan",
-      "state": "TN",
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
       "services": 21,
       "facilities": 1,
-      "per10k65": 5.9
+      "per10k65": 1.4
      },
      {
       "fips": "20177",
@@ -2851,36 +3287,28 @@
       "per10k65": 6.1
      },
      {
-      "fips": "48453",
-      "name": "Travis",
-      "state": "TX",
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
       "services": 21,
       "facilities": 1,
-      "per10k65": 1.4
+      "per10k65": 5.9
      },
      {
-      "fips": "36027",
-      "name": "Dutchess",
-      "state": "NY",
+      "fips": "51680",
+      "name": "Lynchburg",
+      "state": "VA",
       "services": 20,
       "facilities": 1,
-      "per10k65": 3.5
+      "per10k65": 17.6
      },
      {
-      "fips": "55035",
-      "name": "Eau Claire",
-      "state": "WI",
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
       "services": 20,
       "facilities": 1,
-      "per10k65": 11.0
-     },
-     {
-      "fips": "16055",
-      "name": "Kootenai",
-      "state": "ID",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 5.5
+      "per10k65": 4.7
      },
      {
       "fips": "45045",
@@ -2899,6 +3327,22 @@
       "per10k65": 3.7
      },
      {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
       "fips": "37125",
       "name": "Moore",
       "state": "NC",
@@ -2907,20 +3351,12 @@
       "per10k65": 7.9
      },
      {
-      "fips": "48423",
-      "name": "Smith",
-      "state": "TX",
+      "fips": "55035",
+      "name": "Eau Claire",
+      "state": "WI",
       "services": 20,
       "facilities": 1,
-      "per10k65": 4.7
-     },
-     {
-      "fips": "51680",
-      "name": "Lynchburg",
-      "state": "VA",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 17.6
+      "per10k65": 11.0
      },
      {
       "fips": "01089",
@@ -2929,22 +3365,6 @@
       "services": 19,
       "facilities": 1,
       "per10k65": 3.0
-     },
-     {
-      "fips": "54061",
-      "name": "Monongalia",
-      "state": "WV",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 12.5
-     },
-     {
-      "fips": "26055",
-      "name": "Grand Traverse",
-      "state": "MI",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 8.5
      },
      {
       "fips": "42069",
@@ -2963,12 +3383,20 @@
       "per10k65": 1.3
      },
      {
-      "fips": "29077",
-      "name": "Greene",
-      "state": "MO",
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
       "services": 18,
       "facilities": 1,
-      "per10k65": 3.5
+      "per10k65": 8.5
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.7
      },
      {
       "fips": "41067",
@@ -2987,28 +3415,12 @@
       "per10k65": 2.8
      },
      {
-      "fips": "34025",
-      "name": "Monmouth",
-      "state": "NJ",
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
       "services": 18,
       "facilities": 1,
-      "per10k65": 1.5
-     },
-     {
-      "fips": "24005",
-      "name": "Baltimore",
-      "state": "MD",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 1.2
-     },
-     {
-      "fips": "30063",
-      "name": "Missoula",
-      "state": "MT",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 8.7
+      "per10k65": 3.5
      },
      {
       "fips": "12061",
@@ -3019,20 +3431,28 @@
       "per10k65": 3.1
      },
      {
-      "fips": "13021",
-      "name": "Bibb",
-      "state": "GA",
-      "services": 17,
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 18,
       "facilities": 1,
-      "per10k65": 6.6
+      "per10k65": 1.5
      },
      {
-      "fips": "51085",
-      "name": "Hanover",
-      "state": "VA",
-      "services": 17,
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 18,
       "facilities": 1,
-      "per10k65": 7.8
+      "per10k65": 12.5
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.2
      },
      {
       "fips": "32031",
@@ -3043,20 +3463,12 @@
       "per10k65": 1.9
      },
      {
-      "fips": "39119",
-      "name": "Muskingum",
-      "state": "OH",
+      "fips": "51085",
+      "name": "Hanover",
+      "state": "VA",
       "services": 17,
       "facilities": 1,
-      "per10k65": 10.6
-     },
-     {
-      "fips": "12081",
-      "name": "Manatee",
-      "state": "FL",
-      "services": 17,
-      "facilities": 1,
-      "per10k65": 1.4
+      "per10k65": 7.8
      },
      {
       "fips": "44007",
@@ -3075,28 +3487,36 @@
       "per10k65": 2.7
      },
      {
-      "fips": "41017",
-      "name": "Deschutes",
-      "state": "OR",
-      "services": 16,
+      "fips": "39119",
+      "name": "Muskingum",
+      "state": "OH",
+      "services": 17,
       "facilities": 1,
-      "per10k65": 3.6
+      "per10k65": 10.6
      },
      {
-      "fips": "41029",
-      "name": "Jackson",
-      "state": "OR",
-      "services": 16,
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 17,
       "facilities": 1,
-      "per10k65": 3.1
+      "per10k65": 1.4
      },
      {
-      "fips": "51540",
-      "name": "Charlottesville",
-      "state": "VA",
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 6.6
+     },
+     {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
       "services": 16,
       "facilities": 1,
-      "per10k65": 26.2
+      "per10k65": 4.6
      },
      {
       "fips": "45007",
@@ -3115,44 +3535,12 @@
       "per10k65": 3.0
      },
      {
-      "fips": "25005",
-      "name": "Bristol",
-      "state": "MA",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 1.5
-     },
-     {
       "fips": "39099",
       "name": "Mahoning",
       "state": "OH",
       "services": 16,
       "facilities": 1,
       "per10k65": 3.1
-     },
-     {
-      "fips": "23019",
-      "name": "Penobscot",
-      "state": "ME",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 5.1
-     },
-     {
-      "fips": "28047",
-      "name": "Harrison",
-      "state": "MS",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
-      "fips": "34029",
-      "name": "Ocean",
-      "state": "NJ",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 1.1
      },
      {
       "fips": "42093",
@@ -3163,20 +3551,68 @@
       "per10k65": 40.6
      },
      {
-      "fips": "12103",
-      "name": "Pinellas",
-      "state": "FL",
-      "services": 15,
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 16,
       "facilities": 1,
-      "per10k65": 0.6
+      "per10k65": 1.1
      },
      {
-      "fips": "13135",
-      "name": "Gwinnett",
-      "state": "GA",
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 5.1
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "41017",
+      "name": "Deschutes",
+      "state": "OR",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 26.2
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "36113",
+      "name": "Warren",
+      "state": "NY",
       "services": 15,
       "facilities": 1,
-      "per10k65": 1.4
+      "per10k65": 9.4
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 5.6
      },
      {
       "fips": "29047",
@@ -3187,12 +3623,52 @@
       "per10k65": 3.8
      },
      {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
       "fips": "17077",
       "name": "Jackson",
       "state": "IL",
       "services": 15,
       "facilities": 1,
       "per10k65": 17.1
+     },
+     {
+      "fips": "12111",
+      "name": "St. Lucie",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 4.0
+     },
+     {
+      "fips": "37049",
+      "name": "Craven",
+      "state": "NC",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 7.0
      },
      {
       "fips": "12086",
@@ -3219,14 +3695,6 @@
       "per10k65": 3.3
      },
      {
-      "fips": "12015",
-      "name": "Charlotte",
-      "state": "FL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
       "fips": "06019",
       "name": "Fresno",
       "state": "CA",
@@ -3235,60 +3703,116 @@
       "per10k65": 1.1
      },
      {
-      "fips": "55073",
-      "name": "Marathon",
-      "state": "WI",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 5.6
-     },
-     {
-      "fips": "36113",
-      "name": "Warren",
-      "state": "NY",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 9.4
-     },
-     {
-      "fips": "22017",
-      "name": "Caddo",
-      "state": "LA",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 3.5
-     },
-     {
-      "fips": "17167",
-      "name": "Sangamon",
-      "state": "IL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 4.0
-     },
-     {
-      "fips": "12111",
-      "name": "St. Lucie",
+      "fips": "12015",
+      "name": "Charlotte",
       "state": "FL",
       "services": 15,
       "facilities": 1,
-      "per10k65": 1.7
+      "per10k65": 1.8
      },
      {
-      "fips": "37049",
-      "name": "Craven",
-      "state": "NC",
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
       "services": 15,
       "facilities": 1,
-      "per10k65": 7.0
+      "per10k65": 0.6
      },
      {
-      "fips": "18003",
-      "name": "Allen",
-      "state": "IN",
+      "fips": "55141",
+      "name": "Wood",
+      "state": "WI",
       "services": 14,
       "facilities": 1,
-      "per10k65": 2.3
+      "per10k65": 8.7
+     },
+     {
+      "fips": "25021",
+      "name": "Norfolk",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "01077",
+      "name": "Lauderdale",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "19193",
+      "name": "Woodbury",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.6
      },
      {
       "fips": "36085",
@@ -3315,84 +3839,12 @@
       "per10k65": 1.5
      },
      {
-      "fips": "23005",
-      "name": "Cumberland",
-      "state": "ME",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 2.2
-     },
-     {
-      "fips": "42017",
-      "name": "Bucks",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "42029",
-      "name": "Chester",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "25001",
-      "name": "Barnstable",
-      "state": "MA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "19163",
-      "name": "Scott",
-      "state": "IA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
-      "fips": "38015",
-      "name": "Burleigh",
-      "state": "ND",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 7.8
-     },
-     {
-      "fips": "13059",
-      "name": "Clarke",
-      "state": "GA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 8.6
-     },
-     {
       "fips": "21145",
       "name": "McCracken",
       "state": "KY",
       "services": 14,
       "facilities": 1,
       "per10k65": 10.1
-     },
-     {
-      "fips": "24025",
-      "name": "Harford",
-      "state": "MD",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 3.0
-     },
-     {
-      "fips": "10005",
-      "name": "Sussex",
-      "state": "DE",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.8
      },
      {
       "fips": "36029",
@@ -3403,84 +3855,52 @@
       "per10k65": 0.8
      },
      {
-      "fips": "01097",
-      "name": "Mobile",
-      "state": "AL",
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
       "services": 14,
       "facilities": 1,
-      "per10k65": 2.0
+      "per10k65": 2.3
      },
      {
-      "fips": "21117",
-      "name": "Kenton",
-      "state": "KY",
+      "fips": "24025",
+      "name": "Harford",
+      "state": "MD",
       "services": 14,
       "facilities": 1,
-      "per10k65": 5.2
+      "per10k65": 3.0
      },
      {
-      "fips": "25021",
-      "name": "Norfolk",
-      "state": "MA",
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
       "services": 14,
       "facilities": 1,
-      "per10k65": 1.1
+      "per10k65": 1.4
      },
      {
-      "fips": "55141",
-      "name": "Wood",
-      "state": "WI",
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
       "services": 14,
       "facilities": 1,
-      "per10k65": 8.7
+      "per10k65": 2.2
      },
      {
-      "fips": "19193",
-      "name": "Woodbury",
+      "fips": "19163",
+      "name": "Scott",
       "state": "IA",
       "services": 14,
       "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "05031",
+      "name": "Craighead",
+      "state": "AR",
+      "services": 13,
+      "facilities": 1,
       "per10k65": 8.3
-     },
-     {
-      "fips": "01077",
-      "name": "Lauderdale",
-      "state": "AL",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 7.1
-     },
-     {
-      "fips": "30111",
-      "name": "Yellowstone",
-      "state": "MT",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 4.5
-     },
-     {
-      "fips": "06077",
-      "name": "San Joaquin",
-      "state": "CA",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 1.2
-     },
-     {
-      "fips": "48183",
-      "name": "Gregg",
-      "state": "TX",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 6.4
-     },
-     {
-      "fips": "47179",
-      "name": "Washington",
-      "state": "TN",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 5.0
      },
      {
       "fips": "47113",
@@ -3489,6 +3909,30 @@
       "services": 13,
       "facilities": 1,
       "per10k65": 7.3
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 0.9
      },
      {
       "fips": "56025",
@@ -3507,20 +3951,28 @@
       "per10k65": 4.9
      },
      {
-      "fips": "26111",
-      "name": "Midland",
-      "state": "MI",
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
       "services": 13,
       "facilities": 1,
-      "per10k65": 7.7
+      "per10k65": 2.3
      },
      {
-      "fips": "08031",
-      "name": "Denver",
-      "state": "CO",
+      "fips": "06077",
+      "name": "San Joaquin",
+      "state": "CA",
       "services": 13,
       "facilities": 1,
-      "per10k65": 1.4
+      "per10k65": 1.2
+     },
+     {
+      "fips": "48183",
+      "name": "Gregg",
+      "state": "TX",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 6.4
      },
      {
       "fips": "45041",
@@ -3531,44 +3983,20 @@
       "per10k65": 5.2
      },
      {
-      "fips": "45083",
-      "name": "Spartanburg",
-      "state": "SC",
+      "fips": "47179",
+      "name": "Washington",
+      "state": "TN",
       "services": 13,
       "facilities": 1,
-      "per10k65": 2.3
+      "per10k65": 5.0
      },
      {
-      "fips": "53053",
-      "name": "Pierce",
-      "state": "WA",
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
       "services": 13,
       "facilities": 1,
-      "per10k65": 0.9
-     },
-     {
-      "fips": "05031",
-      "name": "Craighead",
-      "state": "AR",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 8.3
-     },
-     {
-      "fips": "33011",
-      "name": "Hillsborough",
-      "state": "NH",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "12083",
-      "name": "Marion",
-      "state": "FL",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.0
+      "per10k65": 1.4
      },
      {
       "fips": "51700",
@@ -3577,6 +4005,70 @@
       "services": 12,
       "facilities": 1,
       "per10k65": 4.6
+     },
+     {
+      "fips": "24001",
+      "name": "Allegany",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "29021",
+      "name": "Buchanan",
+      "state": "MO",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "06097",
+      "name": "Sonoma",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "48485",
+      "name": "Wichita",
+      "state": "TX",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "06079",
+      "name": "San Luis Obispo",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
      },
      {
       "fips": "18167",
@@ -3627,22 +4119,6 @@
       "per10k65": 2.9
      },
      {
-      "fips": "06097",
-      "name": "Sonoma",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "35001",
-      "name": "Bernalillo",
-      "state": "NM",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.0
-     },
-     {
       "fips": "28035",
       "name": "Forrest",
       "state": "MS",
@@ -3651,84 +4127,28 @@
       "per10k65": 11.2
      },
      {
-      "fips": "06083",
-      "name": "Santa Barbara",
-      "state": "CA",
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
       "services": 12,
       "facilities": 1,
-      "per10k65": 1.6
+      "per10k65": 1.0
      },
      {
-      "fips": "29021",
-      "name": "Buchanan",
-      "state": "MO",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 8.2
-     },
-     {
-      "fips": "24001",
-      "name": "Allegany",
-      "state": "MD",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 8.4
-     },
-     {
-      "fips": "48485",
-      "name": "Wichita",
-      "state": "TX",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 6.0
-     },
-     {
-      "fips": "06079",
-      "name": "San Luis Obispo",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
-      "fips": "06013",
-      "name": "Contra Costa",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 0.6
-     },
-     {
-      "fips": "24013",
-      "name": "Carroll",
-      "state": "MD",
+      "fips": "12085",
+      "name": "Martin",
+      "state": "FL",
       "services": 11,
       "facilities": 1,
-      "per10k65": 3.5
+      "per10k65": 2.1
      },
      {
-      "fips": "27003",
-      "name": "Anoka",
-      "state": "MN",
+      "fips": "13051",
+      "name": "Chatham",
+      "state": "GA",
       "services": 11,
       "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
-      "fips": "53061",
-      "name": "Snohomish",
-      "state": "WA",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 0.9
-     },
-     {
-      "fips": "15003",
-      "name": "Honolulu",
-      "state": "HI",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 0.6
+      "per10k65": 2.2
      },
      {
       "fips": "01069",
@@ -3737,6 +4157,46 @@
       "services": 11,
       "facilities": 1,
       "per10k65": 5.4
+     },
+     {
+      "fips": "04025",
+      "name": "Yavapai",
+      "state": "AZ",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.3
+     },
+     {
+      "fips": "21059",
+      "name": "Daviess",
+      "state": "KY",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "10001",
+      "name": "Kent",
+      "state": "DE",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 3.2
+     },
+     {
+      "fips": "42041",
+      "name": "Cumberland",
+      "state": "PA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "05131",
+      "name": "Sebastian",
+      "state": "AR",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 5.0
      },
      {
       "fips": "06065",
@@ -3777,30 +4237,6 @@
       "services": 11,
       "facilities": 1,
       "per10k65": 2.5
-     },
-     {
-      "fips": "45013",
-      "name": "Beaufort",
-      "state": "SC",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "48037",
-      "name": "Bowie",
-      "state": "TX",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 6.8
-     },
-     {
-      "fips": "45079",
-      "name": "Richland",
-      "state": "SC",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 1.8
      }
     ],
     "hospitalYears": {
@@ -3969,7 +4405,7 @@
       "trials": 3
      },
      {
-      "name": "Hospital of the University of Pennsylvania",
+      "name": "Hospital of The University of Pennsylvania",
       "city": "Philadelphia",
       "state": "Pennsylvania",
       "lat": 39.952,
@@ -4258,34 +4694,16 @@
       "subjectsAffected": 5
      },
      {
-      "term": "Vascular Access Complication",
-      "organSystem": "Injury, poisoning and procedural complications",
-      "rows": 3,
-      "subjectsAffected": 3
-     },
-     {
       "term": "Death",
       "organSystem": "Cardiac disorders",
       "rows": 2,
       "subjectsAffected": 3
      },
      {
-      "term": "Renal Impairment",
-      "organSystem": "Renal and urinary disorders",
+      "term": "Vascular Access Complication",
+      "organSystem": "Injury, poisoning and procedural complications",
       "rows": 3,
-      "subjectsAffected": 2
-     },
-     {
-      "term": "Anaemia",
-      "organSystem": "Blood and lymphatic system disorders",
-      "rows": 3,
-      "subjectsAffected": 2
-     },
-     {
-      "term": "Myocardial Infarction",
-      "organSystem": "Cardiac disorders",
-      "rows": 3,
-      "subjectsAffected": 2
+      "subjectsAffected": 3
      },
      {
       "term": "Syncope",
@@ -4300,8 +4718,26 @@
       "subjectsAffected": 2
      },
      {
+      "term": "Cerebrovascular Accident",
+      "organSystem": "Nervous system disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Anaemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
       "term": "Pneumonia",
       "organSystem": "Infections and infestations",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Myocardial Infarction",
+      "organSystem": "Cardiac disorders",
       "rows": 3,
       "subjectsAffected": 2
      }
@@ -4359,16 +4795,16 @@
   },
   "global-actions": {
    "teaser": {
-    "actions": 55,
+    "actions": 54,
     "countries": 9,
     "sources": 6,
-    "firstForeignDate": "2005-06-15",
+    "firstForeignDate": "2010-03-18",
     "latestAction": {
      "country": "New Zealand",
      "date": "2026-05-21",
      "classification": "Hospital/Pharmacy/Laboratory"
     },
-    "screenedOut": 0
+    "screenedOut": 1
    },
    "payload": {
     "countries": [
@@ -4594,7 +5030,7 @@
         "source": "swissmedic-fsca",
         "actionType": "Field Safety Corrective Action",
         "classification": null,
-        "product": "Impella CP 0048-0008; 0048-0002 \u00b7 Impella LD 004681; 005080 \u00b7 Impella CP SmartAssist 2000154; 0048-0014 \u00b7 Impella 2.5 0046-3061; 005040 \u00b7 Impella RP 0046-3107; 0046-0011 \u00b7 Impella 5.5 SmartAssist Heart Pump 0550-0007, 20",
+        "product": "Impella 5.5 SmartAssist Heart Pump 0550-0007, 2000193; 0550-0002, 1000482 \u00b7 Impella CP 0048-0008; 0048-0002 \u00b7 Impella LD 004681; 005080 \u00b7 Impella CP SmartAssist 2000154; 0048-0014 \u00b7 Impella 2.5 0046-3061; 005040 \u00b7 Impell",
         "reason": "Distribution of updated IFU expected date changed",
         "url": null
        },
@@ -4734,7 +5170,7 @@
      {
       "code": "DE",
       "name": "Germany",
-      "total": 4,
+      "total": 3,
       "actions": [
        {
         "date": "2018-10-01",
@@ -4762,15 +5198,6 @@
         "product": "Impella XX Sets",
         "reason": "Information for Impella XX Sets, Abiomed Europe GmbH",
         "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2010/00694-10_kundeninfo_en.html"
-       },
-       {
-        "date": "2005-06-15",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "implanted PTFE -grafts used with the Recover\u00ae RD",
-        "reason": "Problems with implanted PTFE -grafts used with the Recover\u00ae RD from Impella",
-        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2005/01112-05_kundeninfo_en.html"
        }
       ]
      },
@@ -4784,18 +5211,18 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Impella 2.5 and Impella CP heart pumps",
+        "product": "Impella",
         "reason": null,
-        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---november-2018&id=ae630b26-9782-6eee-9b55-ff00008c97d0"
+        "url": "http://www.hpra.ie/docs/default-source/Safety-Notices/fsnsummary_may2010_qmsversion_final_020610.pdf?sfvrsn=0"
        },
        {
         "date": null,
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Impella",
+        "product": "Impella 2.5 and Impella CP heart pumps",
         "reason": null,
-        "url": "http://www.hpra.ie/docs/default-source/Safety-Notices/fsnsummary_may2010_qmsversion_final_020610.pdf?sfvrsn=0"
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---november-2018&id=ae630b26-9782-6eee-9b55-ff00008c97d0"
        }
       ]
      },
@@ -4833,10 +5260,6 @@
      }
     ],
     "series": [
-     {
-      "year": 2005,
-      "value": 1
-     },
      {
       "year": 2010,
       "value": 3
@@ -4884,17 +5307,17 @@
     },
     "callouts": [
      {
-      "text": "The earliest corroborated foreign regulator action (2005-06-15) predates the first US Class 1 recall (2023-04-17).",
+      "text": "The earliest corroborated foreign regulator action (2010-03-18) predates the first US Class 1 recall (2023-04-17).",
       "foreign": {
-       "date": "2005-06-15"
+       "date": "2010-03-18"
       },
       "us": {
        "date": "2023-04-17"
       }
      }
     ],
-    "screenedOut": 0,
-    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "screenedOut": 1,
+    "screenedNote": "1 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
     "sourceLabels": {
      "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
      "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",

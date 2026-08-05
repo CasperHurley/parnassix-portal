@@ -58,6 +58,17 @@ export interface TreeNode {
   k: string
   name: string
   anchor: boolean
+  /** signed generation from the device: 0 = this device, +N = predicate ancestors
+   *  (older), -N = citing descendants (newer) */
+  level?: number
+}
+
+/** A brand-matched clearance that is a companion/accessory (introducer, sheath, console…),
+ *  listed separately from the device's own clearances — its lineage is not walked. */
+export interface TreeAccessory {
+  k: string
+  name: string
+  date?: string | null
 }
 
 export interface TreeEdge {
@@ -67,6 +78,9 @@ export interface TreeEdge {
   confidence: string
   quote: string | null
   hop: number
+  /** which walk found the edge: 'up' = the device's predicate ancestry,
+   *  'down' = descendants citing the device (absent in pre-descendants snapshots) */
+  dir?: 'up' | 'down'
   /** 1-indexed page of the citing summary PDF the quote was extracted from */
   page?: number | null
 }
@@ -346,8 +360,21 @@ export interface DeviceDossier {
       { clusters: NarrativeCluster[] }
     >
     'predicate-tree': Module<
-      { devices: number; citations: number; hops: number; anchors: string[] },
-      { anchors: string[]; nodes: TreeNode[]; edges: TreeEdge[]; hopCap: number; hopCapNote: string }
+      {
+        devices: number
+        citations: number
+        anchors: string[]
+        accessories: number
+        generationsUp: number
+        generationsDown: number
+      },
+      {
+        anchors: string[]
+        accessories: TreeAccessory[]
+        nodes: TreeNode[]
+        edges: TreeEdge[]
+        note: string
+      }
     >
     experts: Module<
       { physicians: number; totalPaid: number; scope: string; cards: ExpertCard[] },
@@ -372,7 +399,12 @@ export interface DeviceDossier {
     >
     ip: Module<
       { patents: number; assignees: string[] },
-      { patents: number; recent: { id: string; title: string; year: number; assignee: string }[]; caveat: string }
+      {
+        patents: number
+        assignees?: { name: string; patents: number }[]
+        recent: { id: string; title: string; year: number; assignee: string }[]
+        caveat: string
+      }
     >
     'global-actions': Module<GlobalActionsTeaser, GlobalActionsPayload>
     'icp-map': Module<

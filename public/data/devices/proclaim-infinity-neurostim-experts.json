@@ -1,0 +1,4083 @@
+{
+ "profiles": {
+  "p1": {
+   "name": "Steven Falowski",
+   "identity": {
+    "npi": "1720272800",
+    "registryName": "Steven Falowski",
+    "credential": "M.D.",
+    "taxonomyCode": "207T00000X",
+    "licenseState": "PA",
+    "opState": "PA",
+    "opCity": "FOUNTAIN HILL",
+    "specialty": "Allopathic & Osteopathic Physicians|Neurological Surgery",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1720272800"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 14135.84
+     },
+     {
+      "year": 2014,
+      "value": 64068.08
+     },
+     {
+      "year": 2015,
+      "value": 47406.71
+     },
+     {
+      "year": 2016,
+      "value": 33488.75
+     },
+     {
+      "year": 2017,
+      "value": 228278.31
+     },
+     {
+      "year": 2018,
+      "value": 97283.36
+     },
+     {
+      "year": 2019,
+      "value": 469444.76
+     },
+     {
+      "year": 2020,
+      "value": 215859.65
+     },
+     {
+      "year": 2021,
+      "value": 232464.09
+     },
+     {
+      "year": 2022,
+      "value": 241412.53
+     },
+     {
+      "year": 2023,
+      "value": 178038.81
+     },
+     {
+      "year": 2024,
+      "value": 194109.67
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 834689.25,
+      "records": 481
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 592677.71,
+      "records": 216
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 224364.2,
+      "records": 113
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 151198.21,
+      "records": 520
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 127529.0,
+      "records": 80
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 83971.89,
+      "records": 1605
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 1706549.09,
+      "records": 2273
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 236953.03,
+      "records": 547
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 36515.77,
+      "records": 153
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 35960.36,
+      "records": 47
+     },
+     {
+      "company": "Neurocrine Biosciences, Inc.",
+      "total": 12.31,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 80986.82,
+     "records": 40
+    },
+    "researchPi": {
+     "total": null,
+     "records": 290
+    },
+    "ownership": {
+     "total": 27000.0,
+     "records": 8
+    },
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1720272800",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 39,
+     "nameOnly": 95
+    },
+    "articles": [
+     {
+      "title": "An Evidence-Based Consensus for the Use of Neurostimulation for the Treatment of Non-Surgical Low Back Pain: The NEURON Group.",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "40104824",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Spinal Cord Stimulation: Neuromodulation for Intraoperative Neuromonitoring Personnel.",
+      "journal": "The Neurodiagnostic journal",
+      "year": 2025,
+      "pmid": "40359312",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Paddle leads for the treatment of nonsurgical back pain-The DISTINCT study.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2025,
+      "pmid": "40265260",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Neurophysiological outcomes that sustained clinically significant improvements over 3 years of physiologic ECAP-controlled closed-loop spinal cord stimulation f",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2025,
+      "pmid": "38490687",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical utility of ECAP dosing in a real-world population delivered via EVOKE therapy: the ECAP study.",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2025,
+      "pmid": "41330601",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Neurostimulation Appropriateness Consensus Committee (NACC)\u00ae: Recommendations for the Mitigation of Complications of Neurostimulation.",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2024,
+      "pmid": "38878054",
+      "tier": "corroborated"
+     },
+     {
+      "title": "ECAP-controlled closed-loop versus open-loop SCS for the treatment of chronic pain: 36-month results of the EVOKE blinded randomized clinical trial.",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2024,
+      "pmid": "37640452",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Objective wearable measures and subjective questionnaires for predicting response to neurostimulation in people with chronic pain.",
+      "journal": "Bioelectronic medicine",
+      "year": 2023,
+      "pmid": "37340467",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Congress of Neurological Surgeons Systematic Review and Evidence-Based Guidelines for Occipital Nerve Stimulation for the Treatment of Patients With Medically R",
+      "journal": "Neurosurgery",
+      "year": 2023,
+      "pmid": "37458729",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A broad and variable lumbosacral myotome map uncovered by foraminal nerve root stimulation.",
+      "journal": "Journal of neurosurgery. Spine",
+      "year": 2022,
+      "pmid": "35561698",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'FALOWSKI' + first initial 'S'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "neurological surgery",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Pennsylvania",
+       "FOUNTAIN HILL"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "96136",
+      "description": "Administration of psychological or neuropsychological test, first 30 minutes",
+      "services": 383,
+      "beneficiaries": 180
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 254,
+      "beneficiaries": 142
+     },
+     {
+      "code": "95971",
+      "description": "Electronic analysis of implanted neurostimulator generator with simple spinal cord or peri",
+      "services": 192,
+      "beneficiaries": 97
+     },
+     {
+      "code": "95972",
+      "description": "Electronic analysis of implanted neurostimulator generator with complex spinal cord or per",
+      "services": 84,
+      "beneficiaries": 78
+     },
+     {
+      "code": "63685",
+      "description": "Insertion of spinal neurostimulator generator or receiver",
+      "services": 71,
+      "beneficiaries": 68
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 45,
+      "beneficiaries": 41
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1720272800"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Steven Falowski, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05504499",
+      "place": "Center for Interventional Pain and Spine \u2014 Chadds Ford, Pennsylvania",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "REFINE Study: A Study In a Novel Interspinous Fusion Device In Subjects With Low Back Pain"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Steven Falowski, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02284542",
+      "place": "Principal Investigator",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "NAPS: Non-awake Versus Awake Placement of Spinal Cord Stimulators"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'STEVEN FALOWSKI' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "ptab:name-only": 1
+    },
+    "cites": [],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1392 device-scope payments; ownership records: 8"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "39 corroborated + 95 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 1 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p2": {
+   "name": "Timothy Deer",
+   "identity": {
+    "npi": "1861424210",
+    "registryName": "Timothy Deer",
+    "credential": "MD",
+    "taxonomyCode": "208VP0014X",
+    "licenseState": "WV",
+    "opState": "WV",
+    "opCity": "CHARLESTON",
+    "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1861424210"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 8125.81
+     },
+     {
+      "year": 2014,
+      "value": 10134.43
+     },
+     {
+      "year": 2015,
+      "value": 60.46
+     },
+     {
+      "year": 2017,
+      "value": 259984.07
+     },
+     {
+      "year": 2018,
+      "value": 214328.85
+     },
+     {
+      "year": 2019,
+      "value": 288230.78
+     },
+     {
+      "year": 2020,
+      "value": 256618.26
+     },
+     {
+      "year": 2021,
+      "value": 195367.57
+     },
+     {
+      "year": 2022,
+      "value": 241747.05
+     },
+     {
+      "year": 2023,
+      "value": 115448.99
+     },
+     {
+      "year": 2024,
+      "value": 21738.29
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 1032445.0,
+      "records": 686
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 180377.5,
+      "records": 109
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 146418.54,
+      "records": 275
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 133062.5,
+      "records": 74
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 63732.5,
+      "records": 42
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 55721.61,
+      "records": 1116
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 1578850.24,
+      "records": 2243
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 15629.35,
+      "records": 17
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 13779.54,
+      "records": 34
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 3525.43,
+      "records": 9
+     }
+    ],
+    "research": {
+     "total": 44723.97,
+     "records": 37
+    },
+    "researchPi": {
+     "total": null,
+     "records": 259
+    },
+    "ownership": {
+     "total": 320902.24,
+     "records": 15
+    },
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1861424210",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 307,
+     "nameOnly": 79
+    },
+    "articles": [
+     {
+      "title": "Smart Processing and Intelligent Navigation for Evaluation (SPINE): Comparing Clinicians and AI Language Model (GPT-4) in Spinal Cord Stimulation Candidate Sele",
+      "journal": "Journal of pain research",
+      "year": 2026,
+      "pmid": "41868294",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Efficacy of Closed Loop Spinal Cord Stimulation for Chronic Back and Leg Pain: A Systematic Review.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2026,
+      "pmid": "42149411",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prospective, non-inferiority, multicenter, randomized, single-blind clinical trial comparing cooled radiofrequency ablation to standard radiofrequency ablation ",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2026,
+      "pmid": "41825940",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The American Society of Pain and Neuroscience (ASPN) Evidence-Based Consensus Recommendations on Programming and Coding Implantable Spinal Cord Stimulation Devi",
+      "journal": "Journal of pain research",
+      "year": 2026,
+      "pmid": "41926493",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Advances in targeted closed loop spinal cord stimulation to treat pain of the trunk and limbs.",
+      "journal": "Expert review of neurotherapeutics",
+      "year": 2026,
+      "pmid": "41681083",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Developments in dorsal root ganglion stimulation to treat pain of neuropathic origin.",
+      "journal": "Expert review of neurotherapeutics",
+      "year": 2026,
+      "pmid": "41844430",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The MOTION randomized controlled trial for treatment of lumbar spinal stenosis using the percutaneous mild\u00ae procedure: 5-year results.",
+      "journal": "Interventional pain medicine",
+      "year": 2026,
+      "pmid": "42180439",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Best practices for the LinQ sacroiliac joint stabilization procedure for the treatment of sacroiliac joint disorders.",
+      "journal": "Pain management",
+      "year": 2026,
+      "pmid": "42237893",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Non-neurodestructive ganglion impar blocks for coccydynia and related disorders: a systematic review and meta-analysis.",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2026,
+      "pmid": "40081927",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparison of percutaneous 60-day peripheral nerve stimulation of the lumbar medial branches to usual care with standard interventional management for chronic l",
+      "journal": "Pain medicine (Malden, Mass.)",
+      "year": 2026,
+      "pmid": "41138174",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'DEER' + first initial 'T'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "interventional pain medicine",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "West Virginia",
+       "CHARLESTON"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 609,
+      "beneficiaries": 438
+     },
+     {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 286,
+      "beneficiaries": 221
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 204,
+      "beneficiaries": 163
+     },
+     {
+      "code": "64493",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, single level",
+      "services": 147,
+      "beneficiaries": 94
+     },
+     {
+      "code": "64494",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, second level",
+      "services": 145,
+      "beneficiaries": 93
+     },
+     {
+      "code": "76942",
+      "description": "Ultrasonic guidance for needle placement",
+      "services": 136,
+      "beneficiaries": 78
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1861424210"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 6
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Timothy Deer, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06355791",
+      "place": "Spine & Nerve Center of the Virginias \u2014 Charleston, West Virginia",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Post-Market Clinical Study of Functional Motion Outcomes in Subjects Treated With the Minuteman Device"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy R Deer, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03350256",
+      "place": "The Center for Pain Relief",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BurstDR\u2122 micrOdosing stimuLation in De-novo Patients"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy R Deer, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01076244",
+      "place": "Center for Pain Relief, Inc",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Vertos Mild - Post Market Patient Outcomes"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy R Deer, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07215104",
+      "place": "WVUM/Thomas Hospitals (Saint Francis Hospital) Spine and Nerve Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "A Prospective Evaluation of Spinal Cord Induced Muscle Stimulation (MuscleSCS) for the Treatment of Chronic Lo"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy Deer, MD",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT02011893",
+      "place": "The Center for Pain Relief",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "SUNBURST (Success Using Neuromodulation With BURST) Study"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy Deer, M.D.",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT01592344",
+      "place": "Center for Pain Relief, St. Francis Hospital",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Bioness\u00ae StimRouter\u2122 Neuromodulation System for Chronic Pain Therapy"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy Deer, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06246526",
+      "place": "Spine and Nerve Center of Saint Francis Hospital",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Real-World Efficacy of Evoke\u00ae Closed-loop Spinal Cord Stimulation (CL-SCS) Therapy in Chronic Pain Patients (U"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'TIMOTHY DEER' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 21
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "10781810",
+      "case": "Mroz v. Hinsdale Surgical Center, LLC",
+      "date": "2025-01-16",
+      "snippet": "appeal does not include a complete report of proceedings at trial. 2 It only discloses the testimony of four medical witnesses called by defendants: a standard-of-care expert, a causation expert, and Dr. McDaniel and Dr. Glaser, who both opined as to the standard of care. \u00b68 Dr. Timothy Deer, an anesthesiologist and interventional-pain physician, testified as defendants\u2019 standard-of-care expert. He opined that both Betadine or ChloraPrep were \u201csafe and effective\u201d topical antiseptics and that the use of either would be within the standard of care. He also opined that Dr.",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "illappct",
+      "url": "https://www.courtlistener.com/opinion/10315222/mroz-v-hinsdale-surgical-center-llc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "9927013",
+      "case": "Charleston Area Medical Center, Inc. v. Mary Kestner",
+      "date": "2023-12-27",
+      "snippet": "related to her compensable injury and recommended a referral to pain management. Dr. Ede specifically noted that Ms. Kestner did not have knee pain prior to her injury and related surgery and determined that the pain was therefore, associated with the compensable injury. Ms. Kestner was referred to Timothy Deer, M.D., for pain management. The claim administrator issued orders on October 15, 2022, which closed the claim for TTD benefits; November 22, 2022, which denied authorization for a referral to Dr. Deer for pain management; and February 1, 2023, which denied the addition of status post lateral",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wvactapp",
+      "url": "https://www.courtlistener.com/opinion/9469175/charleston-area-medical-center-inc-v-mary-kestner/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "9891939",
+      "case": "Jessica Calloway v. Plant Essentials, Inc.",
+      "date": "2023-10-19",
+      "snippet": "attend physical therapy 2-3 times a week for 8-12 weeks from May 30, 2019, to July 18, 2019. While participating in physical therapy, Ms. Calloway experienced increased range of motion/mobility/flexibility and the ability to bear weight. On July 24, 2019, Dr. Pollock referred Ms. Calloway to Timothy Deer, M.D., for pain management. After reviewing the claimant\u2019s history and performing a physical examination, Dr. Deer assessed complex regional pain syndrome type II of the right lower limb. An EMG revealed right S1 radiculopathy with a local gastrocnemii injury. Although dorsiflexion of the right foot",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/9434120/jessica-calloway-v-plant-essentials-inc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "9364621",
+      "case": "Paul J. Honaker v. West Virginia Office of Insurance Coomissioner",
+      "date": "2023-01-19",
+      "snippet": "and ankle while installing a gasket at work on April 13, 2000. On June 2, 2000, the claim was held compensable for ankle sprain and ankle/foot pain. The claims administrator authorized implantation of a spinal cord stimulator on December 17, 2001. On July 15, 2002, the claims administrator recognized Timothy Deer, M.D., as Ms. Honaker\u2019s authorized treating physician. The claims administrator added reflex sympathetic dystrophy and algoneurodystrophy to the claim on October 7, 2002. 2 On July 5, 2007, the claims administrator authorized a replacement spinal cord stimulator. A TENS unit and supplies were authorized",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/9369145/paul-j-honaker-v-west-virginia-office-of-insurance-coomissioner/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "9364620",
+      "case": "T.R.S. v. ANR, Inc.",
+      "date": "2023-01-19",
+      "snippet": "award. In a January 10, 2020, Physician Review, Syam Stoll, M.D., opined that a referral for a neurological consultation should be denied. He noted that Dr. Bailey found T.R.S. had reached maximum medical improvement and required no additional treatment. On January 20, 2019, T.R.S. was seen by Timothy Deer, M.D., who diagnosed lumbar sprain, lumbar post laminectomy syndrome, lumbar radiculopathy, and chronic pain syndrome. Dr. Deer stated that T.R.S.\u2019s options included a trial spinal cord stimulator. The claims administrator closed the claim for temporary total disability benefits on February 6, 2020.",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/9369144/trs-v-anr-inc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "9353287",
+      "case": "Charles Campbell v. Debrich, LLC/Duster Trucking",
+      "date": "2023-01-10",
+      "snippet": "Daniel G. Murdock, Esq. 2 Dr. Jin explained that RSD is a type of pain syndrome. RSD is also known as chronic regional pain syndrome and the terms as used in this order are synonymous. 1 conceded that was a working diagnosis, as found by Timothy Deer, M.D. who was Mr. Campbell\u2019s pain physician. Dr. Jin determined that Mr. Campbell had reached maximum medical improvement (\u201cMMI\u201d) for the injury. Using the American Medical Association Guides to the Evaluation of Permanent Impairment, Fourth Edition (1993), p. 78, Tables 42 and 43, Dr. Jin calculated",
+      "matchedForm": "TIMOTHY DEER",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wvactapp",
+      "url": "https://www.courtlistener.com/opinion/9357815/charles-campbell-v-debrich-llcduster-trucking/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1282 device-scope payments; ownership records: 15"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "307 corroborated + 79 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 6 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p3": {
+   "name": "Pankaj Mehta",
+   "identity": {
+    "npi": "1073787909",
+    "registryName": "Pankaj Mehta",
+    "credential": "MD",
+    "taxonomyCode": "208VP0014X",
+    "licenseState": "TX",
+    "opState": "TX",
+    "opCity": "KILLEEN",
+    "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1073787909"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2014,
+      "value": 354.51
+     },
+     {
+      "year": 2015,
+      "value": 244.11
+     },
+     {
+      "year": 2016,
+      "value": 187.31
+     },
+     {
+      "year": 2017,
+      "value": 104796.54
+     },
+     {
+      "year": 2018,
+      "value": 167832.54
+     },
+     {
+      "year": 2019,
+      "value": 178518.5
+     },
+     {
+      "year": 2020,
+      "value": 149430.31
+     },
+     {
+      "year": 2021,
+      "value": 142679.54
+     },
+     {
+      "year": 2022,
+      "value": 227157.51
+     },
+     {
+      "year": 2023,
+      "value": 100791.96
+     },
+     {
+      "year": 2024,
+      "value": 93478.28
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 465009.65,
+      "records": 293
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 279570.5,
+      "records": 153
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 139375.0,
+      "records": 90
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 133930.0,
+      "records": 94
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 79478.35,
+      "records": 376
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 67565.29,
+      "records": 1763
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 1162841.01,
+      "records": 2727
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 1761.46,
+      "records": 27
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 811.11,
+      "records": 15
+     },
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 40.4,
+      "records": 3
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 17.13,
+      "records": 3
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 55
+    },
+    "ownership": {
+     "total": 0.0,
+     "records": 2
+    },
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1073787909",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 58,
+     "nameOnly": 2781
+    },
+    "articles": [
+     {
+      "title": "The evolving management of endocrine disorders induced by checkpoint inhibitors: insights from the CIITED group.",
+      "journal": "Expert review of endocrinology & metabolism",
+      "year": 2026,
+      "pmid": "41307239",
+      "tier": "corroborated"
+     },
+     {
+      "title": "MR imaging of the penis: What a radiologist needs to know!",
+      "journal": "Abdominal radiology (New York)",
+      "year": 2025,
+      "pmid": "39488809",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evaluation of Vestibular Schwannoma Size across Time: How Well Do the Experts Perform and What Can Be Improved?",
+      "journal": "AJNR. American journal of neuroradiology",
+      "year": 2025,
+      "pmid": "39638352",
+      "tier": "corroborated"
+     },
+     {
+      "title": "An Evidence-Based Consensus for the Use of Neurostimulation for the Treatment of Non-Surgical Low Back Pain: The NEURON Group.",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "40104824",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Relapse patterns among children and adolescents with Kaposi sarcoma in Malawi.",
+      "journal": "Pediatric hematology and oncology",
+      "year": 2025,
+      "pmid": "40544345",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Retrospective, Multicenter Analysis of a Novel Sacroiliac Joint Fusion Device on Safety and Efficacy at 12 Months: Access Study.",
+      "journal": "Healthcare (Basel, Switzerland)",
+      "year": 2025,
+      "pmid": "40648569",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Medially Migrating Vestibular Schwannomas: A Review of 10 Cases.",
+      "journal": "Otology & neurotology : official publication of the American",
+      "year": 2025,
+      "pmid": "39627846",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Glycemic control in diabetic patients improved overall lung cancer survival across diverse populations.",
+      "journal": "JNCI cancer spectrum",
+      "year": 2024,
+      "pmid": "39270065",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Using natural language processing in emergency medicine health service research: A systematic review and meta-analysis.",
+      "journal": "Academic emergency medicine : official journal of the Societ",
+      "year": 2024,
+      "pmid": "38757352",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Posterior Lateral Arthrodesis as a Treatment Option for Lumbar Spinal Stenosis: Safety and Early Clinical Outcomes.",
+      "journal": "Journal of pain research",
+      "year": 2024,
+      "pmid": "38196972",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'MEHTA' + first initial 'P'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "interventional pain medicine",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Texas",
+       "KILLEEN"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "J1100",
+      "description": "Injection, dexamethasone sodium phosphate, 1 mg",
+      "services": 272,
+      "beneficiaries": 25
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 117,
+      "beneficiaries": 78
+     },
+     {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 108,
+      "beneficiaries": 35
+     },
+     {
+      "code": "64483",
+      "description": "Injection of anesthetic and/or steroid drug into sacral spine nerve root using imaging gui",
+      "services": 92,
+      "beneficiaries": 85
+     },
+     {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance, single fa",
+      "services": 92,
+      "beneficiaries": 59
+     },
+     {
+      "code": "64636",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance, each addi",
+      "services": 92,
+      "beneficiaries": 59
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1073787909"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 5
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Pankaj Mehta, MSc",
+      "role": "SUB_INVESTIGATOR",
+      "nctId": "NCT07256717",
+      "place": "Indian Institute of Kinesiology & Biomechanics Science (IIKBS) \u2014 Burh\u0101npur, Madhya Pradesh",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BPIT 5-Week Multi-Site Study: Movement Efficiency, Mobility & Neuromuscular Adaptation"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Pankaj Mehta, M.P.Ed.",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07256717",
+      "place": "GFFI Fitness Academy \u2014 New Delhi, National Capital Territory of Delhi",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BPIT 5-Week Multi-Site Study: Movement Efficiency, Mobility & Neuromuscular Adaptation"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Pankaj Mehta, MSc",
+      "role": "SUB_INVESTIGATOR",
+      "nctId": "NCT07256717",
+      "place": "Active India Health & Fitness Trust (AIHFT) \u2014 New Delhi, National Capital Territory of Delhi",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BPIT 5-Week Multi-Site Study: Movement Efficiency, Mobility & Neuromuscular Adaptation"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Pankaj Mehta, M.P.Ed.",
+      "role": "SUB_INVESTIGATOR",
+      "nctId": "NCT07256717",
+      "place": "Body Mechanics Gym P Ltd \u2014 New Delhi, National Capital Territory of Delhi",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BPIT 5-Week Multi-Site Study: Movement Efficiency, Mobility & Neuromuscular Adaptation"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Pankaj Mehta, M.P.Ed.",
+      "role": "SUB_INVESTIGATOR",
+      "nctId": "NCT07256717",
+      "place": "Regain Fitness Zone \u2014 Greater Noida, Uttar Pardesh",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "BPIT 5-Week Multi-Site Study: Movement Efficiency, Mobility & Neuromuscular Adaptation"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'PANKAJ MEHTA' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1596 device-scope payments; ownership records: 2"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "58 corroborated + 2781 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 5 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p4": {
+   "name": "Jason Pope",
+   "identity": {
+    "npi": "1215078647",
+    "registryName": "Jason Pope",
+    "credential": "MD",
+    "taxonomyCode": "207LP2900X",
+    "licenseState": "CA",
+    "opState": "CA",
+    "opCity": "SANTA ROSA",
+    "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1215078647"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 24.27
+     },
+     {
+      "year": 2014,
+      "value": 396.61
+     },
+     {
+      "year": 2015,
+      "value": 3776.1
+     },
+     {
+      "year": 2016,
+      "value": 138.96
+     },
+     {
+      "year": 2017,
+      "value": 378187.32
+     },
+     {
+      "year": 2018,
+      "value": 197514.11
+     },
+     {
+      "year": 2019,
+      "value": 241148.09
+     },
+     {
+      "year": 2020,
+      "value": 84895.56
+     },
+     {
+      "year": 2021,
+      "value": 114030.29
+     },
+     {
+      "year": 2022,
+      "value": 159040.58
+     },
+     {
+      "year": 2023,
+      "value": 73692.6
+     },
+     {
+      "year": 2024,
+      "value": 30109.76
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 832460.5,
+      "records": 494
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 176688.0,
+      "records": 86
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 116529.41,
+      "records": 487
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 82006.25,
+      "records": 47
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 40410.09,
+      "records": 1015
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 34860.0,
+      "records": 39
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 1266724.63,
+      "records": 2120
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 15357.38,
+      "records": 35
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 476.96,
+      "records": 6
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 395.28,
+      "records": 7
+     }
+    ],
+    "research": {
+     "total": 170288.9,
+     "records": 33
+    },
+    "researchPi": {
+     "total": null,
+     "records": 303
+    },
+    "ownership": {
+     "total": 430000.0,
+     "records": 14
+    },
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1215078647",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 112,
+     "nameOnly": 1182
+    },
+    "articles": [
+     {
+      "title": "Correction: Next\u2011Generation SCS Programming Platform: Enhancing ECAP Fidelity and Objectivity to Improve Patient Experience.",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "42047715",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Next-Generation SCS Programming Platform: Enhancing ECAP Fidelity and Objectivity to Improve Patient Experience.",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "41505067",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Objective, Same-Day SCS Trials with ECAP-Controlled Closed-Loop Therapy: Depth of Response is Maintained from Trial to 12\u00a0months.",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "41774424",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The American Society of Pain and Neuroscience (ASPN) Evidence-Based Consensus Recommendations on Programming and Coding Implantable Spinal Cord Stimulation Devi",
+      "journal": "Journal of pain research",
+      "year": 2026,
+      "pmid": "41926493",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Efficacy of Closed Loop Spinal Cord Stimulation for Chronic Back and Leg Pain: A Systematic Review.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2026,
+      "pmid": "42149411",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Regenerative Medicine Approaches to Craniofacial and Corneal Neuropathic Pain.",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "year": 2026,
+      "pmid": "42198366",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The American Society of Pain and Neuroscience (ASPN) Guidelines and Consensus on the Definition, Current Evidence, Clinical Use and Future Applications for Phys",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "39926188",
+      "tier": "corroborated"
+     },
+     {
+      "title": "First Objective Evidence Characterizing Differences in Cervical and Thoracic Spinal Cord Neurophysiology Using ECAP-Controlled Closed-Loop Technology.",
+      "journal": "Pain and therapy",
+      "year": 2025,
+      "pmid": "41066061",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Restorative Neurostimulation Therapy Compared to Optimal Medical Management: A Randomized Evaluation (RESTORE) for the Treatment of Chronic Mechanical Low Back ",
+      "journal": "Pain and therapy",
+      "year": 2025,
+      "pmid": "39812968",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Polyanalgesic Consensus Conference (PACC)\u00ae: Updates on Clinical Pharmacology and Comorbidity Management in Intrathecal Drug Delivery for Cancer Pain.",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2025,
+      "pmid": "39297833",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'POPE' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "pain medicine",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "California",
+       "SANTA ROSA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "J1100",
+      "description": "Injection, dexamethasone sodium phosphate, 1 mg",
+      "services": 2970,
+      "beneficiaries": 164
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 2292,
+      "beneficiaries": 624
+     },
+     {
+      "code": "Q9967",
+      "description": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+      "services": 1030,
+      "beneficiaries": 76
+     },
+     {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 836,
+      "beneficiaries": 416
+     },
+     {
+      "code": "J3301",
+      "description": "Injection, triamcinolone acetonide, not otherwise specified, 10 mg",
+      "services": 593,
+      "beneficiaries": 84
+     },
+     {
+      "code": "64483",
+      "description": "Injection of anesthetic and/or steroid drug into sacral spine nerve root using imaging gui",
+      "services": 510,
+      "beneficiaries": 301
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1215078647"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Jason E Pope, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04096391",
+      "place": "Evolve Restorative Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Post-market, Randomized, Controlled, Prospective Study Evaluating Intrathecal Pain Medication (IT) Versus Conv"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JASON POPE' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 5,
+     "courtlistener:name-only": 9
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "6326080",
+      "case": "James Williamson v. Patriot Coal Corporation",
+      "date": "2022-03-23",
+      "snippet": "his employment on September 11, 2015, when he slipped and fell. Mr. Williamson suffered from preexisting lumbar spine conditions. An October 1, 2014, lumbar MRI showed dextroscoliosis and multilevel disc disease. There was spinal canal narrowing and disc bulging at L3-4 and L4-5. On October 1, 2014, Jason Pope, M.D., noted that Mr. Williamson was born with scoliosis and his low back pain had increased over the years with no known trauma. He was diagnosed with lumbar spondylosis and lumbar radiculopathy. A lumbar MRI performed on August 28, 2015, showed disc osteophyte complex, facet hypertrophy, facet joint",
+      "matchedForm": "JASON POPE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/6453969/james-williamson-v-patriot-coal-corporation/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10061693",
+      "case": "Deena L. Dias v. Nancy A. Berryhill",
+      "date": "2019-09-25",
+      "snippet": "fusion.\u201d Id. Consequently, he scheduled Plaintiff 3 for further pain treatment in the form of a \u201cbilateral L5/S1 transforaminal epidural steroid 4 injection,\u201d and further pain management with medication. Id. The following month, Dr. Yang\u2019s 5 colleague at the North Coast Family Health Center, Jason Pope, M.D., concurred in the opinion 6 that Plaintiff\u2019s surgeries had been unsuccessful. Id. at 616-20. In addition to lumbar radiculopathy, 7 Dr. Pope also assessed Plaintiff as suffering from \u201cfailed back surgical syndrome.\u201d Id. at 619. A 8 few weeks later, in November of 2015, Dr. Yang examined",
+      "matchedForm": "JASON POPE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "cand",
+      "url": "https://www.courtlistener.com/opinion/9595080/deena-l-dias-v-nancy-a-berryhill/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4198743",
+      "case": "Markita Miller v. Charleston Jobs Corps Center",
+      "date": "2017-08-24",
+      "snippet": "2012, an MRI taken of Ms. Miller\u2019s right shoulder revealed evidence of prior rotator cuff repair. No definite recurrent tear was demonstrated. A bone scan from the same day revealed arthritic changes. The scan was negative for reflex sympathetic dystrophy. Ms. Miller subsequently sought treatment from Jason Pope, M.D., for her continued complaints of right shoulder, arm, and hand pain. Dr. Pope assessed reflex sympathetic dystrophy of the upper limb and rotator cuff rupture. Ms. Miller testified in a deposition regarding her compensable injury. She stated that she hit the top part of her shoulder blade",
+      "matchedForm": "JASON POPE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/4421490/markita-miller-v-charleston-jobs-corps-center/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4199348",
+      "case": "Markita Miller v. Charleston Jobs Corps Center",
+      "date": "2017-08-24",
+      "snippet": "2012, an MRI taken of Ms. Miller\u2019s right shoulder revealed evidence of prior rotator cuff repair. No definite recurrent tear was demonstrated. A bone scan from the same day revealed arthritic changes. The scan was negative for reflex sympathetic dystrophy. Ms. Miller subsequently sought treatment from Jason Pope, M.D., for her continued complaints of right shoulder, arm, and hand pain. Dr. Pope assessed reflex sympathetic dystrophy of the upper limb and rotator cuff rupture. Ms. Miller testified in a deposition regarding her compensable injury. She stated that she hit the top part of her shoulder blade",
+      "matchedForm": "JASON POPE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/4422095/markita-miller-v-charleston-jobs-corps-center/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "3209123",
+      "case": "Philip Fisher, D.O. W. Va. Board of Osteopathic Medicine",
+      "date": "2016-06-03",
+      "snippet": "she had been misusing her immediate release fentanyl and that, although he ceased prescribing this medication for a period of time, he eventually resumed prescribing it, and subsequently wrote refills. Petitioner also prescribed oxycodone without seeing Patient 2 in his office. The Board\u2019s expert, Dr. Jason Pope, testified that petitioner\u2019s diagnosis of Patient 2 did not warrant the prescriptions of the drugs petitioner prescribed. The Board concluded that petitioner\u2019s treatment of Patient 2 violated 24 C.S.R. \u00a7 1\u00ad 18.1.10 \u201cby routinely prescribing controlled substances in such amounts, frequency and",
+      "matchedForm": "JASON POPE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "wva",
+      "url": "https://www.courtlistener.com/opinion/3209229/philip-fisher-do-w-va-board-of-osteopathic-medicine/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "1010 device-scope payments; ownership records: 14"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "112 corroborated + 1182 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 1 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p5": {
+   "name": "Kiran Patel",
+   "identity": {
+    "npi": "1629202981",
+    "registryName": "Kiran Patel",
+    "credential": "MD, DABA, DAPM",
+    "taxonomyCode": "207L00000X",
+    "licenseState": "NY",
+    "opState": "NY",
+    "opCity": "STATEN ISLAND",
+    "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1629202981"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 5074.11
+     },
+     {
+      "year": 2014,
+      "value": 15466.59
+     },
+     {
+      "year": 2015,
+      "value": 14453.59
+     },
+     {
+      "year": 2016,
+      "value": 708.07
+     },
+     {
+      "year": 2017,
+      "value": 12768.87
+     },
+     {
+      "year": 2018,
+      "value": 809.18
+     },
+     {
+      "year": 2019,
+      "value": 162.51
+     },
+     {
+      "year": 2020,
+      "value": 1155.89
+     },
+     {
+      "year": 2021,
+      "value": 14744.46
+     },
+     {
+      "year": 2022,
+      "value": 224373.59
+     },
+     {
+      "year": 2023,
+      "value": 161635.33
+     },
+     {
+      "year": 2024,
+      "value": 64749.48
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 198200.27,
+      "records": 122
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 169015.0,
+      "records": 146
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 63124.75,
+      "records": 64
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 56082.2,
+      "records": 209
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 29437.16,
+      "records": 541
+     },
+     {
+      "nature": "Grant",
+      "total": 242.29,
+      "records": 1
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 478458.61,
+      "records": 860
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 35635.87,
+      "records": 196
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 961.46,
+      "records": 16
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 909.23,
+      "records": 10
+     },
+     {
+      "company": "ABIOMED",
+      "total": 136.5,
+      "records": 1
+     }
+    ],
+    "research": {
+     "total": 958.48,
+     "records": 4
+    },
+    "researchPi": null,
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1629202981",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 388,
+     "nameOnly": 9047
+    },
+    "articles": [
+     {
+      "title": "Overscreening of patients on glucagon-like peptide-1 receptor agonists: A second \"epidemic\" of thyroid cancer overdiagnosis?",
+      "journal": "Surgery",
+      "year": 2026,
+      "pmid": "41371825",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Predicting isoniazid resistance in",
+      "journal": "Journal of clinical microbiology",
+      "year": 2026,
+      "pmid": "41848297",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Can calcified plaque guide effective revascularization strategies?",
+      "journal": "American journal of preventive cardiology",
+      "year": 2026,
+      "pmid": "42006416",
+      "tier": "corroborated"
+     },
+     {
+      "title": "CT Attenuation Map-Derived Body Composition Is Associated with Cardiorespiratory Fitness in Multicenter External Validation.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2026,
+      "pmid": "42145618",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Can virtual noncontrast computed tomography improve the diagnostic uncertainty of adrenal incidentalomas?",
+      "journal": "Surgery",
+      "year": 2026,
+      "pmid": "41500073",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early-Stage Hodgkin Lymphoma: Time for Novel Agents?",
+      "journal": "Hematology/oncology clinics of North America",
+      "year": 2026,
+      "pmid": "41708413",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The impact of Corona virus disease - 2019 on coronary atherosclerosis: Rationale and design of the COrona VIrus Disease-2019 computed tomography (COVID-CT) regi",
+      "journal": "Progress in cardiovascular diseases",
+      "year": 2026,
+      "pmid": "42082065",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Heart Disease in Older Women: Unique Challenges in Diagnosis and Management.",
+      "journal": "Current cardiology reports",
+      "year": 2026,
+      "pmid": "42103980",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early-Stage Hodgkin Lymphoma.",
+      "journal": "Cancer journal (Sudbury, Mass.)",
+      "year": 2026,
+      "pmid": "42166511",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Minimally Invasive Interventional Management of Pudendal Neuralgia: A Narrative Review.",
+      "journal": "Current pain and headache reports",
+      "year": 2026,
+      "pmid": "41553637",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'PATEL' + first initial 'K'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "pain medicine",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "New York",
+       "STATEN ISLAND"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "J1100",
+      "description": "Injection, dexamethasone sodium phosphate, 1 mg",
+      "services": 2938,
+      "beneficiaries": 102
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 251,
+      "beneficiaries": 148
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 117,
+      "beneficiaries": 80
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 91,
+      "beneficiaries": 90
+     },
+     {
+      "code": "64493",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, single level",
+      "services": 47,
+      "beneficiaries": 28
+     },
+     {
+      "code": "64494",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, second level",
+      "services": 45,
+      "beneficiaries": 27
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1629202981"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 1,
+     "nameOnly": 3
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Kiran Patel, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06778447",
+      "place": "Northwell Health \u2014 New York, New York",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Clinical Trial Evaluating the Safety and Efficacy of Nucleus Pulposus Allograft in Participants With Degenerat"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Kiran Patel",
+      "role": "STUDY_CHAIR",
+      "nctId": "NCT04803214",
+      "place": "Northwell Health",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "ReActiv8 Stimulation Therapy vs Optimal Medical Management: A Randomized Evaluation"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Kiran Patel, MD",
+      "role": "STUDY_DIRECTOR",
+      "nctId": "NCT06164704",
+      "place": "Upstream Bio",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "A Study to Investigate the Efficacy and Safety of Verekitug (UPB-101) in Participants With Chronic Rhinosinusi"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Kiran Patel, PhD MRCP",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00480051",
+      "place": "Sandwell & West Birmingham Hospitals NHS Trust",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "RESynchronisation in Patients With Heart Failure and a Normal QRS Duration"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'KIRAN PATEL' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 7,
+     "courtlistener:name-only": 13
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "10330562",
+      "case": "City of Providence, Rhode Island v. Bats Global Markets, Inc.",
+      "date": "2021-03-15",
+      "snippet": "the redactions in Exhibit A be granted and that 545-2 remain sealed. Respectfully submitted, By: /s/ Justine N. Margolis Stephen J. Senderowitz Douglas W. Henkin DENTONS US LLP Justine N. Margolis 233 South Wacker Drive, Suite 5900 Kiran Patel Chicago, IL 60606 DENTONS US LLP (312) 876-8000 1221 Avenue of the Americas stephen.senderowitz@dentons.com New York, NY 10020 Telephone: (212) 768-6832 Counsel for New York Stock Exchange LLC, Facsimile: (212)",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "geo"
+      ],
+      "court": "nysd",
+      "url": "https://www.courtlistener.com/opinion/9863952/city-of-providence-rhode-island-v-bats-global-markets-inc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10321946",
+      "case": "Frazier v. Commissioner of Social Security",
+      "date": "2020-03-30",
+      "snippet": "activities include attending church services, physical therapy, and medical appointments. (R. 225). She does not go out often because she cannot walk far before she feels pain. (R. 225\u201326). 2. Medical evidence a. Dr. Kiran Patel Dr. Kiran Patel was Ms. Frazier\u2019s doctor at the Spine and Pain Institute. (R. 350). From November 25, 2015 through April 3, 2017, he saw Ms. Frazier 17 times and gave her six epidural injections. (R. 350\u2013419).",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "nysd",
+      "url": "https://www.courtlistener.com/opinion/9855334/frazier-v-commissioner-of-social-security/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10103664",
+      "case": "Pinkston v. University of South Florida Board of Trustees",
+      "date": "2019-09-09",
+      "snippet": "Court will defer ruling at this time. In the meantime, the Court orders Plaintiff to appear for a video deposition at 9:00 a.m., on September 24, 2019,1 in the Library Conference Room of the Office of the General Counsel for the University of South Florida (located on the third floor of the Dr. Kiran Patel Center for Global Solutions), 4202 E. Fowler Avenue, CGS 301, Tampa, Florida, 33620. See Johnson v. Bd. of Regents of Univ. of Georgia, 263 F.3d 1234, 1269 (11th Cir. 2001) (\u201cdistrict courts [are afforded] broad discretion over the management of pre-trial activities, including discovery and scheduling.\u201d).",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "flmd",
+      "url": "https://www.courtlistener.com/opinion/9637051/pinkston-v-university-of-south-florida-board-of-trustees/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4308298",
+      "case": "State of Delaware v. Card Compliant, LLC",
+      "date": "2018-08-29",
+      "snippet": "Restaurant Corp., Il Fornaio (Arnerica) Corporation, Noodles & Company, and Shutterfly, Inc. Stephen E. Jenkins, Esquire, Catherine A. Gaul, Esquire, Ashby & Geddes, Wilmington, Delaware, Richard M. Zuckerrnan, Esquire, Of Counsel (pro hac vice)(argued), Sean Cenawood, Esquire, Of Counsel (pro hac vice), Kiran Patel, Esquire, Of Counsel (pro hac vice), Catharine Luo, Esquire, Of Counsel (pro hac vice), Dentons US LLP, New York, NY, Attorneys for Defendants Card Cornpliant, LLC, Cardfact II, Inc., Cardfact III, Inc., Cardfact IV, Inc., Cardfact V, Inc., Cardfact VII, Inc., Cardfact VIII, Inc., Cardfact IX, Inc.,",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "geo"
+      ],
+      "court": "delsuperct",
+      "url": "https://www.courtlistener.com/opinion/4531045/state-of-delaware-v-card-compliant-llc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4308564",
+      "case": "State of Delaware v. Card Compliant, LLC",
+      "date": "2018-08-29",
+      "snippet": "Restaurant Corp., Il Fornaio (America) Corporation, Noodles & Company, and ShutterHy, Inc. Stephen E. Jenkins, Esquire, Catherine A. Gaul, Esquire, Ashby & Geddes, Wilmington, Delaware, Richard M. Zuckerman, Esquire, Of Counsel (pro hac vice)(argued), Sean Cenawood, Esquire, Of Counsel (pro hac vice), Kiran Patel, Esquire, Of Counsel (pro hac vice), Catharine Luo, Esquire, Of Counsel (pro hac vice), Dentons US LLP, NeW York, NY, Attorneys for Defendants Card Cornpliant, LLC, Cardfact II, Inc., Cardfact III, Inc., Cardfact IV, Inc., Cardfact V, Inc., Cardfact VII, Inc., Cardfact VIII, Inc., Cardfact IX, Inc.,",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "geo"
+      ],
+      "court": "delsuperct",
+      "url": "https://www.courtlistener.com/opinion/4531311/state-of-delaware-v-card-compliant-llc/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4308306",
+      "case": "State of Delaware v. Card Compliant, LLC",
+      "date": "2018-08-29",
+      "snippet": "Restaurant Corp., Il Fomaio (America) Corporation, Noodles & Company, and Shutterfly, Inc. Stephen E. Jenkins, Esquire, Catherine A. Gaul, Esquire, Ashby & Geddes, Wilmington, Delaware, Richard M. Zuckerman, Esquire, Of Counsel (pro hac vice)(argued), Sean Cenawood, Esquire, Of Counsel (pro hac vice), Kiran Patel, Esquire, Of Counsel (pro hac vice), Catharine Luo, Esquire, Of Counsel (pro hac vice), Dentons US LLP, New York, NY, Attomeys for Defendants Card Compliant, LLC, Cardfact I, Inc., Cardfact II, Inc., Cardfact III, Inc., Cardfact IV, Inc., Cardfact V, Inc., Cardfact VI, Inc., Cardfact VII, Inc., Cardfact",
+      "matchedForm": "KIRAN PATEL",
+      "signals": [
+       "geo"
+      ],
+      "court": "delsuperct",
+      "url": "https://www.courtlistener.com/opinion/4531053/state-of-delaware-v-card-compliant-llc/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "718 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "388 corroborated + 9047 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "1 corroborated + 3 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p6": {
+   "name": "Jeffery Rowe",
+   "identity": {
+    "npi": "1407959000",
+    "registryName": "Jeffery Rowe",
+    "credential": "MD",
+    "taxonomyCode": "208100000X",
+    "licenseState": "PA",
+    "opState": "PA",
+    "opCity": "KING OF PRUSSIA",
+    "specialty": "Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1407959000"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 64.74
+     },
+     {
+      "year": 2014,
+      "value": 238.63
+     },
+     {
+      "year": 2015,
+      "value": 1611.77
+     },
+     {
+      "year": 2016,
+      "value": 511.18
+     },
+     {
+      "year": 2017,
+      "value": 183834.0
+     },
+     {
+      "year": 2018,
+      "value": 165498.89
+     },
+     {
+      "year": 2019,
+      "value": 190127.36
+     },
+     {
+      "year": 2020,
+      "value": 91057.33
+     },
+     {
+      "year": 2021,
+      "value": 96711.6
+     },
+     {
+      "year": 2022,
+      "value": 113082.24
+     },
+     {
+      "year": 2023,
+      "value": 67422.44
+     },
+     {
+      "year": 2024,
+      "value": 13711.73
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 543375.18,
+      "records": 315
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 132138.75,
+      "records": 71
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 95263.77,
+      "records": 350
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 70691.0,
+      "records": 49
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 52492.5,
+      "records": 32
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 29798.03,
+      "records": 1008
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 921282.97,
+      "records": 1746
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 2376.72,
+      "records": 73
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 212.22,
+      "records": 10
+     }
+    ],
+    "research": {
+     "total": 8567.0,
+     "records": 8
+    },
+    "researchPi": {
+     "total": null,
+     "records": 12
+    },
+    "ownership": {
+     "total": 0.0,
+     "records": 3
+    },
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1407959000",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 11,
+     "nameOnly": 2224
+    },
+    "articles": [
+     {
+      "title": "Patient Outcome Reports for Senior Residents: An Opportunity to Foster Reflection and Identify Outliers for Intervention.",
+      "journal": "Journal of surgical education",
+      "year": 2026,
+      "pmid": "42241999",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Blinatumomab for MRD-Negative Acute Lymphoblastic Leukemia in Adults.",
+      "journal": "The New England journal of medicine",
+      "year": 2024,
+      "pmid": "39047240",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Plasma Neurofilament Light for Prediction of Disease Progression in Familial Frontotemporal Lobar Degeneration.",
+      "journal": "Neurology",
+      "year": 2021,
+      "pmid": "33827960",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Demographics and Clinical Characteristics of Adult Patients Hospitalized due to COVID-19 in a Rural/Suburban Integrated Health System in Southcentral Pennsylvan",
+      "journal": "Open forum infectious diseases",
+      "year": 2021,
+      "pmid": "34631913",
+      "tier": "corroborated"
+     },
+     {
+      "title": "(untitled)",
+      "journal": "Neurology",
+      "year": 2020,
+      "pmid": "32943482",
+      "tier": "corroborated"
+     },
+     {
+      "title": "BURST(able): A Retrospective, Multicenter Study Examining the Impact of Spinal Cord Stimulation with Burst on Pain and Opioid Consumption in the Setting of Salv",
+      "journal": "Pain physician",
+      "year": 2020,
+      "pmid": "33185383",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Review of Emerging Evidence for Utilization of a Percutaneous Interspinous Process Decompression Device to Treat Symptomatic Lumbar Adjacent-Segment Degenerat",
+      "journal": "Pain medicine (Malden, Mass.)",
+      "year": 2019,
+      "pmid": "31808531",
+      "tier": "corroborated"
+     },
+     {
+      "title": "DRG FOCUS: A Multicenter Study Evaluating Dorsal Root Ganglion Stimulation and Predictors for Trial Success.",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2019,
+      "pmid": "30085382",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Neuromodulation Appropriateness Consensus Committee on Best Practices for Dorsal Root Ganglion Stimulation.",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2019,
+      "pmid": "30246899",
+      "tier": "corroborated"
+     },
+     {
+      "title": "High Frequency and Poor Outcome of Philadelphia Chromosome-Like Acute Lymphoblastic Leukemia in Adults.",
+      "journal": "Journal of clinical oncology : official journal of the Ameri",
+      "year": 2017,
+      "pmid": "27870571",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'ROWE' + first initial 'J'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "physical medicine & rehabilitation",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Pennsylvania",
+       "KING OF PRUSSIA"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 439,
+      "beneficiaries": 224
+     },
+     {
+      "code": "72100",
+      "description": "X-ray of lower and sacral spine, 2-3 views",
+      "services": 255,
+      "beneficiaries": 163
+     },
+     {
+      "code": "64483",
+      "description": "Injection of anesthetic and/or steroid drug into sacral spine nerve root using imaging gui",
+      "services": 175,
+      "beneficiaries": 124
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 140,
+      "beneficiaries": 115
+     },
+     {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 124,
+      "beneficiaries": 43
+     },
+     {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 92,
+      "beneficiaries": 92
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1407959000"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'JEFFERY ROWE'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 1,
+     "courtlistener:name-only": 4
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "4573561",
+      "case": "L.C. v. Superior Court CA4/1",
+      "date": "2020-10-06",
+      "snippet": "state prisons, and to increase the opportunities for rehabilitation, particularly for juvenile offenders.\u201d (Id. at p. 541.) 5 County Juvenile Probation Officer Robert Pinedo; (2) clinical and forensic psychologist Clark Clipson, Ph.D.; (3) forensic psychiatrist Jeffery Rowe, M.D.; (4) neuropsychologist Mark McDonough, Ph.D.; (5) neurologist J. Steven Poceta, M.D. and psychologist Derek Loewy, Ph.D., who specialize in sleep disorders; (6) psychologist Iris Bland\u00f3n-Gitlin, Ph.D., on the reliability of information obtained from subjects of interrogation; and (7) optometrist",
+      "matchedForm": "JEFFERY ROWE",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "calctapp",
+      "url": "https://www.courtlistener.com/opinion/4793214/lc-v-superior-court-ca41/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "849 device-scope payments; ownership records: 3"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "11 corroborated + 2224 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p7": {
+   "name": "Derron Wilson",
+   "identity": {
+    "npi": "1780669267",
+    "registryName": "Derron Wilson",
+    "credential": "MD",
+    "taxonomyCode": "207LP2900X",
+    "licenseState": "IN",
+    "opState": "IN",
+    "opCity": "CARMEL",
+    "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1780669267"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 2102.47
+     },
+     {
+      "year": 2014,
+      "value": 512.87
+     },
+     {
+      "year": 2015,
+      "value": 320.62
+     },
+     {
+      "year": 2016,
+      "value": 265.52
+     },
+     {
+      "year": 2017,
+      "value": 32489.02
+     },
+     {
+      "year": 2018,
+      "value": 45650.69
+     },
+     {
+      "year": 2019,
+      "value": 91749.6
+     },
+     {
+      "year": 2020,
+      "value": 23789.64
+     },
+     {
+      "year": 2021,
+      "value": 53806.82
+     },
+     {
+      "year": 2022,
+      "value": 70425.47
+     },
+     {
+      "year": 2023,
+      "value": 56601.56
+     },
+     {
+      "year": 2024,
+      "value": 102839.3
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 174037.5,
+      "records": 80
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 102332.26,
+      "records": 63
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 89500.0,
+      "records": 59
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 76813.97,
+      "records": 222
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 22468.6,
+      "records": 717
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 15222.0,
+      "records": 10
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 476827.62,
+      "records": 1081
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 3175.5,
+      "records": 57
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 507.54,
+      "records": 9
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 42.92,
+      "records": 5
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 237
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1780669267",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 22,
+     "nameOnly": 9805
+    },
+    "articles": [
+     {
+      "title": "Pain Relief and Multidimensional Outcomes of Fast-Acting Subperception Spinal Cord Stimulation Therapy for Chronic Pain: The FAST Prospective, Multicenter Study",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "41803572",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Unique Contributions of Social Workers to Geriatric Assessments for Community-Dwelling Older Persons.",
+      "journal": "Journal of gerontological social work",
+      "year": 2025,
+      "pmid": "40742089",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment.",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "40860495",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Spinal cord stimulation plus conventional medical management versus conventional medical management alone for severe, non-surgical, refractory back pain: a rand",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2025,
+      "pmid": "41047246",
+      "tier": "corroborated"
+     },
+     {
+      "title": "(untitled)",
+      "journal": "Avian diseases",
+      "year": 2025,
+      "pmid": "40249593",
+      "tier": "corroborated"
+     },
+     {
+      "title": "An automated faecal egg count system for detection of",
+      "journal": "Journal of helminthology",
+      "year": 2024,
+      "pmid": "39189369",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Evaluating the effects of virulence genotype, swarming motility, and multi-locus sequence types of Escherichia coli on layer chicken embryos.",
+      "journal": "Journal of applied microbiology",
+      "year": 2024,
+      "pmid": "38936825",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Novel Image-Guided Flexible-Probe Transbronchial Microwave Ablation for Stage 1 Lung Cancer.",
+      "journal": "Respiration; international review of thoracic diseases",
+      "year": 2023,
+      "pmid": "36652940",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Objective wearable measures and subjective questionnaires for predicting response to neurostimulation in people with chronic pain.",
+      "journal": "Bioelectronic medicine",
+      "year": 2023,
+      "pmid": "37340467",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Objective wearable measures correlate with self-reported chronic pain levels in people with spinal cord stimulation systems.",
+      "journal": "NPJ digital medicine",
+      "year": 2023,
+      "pmid": "37582839",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'WILSON' + first initial 'D'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "pain medicine",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Indiana",
+       "CARMEL"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "J1100",
+      "description": "Injection, dexamethasone sodium phosphate, 1 mg",
+      "services": 2934,
+      "beneficiaries": 367
+     },
+     {
+      "code": "J3301",
+      "description": "Injection, triamcinolone acetonide, not otherwise specified, 10 mg",
+      "services": 2928,
+      "beneficiaries": 294
+     },
+     {
+      "code": "Q9967",
+      "description": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+      "services": 1333,
+      "beneficiaries": 534
+     },
+     {
+      "code": "64483",
+      "description": "Injection of anesthetic and/or steroid drug into sacral spine nerve root using imaging gui",
+      "services": 420,
+      "beneficiaries": 323
+     },
+     {
+      "code": "62323",
+      "description": "Injection of substance into lower spine canal using imaging guidance",
+      "services": 241,
+      "beneficiaries": 185
+     },
+     {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 139,
+      "beneficiaries": 43
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1780669267"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 0
+    },
+    "roles": [],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'DERRON WILSON'",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 1
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "2725444",
+      "case": "Eric Keith v. Indiana Bell",
+      "date": "2014-03-06",
+      "snippet": "himself out of the crawl space. As he did so, he \u201cfelt a loud pop in [his] lower back.\u201d Id. Keith was eventually able to retrieve his cell phone and called a co-worker, who called 911. Keith was removed from the area on a stretcher. As a result of his injuries, Keith sought treatment from Dr. Derron Wilson, Dr. Michael Burt, and Dr. Eric Potts.1 Keith had several surgeries to correct the problem in his back. In February 2009, he had surgery to remove a herniated disk on the right side of his spine at L4-5 and L5-S1. Two months later, Keith had another surgery to remove a herniated disk at T8-9 on",
+      "matchedForm": "DERRON WILSON",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "indctapp",
+      "url": "https://www.courtlistener.com/opinion/2725444/eric-keith-v-indiana-bell/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "742 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "22 corroborated + 9805 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "no registry role matches this name"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p8": {
+   "name": "David Dickerson",
+   "identity": {
+    "npi": "1548581226",
+    "registryName": "David Dickerson",
+    "credential": "M.D.",
+    "taxonomyCode": "207LP2900X",
+    "licenseState": "IL",
+    "opState": "CA",
+    "opCity": "EVANSTON",
+    "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1548581226"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 120.03
+     },
+     {
+      "year": 2014,
+      "value": 12.05
+     },
+     {
+      "year": 2015,
+      "value": 607.48
+     },
+     {
+      "year": 2016,
+      "value": 119.01
+     },
+     {
+      "year": 2017,
+      "value": 1178.84
+     },
+     {
+      "year": 2018,
+      "value": 1672.41
+     },
+     {
+      "year": 2019,
+      "value": 13756.85
+     },
+     {
+      "year": 2020,
+      "value": 5535.62
+     },
+     {
+      "year": 2021,
+      "value": 25610.19
+     },
+     {
+      "year": 2022,
+      "value": 79643.41
+     },
+     {
+      "year": 2023,
+      "value": 57813.49
+     },
+     {
+      "year": 2024,
+      "value": 33151.25
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 78660.0,
+      "records": 60
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 45765.01,
+      "records": 42
+     },
+     {
+      "nature": "Consulting Fee",
+      "total": 44975.83,
+      "records": 21
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 26137.34,
+      "records": 98
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 23682.45,
+      "records": 367
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 218030.35,
+      "records": 566
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 790.33,
+      "records": 14
+     },
+     {
+      "company": "Philips Electronics North America Corporation",
+      "total": 212.42,
+      "records": 3
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 144.23,
+      "records": 2
+     },
+     {
+      "company": "Medtronic Vascular, Inc.",
+      "total": 23.27,
+      "records": 2
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 20.03,
+      "records": 1
+     }
+    ],
+    "research": null,
+    "researchPi": {
+     "total": null,
+     "records": 58
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1548581226",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 55,
+     "nameOnly": 150
+    },
+    "articles": [
+     {
+      "title": "Cultural Guideposts of Health: A crisis response evaluation framework for California's diverse Indigenous communities.",
+      "journal": "Journal of public health research",
+      "year": 2026,
+      "pmid": "41573054",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Review of\u00a0the Prospera Spinal Cord Stimulation System with Multiphase Stimulation and Proactive Care.",
+      "journal": "Current pain and headache reports",
+      "year": 2025,
+      "pmid": "39804395",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Religiosity and the relationship between sexual trauma, alcohol use, and sleep quality: a moderated mediation model.",
+      "journal": "Alcohol and alcoholism (Oxford, Oxfordshire)",
+      "year": 2025,
+      "pmid": "40483726",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Consensus Guidelines for the Use of Peripheral Nerve Stimulation in the Treatment of Chronic Pain and Neurological Diseases: A Neuron Project from the American ",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "41245476",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Cost Savings in Chronic Pain Patients Initiating Peripheral Nerve Stimulation (PNS) with a 60-Day PNS Treatment.",
+      "journal": "Pain and therapy",
+      "year": 2025,
+      "pmid": "39589685",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Consensus Guidelines from the American Society of Pain and Neuroscience for the Use of 60-Day Peripheral Nerve Stimulation Therapy. A NEURON Living Guideline Pr",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "40590046",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Editorial Commentary: Bridging evidence and practice in sacroiliac joint complex pain management.",
+      "journal": "Pain medicine (Malden, Mass.)",
+      "year": 2025,
+      "pmid": "41318916",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Alcohol and Cannabis Use, Social Networks, and Nonreservation American Indian/Alaska Native Emerging Adults: A Multilevel Dyadic Analysis.",
+      "journal": "Journal of studies on alcohol and drugs",
+      "year": 2025,
+      "pmid": "40138210",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Enhancing sleep health in urban American Indian/Alaska Native adolescents: Implications for culturally tailored interventions.",
+      "journal": "Journal of adolescence",
+      "year": 2024,
+      "pmid": "38757459",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Sleep Problems and Health Outcomes Among Urban American Indian and Alaska Native Adolescents.",
+      "journal": "JAMA network open",
+      "year": 2024,
+      "pmid": "38833247",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'DICKERSON' + first initial 'D'",
+     "signals": {
+      "topicKeywords": [
+       "anesthesiology",
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "California",
+       "EVANSTON"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "76942",
+      "description": "Ultrasonic guidance for needle placement",
+      "services": 194,
+      "beneficiaries": 118
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 180,
+      "beneficiaries": 154
+     },
+     {
+      "code": "62323",
+      "description": "Injection of substance into lower spine canal using imaging guidance",
+      "services": 96,
+      "beneficiaries": 71
+     },
+     {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 75,
+      "beneficiaries": 74
+     },
+     {
+      "code": "64493",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, single level",
+      "services": 68,
+      "beneficiaries": 43
+     },
+     {
+      "code": "64510",
+      "description": "Injection of anesthetic agent into sympathetic nerve bundle",
+      "services": 66,
+      "beneficiaries": 31
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1548581226"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Dickerson, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02121392",
+      "place": "University of Chicago",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Epidural Catheter With or Without Adductor Canal Nerve Block for Postoperative Analgesia Following Total Knee "
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'DAVID DICKERSON' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 1,
+     "courtlistener:name-only": 30
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "10138488",
+      "case": "Trcka v. United States",
+      "date": "2018-05-08",
+      "snippet": "injection that Trcka has received in his cervical spine. 38. The cost of the physical therapy, pain injections, and office visits related to Trcka\u2019s upper back pain at CDH totaled $37,707.89. Pl. Exs. 9, 11. 39. The government\u2019s expert witness, Dr. David Dickerson, testified that he would defer to Dr. Yang\u2019s judgment that this course of treatment, including the pain injections, was reasonable and necessary. Tr. 338:20-25, 340:18-341:13, 342:11-343:6. F. Treatment by Dr. Scott Glaser 40. On April 14, 2017, at the request",
+      "matchedForm": "DAVID DICKERSON",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ilnd",
+      "url": "https://www.courtlistener.com/opinion/9671875/trcka-v-united-states/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "461 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "55 corroborated + 150 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 1 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p9": {
+   "name": "Timothy Lubenow",
+   "identity": {
+    "npi": "1922024470",
+    "registryName": "Timothy Lubenow",
+    "credential": null,
+    "taxonomyCode": "208VP0014X",
+    "licenseState": "IL",
+    "opState": "IL",
+    "opCity": "CHICAGO",
+    "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1922024470"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2013,
+      "value": 3559.97
+     },
+     {
+      "year": 2014,
+      "value": 3935.73
+     },
+     {
+      "year": 2015,
+      "value": 3741.85
+     },
+     {
+      "year": 2016,
+      "value": 4342.21
+     },
+     {
+      "year": 2017,
+      "value": 81915.28
+     },
+     {
+      "year": 2018,
+      "value": 98738.51
+     },
+     {
+      "year": 2019,
+      "value": 70736.97
+     },
+     {
+      "year": 2020,
+      "value": 57599.02
+     },
+     {
+      "year": 2021,
+      "value": 17631.95
+     },
+     {
+      "year": 2022,
+      "value": 23363.91
+     },
+     {
+      "year": 2023,
+      "value": 57081.75
+     },
+     {
+      "year": 2024,
+      "value": 13770.47
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 221641.0,
+      "records": 131
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 73663.75,
+      "records": 41
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 43624.07,
+      "records": 873
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 40292.5,
+      "records": 33
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 38265.8,
+      "records": 143
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 18735.0,
+      "records": 16
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 401838.52,
+      "records": 1151
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 28265.46,
+      "records": 70
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 6303.71,
+      "records": 16
+     },
+     {
+      "company": "Medtronic Sofamor Danek USA, Inc.",
+      "total": 9.93,
+      "records": 2
+     }
+    ],
+    "research": {
+     "total": 2405.77,
+     "records": 4
+    },
+    "researchPi": {
+     "total": null,
+     "records": 180
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1922024470",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 24,
+     "nameOnly": 32
+    },
+    "articles": [
+     {
+      "title": "A Review of\u00a0the Prospera Spinal Cord Stimulation System with Multiphase Stimulation and Proactive Care.",
+      "journal": "Current pain and headache reports",
+      "year": 2025,
+      "pmid": "39804395",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Approaches to neuropathic amputation-related pain: narrative review of surgical, interventional, and medical treatments.",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2024,
+      "pmid": "38307612",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Update to \"Efficacy and Safety of Cervical and High-Thoracic Dorsal Root Ganglion Stimulation Therapy for Complex Regional Pain Syndrome of the Upper Extremitie",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2024,
+      "pmid": "37804280",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety, Efficacy, and Durability of Outcomes: Results from SECURE: A Single Arm, Multicenter, Prospective, Clinical Study on a Minimally Invasive Posterior Sacr",
+      "journal": "Journal of pain research",
+      "year": 2024,
+      "pmid": "38524688",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The current state of training in pain medicine fellowships: An Association of Pain Program Directors (APPD) survey of program directors.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2024,
+      "pmid": "38553945",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pain Education and Knowledge (PEAK) Consensus Guidelines for Neuromodulation: A Proposal for Standardization in Fellowship and Training Programs.",
+      "journal": "Journal of pain research",
+      "year": 2023,
+      "pmid": "37727682",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Successful Treatment of Refractory Neuropathic Pain Following Axillary Dissection and Lipoma Resection Using Cervical and Thoracic Dorsal Root Ganglion Stimulat",
+      "journal": "Pain medicine case reports",
+      "year": 2023,
+      "pmid": "40960335",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Informed Consent for Spine Procedures: Best Practice Guideline from the American Society of Pain and Neuroscience (ASPN).",
+      "journal": "Journal of pain research",
+      "year": 2023,
+      "pmid": "37908778",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Efficacy and Safety of Cervical and High-Thoracic Dorsal Root Ganglion Stimulation Therapy for Complex Regional Pain Syndrome of the Upper Extremities.",
+      "journal": "Neuromodulation : journal of the International Neuromodulati",
+      "year": 2023,
+      "pmid": "36402657",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Dorsal root ganglion stimulation device explantation: A multicenter pooled data analysis.",
+      "journal": "Pain practice : the official journal of World Institute of P",
+      "year": 2022,
+      "pmid": "35429364",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'LUBENOW' + first initial 'T'",
+     "signals": {
+      "topicKeywords": [
+       "infinity",
+       "interventional pain medicine",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Illinois",
+       "CHICAGO"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 704,
+      "beneficiaries": 327
+     },
+     {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 251,
+      "beneficiaries": 202
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 161,
+      "beneficiaries": 122
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 96,
+      "beneficiaries": 96
+     },
+     {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 79,
+      "beneficiaries": 31
+     },
+     {
+      "code": "62323",
+      "description": "Injection of substance into lower spine canal using imaging guidance",
+      "services": 64,
+      "beneficiaries": 49
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1922024470"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 0,
+     "nameOnly": 1
+    },
+    "roles": [
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Timothy R Lubenow, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03876158",
+      "place": "Rush University Medical Center",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Transitioning to a Valve -Gated Intrathecal Drug Delivery System (IDDS)"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'TIMOTHY LUBENOW' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "counts": {
+     "courtlistener:corroborated": 8,
+     "courtlistener:name-only": 2
+    },
+    "cites": [
+     {
+      "source": "courtlistener",
+      "ref": "10827616",
+      "case": "Tripp v. Union Pacific R.R. Co.",
+      "date": "2025-03-21",
+      "snippet": "(1st) 1190279. \u00b6 12 After Tripp voluntarily dismissed count I on May 25, 2023, the matter moved to trial on the LIA claim only, with opening statements on May 30, 2023. During his opening statement, UP\u2019s counsel contended the evidence would show Tripp\u2019s \u201cstory changed.\u201d \u00b6 13 Tripp first called Dr. Timothy Lubenow, an anesthesiologist who worked in pain medicine. Lubenow testified that Tripp developed complex regional pain syndrome, or CRPS, due to the injury he suffered on March 10, 2015. Lubenow described the serious impact CRPS would have on Tripp for the rest of his life, including possible symptoms of",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "illappct",
+      "url": "https://www.courtlistener.com/opinion/10361028/tripp-v-union-pacific-rr-co/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10453349",
+      "case": "Irani v. AMF Bowling Co.",
+      "date": "2024-06-28",
+      "snippet": "joint motion to continue the case scheduling deadlines. The trial court rescheduled the trial date for January 31, 2022. {\u00b6 10} On October 28, 2021, Irani voluntarily dismissed her claims against AMF. {\u00b6 11} On December 17, 2021, Irani belatedly disclosed a retained expert witness, Dr. Timothy Lubenow. Saadati immediately moved the trial court to exclude the expert witness due to the untimely disclosure. In her motion, Saadati contended that she had expended considerable resources to prepare for trial already. She pointed out that her expert had just reviewed approximately 1,000 pages of supplemental",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ohioctapp",
+      "url": "https://www.courtlistener.com/opinion/9986740/irani-v-amf-bowling-co/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10143033",
+      "case": "Pieske v. Saul",
+      "date": "2020-07-20",
+      "snippet": "the date of the hearing, she lived in an apartment with her husband and had no children. (R. 27-28). Plaintiff had not worked since February 25, 2016. (R. 28, 180). She previously worked as a claims clerk since October 2000. (R. 29, 181). Plaintiff saw Timothy Lubenow, M.D. for pain management from 2015 to 2017 (both before and after the February 25, 2016 alleged onset date). (R. 264-87, 295-300, 304-08, 343-48, 358). In August 2015, Plaintiff told Dr. Lubenow that, although she typically experienced pain mostly in her upper arms and neck, recently she had",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ilnd",
+      "url": "https://www.courtlistener.com/opinion/9676420/pieske-v-saul/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10142750",
+      "case": "Brame v. Saul",
+      "date": "2020-05-01",
+      "snippet": "in February 2007, she had an encounter with an intoxicated patient, who violently grabbed her left wrist and injured it. (R. 563.) Plaintiff attempted physical therapy for her injured wrist, but she found that it increased her pain and caused her arm to become blue and sweaty. (R. 506, 563.) Dr. Timothy Lubenow, M.D., diagnosed Plaintiff with Chronic Regional Pain Syndrome (\u201cCRPS\u201d). (R. 500, 563.) To treat her CRPS, Plaintiff underwent several stellate ganglion blocks with no relief. (R. 504.) She also received a \u201c5-day epidural\u201d and was prescribed several drugs to attempt to alleviate her pain symptoms,",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ilnd",
+      "url": "https://www.courtlistener.com/opinion/9676137/brame-v-saul/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "10141658",
+      "case": "Johansen v. Saul",
+      "date": "2019-11-07",
+      "snippet": "Lauren asserts that the ALJ committed several reversible errors. First, Lauren argues that the ALJ erred in finding that her impairments did not meet Listed Impairments 1.04, 12.04, and 12.15. Second, Lauren asserts that the ALJ erred in failing to give controlling weight to treating physician Dr. Timothy Lubenow. Third, Lauren contends that the ALJ erred because the vocational expert\u2019s testimony was inconsistent with her RFC. Fourth, Lauren states that the ALJ relied upon multiple erroneous facts to support his denial of benefits. The Court finds that the ALJ failed to properly weigh",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "ilnd",
+      "url": "https://www.courtlistener.com/opinion/9675045/johansen-v-saul/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "4409292",
+      "case": "Miyagi v. Dean Transportation, Inc.",
+      "date": "2019-06-21",
+      "snippet": "The facts surrounding plaintiff\u2019s injury are uncontested. Because the appeal is limited to the issue of the propriety of the jury\u2019s award of future medical expenses and the remittitur, we set forth only those facts relevant to this appeal. \u00b66 At trial, plaintiff presented the testimony of Dr. Timothy Lubenow and Dr. Ira Goodman, board certified pain management specialists who treated plaintiff; Dr. Jeffery Coe, plaintiff\u2019s retained expert; and herself. Defendant then presented the testimony of Dr. Kenneth Candido, defendant\u2019s retained expert; Dr. Mark Shukhman, plaintiff\u2019s psychiatrist; Dr. Mindy Nora,",
+      "matchedForm": "TIMOTHY LUBENOW",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "illappct",
+      "url": "https://www.courtlistener.com/opinion/4632039/miyagi-v-dean-transportation-inc/",
+      "docId": null
+     }
+    ],
+    "source": {
+     "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
+     "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "719 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "24 corroborated + 32 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "on file"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "0 corroborated + 1 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  },
+  "p10": {
+   "name": "Ajay Antony",
+   "identity": {
+    "npi": "1770875700",
+    "registryName": "Ajay Antony",
+    "credential": "M.D.",
+    "taxonomyCode": "208VP0014X",
+    "licenseState": "FL",
+    "opState": "FL",
+    "opCity": "GAINESVILLE",
+    "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+    "source": {
+     "dataset": "CMS NPPES registry + Open Payments recipient fields",
+     "match": "NPI 1770875700"
+    }
+   },
+   "payments": {
+    "yearly": [
+     {
+      "year": 2015,
+      "value": 2500.0
+     },
+     {
+      "year": 2016,
+      "value": 9494.14
+     },
+     {
+      "year": 2017,
+      "value": 14319.7
+     },
+     {
+      "year": 2018,
+      "value": 66084.37
+     },
+     {
+      "year": 2019,
+      "value": 74933.73
+     },
+     {
+      "year": 2020,
+      "value": 56353.48
+     },
+     {
+      "year": 2021,
+      "value": 57053.65
+     },
+     {
+      "year": 2022,
+      "value": 28603.02
+     },
+     {
+      "year": 2023,
+      "value": 27613.06
+     },
+     {
+      "year": 2024,
+      "value": 14705.78
+     }
+    ],
+    "byNature": [
+     {
+      "nature": "Consulting Fee",
+      "total": 176643.5,
+      "records": 181
+     },
+     {
+      "nature": "Travel and Lodging",
+      "total": 58021.06,
+      "records": 190
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 41300.0,
+      "records": 34
+     },
+     {
+      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
+      "total": 35760.0,
+      "records": 29
+     },
+     {
+      "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
+      "total": 16986.25,
+      "records": 19
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 12659.05,
+      "records": 307
+     }
+    ],
+    "byCompany": [
+     {
+      "company": "Abbott Laboratories",
+      "total": 339593.26,
+      "records": 738
+     },
+     {
+      "company": "Medtronic USA, Inc.",
+      "total": 11994.14,
+      "records": 26
+     },
+     {
+      "company": "Medtronic, Inc.",
+      "total": 73.53,
+      "records": 3
+     }
+    ],
+    "research": {
+     "total": 4000.0,
+     "records": 2
+    },
+    "researchPi": {
+     "total": null,
+     "records": 340
+    },
+    "ownership": null,
+    "source": {
+     "dataset": "CMS Open Payments: general (device-matched), research, research-PI, ownership tables",
+     "match": "NPI 1770875700",
+     "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced."
+    }
+   },
+   "literature": {
+    "counts": {
+     "corroborated": 46,
+     "nameOnly": 422
+    },
+    "articles": [
+     {
+      "title": "The American Society of Pain and Neuroscience (ASPN) Evidence-Based Consensus Recommendations on Programming and Coding Implantable Spinal Cord Stimulation Devi",
+      "journal": "Journal of pain research",
+      "year": 2026,
+      "pmid": "41926493",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Correction: Next\u2011Generation SCS Programming Platform: Enhancing ECAP Fidelity and Objectivity to Improve Patient Experience.",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "42047715",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Next-Generation SCS Programming Platform: Enhancing ECAP Fidelity and Objectivity to Improve Patient Experience.",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "41505067",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pain Relief and Multidimensional Outcomes of Fast-Acting Subperception Spinal Cord Stimulation Therapy for Chronic Pain: The FAST Prospective, Multicenter Study",
+      "journal": "Pain and therapy",
+      "year": 2026,
+      "pmid": "41803572",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical utility of ECAP dosing in a real-world population delivered via EVOKE therapy: the ECAP study.",
+      "journal": "Regional anesthesia and pain medicine",
+      "year": 2025,
+      "pmid": "41330601",
+      "tier": "corroborated"
+     },
+     {
+      "title": "ECAP-Controlled Closed-Loop Spinal Cord Stimulation for Chronic Nonsurgical Refractory Back Pain: Subgroup Analysis From Two Prospective Multicenter Clinical Tr",
+      "journal": "Spine",
+      "year": 2025,
+      "pmid": "40590186",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The American Society of Pain and Neuroscience (ASPN) Guidelines and Consensus on the Definition, Current Evidence, Clinical Use and Future Applications for Phys",
+      "journal": "Journal of pain research",
+      "year": 2025,
+      "pmid": "39926188",
+      "tier": "corroborated"
+     },
+     {
+      "title": "First Objective Evidence Characterizing Differences in Cervical and Thoracic Spinal Cord Neurophysiology Using ECAP-Controlled Closed-Loop Technology.",
+      "journal": "Pain and therapy",
+      "year": 2025,
+      "pmid": "41066061",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Minimally Invasive Posterior SI Joint Fusion with a Novel Cortical Allograft: Real-World, Long-Term, Outcomes from a Large, Multisite US Cohort.",
+      "journal": "Orthopedic research and reviews",
+      "year": 2025,
+      "pmid": "40832586",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Improvement in Gait Abnormality Following Minimally Invasive Posterior Sacroiliac Joint Fusion.",
+      "journal": "Cureus",
+      "year": 2025,
+      "pmid": "39897207",
+      "tier": "corroborated"
+     }
+    ],
+    "source": {
+     "dataset": "PubMed (full local corpus, 40.6M articles)",
+     "match": "author last name 'ANTONY' + first initial 'A'",
+     "signals": {
+      "topicKeywords": [
+       "anesthesiology",
+       "infinity",
+       "neurostim",
+       "neurostimulator",
+       "proclaim"
+      ],
+      "affiliationGeo": [
+       "Florida",
+       "GAINESVILLE"
+      ]
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "practice": {
+    "dataYear": 2023,
+    "procedures": [
+     {
+      "code": "Q9967",
+      "description": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+      "services": 3201,
+      "beneficiaries": 835
+     },
+     {
+      "code": "J1100",
+      "description": "Injection, dexamethasone sodium phosphate, 1 mg",
+      "services": 1540,
+      "beneficiaries": 130
+     },
+     {
+      "code": "J1040",
+      "description": "Injection, methylprednisolone acetate, 80 mg",
+      "services": 1088,
+      "beneficiaries": 697
+     },
+     {
+      "code": "62323",
+      "description": "Injection of substance into lower spine canal using imaging guidance",
+      "services": 532,
+      "beneficiaries": 408
+     },
+     {
+      "code": "62321",
+      "description": "Injection of substance into middle or upper spine canal using imaging guidance",
+      "services": 190,
+      "beneficiaries": 150
+     },
+     {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 177,
+      "beneficiaries": 140
+     }
+    ],
+    "source": {
+     "dataset": "CMS Medicare physician utilization (per-provider, latest year)",
+     "match": "NPI 1770875700"
+    }
+   },
+   "aactTrials": {
+    "counts": {
+     "corroborated": 2,
+     "nameOnly": 0
+    },
+    "roles": [
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Ajay Antony, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06778447",
+      "place": "The Orthopaedic Institute \u2014 Gainesville, Florida",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Clinical Trial Evaluating the Safety and Efficacy of Nucleus Pulposus Allograft in Participants With Degenerat"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Ajay Antony, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06011551",
+      "place": "The Orthopaedic Institute \u2014 Gainesville, Florida",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "HYDRAFIL-D: HYDRogel Augmentation For Intervertebral Lumbar Discs"
+     }
+    ],
+    "source": {
+     "dataset": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov \u2014 site investigators + overall officials",
+     "match": "full name 'AJAY ANTONY' as whole words in the registry name string",
+     "signals": {
+      "deviceTrials": "role on one of this device's matched trials",
+      "geo": "site/affiliation in the physician's payment-record state"
+     },
+     "caveat": "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded."
+    }
+   },
+   "litigation": {
+    "pending": true,
+    "note": "Mention sweep across 2.6M court opinions + PTAB filings is materializing \u2014 appears here on the next refresh."
+   },
+   "inventory": {
+    "onFile": [
+     {
+      "label": "Open Payments (general/research/ownership)",
+      "detail": "420 device-scope payments"
+     },
+     {
+      "label": "PubMed literature (local)",
+      "detail": "46 corroborated + 422 name-only author matches"
+     },
+     {
+      "label": "Medicare practice profile",
+      "detail": "6 procedure lines"
+     },
+     {
+      "label": "NPPES registry identity",
+      "detail": "on file"
+     },
+     {
+      "label": "CourtListener + PTAB mentions",
+      "detail": "sweep in progress"
+     },
+     {
+      "label": "AACT clinical-trial roles (local)",
+      "detail": "2 corroborated + 0 name-only role matches"
+     },
+     {
+      "label": "ICIJ IMDD",
+      "detail": "screened \u2014 device-grain database, carries no person records"
+     }
+    ],
+    "onCommission": [
+     {
+      "label": "Standalone expert-witness profiler board",
+      "price": 2500
+     },
+     {
+      "label": "OpenAlex citation graph (external API)"
+     },
+     {
+      "label": "Web verification pass (external)"
+     }
+    ]
+   }
+  }
+ }
+}

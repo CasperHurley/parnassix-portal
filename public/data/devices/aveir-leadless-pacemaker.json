@@ -81,7 +81,7 @@
   },
   {
    "label": "Granted patents (assignee)",
-   "value": 2483,
+   "value": 2452,
    "format": "number"
   },
   {
@@ -211,35 +211,35 @@
    "points": [
     {
      "year": 1990,
-     "value": 72
+     "value": 70
     },
     {
      "year": 1991,
-     "value": 88
+     "value": 87
     },
     {
      "year": 1992,
-     "value": 141
+     "value": 139
     },
     {
      "year": 1993,
-     "value": 142
+     "value": 141
     },
     {
      "year": 1994,
-     "value": 150
+     "value": 149
     },
     {
      "year": 1995,
-     "value": 119
+     "value": 117
     },
     {
      "year": 1996,
-     "value": 191
+     "value": 190
     },
     {
      "year": 1997,
-     "value": 205
+     "value": 203
     },
     {
      "year": 1998,
@@ -247,7 +247,7 @@
     },
     {
      "year": 1999,
-     "value": 156
+     "value": 155
     },
     {
      "year": 2000,
@@ -255,7 +255,7 @@
     },
     {
      "year": 2001,
-     "value": 130
+     "value": 129
     }
    ]
   },
@@ -291,39 +291,39 @@
       "narrative": "DEVICE HISTORY WAS REVIEWED AND FOUND TO BE COMPLETE. THE PRODUCT PASSED ALL QUALITY CONTROL TESTS PRIOR TO ITS DISTRIBUTION. THE REPORTED EVENT OF STRETCHED HELIX WAS CONFIRMED. VISUAL INSPECTION NOTED THE HELIX WAS STRETCHED OUT OF SPECIFICATION CONSISTENT WITH HAVING OCCURRED DURING IMPLANT PROCEDURE. FURTHER ANALYSIS PERFORMED FOUND NO ANOMALY."
      },
      {
-      "problem": "Adverse Event Without Identified Device or Use Problem",
-      "reports": 298,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED FOR A LEADLESS PACEMAKER (LP) IMPLANT PROCEDURE. DURING THE PROCEDURE, IT WAS NOTED THAT THE PHYSICIAN FELT RESISTANCE GOING INTO TETHER MODE WHEN IMPLANTING THE ATRIAL LP AND PUSHED PAST THE RESISTANCE. A MID-TETHER FRACTURE WAS NOTED ON THE CATHETER AND THE LP WAS UNABLE TO BE RELEASED. THE PHYSICIAN ATTEMPTED TO PUT THE PROTECTIVE SLEEVE BACK OVER THE LP TO REMOVE IT BUT"
-     },
-     {
       "problem": "Device Dislodged or Dislocated",
       "reports": 298,
-      "narrative": "IT WAS REPORTED THE PATIENT UNDERWENT A SUCCESSFUL LEADLESS PACEMAKER (LP) IMPLANT. AN HOUR LATER, THE PATIENT HAD GONE ASYSTOLIC, AND AN ELECTROCARDIOGRAM SHOWED APPARENT LOSS OF CAPTURE. MAGNET APPLICATION CAUSED PACING TO RESUME. UPON INTERROGATION, THE CAPTURE THRESHOLD HAD RISEN, BUT IT WAS SUSPECTED THE LP WAS OVERSENSING CAUSING PACING INHIBITION. REPROGRAMMING WAS COMPLETED, AND A CHEST X-RAY WAS COMPLETED TO"
+      "narrative": "IT WAS REPORTED THAT UPON RELEASE FROM TETHER MODE DURING IMPLANT PROCEDURE, THE PATIENT'S LEADLESS PACEMAKER (LP) HAD DISLODGED AND MIGRATED INTO THE PULMONARY ARTERY. THE DEVICE WAS SNARED AND REMOVED FROM THE BODY WITHOUT ISSUE. THE PROCEDURE ON (B)(6)2023 WAS ABANDONED. THE PATIENT WAS STABLE."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 298,
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO AN IMPLANT PROCEDURE. DURING THE PROCEDURE, AFTER IMPLANTING THE VENTRICULAR LEADLESS PACEMAKER AND WHILE IMPLANTING THE ATRIAL LEADLESS PACEMAKER WITH ITS RESPECTIVE DELIVERY CATHETERS, THE PATIENT EXPERIENCED A SEIZURE. THE CAUSE OF THE SEIZURE WAS UNKNOWN. THE ATRIAL DEVICE WAS NOT IMPLANTED. THE VENTRICULAR DEVICE REMAINED IMPLANTED. THE PATIENT CONDITION WAS STABLE P"
      },
      {
       "problem": "Premature Separation",
       "reports": 220,
-      "narrative": "THE REPORTED EVENTS OF TETHER BREAK AND PREMATURE SEPARATION WERE CONFIRMED. AS RECEIVED, A COMPLETE CATHETER WAS RETURNED IN ONE PIECE WITH THE PROTECTIVE SLEEVE COVERING THE DISTAL CAP. VISUAL INSPECTION FOUND THE DISTAL TETHER WIRES MIS-ALIGNED WITHOUT TETHER BULLETS AT THE DISTAL TETHER WIRE ENDS. DIMENSIONAL ANALYSIS OF THE SHORT AND LONG DISTAL TETHER WIRES WAS MEASURED WITHIN THE PRODUCT SPECIFICATION. A SCAN"
+      "narrative": "A DEVICE HISTORY RECORD (DHR) REVIEW WAS PERFORMED AND ALL REQUIRED MANUFACTURING PROCESSES AND INSPECTIONS STEPS WERE CONFIRMED TO BE COMPLETED PER THE REQUIREMENTS. THE DEVICE MET SPECIFICATIONS PRIOR TO LEAVING ABBOTT MANUFACTURING FACILITIES."
      },
      {
       "problem": "Failure to Capture",
       "reports": 210,
-      "narrative": "IT WAS REPORTED THAT THE ASYMPTOMATIC PATIENT PRESENTED IN CLINIC FOR FOLLOW-UP. UPON INTERROGATION, IT WAS FOUND THAT THE PATIENT'S RIGHT VENTRICULAR LEADLESS PACEMAKER EXHIBITED LOSS OF CAPTURE. PROGRAMMING CHANGES WERE PERFORMED. THE PATIENT WAS STABLE."
+      "narrative": "REPORTED EVENT OF DEVICE DISLODGED OR DISLOCATED, FAILURE TO CAPTURE, UNDER-SENSING, THERAPY DELIVERED TO INCORRECT BODY AREA, AND IMPEDANCE PROBLEM WERE NOT CONFIRMED. FINAL ANALYSIS FOUND NO ANOMALY ON OUTER AND INNER HELIX, HELIX LENGTHS WERE WITHIN SPECIFICATION. FURTHER ANALYSIS PERFORMED FOUND NO ANOMALIES CONTRIBUTING TO REPORTED EVENT OF CAPTURE, SENSING, OR IMPEDANCE PROBLEM. LONGEVITY ASSESSMENT WAS PERFORM"
      },
      {
       "problem": "Capturing Problem",
       "reports": 205,
-      "narrative": "IT WAS REPORTED THE PATIENT PRESENTED FOR IMPLANT PROCEDURE. DURING SURGERY, CONDUCTIVE TELEMETRY ON THE LEADLESS PACEMAKER (LP) HAD DIFFICULTY CONNECTING. REPLACING THE ELECTRODES RESOLVED THE TELEMETRY ISSUES. AFTER FIXATION, THE CAPTURE THRESHOLD ON THE LP WAS HIGH. THE SURGERY WAS COMPLETED WITH THE LP REMAINING IMPLANTED. THE PATIENT WAS IN STABLE CONDITION."
+      "narrative": "IT WAS REPORTED THE PATIENT UNDERWENT A LEADLESS PACEMAKER (LP) IMPLANT. DURING IMPLANT, AFTER FIXATION AT A CHOSEN LOCATION, THE CAPTURE THRESHOLD INCREASED BUT THE LP REMAINED IMPLANTED. THE FOLLOWING DAY, THE LP FAILED TO BE INTERROGATED. A CHEST X-RAY WAS COMPLETED TO REVEAL THE LP HAD DISLODGED AND MIGRATED TO THE OPPOSITE SIDE OF THE HEART. THE LP WAS SUCCESSFULLY RETRIEVED, AND IT WAS NOTED TO HAVE A STRETCHED"
      },
      {
       "problem": "Inappropriate or Unexpected Reset",
       "reports": 122,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED DURING MAGNETIC RESONANCE IMAGING. THE IMPLANTED LEADLESS PACEMAKER WAS FOUND IN BACKUP MODE. NO INTERVENTIONS WERE PERFORMED. THE PATIENT WAS IN STABLE CONDITION."
+      "narrative": "IT WAS REPORTED THAT THE FAST PATH SUMMARY INDICATED THE DEVICE WAS IN EVVI MODE. THE PROVIDED INFORMATION WAS REVIEWED BY ABBOTT ENGINEERING AND IT WAS CONFIRMED THAT AN INAPPROPRIATE MODE CHANGE TO EVVI MODE OCCURRED, WITH EVIDENCE CONSISTENT WITH A ROOT CAUSE OF THE LP INTERPRETING EMI AS A FALSE-POSITIVE TELEMETRY COMMAND TO CHANGE MODE. THE DEVICE IS SUBJECT TO THE AVEIR UNEXPECTED AND INADVERTENT MODE CHANGE AC"
      },
      {
       "problem": "Separation Failure",
       "reports": 120,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED FOR A LEADLESS PACEMAKER (LP) IMPLANT PROCEDURE. DURING THE PROCEDURE, IT WAS NOTED THAT THE LP WAS UNABLE TO BE SEPARATED FROM THE CATHETER. THE LP WAS REMOVED AND REPLACED. THE PATIENT WAS DISCHARGED POST PROCEDURE."
+      "narrative": "REPORTED EVENT OF SEPARATION FAILURE WAS NOT CONFIRMED. VISUAL INSPECTION FOUND NO ANOMALY ON THE HELIX. THE INNER DIAMETER OF THE DEVICE DOCKING BUTTON WHERE THE BULLETS ON THE TETHER INTERACT WAS WITHIN SPECIFICATION. FURTHER ANALYSIS PERFORMED FOUND NO ANOMALY. LONGEVITY ASSESSMENT WAS PERFORMED, AND DEVICE WAS IN THE NORMAL RANGE OF OPERATION WITH APPROPRIATE REMAINING LONGEVITY. A DEVICE HISTORY RECORD (DHR) REV"
      }
     ]
    },
@@ -343,7 +343,7 @@
      {
       "id": "p1",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "OH",
+      "state": "FL",
       "total": 212290.54,
       "payments": 42,
       "years": "2022\u20132024",
@@ -360,8 +360,8 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "DC",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "VA",
       "total": 164541.93,
       "payments": 311,
       "years": "2022\u20132024",
@@ -369,7 +369,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Dental Providers|Dentist",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "NY",
       "total": 118044.64,
       "payments": 131,
@@ -378,7 +378,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "AR",
       "total": 113544.35,
       "payments": 213,
@@ -396,7 +396,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "OK",
       "total": 84175.43,
       "payments": 209,
@@ -405,7 +405,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "CA",
       "total": 69571.71,
       "payments": 187,
@@ -423,7 +423,7 @@
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "AZ",
       "total": 59663.36,
       "payments": 179,
@@ -437,7 +437,7 @@
      {
       "id": "p1",
       "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "OH",
+      "state": "FL",
       "total": 212290.54,
       "payments": 42,
       "years": "2022\u20132024",
@@ -456,8 +456,8 @@
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
-      "state": "DC",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "VA",
       "total": 164541.93,
       "payments": 311,
       "years": "2022\u20132024",
@@ -466,7 +466,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Dental Providers|Dentist",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "NY",
       "total": 118044.64,
       "payments": 131,
@@ -476,7 +476,7 @@
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "AR",
       "total": 113544.35,
       "payments": 213,
@@ -496,7 +496,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "OK",
       "total": 84175.43,
       "payments": 209,
@@ -506,7 +506,7 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "CA",
       "total": 69571.71,
       "payments": 187,
@@ -526,7 +526,7 @@
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
       "state": "AZ",
       "total": 59663.36,
       "payments": 179,
@@ -559,20 +559,40 @@
   },
   "ip": {
    "teaser": {
-    "patents": 2483,
+    "patents": 2452,
     "assignees": [
      "Abbott"
     ]
    },
    "payload": {
-    "patents": 2483,
-    "recent": [
+    "patents": 2452,
+    "assignees": [
      {
-      "id": "D452163",
-      "title": "Motorcycle motor clock",
-      "year": 2001,
-      "assignee": "Abbott; Michael"
+      "name": "Abbott Laboratories",
+      "patents": 2436
      },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Laboratories & Central Glass Co LTD",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Laboratories/Ross Laboratories",
+      "patents": 1
+     }
+    ],
+    "recent": [
      {
       "id": "6329157",
       "title": "Antigen cocktails and uses thereof",
@@ -614,11 +634,17 @@
       "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
       "year": 2001,
       "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
      }
     ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
    },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -1590,35 +1616,6 @@
       ]
      },
      {
-      "ccn": "100007",
-      "name": "Adventhealth Orlando",
-      "city": "Orlando",
-      "state": "FL",
-      "countyFips": "12095",
-      "lat": 28.556,
-      "lon": -81.348,
-      "discharges": 114,
-      "outpatientServices": 272,
-      "rating": "3",
-      "topDrgs": [
-       {
-        "code": "243",
-        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
-        "n": 59
-       },
-       {
-        "code": "242",
-        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
-        "n": 44
-       },
-       {
-        "code": "244",
-        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
-        "n": 11
-       }
-      ]
-     },
-     {
       "ccn": "420078",
       "name": "Prisma Health Greenville Memorial Hospital",
       "city": "Greenville",
@@ -1644,6 +1641,35 @@
         "code": "244",
         "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
         "n": 21
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 114,
+      "outpatientServices": 272,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 59
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 44
+       },
+       {
+        "code": "244",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+        "n": 11
        }
       ]
      }
@@ -2770,20 +2796,20 @@
       "per10k65": 31.2
      },
      {
-      "fips": "38035",
-      "name": "Grand Forks",
-      "state": "ND",
-      "services": 245,
-      "facilities": 1,
-      "per10k65": 235.8
-     },
-     {
       "fips": "20177",
       "name": "Shawnee",
       "state": "KS",
       "services": 245,
       "facilities": 1,
       "per10k65": 70.8
+     },
+     {
+      "fips": "38035",
+      "name": "Grand Forks",
+      "state": "ND",
+      "services": 245,
+      "facilities": 1,
+      "per10k65": 235.8
      },
      {
       "fips": "33011",
@@ -2906,20 +2932,20 @@
       "per10k65": 5.9
      },
      {
-      "fips": "49053",
-      "name": "Washington",
-      "state": "UT",
-      "services": 226,
-      "facilities": 1,
-      "per10k65": 51.6
-     },
-     {
       "fips": "05143",
       "name": "Washington",
       "state": "AR",
       "services": 226,
       "facilities": 1,
       "per10k65": 71.3
+     },
+     {
+      "fips": "49053",
+      "name": "Washington",
+      "state": "UT",
+      "services": 226,
+      "facilities": 1,
+      "per10k65": 51.6
      },
      {
       "fips": "28071",
@@ -3050,20 +3076,20 @@
       "per10k65": 36.8
      },
      {
-      "fips": "37125",
-      "name": "Moore",
-      "state": "NC",
-      "services": 210,
-      "facilities": 1,
-      "per10k65": 83.2
-     },
-     {
       "fips": "37063",
       "name": "Durham",
       "state": "NC",
       "services": 210,
       "facilities": 1,
       "per10k65": 43.6
+     },
+     {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 210,
+      "facilities": 1,
+      "per10k65": 83.2
      },
      {
       "fips": "06001",
@@ -3146,12 +3172,12 @@
       "per10k65": 55.1
      },
      {
-      "fips": "21067",
-      "name": "Fayette",
-      "state": "KY",
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
       "services": 199,
       "facilities": 1,
-      "per10k65": 41.8
+      "per10k65": 23.2
      },
      {
       "fips": "06083",
@@ -3162,12 +3188,12 @@
       "per10k65": 27.0
      },
      {
-      "fips": "34005",
-      "name": "Burlington",
-      "state": "NJ",
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
       "services": 199,
       "facilities": 1,
-      "per10k65": 23.2
+      "per10k65": 41.8
      },
      {
       "fips": "34029",
@@ -3234,12 +3260,12 @@
       "per10k65": 144.6
      },
      {
-      "fips": "53005",
-      "name": "Benton",
-      "state": "WA",
+      "fips": "36047",
+      "name": "Kings",
+      "state": "NY",
       "services": 191,
       "facilities": 1,
-      "per10k65": 56.5
+      "per10k65": 4.7
      },
      {
       "fips": "51015",
@@ -3250,12 +3276,12 @@
       "per10k65": 108.4
      },
      {
-      "fips": "36047",
-      "name": "Kings",
-      "state": "NY",
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
       "services": 191,
       "facilities": 1,
-      "per10k65": 4.7
+      "per10k65": 56.5
      },
      {
       "fips": "44007",
@@ -3306,20 +3332,20 @@
       "per10k65": 72.6
      },
      {
-      "fips": "12009",
-      "name": "Brevard",
-      "state": "FL",
-      "services": 187,
-      "facilities": 1,
-      "per10k65": 12.1
-     },
-     {
       "fips": "26081",
       "name": "Kent",
       "state": "MI",
       "services": 187,
       "facilities": 1,
       "per10k65": 18.9
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 12.1
      },
      {
       "fips": "06099",
@@ -3554,20 +3580,20 @@
       "per10k65": 37.7
      },
      {
-      "fips": "23019",
-      "name": "Penobscot",
-      "state": "ME",
-      "services": 158,
-      "facilities": 1,
-      "per10k65": 50.8
-     },
-     {
       "fips": "08013",
       "name": "Boulder",
       "state": "CO",
       "services": 158,
       "facilities": 1,
       "per10k65": 29.3
+     },
+     {
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 158,
+      "facilities": 1,
+      "per10k65": 50.8
      },
      {
       "fips": "54039",
@@ -3594,14 +3620,6 @@
       "per10k65": 14.8
      },
      {
-      "fips": "48451",
-      "name": "Tom Green",
-      "state": "TX",
-      "services": 154,
-      "facilities": 1,
-      "per10k65": 75.9
-     },
-     {
       "fips": "45007",
       "name": "Anderson",
       "state": "SC",
@@ -3610,12 +3628,12 @@
       "per10k65": 39.7
      },
      {
-      "fips": "39099",
-      "name": "Mahoning",
-      "state": "OH",
-      "services": 153,
+      "fips": "48451",
+      "name": "Tom Green",
+      "state": "TX",
+      "services": 154,
       "facilities": 1,
-      "per10k65": 30.1
+      "per10k65": 75.9
      },
      {
       "fips": "12083",
@@ -3640,6 +3658,14 @@
       "services": 153,
       "facilities": 1,
       "per10k65": 43.7
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 30.1
      },
      {
       "fips": "27003",
@@ -4135,14 +4161,14 @@
       "subjectsAffected": 9
      },
      {
-      "term": "Pain",
-      "organSystem": "Musculoskeletal and connective tissue disorders",
+      "term": "Myocardial Infarction",
+      "organSystem": "Cardiac disorders",
       "rows": 2,
       "subjectsAffected": 9
      },
      {
-      "term": "Myocardial Infarction",
-      "organSystem": "Cardiac disorders",
+      "term": "Pain",
+      "organSystem": "Musculoskeletal and connective tissue disorders",
       "rows": 2,
       "subjectsAffected": 9
      },
@@ -4203,7 +4229,7 @@
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
         "product": "Merlin Patient Care System Model 3650 MERLIN 3650 PATIENT CARE SYSTEM (PCS)",
-        "reason": "The manufacturer is contacting customers to inform them of a Merlin PCS 3650 programmer software update that addresses a potential software behaviour observed during the Pacing Capture Threshold (PCT) test of the AVEIR&trade; Leadless Pacemaker (LP). In rare circumstances, if intermittent loss of te",
+        "reason": "The manufacturer is contacting customers to inform them of a Merlin PCS 3650 programmer software update that addresses a potential software behaviour observed during the Pacing Capture Threshold (PCT) test of the AVEIR\u2122 Leadless Pacemaker (LP). In rare circumstances, if intermittent loss of telemetr",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36795"
        }
       ]

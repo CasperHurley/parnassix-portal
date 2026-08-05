@@ -75,7 +75,7 @@ export function Dossier({
         <div>
           <h1 className="dossierTitle">{device.name}</h1>
           <div className="dossierMaker">
-            {device.maker} · #{device.rank} by opportunity · {device.maturity} litigation
+            {device.maker} · {device.maturity} litigation
           </div>
         </div>
         <div className="dossierBuy">
@@ -153,8 +153,8 @@ export function Dossier({
       <div className="alertsStrip">
         <span className="alertsBadge">Recall alerting</span>
         <span>
-          {pricing.retainer.blurb} Not sold per-device — included with the{' '}
-          <strong>{pricing.retainer.label}</strong>.
+          Standing alerts when FDA posts a new recall on this device family — included
+          with a Demand Map subscription, not sold per-device.
         </span>
       </div>
 
@@ -162,9 +162,7 @@ export function Dossier({
       <div className="moduleGrid">
         <ModuleCard
           anchorId="mod-narratives"
-          title="Untangled adverse-event narratives"
-          cls="II"
-          teaserStats={
+          title="Untangled adverse-event narratives"          teaserStats={
             m.narratives.teaser
               ? `${fmtNum(m.narratives.teaser.narratives)} narratives · ${fmtNum(
                   m.narratives.teaser.distinctProblemCodes,
@@ -183,9 +181,7 @@ export function Dossier({
         {m['trial-aes'] && (
           <ModuleCard
             anchorId="mod-trial-aes"
-            title="Sponsor trial adverse events (registry)"
-            cls="II"
-            teaserStats={
+            title="Sponsor trial adverse events (registry)"            teaserStats={
               m['trial-aes'].teaser
                 ? `${fmtNum(m['trial-aes'].teaser.trialsMatched)} trials · ${fmtNum(m['trial-aes'].teaser.seriousEventRows)} serious-event rows · ${fmtNum(m['trial-aes'].teaser.deathTermSubjects)} death-term subjects (${m['trial-aes'].teaser.scope}-scope)`
                 : undefined
@@ -215,9 +211,7 @@ export function Dossier({
         {m['global-actions'] && (
           <ModuleCard
             anchorId="mod-global-actions"
-            title="Global regulatory footprint"
-            cls="II"
-            teaserStats={
+            title="Global regulatory footprint"            teaserStats={
               m['global-actions'].teaser
                 ? `${fmtNum(m['global-actions'].teaser.actions)} foreign actions · ${
                     m['global-actions'].teaser.countries
@@ -244,11 +238,9 @@ export function Dossier({
 
         <ModuleCard
           anchorId="mod-predicate-tree"
-          title="510(k) predicate lineage"
-          cls="IV"
-          teaserStats={
+          title="510(k) predicate lineage"          teaserStats={
             treeApplies && m['predicate-tree'].teaser
-              ? `${m['predicate-tree'].teaser.devices} devices · ${m['predicate-tree'].teaser.citations} cited claims · ${m['predicate-tree'].teaser.hops}-hop cap`
+              ? `${m['predicate-tree'].teaser.devices} devices · ${m['predicate-tree'].teaser.citations} cited claims · ${m['predicate-tree'].teaser.generationsUp} generations back · ${m['predicate-tree'].teaser.generationsDown} forward`
               : undefined
           }
           locked={!has(device.slug, 'predicate-tree')}
@@ -263,16 +255,15 @@ export function Dossier({
             <PredicateTree
               nodes={m['predicate-tree'].payload.nodes}
               edges={m['predicate-tree'].payload.edges}
-              hopCapNote={m['predicate-tree'].payload.hopCapNote}
+              accessories={m['predicate-tree'].payload.accessories}
+              note={m['predicate-tree'].payload.note}
             />
           )}
         </ModuleCard>
 
         <ModuleCard
           anchorId="mod-experts"
-          title="Paid expert profiles"
-          cls="II"
-          teaserStats={
+          title="Paid expert profiles"          teaserStats={
             expTeaser
               ? `${fmtNum(expTeaser.physicians)} physicians · ${fmtUsdCompact(expTeaser.totalPaid)} total (${expTeaser.scope}-scope)`
               : undefined
@@ -321,9 +312,7 @@ export function Dossier({
 
         <ModuleCard
           anchorId="mod-icp-map"
-          title="Demand Map — targeting intelligence"
-          cls="sub"
-          teaserStats={
+          title="Demand Map — targeting intelligence"          teaserStats={
             icpApplies && m['icp-map'].teaser
               ? (m['icp-map'].teaser.facilities
                   ? `${m['icp-map'].teaser.facilities} named facilities · ${m['icp-map'].teaser.counties} counties · ${m['icp-map'].teaser.states} states · CMS ${m['icp-map'].teaser.dataYear} · refreshed monthly`
@@ -396,9 +385,7 @@ export function Dossier({
 
         <ModuleCard
           anchorId="mod-ip"
-          title="USPTO filings"
-          cls="I"
-          teaserStats={
+          title="USPTO filings"          teaserStats={
             m.ip.teaser ? `${fmtNum(m.ip.teaser.patents)} granted patents (assignee match)` : undefined
           }
           locked={!has(device.slug, 'ip')}

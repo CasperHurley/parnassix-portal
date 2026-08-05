@@ -1,0 +1,56 @@
+# Aneural — Device Litigation Intelligence Portal
+
+> Verified litigation intelligence for the top revenue-ranked medical devices: adverse-event exhibits, paid-expert overlap, 510(k) predicate family trees, demand mapping, sponsor trial AEs, and global regulatory footprint — every figure cited to a named dataset. Pre-computed, human-verified JSON; agents should present it with its caveats, never recompose or extrapolate it.
+
+Machine-readable manifest: https://aneural-portal.pages.dev/agent.json
+Device page: https://aneural-portal.pages.dev/?d=<slug> — module anchor: #mod-<moduleId>
+
+## Caveats — read these first (present them with the data)
+
+- Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.
+- Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.
+- Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm — a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).
+- Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded.
+- AACT database, Clinical Trials Transformation Initiative (CTTI) — the relational parse of ClinicalTrials.gov
+
+## Devices
+
+- [Impella heart pump — Abiomed (J&J) · Structural heart](https://aneural-portal.pages.dev/?d=impella-heart-pump): dossier JSON at https://aneural-portal.pages.dev/data/devices/impella-heart-pump.json
+- [Philips CPAP/BiPAP — Philips Respironics · Respiratory](https://aneural-portal.pages.dev/?d=philips-cpap-bipap): dossier JSON at https://aneural-portal.pages.dev/data/devices/philips-cpap-bipap.json
+- [MRI Surescan / pacing leads — Medtronic · Cardiac rhythm](https://aneural-portal.pages.dev/?d=mri-surescan-pacing-leads): dossier JSON at https://aneural-portal.pages.dev/data/devices/mri-surescan-pacing-leads.json
+- [MiniMed insulin pump — Medtronic · Diabetes](https://aneural-portal.pages.dev/?d=minimed-insulin-pump): dossier JSON at https://aneural-portal.pages.dev/data/devices/minimed-insulin-pump.json
+- [HeartWare HVAD — Medtronic / HeartWare · Structural heart](https://aneural-portal.pages.dev/?d=heartware-hvad): dossier JSON at https://aneural-portal.pages.dev/data/devices/heartware-hvad.json
+- [HeartMate 3 LVAD — Abbott / Thoratec · Structural heart](https://aneural-portal.pages.dev/?d=heartmate-3-lvad): dossier JSON at https://aneural-portal.pages.dev/data/devices/heartmate-3-lvad.json
+- [Evolut TAVR valve — Medtronic · Structural heart](https://aneural-portal.pages.dev/?d=evolut-tavr-valve): dossier JSON at https://aneural-portal.pages.dev/data/devices/evolut-tavr-valve.json
+- [Abbott ICD/CRT-D — Abbott · Cardiac rhythm](https://aneural-portal.pages.dev/?d=abbott-icd-crt-d): dossier JSON at https://aneural-portal.pages.dev/data/devices/abbott-icd-crt-d.json
+- [t:slim X2 insulin pump — Tandem · Diabetes](https://aneural-portal.pages.dev/?d=t-slim-x2-insulin-pump): dossier JSON at https://aneural-portal.pages.dev/data/devices/t-slim-x2-insulin-pump.json
+- [Aveir leadless pacemaker — Abbott · Cardiac rhythm](https://aneural-portal.pages.dev/?d=aveir-leadless-pacemaker): dossier JSON at https://aneural-portal.pages.dev/data/devices/aveir-leadless-pacemaker.json
+- [HeartMate II LVAD — Abbott / Thoratec · Structural heart](https://aneural-portal.pages.dev/?d=heartmate-ii-lvad): dossier JSON at https://aneural-portal.pages.dev/data/devices/heartmate-ii-lvad.json
+- [FreeStyle Libre CGM — Abbott · Diabetes](https://aneural-portal.pages.dev/?d=freestyle-libre-cgm): dossier JSON at https://aneural-portal.pages.dev/data/devices/freestyle-libre-cgm.json
+- [Aortic stent graft (AAA/EVAR) — Medtronic / Gore / Cook · Vascular](https://aneural-portal.pages.dev/?d=aortic-stent-graft-aaa-evar): dossier JSON at https://aneural-portal.pages.dev/data/devices/aortic-stent-graft-aaa-evar.json
+- [MitraClip — Abbott · Structural heart](https://aneural-portal.pages.dev/?d=mitraclip): dossier JSON at https://aneural-portal.pages.dev/data/devices/mitraclip.json
+- [Abbott pacemaker — Abbott · Cardiac rhythm](https://aneural-portal.pages.dev/?d=abbott-pacemaker): dossier JSON at https://aneural-portal.pages.dev/data/devices/abbott-pacemaker.json
+- [Durata / Riata ICD leads — Abbott · Cardiac rhythm](https://aneural-portal.pages.dev/?d=durata-riata-icd-leads): dossier JSON at https://aneural-portal.pages.dev/data/devices/durata-riata-icd-leads.json
+- [Proclaim / Infinity neurostim — Abbott · Neuro](https://aneural-portal.pages.dev/?d=proclaim-infinity-neurostim): dossier JSON at https://aneural-portal.pages.dev/data/devices/proclaim-infinity-neurostim.json
+- [Perclose ProGlide closure — Abbott · Vascular](https://aneural-portal.pages.dev/?d=perclose-proglide-closure): dossier JSON at https://aneural-portal.pages.dev/data/devices/perclose-proglide-closure.json
+- [IVC filter — BD / Cook / BSC · Vascular](https://aneural-portal.pages.dev/?d=ivc-filter): dossier JSON at https://aneural-portal.pages.dev/data/devices/ivc-filter.json
+- [Diamondback atherectomy — Abbott / CSI · Vascular](https://aneural-portal.pages.dev/?d=diamondback-atherectomy): dossier JSON at https://aneural-portal.pages.dev/data/devices/diamondback-atherectomy.json
+
+## Modules (per device; anchor #mod-<id>)
+
+- narratives: MAUDE adverse-event exhibit (untangled narratives) — $2,500
+- trial-aes: Sponsor trial adverse-event exhibit (registry) — $2,500
+- global-actions: Global regulatory footprint (7 jurisdictions) — $2,500
+- predicate-tree: 510(k) predicate family tree — $12,000
+- experts: Paid-KOL overlap, ranked (device-anchored) — $2,500
+- icp-map: Demand Map — targeting intelligence — $2,500/mo
+- corporate: Corporate context panel (included with the dossier) — included
+- ip: USPTO filings portfolio — $300
+
+## Data
+
+- Catalog: https://aneural-portal.pages.dev/data/catalog.json
+- Pricing: https://aneural-portal.pages.dev/data/pricing.json
+- Expert profiles: https://aneural-portal.pages.dev/data/devices/<slug>-experts.json
+- Live relay (preferred when up): https://aneural-mac.tail91f859.ts.net/portal/catalog.json (+ /portal/devices/<slug>.json, /portal/evidence/<K>.pdf)
+- MCP server (Streamable HTTP, x-api-key): https://aneural-mac.tail91f859.ts.net/mcp

@@ -1,0 +1,3137 @@
+{
+ "slug": "durata-riata-icd-leads",
+ "name": "Durata / Riata ICD leads",
+ "maker": "Abbott \u00b7 Cardiac rhythm",
+ "rank": 27,
+ "pathway": "pma (P950022 \u2014 the St. Jude/Abbott high-voltage ICD-lead PMA: Riata 2002-2011, Durata 2008-2026, Optisure 2014-2026 supplement streams; zero 510(k) rows). RE-KEY: the brand family fused ENDOTAK \u2014 a BOSTON SCIENTIFIC lead under P910073 \u2014 into an Abbott-labeled score: ~47.7k of the 123.7k fused MAUDE reports (38.5%) and 486 death reports belong to a competitor's product. The NVY/LWS 'two-code' flag is leads (NVY) vs generator-coded lead events (LWS) \u2014 same tort family \u2014 but the cross-manufacturer contamination is real. Key on brands DURATA/RIATA/OPTISURE + P950022 only. Corrected all-time MAUDE death reports: Durata 1,700 / Riata 677 / Optisure 289 (brand-overlap dedup pending).",
+ "maturity": "settled",
+ "stats": {
+  "deaths": 3152,
+  "injuries": 77480,
+  "malfunctions": 43065,
+  "recalls": 9,
+  "classI": 3
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Cardiac rhythm"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (P950022 \u2014 the St. Jude/Abbott high-voltage ICD-lead PMA: Riata 2002-2011, Durata 2008-2026, Optisure 2014-2026 supplement streams; zero 510(k) rows). RE-KEY: the brand family fused ENDOTAK \u2014 a BOSTON SCIENTIFIC lead under P910073 \u2014 into an Abbott-labeled score: ~47.7k of the 123.7k fused MAUDE reports (38.5%) and 486 death reports belong to a competitor's product. The NVY/LWS 'two-code' flag is leads (NVY) vs generator-coded lead events (LWS) \u2014 same tort family \u2014 but the cross-manufacturer contamination is real. Key on brands DURATA/RIATA/OPTISURE + P950022 only. Corrected all-time MAUDE death reports: Durata 1,700 / Riata 677 / Optisure 289 (brand-overlap dedup pending)."
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted, and the Riata half of the tort is LITIGATED TO DEATH \u2014 the family is the historical proof of the Riegel bar, not a live target. The 2011-11-28 Class I Riata recall (128,000 units, corpus) carries root cause 'Device Design' \u2014 the preempted category \u2014 and the case law shows it: Pinsonneault (D. Minn. 2013), Scianneaux (E.D. La. 2013), Freedman (D. Minn. 2014), Waltenburg (W.D. Ky. 201"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "settled"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 3152,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 77480,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 43065,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 9,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 3,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "High impedance",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 1258,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 342960.34,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Stephen Fahrig",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "New York",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2452,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 3,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 2,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2025-07-24",
+   "classification": "Class I",
+   "reason": "Affected lead models may experience gradually rising LVSI measurements in association with calcification of the defibrillation lead coils. The issue may lead to early lead replacement. Most serious harm is death or need ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-07-24",
+   "classification": "Class I",
+   "reason": "Affected lead models may experience gradually rising LVSI measurements in association with calcification of the defibrillation lead coils. The issue may lead to early lead replacement. Most serious harm is death or need ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2015-11-03",
+   "classification": "Class I",
+   "reason": "Leads may have been compromised during the manufacturing process, with cuts in the insulation layer of the SVC shock coil.",
+   "status": "Terminated"
+  },
+  {
+   "date": "2014-06-19",
+   "classification": "Class II",
+   "reason": "A review of manufacturing test records for Boston Scientific  ENDOTAK RELIANCE implantable leads revealed a suspected test data recording error.  Specifically, some test results were recorded as \"failed\" without any othe",
+   "status": "Terminated"
+  },
+  {
+   "date": "2011-11-28",
+   "classification": "Unclassified",
+   "reason": "St. Jude Medical has confirmed the failures associated with all cause insulation failure on the St. Jude Medical Riata and Riata ST Silicone Endocardial Defibrillation Leads with specific emphasis on externalized conduct",
+   "status": "Terminated"
+  },
+  {
+   "date": "2011-11-28",
+   "classification": "Unclassified",
+   "reason": "The recall was initiated because St. Jude Medical has confirmed the failures associated with all cause insulation failure on the St. Jude Medical Riata and Riata ST Silicone Endocardial Defibrillation Leads with specific",
+   "status": "Terminated"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2005,
+     "value": 2
+    },
+    {
+     "year": 2007,
+     "value": 1
+    },
+    {
+     "year": 2011,
+     "value": 2
+    },
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 2
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1997,
+     "value": 5
+    },
+    {
+     "year": 1998,
+     "value": 5
+    },
+    {
+     "year": 1999,
+     "value": 1
+    },
+    {
+     "year": 2000,
+     "value": 8
+    },
+    {
+     "year": 2001,
+     "value": 9
+    },
+    {
+     "year": 2002,
+     "value": 4
+    },
+    {
+     "year": 2003,
+     "value": 7
+    },
+    {
+     "year": 2004,
+     "value": 14
+    },
+    {
+     "year": 2005,
+     "value": 19
+    },
+    {
+     "year": 2006,
+     "value": 17
+    },
+    {
+     "year": 2007,
+     "value": 15
+    },
+    {
+     "year": 2008,
+     "value": 21
+    },
+    {
+     "year": 2009,
+     "value": 36
+    },
+    {
+     "year": 2010,
+     "value": 60
+    },
+    {
+     "year": 2011,
+     "value": 125
+    },
+    {
+     "year": 2012,
+     "value": 144
+    },
+    {
+     "year": 2013,
+     "value": 190
+    },
+    {
+     "year": 2014,
+     "value": 335
+    },
+    {
+     "year": 2015,
+     "value": 260
+    },
+    {
+     "year": 2016,
+     "value": 296
+    },
+    {
+     "year": 2017,
+     "value": 532
+    },
+    {
+     "year": 2018,
+     "value": 330
+    },
+    {
+     "year": 2019,
+     "value": 238
+    },
+    {
+     "year": 2020,
+     "value": 148
+    },
+    {
+     "year": 2021,
+     "value": 87
+    },
+    {
+     "year": 2022,
+     "value": 60
+    },
+    {
+     "year": 2023,
+     "value": 67
+    },
+    {
+     "year": 2024,
+     "value": 59
+    },
+    {
+     "year": 2025,
+     "value": 3
+    },
+    {
+     "year": 2026,
+     "value": 54
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1995,
+     "value": 1
+    },
+    {
+     "year": 1996,
+     "value": 4
+    },
+    {
+     "year": 1997,
+     "value": 554
+    },
+    {
+     "year": 1998,
+     "value": 164
+    },
+    {
+     "year": 1999,
+     "value": 17
+    },
+    {
+     "year": 2000,
+     "value": 21
+    },
+    {
+     "year": 2001,
+     "value": 24
+    },
+    {
+     "year": 2002,
+     "value": 30
+    },
+    {
+     "year": 2003,
+     "value": 126
+    },
+    {
+     "year": 2004,
+     "value": 113
+    },
+    {
+     "year": 2005,
+     "value": 120
+    },
+    {
+     "year": 2006,
+     "value": 1117
+    },
+    {
+     "year": 2007,
+     "value": 1671
+    },
+    {
+     "year": 2008,
+     "value": 2571
+    },
+    {
+     "year": 2009,
+     "value": 1474
+    },
+    {
+     "year": 2010,
+     "value": 2724
+    },
+    {
+     "year": 2011,
+     "value": 4622
+    },
+    {
+     "year": 2012,
+     "value": 4669
+    },
+    {
+     "year": 2013,
+     "value": 4484
+    },
+    {
+     "year": 2014,
+     "value": 5932
+    },
+    {
+     "year": 2015,
+     "value": 4988
+    },
+    {
+     "year": 2016,
+     "value": 4897
+    },
+    {
+     "year": 2017,
+     "value": 5010
+    },
+    {
+     "year": 2018,
+     "value": 5503
+    },
+    {
+     "year": 2019,
+     "value": 4823
+    },
+    {
+     "year": 2020,
+     "value": 4337
+    },
+    {
+     "year": 2021,
+     "value": 4373
+    },
+    {
+     "year": 2022,
+     "value": 4003
+    },
+    {
+     "year": 2023,
+     "value": 3625
+    },
+    {
+     "year": 2024,
+     "value": 3491
+    },
+    {
+     "year": 2025,
+     "value": 142
+    },
+    {
+     "year": 2026,
+     "value": 1849
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2018,
+     "value": 92082.48
+    },
+    {
+     "year": 2019,
+     "value": 144084.96
+    },
+    {
+     "year": 2020,
+     "value": 47568.17
+    },
+    {
+     "year": 2021,
+     "value": 13353.74
+    },
+    {
+     "year": 2022,
+     "value": 19855.55
+    },
+    {
+     "year": 2023,
+     "value": 5002.02
+    },
+    {
+     "year": 2024,
+     "value": 21013.42
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2011,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2015,
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 258031,
+    "distinctProblemCodes": 210,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "High impedance",
+      "reports": 18555,
+      "narrative": "IT WAS REPORTED THAT THE RIGHT VENTRICULAR (RV) LEAD WHICH IS ATTACHED TO ANOTHER MANUFACTURER'S DEVICE EXHIBITED AN ABRUPT INCREASE IN IMPEDANCE MEASUREMENTS TO 1000 OHMS. FURTHER REVIEW DETERMINED THAT THE PATIENT HAD TWIDDLER'S SYNDROME WHICH WAS BELIEVED TO HAVE CAUSED THE CHANGE IN IMPEDANCE MEASUREMENTS. THE FIELD REPRESENTATIVE NOTED THAT A REVISION PROCEDURE WAS PERFORMED, HOWEVER IT WAS DONE BY ANOTHER MANUF"
+     },
+     {
+      "problem": "Over-Sensing",
+      "reports": 15333,
+      "narrative": "THE LEAD WAS SURGICALLY ABANDONED AND IS NOT EXPECTED TO BE RETURNED. AS NO FURTHER INFORMATION CONCERNING THIS REPORT IS EXPECTED, OUR INVESTIGATION IS COMPLETE. THIS INVESTIGATION WILL BE UPDATED SHOULD FURTHER INFORMATION BE PROVIDED."
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 12706,
+      "narrative": "THIS PRODUCT IS REGISTERED AS A COMBINATION PRODUCT. THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     },
+     {
+      "problem": "Device Dislodged or Dislocated",
+      "reports": 7440,
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED IN-CLINIC AFTER RECEIVING INAPPROPRIATE SHOCKS. UPON INTERROGATION, THE RIGHT VENTRICULAR LEAD WAS FOUND TO BE OVERSENSING ATRIAL SIGNALS. IT WAS ALSO NOTED THAT CAPTURE WAS UNOBTAINABLE AND SENSING WAS ERRATIC. IT WAS SUSPECTED THAT THE LEAD HAD DISLODGED. PROGRAMMING CHANGES WERE MADE AND THE PATIENT RETURNED FOR A LEAD EXPLANT PROCEDURE. THE PATIENT IS RECOVERING."
+     },
+     {
+      "problem": "Signal Artifact/Noise",
+      "reports": 6506,
+      "narrative": "THE REPORTED EVENTS OF NOISE RESULTING IN OVERSENSING, LOW PACING IMPEDANCE, AND LEAD FRACTURE WERE NOT CONFIRMED. AS RECEIVED, A COMPLETE LEAD WAS RETURNED IN ONE PIECE. ELECTRICAL TESTING DID NOT FIND ANY INDICATION OF CONDUCTOR FRACTURES OR INTERNAL SHORTS. VISUAL AND X-RAY INSPECTION OF THE LEAD FOUND NO ANOMALIES."
+     },
+     {
+      "problem": "High Capture Threshold",
+      "reports": 6127,
+      "narrative": "THIS PRODUCT IS REGISTERED AS A COMBINATION PRODUCT. THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     },
+     {
+      "problem": "Failure to Capture",
+      "reports": 6119,
+      "narrative": "THE PATIENT PRESENTED INTO THE EMERGENCY ROOM DUE TO DIZZINESS. DURING INVESTIGATION, LEAD DAMAGE WAS CONFIRMED ON THE RIGHT VENTRICULAR (RV) LEAD. THE PATIENT ELECTED TO HAVE THE ICD DOWNGRADED, SO THE DEVICE WAS EXPLANTED AND REPLACED WITH A PACEMAKER. DURING THIS PROCEDURE, THE RV LEAD WAS CAPPED TO RESOLVE THE EVENT. THE PATIENT WAS STABLE AND WILL CONTINUE TO BE MONITORED."
+     },
+     {
+      "problem": "Break",
+      "reports": 5649,
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "notApplicable": true,
+   "reason": "No 510(k) clearances match this device's brand patterns.",
+   "source": "FDA 510(k) decisions."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 1258,
+    "totalPaid": 342960.34,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "TN",
+      "total": 40315.0,
+      "payments": 53,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "WI",
+      "total": 38250.0,
+      "payments": 25,
+      "years": "2019",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 23400.0,
+      "payments": 33,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "MI",
+      "total": 20299.0,
+      "payments": 15,
+      "years": "2018\u20132019",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "AZ",
+      "total": 16885.0,
+      "payments": 25,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "PA",
+      "total": 13740.98,
+      "payments": 4,
+      "years": "2024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "NJ",
+      "total": 13275.0,
+      "payments": 10,
+      "years": "2019\u20132020",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 11345.98,
+      "payments": 17,
+      "years": "2018\u20132022",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "ND",
+      "total": 11136.0,
+      "payments": 3,
+      "years": "2019",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "ID",
+      "total": 8837.5,
+      "payments": 13,
+      "years": "2018\u20132019",
+      "topNature": "Consulting Fee"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "TN",
+      "total": 40315.0,
+      "payments": 53,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee",
+      "name": "Stephen Fahrig"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "WI",
+      "total": 38250.0,
+      "payments": 25,
+      "years": "2019",
+      "topNature": "Consulting Fee",
+      "name": "Lee Biblo"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 23400.0,
+      "payments": 33,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee",
+      "name": "Andrew Epstein"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "MI",
+      "total": 20299.0,
+      "payments": 15,
+      "years": "2018\u20132019",
+      "topNature": "Consulting Fee",
+      "name": "Christian Machado"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "AZ",
+      "total": 16885.0,
+      "payments": 25,
+      "years": "2018\u20132020",
+      "topNature": "Consulting Fee",
+      "name": "Jesse Sethi"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "PA",
+      "total": 13740.98,
+      "payments": 4,
+      "years": "2024",
+      "topNature": "Consulting Fee",
+      "name": "Robert Schaller"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "NJ",
+      "total": 13275.0,
+      "payments": 10,
+      "years": "2019\u20132020",
+      "topNature": "Consulting Fee",
+      "name": "Marc Roelke"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 11345.98,
+      "payments": 17,
+      "years": "2018\u20132022",
+      "topNature": "Consulting Fee",
+      "name": "Vinod Jayam"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "ND",
+      "total": 11136.0,
+      "payments": 3,
+      "years": "2019",
+      "topNature": "Consulting Fee",
+      "name": "Noah Chelliah"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "ID",
+      "total": 8837.5,
+      "payments": 13,
+      "years": "2018\u20132019",
+      "topNature": "Consulting Fee",
+      "name": "Roger Freedman"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "MEDTRONIC INC",
+    "nParents": 30,
+    "inspections": 3653,
+    "citations": 2471,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8484,
+     "inMdl": 7232,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2452,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2452,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Laboratories/Ross Laboratories",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Biotech, Incorporated",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 54,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 450000,
+    "counties": 76,
+    "facilities": 86,
+    "topFacilityCity": "Roslyn, NY"
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "93296",
+      "description": "Remote evaluation of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "services": 13455573
+     },
+     {
+      "code": "93295",
+      "description": "Remote evaluation of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "services": 6395985
+     },
+     {
+      "code": "93284",
+      "description": "Evaluation, testing, and programming adjustment of permanent multiple lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 2681402
+     },
+     {
+      "code": "93283",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 2491091
+     },
+     {
+      "code": "93282",
+      "description": "Evaluation, testing, and programming adjustment of permanent single lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 1269147
+     },
+     {
+      "code": "93289",
+      "description": "Evaluation of parameters of single, dual, or multiple lead cardioverter-defibrillator including device connection, recording, and disconnection",
+      "services": 1156482
+     }
+    ],
+    "states": [
+     {
+      "state": "New York",
+      "services": 450000,
+      "beneficiaries": 166126
+     },
+     {
+      "state": "Florida",
+      "services": 219702,
+      "beneficiaries": 95691
+     },
+     {
+      "state": "Texas",
+      "services": 216501,
+      "beneficiaries": 91114
+     },
+     {
+      "state": "California",
+      "services": 163148,
+      "beneficiaries": 72941
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 148459,
+      "beneficiaries": 65212
+     },
+     {
+      "state": "Ohio",
+      "services": 119959,
+      "beneficiaries": 50586
+     },
+     {
+      "state": "Illinois",
+      "services": 109934,
+      "beneficiaries": 51162
+     },
+     {
+      "state": "North Carolina",
+      "services": 99701,
+      "beneficiaries": 42810
+     },
+     {
+      "state": "New Jersey",
+      "services": 84408,
+      "beneficiaries": 35939
+     },
+     {
+      "state": "Tennessee",
+      "services": 79320,
+      "beneficiaries": 35552
+     },
+     {
+      "state": "Georgia",
+      "services": 78717,
+      "beneficiaries": 32406
+     },
+     {
+      "state": "Indiana",
+      "services": 76618,
+      "beneficiaries": 33687
+     },
+     {
+      "state": "Missouri",
+      "services": 74302,
+      "beneficiaries": 30994
+     },
+     {
+      "state": "Massachusetts",
+      "services": 69600,
+      "beneficiaries": 30860
+     },
+     {
+      "state": "Virginia",
+      "services": 66818,
+      "beneficiaries": 30414
+     },
+     {
+      "state": "Arizona",
+      "services": 66679,
+      "beneficiaries": 27528
+     },
+     {
+      "state": "South Carolina",
+      "services": 64153,
+      "beneficiaries": 28296
+     },
+     {
+      "state": "Washington",
+      "services": 56887,
+      "beneficiaries": 23625
+     },
+     {
+      "state": "Minnesota",
+      "services": 56495,
+      "beneficiaries": 26359
+     },
+     {
+      "state": "Michigan",
+      "services": 55191,
+      "beneficiaries": 27154
+     },
+     {
+      "state": "Maryland",
+      "services": 52044,
+      "beneficiaries": 24778
+     },
+     {
+      "state": "Kansas",
+      "services": 49185,
+      "beneficiaries": 20535
+     },
+     {
+      "state": "Colorado",
+      "services": 47077,
+      "beneficiaries": 18103
+     },
+     {
+      "state": "Alabama",
+      "services": 46847,
+      "beneficiaries": 20529
+     },
+     {
+      "state": "Kentucky",
+      "services": 46701,
+      "beneficiaries": 19670
+     },
+     {
+      "state": "Louisiana",
+      "services": 39696,
+      "beneficiaries": 16923
+     },
+     {
+      "state": "Oklahoma",
+      "services": 33756,
+      "beneficiaries": 14611
+     },
+     {
+      "state": "Nebraska",
+      "services": 33356,
+      "beneficiaries": 13814
+     },
+     {
+      "state": "Iowa",
+      "services": 31198,
+      "beneficiaries": 13084
+     },
+     {
+      "state": "Arkansas",
+      "services": 30576,
+      "beneficiaries": 14762
+     },
+     {
+      "state": "Mississippi",
+      "services": 30553,
+      "beneficiaries": 14247
+     },
+     {
+      "state": "Wisconsin",
+      "services": 30285,
+      "beneficiaries": 16461
+     },
+     {
+      "state": "Connecticut",
+      "services": 27232,
+      "beneficiaries": 12963
+     },
+     {
+      "state": "Oregon",
+      "services": 19547,
+      "beneficiaries": 9653
+     },
+     {
+      "state": "West Virginia",
+      "services": 17350,
+      "beneficiaries": 7876
+     },
+     {
+      "state": "Utah",
+      "services": 16472,
+      "beneficiaries": 7783
+     },
+     {
+      "state": "Delaware",
+      "services": 14107,
+      "beneficiaries": 7298
+     },
+     {
+      "state": "Montana",
+      "services": 10550,
+      "beneficiaries": 4994
+     },
+     {
+      "state": "Alaska",
+      "services": 9987,
+      "beneficiaries": 3439
+     },
+     {
+      "state": "Nevada",
+      "services": 9918,
+      "beneficiaries": 5161
+     },
+     {
+      "state": "Idaho",
+      "services": 8749,
+      "beneficiaries": 5048
+     },
+     {
+      "state": "New Hampshire",
+      "services": 5976,
+      "beneficiaries": 3418
+     },
+     {
+      "state": "New Mexico",
+      "services": 5516,
+      "beneficiaries": 2530
+     },
+     {
+      "state": "South Dakota",
+      "services": 5374,
+      "beneficiaries": 2924
+     },
+     {
+      "state": "District of Columbia",
+      "services": 5166,
+      "beneficiaries": 2731
+     },
+     {
+      "state": "Rhode Island",
+      "services": 4725,
+      "beneficiaries": 2386
+     },
+     {
+      "state": "Maine",
+      "services": 3909,
+      "beneficiaries": 2128
+     },
+     {
+      "state": "North Dakota",
+      "services": 3724,
+      "beneficiaries": 2198
+     },
+     {
+      "state": "Vermont",
+      "services": 3667,
+      "beneficiaries": 1943
+     },
+     {
+      "state": "Hawaii",
+      "services": 2397,
+      "beneficiaries": 1175
+     },
+     {
+      "state": "Wyoming",
+      "services": 2156,
+      "beneficiaries": 1275
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 375,
+      "beneficiaries": 220
+     },
+     {
+      "state": "Guam",
+      "services": 42,
+      "beneficiaries": 20
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 38,
+      "beneficiaries": 18
+     }
+    ],
+    "facilities": [
+     {
+      "ccn": "330182",
+      "name": "St Francis Hospital, Roslyn",
+      "city": "Roslyn",
+      "state": "NY",
+      "countyFips": "36059",
+      "lat": 40.797,
+      "lon": -73.647,
+      "discharges": 126,
+      "outpatientServices": 250,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 61
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 34
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 54,
+      "outpatientServices": 232,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 21
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 75,
+      "outpatientServices": 149,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 29
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 26
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 20
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 28,
+      "outpatientServices": 175,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 15
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 52,
+      "outpatientServices": 147,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 20
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "310073",
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune",
+      "state": "NJ",
+      "countyFips": "34025",
+      "lat": 40.211,
+      "lon": -74.074,
+      "discharges": 28,
+      "outpatientServices": 162,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 17
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "390111",
+      "name": "Hospital Of Univ Of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "PA",
+      "countyFips": "42101",
+      "lat": 39.959,
+      "lon": -75.199,
+      "discharges": 54,
+      "outpatientServices": 134,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 29
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 52,
+      "outpatientServices": 131,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 23
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 17
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 49,
+      "outpatientServices": 111,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 57,
+      "outpatientServices": 103,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 18
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 17
+       }
+      ]
+     },
+     {
+      "ccn": "440048",
+      "name": "Baptist Memorial Hospital",
+      "city": "Memphis",
+      "state": "TN",
+      "countyFips": "47157",
+      "lat": 35.124,
+      "lon": -89.853,
+      "discharges": 11,
+      "outpatientServices": 149,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "140053",
+      "name": "St Johns Hospital",
+      "city": "Springfield",
+      "state": "IL",
+      "countyFips": "17167",
+      "lat": 39.757,
+      "lon": -89.662,
+      "discharges": 44,
+      "outpatientServices": 115,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 22
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 42,
+      "outpatientServices": 115,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 21
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 21
+       }
+      ]
+     },
+     {
+      "ccn": "450431",
+      "name": "St David'S Medical Center",
+      "city": "Austin",
+      "state": "TX",
+      "countyFips": "48453",
+      "lat": 30.295,
+      "lon": -97.739,
+      "discharges": 25,
+      "outpatientServices": 122,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 13
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 32,
+      "outpatientServices": 114,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 20
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "310014",
+      "name": "Cooper University Hospital",
+      "city": "Camden",
+      "state": "NJ",
+      "countyFips": "34007",
+      "lat": 39.935,
+      "lon": -75.113,
+      "discharges": 12,
+      "outpatientServices": 130,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "450388",
+      "name": "Methodist Hospital",
+      "city": "San Antonio",
+      "state": "TX",
+      "countyFips": "48029",
+      "lat": 29.506,
+      "lon": -98.577,
+      "discharges": 29,
+      "outpatientServices": 109,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 15
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "080001",
+      "name": "Christianacare",
+      "city": "Newark",
+      "state": "DE",
+      "countyFips": "10003",
+      "lat": 39.576,
+      "lon": -75.644,
+      "discharges": 35,
+      "outpatientServices": 101,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 19
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "490007",
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "VA",
+      "countyFips": "51710",
+      "lat": 36.865,
+      "lon": -76.303,
+      "discharges": 42,
+      "outpatientServices": 93,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 17
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 14
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 28,
+      "outpatientServices": 103,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 16
+       },
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "440039",
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.141,
+      "lon": -86.803,
+      "discharges": 11,
+      "outpatientServices": 110,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "450358",
+      "name": "Houston Methodist Hospital",
+      "city": "Houston",
+      "state": "TX",
+      "countyFips": "48201",
+      "lat": 29.706,
+      "lon": -95.402,
+      "discharges": 14,
+      "outpatientServices": 106,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "310038",
+      "name": "Robert Wood Johnson University Hospital",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "countyFips": "34023",
+      "lat": 40.484,
+      "lon": -74.442,
+      "discharges": 11,
+      "outpatientServices": 109,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "310031",
+      "name": "Deborah Heart And Lung Center",
+      "city": "Browns Mills",
+      "state": "NJ",
+      "countyFips": "34005",
+      "lat": 39.932,
+      "lon": -74.544,
+      "discharges": 25,
+      "outpatientServices": 94,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "277",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+        "n": 13
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "340040",
+      "name": "Ecu Health Medical Center",
+      "city": "Greenville",
+      "state": "NC",
+      "countyFips": "37147",
+      "lat": 35.657,
+      "lon": -77.38,
+      "discharges": 27,
+      "outpatientServices": 88,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 15
+       },
+       {
+        "code": "275",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+        "n": 12
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 510,
+      "facilities": 2,
+      "per10k65": 17.2
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 425,
+      "facilities": 2,
+      "per10k65": 16.4
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 323,
+      "facilities": 3,
+      "per10k65": 31.0
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 280,
+      "facilities": 2,
+      "per10k65": 14.6
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 227,
+      "facilities": 2,
+      "per10k65": 26.0
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 223,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 203,
+      "facilities": 1,
+      "per10k65": 15.1
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 190,
+      "facilities": 1,
+      "per10k65": 15.4
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 188,
+      "facilities": 1,
+      "per10k65": 8.1
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 184,
+      "facilities": 2,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 58.4
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 18.4
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 160,
+      "facilities": 1,
+      "per10k65": 11.8
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 159,
+      "facilities": 1,
+      "per10k65": 42.0
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 157,
+      "facilities": 1,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 147,
+      "facilities": 1,
+      "per10k65": 10.0
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 15.6
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 136,
+      "facilities": 1,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 135,
+      "facilities": 1,
+      "per10k65": 44.3
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 121,
+      "facilities": 1,
+      "per10k65": 13.1
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 2.1
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 119,
+      "facilities": 1,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 115,
+      "facilities": 1,
+      "per10k65": 44.7
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 115,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 114,
+      "facilities": 1,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 113,
+      "facilities": 1,
+      "per10k65": 6.2
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 112,
+      "facilities": 1,
+      "per10k65": 19.2
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 43.1
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 110,
+      "facilities": 1,
+      "per10k65": 0.7
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 24.1
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 103,
+      "facilities": 1,
+      "per10k65": 10.4
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 98,
+      "facilities": 1,
+      "per10k65": 160.2
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 96,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 28.8
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 95,
+      "facilities": 1,
+      "per10k65": 5.5
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 18.9
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 17.8
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 39.8
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 88,
+      "facilities": 1,
+      "per10k65": 14.8
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 88,
+      "facilities": 2,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 83,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "25017",
+      "name": "Middlesex",
+      "state": "MA",
+      "services": 77,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 11.3
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 72,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 72,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 5.8
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 70,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 69,
+      "facilities": 1,
+      "per10k65": 4.5
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 62,
+      "facilities": 1,
+      "per10k65": 7.4
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 61,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 59,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 59,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 52,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 50,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 49,
+      "facilities": 1,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "20091",
+      "name": "Johnson",
+      "state": "KS",
+      "services": 48,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 48,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 45,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 44,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 41,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 33,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 32,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "36085",
+      "name": "Richmond",
+      "state": "NY",
+      "services": 29,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 22,
+      "facilities": 2,
+      "per10k65": 2.5
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": 2023
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "PA",
+       "physicians": 66,
+       "totalUsd": 41225.11
+      },
+      {
+       "state": "TN",
+       "physicians": 14,
+       "totalUsd": 40552.61
+      },
+      {
+       "state": "WI",
+       "physicians": 8,
+       "totalUsd": 38445.27
+      },
+      {
+       "state": "AZ",
+       "physicians": 50,
+       "totalUsd": 28901.83
+      },
+      {
+       "state": "TX",
+       "physicians": 236,
+       "totalUsd": 27692.86
+      },
+      {
+       "state": "CA",
+       "physicians": 109,
+       "totalUsd": 25257.29
+      },
+      {
+       "state": "MI",
+       "physicians": 38,
+       "totalUsd": 22505.71
+      },
+      {
+       "state": "NY",
+       "physicians": 103,
+       "totalUsd": 21357.93
+      },
+      {
+       "state": "NJ",
+       "physicians": 66,
+       "totalUsd": 19141.84
+      },
+      {
+       "state": "FL",
+       "physicians": 138,
+       "totalUsd": 14778.2
+      },
+      {
+       "state": "UT",
+       "physicians": 8,
+       "totalUsd": 13880.08
+      },
+      {
+       "state": "ND",
+       "physicians": 1,
+       "totalUsd": 11136.0
+      },
+      {
+       "state": "OR",
+       "physicians": 2,
+       "totalUsd": 5474.0
+      },
+      {
+       "state": "MN",
+       "physicians": 9,
+       "totalUsd": 3992.96
+      },
+      {
+       "state": "MO",
+       "physicians": 65,
+       "totalUsd": 2806.88
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Aurora Medical Group",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 3
+     },
+     {
+      "name": "Jackson Heart Clinic",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "lat": 32.299,
+      "lon": -90.185,
+      "trials": 3
+     },
+     {
+      "name": "Cardiology Associates of North Mississippi",
+      "city": "Tupelo",
+      "state": "Mississippi",
+      "lat": 34.258,
+      "lon": -88.705,
+      "trials": 2
+     },
+     {
+      "name": "Donald Guthrie Foundation for Education and Research",
+      "city": "Sayre",
+      "state": "Pennsylvania",
+      "lat": 41.979,
+      "lon": -76.516,
+      "trials": 2
+     },
+     {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
+      "trials": 2
+     },
+     {
+      "name": "Parkview Research Center",
+      "city": "Fort Wayne",
+      "state": "Indiana",
+      "lat": 41.131,
+      "lon": -85.129,
+      "trials": 2
+     },
+     {
+      "name": "Redmond Regional Medical Center",
+      "city": "Rome",
+      "state": "Georgia",
+      "lat": 34.257,
+      "lon": -85.165,
+      "trials": 2
+     },
+     {
+      "name": "Saint Vincent Consultants in Cardiovascular Diseases",
+      "city": "Erie",
+      "state": "Pennsylvania",
+      "lat": 42.129,
+      "lon": -80.085,
+      "trials": 2
+     },
+     {
+      "name": "Sparrow Clinical Research Institute",
+      "city": "Lansing",
+      "state": "Michigan",
+      "lat": 42.733,
+      "lon": -84.556,
+      "trials": 2
+     },
+     {
+      "name": "The Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "University of Pittsburgh Medical Center",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 2
+     },
+     {
+      "name": "Arizona Arrhythmia Consultants",
+      "city": "Scottsdale",
+      "state": "Arizona",
+      "lat": 33.509,
+      "lon": -111.899,
+      "trials": 1
+     },
+     {
+      "name": "Arkansas Heart Hospital",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 1
+     },
+     {
+      "name": "Arrhythmia Consultants",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "lat": 35.15,
+      "lon": -90.049,
+      "trials": 1
+     },
+     {
+      "name": "Arrhythmia Institute",
+      "city": "Newtown",
+      "state": "Pennsylvania",
+      "lat": 40.229,
+      "lon": -74.937,
+      "trials": 1
+     },
+     {
+      "name": "Asheville Cardiology Associates",
+      "city": "Asheville",
+      "state": "North Carolina",
+      "lat": 35.601,
+      "lon": -82.554,
+      "trials": 1
+     },
+     {
+      "name": "Athens Regional Medical Center",
+      "city": "Athens",
+      "state": "Georgia",
+      "lat": 33.961,
+      "lon": -83.378,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Medical Center Princeton",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
+      "trials": 1
+     },
+     {
+      "name": "Baylor All Saints Medical Center at Fort Worth",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "lat": 32.725,
+      "lon": -97.321,
+      "trials": 1
+     },
+     {
+      "name": "Cardiac Rhythm Specialists",
+      "city": "Reseda",
+      "state": "California",
+      "lat": 34.201,
+      "lon": -118.536,
+      "trials": 1
+     },
+     {
+      "name": "Cardiac Rhythm Specialists, Inc.",
+      "city": "Reseda",
+      "state": "California",
+      "lat": 34.201,
+      "lon": -118.536,
+      "trials": 1
+     },
+     {
+      "name": "Cardiac Rhythm Specialists, S.C.",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 1
+     },
+     {
+      "name": "Cardiology Care Consultants",
+      "city": "El Paso",
+      "state": "Texas",
+      "lat": 31.759,
+      "lon": -106.487,
+      "trials": 1
+     },
+     {
+      "name": "Cardiology, P.C.",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
+      "trials": 1
+     },
+     {
+      "name": "Cardiovascular Associates of the Delaware Valley",
+      "city": "Haddon Heights",
+      "state": "New Jersey",
+      "lat": 39.877,
+      "lon": -75.065,
+      "trials": 1
+     },
+     {
+      "name": "Cardiovascular Group of Syracuse",
+      "city": "Liverpool",
+      "state": "New York",
+      "lat": 43.106,
+      "lon": -76.218,
+      "trials": 1
+     },
+     {
+      "name": "CarolinaEast Heart Center",
+      "city": "New Bern",
+      "state": "North Carolina",
+      "lat": 35.108,
+      "lon": -77.044,
+      "trials": 1
+     },
+     {
+      "name": "CenExel Rocky Mountain Clinical Research",
+      "city": "Englewood",
+      "state": "Colorado",
+      "lat": 39.648,
+      "lon": -104.988,
+      "trials": 1
+     },
+     {
+      "name": "Central Cardiology",
+      "city": "Bakersfield",
+      "state": "California",
+      "lat": 35.373,
+      "lon": -119.019,
+      "trials": 1
+     },
+     {
+      "name": "Coney Island Hospital",
+      "city": "Brooklyn",
+      "state": "New York",
+      "lat": 40.65,
+      "lon": -73.95,
+      "trials": 1
+     },
+     {
+      "name": "Deborah Heart and Lung",
+      "city": "Browns Mills",
+      "state": "New Jersey",
+      "lat": 39.973,
+      "lon": -74.583,
+      "trials": 1
+     },
+     {
+      "name": "Desert Heart Rhythm Consultants",
+      "city": "Palm Springs",
+      "state": "California",
+      "lat": 33.83,
+      "lon": -116.545,
+      "trials": 1
+     },
+     {
+      "name": "Drexel University College oF Medicine",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 1
+     },
+     {
+      "name": "Duke University",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 1
+     },
+     {
+      "name": "Florida Hospital",
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.538,
+      "lon": -81.379,
+      "trials": 1
+     },
+     {
+      "name": "Genesys Regional Medical Center",
+      "city": "Grand Blanc",
+      "state": "Michigan",
+      "lat": 42.928,
+      "lon": -83.63,
+      "trials": 1
+     },
+     {
+      "name": "Great Lakes Medical Research, LLC",
+      "city": "Willoughby",
+      "state": "Ohio",
+      "lat": 41.64,
+      "lon": -81.407,
+      "trials": 1
+     },
+     {
+      "name": "HealthCare Partners Cardiology",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "lat": 36.175,
+      "lon": -115.137,
+      "trials": 1
+     },
+     {
+      "name": "Heart Center Research",
+      "city": "Huntsville",
+      "state": "Alabama",
+      "lat": 34.73,
+      "lon": -86.586,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 234,
+     "usSites": 130,
+     "trials": 19,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 22,
+    "trialsWithAeTables": 4,
+    "seriousEventRows": 252,
+    "seriousSubjectsAffected": 447,
+    "deathTermSubjects": 0,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 22,
+    "trialsWithAeTables": 4,
+    "trialsWithSerious": 4,
+    "totals": {
+     "serious": {
+      "rows": 252,
+      "subjects": 447
+     },
+     "other": {
+      "rows": 168,
+      "subjects": 330
+     },
+     "deathTermSubjects": 0
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Lead Dislodgement or Migration",
+      "organSystem": "Product Issues",
+      "rows": 2,
+      "subjectsAffected": 77
+     },
+     {
+      "term": "Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 4,
+      "subjectsAffected": 47
+     },
+     {
+      "term": "lead noise",
+      "organSystem": "Product Issues",
+      "rows": 4,
+      "subjectsAffected": 20
+     },
+     {
+      "term": "heart Failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 18
+     },
+     {
+      "term": "Abnormal high voltage lead impredance",
+      "organSystem": "Product Issues",
+      "rows": 4,
+      "subjectsAffected": 13
+     },
+     {
+      "term": "Drug",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 11
+     },
+     {
+      "term": "Abnormal Pacing Impedance",
+      "organSystem": "Product Issues",
+      "rows": 4,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "oversensing",
+      "organSystem": "Product Issues",
+      "rows": 4,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Generator Malfunction",
+      "organSystem": "Product Issues",
+      "rows": 2,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Arrhythmic Storm",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 8
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT02235545",
+      "title": "Optisure Lead Post Approval Study",
+      "phase": null,
+      "status": "TERMINATED",
+      "startYear": "2014",
+      "seriousRows": 62,
+      "seriousSubjects": 209
+     },
+     {
+      "nctId": "NCT00180297",
+      "title": "Septal - Success Rate and Clinical Outcome of Septal Implant of Ventricular Defibrillation Lead",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2005",
+      "seriousRows": 136,
+      "seriousSubjects": 153
+     },
+     {
+      "nctId": "NCT01507987",
+      "title": "St.Jude Medical Cardiac Lead Assessment Study",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2013",
+      "seriousRows": 52,
+      "seriousSubjects": 83
+     },
+     {
+      "nctId": "NCT02050321",
+      "title": "A Phase II Study of Vemurafenib Combined With Acitretin in Patients With Advanced Melanoma",
+      "phase": "PHASE2",
+      "status": "TERMINATED",
+      "startYear": "2013",
+      "seriousRows": 2,
+      "seriousSubjects": 2
+     },
+     {
+      "nctId": "NCT00156247",
+      "title": "Acitretin and Etanercept in Psoriasis",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "startYear": "2005",
+      "seriousRows": 0,
+      "seriousSubjects": 0
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 3,
+    "countries": 2,
+    "sources": 1,
+    "firstForeignDate": "2011-11-29",
+    "latestAction": {
+     "country": "Canada",
+     "date": "2015-10-30",
+     "classification": "II"
+    },
+    "screenedOut": 49
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2015-10-30",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "OPTISURE DEFIBRILLATION LEAD (ACTIVE FIXATION)",
+        "reason": "DURING THE MANUFACTURING PROCESS OF A LIMITED NUMBER OF OPTISURE LEADS A TRIM TECHNIQUE USED TO REMOVE EXCESS MEDICAL ADHESIVE AROUND THE SVC SHOCK COIL MAY HAVE INTRODUCED DAMAGE TO THE LEAD'S INSULATION.",
+        "url": null
+       },
+       {
+        "date": "2011-11-29",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "RIATA ST ACTIVE FIXATION DUAL COIL ICD LEAD (STEROID ELUTING)",
+        "reason": "RIATA AND RIATA ST SILICONE LEADS HAVE DEMONSTRATED A HIGH RATE OF EXTERNALIZED CONDUCTORS I.E. INTERIOR ETHYLENE TETRAFLUOROETHYLENE (ETFE) COVERED LEAD CONDUCTOR WIRES EXTRUDING FROM THE DEVICE LUMEN INTO THE INTRAVASCULAR SPACE.",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2014-03-13",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "Riata and Riata ST \u2013 all silicone coated models",
+        "reason": "These blood glucose meters may give incorrect low blood glucose results when they are used with FreeStyle Lite and FreeStyle blood glucose test strips.\nAbbott Diabetes Care is therefore asking people to stop using these affected meters and to contact them to get a replacement.\nThe manufacturer has s",
+        "url": "https://webarchive.nationalarchives.gov.uk/20150113054913/http://www.mhra.gov.uk/PrintPreview/MedicalDeviceAlertSP/CON392815?tabName=allTabs"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2011,
+      "value": 1
+     },
+     {
+      "year": 2014,
+      "value": 1
+     },
+     {
+      "year": 2015,
+      "value": 1
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 6,
+     "onMarket": 6,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "class-iia": 6
+     },
+     "manufacturers": [
+      "Estor SpA"
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2011-11-29) predates the first US Class 1 recall (2015-11-03).",
+      "foreign": {
+       "date": "2011-11-29"
+      },
+      "us": {
+       "date": "2015-11-03"
+      }
+     }
+    ],
+    "screenedOut": 49,
+    "screenedNote": "49 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 12500
+}

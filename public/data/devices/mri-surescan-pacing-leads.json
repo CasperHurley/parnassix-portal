@@ -61,12 +61,12 @@
   },
   {
    "label": "Physicians paid (device-scope)",
-   "value": 10222,
+   "value": 10227,
    "format": "number"
   },
   {
    "label": "Total payments",
-   "value": 2980632.94,
+   "value": 2980816.04,
    "format": "usd"
   },
   {
@@ -86,13 +86,13 @@
   },
   {
    "label": "Foreign regulator actions",
-   "value": 102,
+   "value": 101,
    "format": "number",
    "module": "global-actions"
   },
   {
    "label": "Countries with actions",
-   "value": 22,
+   "value": 21,
    "format": "number",
    "module": "global-actions"
   }
@@ -491,15 +491,15 @@
     },
     {
      "year": 2019,
-     "value": 53207.04
+     "value": 53222.09
     },
     {
      "year": 2020,
-     "value": 32104.62
+     "value": 32245.47
     },
     {
      "year": 2021,
-     "value": 73766.79
+     "value": 73793.99
     },
     {
      "year": 2022,
@@ -582,10 +582,6 @@
      "value": 2
     },
     {
-     "year": 2000,
-     "value": 1
-    },
-    {
      "year": 2010,
      "value": 1
     },
@@ -656,12 +652,12 @@
      {
       "problem": "Over-Sensing",
       "reports": 72159,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT EXPERIENCED LIGHTHEADEDNESS AND PRESENTED TO THE HOSPITAL. UPON INTERROGATION, THE ATRIAL LEAD EXHIBITED NOISE; THE NOISE COULD NOT BE REPRODUCED. DEVICE REPROGRAMMING WAS PERFORMED AND THE LEAD REMAINED IMPLANTED."
+      "narrative": "IT WAS REPORTED THAT THE PATIENT\u00bfS RIGHT VENTRICULAR (RV) LEAD EXHIBITED T-WAVE OVERSENSING (TWOS) ON STORED EPISODES AND ON IN-CLINIC TESTING. THE RV LEAD WAS REPROGRAMMED AND REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 65249,
-      "narrative": "IT WAS REPORTED THAT THE IMPLANTABLE CARDIOVERTER DEFIBRILLATOR (ICD) SYSTEM WAS EXPLANTED FOR INFECTION. IT WAS REPORTED THAT THE PATIENT EXPERIENCED BACTEREMIA AND CULTURES WERE TAKEN. NO FURTHER PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
      },
      {
       "problem": "Under-Sensing",
@@ -676,17 +672,17 @@
      {
       "problem": "High impedance",
       "reports": 40504,
-      "narrative": "IT WAS REPORTED THE RIGHT VENTRICULAR (RV) LEAD WAS FRACTURED AND EXHIBITED HIGH IMPEDANCE. THE RV LEAD WAS EXPLANTED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "IT WAS REPORTED THAT THE RIGHT ATRIAL (RA) LEAD EXHIBITED HIGH THRESHOLDS, NON-CAPTURE, HIGH IMPEDANCE AND FAR FIELD R-WAVE (FFRW) OVERSENSING. THE LEAD WAS EXPLANTED AND REPLACED. IT WAS REPORTED THAT THE RIGHT VENTRICULAR (RV) LEAD EXHIBITED NON-CAPTURE. THE LEAD WAS EXPLANTED AND REPLACED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
      },
      {
       "problem": "Signal Artifact/Noise",
       "reports": 33972,
-      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
      },
      {
       "problem": "Device Dislodged or Dislocated",
       "reports": 33654,
-      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+      "narrative": "MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONABLE EFFORTS TO OBTAIN MORE COMPLETE INFORMATION AND HAS PROVIDED AS MUCH RELEVANT INFORMATION AS IS"
      },
      {
       "problem": "Failure to Capture",
@@ -704,8 +700,8 @@
   },
   "experts": {
    "teaser": {
-    "physicians": 10222,
-    "totalPaid": 2980632.94,
+    "physicians": 10227,
+    "totalPaid": 2980816.04,
     "scope": "device",
     "cards": [
      {
@@ -764,7 +760,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "CA",
       "total": 10105.28,
       "payments": 21,
@@ -864,7 +860,7 @@
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
       "state": "CA",
       "total": 10105.28,
       "payments": 21,
@@ -934,6 +930,32 @@
    },
    "payload": {
     "patents": 1934,
+    "assignees": [
+     {
+      "name": "Medtronic, Inc.",
+      "patents": 1715
+     },
+     {
+      "name": "Medtronic Inc.",
+      "patents": 63
+     },
+     {
+      "name": "Medtronic AVE, Inc.",
+      "patents": 37
+     },
+     {
+      "name": "Medtronic, Inc",
+      "patents": 11
+     },
+     {
+      "name": "Medtronic Ave, Inc.",
+      "patents": 10
+     },
+     {
+      "name": "Medtronic Physio-Control Manufacturing Corp.",
+      "patents": 10
+     }
+    ],
     "recent": [
      {
       "id": "RE37480",
@@ -984,9 +1006,9 @@
       "assignee": "Medtronic Inc."
      }
     ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
    },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -1683,6 +1705,30 @@
       ]
      },
      {
+      "ccn": "490021",
+      "name": "Centra  Health, Inc",
+      "city": "Lynchburg",
+      "state": "VA",
+      "countyFips": "51680",
+      "lat": 37.36,
+      "lon": -79.141,
+      "discharges": 84,
+      "outpatientServices": 336,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "243",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+        "n": 45
+       },
+       {
+        "code": "242",
+        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+        "n": 39
+       }
+      ]
+     },
+     {
       "ccn": "100007",
       "name": "Adventhealth Orlando",
       "city": "Orlando",
@@ -1708,30 +1754,6 @@
         "code": "261",
         "desc": "CARDIAC PACEMAKER REVISION EXCEPT DEVICE REPLACEMENT WITH CC",
         "n": 20
-       }
-      ]
-     },
-     {
-      "ccn": "490021",
-      "name": "Centra  Health, Inc",
-      "city": "Lynchburg",
-      "state": "VA",
-      "countyFips": "51680",
-      "lat": 37.36,
-      "lon": -79.141,
-      "discharges": 84,
-      "outpatientServices": 336,
-      "rating": "3",
-      "topDrgs": [
-       {
-        "code": "243",
-        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
-        "n": 45
-       },
-       {
-        "code": "242",
-        "desc": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
-        "n": 39
        }
       ]
      },
@@ -2671,20 +2693,20 @@
       "per10k65": 112.2
      },
      {
-      "fips": "42071",
-      "name": "Lancaster",
-      "state": "PA",
-      "services": 367,
-      "facilities": 1,
-      "per10k65": 33.5
-     },
-     {
       "fips": "28081",
       "name": "Lee",
       "state": "MS",
       "services": 367,
       "facilities": 1,
       "per10k65": 279.5
+     },
+     {
+      "fips": "42071",
+      "name": "Lancaster",
+      "state": "PA",
+      "services": 367,
+      "facilities": 1,
+      "per10k65": 33.5
      },
      {
       "fips": "20173",
@@ -2719,20 +2741,20 @@
       "per10k65": 31.2
      },
      {
-      "fips": "27109",
-      "name": "Olmsted",
-      "state": "MN",
-      "services": 352,
-      "facilities": 1,
-      "per10k65": 128.5
-     },
-     {
       "fips": "10003",
       "name": "New Castle",
       "state": "DE",
       "services": 352,
       "facilities": 1,
       "per10k65": 35.7
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 352,
+      "facilities": 1,
+      "per10k65": 128.5
      },
      {
       "fips": "06019",
@@ -3063,20 +3085,20 @@
       "per10k65": 10.6
      },
      {
-      "fips": "48441",
-      "name": "Taylor",
-      "state": "TX",
-      "services": 261,
-      "facilities": 1,
-      "per10k65": 119.7
-     },
-     {
       "fips": "50007",
       "name": "Chittenden",
       "state": "VT",
       "services": 261,
       "facilities": 1,
       "per10k65": 90.9
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 261,
+      "facilities": 1,
+      "per10k65": 119.7
      },
      {
       "fips": "13245",
@@ -3255,20 +3277,20 @@
       "per10k65": 118.2
      },
      {
-      "fips": "54011",
-      "name": "Cabell",
-      "state": "WV",
-      "services": 228,
-      "facilities": 1,
-      "per10k65": 122.9
-     },
-     {
       "fips": "26055",
       "name": "Grand Traverse",
       "state": "MI",
       "services": 228,
       "facilities": 1,
       "per10k65": 108.0
+     },
+     {
+      "fips": "54011",
+      "name": "Cabell",
+      "state": "WV",
+      "services": 228,
+      "facilities": 1,
+      "per10k65": 122.9
      },
      {
       "fips": "06065",
@@ -3287,20 +3309,20 @@
       "per10k65": 51.6
      },
      {
-      "fips": "05143",
-      "name": "Washington",
-      "state": "AR",
-      "services": 226,
-      "facilities": 1,
-      "per10k65": 71.3
-     },
-     {
       "fips": "28071",
       "name": "Lafayette",
       "state": "MS",
       "services": 226,
       "facilities": 1,
       "per10k65": 283.2
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 226,
+      "facilities": 1,
+      "per10k65": 71.3
      },
      {
       "fips": "06053",
@@ -3519,14 +3541,6 @@
       "per10k65": 55.1
      },
      {
-      "fips": "21067",
-      "name": "Fayette",
-      "state": "KY",
-      "services": 199,
-      "facilities": 1,
-      "per10k65": 41.8
-     },
-     {
       "fips": "06083",
       "name": "Santa Barbara",
       "state": "CA",
@@ -3541,6 +3555,14 @@
       "services": 199,
       "facilities": 1,
       "per10k65": 23.2
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 199,
+      "facilities": 1,
+      "per10k65": 41.8
      },
      {
       "fips": "34029",
@@ -3607,12 +3629,12 @@
       "per10k65": 144.6
      },
      {
-      "fips": "53005",
-      "name": "Benton",
-      "state": "WA",
+      "fips": "36047",
+      "name": "Kings",
+      "state": "NY",
       "services": 191,
       "facilities": 1,
-      "per10k65": 56.5
+      "per10k65": 4.7
      },
      {
       "fips": "51015",
@@ -3623,12 +3645,12 @@
       "per10k65": 108.4
      },
      {
-      "fips": "36047",
-      "name": "Kings",
-      "state": "NY",
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
       "services": 191,
       "facilities": 1,
-      "per10k65": 4.7
+      "per10k65": 56.5
      },
      {
       "fips": "44007",
@@ -3735,20 +3757,20 @@
       "per10k65": 18.1
      },
      {
-      "fips": "13021",
-      "name": "Bibb",
-      "state": "GA",
-      "services": 184,
-      "facilities": 1,
-      "per10k65": 71.4
-     },
-     {
       "fips": "12085",
       "name": "Martin",
       "state": "FL",
       "services": 184,
       "facilities": 1,
       "per10k65": 35.2
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 184,
+      "facilities": 1,
+      "per10k65": 71.4
      },
      {
       "fips": "29021",
@@ -3791,20 +3813,20 @@
       "per10k65": 32.4
      },
      {
-      "fips": "29031",
-      "name": "Cape Girardeau",
-      "state": "MO",
-      "services": 174,
-      "facilities": 1,
-      "per10k65": 117.8
-     },
-     {
       "fips": "28035",
       "name": "Forrest",
       "state": "MS",
       "services": 174,
       "facilities": 1,
       "per10k65": 161.8
+     },
+     {
+      "fips": "29031",
+      "name": "Cape Girardeau",
+      "state": "MO",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 117.8
      },
      {
       "fips": "26163",
@@ -3967,14 +3989,6 @@
       "per10k65": 14.8
      },
      {
-      "fips": "48451",
-      "name": "Tom Green",
-      "state": "TX",
-      "services": 154,
-      "facilities": 1,
-      "per10k65": 75.9
-     },
-     {
       "fips": "45007",
       "name": "Anderson",
       "state": "SC",
@@ -3983,12 +3997,20 @@
       "per10k65": 39.7
      },
      {
-      "fips": "39099",
-      "name": "Mahoning",
-      "state": "OH",
+      "fips": "48451",
+      "name": "Tom Green",
+      "state": "TX",
+      "services": 154,
+      "facilities": 1,
+      "per10k65": 75.9
+     },
+     {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
       "services": 153,
       "facilities": 1,
-      "per10k65": 30.1
+      "per10k65": 43.7
      },
      {
       "fips": "12083",
@@ -4007,12 +4029,12 @@
       "per10k65": 19.6
      },
      {
-      "fips": "28047",
-      "name": "Harrison",
-      "state": "MS",
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
       "services": 153,
       "facilities": 1,
-      "per10k65": 43.7
+      "per10k65": 30.1
      },
      {
       "fips": "27003",
@@ -4031,8 +4053,8 @@
      "byState": [
       {
        "state": "CA",
-       "physicians": 922,
-       "totalUsd": 490149.58
+       "physicians": 923,
+       "totalUsd": 490187.95
       },
       {
        "state": "FL",
@@ -4490,15 +4512,15 @@
       "subjectsAffected": 7
      },
      {
-      "term": "Cardiac failure",
-      "organSystem": "Cardiac disorders",
-      "rows": 2,
-      "subjectsAffected": 6
-     },
-     {
       "term": "Pericardial effusion",
       "organSystem": "Cardiac disorders",
       "rows": 6,
+      "subjectsAffected": 6
+     },
+     {
+      "term": "Cardiac failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
       "subjectsAffected": 6
      },
      {
@@ -4520,8 +4542,8 @@
       "subjectsAffected": 4
      },
      {
-      "term": "Procedure Related: Infection",
-      "organSystem": "Infections and infestations",
+      "term": "System Related: Cardiac Tamponade",
+      "organSystem": "Injury, poisoning and procedural complications",
       "rows": 2,
       "subjectsAffected": 3
      }
@@ -4597,8 +4619,8 @@
   },
   "global-actions": {
    "teaser": {
-    "actions": 102,
-    "countries": 22,
+    "actions": 101,
+    "countries": 21,
     "sources": 6,
     "firstForeignDate": "1996-10-04",
     "latestAction": {
@@ -4606,7 +4628,7 @@
      "date": "2025-11-11",
      "classification": "field-safety-notices"
     },
-    "screenedOut": 0
+    "screenedOut": 1
    },
    "payload": {
     "countries": [
@@ -4620,8 +4642,8 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "CRM - Aurora EV-ICD&trade; MRI SureScan&trade; DVEA3E4 Aurora EV-ICD&trade; (DVEA3E4), Clinical EV-ICD (DVEX3E4)",
-        "reason": "In a subset of the identified devices, there is a potential for delayed time to high-voltage (HV) therapy should a rare sequence of events occur. A device update via CareLink&trade; SmartSync&trade; Device manager is available to eliminate this potential delay. Through 2 October 2025, six (6) events",
+        "product": "CRM - Aurora EV-ICD\u2122 MRI SureScan\u2122 DVEA3E4 Aurora EV-ICD\u2122 (DVEA3E4), Clinical EV-ICD (DVEX3E4)",
+        "reason": "In a subset of the identified devices, there is a potential for delayed time to high-voltage (HV) therapy should a rare sequence of events occur. A device update via CareLink\u2122 SmartSync\u2122 Device manager is available to eliminate this potential delay. Through 2 October 2025, six (6) events (delay of 2",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36083"
        },
        {
@@ -4629,8 +4651,8 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "CRHF- Crome&trade; VR MRI SureScan&trade; DVPC3D4 in implantable cardioverter defibrillators (ICDs) and cardiac resynchronisation therapy defibrillators (CRT-Ds) manufactured with a specific (glassed) feedthrough, includ",
-        "reason": "10/7/24: Update\nSoftware updates for the CareLink&trade; 2090 and CareLink Encore&trade; 29901 programmers are now available.\nFollow up communication:\nA software update for the CareLink&trade; SmartSync&trade; Device Manager (SmartSync) is now available. This SmartSync update aligns nominal settings",
+        "product": "CRHF- Crome\u2122 VR MRI SureScan\u2122 DVPC3D4 in implantable cardioverter defibrillators (ICDs) and cardiac resynchronisation therapy defibrillators (CRT-Ds) manufactured with a specific (glassed) feedthrough, including currentl",
+        "reason": "10/7/24: Update\nSoftware updates for the CareLink\u2122 2090 and CareLink Encore\u2122 29901 programmers are now available.\nFollow up communication:\nA software update for the CareLink\u2122 SmartSync\u2122 Device Manager (SmartSync) is now available. This SmartSync update aligns nominal settings and programming screens",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=31099"
        },
        {
@@ -4638,8 +4660,8 @@
         "source": "medsafe-nz",
         "actionType": "Recall",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "CRHF- Cobalt&trade; HF Quad CRT-D MRI SureScan&trade; DTPB2Q1 DTPB2Q1",
-        "reason": "The manufacturer is requesting hospitals quarantine and return a subset of non-implanted Medtronic Cobalt&trade; and Crome&trade; implantable cardioverter defibrillators (ICDs) and cardiac resynchronisation therapy defibrillators (CRT-Ds). An identified list (i.e. subset) of specific serial numbers ",
+        "product": "CRHF- Cobalt\u2122 HF Quad CRT-D MRI SureScan\u2122 DTPB2Q1 DTPB2Q1",
+        "reason": "The manufacturer is requesting hospitals quarantine and return a subset of non-implanted Medtronic Cobalt\u2122 and Crome\u2122 implantable cardioverter defibrillators (ICDs) and cardiac resynchronisation therapy defibrillators (CRT-Ds). An identified list (i.e. subset) of specific serial numbers may have a m",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29580"
        },
        {
@@ -4647,8 +4669,8 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "CRHF- Cobalt&trade; HF Quad CRT-D MRI SureScan&trade; DTPB2Q1 DTPB2Q1",
-        "reason": "The manufacturer is notifying health care professionals of a software update for CareLink SmartSync&trade; Device Managers (SmartSync) that will address a telemetry error that may occur with Medtronic Cobalt&trade; and Crome&trade; implantable cardioverter defibrillators (ICDs) and cardiac resynchro",
+        "product": "CRHF- Cobalt\u2122 HF Quad CRT-D MRI SureScan\u2122 DTPB2Q1 DTPB2Q1",
+        "reason": "The manufacturer is notifying health care professionals of a software update for CareLink SmartSync\u2122 Device Managers (SmartSync) that will address a telemetry error that may occur with Medtronic Cobalt\u2122 and Crome\u2122 implantable cardioverter defibrillators (ICDs) and cardiac resynchronization therapy d",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29281"
        },
        {
@@ -4656,7 +4678,7 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Healthcare Professional",
-        "product": "CRHF - CareLink SmartSync Device Manager System CRT-Ps: Percepta&trade; CRT-P MRI SureScan&trade;, Percepta&trade; Quad CRT-P MRI SureScan&trade;, Serena&trade; CRT-P MRI SureScan&trade;, Serena&trade; Quad CRT-P MRI Sur",
+        "product": "CRHF - CareLink SmartSync Device Manager System CRT-Ps: Percepta\u2122 CRT-P MRI SureScan\u2122, Percepta\u2122 Quad CRT-P MRI SureScan\u2122, Serena\u2122 CRT-P MRI SureScan\u2122, Serena\u2122 Quad CRT-P MRI SureScan\u2122",
         "reason": "The impedance measurement that is used should be based on the device's programmed polarity. However, for Orion and CRT-P Quad family of devices, the algorithm is coded to use the bipolar lead impedance measurement for the atrial and right ventricle leads, regardless of programmed polarity. This can ",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27546"
        },
@@ -4665,7 +4687,7 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Healthcare Professional",
-        "product": "CRHF - CareLink SmartSync Device Manager System Percepta&trade; CRT-P MRI SureScan&trade;, Percepta&trade; Quad CRT-P MRI SureScan and Serena&trade; CRT-P MRI SureScan&trade;, Serena&trade; Quad CRT-P MRI SureScan",
+        "product": "CRHF - CareLink SmartSync Device Manager System Percepta\u2122 CRT-P MRI SureScan\u2122, Percepta\u2122 Quad CRT-P MRI SureScan and Serena\u2122 CRT-P MRI SureScan\u2122, Serena\u2122 Quad CRT-P MRI SureScan",
         "reason": "The manufacturer has identified a software issue with the Medtronic CareLink SmartSync Device Manager (SmartSync) that causes it to incorrectly inflate the battery longevity estimates for Percepta, Serena, and Solara Cardiac Resynchronization Therapy pacemaker (CRT-P) devices (referred to as the CRT",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27545"
        },
@@ -4675,7 +4697,7 @@
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
         "product": "CRHF - Percepta Quad CRT-P MRI SureScan W4TR04 Percepta Quad CRT-P MRI SureScan (W4TR04)",
-        "reason": "The manufacturer has become aware of the potential for a device reset to occur in Percepta&trade; CRT-P MRI SureScan and Percepta Quad CRT-P MRI SureScan due to a timing interaction between the EffectivCRT Diagnostic and the Ventricular Safety Pacing feature (VSP).",
+        "reason": "The manufacturer has become aware of the potential for a device reset to occur in Percepta\u2122 CRT-P MRI SureScan and Percepta Quad CRT-P MRI SureScan due to a timing interaction between the EffectivCRT Diagnostic and the Ventricular Safety Pacing feature (VSP).",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=23206"
        },
        {
@@ -4942,21 +4964,21 @@
        },
        {
         "date": "2016-12-13",
-        "source": "tga-drac",
-        "actionType": "Hazard Alert",
-        "classification": "Class I",
-        "product": "Amplia MRI CRT-D SureScan and Claria MRI CRT-D SureScan",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2016-12-13",
         "source": "icij-imdd",
         "actionType": "Recall",
         "classification": "Class I",
         "product": "Amplia MRI CRT-D SureScan and Claria MRI CRT-D SureScan Amplia MRI CRT-D SureScan/Amplia MRI Quad CRT-D",
         "reason": "Medtronic is writing to inform Physicians about a software issue that could result in the loss of LV pacing that occurs following a specific device programming sequence. If it occurs, this issue can be corrected by re-programming the device. All tachyarrhythmia detection and therapy features remain ",
         "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2016-RN-01604-1"
+       },
+       {
+        "date": "2016-12-13",
+        "source": "tga-drac",
+        "actionType": "Hazard Alert",
+        "classification": "Class I",
+        "product": "Amplia MRI CRT-D SureScan and Claria MRI CRT-D SureScan",
+        "reason": "Action level: Hospital",
+        "url": null
        },
        {
         "date": "2016-11-03",
@@ -5092,18 +5114,9 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Percepta\u2122 CRT-P MRI SureScan\u2122 and Percepta\u2122 Quad CRT-P MRI SureScan\u2122",
+        "product": "Claria MRI\u2122 CRT-D SureScan\u2122 and Amplia MRI\u2122 CRT-D SureScan",
         "reason": null,
-        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---june-2018&id=11d60a26-9782-6eee-9b55-ff00008c97d0"
-       },
-       {
-        "date": null,
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "RestorSensor Multi-Program Rechargable Neurostimulator Restore Sensor SureScan MRI",
-        "reason": null,
-        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---may-2016&id=8c410626-9782-6eee-9b55-ff00008c97d0"
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notice-january-2018&id=666e0a26-9782-6eee-9b55-ff00008c97d0"
        },
        {
         "date": null,
@@ -5119,9 +5132,18 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Claria MRI\u2122 CRT-D SureScan\u2122 and Amplia MRI\u2122 CRT-D SureScan",
+        "product": "Percepta\u2122 CRT-P MRI SureScan\u2122 and Percepta\u2122 Quad CRT-P MRI SureScan\u2122",
         "reason": null,
-        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notice-january-2018&id=666e0a26-9782-6eee-9b55-ff00008c97d0"
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---june-2018&id=11d60a26-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "RestorSensor Multi-Program Rechargable Neurostimulator Restore Sensor SureScan MRI",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---may-2016&id=8c410626-9782-6eee-9b55-ff00008c97d0"
        }
       ]
      },
@@ -5178,6 +5200,15 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
+        "product": "EnRhythm and EnRhythm MRI SureScan pacemaker",
+        "reason": "Upgrade software",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2011/Pacemaker---EnRhythm-och-EnRhythm-MRI---Medtronic/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
         "product": "Activa PC, Activa PC + S, Activa RC, Activa SC, alla Restore-products (including SureScan) PrimeADVANCED, PrimeADVANCED SureScan MRI also Itrel 4",
         "reason": "Change instructions",
         "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--Activa-PC-Activa-PCS-Activa-RC-Activa-SC-alla-Restore-produkter-inklusive-SureScan-PrimeADVANCED-PrimeADVANCED-SureScan-MRI-och-Itrel-4--Medtronic-Inc/#"
@@ -5190,15 +5221,6 @@
         "product": "Claria MRI CRT-D SureScan and Amplia MRI CRT-D SureScan",
         "reason": "Upgrade software",
         "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--Claria-MRI-CRT-D-SureScan-och-Amplia-MRI-CRT-D-SureScan--Medtronic-Inc1/#"
-       },
-       {
-        "date": null,
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "EnRhythm and EnRhythm MRI SureScan pacemaker",
-        "reason": "Upgrade software",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2011/Pacemaker---EnRhythm-och-EnRhythm-MRI---Medtronic/#"
        },
        {
         "date": null,
@@ -5494,32 +5516,12 @@
         "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/aiguilles-de-huber-winged-surescan-b-braun-rappel"
        }
       ]
-     },
-     {
-      "code": "BR",
-      "name": "Brazil",
-      "total": 1,
-      "actions": [
-       {
-        "date": "2000-12-15",
-        "source": "icij-imdd",
-        "actionType": "Safety alert",
-        "classification": null,
-        "product": "SureStep blood glucose monitoring systems. Catalog No. 010-341; Series No.s .: L6000 XX XXXXX to L7205 XX XXXXX, L7206 GA 00001 to L7206 GA 01128",
-        "reason": "Removal of the monitors mentioned because of a message error1 that appears in place of a reading saying \"HIGH\" when a patient's blood glucose was&gt; = 500mg / dl. On Friday, December 15, 2000, LifeScan pleaded guilty to the indictment in Federal Court for improper identification of a medical device",
-        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
-       }
-      ]
      }
     ],
     "series": [
      {
       "year": 1996,
       "value": 2
-     },
-     {
-      "year": 2000,
-      "value": 1
      },
      {
       "year": 2010,
@@ -5603,8 +5605,8 @@
       }
      }
     ],
-    "screenedOut": 0,
-    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "screenedOut": 1,
+    "screenedNote": "1 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
     "sourceLabels": {
      "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
      "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",

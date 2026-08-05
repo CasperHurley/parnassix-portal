@@ -1,16 +1,16 @@
 {
- "slug": "heartmate-3-lvad",
- "name": "HeartMate 3 LVAD",
+ "slug": "heartmate-ii-lvad",
+ "name": "HeartMate II LVAD",
  "maker": "Abbott / Thoratec \u00b7 Structural heart",
- "rank": 6,
- "pathway": "pma (pure)",
+ "rank": 15,
+ "pathway": "pma (pure \u2014 P060040, product code DSQ; 120 supplement rows 2008-2026; zero 510k rows)",
  "maturity": "dormant",
  "stats": {
-  "deaths": 7177,
-  "injuries": 14976,
-  "malfunctions": 9074,
-  "recalls": 19,
-  "classI": 8
+  "deaths": 6371,
+  "injuries": 17797,
+  "malfunctions": 6848,
+  "recalls": 17,
+  "classI": 10
  },
  "summary": [
   {
@@ -19,11 +19,11 @@
   },
   {
    "label": "Regulatory pathway",
-   "value": "pma (pure)"
+   "value": "pma (pure \u2014 P060040, product code DSQ; 120 supplement rows 2008-2026; zero 510k rows)"
   },
   {
    "label": "Preemption posture",
-   "value": "PMA-preempted; the parallel-claim path is POORLY supported. The Class I recalls (2024 EOGO / outflow-graft obstruction, inflow-seal leak) describe failure modes / a design-implant interaction, NOT a cited spec deviation. The one genuine manufacturing nonconformance (2019 C-Ring seating) is Class II and terminated. A buyer is buying a theory to develop, not a ready path \u2014 the biggest drag on everyt"
+   "value": "PMA-preempted with a DEFENSE-FAVORABLE on-point record: Horn v. Thoratec, 376 F.3d 163 (3d Cir. 2004, HeartMate VE predecessor), Bush v. Thoratec, No. 14-30896 (5th Cir. 9/17/2015, HM II percutaneous lead \u2014 preempted, affirmed), Bryant v. Thoratec, 343 F. Supp. 3d 594 (S.D. Miss. 2018, HM II \u2014 preempted). The computed '27 nonconforming recalls' is a DSQ product-code aggregate that actually belongs"
   },
   {
    "label": "Litigation maturity",
@@ -31,27 +31,27 @@
   },
   {
    "label": "MAUDE deaths",
-   "value": 7177,
+   "value": 6371,
    "format": "number"
   },
   {
    "label": "MAUDE injuries",
-   "value": 14976,
+   "value": 17797,
    "format": "number"
   },
   {
    "label": "MAUDE malfunctions",
-   "value": 9074,
+   "value": 6848,
    "format": "number"
   },
   {
    "label": "Recalls (all classes)",
-   "value": 19,
+   "value": 17,
    "format": "number"
   },
   {
    "label": "Class I recalls",
-   "value": 8,
+   "value": 10,
    "format": "number"
   },
   {
@@ -61,17 +61,17 @@
   },
   {
    "label": "Physicians paid (device-scope)",
-   "value": 13293,
+   "value": 6600,
    "format": "number"
   },
   {
    "label": "Total payments",
-   "value": 9654318.3,
+   "value": 4329359.71,
    "format": "usd"
   },
   {
    "label": "Top paid physician",
-   "value": "Scott Silvestry",
+   "value": "Walter Dembitsky",
    "module": "experts"
   },
   {
@@ -86,36 +86,18 @@
   },
   {
    "label": "Foreign regulator actions",
-   "value": 94,
+   "value": 73,
    "format": "number",
    "module": "global-actions"
   },
   {
    "label": "Countries with actions",
-   "value": 21,
+   "value": 19,
    "format": "number",
    "module": "global-actions"
   }
  ],
  "recentRecalls": [
-  {
-   "date": "2026-05-13",
-   "classification": "Unclassified",
-   "reason": "Due to 11 volt Backup Battery failures.",
-   "status": "Open, Classified"
-  },
-  {
-   "date": "2026-05-13",
-   "classification": "Unclassified",
-   "reason": "Due to 11 volt Backup Battery failures.",
-   "status": "Open, Classified"
-  },
-  {
-   "date": "2026-05-13",
-   "classification": "Unclassified",
-   "reason": "Due to 11 volt Backup Battery failures.",
-   "status": "Open, Classified"
-  },
   {
    "date": "2025-10-09",
    "classification": "Class II",
@@ -133,6 +115,24 @@
    "classification": "Class I",
    "reason": "Due to misaligned V-Lock feature on the Mobile Power Unit power cords, which prevents the locking mechanism from properly engaging with the Mobile Power Unit and may cause unintended disconnect.",
    "status": "Open, Classified"
+  },
+  {
+   "date": "2025-06-23",
+   "classification": "Class I",
+   "reason": "Due to misaligned V-Lock feature on the Mobile Power Unit power cords, which prevents the locking mechanism from properly engaging with the Mobile Power Unit and may cause unintended disconnect.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-02-19",
+   "classification": "Class I",
+   "reason": "Observed outflow graft deformation known as Extrinsic Outflow Graft Obstruction (EOGO) associated with Left Ventricular Assist System.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2023-08-07",
+   "classification": "Class II",
+   "reason": "Inability to start and/or complete the coring procedure due to inadequate sharpness of the Apical Coring Knife, provided with Left Ventricular Assist System, could result in an extended procedure or surgical time while t",
+   "status": "Open, Classified"
   }
  ],
  "timeline": [
@@ -142,12 +142,28 @@
    "unit": "recalls",
    "points": [
     {
-     "year": 2018,
+     "year": 2008,
      "value": 1
     },
     {
-     "year": 2019,
+     "year": 2009,
+     "value": 1
+    },
+    {
+     "year": 2010,
+     "value": 1
+    },
+    {
+     "year": 2012,
+     "value": 1
+    },
+    {
+     "year": 2014,
      "value": 4
+    },
+    {
+     "year": 2017,
+     "value": 3
     },
     {
      "year": 2023,
@@ -155,15 +171,11 @@
     },
     {
      "year": 2024,
-     "value": 5
+     "value": 1
     },
     {
      "year": 2025,
-     "value": 5
-    },
-    {
-     "year": 2026,
-     "value": 3
+     "value": 4
     }
    ]
   },
@@ -174,44 +186,80 @@
    "module": "narratives",
    "points": [
     {
+     "year": 2008,
+     "value": 9
+    },
+    {
+     "year": 2009,
+     "value": 32
+    },
+    {
+     "year": 2010,
+     "value": 40
+    },
+    {
+     "year": 2011,
+     "value": 91
+    },
+    {
+     "year": 2012,
+     "value": 269
+    },
+    {
+     "year": 2013,
+     "value": 354
+    },
+    {
+     "year": 2014,
+     "value": 534
+    },
+    {
+     "year": 2015,
+     "value": 627
+    },
+    {
+     "year": 2016,
+     "value": 517
+    },
+    {
      "year": 2017,
-     "value": 30
+     "value": 451
     },
     {
      "year": 2018,
-     "value": 204
+     "value": 452
     },
     {
      "year": 2019,
-     "value": 392
+     "value": 488
     },
     {
      "year": 2020,
-     "value": 668
+     "value": 395
     },
     {
      "year": 2021,
-     "value": 940
+     "value": 357
     },
     {
      "year": 2022,
-     "value": 1027
+     "value": 421
     },
     {
      "year": 2023,
-     "value": 1710
+     "value": 1213
     },
     {
      "year": 2024,
-     "value": 1369
+     "value": 108
     },
     {
      "year": 2025,
-     "value": 19
+     "value": 1
     },
     {
      "year": 2026,
-     "value": 818
+     "value": 12
     }
    ]
   },
@@ -222,48 +270,80 @@
    "module": "narratives",
    "points": [
     {
+     "year": 2008,
+     "value": 16
+    },
+    {
+     "year": 2009,
+     "value": 176
+    },
+    {
+     "year": 2010,
+     "value": 309
+    },
+    {
+     "year": 2011,
+     "value": 682
+    },
+    {
      "year": 2012,
-     "value": 2
+     "value": 1412
+    },
+    {
+     "year": 2013,
+     "value": 1508
+    },
+    {
+     "year": 2014,
+     "value": 1327
+    },
+    {
+     "year": 2015,
+     "value": 1383
+    },
+    {
+     "year": 2016,
+     "value": 1515
     },
     {
      "year": 2017,
-     "value": 243
+     "value": 1998
     },
     {
      "year": 2018,
-     "value": 1295
+     "value": 1919
     },
     {
      "year": 2019,
-     "value": 2021
+     "value": 1880
     },
     {
      "year": 2020,
-     "value": 1874
+     "value": 1249
     },
     {
      "year": 2021,
-     "value": 1946
+     "value": 966
     },
     {
      "year": 2022,
-     "value": 2298
+     "value": 869
     },
     {
      "year": 2023,
-     "value": 1945
+     "value": 397
     },
     {
      "year": 2024,
-     "value": 1971
+     "value": 167
     },
     {
      "year": 2025,
-     "value": 108
+     "value": 4
     },
     {
      "year": 2026,
-     "value": 1273
+     "value": 20
     }
    ]
   },
@@ -275,43 +355,43 @@
    "points": [
     {
      "year": 2013,
-     "value": 11100.35
+     "value": 548047.81
     },
     {
      "year": 2014,
-     "value": 107536.99
+     "value": 1957539.09
     },
     {
      "year": 2015,
-     "value": 593330.49
+     "value": 1663147.3
     },
     {
      "year": 2018,
-     "value": 718566.95
+     "value": 90740.51
     },
     {
      "year": 2019,
-     "value": 1336300.25
+     "value": 53076.24
     },
     {
      "year": 2020,
-     "value": 718907.5
+     "value": 8311.83
     },
     {
      "year": 2021,
-     "value": 1025639.91
+     "value": 537.13
     },
     {
      "year": 2022,
-     "value": 1555265.7
+     "value": 61.72
     },
     {
      "year": 2023,
-     "value": 1591446.69
+     "value": 187.97
     },
     {
      "year": 2024,
-     "value": 1996223.47
+     "value": 7710.11
     }
    ]
   },
@@ -378,32 +458,40 @@
    "module": "global-actions",
    "points": [
     {
-     "year": 2017,
-     "value": 36
+     "year": 2008,
+     "value": 8
     },
     {
-     "year": 2018,
-     "value": 19
-    },
-    {
-     "year": 2019,
-     "value": 13
-    },
-    {
-     "year": 2020,
+     "year": 2009,
      "value": 3
     },
     {
-     "year": 2023,
-     "value": 2
+     "year": 2010,
+     "value": 4
     },
     {
-     "year": 2024,
+     "year": 2012,
+     "value": 10
+    },
+    {
+     "year": 2014,
+     "value": 9
+    },
+    {
+     "year": 2015,
+     "value": 14
+    },
+    {
+     "year": 2017,
      "value": 15
     },
     {
+     "year": 2024,
+     "value": 1
+    },
+    {
      "year": 2025,
-     "value": 5
+     "value": 1
     }
    ]
   }
@@ -411,51 +499,51 @@
  "modules": {
   "narratives": {
    "teaser": {
-    "narratives": 98520,
-    "distinctProblemCodes": 190,
+    "narratives": 87348,
+    "distinctProblemCodes": 196,
     "clusters": 8
    },
    "payload": {
     "clusters": [
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
-      "reports": 17461,
-      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: A SPECIFIC CAUSE FOR THE REPORTED PATIENT OUTCOME DUE TO CEREBRAL BLEEDING COULD NOT BE CONCLUSIVELY DETERMINED THROUGH THIS EVALUATION. THE EVALUATION OF HEARTMATE 3 LEFT VENTRICULAR ASSIST SYSTEM (LVAS), SERIAL NUMBER (B)(6), DID NOT REVEAL ANY DEVICE-RELATED ISSUES WHICH WOULD HAVE CONTRIBUTED TO THE REPORTED EVENTS. IT WAS REPORTED THAT THE PATIENT EXPIRED ON (B)(6) 2020 D"
-     },
-     {
-      "problem": "Infusion or Flow Problem",
-      "reports": 3296,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED IN CLINIC WITH CAREGIVER FOR NURSE VISIT AND POSSIBLE LOW FLOW SOFTWARE UPDATE. THE PATIENT REPORTED ABOUT 30 RED HEART ALARMS. A PHYSICAL ASSESSMENT WAS PROVIDED. FOR NEUROLOGY, THE PATIENT WAS A&O (AWARE AND ORIENTED) , NO TREMORS. FOR CARDIO AND RESPIRATORY THE PATIENT DENIES ANY CURRENT SYMPTOMS OF PALPITATIONS, CHEST PAIN OR LOWER EXTREMITY EDEMA. NO COUGH, NO FEVER. TH"
+      "reports": 11278,
+      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: A DIRECT CORRELATION BETWEEN THE REPORTED EVENT AND HEARTMATE II LVAS COULD NOT BE CONCLUSIVELY ESTABLISHED THROUGH THIS EVALUATION. THE ACCOUNT COMMUNICATED THAT THE PATIENT EXPIRED ON (B)(6) 2017. THE CAUSE OF EXPIRATION WAS UNKNOWN. NO ALARMS WERE REPORTED FOR THIS EVENT. MULTIPLE REQUESTS FOR ADDITIONAL INFORMATION WERE SENT TO THE ACCOUNT; HOWEVER, NO FURTHER DETAILS WERE"
      },
      {
       "problem": "Mechanical Problem",
-      "reports": 2349,
-      "narrative": "MANUFACTURER\u00bfS INVESTIGATION CONCLUSION: THE REPORTED EVENT OF FLUID BEING PRESENT WITHIN THE CONTROLLER\u00bfS WHITE POWER CABLE WAS CONFIRMED VIA THE SUBMITTED IMAGES, AS SIGNS OF FLUID WERE OBSERVED ON THE CABLE\u00bfS CONNECTOR-SIDE BEND RELIEF AND WITHIN THE CABLE\u00bfS JACKET NEAR THE CONTROLLER-SIDE BEND RELIEF. IT WAS REPORTED THAT THE PATIENT\u00bfS WHITE POWER CABLE WAS LEAKING A FLUID-LIKE SUBSTANCE. THE SYSTEM CONTROLLER WA"
+      "reports": 3060,
+      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER\u00bfS INVESTIGATION IS COMPLETED."
      },
      {
-      "problem": "Electrical Power Problem",
-      "reports": 1375,
-      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETED."
-     },
-     {
-      "problem": "Disconnection",
-      "reports": 1033,
-      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: THE REPORTED EVENT OF INTERMITTENT ALARMS WAS CONFIRMED VIA EVALUATION OF THE RETURNED SYSTEM CONTROLLER (SERIAL NUMBER: (B)(6)). VISUAL INSPECTION OF THE RETURNED SYSTEM CONTROLLER REVEALED THAT THE WHITE POWER CABLE WAS KINKED NEAR THE CONTROLLER SIDE STRAIN RELIEF. TESTING PERFORMED ON THE POWER CABLES REVEALED THAT THE YELLOW (ALARM OUT) WIRE IN THE WHITE POWER CABLE WAS B"
-     },
-     {
-      "problem": "Insufficient Information",
-      "reports": 896,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT'S MODULAR CABLE WAS EXCHANGED. THE CARE PROVIDER USED THE PATIENT'S BACKUP CONTROLLER WHEN DOING THIS SO THE CONNECTION WOULD BE FAST. A REVIEW OF THE LOG FILES REVEALED THAT THE DRIVELINE WAS NEVER CONNECTED TO THE CONTROLLER. THE EVENT LOG SHOWED THE DRIVELINE WAS CONNECTED TO THE CONTROLLER AND THE CONTROLLER'S CLOCK WAS NOT SET. THE CLOCK WAS RESET ON 08SEP2023 AT 0936. THE REMAIN"
+      "problem": "Infusion or Flow Problem",
+      "reports": 2383,
+      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO EMERGENCY DEPARTMENT WITH FREQUENT LOW FLOW ADVISORIES WITH MARGINAL FLOW AND PULSATILITY INDEX (PI) PARAMETER READINGS. THE PATIENT STATED HAVING OCCASIONAL LOW FLOW WITH SUBOPTIMAL PI PARAMETERS OVER TWO OR THREE DAY PERIOD. THE PATIENT EXPLAINED WORKING OUTSIDE FOR SEVERAL DAYS. THE PATIENT'S PUMP SPEED WAS REDUCED. BLOOD MEASUREMENTS WERE 105/72 WITH MEAN ARTERIAL PRE"
      },
      {
       "problem": "Pumping Stopped",
-      "reports": 795,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY DEPARTMENT WITH PUMP STOPS. LOG FILES WERE SENT FOR ANALYSIS TO DETERMINE WHETHER PUMP STOPS WERE HAPPENING ON WALL POWER ONLY OR ALSO ON BATTERY POWER. A REVIEW OF THE LOG FILES NOTED 104 PULSATILITY INDEX (PI) EVENTS OCCURRING (B)(6) 2021 12:27 AM TO (B)(6) 2021 AT 12:01 PM. THE PATIENT WAS SLEEPING ON BATTERY POWER WHICH WAS NOT RECOMMENDED. NO OTHER UNUS"
+      "reports": 2089,
+      "narrative": "NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETED."
      },
      {
-      "problem": "No Apparent Adverse Event",
-      "reports": 755,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT PRESENTED TO THE EMERGENCY DEPARTMENT WITH PUMP STOPS. LOG FILES WERE SENT FOR ANALYSIS TO DETERMINE WHETHER PUMP STOPS WERE HAPPENING ON WALL POWER ONLY OR ALSO ON BATTERY POWER. A REVIEW OF THE LOG FILES NOTED 104 PULSATILITY INDEX (PI) EVENTS OCCURRING (B)(6) 2021 12:27 AM TO (B)(6) 2021 AT 12:01 PM. THE PATIENT WAS SLEEPING ON BATTERY POWER WHICH WAS NOT RECOMMENDED. NO OTHER UNUS"
+      "problem": "Break",
+      "reports": 1950,
+      "narrative": "MANUFACTURER'S INVESTIGATION CONCLUSION: REVIEW OF THE SUBMITTED SYSTEM CONTROLLER LOG FILE CONFIRMED THE REPORT OF LOW SPEED/PUMP STOPPAGE EVENTS; HOWEVER, A SPECIFIC CAUSE FOR THE ABNORMAL PUMP OPERATION COULD NOT BE CONCLUSIVELY DETERMINED THROUGH THIS EVALUATION. THE SUBMITTED SYSTEM CONTROLLER LOG FILE CONTAINED DATA FROM 05SEP2019 \u00bf 20SEP2019. THE PUMP APPEARED TO BE OPERATING NORMALLY WITH STABLE PARAMETERS UN"
+     },
+     {
+      "problem": "Device Stops Intermittently",
+      "reports": 1823,
+      "narrative": "ADDITIONAL INFORMATION: IT WAS REPORTED THAT THE PATIENT RECEIVED A HEART TRANSPLANT ON (B)(6) 2016. NO FURTHER INFORMATION WAS PROVIDED."
+     },
+     {
+      "problem": "Decreased Pump Speed",
+      "reports": 1255,
+      "narrative": "PERCUTANEOUS LEAD (DRIVELINE) WAS RETURNED FOR EVALUATION. NO FURTHER INFORMATION WAS PROVIDED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETED."
+     },
+     {
+      "problem": "High Readings",
+      "reports": 1164,
+      "narrative": "APPROXIMATE AGE OF DEVICE: 53 DAYS. THE PATIENT REMAINS ONGOING WITH THE IMPLANTED DEVICE AND NO FURTHER ISSUES HAVE BEEN REPORTED. A SUPPLEMENTAL REPORT WILL BE SUBMITTED WHEN THE MANUFACTURER'S INVESTIGATION IS COMPLETED. PLACEHOLDER."
      }
     ]
    },
@@ -463,103 +551,103 @@
   },
   "predicate-tree": {
    "notApplicable": true,
-   "reason": "PMA-pathway device \u2014 there is no 510(k) predicate lineage. A PMA supplement-lineage map is available on request.",
-   "source": "FDA 510(k) summaries predicate-edge extraction."
+   "reason": "No 510(k) clearances match this device's brand patterns.",
+   "source": "FDA 510(k) decisions."
   },
   "experts": {
    "teaser": {
-    "physicians": 13293,
-    "totalPaid": 9654318.3,
+    "physicians": 6600,
+    "totalPaid": 4329359.71,
     "scope": "device",
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
-      "total": 150020.52,
-      "payments": 194,
-      "years": "2013\u20132024",
-      "topNature": "Travel and Lodging"
-     },
-     {
-      "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OK",
-      "total": 146833.01,
-      "payments": 288,
-      "years": "2014\u20132024",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "CA",
+      "total": 264795.28,
+      "payments": 155,
+      "years": "2013\u20132015",
       "topNature": "Food and Beverage"
      },
      {
-      "id": "p3",
+      "id": "p2",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
-      "total": 121025.19,
-      "payments": 198,
-      "years": "2014\u20132024",
-      "topNature": "Consulting Fee"
+      "state": "CA",
+      "total": 259028.76,
+      "payments": 168,
+      "years": "2013\u20132015",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "GA",
+      "total": 138593.47,
+      "payments": 28,
+      "years": "2013",
+      "topNature": "Food and Beverage"
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Cardiology",
-      "state": "OH",
-      "total": 116479.06,
-      "payments": 144,
-      "years": "2018\u20132024",
-      "topNature": "Consulting Fee"
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "GA",
+      "total": 135238.89,
+      "payments": 168,
+      "years": "2013\u20132015",
+      "topNature": "Travel and Lodging"
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "OH",
-      "total": 115980.23,
-      "payments": 86,
-      "years": "2019\u20132023",
-      "topNature": "Consulting Fee"
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "MO",
+      "total": 125780.79,
+      "payments": 168,
+      "years": "2013\u20132018",
+      "topNature": "Food and Beverage"
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "MA",
-      "total": 105930.01,
-      "payments": 196,
-      "years": "2013\u20132023",
-      "topNature": "Consulting Fee"
+      "specialty": "Other Service Providers|Specialist",
+      "state": "PR",
+      "total": 85188.71,
+      "payments": 145,
+      "years": "2013\u20132015",
+      "topNature": "Food and Beverage"
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MA",
-      "total": 105048.38,
-      "payments": 280,
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "IL",
+      "total": 69468.95,
+      "payments": 255,
       "years": "2013\u20132024",
       "topNature": "Food and Beverage"
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IN",
-      "total": 104406.12,
-      "payments": 238,
-      "years": "2014\u20132024",
-      "topNature": "Food and Beverage"
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "TX",
+      "total": 59158.91,
+      "payments": 105,
+      "years": "2013\u20132018",
+      "topNature": "Travel and Lodging"
      },
      {
       "id": "p9",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "LA",
-      "total": 101197.28,
-      "payments": 182,
-      "years": "2013\u20132024",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 38702.57,
+      "payments": 95,
+      "years": "2013\u20132015",
       "topNature": "Food and Beverage"
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "OH",
-      "total": 93501.65,
-      "payments": 134,
-      "years": "2013\u20132024",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 38096.25,
+      "payments": 63,
+      "years": "2013\u20132015",
       "topNature": "Food and Beverage"
      }
     ]
@@ -568,103 +656,103 @@
     "cards": [
      {
       "id": "p1",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
-      "total": 150020.52,
-      "payments": 194,
-      "years": "2013\u20132024",
-      "topNature": "Travel and Lodging",
-      "name": "Scott Silvestry"
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "CA",
+      "total": 264795.28,
+      "payments": 155,
+      "years": "2013\u20132015",
+      "topNature": "Food and Beverage",
+      "name": "Walter Dembitsky"
      },
      {
       "id": "p2",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "OK",
-      "total": 146833.01,
-      "payments": 288,
-      "years": "2014\u20132024",
-      "topNature": "Food and Beverage",
-      "name": "Douglas Horstmanshof"
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "CA",
+      "total": 259028.76,
+      "payments": 168,
+      "years": "2013\u20132015",
+      "topNature": "Travel and Lodging",
+      "name": "Robert Adamson"
      },
      {
       "id": "p3",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
-      "total": 121025.19,
-      "payments": 198,
-      "years": "2014\u20132024",
-      "topNature": "Consulting Fee",
-      "name": "Valluvan Jeevanandam"
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "GA",
+      "total": 138593.47,
+      "payments": 28,
+      "years": "2013",
+      "topNature": "Food and Beverage",
+      "name": "John O'Connell"
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Cardiology",
-      "state": "OH",
-      "total": 116479.06,
-      "payments": 144,
-      "years": "2018\u20132024",
-      "topNature": "Consulting Fee",
-      "name": "Angela Lorts"
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "GA",
+      "total": 135238.89,
+      "payments": 168,
+      "years": "2013\u20132015",
+      "topNature": "Travel and Lodging",
+      "name": "Andrew Boyle"
      },
      {
       "id": "p5",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "OH",
-      "total": 115980.23,
-      "payments": 86,
-      "years": "2019\u20132023",
-      "topNature": "Consulting Fee",
-      "name": "David Morales"
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "MO",
+      "total": 125780.79,
+      "payments": 168,
+      "years": "2013\u20132018",
+      "topNature": "Food and Beverage",
+      "name": "Scott Silvestry"
      },
      {
       "id": "p6",
-      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
-      "state": "MA",
-      "total": 105930.01,
-      "payments": 196,
-      "years": "2013\u20132023",
-      "topNature": "Consulting Fee",
-      "name": "Mandeep Mehra"
+      "specialty": "Other Service Providers|Specialist",
+      "state": "PR",
+      "total": 85188.71,
+      "payments": 145,
+      "years": "2013\u20132015",
+      "topNature": "Food and Beverage",
+      "name": "Juan Aranda"
      },
      {
       "id": "p7",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "MA",
-      "total": 105048.38,
-      "payments": 280,
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "IL",
+      "total": 69468.95,
+      "payments": 255,
       "years": "2013\u20132024",
       "topNature": "Food and Beverage",
-      "name": "Igor Gosev"
+      "name": "Nir Uriel"
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IN",
-      "total": 104406.12,
-      "payments": 238,
-      "years": "2014\u20132024",
-      "topNature": "Food and Beverage",
-      "name": "Christopher Salerno"
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "TX",
+      "total": 59158.91,
+      "payments": 105,
+      "years": "2013\u20132018",
+      "topNature": "Travel and Lodging",
+      "name": "Jerry Estep"
      },
      {
       "id": "p9",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "LA",
-      "total": 101197.28,
-      "payments": 182,
-      "years": "2013\u20132024",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NY",
+      "total": 38702.57,
+      "payments": 95,
+      "years": "2013\u20132015",
       "topNature": "Food and Beverage",
-      "name": "Aditya Bansal"
+      "name": "Leway Chen"
      },
      {
       "id": "p10",
-      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "OH",
-      "total": 93501.65,
-      "payments": 134,
-      "years": "2013\u20132024",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 38096.25,
+      "payments": 63,
+      "years": "2013\u20132015",
       "topNature": "Food and Beverage",
-      "name": "Edward Soltesz"
+      "name": "James Heywood"
      }
     ],
     "scope": "device"
@@ -675,9 +763,9 @@
   "corporate": {
    "payload": {
     "parent": "MEDTRONIC INC",
-    "nParents": 2,
-    "inspections": 172,
-    "citations": 120,
+    "nParents": 30,
+    "inspections": 1592,
+    "citations": 1059,
     "warningLetter": false,
     "litigation": {
      "federalCases": 8490,
@@ -713,11 +801,11 @@
       "patents": 5
      },
      {
-      "name": "Abbott Laboraties",
+      "name": "Abbott Biotech, Inc.",
       "patents": 3
      },
      {
-      "name": "Abbott Biotech, Inc.",
+      "name": "Abbott Laboraties",
       "patents": 3
      },
      {
@@ -1316,35 +1404,6 @@
       ]
      },
      {
-      "ccn": "050696",
-      "name": "Keck Hospital Of Usc",
-      "city": "Los Angeles",
-      "state": "CA",
-      "countyFips": "06037",
-      "lat": 34.05,
-      "lon": -118.212,
-      "discharges": 69,
-      "outpatientServices": null,
-      "rating": "4",
-      "topDrgs": [
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 30
-       },
-       {
-        "code": "268",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
-        "n": 27
-       },
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 12
-       }
-      ]
-     },
-     {
       "ccn": "100007",
       "name": "Adventhealth Orlando",
       "city": "Orlando",
@@ -1374,6 +1433,35 @@
       ]
      },
      {
+      "ccn": "050696",
+      "name": "Keck Hospital Of Usc",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.05,
+      "lon": -118.212,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 12
+       }
+      ]
+     },
+     {
       "ccn": "440039",
       "name": "Vanderbilt University Medical Center",
       "city": "Nashville",
@@ -1394,6 +1482,35 @@
         "code": "269",
         "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 22
+       },
+       {
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
+      "discharges": 67,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 36
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 20
        },
        {
         "code": "215",
@@ -1428,35 +1545,6 @@
         "code": "269",
         "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 12
-       }
-      ]
-     },
-     {
-      "ccn": "240057",
-      "name": "Abbott Northwestern Hospital",
-      "city": "Minneapolis",
-      "state": "MN",
-      "countyFips": "27053",
-      "lat": 44.935,
-      "lon": -93.253,
-      "discharges": 67,
-      "outpatientServices": null,
-      "rating": "4",
-      "topDrgs": [
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 36
-       },
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 20
-       },
-       {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
-        "n": 11
        }
       ]
      },
@@ -2190,20 +2278,20 @@
       "per10k65": 4.0
      },
      {
-      "fips": "37021",
-      "name": "Buncombe",
-      "state": "NC",
-      "services": 39,
-      "facilities": 1,
-      "per10k65": 6.7
-     },
-     {
       "fips": "12021",
       "name": "Collier",
       "state": "FL",
       "services": 39,
       "facilities": 1,
       "per10k65": 2.9
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 6.7
      },
      {
       "fips": "04019",
@@ -2214,20 +2302,20 @@
       "per10k65": 1.7
      },
      {
-      "fips": "51770",
-      "name": "Roanoke",
-      "state": "VA",
-      "services": 37,
-      "facilities": 1,
-      "per10k65": 21.2
-     },
-     {
       "fips": "42077",
       "name": "Lehigh",
       "state": "PA",
       "services": 37,
       "facilities": 1,
       "per10k65": 5.5
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 21.2
      },
      {
       "fips": "37147",
@@ -2294,14 +2382,6 @@
       "per10k65": 1.4
      },
      {
-      "fips": "12009",
-      "name": "Brevard",
-      "state": "FL",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
       "fips": "18163",
       "name": "Vanderburgh",
       "state": "IN",
@@ -2316,6 +2396,14 @@
       "services": 30,
       "facilities": 1,
       "per10k65": 3.4
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 1.9
      },
      {
       "fips": "08001",
@@ -2342,12 +2430,12 @@
       "per10k65": 1.1
      },
      {
-      "fips": "05005",
-      "name": "Baxter",
-      "state": "AR",
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
       "services": 29,
       "facilities": 1,
-      "per10k65": 22.1
+      "per10k65": 2.0
      },
      {
       "fips": "05143",
@@ -2358,12 +2446,12 @@
       "per10k65": 9.2
      },
      {
-      "fips": "25027",
-      "name": "Worcester",
-      "state": "MA",
+      "fips": "05005",
+      "name": "Baxter",
+      "state": "AR",
       "services": 29,
       "facilities": 1,
-      "per10k65": 2.0
+      "per10k65": 22.1
      },
      {
       "fips": "27123",
@@ -2374,14 +2462,6 @@
       "per10k65": 3.4
      },
      {
-      "fips": "13067",
-      "name": "Cobb",
-      "state": "GA",
-      "services": 28,
-      "facilities": 1,
-      "per10k65": 2.6
-     },
-     {
       "fips": "26125",
       "name": "Oakland",
       "state": "MI",
@@ -2390,20 +2470,20 @@
       "per10k65": 1.2
      },
      {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 28,
+      "facilities": 1,
+      "per10k65": 2.6
+     },
+     {
       "fips": "51760",
       "name": "Richmond",
       "state": "VA",
       "services": 28,
       "facilities": 2,
       "per10k65": 8.7
-     },
-     {
-      "fips": "42043",
-      "name": "Dauphin",
-      "state": "PA",
-      "services": 28,
-      "facilities": 2,
-      "per10k65": 5.4
      },
      {
       "fips": "28049",
@@ -2422,12 +2502,12 @@
       "per10k65": 2.8
      },
      {
-      "fips": "25013",
-      "name": "Hampden",
-      "state": "MA",
-      "services": 27,
-      "facilities": 1,
-      "per10k65": 3.2
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 5.4
      },
      {
       "fips": "12011",
@@ -2438,28 +2518,20 @@
       "per10k65": 0.8
      },
      {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 27,
+      "facilities": 1,
+      "per10k65": 3.2
+     },
+     {
       "fips": "13139",
       "name": "Hall",
       "state": "GA",
       "services": 27,
       "facilities": 1,
       "per10k65": 7.8
-     },
-     {
-      "fips": "31109",
-      "name": "Lancaster",
-      "state": "NE",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 5.2
-     },
-     {
-      "fips": "48441",
-      "name": "Taylor",
-      "state": "TX",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 11.9
      },
      {
       "fips": "24045",
@@ -2470,12 +2542,20 @@
       "per10k65": 14.9
      },
      {
-      "fips": "39061",
-      "name": "Hamilton",
-      "state": "OH",
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
       "services": 26,
       "facilities": 1,
-      "per10k65": 1.9
+      "per10k65": 11.9
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 5.2
      },
      {
       "fips": "51840",
@@ -2494,12 +2574,12 @@
       "per10k65": 19.8
      },
      {
-      "fips": "34005",
-      "name": "Burlington",
-      "state": "NJ",
-      "services": 25,
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 26,
       "facilities": 1,
-      "per10k65": 2.9
+      "per10k65": 1.9
      },
      {
       "fips": "02020",
@@ -2510,20 +2590,20 @@
       "per10k65": 6.7
      },
      {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
       "fips": "06001",
       "name": "Alameda",
       "state": "CA",
       "services": 25,
       "facilities": 2,
       "per10k65": 1.0
-     },
-     {
-      "fips": "50007",
-      "name": "Chittenden",
-      "state": "VT",
-      "services": 24,
-      "facilities": 1,
-      "per10k65": 8.4
      },
      {
       "fips": "46099",
@@ -2542,12 +2622,12 @@
       "per10k65": 0.8
      },
      {
-      "fips": "38017",
-      "name": "Cass",
-      "state": "ND",
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
       "services": 24,
       "facilities": 1,
-      "per10k65": 9.5
+      "per10k65": 8.4
      },
      {
       "fips": "19103",
@@ -2556,6 +2636,14 @@
       "services": 24,
       "facilities": 1,
       "per10k65": 11.5
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 9.5
      },
      {
       "fips": "42003",
@@ -2582,20 +2670,20 @@
       "per10k65": 2.3
      },
      {
-      "fips": "17143",
-      "name": "Peoria",
-      "state": "IL",
-      "services": 22,
-      "facilities": 1,
-      "per10k65": 6.7
-     },
-     {
       "fips": "08041",
       "name": "El Paso",
       "state": "CO",
       "services": 22,
       "facilities": 1,
       "per10k65": 2.1
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 6.7
      },
      {
       "fips": "12099",
@@ -2606,12 +2694,12 @@
       "per10k65": 0.6
      },
      {
-      "fips": "20177",
-      "name": "Shawnee",
-      "state": "KS",
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
       "services": 21,
       "facilities": 1,
-      "per10k65": 6.1
+      "per10k65": 5.9
      },
      {
       "fips": "48453",
@@ -2622,28 +2710,20 @@
       "per10k65": 1.4
      },
      {
-      "fips": "47163",
-      "name": "Sullivan",
-      "state": "TN",
+      "fips": "20177",
+      "name": "Shawnee",
+      "state": "KS",
       "services": 21,
       "facilities": 1,
-      "per10k65": 5.9
+      "per10k65": 6.1
      },
      {
-      "fips": "45045",
-      "name": "Greenville",
-      "state": "SC",
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
       "services": 20,
       "facilities": 1,
-      "per10k65": 2.2
-     },
-     {
-      "fips": "53035",
-      "name": "Kitsap",
-      "state": "WA",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 3.7
+      "per10k65": 4.7
      },
      {
       "fips": "36027",
@@ -2670,20 +2750,20 @@
       "per10k65": 5.5
      },
      {
-      "fips": "37125",
-      "name": "Moore",
-      "state": "NC",
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
       "services": 20,
       "facilities": 1,
-      "per10k65": 7.9
+      "per10k65": 2.2
      },
      {
-      "fips": "48423",
-      "name": "Smith",
-      "state": "TX",
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
       "services": 20,
       "facilities": 1,
-      "per10k65": 4.7
+      "per10k65": 3.7
      },
      {
       "fips": "51680",
@@ -2694,12 +2774,52 @@
       "per10k65": 17.6
      },
      {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
       "fips": "01089",
       "name": "Madison",
       "state": "AL",
       "services": 19,
       "facilities": 1,
       "per10k65": 3.0
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 12.5
      },
      {
       "fips": "26055",
@@ -2726,14 +2846,6 @@
       "per10k65": 1.3
      },
      {
-      "fips": "12061",
-      "name": "Indian River",
-      "state": "FL",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 3.1
-     },
-     {
       "fips": "30063",
       "name": "Missoula",
       "state": "MT",
@@ -2742,36 +2854,20 @@
       "per10k65": 8.7
      },
      {
-      "fips": "54061",
-      "name": "Monongalia",
-      "state": "WV",
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
       "services": 18,
       "facilities": 1,
-      "per10k65": 12.5
+      "per10k65": 3.1
      },
      {
-      "fips": "29077",
-      "name": "Greene",
-      "state": "MO",
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
       "services": 18,
       "facilities": 1,
-      "per10k65": 3.5
-     },
-     {
-      "fips": "41067",
-      "name": "Washington",
-      "state": "OR",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "42095",
-      "name": "Northampton",
-      "state": "PA",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 2.8
+      "per10k65": 1.2
      },
      {
       "fips": "34025",
@@ -2782,12 +2878,20 @@
       "per10k65": 1.5
      },
      {
-      "fips": "24005",
-      "name": "Baltimore",
-      "state": "MD",
-      "services": 18,
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 17,
       "facilities": 1,
-      "per10k65": 1.2
+      "per10k65": 1.6
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 17,
+      "facilities": 1,
+      "per10k65": 6.6
      },
      {
       "fips": "51085",
@@ -2814,20 +2918,12 @@
       "per10k65": 2.7
      },
      {
-      "fips": "13021",
-      "name": "Bibb",
-      "state": "GA",
+      "fips": "39119",
+      "name": "Muskingum",
+      "state": "OH",
       "services": 17,
       "facilities": 1,
-      "per10k65": 6.6
-     },
-     {
-      "fips": "44007",
-      "name": "Providence",
-      "state": "RI",
-      "services": 17,
-      "facilities": 1,
-      "per10k65": 1.6
+      "per10k65": 10.6
      },
      {
       "fips": "12081",
@@ -2838,44 +2934,20 @@
       "per10k65": 1.4
      },
      {
-      "fips": "39119",
-      "name": "Muskingum",
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 5.1
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
       "state": "OH",
-      "services": 17,
-      "facilities": 1,
-      "per10k65": 10.6
-     },
-     {
-      "fips": "45007",
-      "name": "Anderson",
-      "state": "SC",
       "services": 16,
       "facilities": 1,
-      "per10k65": 4.1
-     },
-     {
-      "fips": "36087",
-      "name": "Rockland",
-      "state": "NY",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 3.0
-     },
-     {
-      "fips": "42093",
-      "name": "Montour",
-      "state": "PA",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 40.6
-     },
-     {
-      "fips": "34029",
-      "name": "Ocean",
-      "state": "NJ",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 1.1
+      "per10k65": 3.1
      },
      {
       "fips": "41017",
@@ -2902,6 +2974,38 @@
       "per10k65": 26.2
      },
      {
+      "fips": "45007",
+      "name": "Anderson",
+      "state": "SC",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "36087",
+      "name": "Rockland",
+      "state": "NY",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 40.6
+     },
+     {
       "fips": "25005",
       "name": "Bristol",
       "state": "MA",
@@ -2910,28 +3014,20 @@
       "per10k65": 1.5
      },
      {
-      "fips": "39099",
-      "name": "Mahoning",
-      "state": "OH",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 3.1
-     },
-     {
-      "fips": "23019",
-      "name": "Penobscot",
-      "state": "ME",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 5.1
-     },
-     {
       "fips": "28047",
       "name": "Harrison",
       "state": "MS",
       "services": 16,
       "facilities": 1,
       "per10k65": 4.6
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.6
      },
      {
       "fips": "13135",
@@ -2958,20 +3054,12 @@
       "per10k65": 17.1
      },
      {
-      "fips": "37049",
-      "name": "Craven",
-      "state": "NC",
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
       "services": 15,
       "facilities": 1,
-      "per10k65": 7.0
-     },
-     {
-      "fips": "12111",
-      "name": "St. Lucie",
-      "state": "FL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.7
+      "per10k65": 3.5
      },
      {
       "fips": "17167",
@@ -2982,28 +3070,52 @@
       "per10k65": 4.0
      },
      {
-      "fips": "22017",
-      "name": "Caddo",
-      "state": "LA",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 3.5
-     },
-     {
-      "fips": "12103",
-      "name": "Pinellas",
+      "fips": "12111",
+      "name": "St. Lucie",
       "state": "FL",
       "services": 15,
       "facilities": 1,
-      "per10k65": 0.6
+      "per10k65": 1.7
      },
      {
-      "fips": "12015",
-      "name": "Charlotte",
+      "fips": "37049",
+      "name": "Craven",
+      "state": "NC",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
       "state": "FL",
       "services": 15,
       "facilities": 1,
-      "per10k65": 1.8
+      "per10k65": 0.3
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 5.6
      },
      {
       "fips": "06019",
@@ -3022,44 +3134,76 @@
       "per10k65": 9.4
      },
      {
-      "fips": "55073",
-      "name": "Marathon",
-      "state": "WI",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 5.6
-     },
-     {
-      "fips": "12086",
-      "name": "Miami-Dade",
+      "fips": "12015",
+      "name": "Charlotte",
       "state": "FL",
       "services": 15,
       "facilities": 1,
-      "per10k65": 0.3
+      "per10k65": 1.8
      },
      {
-      "fips": "18089",
-      "name": "Lake",
-      "state": "IN",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.7
-     },
-     {
-      "fips": "48027",
-      "name": "Bell",
-      "state": "TX",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 3.3
-     },
-     {
-      "fips": "53063",
-      "name": "Spokane",
-      "state": "WA",
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
       "services": 14,
       "facilities": 1,
-      "per10k65": 1.5
+      "per10k65": 1.8
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.6
+     },
+     {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "19193",
+      "name": "Woodbury",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.3
      },
      {
       "fips": "01077",
@@ -3078,124 +3222,12 @@
       "per10k65": 4.5
      },
      {
-      "fips": "19193",
-      "name": "Woodbury",
-      "state": "IA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 8.3
-     },
-     {
-      "fips": "18003",
-      "name": "Allen",
-      "state": "IN",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 2.3
-     },
-     {
-      "fips": "23005",
-      "name": "Cumberland",
-      "state": "ME",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 2.2
-     },
-     {
-      "fips": "42017",
-      "name": "Bucks",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "42029",
-      "name": "Chester",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "25001",
-      "name": "Barnstable",
-      "state": "MA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "19163",
-      "name": "Scott",
-      "state": "IA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
-      "fips": "38015",
-      "name": "Burleigh",
-      "state": "ND",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 7.8
-     },
-     {
-      "fips": "13059",
-      "name": "Clarke",
-      "state": "GA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 8.6
-     },
-     {
-      "fips": "21145",
-      "name": "McCracken",
-      "state": "KY",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 10.1
-     },
-     {
-      "fips": "24025",
-      "name": "Harford",
-      "state": "MD",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 3.0
-     },
-     {
-      "fips": "10005",
-      "name": "Sussex",
-      "state": "DE",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "36029",
-      "name": "Erie",
+      "fips": "36085",
+      "name": "Richmond",
       "state": "NY",
       "services": 14,
       "facilities": 1,
-      "per10k65": 0.8
-     },
-     {
-      "fips": "01097",
-      "name": "Mobile",
-      "state": "AL",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "21117",
-      "name": "Kenton",
-      "state": "KY",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 5.2
+      "per10k65": 1.6
      },
      {
       "fips": "55063",
@@ -3214,6 +3246,14 @@
       "per10k65": 1.1
      },
      {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
       "fips": "55141",
       "name": "Wood",
       "state": "WI",
@@ -3222,28 +3262,76 @@
       "per10k65": 8.7
      },
      {
-      "fips": "36085",
-      "name": "Richmond",
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
       "state": "NY",
       "services": 14,
       "facilities": 1,
-      "per10k65": 1.6
+      "per10k65": 0.8
      },
      {
-      "fips": "47113",
-      "name": "Madison",
-      "state": "TN",
-      "services": 13,
+      "fips": "19163",
+      "name": "Scott",
+      "state": "IA",
+      "services": 14,
       "facilities": 1,
-      "per10k65": 7.3
+      "per10k65": 4.6
      },
      {
-      "fips": "06023",
-      "name": "Humboldt",
-      "state": "CA",
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "21145",
+      "name": "McCracken",
+      "state": "KY",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 10.1
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "24025",
+      "name": "Harford",
+      "state": "MD",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
       "services": 13,
       "facilities": 1,
-      "per10k65": 4.9
+      "per10k65": 0.9
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.7
      },
      {
       "fips": "06077",
@@ -3270,12 +3358,28 @@
       "per10k65": 5.0
      },
      {
-      "fips": "26111",
-      "name": "Midland",
-      "state": "MI",
+      "fips": "47113",
+      "name": "Madison",
+      "state": "TN",
       "services": 13,
       "facilities": 1,
-      "per10k65": 7.7
+      "per10k65": 7.3
+     },
+     {
+      "fips": "56025",
+      "name": "Natrona",
+      "state": "WY",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "06023",
+      "name": "Humboldt",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 4.9
      },
      {
       "fips": "08031",
@@ -3294,22 +3398,6 @@
       "per10k65": 5.2
      },
      {
-      "fips": "45083",
-      "name": "Spartanburg",
-      "state": "SC",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 2.3
-     },
-     {
-      "fips": "53053",
-      "name": "Pierce",
-      "state": "WA",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 0.9
-     },
-     {
       "fips": "05031",
       "name": "Craighead",
       "state": "AR",
@@ -3318,12 +3406,12 @@
       "per10k65": 8.3
      },
      {
-      "fips": "56025",
-      "name": "Natrona",
-      "state": "WY",
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
       "services": 13,
       "facilities": 1,
-      "per10k65": 9.6
+      "per10k65": 2.3
      },
      {
       "fips": "33011",
@@ -3332,62 +3420,6 @@
       "services": 13,
       "facilities": 1,
       "per10k65": 1.8
-     },
-     {
-      "fips": "51700",
-      "name": "Newport News",
-      "state": "VA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
-      "fips": "42079",
-      "name": "Luzerne",
-      "state": "PA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "06013",
-      "name": "Contra Costa",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 0.6
-     },
-     {
-      "fips": "06079",
-      "name": "San Luis Obispo",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
-      "fips": "48485",
-      "name": "Wichita",
-      "state": "TX",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 6.0
-     },
-     {
-      "fips": "19061",
-      "name": "Dubuque",
-      "state": "IA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 6.3
-     },
-     {
-      "fips": "12083",
-      "name": "Marion",
-      "state": "FL",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.0
      },
      {
       "fips": "06097",
@@ -3406,20 +3438,44 @@
       "per10k65": 1.0
      },
      {
-      "fips": "28035",
-      "name": "Forrest",
-      "state": "MS",
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
       "services": 12,
       "facilities": 1,
-      "per10k65": 11.2
+      "per10k65": 1.0
      },
      {
-      "fips": "29021",
-      "name": "Buchanan",
-      "state": "MO",
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
       "services": 12,
       "facilities": 1,
-      "per10k65": 8.2
+      "per10k65": 4.6
+     },
+     {
+      "fips": "48485",
+      "name": "Wichita",
+      "state": "TX",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "06079",
+      "name": "San Luis Obispo",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.6
      },
      {
       "fips": "18167",
@@ -3428,14 +3484,6 @@
       "services": 12,
       "facilities": 1,
       "per10k65": 6.5
-     },
-     {
-      "fips": "24021",
-      "name": "Frederick",
-      "state": "MD",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 2.7
      },
      {
       "fips": "28059",
@@ -3454,12 +3502,52 @@
       "per10k65": 2.9
      },
      {
+      "fips": "24021",
+      "name": "Frederick",
+      "state": "MD",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "29021",
+      "name": "Buchanan",
+      "state": "MO",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "19061",
+      "name": "Dubuque",
+      "state": "IA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.3
+     },
+     {
       "fips": "24001",
       "name": "Allegany",
       "state": "MD",
       "services": 12,
       "facilities": 1,
       "per10k65": 8.4
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 11.2
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.8
      },
      {
       "fips": "06083",
@@ -3470,60 +3558,28 @@
       "per10k65": 1.6
      },
      {
-      "fips": "01069",
-      "name": "Houston",
-      "state": "AL",
+      "fips": "21059",
+      "name": "Daviess",
+      "state": "KY",
       "services": 11,
       "facilities": 1,
-      "per10k65": 5.4
+      "per10k65": 6.0
      },
      {
-      "fips": "06065",
-      "name": "Riverside",
-      "state": "CA",
+      "fips": "04025",
+      "name": "Yavapai",
+      "state": "AZ",
       "services": 11,
       "facilities": 1,
-      "per10k65": 0.3
+      "per10k65": 1.3
      },
      {
-      "fips": "49049",
-      "name": "Utah",
-      "state": "UT",
+      "fips": "42041",
+      "name": "Cumberland",
+      "state": "PA",
       "services": 11,
       "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "05131",
-      "name": "Sebastian",
-      "state": "AR",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 5.0
-     },
-     {
-      "fips": "12073",
-      "name": "Leon",
-      "state": "FL",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 2.5
-     },
-     {
-      "fips": "10001",
-      "name": "Kent",
-      "state": "DE",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 3.2
-     },
-     {
-      "fips": "06099",
-      "name": "Stanislaus",
-      "state": "CA",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 1.4
+      "per10k65": 2.2
      },
      {
       "fips": "24013",
@@ -3558,20 +3614,52 @@
       "per10k65": 0.6
      },
      {
-      "fips": "04025",
-      "name": "Yavapai",
-      "state": "AZ",
+      "fips": "01069",
+      "name": "Houston",
+      "state": "AL",
       "services": 11,
       "facilities": 1,
-      "per10k65": 1.3
+      "per10k65": 5.4
      },
      {
-      "fips": "06007",
-      "name": "Butte",
-      "state": "CA",
+      "fips": "10001",
+      "name": "Kent",
+      "state": "DE",
       "services": 11,
       "facilities": 1,
-      "per10k65": 2.9
+      "per10k65": 3.2
+     },
+     {
+      "fips": "05131",
+      "name": "Sebastian",
+      "state": "AR",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "48037",
+      "name": "Bowie",
+      "state": "TX",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.4
+     },
+     {
+      "fips": "45013",
+      "name": "Beaufort",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
      }
     ],
     "hospitalYears": {
@@ -3581,94 +3669,118 @@
     "paidPhysicians": {
      "byState": [
       {
-       "state": "TX",
-       "physicians": 1826,
-       "totalUsd": 1086292.26
-      },
-      {
-       "state": "NY",
-       "physicians": 1281,
-       "totalUsd": 862998.48
-      },
-      {
-       "state": "OH",
-       "physicians": 691,
-       "totalUsd": 830765.04
-      },
-      {
        "state": "CA",
-       "physicians": 944,
-       "totalUsd": 815286.94
+       "physicians": 600,
+       "totalUsd": 789112.39
       },
       {
-       "state": "IL",
-       "physicians": 675,
-       "totalUsd": 644770.36
-      },
-      {
-       "state": "PA",
-       "physicians": 906,
-       "totalUsd": 622625.29
-      },
-      {
-       "state": "FL",
-       "physicians": 734,
-       "totalUsd": 358839.68
-      },
-      {
-       "state": "MI",
-       "physicians": 736,
-       "totalUsd": 348663.58
-      },
-      {
-       "state": "NC",
-       "physicians": 352,
-       "totalUsd": 333823.78
-      },
-      {
-       "state": "MA",
-       "physicians": 216,
-       "totalUsd": 319328.19
-      },
-      {
-       "state": "MN",
-       "physicians": 198,
-       "totalUsd": 301913.14
+       "state": "TX",
+       "physicians": 700,
+       "totalUsd": 325298.88
       },
       {
        "state": "GA",
-       "physicians": 449,
-       "totalUsd": 286638.84
+       "physicians": 144,
+       "totalUsd": 323567.15
       },
       {
-       "state": "TN",
-       "physicians": 464,
-       "totalUsd": 278855.86
+       "state": "NY",
+       "physicians": 695,
+       "totalUsd": 318937.61
+      },
+      {
+       "state": "PA",
+       "physicians": 579,
+       "totalUsd": 291134.42
+      },
+      {
+       "state": "IL",
+       "physicians": 303,
+       "totalUsd": 255450.31
+      },
+      {
+       "state": "FL",
+       "physicians": 265,
+       "totalUsd": 218270.23
+      },
+      {
+       "state": "MO",
+       "physicians": 141,
+       "totalUsd": 205361.35
+      },
+      {
+       "state": "MN",
+       "physicians": 77,
+       "totalUsd": 157483.34
+      },
+      {
+       "state": "OH",
+       "physicians": 287,
+       "totalUsd": 151167.89
+      },
+      {
+       "state": "MI",
+       "physicians": 290,
+       "totalUsd": 112780.27
+      },
+      {
+       "state": "VA",
+       "physicians": 156,
+       "totalUsd": 102066.66
+      },
+      {
+       "state": "NC",
+       "physicians": 210,
+       "totalUsd": 94730.06
       },
       {
        "state": "NJ",
-       "physicians": 392,
-       "totalUsd": 269506.77
+       "physicians": 309,
+       "totalUsd": 94229.7
       },
       {
-       "state": "IN",
-       "physicians": 355,
-       "totalUsd": 226175.65
+       "state": "MA",
+       "physicians": 100,
+       "totalUsd": 91074.34
       }
      ],
      "scope": "device"
     },
     "trialSites": [
      {
-      "name": "University of Nebraska Medical Center",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "lat": 41.256,
-      "lon": -95.94,
+      "name": "Sharp Memorial Hospital",
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.716,
+      "lon": -117.165,
+      "trials": 6
+     },
+     {
+      "name": "Montefiore Medical Center",
+      "city": "The Bronx",
+      "state": "New York",
+      "lat": 40.85,
+      "lon": -73.866,
       "trials": 5
      },
      {
-      "name": "Integris Baptist Medical Center",
+      "name": "St. Luke's Medical Center",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 5
+     },
+     {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 4
+     },
+     {
+      "name": "INTEGRIS Baptist Medical Center",
       "city": "Oklahoma City",
       "state": "Oklahoma",
       "lat": 35.468,
@@ -3676,19 +3788,11 @@
       "trials": 4
      },
      {
-      "name": "Massachusetts General Hospital",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "lat": 42.358,
-      "lon": -71.06,
-      "trials": 4
-     },
-     {
-      "name": "Medical University of South Carolina",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "lat": 32.776,
-      "lon": -79.933,
+      "name": "Jewish Hospital",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.254,
+      "lon": -85.759,
       "trials": 4
      },
      {
@@ -3700,11 +3804,11 @@
       "trials": 4
      },
      {
-      "name": "Spectrum Health Butterworth Hospital",
-      "city": "Grand Rapids",
-      "state": "Michigan",
-      "lat": 42.963,
-      "lon": -85.668,
+      "name": "Texas Heart Institute",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
       "trials": 4
      },
      {
@@ -3716,11 +3820,11 @@
       "trials": 4
      },
      {
-      "name": "Abbott Northwestern Hospital",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "lat": 44.98,
-      "lon": -93.264,
+      "name": "Advocate Christ Medical Center",
+      "city": "Oak Lawn",
+      "state": "Illinois",
+      "lat": 41.711,
+      "lon": -87.758,
       "trials": 3
      },
      {
@@ -3732,11 +3836,19 @@
       "trials": 3
      },
      {
-      "name": "Carolinas Medical Center",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "lat": 35.227,
-      "lon": -80.843,
+      "name": "Baptist Memorial Hospital",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "lat": 35.15,
+      "lon": -90.049,
+      "trials": 3
+     },
+     {
+      "name": "California Pacific Medical Center",
+      "city": "San Francisco",
+      "state": "California",
+      "lat": 37.775,
+      "lon": -122.419,
       "trials": 3
      },
      {
@@ -3756,51 +3868,35 @@
       "trials": 3
      },
      {
-      "name": "Hospital of the University of Pennsylvania",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "lat": 39.952,
-      "lon": -75.164,
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
       "trials": 3
      },
      {
-      "name": "Montefiore Medical Center",
-      "city": "The Bronx",
-      "state": "New York",
-      "lat": 40.85,
-      "lon": -73.866,
+      "name": "Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 39.961,
+      "lon": -82.999,
       "trials": 3
      },
      {
-      "name": "Northwestern Memorial Hospital",
-      "city": "Chicago",
-      "state": "Illinois",
-      "lat": 41.85,
-      "lon": -87.65,
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "lat": 36.847,
+      "lon": -76.285,
       "trials": 3
      },
      {
-      "name": "Ochsner Medical Center",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "lat": 29.955,
-      "lon": -90.075,
-      "trials": 3
-     },
-     {
-      "name": "Piedmont Heart Institute",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "lat": 33.749,
-      "lon": -84.388,
-      "trials": 3
-     },
-     {
-      "name": "St. Vincent Hospital",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "lat": 39.768,
-      "lon": -86.158,
+      "name": "Shands Hospital @ University of Florida",
+      "city": "Gainesville",
+      "state": "Florida",
+      "lat": 29.652,
+      "lon": -82.325,
       "trials": 3
      },
      {
@@ -3812,11 +3908,11 @@
       "trials": 3
      },
      {
-      "name": "Tufts Medical Center",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "lat": 42.358,
-      "lon": -71.06,
+      "name": "University of Alabama at Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
       "trials": 3
      },
      {
@@ -3828,44 +3924,12 @@
       "trials": 3
      },
      {
-      "name": "University of North Carolina at Chapel Hill",
-      "city": "Chapel Hill",
-      "state": "North Carolina",
-      "lat": 35.913,
-      "lon": -79.056,
+      "name": "Washington Hospital Center",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "lat": 38.895,
+      "lon": -77.036,
       "trials": 3
-     },
-     {
-      "name": "University of Virginia Medical Center",
-      "city": "Charlottesville",
-      "state": "Virginia",
-      "lat": 38.029,
-      "lon": -78.477,
-      "trials": 3
-     },
-     {
-      "name": "Advocate Christ Medical Center",
-      "city": "Oak Lawn",
-      "state": "Illinois",
-      "lat": 41.711,
-      "lon": -87.758,
-      "trials": 2
-     },
-     {
-      "name": "Baptist Health Medical Center",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "lat": 34.746,
-      "lon": -92.29,
-      "trials": 2
-     },
-     {
-      "name": "Baptist Health Medical Center - Little Rock",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "lat": 34.746,
-      "lon": -92.29,
-      "trials": 2
      },
      {
       "name": "Barnes Jewish Hospital",
@@ -3876,19 +3940,11 @@
       "trials": 2
      },
      {
-      "name": "Baylor Research Institute",
-      "city": "Dallas",
-      "state": "Texas",
-      "lat": 32.783,
-      "lon": -96.807,
-      "trials": 2
-     },
-     {
-      "name": "Bon Secours St. Mary's Hospital",
-      "city": "Richmond",
-      "state": "Virginia",
-      "lat": 37.554,
-      "lon": -77.46,
+      "name": "Barnes-Jewish Hospital/Washington University",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
       "trials": 2
      },
      {
@@ -3900,19 +3956,19 @@
       "trials": 2
      },
      {
-      "name": "California Pacific Medical Center",
-      "city": "San Francisco",
-      "state": "California",
-      "lat": 37.775,
-      "lon": -122.419,
-      "trials": 2
-     },
-     {
       "name": "Cedars Sinai Medical Center",
       "city": "Beverly Hills",
       "state": "California",
       "lat": 34.074,
       "lon": -118.4,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
       "trials": 2
      },
      {
@@ -3932,22 +3988,6 @@
       "trials": 2
      },
      {
-      "name": "Duke University",
-      "city": "Durham",
-      "state": "North Carolina",
-      "lat": 35.994,
-      "lon": -78.899,
-      "trials": 2
-     },
-     {
-      "name": "Duke University Medical Center",
-      "city": "Durham",
-      "state": "North Carolina",
-      "lat": 35.994,
-      "lon": -78.899,
-      "trials": 2
-     },
-     {
       "name": "Florida Hospital",
       "city": "Orlando",
       "state": "Florida",
@@ -3956,19 +3996,27 @@
       "trials": 2
      },
      {
-      "name": "Hershey",
-      "city": "Hershey",
-      "state": "Pennsylvania",
-      "lat": 40.286,
-      "lon": -76.65,
+      "name": "Henry Ford Health System",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
       "trials": 2
      },
      {
-      "name": "IU Health/Methodist Hospital",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "lat": 39.768,
-      "lon": -86.158,
+      "name": "Hospital of University of PA",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 2
+     },
+     {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
       "trials": 2
      },
      {
@@ -3978,12 +4026,52 @@
       "lat": 38.882,
       "lon": -77.171,
       "trials": 2
+     },
+     {
+      "name": "Johns Hopkins Hospital",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.29,
+      "lon": -76.612,
+      "trials": 2
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 2
+     },
+     {
+      "name": "Mayo Clinic Hospital",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "lat": 33.448,
+      "lon": -112.074,
+      "trials": 2
+     },
+     {
+      "name": "Mayo Clinic Rochester",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 2
+     },
+     {
+      "name": "Medical City Hospital Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 2
      }
     ],
     "trialSiteTotals": {
-     "sites": 353,
-     "usSites": 277,
-     "trials": 14,
+     "sites": 252,
+     "usSites": 242,
+     "trials": 13,
      "scope": "device"
     }
    },
@@ -3992,54 +4080,30 @@
   },
   "trial-aes": {
    "teaser": {
-    "trialsMatched": 14,
-    "trialsWithAeTables": 5,
-    "seriousEventRows": 104,
-    "seriousSubjectsAffected": 9333,
+    "trialsMatched": 13,
+    "trialsWithAeTables": 4,
+    "seriousEventRows": 106,
+    "seriousSubjectsAffected": 4563,
     "deathTermSubjects": 0,
     "scope": "device"
    },
    "payload": {
     "scope": "device",
-    "trialsMatched": 14,
-    "trialsWithAeTables": 5,
-    "trialsWithSerious": 5,
+    "trialsMatched": 13,
+    "trialsWithAeTables": 4,
+    "trialsWithSerious": 4,
     "totals": {
      "serious": {
-      "rows": 104,
-      "subjects": 9333
+      "rows": 106,
+      "subjects": 4563
      },
      "other": {
-      "rows": 37,
-      "subjects": 2736
+      "rows": 30,
+      "subjects": 967
      },
      "deathTermSubjects": 0
     },
     "topSeriousTerms": [
-     {
-      "term": "Protocol defined other adverse event",
-      "organSystem": "General disorders",
-      "rows": 1,
-      "subjectsAffected": 1084
-     },
-     {
-      "term": "Protocol defined major infection",
-      "organSystem": "Infections and infestations",
-      "rows": 1,
-      "subjectsAffected": 862
-     },
-     {
-      "term": "Protocol defined bleeding",
-      "organSystem": "Blood and lymphatic system disorders",
-      "rows": 1,
-      "subjectsAffected": 802
-     },
-     {
-      "term": "Major Infection",
-      "organSystem": "Infections and infestations",
-      "rows": 3,
-      "subjectsAffected": 783
-     },
      {
       "term": "Other",
       "organSystem": "General disorders",
@@ -4047,46 +4111,61 @@
       "subjectsAffected": 617
      },
      {
-      "term": "Protocol defined right heart failure",
-      "organSystem": "Cardiac disorders",
-      "rows": 1,
-      "subjectsAffected": 541
-     },
-     {
       "term": "Bleeding",
       "organSystem": "Blood and lymphatic system disorders",
-      "rows": 2,
-      "subjectsAffected": 485
+      "rows": 3,
+      "subjectsAffected": 602
      },
      {
-      "term": "Protocol defined cardiac arrhythmia",
+      "term": "Major Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 2,
+      "subjectsAffected": 525
+     },
+     {
+      "term": "Cardiac Arrhythmia",
       "organSystem": "Cardiac disorders",
-      "rows": 1,
-      "subjectsAffected": 473
+      "rows": 4,
+      "subjectsAffected": 406
      },
      {
       "term": "Right Heart Failure",
       "organSystem": "Cardiac disorders",
-      "rows": 3,
-      "subjectsAffected": 348
+      "rows": 2,
+      "subjectsAffected": 278
      },
      {
-      "term": "Protocol defined respiratory failure",
+      "term": "Respiratory Failure",
       "organSystem": "Respiratory, thoracic and mediastinal disorders",
-      "rows": 1,
-      "subjectsAffected": 325
+      "rows": 4,
+      "subjectsAffected": 275
+     },
+     {
+      "term": "Stroke",
+      "organSystem": "Nervous system disorders",
+      "rows": 7,
+      "subjectsAffected": 211
+     },
+     {
+      "term": "Bleeding (All serious events)",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 2,
+      "subjectsAffected": 143
+     },
+     {
+      "term": "Renal Dysfunction",
+      "organSystem": "Renal and urinary disorders",
+      "rows": 2,
+      "subjectsAffected": 122
+     },
+     {
+      "term": "Sepsis",
+      "organSystem": "Infections and infestations",
+      "rows": 3,
+      "subjectsAffected": 109
      }
     ],
     "trials": [
-     {
-      "nctId": "NCT02892955",
-      "title": "MOMENTUM 3 Continued Access Protocol",
-      "phase": "NA",
-      "status": "COMPLETED",
-      "startYear": "2016",
-      "seriousRows": 19,
-      "seriousSubjects": 5045
-     },
      {
       "nctId": "NCT02224755",
       "title": "MOMENTUM 3 IDE Clinical Study Protocol",
@@ -4097,31 +4176,31 @@
       "seriousSubjects": 3180
      },
      {
-      "nctId": "NCT02497950",
-      "title": "HeartMate 3 ELEVATE\u2122 Registry",
-      "phase": null,
-      "status": "COMPLETED",
-      "startYear": "2015",
-      "seriousRows": 16,
-      "seriousSubjects": 1089
-     },
-     {
-      "nctId": "NCT04974684",
-      "title": "DOT HeartMate 3 Study",
+      "nctId": "NCT00121485",
+      "title": "Thoratec HeartMate II Left Ventricular Assist System (LVAS) for Destination Therapy",
       "phase": "NA",
       "status": "COMPLETED",
-      "startYear": "2022",
-      "seriousRows": 30,
-      "seriousSubjects": 18
+      "startYear": "2005",
+      "seriousRows": 42,
+      "seriousSubjects": 789
      },
      {
-      "nctId": "NCT04703855",
-      "title": "Hong Kong and Taiwan HM3 PMS",
+      "nctId": "NCT00121472",
+      "title": "Thoratec HeartMate II Left Ventricular Assist System (LVAS) for Bridge to Cardiac Transplantation",
       "phase": "NA",
-      "status": "TERMINATED",
-      "startYear": "2021",
-      "seriousRows": 1,
-      "seriousSubjects": 1
+      "status": "COMPLETED",
+      "startYear": "2005",
+      "seriousRows": 18,
+      "seriousSubjects": 528
+     },
+     {
+      "nctId": "NCT02836652",
+      "title": "Prevention of Non-Surgical Bleeding by Management of HeartMate II Patients Without Antiplatelet Therapy",
+      "phase": "PHASE4",
+      "status": "COMPLETED",
+      "startYear": "2016",
+      "seriousRows": 8,
+      "seriousSubjects": 66
      }
     ]
    },
@@ -4130,181 +4209,23 @@
   },
   "global-actions": {
    "teaser": {
-    "actions": 94,
-    "countries": 21,
-    "sources": 6,
-    "firstForeignDate": "2017-05-18",
+    "actions": 73,
+    "countries": 19,
+    "sources": 2,
+    "firstForeignDate": "2008-05-13",
     "latestAction": {
      "country": "Switzerland",
      "date": "2025-10-29",
      "classification": "Field Safety Corrective Action"
     },
-    "screenedOut": 0
+    "screenedOut": 9
    },
    "payload": {
     "countries": [
      {
-      "code": "GB",
-      "name": "United Kingdom",
-      "total": 17,
-      "actions": [
-       {
-        "date": "2025-03-25",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notices: 17 to 21 March 2025",
-        "reason": "List of Field Safety Notices for 17 to 21 March 2025.",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-17-to-21-march-2025"
-       },
-       {
-        "date": "2024-08-05",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notices: 29 July to 2 August 2024",
-        "reason": "List of Field Safety Notices from 29 July to 2 August 2024.",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-29-july-to-2-august-2024"
-       },
-       {
-        "date": "2024-03-27",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notices: 18 to 22 March 2024",
-        "reason": "List of Field Safety Notices from 18 to 22 March 2024.",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-18-to-22-march-2024"
-       },
-       {
-        "date": "2024-02-26",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notices:19 to 23 February 2024",
-        "reason": "List of Field Safety Notices from 19 to 23 February 2024",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-19-to-23-february-2024"
-       },
-       {
-        "date": "2019-12-09",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notice: 02 to 06 December 2019",
-        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 02 to 06 December 2019.",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notice-02-to-06-december-2019"
-       },
-       {
-        "date": "2019-03-19",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notice: 11 to 15 March 2019",
-        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 11 to 15 March 2019",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notice-11-to-15-march-2019"
-       },
-       {
-        "date": "2019-03-08",
-        "source": "icij-imdd",
-        "actionType": "Safety alert / Field Safety Notice",
-        "classification": null,
-        "product": "HeartMate 3 Coring Tool",
-        "reason": null,
-        "url": null
-       },
-       {
-        "date": "2019-01-21",
-        "source": "mhra-fsn",
-        "actionType": "field-safety-notices",
-        "classification": null,
-        "product": "Field Safety Notices: 14 to 18 January 2019",
-        "reason": "List of field safety notices (FSNs) from medical device manufacturers from 14 to 18 January 2019",
-        "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-14-to-18-january-2019"
-       }
-      ]
-     },
-     {
-      "code": "CA",
-      "name": "Canada",
-      "total": 15,
-      "actions": [
-       {
-        "date": "2025-10-17",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type I",
-        "product": "HeartMate 3\u2122 System Controller \u00b7 HeartMate 3\u2122 System Controller",
-        "reason": "Performance",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3tm-system-controller"
-       },
-       {
-        "date": "2024-07-30",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type II",
-        "product": "HeartMate 3 LVAS Implant Kit and HeartMate 3 System Controller \u00b7 HeartMate 3 LVAS Implant Kit and HeartMate 3 System Controller",
-        "reason": "Labelling and packaging - Performance",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3-lvas-implant-kit-and-heartmate-3-system-controller"
-       },
-       {
-        "date": "2024-04-05",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type I",
-        "product": "Heartmate 3 LVAS Implant Kit \u00b7 Heartmate 3 LVAS Implant Kit",
-        "reason": "Performance",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3-lvas-implant-kit"
-       },
-       {
-        "date": "2024-03-06",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type I",
-        "product": "Heartmate II\u2122 and Heartmate 3\u2122 Left Ventricular Assist Systems \u00b7 Heartmate II\u2122 and Heartmate 3\u2122 Left Ventricular Assist Systems",
-        "reason": "Performance",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-iitm-and-heartmate-3tm-left-ventricular-assist-systems"
-       },
-       {
-        "date": "2023-09-08",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type II",
-        "product": "Apical Coring Knife and Heartmate 3 Left Ventricular Assist System \u00b7 Apical Coring Knife and Heartmate 3 Left Ventricular Assist System",
-        "reason": "Performance",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/apical-coring-knife-and-heartmate-3-left-ventricular-assist-system"
-       },
-       {
-        "date": "2020-01-24",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type II",
-        "product": "Heartmate 3 LVAS Implant Kit and Modular Cable With Cap (2019-12-03)",
-        "reason": "Medical devices",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3-lvas-implant-kit-and-modular-cable-cap-2019-12-03"
-       },
-       {
-        "date": "2020-01-24",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type II",
-        "product": "Heartmate 3 LVAS Implant Kit (2019-12-02)",
-        "reason": "Medical devices",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3-lvas-implant-kit-2019-12-02"
-       },
-       {
-        "date": "2019-04-12",
-        "source": "medeffect-canada",
-        "actionType": "Recall / safety alert",
-        "classification": "Type II",
-        "product": "HeartMate 3 Sealed Outflow Graft with bend relief (2019-03-31)",
-        "reason": "Medical devices",
-        "url": "https://recalls-rappels.canada.ca/en/alert-recall/heartmate-3-sealed-outflow-graft-bend-relief-2019-03-31"
-       }
-      ]
-     },
-     {
       "code": "CH",
       "name": "Switzerland",
-      "total": 14,
+      "total": 22,
       "actions": [
        {
         "date": "2025-10-29",
@@ -4312,33 +4233,6 @@
         "actionType": "Field Safety Corrective Action",
         "classification": null,
         "product": "HeartMate II and HeartMate 3 System Controllers 106017, 106524INT, 106531INT, 106531LF2",
-        "reason": null,
-        "url": null
-       },
-       {
-        "date": "2025-03-18",
-        "source": "swissmedic-fsca",
-        "actionType": "Field Safety Corrective Action",
-        "classification": null,
-        "product": "HeartMate 3 Mobile Power Unit (MPU) 107758, 107758UK, L107758",
-        "reason": null,
-        "url": null
-       },
-       {
-        "date": "2024-07-24",
-        "source": "swissmedic-fsca",
-        "actionType": "Field Safety Corrective Action",
-        "classification": null,
-        "product": "HeartMate 3 System Controller 106524INT, 106531INT, 106531LF2",
-        "reason": "Added new language",
-        "url": null
-       },
-       {
-        "date": "2024-03-28",
-        "source": "swissmedic-fsca",
-        "actionType": "Field Safety Corrective Action",
-        "classification": null,
-        "product": "Heartmate III 106524INT",
         "reason": null,
         "url": null
        },
@@ -4352,432 +4246,447 @@
         "url": null
        },
        {
-        "date": "2023-08-29",
+        "date": "2017-04-10",
         "source": "swissmedic-fsca",
         "actionType": "Field Safety Corrective Action",
         "classification": null,
-        "product": "HeartMate 3 LVAS 1050; 106524INT; 1050; 106524INT",
+        "product": "HeartMate II LVAS System Controller 105109, catalogue: 106016 and 106017",
         "reason": null,
         "url": null
        },
        {
-        "date": "2020-01-08",
+        "date": "2017-04-10",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controller",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20170330_06"
+       },
+       {
+        "date": "2015-09-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150915_03"
+       },
+       {
+        "date": "2015-09-21",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controller Model: 105109 (Pocket Controller), Catalogue: 106015, 106016, 106762, 106017, 107801",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20150915_03"
+       },
+       {
+        "date": "2015-09-21",
         "source": "swissmedic-fsca",
         "actionType": "Field Safety Corrective Action",
         "classification": null,
-        "product": "Heartmate III 106525, 106525INT / 106524, 106524INT LVAS HM3 KIT",
-        "reason": "New Cable",
+        "product": "HeartMate II LVAS System Controller Model: 105109 (Pocket Controller), Catalogue: 106015, 106016, 106762, 106017, 107801  \u00b7 HeartMate II LVAS ",
+        "reason": null,
         "url": null
        },
        {
-        "date": "2019-12-05",
+        "date": "2014-03-17",
         "source": "swissmedic-fsca",
         "actionType": "Field Safety Corrective Action",
         "classification": null,
-        "product": "Heartmate III MPU: 107758, HM3 LVAS Kit: 106524INT, 106524; MPU catalogue #107758, HM3 LVAS #106524INT and #106524",
+        "product": "HeartMate II LVAS System Controller 106015, 106016, 106762, 106017, 107801",
         "reason": null,
         "url": null
-       }
-      ]
-     },
-     {
-      "code": "AU",
-      "name": "Australia",
-      "total": 11,
-      "actions": [
-       {
-        "date": "2025-10-16",
-        "source": "tga-drac",
-        "actionType": "Product Alert",
-        "classification": "Class I",
-        "product": "HeartMate II and HeartMate 3 System Controllers",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2024-07-24",
-        "source": "tga-drac",
-        "actionType": "Product Defect Alert",
-        "classification": "Class II",
-        "product": "HeartMate 3 LVAS Kit and Systems Controller",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2024-03-20",
-        "source": "tga-drac",
-        "actionType": "Product Defect Correction",
-        "classification": "Class I",
-        "product": "HeartMate 3 LVAS Kits",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2024-02-27",
-        "source": "tga-drac",
-        "actionType": "Product Defect Correction",
-        "classification": "Class I",
-        "product": "Heartmate 3 LVAS Kits with Heartmate 3 Outflow Grafts & Heartmate II LVAS Kits with Heartmate II Outflow Grafts",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2019-12-03",
-        "source": "tga-drac",
-        "actionType": "Product Defect Correction",
-        "classification": "Class I",
-        "product": "Mobile Power Unit for Heartmate 3 LVAS",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2019-04-05",
-        "source": "tga-drac",
-        "actionType": "Recall",
-        "classification": "Class II",
-        "product": "HeartMate 3 LVAD implant",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2018-12-04",
-        "source": "tga-drac",
-        "actionType": "Hazard Alert",
-        "classification": "Class I",
-        "product": "HeartMate 3 Left Ventricular Assist System and Outflow Graft Clip",
-        "reason": "Action level: Hospital",
-        "url": null
-       },
-       {
-        "date": "2018-06-01",
-        "source": "icij-imdd",
-        "actionType": "Recall",
-        "classification": "Class I",
-        "product": "HeartMate 3 Left Ventricular Assist System",
-        "reason": "Further to the April 2018 Safety Alert communication (RC-2018-RN-00302-1) sent to surgeons in regards to HeartMate 3 (HM3) Outflow Graft twist occlusions, Abbott have identified the need for further clarification on the origin of the Outflow Graft twist, the persistent low flow alarm, additional rec",
-        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2018-RN-00668-1"
-       }
-      ]
-     },
-     {
-      "code": "PL",
-      "name": "Poland",
-      "total": 4,
-      "actions": [
-       {
-        "date": "2018-06-08",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 system for laboratories of the left chamber, catalog no. 106524int - lvas hm3 set",
-        "reason": null,
-        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-fa-q118-mcs-1-firmy-abbott-dotycz%C4%85ca-systemu-heartmate-3-do-wspomagania-pracy"
-       },
-       {
-        "date": "2018-06-08",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 system for left chamber, catalog no. 106524int - lvas hm3 set",
-        "reason": null,
-        "url": "http://www.urpl.gov.pl/pl/uzupe%C5%82nienie-notatki-bezpiecze%C5%84stwa-fa-q118-mcs-1-firmy-abbott-dotycz%C4%85cej-systemu-heartmate-3-do"
-       },
-       {
-        "date": "2017-07-07",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 for left chamber assistance, catalog number 106524int",
-        "reason": null,
-        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-fa-q217-mcs-1-firmy-abbott-dotycz%C4%85ca-systemu-heartmate-3-do-wspomagania-pracy"
-       },
-       {
-        "date": "2017-05-26",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 for left-ventricular assist",
-        "reason": null,
-        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-dotycz%C4%85ca-systemu-heartmate-3-do-wspomagania-pracy-lewej-komory"
-       }
-      ]
-     },
-     {
-      "code": "NZ",
-      "name": "New Zealand",
-      "total": 3,
-      "actions": [
-       {
-        "date": "2024-03-21",
-        "source": "medsafe-nz",
-        "actionType": "Correction",
-        "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "HeartMate 3 LVAS Implant Kit, 106524INT Model Number: 106524INT",
-        "reason": "The manufacturer has received complaints of blood leaking out of the left ventricle or air entering the left ventricle or Left Ventricle Assist Device (LVAD) which are attributed to a leak path at the seal interface between the HeartMate 3TM Left Ventricle Assist System (LVAS) inflow cannula and\nthe",
-        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=32753"
-       },
-       {
-        "date": "2024-02-19",
-        "source": "medsafe-nz",
-        "actionType": "Correction",
-        "classification": "Healthcare Professional",
-        "product": "HeartMate 3 Sealed Outflow Graft with Bend Relief, 105581INT Model number - 105581INT",
-        "reason": "The manufacturer is notifying users of a planned update to the Instructions for Use associated with observed outflow graft deformation known as Extrinsic Outflow Graft Obstruction (EOGO) associated with the HeartMate 3\u2122 Left Ventricular Assist System (LVAS). Significant EOGO will manifest clinically",
-        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=32574"
-       },
-       {
-        "date": "2024-01-04",
-        "source": "medsafe-nz",
-        "actionType": "Correction",
-        "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "HeartMate Touch Communication System HMT1150 (Models HMT1150)",
-        "reason": "The manufacturer has received reports in the past 3 years with the HeartMate Touch\u2122 Communication System (also referred to as 'HeartMate Touch') application (App) version 1.0.32 due to unintentional start/stop of the HeartMate 3\u2122 Left Ventricle Asist Device (LVAD).\nInvestigations determined that the",
-        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=32354"
        }
       ]
      },
      {
       "code": "DE",
       "name": "Germany",
-      "total": 3,
+      "total": 8,
       "actions": [
        {
-        "date": "2018-05-29",
+        "date": "2017-06-13",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3",
-        "reason": "Urgent Field Safety Notice for HeartMate 3 by Thoratec Corporation",
-        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2018/03936-18_kundeninfo_en.html"
+        "product": "HeartMate II System Controller",
+        "reason": "Urgent Field Safety Notice for HeartMate II System Controller by Thoratec Corporation",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/03064-17_kundeninfo_en.html"
        },
        {
-        "date": "2017-07-19",
+        "date": "2015-11-06",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3",
-        "reason": "Urgent Field Safety Notice for HeartMate 3 by Thoratec Corporation",
-        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/04853-17_kundeninfo_en.html"
+        "product": "HeartMate II\u00ae System Controller",
+        "reason": "URGENT FIELD SAFETY NOTICE for HeartMate II\u00ae System Controller, THORATEC CORPORATION",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2015/06605-15_kundeninfo_en.html"
        },
        {
-        "date": "2017-06-23",
+        "date": "2014-03-17",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3 LVAS Implant Kit, HeartMate 3 Pump",
-        "reason": "Urgent Field Safety Notice for HeartMate 3 LVAS Implant Kit, HeartMate 3 Pump by Thoratec Corporation",
-        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2017/05466-17_kundeninfo_en.html"
+        "product": "the HeartMate II LVAS Pocket System Controller",
+        "reason": "Safety Notice concerning the HeartMate II LVAS Pocket System Controller, Thoratec Corp.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2014/01132-14_kundeninfo_en.html"
+       },
+       {
+        "date": "2012-04-05",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the Thoratec HeartMate II LVAS",
+        "reason": "Urgent Safety Notice for the Thoratec HeartMate II LVAS, Thoratec Corp.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2012/01160-12_kundeninfo_en.html"
+       },
+       {
+        "date": "2010-09-23",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controller",
+        "reason": "Safety Notice for HeartMate II LVAS System Controller, Thoratec Corporation",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2010/03165-10_kundeninfo_en.html"
+       },
+       {
+        "date": "2009-11-09",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Thoratec HeartMate II and HeartMate XVE LVAS",
+        "reason": "Recall for Thoratec HeartMate II and HeartMate XVE LVAS, Thoratec Corp.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2009/03850-09_kundeninfo_en.html"
+       },
+       {
+        "date": "2008-08-01",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controller",
+        "reason": "Safety Notice for HeartMate II LVAS System Controller, Thoratec Corp.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2008/00995-08_kundeninfo_en.html"
+       },
+       {
+        "date": "2008-05-16",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II",
+        "reason": "Information for HeartMate II, Thoratec Corp.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/01/2008/01208-08_kundeninfo_en.html"
        }
       ]
      },
      {
-      "code": "IT",
-      "name": "Italy",
-      "total": 3,
+      "code": "CA",
+      "name": "Canada",
+      "total": 7,
       "actions": [
        {
-        "date": "2018-05-24",
+        "date": "2017-03-30",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 lvas implant kit, eu",
-        "reason": null,
-        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=8015"
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "HEARTMATE II LVAS - SYSTEM CONTROLLER",
+        "reason": "AS FOLLOW-UP TO THE MOST RECENT COMMUNICATION IN SEPTEMBER 2015WE ARE ADVISING HEALTH CANADA THAT THORATEC CORPORATION ACQUIRED BY ABBOTT LABORATORIES IS UPDATING ITS ALERT GUIDES CONDUCTING A SOFTWARE UPGRADE AND ADDING CONTROLLER ALIGNMENT MARKINGS FOR THE HEARTMATE II SYSTEM CONTROLLER AS PART OF",
+        "url": null
        },
        {
-        "date": "2017-06-12",
+        "date": "2015-09-14",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 lvas implant kit, eu",
-        "reason": null,
-        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7424"
+        "actionType": "Recall",
+        "classification": "I",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT",
+        "reason": "FAILURE OF HOSPITALS TO PROPERLY MONITOR THE EXPIRATION DATE OF THE 11V LITHIUM ION BACKUP BATTERY (\"BACKUP BATTERY\") IN THE HEARTMATE II LVAS SYSTEM CONTROLLER CAN RESULT IN PREVENTABLE BACK UP BATTERY ADVISORY ALARMS AND UNWARRANTED SYSTEM CONTROLLER EXCHANGES BY PATIENTS. THESE MISHAPS COULD POTE",
+        "url": null
        },
        {
-        "date": "2017-05-19",
+        "date": "2014-03-04",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "heartmate 3 lvas implant kit, eu",
-        "reason": null,
-        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=7390"
-       }
-      ]
-     },
-     {
-      "code": "NL",
-      "name": "Netherlands",
-      "total": 3,
-      "actions": [
-       {
-        "date": "2018-04-09",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
-        "reason": "We have received reports of closure of the outflow graft due to twist (twist) in the HeartMate 3 (HM3) Left Ventricular Assist System (LVAS). As a result of this closure of the outflow graft, these patients have a persistent alarm message for low flow.",
-        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2018/04/09/abbott-fa-q118-mcs-1---heartmate-3%E2%84%A2-left-ventricular-assist-system"
+        "actionType": "Recall",
+        "classification": "I",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT",
+        "reason": "SERIOUS PATIENT INJURIES OR DEATH HAS BEEN ASSOCIATED WITH THE PROCESS OF CHANGING FROM ONE POCKET CONTROLLER TO ANOTHER.",
+        "url": null
        },
        {
-        "date": "2017-06-07",
+        "date": "2012-02-23",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System (steunhart)",
-        "reason": "We have established that there is a possibility of a communication error between the patient's system operation and the support heart, causing an alarm message about a communication fault ( COM Fault) to appear on the system control.",
-        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2017/06/7/field-safety-notice-abbott---thoratec-corporation-heartmate-3%E2%84%A2-steunhart"
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT WITH SEALED GRAFTS",
+        "reason": "TREND IN REPORTS OF DISCONNECTION OF THE BEND RELIEF FROM THE SEALED OUTFLOW GRAFT",
+        "url": null
        },
        {
-        "date": "2017-05-18",
+        "date": "2010-09-02",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
-        "reason": "Abbott has identified cases where the bend relief of the outflow cannula (OGBR - Outflow Graft Bend Relief) of the HeartMate 3 (HM3) Left Ventricular Assist System (LVAS) is not fully and evenly attached to the outflow cannula.",
-        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2017/05/18/field-safety-notice-abbott---thoratec-corporation-heartmate-3%E2%84%A2-left-ventricular-assist-system"
-       }
-      ]
-     },
-     {
-      "code": "SG",
-      "name": "Singapore",
-      "total": 3,
-      "actions": [
-       {
-        "date": "2018-04-06",
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "Thoratec HeartMate III\u2122 LVAS Implant Kit",
-        "reason": null,
-        "url": "https://www.hsa.gov.sg/announcements"
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT",
+        "reason": "BENDING FATIGUE RESULTED IN BROKEN DATA COMMUNICATION WIRES IN POWER LEADS AND BENT PINS IN CONNECTORS BETWEEN THE SYSTEM CONTROLLER AND ITS POWER SOURCES HAVE INTERFERED WITH THE CONNECTIONS TO THE SYSTEM CONTROLLER POWER LEADS",
+        "url": null
        },
        {
-        "date": "2017-06-08",
+        "date": "2008-10-27",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "Thoratec HeartMate 3 Left Ventricular Assist System Implant Kit",
-        "reason": null,
-        "url": "https://www.hsa.gov.sg/announcements"
+        "actionType": "Recall",
+        "classification": "I",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT",
+        "reason": "WEAR OF PERCUTANEOUS LEAD CONNECTING HEARTMATE II BLOOD PUMP WITH EXTERNAL SYSTEM CONTROLLER MAY INTERRUPT PUMP FUNCTION REQUIRING REPLACEMNET OF PUMP POTENTIALLY RESULTING IN SERIOUS INJURY/DEATH.",
+        "url": null
        },
        {
-        "date": "2017-05-19",
+        "date": "2008-07-18",
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "Thoratec HeartMate III LVAS Implant kit ,Thoratec HeartMate III Sealed Outflow Graft with Bend Relief",
-        "reason": null,
-        "url": "https://www.hsa.gov.sg/announcements"
+        "actionType": "Recall",
+        "classification": "I",
+        "product": "HEARTMATE II LVAS - IMPLANT KIT",
+        "reason": "INVESTIGATIONAL DEVICE HEARTMATE II PERCUTANEOUS LEAD REQUIRES REPAIR KIT/REPLACEMENT TO PREVENT SEPARATION OF BEND REFIEF FROM LEAD.",
+        "url": null
        }
       ]
      },
      {
       "code": "LBN",
       "name": "LBN",
-      "total": 3,
+      "total": 5,
       "actions": [
        {
-        "date": "2017-06-28",
+        "date": "2017-05-15",
         "source": "icij-imdd",
         "actionType": "Recall",
         "classification": null,
-        "product": "HeartMate 3 Left Ventricular Assist System (LVAS)",
+        "product": "HeartMate II\u00ae System Controller",
         "reason": null,
-        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/28-6-2017/HeartMate3LeftVentricularAssistsystem(LVAS).pdf"
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/15-5-2017/HeartMateII%C2%AESystemController.pdf"
        },
        {
-        "date": "2017-06-19",
+        "date": "2017-04-18",
         "source": "icij-imdd",
         "actionType": "Recall",
         "classification": null,
-        "product": "HeartMate 3 Left Ventricular Assist System (LVAS)",
+        "product": "HeartMate II System Controller",
         "reason": null,
-        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/19-6-2017/HeartMate3LeftVentricularAssistSystem.pdf"
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/18-4-2017/HeartMateIISystemController.pdf"
        },
        {
-        "date": "2017-05-29",
+        "date": "2017-04-10",
         "source": "icij-imdd",
         "actionType": "Recall",
         "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
+        "product": "HeartMate II",
         "reason": null,
-        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/29-5-2017/HeartMate3LeftVentricularAssistSystem.pdf"
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202017/10-4-2017/HeartMateII.pdf"
+       },
+       {
+        "date": "2015-09-28",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartMate II\u00ae System Controller, Model\t\t\tNo. 105109 (Pocket ControllerTM),",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/files/Medical%20Devices/Medical%20Devices%20Recalls%202015/28-9-2015/HeartMateII%C2%AESystemController.pdf"
+       },
+       {
+        "date": "2014-03-26",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "HeartMate II System Controller (Implantable)",
+        "reason": null,
+        "url": "https://www.moph.gov.lb/userfiles/medical_care/HeartMateII.pdf"
        }
       ]
      },
      {
-      "code": "CO",
-      "name": "Colombia",
-      "total": 2,
+      "code": "IE",
+      "name": "Ireland",
+      "total": 5,
       "actions": [
        {
-        "date": "2019-05-15",
+        "date": "2014-03-04",
         "source": "icij-imdd",
-        "actionType": "Safety alert",
+        "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Heartmate 3 left ventricular assist system (LVAS)",
+        "product": "HeartMate II LVAS System Controller",
         "reason": null,
-        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=8"
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/jan-may-2014-fsn-summary-sheets/fsnsummary_mar2014_qmsversion_finalupdated_220714.pdf?sfvrsn=2"
        },
        {
-        "date": "2019-05-10",
+        "date": "2012-02-23",
         "source": "icij-imdd",
-        "actionType": "Safety alert",
+        "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HEARTMATE 3 left ventricular assist system (LVAS)",
+        "product": "HeartMate II Sealed Outflow Graft / HeartMate II Sealed \nOutflow Short Bend Relief / HeartMate II LVAS Implant Kit \n(with Sealed Grafts)",
         "reason": null,
-        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=11"
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/fsn-summary-sheets---2011-2012/fsnsummary_2012_feb2012_qmsversion_updated_240714.pdf?sfvrsn=2"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controler",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notice-september-2015&id=1ecd0326-9782-6eee-9b55-ff00008c97d0"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate\u00ae XVE and HeartMate II\u00ae Left Ventricular \nAssist Systems",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/fsn-summary-sheets--2009-2010/fsnsummary_oct2009_qmsversion_updated_240914.pdf?sfvrsn=2"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II System Controller",
+        "reason": null,
+        "url": "http://www.hpra.ie/homepage/medical-devices/safety-information/safety-notices/item?t=/summary-of-field-safety-notices---march-2016&id=38df0726-9782-6eee-9b55-ff00008c97d0"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 4,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS Implant sealed with graft HeartMate II system controller and HeartMate II LVAS Implant",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--HeartMate-II-LVAS-implantatkit-med-forslutna-graft-HeartMate-II-systemstyrenhet-och-HeartMate-II-LVAS-implantatkit--Thoratec-Corporation/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Aktiva implant \u2013 HeartMate II system controller \u2013 Thoratec Corporation",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--HeartMate-II-systemstyrenhet--Thoratec-Corporation/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Thoratec HeartMate II Left Ventricular Assist System (HM II LVAS)",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2012/Hjartpumpar--Thoratec-HeartMate-II---Thoratec/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Aktiva-implantat--HeartMate-II--Thoratec-Corporation/#"
        }
       ]
      },
      {
       "code": "ES",
       "name": "Spain",
-      "total": 2,
+      "total": 3,
       "actions": [
        {
-        "date": "2018-04-18",
+        "date": "2017-04-18",
         "source": "icij-imdd",
         "actionType": "Recall / Safety Alert",
         "classification": null,
-        "product": "Left Ventricular Assist System (LVAS) HeartMate 3 \u2122. Model number: 106524INT LVAS Kit HM 3.",
+        "product": "HeartMate II LVAS system",
         "reason": null,
         "url": null
        },
        {
-        "date": "2017-05-25",
+        "date": "2015-10-16",
         "source": "icij-imdd",
         "actionType": "Recall / Safety Alert",
         "classification": null,
-        "product": "Left Ventricular Assist System (LVAS) HeartMate 3 \u2122, reference 106524INT - LVAS KIT, HM 3",
+        "product": "HeartMate II LVAS system",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2012-04-04",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "All serial numbers of the \"HeartMate II Left Ventricular Assist System Implant Kit with grafts\", Model 104912, manufactured by Thoratec Corporation, USA.",
         "reason": null,
         "url": null
        }
       ]
      },
      {
-      "code": "CZ",
-      "name": "Czechia",
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2015-09-16",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "\"Pocket\" System Controller used with the HeartMate II Left Ventricular Assist System",
+        "reason": "Medical Device Safety Alert: Backup battery expiration for \"Pocket\" System Controller used with the HeartMate II Left Ventricular Assist System \nThe United States Food and Drug Administration (FDA) has issued a medical device safety alert concerning Backup battery expiration for \"Pocket\" System Cont",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150916a.html"
+       },
+       {
+        "date": "2015-08-06",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartMate II and HeartWare HVAD",
+        "reason": "Medical Device Safety Alert: Implantable Left Ventricular Assist Devices\nThe United States Food and Drug Administration (FDA) has issued a medical device safety alert concerning two Implantable Left Ventricular Assist Devices (LVADs). The affected devices are as follow:-\nFDA is alerting health care ",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20150806.html"
+       },
+       {
+        "date": "2012-02-28",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "HeartMate II\u00ae Left Ventricular Assist System",
+        "reason": "Field Safety Notice: Thoratec HeartMate II\u00ae Left Ventricular Assist System.\nMedical device manufacturer, Thoratec Corporation, has issued a field safety notice on the use of Thoratec  HeartMate II\u00ae Left  Ventricular Assist System. The affected devices included  all lot numbers of the HeartMate II\u00ae L",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20120228a.html"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
       "total": 2,
       "actions": [
        {
-        "date": "2017-09-08",
+        "date": "2017-04-13",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3 LVAS Implant Kit, HeartMate 3 Pump",
+        "product": "system controller heartmate ii, model 105109 - pocket controller",
         "reason": null,
-        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-%E2%80%93-thoratec-corp-dotycz%C4%85ca-kontrolera-systemu-heartmate-ii-model"
        },
        {
-        "date": "2017-06-16",
+        "date": "2015-09-22",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
+        "product": "heartmate ii system controller model no. 105109",
         "reason": null,
-        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-thoratec-corp-dotycz%C4%85ca-heartmate-ii-system-controller-model-nr-105109"
        }
       ]
      },
@@ -4787,22 +4696,22 @@
       "total": 2,
       "actions": [
        {
-        "date": "2017-06-20",
+        "date": "2017-04-03",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3 LVAS Implant Kit",
+        "product": "HeartMate II\u00ae System Controller",
         "reason": null,
-        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2017/06/heartmate-3-lvas-implant-kit/"
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2017/04/heartmate-ii-system-controller/"
        },
        {
-        "date": "2017-05-24",
+        "date": "2014-03-05",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
+        "product": "HeartMate II LVAS System Controller",
         "reason": null,
-        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2017/05/heartmate-3-left-ventricular-assist-system/"
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2014/heartmate-ii-lvas-system-controller/"
        }
       ]
      },
@@ -4812,134 +4721,208 @@
       "total": 2,
       "actions": [
        {
-        "date": "2017-06-07",
+        "date": "2017-03-29",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3",
-        "reason": "Abbott wishes to inform you of a limited number of communication error messages between the system controller and the pump on the HeartMate 3 system for mechanical stimulation of left ventricular function (LVAS). To date, this fact has not had a negative impact on patients. However, advisory alarms ",
+        "product": "HeartMate II\u00ae System Controller",
+        "reason": "As part of the follow-up to our last message in September 2015, we remind you that Thoratec Corporation, part of the Abbott Laboratories Group, is updating its alerts, upgrading software, and adding HeartMate II\u00ae System Controller alignment tags as part of an ongoing effort to be able to emergency p",
         "url": null
        },
        {
-        "date": "2017-05-18",
+        "date": "2015-09-14",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3\u2122 Left Ventricular Assist System",
-        "reason": "Abbott has observed cases in which the outflow graft bend relief (OGBR) on the HeartMate 3 (HM3) Left \nVentricular Assist System (LVAS) was not fully and evenly secured to the outflow graft. As a result, we \nconducted an internal review of x-rays from both the U.S. MOMENTUM 3 IDE and Continuous Acce",
+        "product": "HeartMate II\u00ae System Controller",
+        "reason": "Thoratec is issuing this Urgent Field Safety Notice to remind all hospitals to carefully monitor the expiration date of the 11V Lithium-Ion Backup Battery (\u201cbackup battery\u201d) in the HeartMate II LVAS System Controller. Failure to do so can result in preventable backup battery Advisory alarms and unwa",
         "url": null
-       }
-      ]
-     },
-     {
-      "code": "BR",
-      "name": "Brazil",
-      "total": 1,
-      "actions": [
-       {
-        "date": "2018-04-17",
-        "source": "icij-imdd",
-        "actionType": "Safety alert",
-        "classification": null,
-        "product": "Business Name: HeartMate 3 - Left Ventricular Assist System. Technical Name: Other Cardiovascular Implants. ANVISA registration number: 10332340428. Class of risk: IV. Affected Model: HeartMate 3. Serial Numbers Affected",
-        "reason": "This is a guiding action so doctors can manage patients who will receive an implant or who have already had an implanted HM3 device. The company received reports of flow outflow occlusions by twisting the graft in the HearttMate 3 (HM3) Left Ventricular Assist System. As a result, patients whose dev",
-        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
-       }
-      ]
-     },
-     {
-      "code": "HK",
-      "name": "Hong Kong",
-      "total": 1,
-      "actions": [
-       {
-        "date": "2018-04-12",
-        "source": "icij-imdd",
-        "actionType": "Safety alert",
-        "classification": null,
-        "product": "HeartMate 3 Left Ventricular Assist System",
-        "reason": "Medical Device Safety Alert: HeartMate 3 Left Ventricular Assist System\nMedical device manufacturer, Abbott, has issued a medical device safety alert concerning its HeartMate 3 (HM3) Left Ventricular Assist System [Catalog Number: 106524INT \u2013 HM3 LVAS KIT].\n\nThe manufacturer has received reports of ",
-        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20180412a.html"
-       }
-      ]
-     },
-     {
-      "code": "SA",
-      "name": "Saudi Arabia",
-      "total": 1,
-      "actions": [
-       {
-        "date": "2017-05-23",
-        "source": "icij-imdd",
-        "actionType": "Recall / Field Safety Notice",
-        "classification": null,
-        "product": "HeartMate 3 Left Ventricular Assist System",
-        "reason": "Abbott has observed cases in which the outflow graft bend relief (OGBR) on the HeartMate 3 (HM3) Left Ventricular Assist System (LVAS) was not fully and evenly secured to the outflow graft.",
-        "url": "https://ncmdr.sfda.gov.sa/Secure/CA/CaViewRecall.aspx?caid=4&rid=11081"
        }
       ]
      },
      {
       "code": "BE",
       "name": "Belgium",
-      "total": 1,
+      "total": 2,
       "actions": [
        {
-        "date": "2017-05-18",
+        "date": "2017-03-29",
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartMate 3",
+        "product": "Thoratec Corporation - HeartMate II System Controller, 105109 model",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       },
+       {
+        "date": "2015-09-14",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II (Pocket Controller)",
         "reason": null,
         "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
        }
       ]
      },
      {
-      "code": "SE",
-      "name": "Sweden",
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2017-03-29",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II \u00ae System Controller",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2015-09-14",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS system controller",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CO",
+      "name": "Colombia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-03-30",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "LVAS Left Ventricular Assist System HEARTMATE II",
+        "reason": "The manufacturer informs that it has initiated actions to reduce adverse events presented by the exchange of the controller by patients, since said actions are best carried out by medical professionals in a controlled environment.",
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=95"
+       }
+      ]
+     },
+     {
+      "code": "NL",
+      "name": "Netherlands",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2017-03-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II\u00ae-systeemcontroller",
+        "reason": "In addition to our most recent report from September 2015, we would like to inform you of the fact that Thoratec Corporation, a subsidiary of Abbott Laboratories, updates its alarm overviews, performs a software upgrade and adds alignment markers for the HeartMate II\u00ae system controller .",
+        "url": "https://www.igj.nl/onderwerpen/waarschuwingen-medische-hulpmiddelen/documenten/waarschuwingen/2017/03/29/field-safety-notice-abbott_thoratec---heartmate-ii-systeemcontroller"
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2015-10-30",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II LVAS System Controller",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "RS",
+      "name": "Serbia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2014-04-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartMate II\u00ae System Controller (HeartMate II LVAS Implant Kit with Sealed Grafts (Cat. Nos. 106015, 106016), HeartMate II System Controller (Cat. Nos. 106762, 106017) and HeartMate II LVAS Implant Kit (Cat. No. 107801)",
+        "reason": "Thoratec has become aware of a recent trend in reports of serious injuries and deaths associated with the process of changing from a primary System Controller to their back\u00adup System Controller in patients using the \"Pocket\" System Controller model. The System Controller is the external unit that co",
+        "url": "https://www.alims.gov.rs/latin/2014/05/09/vazno-obavestenje-o-medicinskom-sredstvu-heartmate-ii-left-ventricular-assist-system-lvas/"
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2014-04-01",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "heartmate ii",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=3420"
+       }
+      ]
+     },
+     {
+      "code": "MY",
+      "name": "Malaysia",
       "total": 1,
       "actions": [
        {
         "date": null,
         "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
+        "actionType": "Recall / Safety alert",
         "classification": null,
-        "product": "HeartMate 3 Left Ventricular Assist System (LVAS)",
-        "reason": "Recall/Exchange",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--HeartMate-3-Left-Ventricular-Assist-System-LVAS--Abbott-Thoratec-Corporation/#"
+        "product": "Thoratec Heartmate II Left Ventricular Assist System (HM II LVAS) System Controllers",
+        "reason": null,
+        "url": "https://portal.mda.gov.my/"
        }
       ]
      }
     ],
     "series": [
      {
-      "year": 2017,
-      "value": 36
+      "year": 2008,
+      "value": 8
      },
      {
-      "year": 2018,
-      "value": 19
-     },
-     {
-      "year": 2019,
-      "value": 13
-     },
-     {
-      "year": 2020,
+      "year": 2009,
       "value": 3
      },
      {
-      "year": 2023,
-      "value": 2
+      "year": 2010,
+      "value": 4
      },
      {
-      "year": 2024,
+      "year": 2012,
+      "value": 10
+     },
+     {
+      "year": 2014,
+      "value": 9
+     },
+     {
+      "year": 2015,
+      "value": 14
+     },
+     {
+      "year": 2017,
       "value": 15
      },
      {
+      "year": 2024,
+      "value": 1
+     },
+     {
       "year": 2025,
-      "value": 5
+      "value": 1
      }
     ],
     "euStatus": {
@@ -4954,24 +4937,20 @@
     },
     "callouts": [
      {
-      "text": "The earliest corroborated foreign regulator action (2017-05-18) predates the first US Class 1 recall (2018-04-05).",
+      "text": "The earliest corroborated foreign regulator action (2008-05-13) predates the first US Class 1 recall (2014-03-04).",
       "foreign": {
-       "date": "2017-05-18"
+       "date": "2008-05-13"
       },
       "us": {
-       "date": "2018-04-05"
+       "date": "2014-03-04"
       }
      }
     ],
-    "screenedOut": 0,
-    "screenedNote": "0 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "screenedOut": 9,
+    "screenedNote": "9 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
     "sourceLabels": {
      "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
-     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
-     "medsafe-nz": "Medsafe New Zealand (recalls)",
-     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
-     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
-     "tga-drac": "TGA Australia (DRAC recall actions)"
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)"
     },
     "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
    },

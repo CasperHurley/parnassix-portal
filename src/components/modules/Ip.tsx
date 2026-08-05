@@ -12,6 +12,15 @@ export function Ip({ payload }: { payload: IpPayload }) {
           <div className="kvValue">{fmtNum(payload.patents)}</div>
         </div>
       </div>
+      {payload.assignees && payload.assignees.length > 0 && (
+        <div className="chipRow" style={{ marginBottom: 12 }}>
+          {payload.assignees.map((a) => (
+            <span key={a.name} className="chip">
+              {a.name} · {fmtNum(a.patents)}
+            </span>
+          ))}
+        </div>
+      )}
       {payload.recent.map((p) => (
         <div key={p.id} className="patentRow">
           <span className="patentId">{p.id}</span>

@@ -1,0 +1,3828 @@
+{
+ "slug": "freestyle-libre-cgm",
+ "name": "FreeStyle Libre CGM",
+ "maker": "Abbott \u00b7 Diabetes",
+ "rank": 21,
+ "pathway": "mixed BY GENERATION (Libre original/Pro = PMA Class III; Libre 2/3/3 Plus = 510(k) Class II iCGM)",
+ "maturity": "early",
+ "stats": {
+  "deaths": 95,
+  "injuries": 69505,
+  "malfunctions": 396162,
+  "recalls": 12,
+  "classI": 8
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Diabetes"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "mixed BY GENERATION (Libre original/Pro = PMA Class III; Libre 2/3/3 Plus = 510(k) Class II iCGM)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "SCORE-DISCREPANCY RESOLVED: the fusion is generational, NOT sensor-vs-reader-vs-app \u2014 all three big codes are sensors. PZE = original FreeStyle Libre 14-day (PMA P160030, 2017-09-27, Class III) + MDS = Libre Pro (PMA P150021, 2016-09-23): Riegel-preempted, 24.6% of MAUDE reports. QLG/QBJ = Libre 2 (K193371, 2020-06-12) and Libre 3/3 Plus (K212132 etc.), Class II iCGM under 21 CFR 862.1355 special "
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "early"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 95,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 69505,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 396162,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 12,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 8,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Incorrect, Inadequate or Imprecise Result or Readings",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 65802,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 15289879.4,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Bhakti Paul",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "California",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2452,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 17,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 9,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2025-11-24",
+   "classification": "Class I",
+   "reason": "Due to a manufacturing process issue that may cause carbon build up in the sensor that may result in incorrect low glucose results",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-11-24",
+   "classification": "Class I",
+   "reason": "Due to a manufacturing process issue that may cause carbon build up in the sensor that may result in incorrect low glucose results",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-11-24",
+   "classification": "Class I",
+   "reason": "Due to a manufacturing process issue that may cause carbon build up in the sensor that may result in incorrect low glucose results",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-11-24",
+   "classification": "Class I",
+   "reason": "Due to a manufacturing process issue that may cause carbon build up in the sensor that may result in incorrect low glucose results",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-07-24",
+   "classification": "Class I",
+   "reason": "Users of the FreeStyle Libre 3 sensors reported situations where they were receiving erroneously high glucose results. The inaccurate higher glucose values may lead to users calculating higher insulin bolus correctional ",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2023-07-12",
+   "classification": "Class II",
+   "reason": "If blood glucose monitoring system users attempt to start a new sensor, when the old sensor wasn't used for the full 14-day wear time, then the reader may display \"Incompatible Sensor\" message. If users don't have the pr",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2021,
+     "value": 2
+    },
+    {
+     "year": 2023,
+     "value": 5
+    },
+    {
+     "year": 2024,
+     "value": 1
+    },
+    {
+     "year": 2025,
+     "value": 4
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2019,
+     "value": 1
+    },
+    {
+     "year": 2020,
+     "value": 2
+    },
+    {
+     "year": 2021,
+     "value": 3
+    },
+    {
+     "year": 2022,
+     "value": 4
+    },
+    {
+     "year": 2023,
+     "value": 12
+    },
+    {
+     "year": 2024,
+     "value": 7
+    },
+    {
+     "year": 2025,
+     "value": 4
+    },
+    {
+     "year": 2026,
+     "value": 62
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2012,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 2
+    },
+    {
+     "year": 2017,
+     "value": 67
+    },
+    {
+     "year": 2018,
+     "value": 2011
+    },
+    {
+     "year": 2019,
+     "value": 3188
+    },
+    {
+     "year": 2020,
+     "value": 3051
+    },
+    {
+     "year": 2021,
+     "value": 6593
+    },
+    {
+     "year": 2022,
+     "value": 12007
+    },
+    {
+     "year": 2023,
+     "value": 16926
+    },
+    {
+     "year": 2024,
+     "value": 14528
+    },
+    {
+     "year": 2025,
+     "value": 618
+    },
+    {
+     "year": 2026,
+     "value": 10512
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2016,
+     "value": 101789.18
+    },
+    {
+     "year": 2017,
+     "value": 1681359.82
+    },
+    {
+     "year": 2018,
+     "value": 554059.32
+    },
+    {
+     "year": 2019,
+     "value": 817234.21
+    },
+    {
+     "year": 2020,
+     "value": 790595.74
+    },
+    {
+     "year": 2021,
+     "value": 1789790.41
+    },
+    {
+     "year": 2022,
+     "value": 2713478.41
+    },
+    {
+     "year": 2023,
+     "value": 3316338.87
+    },
+    {
+     "year": 2024,
+     "value": 3525233.44
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 1999,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 3
+    },
+    {
+     "year": 2015,
+     "value": 2
+    },
+    {
+     "year": 2019,
+     "value": 2
+    },
+    {
+     "year": 2020,
+     "value": 1
+    },
+    {
+     "year": 2023,
+     "value": 3
+    },
+    {
+     "year": 2025,
+     "value": 3
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 1137084,
+    "distinctProblemCodes": 162,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Incorrect, Inadequate or Imprecise Result or Readings",
+      "reports": 183874,
+      "narrative": "A CUSTOMER REPORTED RECEIVING ERRONEOUS GLUCOSE RESULTS FROM AN ABBOTT DIABETES CARE DEVICE. THE RESULTS WHEN PLOTTED ON A PARKES ERROR GRID FELL INTO EITHER THE C, D, OR E ZONE. THERE WAS NO REPORT OF DEATH, SERIOUS INJURY, OR MISTREATMENT ASSOCIATED WITH THIS EVENT."
+     },
+     {
+      "problem": "Unable to Obtain Readings",
+      "reports": 21885,
+      "narrative": "A CUSTOMER REPORTED RECEIVING A \u00bfSTART NEW SENSOR\u00bf ERROR ON THE ADC FREESTYLE LIBRE SENSOR AFTER 3 DAYS OF WEAR. THE CUSTOMER FURTHER REPORTED BEING HOSPITALIZED AND A DISCREPANCY READING OF \u00bf0.6\u00bf WAS RECEIVED BETWEEN THE SENSOR AND THE HOSPITAL\u00bfS METER. NO TREATMENT DETAILS WERE PROVIDED AND ATTEMPTS TO GATHER FURTHER INFORMATION HAVE BEEN UNSUCCESSFUL. THERE WAS NO REPORT OF DEATH OR PERMANENT IMPAIRMENT ASSOCIATED"
+     },
+     {
+      "problem": "Device Displays Incorrect Message",
+      "reports": 21832,
+      "narrative": "NO PRODUCT HAS BEEN RETURNED. AN EXTENDED INVESTIGATION HAS BEEN PERFORMED FOR THE REPORTED COMPLAINT AND DETERMINED THAT THERE WAS NO INDICATION THAT THE PRODUCT DID NOT MEET SPECIFICATION. DHRS FOR THE LIBRE SENSOR AND LIBRE SENSOR KITS AND THE DHRS SHOWED THE LIBRE SENSOR AND LIBRE SENSOR KITS PASSED ALL TESTS PRIOR TO RELEASE. THEREFORE ALL REVIEW ACTIVITIES CONDUCTED ABOVE, INCLUDING BUT NOT LIMITED TO THE FINAL"
+     },
+     {
+      "problem": "High Readings",
+      "reports": 8227,
+      "narrative": "CUSTOMER\u00bfS WIFE REPORTED THAT ON (B)(6) 2019 CUSTOMER RECEIVED AN ADC FREESTYLE LIBRE SENSOR RESULT THAT WAS BELIEVED TO BE ERRONEOUSLY HIGH. SHE FURTHER REPORTED THAT AT 19:00 CUSTOMER RECEIVED A SCAN OF 282 MG/DL SO SHE ADMINISTERED 9 UNITS OF NOVORAPID INSULIN. THE NEXT MORNING (B)(6) 2019), CUSTOMER WAS EXPERIENCING \u00bfWEAKNESS\u00bf AND WAS UNABLE TO SELF-TREAT. A SCAN RESULT OF 73 MG/DL WAS RECEIVED, AND CUSTOMER WAS"
+     },
+     {
+      "problem": "Low Readings",
+      "reports": 7735,
+      "narrative": "THE PRODUCT HAS BEEN REQUESTED BACK FOR AN INVESTIGATION. A FOLLOW-UP REPORT WILL BE SUBMITTED ONCE ADDITIONAL INFORMATION IS OBTAINED. THE DEVICE MFG DATE IS UNKNOWN. THE DATE ENTERED IS THE DATE ABBOTT DIABETES CARE BECAME AWARE OF THE EVENT. ALL PERTINENT INFORMATION AVAILABLE TO ABBOTT DIABETES CARE HAS BEEN SUBMITTED."
+     },
+     {
+      "problem": "Detachment of Device or Device Component",
+      "reports": 6082,
+      "narrative": "THE PRODUCT HAS BEEN REQUESTED BACK FOR AN INVESTIGATION. A FOLLOW-UP REPORT WILL BE SUBMITTED ONCE ADDITIONAL INFORMATION IS OBTAINED. THE DEVICE MFG DATE IS UNKNOWN. THE DATE ENTERED IS THE DATE ABBOTT DIABETES CARE BECAME AWARE OF THE EVENT. ALL PERTINENT INFORMATION AVAILABLE TO ABBOTT DIABETES CARE HAS BEEN SUBMITTED."
+     },
+     {
+      "problem": "Product Quality Problem",
+      "reports": 4755,
+      "narrative": "SECTION D4 (SERIAL NUMBER) HAS BEEN UPDATED TO UNK AS THE REPORTED SERIAL NUMBER WAS DEEMED INVALID DURING THE EXTENDED INVESTIGATION. REPEATED ATTEMPTS BY ADC TO RETRIEVE THE PRODUCT WERE UNSUCCESSFUL AND/OR THE CUSTOMER DISCARDED THE PRODUCT. NO PRODUCT HAS BEEN RETURNED AND A VALID SERIAL NUMBER HAS NOT BEEN PROVIDED. AN EXTENDED INVESTIGATION HAS BEEN PERFORMED FOR THE REPORTED COMPLAINT AND IT HAS BEEN DETERMINE"
+     },
+     {
+      "problem": "Appropriate Term/Code Not Available",
+      "reports": 4168,
+      "narrative": "CUSTOMER REPORTED EXPERIENCING AN ALLERGIC REACTION DURING HIS 1 DAY WEAR OF THE ADC FREESTYLE LIBRE SENSOR. CUSTOMER FURTHER REPORTED NOTICING \"ITCHING, RASH, AND RED SKIN\" AT THE SENSOR SITE AND HAVING CONTACT WITH A HEALTHCARE PROFESSIONAL WHO PRESCRIBED FUCICORT 20MG (ANTIBIOTIC AND CORTISONE COMBINATION) CREAM FOR TREATMENT. THERE WAS NO REPORT OF DEATH OR PERMANENT INJURY ASSOCIATED WITH THIS EVENT."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 95,
+    "citations": 134,
+    "anchors": [
+     "K233861",
+     "K233537",
+     "K223435",
+     "K222447",
+     "K223537",
+     "K213996",
+     "K212132",
+     "K210943",
+     "K211102",
+     "K201761",
+     "K193371",
+     "K993640",
+     "K915429",
+     "K915428",
+     "K911746",
+     "K833225",
+     "K840626"
+    ],
+    "accessories": 0,
+    "generationsUp": 12,
+    "generationsDown": 2
+   },
+   "payload": {
+    "anchors": [
+     "K233861",
+     "K233537",
+     "K223435",
+     "K222447",
+     "K223537",
+     "K213996",
+     "K212132",
+     "K210943",
+     "K211102",
+     "K201761",
+     "K193371",
+     "K993640",
+     "K915429",
+     "K915428",
+     "K911746",
+     "K833225",
+     "K840626"
+    ],
+    "accessories": [],
+    "nodes": [
+     {
+      "k": "DEN170088",
+      "name": "Dexcom G6 Continuous Glucose Monitoring System",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K000300",
+      "name": "LIGHTSPEED 2.0CT SCANNER SYSTEM",
+      "anchor": false,
+      "level": 12
+     },
+     {
+      "k": "K000315",
+      "name": "VENTRICULAR ANALYSIS TOOLKIT OPTION",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K001179",
+      "name": "SUPER NOVA, ACUBEAM",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K002519",
+      "name": "VITREA 2, VERSION 2.1",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K002978",
+      "name": "LIGTHSPEED 3.0 CT SCANNER SYSTEM",
+      "anchor": false,
+      "level": 12
+     },
+     {
+      "k": "K003408",
+      "name": "CT CORD IQ OPTION 1.0",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K003849",
+      "name": "GE ADVANCE NXI PET SYSTEM",
+      "anchor": false,
+      "level": 12
+     },
+     {
+      "k": "K010553",
+      "name": "PRECISION XTRA BLOOD GLUCOSE TEST STRIP WITH TRUEMEASURE TECHNOLOGY",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K010641",
+      "name": "GE CT-PET SYSTEM",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K012580",
+      "name": "ERCHONIA PL2000",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K013422",
+      "name": "CARDIQ FUNCTION",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K020017",
+      "name": "MEDX 1000 SERIES",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K020794",
+      "name": "SALICYLATE ASSAY FOR THE ADVIA INTEGRATED MODULAR SYSTEM",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K020796",
+      "name": "CARD IQ ANALYSIS II",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K022872",
+      "name": "GE ROAD WARRIOR PET CT IMAGING SYSTEM",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K023256",
+      "name": "PRECISION XTRA/MEDISENSE OPTIUM/PRECISION EASY/MEDISENSE OPTIUM EASY BLOOD GLUCO",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K023988",
+      "name": "GE DISCOVERY LS SYSTEM",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K031261",
+      "name": "CARD EP",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K031871",
+      "name": "AUTOBONE",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K032816",
+      "name": "QUANTUM LIGHT THERAPY SYSTEM",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K040172",
+      "name": "MODIFICATION TO GE DISCOVERY LS SYSTEM",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K040852",
+      "name": "PREVIEW TREATMENT PLANNING SOFTWARE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K041267",
+      "name": "CARDIQ ANALYSIS III",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K041543",
+      "name": "GE DISCOVERY ST",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K042257",
+      "name": "DISCOVERY ST PET/CT IMAGING SYSTEM WITH AN ALTERNATE DETECTOR OPTION",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K043111",
+      "name": "PLAQUEVIEW SOFTWARE, MODEL CSPV-0001A",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K043333",
+      "name": "VITREA2, VERSION 3.7 MEDICAL IMAGE PROCESSING SYSTEM",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K050559",
+      "name": "GE DISCOVERY VCT SYSTEM",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K051213",
+      "name": "PRECISION XTRA PLUS OR OPTIUM PLUS, BLOOD GLUCOSE TEST STRIPS",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K051840",
+      "name": "ENSITE VERISMO SOFTWARE",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K052632",
+      "name": "VITREA2 VERSION 3.8 MEDICAL IMAGE PROCESSING SOFTWARE",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K060305",
+      "name": "HAIRMAX LASERCOMB",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K060779",
+      "name": "ADVANCE VESSEL ANALYSIS II",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K061624",
+      "name": "VITREA, VERSION 3.9",
+      "anchor": false,
+      "level": 9
+     },
+     {
+      "k": "K071331",
+      "name": "VITREA VERSION 4.0",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K081496",
+      "name": "OPTIMA PET/CT 560",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K083223",
+      "name": "RELION ULTIMA BLOOD GLUCOSE MONITORING SYSTEM, MODELS 70055-50, STRIPS (20 COUNT",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K091496",
+      "name": "MEP-90 HAIR GROWTH STIMULATION SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K091498",
+      "name": "VITREA ENDOVASCULAR STENT PLANNING SOFTWARE",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K093499",
+      "name": "HAIRMAX LASERCOMB",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K103368",
+      "name": "HAIRMAX LASERCOMB",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K110233",
+      "name": "HAIRMAX LASERCOMB",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K113097",
+      "name": "LASER HELMET",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K122248",
+      "name": "IGROW II HAIR GROWTH SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K122950",
+      "name": "LASER HELMET",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K132646",
+      "name": "SUNETICS CLINICAL BIO-STIMULATION LASER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K140371",
+      "name": "FREESTYLE PRECISION NEO BLOOD GLUCOSE: MONITORING SYSTEM, TEST STRIPS (50CT), TE",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K140931",
+      "name": "IGROW II HAIR GROWTH SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K141567",
+      "name": "IGROW - II HAIR GROWTH SYSTEM, IGROW HAIR GROWTH SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K142573",
+      "name": "HairMax LaserComb, HairMax LaserComb",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K143199",
+      "name": "Capillus 272 Pro",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K150578",
+      "name": "Capillus 272 Office Pro",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K150613",
+      "name": "LaserCap LC Pro and LC Elite",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K151516",
+      "name": "Capillus82",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K151662",
+      "name": "iRestore",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K153618",
+      "name": "Capillus202",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K160285",
+      "name": "Capillus272 Pro, Capillus272 OfficePro, Capillus82, Capillus202",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K162071",
+      "name": "IllumiFlow Laser Cap",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K171941",
+      "name": "FreeStyle Precision Neo Blood Glucose Test Strips",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K193371",
+      "name": "FreeStyle Libre 2 Flash Glucose Monitoring System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K200464",
+      "name": "LG Pra. L Derma LD Scalp Care",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K201761",
+      "name": "FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App)",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K202145",
+      "name": "Bigfoot Unity Diabetes Management System",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K210169",
+      "name": "Hair Growth Device",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K210943",
+      "name": "FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App)",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K211102",
+      "name": "FreeStyle Libre 2 Flash Glucose Monitoring System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K212132",
+      "name": "FreeStyle Libre 3 Continuous Glucose Monitoring System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K213996",
+      "name": "FreeStyle Libre 3 Continuous Glucose Monitoring System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K222280",
+      "name": "Bigfoot Unity\u00ae Diabetes Management System",
+      "anchor": false,
+      "level": 0
+     },
+     {
+      "k": "K222447",
+      "name": "FreeStyle Libre 2 Flash Glucose Monitoring System; Freestyle Libre 3 Continuous ",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K222477",
+      "name": "Hair Growth Device",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K223435",
+      "name": "FreeStyle Libre 3 Continuous Glucose Monitoring System; FreeStyle Libre 2 Flash ",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K223537",
+      "name": "FreeStyle Libre 2 System, FreeStyle Libre 3 System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K233537",
+      "name": "FreeStyle Libre 3 Continuous Glucose Monitoring System; FreeStyle Libre 2 Flash ",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K233655",
+      "name": "Lingo Glucose System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K233861",
+      "name": "Libre Rio Continuous Glucose Monitoring System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K251830",
+      "name": "Sonosite LX Ultrasound System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K253448",
+      "name": "Sonosite MT Ultrasound System",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K651840",
+      "name": "",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K833225",
+      "name": "CALIBRE-TENTATIVE TRADENAME",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K840626",
+      "name": "VERTICALIBRE WHEELCHAIR",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K844070",
+      "name": "TDX SALICYLATE",
+      "anchor": false,
+      "level": 12
+     },
+     {
+      "k": "K911746",
+      "name": "H.I.STANDARD CALIBRE UPGRADE",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K915428",
+      "name": "KRONUS KALIBRE THYROGLOBULIN ANTIBODY EIA KIT",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K915429",
+      "name": "KRONUS KALIBRE THYROID PEROXIDASE ANTIBODY EIA KIT",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K923077",
+      "name": "ADVANTAGE WINDOWS 3D OPTION AND DENTASCAN OPTION",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K926258",
+      "name": "DLX",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K954355",
+      "name": "ADVANTAGE WINDOWS 3D WITH NAVIGATOR OPTION",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K960911",
+      "name": "NETRA WORKSTATION SYSTEM & NETRA MD SOFTWARE",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K972399",
+      "name": "ADVANTAGE WINDOWS VOLUME RENDERING OPTION",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K972903",
+      "name": "IMATRON ULTRA ACCESS WORKSTATION WITH CARDIAC SOFTWARE EXTENSIONS",
+      "anchor": false,
+      "level": 11
+     },
+     {
+      "k": "K990426",
+      "name": "CALCIUM SCORING",
+      "anchor": false,
+      "level": 10
+     },
+     {
+      "k": "K993640",
+      "name": "SPECTRUM LIBRE WHEELCHAIR",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K993792",
+      "name": "SMART VESSEL ANALYSIS (SMART VA) OPTION",
+      "anchor": false,
+      "level": 9
+     }
+    ],
+    "edges": [
+     {
+      "from": "K193371",
+      "to": "DEN170088",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II Product Code(s): QLG, NBW Review Panel: Clinical Chemistry 1.3 Predicate Device Predicate Device: Dexcom G6 Continuous Glucose Monitoring System, DEN170088 510(k) Summary, Page 1 of 31",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K193371",
+      "to": "K171941",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "functionality as a convenience for users (which is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. The FreeStyle Libre 2 System is an interoperable connected device",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K201761",
+      "to": "K202145",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "FreeStyle Libre 2 Flash Glucose Monitoring System, K193371 This predicate device has not been subject to a recall Reference Device: Bigfoot Unity Diabetes Management System, K202145 Subject Device components are a subset of the Reference Device and hence, electromagnetic",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K201761",
+      "to": "K193371",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Monitoring System (with FreeStyle Libre 2 App) K201761 1.3 Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System, K193371 This predicate device has not been subject to a recall Reference Device: Bigfoot Unity Diabetes Management System, K202145",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K201761",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. FreeStyle Libre 2 App (iOS) \u2022 The",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K210943",
+      "to": "K193371",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "As the Android App calculates glucose information identically to the predicate device, no additional clinical data beyond that provided in K193371 and K211102 were used in this 510(k) to support a determination of substantial equivalence. 1.9 Conclusion The subject device has",
+      "hop": 1,
+      "dir": "up",
+      "page": 14
+     },
+     {
+      "from": "K210943",
+      "to": "K201761",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "QLG, NBW Review Panel: Clinical Chemistry 1.3 Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App), K201761 cleared on July 30, 2021 This predicate device has not been subject to a recall 510(k) Summary, Page 1 of 11",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K210943",
+      "to": "K211102",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "As the Android App calculates glucose information identically to the predicate device, no additional clinical data beyond that provided in K193371 and K211102 were used in this 510(k) to support a determination of substantial equivalence. 1.9 Conclusion The subject device has",
+      "hop": 1,
+      "dir": "up",
+      "page": 14
+     },
+     {
+      "from": "K210943",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. FreeStyle Libre 2 App (iOS and",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K211102",
+      "to": "K171941",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. Subject Device The proposed subject",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K211102",
+      "to": "K193371",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II Product Code(s): QLG, NBW Review Panel: Clinical Chemistry 1.3 Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (K193371, cleared on June 12, 2020) This predicate device has not been subject to a recall 510(k) Summary, Page 1 of 8",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K212132",
+      "to": "K201761",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "QLG Review Panel: Clinical Chemistry Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App) (K201761) The predicate device has not been subject to a recall 510(k) Summary, Page 1 of 10",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K213996",
+      "to": "K210943",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "QLG Review Panel: Clinical Chemistry Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App) (K210943) The predicate device has not been subject to a recall 510(k) Summary, Page 1 of 11",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K222447",
+      "to": "K212132",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "FreeStyle Libre 2 Flash Glucose Monitoring System (K210943, cleared on November 22, 2021) Reference Devices: 1) FreeStyle Libre 3 Continuous Glucose Monitoring System (K213996 and K212132 cleared May 26, 2022) The reference device is used only to support the substantial",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K222447",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. FreeStyle Libre 2 App (iOS and",
+      "hop": 1,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K222447",
+      "to": "K210943",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1.3. Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (K210943, cleared on November 22, 2021) Reference Devices: 1) FreeStyle Libre 3 Continuous Glucose Monitoring System (K213996 and K212132 cleared May",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K222447",
+      "to": "K223537",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "primary display device. Both the FreeStyle Libre 2 and FreeStyle Libre 3 Systems are compatible with the Libre Data Sharing API cleared in K223537. The display device of the connected FreeStyle Libre 2 or FreeStyle Libre 3 Systems, which directly receives the data from the",
+      "hop": 1,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K222447",
+      "to": "K213996",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "FreeStyle Libre 2 Flash Glucose Monitoring System (K210943, cleared on November 22, 2021) Reference Devices: 1) FreeStyle Libre 3 Continuous Glucose Monitoring System (K213996 and K212132 cleared May 26, 2022) The reference device is used only to support the substantial",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K222447",
+      "to": "K222477",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "K222477",
+      "hop": 1,
+      "dir": "up",
+      "page": 3
+     },
+     {
+      "from": "K223435",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. 5.5.2 FreeStyle Libre 2 Flash",
+      "hop": 1,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K223435",
+      "to": "K222447",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "3 Predicate Device Predicate Devices: Freestyle Libre 3 Continuous Glucose Monitoring System and FreeStyle Libre 2 Flash Glucose Monitoring System (K222447) 510(k) Summary, Page 1 of 15",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K223435",
+      "to": "K223537",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The FSL2 Reader and FSL2 App do not interact with each other. Both the FSL2 and FSL3 Systems are compatible with the Libre Data Sharing API cleared in K223537. The display device of the connected FSL2 or FSL3 Systems, which directly receives the data from the Sensor, continues",
+      "hop": 1,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K223537",
+      "to": "K213996",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App), K210943 cleared November 22, 2021 FreeStyle Libre 3 Continuous Glucose Monitoring System, K213996 and K212132 cleared May 26, 2022 510(k) Summary Page 1 of 14",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K223537",
+      "to": "K210943",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "QLG Review Panel: Clinical Chemistry 1.3 Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App), K210943 cleared November 22, 2021 FreeStyle Libre 3 Continuous Glucose Monitoring System, K213996 and K212132 cleared May",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K223537",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The Reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. FreeStyle Libre 2 App (iOS or",
+      "hop": 1,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K223537",
+      "to": "K212132",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App), K210943 cleared November 22, 2021 FreeStyle Libre 3 Continuous Glucose Monitoring System, K213996 and K212132 cleared May 26, 2022 510(k) Summary Page 1 of 14",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K233537",
+      "to": "K171941",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The reader also has a built-in strip port with blood glucose functionality (that is intended to work with the FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a user interface that includes event logging features. 5.5.2 FreeStyle Libre 2 Flash",
+      "hop": 1,
+      "dir": "up",
+      "page": 10
+     },
+     {
+      "from": "K233537",
+      "to": "K223537",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The FSL2 Reader and FSL App do not interact with each other. Both the FSL2 and FSL3 Systems are compatible with the Libre Data Sharing API cleared in K223537. The display device of the connected FSL2 or FSL3 Systems, which directly receives the data from the sensor, continues to",
+      "hop": 1,
+      "dir": "up",
+      "page": 9
+     },
+     {
+      "from": "K233537",
+      "to": "K223435",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "3 Predicate Device Predicate Devices: Freestyle Libre 3 Continuous Glucose Monitoring System and FreeStyle Libre 2 Flash Glucose Monitoring System (K223435) 510(k) Summary, Page 1 of 19",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K233861",
+      "to": "K223537",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Libre Rio Continuous Glucose Monitoring System Traditional 510(k) Sharing API cleared under K223537. The display device of the connected Libre Rio System, which directly receives the data from the Sensor, continues to serve as a primary display",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K233861",
+      "to": "K222447",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II Product Code(s): SBH Review Panel: Clinical Chemistry 5.3 Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (K222447) Section 5 (Summary), Page 1 of 9",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K171941",
+      "to": "K140371",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class II (21 CFR\u00a7 Classification 862.1345) Name: Product codes: NBW Predicate Device: FreeStyle Precision Neo Blood Glucose Monitoring System (K140371) Establishment: Abbott Diabetes Care Ltd. Legal Range Road Manufacturer: Witney, Oxon OX29 OYL, UK Establishment: Abbott",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K202145",
+      "to": "K193371",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class: Class 11 (21 CFR \u00a7862.1355, 21CFR \u00a7 880.5860 Product Code: QLG, QOG III. Predicate Device: Abbott Diabetes Care FreeStyle Libre 2 - K193371 IV. Device Description: The Bigfoot Unity Diabetes Management System ('Bigfoot Unity System') integrates continuous glucose",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K222477",
+      "to": "K200464",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Dongguan Lescolton Medical Equipment Co., Ltd\nSecondary Predicate: K200464 LG Pra.L Derma LD Scalp Care\n5.Device Description\n5.1 Device Description for LS-D620:\nThe Hair Growth Device LS-D620 is composed of 80 lase",
+      "hop": 2,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K222477",
+      "to": "K210169",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Comb, Hair\nRegulatory Class: Class II\nProduct Code: OAP\nReview Panel: General & Plastic Surgery\n4.The Predicate Devices\nPrimary Predicate: K210169 Hair Growth Device\n5-1",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K140371",
+      "to": "K083223",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": null,
+      "hop": 3,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K200464",
+      "to": "K140931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "point Usage duration Treatment 18 minutes or 27 minutes 30 minutes duration Reference Device: Apira Science, Inc\u2019s iGrow II Hair Growth System (K140931). 6.4 Device Description The LG Pra.L Derma LD Scalp Care utilizes a combination of laser diodes and light-emitting diodes",
+      "hop": 3,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K200464",
+      "to": "K162071",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "5500 Classification: Class II Review Panel: General & Plastic Surgery (ODE) 6.3 Technical Characteristics in Comparison to Predicate Devices Proposed Device K162071 Company LG Electronics Inc. EGlobal, LLC Product name LG Pra.L Derma LD Scalp Care IllumiFlow Laser Cap Product",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K210169",
+      "to": "K151662",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Comparison with Predicate Device Table 1 Technical Characteristic in Comparison to Predicate Devices Proposed Device Primary Predicate Secondary Predicate 510k number K200464 K151662 Proprietary LG Pra.L Derma LD iRestore Hair Growth Hair Growth Device name Scalp Care System",
+      "hop": 3,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K210169",
+      "to": "K200464",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Laser, Comb, Hair Regulatory Class: Class II Product Code: OAP Review Panel: General & Plastic Surgery 4. The Predicate Devices Primary Predicate: K200464 LG Pra.L Derma LD Scalp Care Secondary Predicate: Kl51662 iRestore Hair Growth System 5. Device Description",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K083223",
+      "to": "K051213",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 4,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K140931",
+      "to": "K122248",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Substantial Equivalence The igrow -II Hair Growth System is the identical device known as the igrow II Hair Growth System cleared under 510(k) K122248 for males. It is as safe and effective as the predicate device and theother device in its class, the Hairmax Lasercomb. This is",
+      "hop": 4,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K151662",
+      "to": "K141567",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "phones. Substantial Equivalence The iRestore device is IDENTICAL to the device known as the igrow Hair Growth System cleared under 510(k) numbers K141567 and K140931. It is as safe and effective as the predicate device. Both systems, which use red light diode lasers and/or the",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K151662",
+      "to": "K140931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Substantial Equivalence The iRestore device is IDENTICAL to the device known as the igrow Hair Growth System cleared under 510(k) numbers K141567 and K140931. It is as safe and effective as the predicate device. Both systems, which use red light diode lasers and/or the",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K162071",
+      "to": "K142573",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "iGrow-II Hair Growth System (K140931, additional indication for use in females; K141567, original clearance for use in males) HairMax LaserComb 82 (now sold as the HairMax LaserBand) (K142573, hands-free version of the HairMax LaserComb for use in males and females) Substantial",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162071",
+      "to": "K141567",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "K160285 \u2013 adds treatments for males to the indications for use of all Capillus models) Reference Devices: iGrow-II Hair Growth System (K140931, additional indication for use in females; K141567, original clearance for use in males) HairMax LaserComb 82 (now sold as the HairMax",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162071",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Lamp, non-heating, for promotion of hair growth Classification: Class II (performance standards) Product Code: OAP Predicate Device: Capillus 272 Pro (K143199 \u2013 original clearance for use in females; K160285 \u2013 adds treatments for males to the indications for use of all Capillus",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162071",
+      "to": "K160285",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Classification: Class II (performance standards) Product Code: OAP Predicate Device: Capillus 272 Pro (K143199 \u2013 original clearance for use in females; K160285 \u2013 adds treatments for males to the indications for use of all Capillus models) Reference Devices: iGrow-II Hair Growth",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K162071",
+      "to": "K140931",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "females; K160285 \u2013 adds treatments for males to the indications for use of all Capillus models) Reference Devices: iGrow-II Hair Growth System (K140931, additional indication for use in females; K141567, original clearance for use in males) HairMax LaserComb 82 (now sold as the",
+      "hop": 4,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K051213",
+      "to": "K023256",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Predicate Device: Subject (modified) Predicate Device Device Company Abbott Laboratories Same Division Abbott Diabetes Care Same 510(k) Reference K023256 Current Submission MediSense Optium Plus and Precision Same Proprietary Name: Xtra Plus Blood Glucose Test Strips Common",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K142573",
+      "to": "K110233",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5. Legally Marketed Predicate Devices: a. HairMax LaserComb Lux 9 i. 510(k) Owner: Lexington International, LLC ii. 510(k) Number: K110233 21 C.F.R. \u00a7 890.5500 (Class II) Product Code: OAP b. HairMax LaserComb Lux 9 i. 510(k) Owner: Lexington International, LLC ii. 510(k) Number:",
+      "hop": 5,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K142573",
+      "to": "K103368",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K110233 21 C.F.R. \u00a7 890.5500 (Class II) Product Code: OAP b. HairMax LaserComb Lux 9 i. 510(k) Owner: Lexington International, LLC ii. 510(k) Number: K103368 21 C.F.R. \u00a7 890.5500 (Class II) Product Code: OAP 6. Device Description The HairMax LaserComb 41 (HMLC 41) and HairMax",
+      "hop": 5,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K160285",
+      "to": "K142573",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended Use - Androgenic Alopecia Intended Use -",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K153618",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended Use - Androgenic",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K151516",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended Use - Androgenic",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K140931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended Use - Androgenic Alopecia Intended",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K150578",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K122248",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC Intended Use - Androgenic Alopecia",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K160285",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Capillus Devices iGrow HairMax LaserBand K143199; K150578; K151516; K153618 K122248; K140931 K142573 LLLT Device Type LLLT Device Type LLLT Device Type Prescription Use Prescription Use OTC",
+      "hop": 5,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K023256",
+      "to": "K010553",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "nology\nSelf-Monitoring Blood Glucose System\nGlucose Test System\nClass II per 21 CFR 862.1345\nPrecision Xtra \u00ae Blood Glucose Testing System, K010553\nThe test strip is for blood glucose testing utilizes amperometric\nbiosensor technology to generate a current. The size of the",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K103368",
+      "to": "K060305",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "g, for promotion of hair growth\nRegulatory Class: I|\nProduct Codes: OAP\nPredicate Device(s): Lexington International, LLC HairMax LaserComb K060305 and\nK093499\nDevice Description:\nSubstantially equivalent to the HairMas LaserComb (K060305, K093499), the modified\nHairMas",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K103368",
+      "to": "K093499",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "tion of hair growth\nRegulatory Class: I|\nProduct Codes: OAP\nPredicate Device(s): Lexington International, LLC HairMax LaserComb K060305 and\nK093499\nDevice Description:\nSubstantially equivalent to the HairMas LaserComb (K060305, K093499), the modified\nHairMas LaserComb Advanced",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K150578",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "output beam, energy type, laser field, treatment area, and energy delivered (J/cm2) as the\ndeclared predicates. Just as for all predicates (K143199) and reference devices (K140931,K141567, K132646), there\nare no reported adverse events for this technology.\nSubstantial",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K150578",
+      "to": "K140931",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "field, treatment area, and energy delivered (J/cm2) as the\ndeclared predicates. Just as for all predicates (K143199) and reference devices (K140931,K141567, K132646), there\nare no reported adverse events for this technology.\nSubstantial Equivalence\nThe Capillus272 OfficeProisthe",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K150578",
+      "to": "K132646",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "area, and energy delivered (J/cm2) as the\ndeclared predicates. Just as for all predicates (K143199) and reference devices (K140931,K141567, K132646), there\nare no reported adverse events for this technology.\nSubstantial Equivalence\nThe Capillus272 OfficeProisthe same technology",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K150578",
+      "to": "K141567",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "reatment area, and energy delivered (J/cm2) as the\ndeclared predicates. Just as for all predicates (K143199) and reference devices (K140931,K141567, K132646), there\nare no reported adverse events for this technology.\nSubstantial Equivalence\nThe Capillus272 OfficeProisthe same",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K151516",
+      "to": "K113097",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The Capillus82 is the same technology used by Capillus272 Pro (K143199) and other reference devices; specifically, Theradome Laser Helmet (K113097 & K122950). The Capillus82 is as safe and (commensurate to number of diodes) effective as the Capillus272 Pro, as well as other",
+      "hop": 6,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K151516",
+      "to": "K091496",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K151516\nPage 6 of 7\nCapillus272 Pro Capillus82 Laser Helmet MEP-90\nK143199 Candidate K113097,K122950 K091496\nLLLT Device Type LLLT Device Type LLLT Device Type LLLT Device Type\nPrescription Use Prescription Use Prescription & OTC Application Prescr",
+      "hop": 6,
+      "dir": "up",
+      "page": 9
+     },
+     {
+      "from": "K151516",
+      "to": "K122950",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Capillus82 is the same technology used by Capillus272 Pro (K143199) and other reference devices; specifically, Theradome Laser Helmet (K113097 & K122950). The Capillus82 is as safe and (commensurate to number of diodes) effective as the Capillus272 Pro, as well as other",
+      "hop": 6,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K151516",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "wavelength, output power (per diode), output beam, energy type, laser field, and treatment area as the original Capillus272 Pro cleared under K143199. Total \u201cdose\u201d \u2013 delivered energy over time - (J/cm2) is logically reduced. Just as for Capillus272 Pro (K143199) and reference",
+      "hop": 6,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K153618",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "velength,\noutput power (per diode), output beam, energy type, laser field, and treatment area as the original Capillus272 Pro\ncleared under K143199. Total \"dose\" - delivered energy over time - (J/cm?) is logically reduced. Just as for\nCapillus272 Pro (K143199) and reference",
+      "hop": 6,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K153618",
+      "to": "K150613",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "alence\nThe Capillus202 is the same technology used by Capillus272 Pro (K143199) and other reference devices;\nspecifically, Transdermal Cap (K150613). The Capillus202 is as safe and (commensurate to number of diodes)\neffective as the Capillus272 Pro, as well as other reference",
+      "hop": 6,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K091496",
+      "to": "K032816",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "number K(060305 and technological and safety characteristics to the predicate device approved for commercial distribution under 510(k) number K032816. It exceeds the clinically accepted therapeutic results standards of FDA 510(k) K(060305 previ- ously approved light therapy",
+      "hop": 7,
+      "dir": "up",
+      "page": 3
+     },
+     {
+      "from": "K091496",
+      "to": "K081496",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "510(k) K081496 Response November 13, 2009 Page 21 VI. Indications For Use The MEP-90 is a non-heating lamp as described under the provisions of 21 CFR \u00a7890.",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K091496",
+      "to": "K091498",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Concurrence of CDRH, Office of Device Evaluation (ODE) and Restorative LDevices 5 10(k) Number ---- Revised page 10 of 102 Pages -MEP-90 51O0(k) K091498 Application Dated May 15, 2009",
+      "hop": 7,
+      "dir": "up",
+      "page": 7
+     },
+     {
+      "from": "K091496",
+      "to": "K060305",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Light Therapy Hair System Classification Name.....................Infrared Lamp per 21 CFR 890.5500 Product Code(s)........................OAP; NHN IV. Predicate Devices 5101Oi) umbe evc Manufacturer K060305 Hairmax L~asercomb Lexington International LLC K0328 16 Quantum Light",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K093499",
+      "to": "K060305",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Road, Suite 105 Internation~alLL- Boca Raton, FL. 33431 Classification Name: 21 CFR 890.5500 Infrared lamp Predicate Device: HairMax LaserComb K060305 November 9, 2009 Device Description: Similar to the HairMax LaserComb K060305, the modified HairMax LaserComb consists of a",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K113097",
+      "to": "K091496",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "21 CFR 890.5500 Panel: General and Plastic Surgery Class: II Substantial Equivalence claimed to: RE Midwest LLC MEP-90 Hair Growth Stimulation System (K091496) Device Description The Theradome Laser Helmet LH80 PRO is a low level laser therapy (LLLT) device used to promote hair",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K122950",
+      "to": "K091496",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "General and Plastic Surgery\nII\nSubstantial Equivalence claimed to: Theradome, Inc. LH80 PRO Laser Helmet (K113097)\nMidwest RF, LLC MEP-90 (K091496)\nDevice Description\nThe Theradome Laser Helmet LH80 PRO is a low level laser therapy (LLLT) device used to promote hair\ngrowth via",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K122950",
+      "to": "K113097",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Panel:\nClass:\nOAP\n21 CFR 890.5500\nGeneral and Plastic Surgery\nII\nSubstantial Equivalence claimed to: Theradome, Inc. LH80 PRO Laser Helmet (K113097)\nMidwest RF, LLC MEP-90 (K091496)\nDevice Description\nThe Theradome Laser Helmet LH80 PRO is a low level laser therapy (LLLT) device",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K132646",
+      "to": "K122950",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 7,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K132646",
+      "to": "K091496",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 7,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K132646",
+      "to": "K122248",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class 11 Predicate Devices: MEP-90 Hair Growth Stimulation System - Midwest RF LLC - K09 1496 igrow 11 Hair Growth System - Apira Science Inc - K122248 Theradome LH80 PRO Laser Helmet - Theradome Inc - K 122950 Theradome Laser Helmet LH80 PRO - Theradome Inc - KI 113097 Device",
+      "hop": 7,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K150613",
+      "to": "K142573",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "Device Trade Name Manufacturer Capillus272 Pro \u2013 K143199 Capillus, LLC Theradome LH 80 Pro \u2013 K113097 Theradome, Inc. Reference Devices: Hairmax Lasercomb - K142573 Lexington International Date Prepared: July 16, 2015 Revised",
+      "hop": 7,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K150613",
+      "to": "K143199",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Infrared lamp per 21 CFR 890.5500 Classification Code: OAP (Laser, comb, hair) Predicate Devices: Device Trade Name Manufacturer Capillus272 Pro \u2013 K143199 Capillus, LLC Theradome LH 80 Pro \u2013 K113097 Theradome, Inc. Reference Devices: Hairmax Lasercomb - K142573 Lexington",
+      "hop": 7,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K150613",
+      "to": "K113097",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "5500 Classification Code: OAP (Laser, comb, hair) Predicate Devices: Device Trade Name Manufacturer Capillus272 Pro \u2013 K143199 Capillus, LLC Theradome LH 80 Pro \u2013 K113097 Theradome, Inc. Reference Devices: Hairmax Lasercomb - K142573 Lexington International Date Prepared: July",
+      "hop": 7,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K032816",
+      "to": "K012580",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "The predicate devices the Quantum System establishes equivalence to include the following: Prodlcore Qwe 510{~. # 14a~Ktu~ Tuco Erchonia PL3000 .................. K012580 Tuco Innovations Super Nova; Accubean ................. KOO 1179 Light Force Therapy, Inc. MedX 100 Series",
+      "hop": 8,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K032816",
+      "to": "K020017",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "2580 Tuco Innovations\nSuper Nova; Accubean ................. KOO 1179 Light Force Therapy, Inc.\nMedX 100 Series ........................... K020017 MedX Electronics, Inc.\nV. Intended Use of the Device'\nThe Quantum Light Therapy System is a non-heating lamp, infrared as described",
+      "hop": 8,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K081496",
+      "to": "K050559",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "head and whole body multislice CT diagnostic imaging system. Identification of Legally Marketed Equivalent Devices GE Healthcare Discovery VCT K050559 General Electric Company P.O. Box 414 Milwaukee, WI 53201",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K091498",
+      "to": "K002519",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate Device Manufacturer FDA 510(k) Vitreag, Version 4.0 Medical Image Vital Images, Inc K071331 Processing Software Vitrea2, version 2.1 Vital Images, Inc K002519 Preview(\u00ae Treatment Planning MEDICAL MEDIA SYSTEMS, K040852 Software INC GE AVA 11/Vessel Xpress GE HealthCare",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K091498",
+      "to": "K040852",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "0 Medical Image Vital Images, Inc K071331 Processing Software Vitrea2, version 2.1 Vital Images, Inc K002519 Preview(\u00ae Treatment Planning MEDICAL MEDIA SYSTEMS, K040852 Software INC GE AVA 11/Vessel Xpress GE HealthCare K060779 (AVA II/Vessel Xpress) Waukesha, WI",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K091498",
+      "to": "K071331",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "equivalent to the following predicate devices. Predicate Device Manufacturer FDA 510(k) Vitreag, Version 4.0 Medical Image Vital Images, Inc K071331 Processing Software Vitrea2, version 2.1 Vital Images, Inc K002519 Preview(\u00ae Treatment Planning MEDICAL MEDIA SYSTEMS, K040852",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K091498",
+      "to": "K060779",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "2.1 Vital Images, Inc K002519 Preview(\u00ae Treatment Planning MEDICAL MEDIA SYSTEMS, K040852 Software INC GE AVA 11/Vessel Xpress GE HealthCare K060779 (AVA II/Vessel Xpress) Waukesha, WI",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K020017",
+      "to": "K001179",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "e\nJuly 10th, 2002\nMedX 1000 Series\nLamp, Infrared - 89 ILY\nPhysical Medicine Device, 21 CFR 890.5500 (Class II)\nLightForce Therapy, Acubeam K001179\nContact Person:\nPrepared on:\nModel No./Name:\nClassification:\nPredicate Device:\nDevice Description\nMedX 1000 Series equipment",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K050559",
+      "to": "K042257",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Identification of Legally Marketed Equivalent Devices\nK041 543\nGE Discovery ST System\nGE Discovery ST System with Alternate Detector Option K042257\nDeic Dscipio\nThe Discovery VCT is an integrated multi-slice Computed Tomography and Positron\nEmission Tomography scanner. It uses",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K050559",
+      "to": "K041543",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "2005 Page 2 Description of Change or Modification The Discovery VCT PET/CT System is the same as the Discovery ST system described in 510(k)s K041543 and K042257 except that the PET system is integrated with a different CT system, the GE LightSpeed VCT system. Indications for",
+      "hop": 9,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K060779",
+      "to": "K031871",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "AVA II is substantially equivalent to the predicate devices listed above Device Name FDA Clearance Number Smart Vessel Analysis K993792 CardIQ Analysis III K041267 Auto Bone K031871 Adverse Effects on Health: The potential hazards are identified in a risk management summary",
+      "hop": 9,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K060779",
+      "to": "K041267",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "AVA II is substantially equivalent to the predicate devices listed above Device Name FDA Clearance Number Smart Vessel Analysis K993792 CardIQ Analysis III K041267 Auto Bone K031871 Adverse Effects on Health: The potential hazards are identified in a risk management summary",
+      "hop": 9,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K060779",
+      "to": "K993792",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "es The Advanced Vessel Analysis II is substantially equivalent to the devices\nlisted below:\n*Model: Smart Vessel Analysis Option, 5 10(k) # K993792\n*Model: CardIQ Analysis III, 5 10 (k) # K04 1267\n*Model: Auto Bone, 5 1 0(k) # K03 1871\n*Manufacturer: General Electric Medical",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071331",
+      "to": "K051840",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "adiological\nName\nClassification Name LLZ, Class II, CFR 21 892.2050\n* Vitrea\u00ae, Version 3.9 (K061624)\nVital Images, Inc.\n* EnSite VerismoTM (K051840)\nSt. Jude, Inc.\nPredicate Devices\n* CARD EP (K031 261)\nGE Medical Systems\n* SUREPIaque TM (K043111)\nToshiba America Medical",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071331",
+      "to": "K031261",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 9,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K071331",
+      "to": "K043111",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": ")\nVital Images, Inc.\n* EnSite VerismoTM (K051840)\nSt. Jude, Inc.\nPredicate Devices\n* CARD EP (K031 261)\nGE Medical Systems\n* SUREPIaque TM (K043111)\nToshiba America Medical Systems, Inc.\nDevice Description\nThe Vitrea system is a medical diagnostic device that allows the",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071331",
+      "to": "K061624",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "tware\nCommon I Usual System, Image Processing, Radiological\nName\nClassification Name LLZ, Class II, CFR 21 892.2050\n* Vitrea\u00ae, Version 3.9 (K061624)\nVital Images, Inc.\n* EnSite VerismoTM (K051840)\nSt. Jude, Inc.\nPredicate Devices\n* CARD EP (K031 261)\nGE Medical Systems\n*",
+      "hop": 9,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K031261",
+      "to": "K020796",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "performs as well as devices currently on the market. GE considers features of the CardEP to be equivalent to those of CT CardIQ Analysis I1 (K020796).",
+      "hop": 10,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K031871",
+      "to": "K972399",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "The hnctional features of this package are substantially equivalent to that of the following devices: Device Name FDA Clearance Number Volume Rendering K972399 Vitrea 2 KO025 19 Adverse Effects on Health: The potential hazards are identified in a risk management summary (hazard",
+      "hop": 10,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K041267",
+      "to": "K013422",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "General Electric Medical Systems, Buc, France 5 10(k) #:K020796 Model: CardIQ Function Manufacturer: General Electric 3200 N. Grandview Blvd. Waukesha, WI 53188 5 10(k)# K013422 NOMFICHIER PAGE 1/2",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041267",
+      "to": "K020796",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Marketed Devices The CardIQ Analysis El is substantially equivalent to the devices listed below: Model: CardIQ Analysis 11 Manufacturer: General Electric Medical Systems, Buc, France 5 10(k) #:K020796 Model: CardIQ Function Manufacturer: General Electric 3200 N. Grandview Blvd.",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041543",
+      "to": "K040172",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Class II Product Identification of Legally Marketed Equivalent Devices Product Name: GE Discovery ST 510(k) #: K022872 Product Name: GE Discovery LS 510(k) #: K040172 General Electric Company 3000 N Grandview Blvd Waukesha, WI 53188 U.S.A.",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041543",
+      "to": "K022872",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Radiology Classification Class: Class II Product Identification of Legally Marketed Equivalent Devices Product Name: GE Discovery ST 510(k) #: K022872 Product Name: GE Discovery LS 510(k) #: K040172 General Electric Company 3000 N Grandview Blvd Waukesha, WI 53188 U.S.A.",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K042257",
+      "to": "K010641",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Emission Computed Tomography System, 21 CFR 892.1200, 90-KPS Marketed Device: GE Medical Systems GE Discovery ST Positron Emission Tomography System, 510(k) Number K010641, currently in commercial distribution. Device Description: The Discovery ST PET/CT Imaging System an with",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K043111",
+      "to": "K990426",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "892.1750)\n21 CFR Subchaprer I,\nFederal Diagnostic X-ray Equipment Standard\nGeneral Electric Perfusion CT 2 [K0041267]\nSiemens Perfusion CT [K990426]\nReason For Submission\nModification of Cleared Device\nDescription of this Device:\nThe CSPV-001A is an image analysis sofiware",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K051840",
+      "to": "K651840",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 10,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K061624",
+      "to": "K052632",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "9 Medical Image Processing Software Common I Usual System, Image Processing, Radiological Name Classification Name LLZ, Class II, CFR 21 892.2050 \u00b7 Vitrea2, Version 3.8 (K052632) Vital Images, Inc. Predicate Devices \u00b7 SUREPlaque TM (K043111) Toshiba America Medical Systems, Inc.",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K061624",
+      "to": "K043111",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Name Classification Name LLZ, Class II, CFR 21 892.2050 \u00b7 Vitrea2, Version 3.8 (K052632) Vital Images, Inc. Predicate Devices \u00b7 SUREPlaque TM (K043111) Toshiba America Medical Systems, Inc. Device Description The Vitrea2 system is a medical diagnostic device that allows the",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K993792",
+      "to": "K954355",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "General Electric Medical Systems, Milwaukee, WI Marketed Devices: The Smart VA is substantially equivalent to the devices listed below: Model: Advantage Windows 3D (K954355) with Navigator Option and DLX (K926258) Manufacturer: General Electric Medical Systems, Buc Cedex, FRANCE",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K993792",
+      "to": "K926258",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The Smart VA is substantially equivalent to the devices listed below: Model: Advantage Windows 3D (K954355) with Navigator Option and DLX (K926258) Manufacturer: General Electric Medical Systems, Buc Cedex, FRANCE Device Description: SmartVA is a software post-processing package",
+      "hop": 10,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K013422",
+      "to": "K000315",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "the device listed below:\nModel:\nManufacturer:\n510(k)#:\nVentricular Analysis Toolkit Option\nGeneral Electric Medical Systems, Milwaukee, WI\nK000315\nDevice Description:\nCardIQ Function, also called CT-MASS, is a software package for the GE advantage Windows (AW)\nworkstation.",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K020796",
+      "to": "K003408",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ardIQ Analysis IT is substantially equivalent to the device listed below:\nCardIo Option 1.0\nGeneral Electric Medical Systems, Milwaukee, WI\nK003408\nDistributor:\nMarketed Devices\nModel:\nManufacturer:\n510(k)#:\nDevice Description:\nCardIQ Analysis II is a post processing software",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K020796",
+      "to": "K020794",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "MAR 2 6 2002\nK020794\n510(k) SUMMARY OF SAFETY AND EFFECTIVENESS\nThis 510(k) summary of safety and effectiveness information is submitted in accordance with the",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022872",
+      "to": "K010641",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "phy System, 21 CFR 892.1200, 90-KPS\nMarketed Device: GE Medical Systems GE Discovery LS Positron Emission Tomography System, 51O (k)\nNumber K010641, currently in commercial distribution.\nDevice Description: The GE Road Warrior PET CT Imaging System integrates a GE Positron",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K040172",
+      "to": "K023988",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Class II Product Reason for 510(k) Submission Modification of legally marketed device. Identification of Legally Marketed Equivalent Devices GE Discovery LS System K023988 Device Description The Discovery LS is an integrated multi-slice Computed Tomography and Positron Emission",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052632",
+      "to": "K043333",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "oftware\nCommon I Usual System, Image Processing, Radiological\nName\nClassification Name LLZ, Class II, CFR 21 892.2050\nVitrea2, Version 3.7 (K043333)\nPredicate Devices Vital Images, Inc.\nDevice Description\nThe Vitrea2 system is a medical diagnostic device that allows the",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K972399",
+      "to": "K923077",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Marketed Devices: The Advantage Windows Valure Rendering Option is substantially equivalent to the\ncurrently marketed Advantage Windows 3D (K923077), Advantage Windows 3D with Navigator Option\n(K9S4355), and Advantage CT (9800 Quick) 3D (KB71859)\nIndications for Use: Advantage",
+      "hop": 11,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K990426",
+      "to": "K960911",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "tially equivalent to the following devices:\n1. - Imatron Ultra Access Device (K972903) cleared by FDA on 11/04/97\n- SCImage NetraMD Device (K960911) cleared by FDA on 05/29/96\nImaging Systems Group, Siemens Medical Systems\n4/36/99\nDate",
+      "hop": 11,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K990426",
+      "to": "K972903",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "\u2022 Substantial Equivalence:\nSiemens Calcium Scoring is substantially equivalent to the following devices:\n1. - Imatron Ultra Access Device (K972903) cleared by FDA on 11/04/97\n- SCImage NetraMD Device (K960911) cleared by FDA on 05/29/96\nImaging Systems Group, Siemens Medical",
+      "hop": 11,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K020794",
+      "to": "K844070",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "A IMS SalicylateA ssay on a Bayer ADVIA' IMSm is equivalent to the performance\nof the Salicylate Assay on the predicate device (Abbott TDX, K844070) and is w i hp roposed manufacturing\nspecifications.N o safety and effectiveness issues have been raised.\nKen@&. Edds Date t",
+      "hop": 12,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K023988",
+      "to": "K002978",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Description The Discovery LS CT-PET System is a combination of the Advance NXi PET Scanner (K003849) and the Lightspeed CT Scanner (K000300, K002978). In addition to providing CT and PET stand-alone capabilities, it uses the CT images to correct for non- uniform attenuation of",
+      "hop": 12,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K023988",
+      "to": "K000300",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Device Description The Discovery LS CT-PET System is a combination of the Advance NXi PET Scanner (K003849) and the Lightspeed CT Scanner (K000300, K002978). In addition to providing CT and PET stand-alone capabilities, it uses the CT images to correct for non- uniform",
+      "hop": 12,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K023988",
+      "to": "K003849",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "lent Devices\nGE CT-PET System KO 10 64 1\nDevice Description\nThe Discovery LS CT-PET System is a combination of the Advance NXi PET Scanner\n(K003849) and the Lightspeed CT Scanner (K000300, K002978). In addition to\nproviding CT and PET stand-alone capabilities, it uses the CT",
+      "hop": 12,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K023988",
+      "to": "K010641",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "T System\nis substantially equivalent in terms of safety and effectiveness to the currently\nmarketed Discovery LS CT-PET System, 51 O(k) No. K010641.",
+      "hop": 12,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K233655",
+      "to": "K222447",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "1355 Classification: Class II Review Panel: Clinical Chemistry Predicate Device Predicate Device: FreeStyle Libre 2 Flash Glucose Monitoring System (K222447) 510(k) Summary, Page 1 of 9",
+      "hop": 1,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K251830",
+      "to": "K233537",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "3\u201d Projected Capacitive (PCAP) touch screen 21.3\u201d Projected Capacitive (PCAP) touch (configurable) device, Sonosite LX system interface screen interface 12.1\u201d touch screen interface (K233537). The new transducer, 2 USB 2.0 Ports 2 USB 2.0 Ports Touch panel with the UHF46-20",
+      "hop": 1,
+      "dir": "down",
+      "page": 12
+     },
+     {
+      "from": "K222280",
+      "to": "K202145",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Class: Class II (21 CFR \u00a7862.1355, 21CFR \u00a7 880.5860) Product Code: QLG, QOG III. Predicate Device: Bigfoot Unity\u00ae Diabetes Management System \u2013 K202145 IV. Device Description: The Bigfoot Unity Diabetes Management System (\u2018Bigfoot Unity System\u2019) integrates continuous glucose",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K253448",
+      "to": "K251830",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "IYN Secondary Product Codes: IYO ITX Device Class: Class II Classification Panel: Radiology 3) Predicate Device: Primary Predicate: Sonosite LX Ultrasound System (K251830) Regulation Name: Ultrasonic Pulsed Doppler Imaging System Ultrasonic Pulsed Echo Imaging System Diagnostic",
+      "hop": 2,
+      "dir": "down",
+      "page": 6
+     }
+    ],
+    "note": "Lineage is walked to the earliest cited predicate and the latest citing descendant held in the corpus. Descendant coverage is bounded by the 510(k)-summary extraction: clearances filed with a 510(k) Statement (no public summary) cannot appear as citing devices. Row-capped \u2014 the deepest branches are truncated."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked in both directions from this device's own clearances; branded accessory clearances listed separately."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 65802,
+    "totalPaid": 15289879.4,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NC",
+      "total": 443837.23,
+      "payments": 564,
+      "years": "2019\u20132024",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "NC",
+      "total": 346558.92,
+      "payments": 446,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "CA",
+      "total": 337313.51,
+      "payments": 610,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "MO",
+      "total": 205963.73,
+      "payments": 319,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "OR",
+      "total": 196382.94,
+      "payments": 368,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NV",
+      "total": 175887.82,
+      "payments": 229,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "CA",
+      "total": 174710.43,
+      "payments": 234,
+      "years": "2017\u20132018",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NY",
+      "total": 168432.22,
+      "payments": 314,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "NY",
+      "total": 163313.89,
+      "payments": 248,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "MN",
+      "total": 162862.18,
+      "payments": 195,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NC",
+      "total": 443837.23,
+      "payments": 564,
+      "years": "2019\u20132024",
+      "topNature": "Travel and Lodging",
+      "name": "Bhakti Paul"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "NC",
+      "total": 346558.92,
+      "payments": 446,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Eugene Wright"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "CA",
+      "total": 337313.51,
+      "payments": 610,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Jeffrey Unger"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology",
+      "state": "MO",
+      "total": 205963.73,
+      "payments": 319,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Larry Midyett"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
+      "state": "OR",
+      "total": 196382.94,
+      "payments": 368,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Eden Miller"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NV",
+      "total": 175887.82,
+      "payments": 229,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "William Litchfield"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "CA",
+      "total": 174710.43,
+      "payments": 234,
+      "years": "2017\u20132018",
+      "topNature": "Travel and Lodging",
+      "name": "Etie Moghissi"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "NY",
+      "total": 168432.22,
+      "payments": 314,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Michael Shanik"
+     },
+     {
+      "id": "p9",
+      "specialty": "Physician Assistants & Advanced Practice Nursing Providers|Nurse Practitioner|Family",
+      "state": "NY",
+      "total": 163313.89,
+      "payments": 248,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Natalie Bellini"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",
+      "state": "MN",
+      "total": 162862.18,
+      "payments": 195,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Richard Bergenstal"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "Diabetes Care Group, Inc.",
+    "nParents": 30,
+    "inspections": 1903,
+    "citations": 1413,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8484,
+     "inMdl": 7232,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2452,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2452,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Critical Care Systems",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Laboratories & Central Glass Co LTD",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 58,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 488465
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "K0553",
+      "description": "Supply allowance for therapeutic continuous glucose monitor (cgm), includes all supplies and accessories, 1 month supply = 1 unit of service",
+      "services": 10484453
+     },
+     {
+      "code": "A4239",
+      "description": "Supply allowance for non-adjunctive, non-implanted continuous glucose monitor (cgm), includes all supplies and accessories, 1 month supply = 1 unit of service",
+      "services": 4852890
+     },
+     {
+      "code": "95251",
+      "description": "Ambulatory continuous glucose (sugar) including interpretation and report for a minimum of 72 hours",
+      "services": 1353208
+     },
+     {
+      "code": "95250",
+      "description": "Ambulatory continuous glucose (sugar) monitoring for a minimum of 72 hours",
+      "services": 446817
+     },
+     {
+      "code": "E2103",
+      "description": "Non-adjunctive, non-implanted continuous glucose monitor or receiver",
+      "services": 260687
+     },
+     {
+      "code": "A4238",
+      "description": "Supply allowance for adjunctive, non-implanted continuous glucose monitor (cgm), includes all supplies and accessories, 1 month supply = 1 unit of service",
+      "services": 130556
+     }
+    ],
+    "states": [
+     {
+      "state": "California",
+      "services": 488465,
+      "beneficiaries": 96089
+     },
+     {
+      "state": "Florida",
+      "services": 427484,
+      "beneficiaries": 100145
+     },
+     {
+      "state": "Texas",
+      "services": 375678,
+      "beneficiaries": 80719
+     },
+     {
+      "state": "New York",
+      "services": 337185,
+      "beneficiaries": 92037
+     },
+     {
+      "state": "Illinois",
+      "services": 280855,
+      "beneficiaries": 64120
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 272599,
+      "beneficiaries": 55386
+     },
+     {
+      "state": "Ohio",
+      "services": 212029,
+      "beneficiaries": 43773
+     },
+     {
+      "state": "North Carolina",
+      "services": 183877,
+      "beneficiaries": 38665
+     },
+     {
+      "state": "New Jersey",
+      "services": 176460,
+      "beneficiaries": 39402
+     },
+     {
+      "state": "Massachusetts",
+      "services": 173971,
+      "beneficiaries": 36077
+     },
+     {
+      "state": "Virginia",
+      "services": 166672,
+      "beneficiaries": 34121
+     },
+     {
+      "state": "Georgia",
+      "services": 162976,
+      "beneficiaries": 33986
+     },
+     {
+      "state": "Indiana",
+      "services": 161584,
+      "beneficiaries": 33301
+     },
+     {
+      "state": "Michigan",
+      "services": 161329,
+      "beneficiaries": 36214
+     },
+     {
+      "state": "Maryland",
+      "services": 159063,
+      "beneficiaries": 32973
+     },
+     {
+      "state": "Tennessee",
+      "services": 145538,
+      "beneficiaries": 29227
+     },
+     {
+      "state": "Missouri",
+      "services": 134360,
+      "beneficiaries": 27203
+     },
+     {
+      "state": "Washington",
+      "services": 127723,
+      "beneficiaries": 26374
+     },
+     {
+      "state": "Wisconsin",
+      "services": 111389,
+      "beneficiaries": 23263
+     },
+     {
+      "state": "South Carolina",
+      "services": 110891,
+      "beneficiaries": 23891
+     },
+     {
+      "state": "Minnesota",
+      "services": 106345,
+      "beneficiaries": 21294
+     },
+     {
+      "state": "Arizona",
+      "services": 102514,
+      "beneficiaries": 22843
+     },
+     {
+      "state": "Oklahoma",
+      "services": 93745,
+      "beneficiaries": 19875
+     },
+     {
+      "state": "Kansas",
+      "services": 91189,
+      "beneficiaries": 18635
+     },
+     {
+      "state": "Kentucky",
+      "services": 82107,
+      "beneficiaries": 16978
+     },
+     {
+      "state": "Louisiana",
+      "services": 81174,
+      "beneficiaries": 16995
+     },
+     {
+      "state": "Iowa",
+      "services": 80532,
+      "beneficiaries": 16089
+     },
+     {
+      "state": "Arkansas",
+      "services": 77560,
+      "beneficiaries": 16632
+     },
+     {
+      "state": "Alabama",
+      "services": 77162,
+      "beneficiaries": 17108
+     },
+     {
+      "state": "Mississippi",
+      "services": 76628,
+      "beneficiaries": 15754
+     },
+     {
+      "state": "Colorado",
+      "services": 66078,
+      "beneficiaries": 14135
+     },
+     {
+      "state": "Nebraska",
+      "services": 59915,
+      "beneficiaries": 11742
+     },
+     {
+      "state": "Oregon",
+      "services": 58924,
+      "beneficiaries": 12040
+     },
+     {
+      "state": "Connecticut",
+      "services": 56699,
+      "beneficiaries": 13301
+     },
+     {
+      "state": "Utah",
+      "services": 43271,
+      "beneficiaries": 8976
+     },
+     {
+      "state": "West Virginia",
+      "services": 42108,
+      "beneficiaries": 9244
+     },
+     {
+      "state": "Nevada",
+      "services": 42083,
+      "beneficiaries": 10395
+     },
+     {
+      "state": "New Hampshire",
+      "services": 38825,
+      "beneficiaries": 7970
+     },
+     {
+      "state": "Idaho",
+      "services": 34214,
+      "beneficiaries": 6700
+     },
+     {
+      "state": "Delaware",
+      "services": 33052,
+      "beneficiaries": 7800
+     },
+     {
+      "state": "South Dakota",
+      "services": 30987,
+      "beneficiaries": 5884
+     },
+     {
+      "state": "North Dakota",
+      "services": 28116,
+      "beneficiaries": 4584
+     },
+     {
+      "state": "Montana",
+      "services": 27117,
+      "beneficiaries": 5674
+     },
+     {
+      "state": "New Mexico",
+      "services": 25501,
+      "beneficiaries": 5297
+     },
+     {
+      "state": "Maine",
+      "services": 21901,
+      "beneficiaries": 4044
+     },
+     {
+      "state": "Vermont",
+      "services": 13906,
+      "beneficiaries": 2641
+     },
+     {
+      "state": "Rhode Island",
+      "services": 13727,
+      "beneficiaries": 2946
+     },
+     {
+      "state": "Alaska",
+      "services": 10003,
+      "beneficiaries": 2027
+     },
+     {
+      "state": "District of Columbia",
+      "services": 9516,
+      "beneficiaries": 2222
+     },
+     {
+      "state": "Wyoming",
+      "services": 8395,
+      "beneficiaries": 1660
+     },
+     {
+      "state": "Hawaii",
+      "services": 7530,
+      "beneficiaries": 1520
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 3148,
+      "beneficiaries": 758
+     },
+     {
+      "state": "Armed Forces Europe",
+      "services": 760,
+      "beneficiaries": 149
+     },
+     {
+      "state": "Armed Forces Pacific",
+      "services": 556,
+      "beneficiaries": 82
+     },
+     {
+      "state": "Virgin Islands",
+      "services": 300,
+      "beneficiaries": 86
+     },
+     {
+      "state": "Guam",
+      "services": 265,
+      "beneficiaries": 76
+     },
+     {
+      "state": "Unknown",
+      "services": 101,
+      "beneficiaries": 25
+     },
+     {
+      "state": "Foreign Country",
+      "services": 26,
+      "beneficiaries": 0
+     }
+    ],
+    "trialSites": [
+     {
+      "name": "Rocky Mountain Diabetes & Osteoporosis Center",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 9
+     },
+     {
+      "name": "Sansum Diabetes Research Institute",
+      "city": "Santa Barbara",
+      "state": "California",
+      "lat": 34.421,
+      "lon": -119.698,
+      "trials": 9
+     },
+     {
+      "name": "Diablo Clinical Research",
+      "city": "Walnut Creek",
+      "state": "California",
+      "lat": 37.906,
+      "lon": -122.065,
+      "trials": 5
+     },
+     {
+      "name": "Rainier Clinical Research Center",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 5
+     },
+     {
+      "name": "Diabetes and Glandular Disease Clinic",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 3
+     },
+     {
+      "name": "Rainier Clinical Research",
+      "city": "Renton",
+      "state": "Washington",
+      "lat": 47.483,
+      "lon": -122.217,
+      "trials": 3
+     },
+     {
+      "name": "William Sansum Diabetes Center",
+      "city": "Santa Barbara",
+      "state": "California",
+      "lat": 34.421,
+      "lon": -119.698,
+      "trials": 3
+     },
+     {
+      "name": "Albuquerque Neuroscience Inc.",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "lat": 35.084,
+      "lon": -106.651,
+      "trials": 2
+     },
+     {
+      "name": "Barbara Davis Center for Diabetes",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 2
+     },
+     {
+      "name": "Children's Hospital Colorado",
+      "city": "Aurora",
+      "state": "Colorado",
+      "lat": 39.729,
+      "lon": -104.832,
+      "trials": 2
+     },
+     {
+      "name": "Columbia University Irving Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Grady Health System",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 2
+     },
+     {
+      "name": "Henry Ford Medical Center",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 2
+     },
+     {
+      "name": "Metabolic Research Institute",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "lat": 26.715,
+      "lon": -80.053,
+      "trials": 2
+     },
+     {
+      "name": "Rocky Mountain Diabetes and Osteoporosis Center",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "lat": 43.467,
+      "lon": -112.034,
+      "trials": 2
+     },
+     {
+      "name": "AMCR",
+      "city": "Escondido",
+      "state": "California",
+      "lat": 33.119,
+      "lon": -117.086,
+      "trials": 1
+     },
+     {
+      "name": "AMCR Institute",
+      "city": "Escondido",
+      "state": "California",
+      "lat": 33.119,
+      "lon": -117.086,
+      "trials": 1
+     },
+     {
+      "name": "Atlanta Diabetes Associates",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Diabetes Associates, P.A",
+      "city": "Miami",
+      "state": "Florida",
+      "lat": 25.774,
+      "lon": -80.194,
+      "trials": 1
+     },
+     {
+      "name": "Bellevue Hospital",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     },
+     {
+      "name": "Billings Clinic",
+      "city": "Billings",
+      "state": "Montana",
+      "lat": 45.783,
+      "lon": -108.501,
+      "trials": 1
+     },
+     {
+      "name": "Boston Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 1
+     },
+     {
+      "name": "CEDE (Center of Excellence in Diabetes and Endocrinology)",
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.582,
+      "lon": -121.494,
+      "trials": 1
+     },
+     {
+      "name": "Children's of Alabama",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
+      "trials": 1
+     },
+     {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 1
+     },
+     {
+      "name": "Clinical Trials of Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 1
+     },
+     {
+      "name": "Diabetes America- Pearland",
+      "city": "Pearland",
+      "state": "Texas",
+      "lat": 29.564,
+      "lon": -95.286,
+      "trials": 1
+     },
+     {
+      "name": "Diabetes and Obesity Care",
+      "city": "Bend",
+      "state": "Oregon",
+      "lat": 44.058,
+      "lon": -121.315,
+      "trials": 1
+     },
+     {
+      "name": "Division of Endocrinology, Department of Medicine, Emory University School of Me",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Dr. Deanna Cheung",
+      "city": "Long Beach",
+      "state": "California",
+      "lat": 33.767,
+      "lon": -118.189,
+      "trials": 1
+     },
+     {
+      "name": "Duke Southern Regional AHEC",
+      "city": "Fayetteville",
+      "state": "North Carolina",
+      "lat": 35.053,
+      "lon": -78.878,
+      "trials": 1
+     },
+     {
+      "name": "East Coast Institute for Research, LLC",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.332,
+      "lon": -81.656,
+      "trials": 1
+     },
+     {
+      "name": "Emory University Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Emory University Hospital Midtown",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Evans Biomedical Research Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 1
+     },
+     {
+      "name": "Excellence Medical and Research",
+      "city": "Miami Gardens",
+      "state": "Florida",
+      "lat": 25.942,
+      "lon": -80.246,
+      "trials": 1
+     },
+     {
+      "name": "Froedtert Hospital",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.039,
+      "lon": -87.906,
+      "trials": 1
+     },
+     {
+      "name": "Grady Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "HealthPartners Cancer Research Center",
+      "city": "Saint Louis Park",
+      "state": "Minnesota",
+      "lat": 44.948,
+      "lon": -93.348,
+      "trials": 1
+     },
+     {
+      "name": "HealthPartners Institute dba International Diabetes Center",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 354,
+     "usSites": 118,
+     "trials": 135,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 145,
+    "trialsWithAeTables": 4,
+    "seriousEventRows": 8,
+    "seriousSubjectsAffected": 10,
+    "deathTermSubjects": 0,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 145,
+    "trialsWithAeTables": 4,
+    "trialsWithSerious": 4,
+    "totals": {
+     "serious": {
+      "rows": 8,
+      "subjects": 10
+     },
+     "other": {
+      "rows": 18,
+      "subjects": 33
+     },
+     "deathTermSubjects": 0
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Hospital admission",
+      "organSystem": "Endocrine disorders",
+      "rows": 2,
+      "subjectsAffected": 4
+     },
+     {
+      "term": "Pre eclampsia",
+      "organSystem": "Pregnancy, puerperium and perinatal conditions",
+      "rows": 1,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Prolonged hospital length of stay due to tachycardia",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 1
+     },
+     {
+      "term": "Vomiting & epigastric pain",
+      "organSystem": "Gastrointestinal disorders",
+      "rows": 1,
+      "subjectsAffected": 1
+     },
+     {
+      "term": "Decreased foetal movements",
+      "organSystem": "Pregnancy, puerperium and perinatal conditions",
+      "rows": 1,
+      "subjectsAffected": 1
+     },
+     {
+      "term": "Painful right leg",
+      "organSystem": "Musculoskeletal and connective tissue disorders",
+      "rows": 1,
+      "subjectsAffected": 1
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT03815006",
+      "title": "Flash-glucose Monitoring in Sub-optimally Controlled Type 1 Diabetes (FLASH-UK)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 2,
+      "seriousSubjects": 4
+     },
+     {
+      "nctId": "NCT02665455",
+      "title": "FreeStyle Libre in Pregnancy Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2016",
+      "seriousRows": 3,
+      "seriousSubjects": 4
+     },
+     {
+      "nctId": "NCT02388815",
+      "title": "Abbott Sensor Based Glucose Monitoring System Paediatric Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2015",
+      "seriousRows": 1,
+      "seriousSubjects": 1
+     },
+     {
+      "nctId": "NCT04862234",
+      "title": "Perioperative Stress Hyperglycemia in General and Vascular Surgery Patients",
+      "phase": "PHASE4",
+      "status": "TERMINATED",
+      "startYear": "2021",
+      "seriousRows": 2,
+      "seriousSubjects": 1
+     },
+     {
+      "nctId": "NCT03107208",
+      "title": "Early Glargine (Lantus) in DKA Management in Children With Type 1 Diabetes",
+      "phase": "PHASE4",
+      "status": "COMPLETED",
+      "startYear": "2017",
+      "seriousRows": 0,
+      "seriousSubjects": 0
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 17,
+    "countries": 9,
+    "sources": 5,
+    "firstForeignDate": "1999-12-06",
+    "latestAction": {
+     "country": "Canada",
+     "date": "2025-12-03",
+     "classification": "Type II"
+    },
+    "screenedOut": 2
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2025-12-03",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "FreeStyle Libre\u00ae 3 Plus Sensor Kit \u00b7 FreeStyle Libre\u00ae 3 Plus Sensor Kit",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/freestyle-librer-3-plus-sensor-kit"
+       },
+       {
+        "date": "2023-02-24",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Freestyle Libre 2 App (Android) \u00b7 Freestyle Libre 2 App (Android)",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/freestyle-libre-2-app-android"
+       },
+       {
+        "date": "2023-02-16",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Freestyle Libre Sensor Kits \u00b7 Freestyle Libre Sensor Kits",
+        "reason": "Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/freestyle-libre-sensor-kits"
+       }
+      ]
+     },
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2025-11-27",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Freestyle Libre 3 Plus See FSN \u00b7 FreeStyle Libre 3 See FSN",
+        "reason": "New distributor FSN",
+        "url": null
+       },
+       {
+        "date": "2023-02-20",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "FreeStyle LibreLink App 71809-01 \u00b7 FreeStyle Libre 3 App 72229-01",
+        "reason": "Information for software update",
+        "url": null
+       },
+       {
+        "date": "2020-05-26",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "FreeStyle Libre 2 Flash Glucose Monitoring System 71988-01",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2019-01-29",
+        "source": "mhra-fsn",
+        "actionType": "device-safety-information",
+        "classification": null,
+        "product": "FreeStyle Libre flash glucose sensor \u2013 Use of barrier methods to reduce skin reactions to the sensor adhesive (MDA/2019/003)",
+        "reason": "Manufactured by Abbott \u2013 some users who are experiencing an immune response to the adhesive are applying creams, patches or sprays under their sensor to reduce skin reactions, which may affect device performance.",
+        "url": "https://www.gov.uk/drug-device-alerts/freestyle-libre-flash-glucose-sensor-use-of-barrier-methods-to-reduce-skin-reactions-to-the-sensor-adhesive-mda-2019-003"
+       },
+       {
+        "date": "2019-01-29",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "FreeStyle Libre flash glucose sensor",
+        "reason": "Manufactured by Abbott \u2013 some users who are experiencing an immune response to the adhesive are applying creams, patches or sprays under their sensor to reduce skin reactions, which may affect device performance.",
+        "url": "https://www.gov.uk//drug-device-alerts/freestyle-libre-flash-glucose-sensor-use-of-barrier-methods-to-reduce-skin-reactions-to-the-sensor-adhesive-mda-2019-003"
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2015-07-07",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the FreeStyle Libre Flash Glucose Monitoring System",
+        "reason": "Urgent Safety Notice for the FreeStyle Libre Flash Glucose Monitoring System, Abbott Diabetes Care",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2015/04059-15_kundeninfo_en.html"
+       },
+       {
+        "date": "2014-10-15",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the FreeStyle Libre Flash Glucose Monitoring System",
+        "reason": "Urgent Safety Notice for the FreeStyle Libre Flash Glucose Monitoring System, Abbott Diabetes Care",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/10/2014/06440-14_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "IT",
+      "name": "Italy",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2015-01-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "freestyle libre system sensor (glucose flash monitoring system)",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=5581"
+       },
+       {
+        "date": "2014-10-03",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "freestyle libre flash glucose monitoring system, freestyle navigator ii continuous monitoring system",
+        "reason": null,
+        "url": "http://www.salute.gov.it/portale/news/p3_2_1_3_1_1.jsp?lingua=italiano&menu=notizie&p=avvisi&tipo=dispo&id=3780"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 2,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "FreeStyle Libre Flash glucose Monitoring System",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/In-vitro-diagnostiska-produkter--FreeStyle-Libre-Flash-Glukos-Monitorering-System--Abbott-Diabetes-Care-Ltd/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "FreeStyle Libre Flash glucose monitoring system",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/In-vitro-diagnostiska-produkter--FreeStyle-Libre-Flash-glukosmatningssystem--Abbott-Diabetes-Care-Ltd/#"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2025-11-26",
+        "source": "medsafe-nz",
+        "actionType": "Recall",
+        "classification": "Public Recall",
+        "product": "FreeStyle Libre 3 Plus Continuous Glucose Monitoring System Sensor Product SKU: 78800-01",
+        "reason": "The manufacturer has recently identified that certain FreeStyle Libre 3 Plus sensors may provide incorrect low glucose readings. If undetected, incorrect low glucose readings over an extended period may lead to wrong treatment decisions for people living with diabetes, such as excessive carbohydrate",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=36249"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2014-10-14",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "FreeStyle Libre Flash Glucose Monitoring System",
+        "reason": "Medical Device Safety Alert: Abbott Diabetes Care FreeStyle Libre Flash Glucose Monitoring System\nThe Medicines and Healthcare Products Regulatory Agency (MHRA), United Kingdom posted a field safety notice (FSN) concerning FreeStyle Libre Flash Glucose Monitoring System, manufactured by Abbott Diabe",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20141014a.html"
+       }
+      ]
+     },
+     {
+      "code": "FR",
+      "name": "France",
+      "total": 1,
+      "actions": [
+       {
+        "date": "1999-12-06",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "ARCHITECT T3 LIBRE",
+        "reason": "Removing reagent called ARCHITECT T3 FREE",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/retrait-de-reactif-denomme-architect-t3-libre"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 1999,
+      "value": 1
+     },
+     {
+      "year": 2014,
+      "value": 3
+     },
+     {
+      "year": 2015,
+      "value": 2
+     },
+     {
+      "year": 2019,
+      "value": 2
+     },
+     {
+      "year": 2020,
+      "value": 1
+     },
+     {
+      "year": 2023,
+      "value": 3
+     },
+     {
+      "year": 2025,
+      "value": 3
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 129,
+     "onMarket": 128,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "class-i": 90,
+      "class-iib": 31,
+      "class-iia": 8
+     },
+     "manufacturers": [
+      "Pimp je Diabetes",
+      "DIABETYK24 SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+      "Abbott Diabetes Care Ltd",
+      "WRP Asia Pacific Sdn. Bhd.",
+      "PRIM, S.A."
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (1999-12-06) predates the first US Class 1 recall (2023-02-13).",
+      "foreign": {
+       "date": "1999-12-06"
+      },
+      "us": {
+       "date": "2023-02-13"
+      }
+     }
+    ],
+    "screenedOut": 2,
+    "screenedNote": "2 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "mhra-fsn": "MHRA UK (Field Safety Notices & safety alerts)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 24500
+}

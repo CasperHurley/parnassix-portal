@@ -20,11 +20,11 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 7205.95
+      "value": 7238.92
      },
      {
       "year": 2014,
-      "value": 602509.6
+      "value": 602523.35
      },
      {
       "year": 2015,
@@ -32,7 +32,7 @@
      },
      {
       "year": 2016,
-      "value": 688416.0
+      "value": 688622.16
      },
      {
       "year": 2017,
@@ -80,8 +80,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 83960.5,
-      "records": 1899
+      "total": 84213.38,
+      "records": 1903
      },
      {
       "nature": "Consulting Fee",
@@ -114,6 +114,21 @@
       "company": "Abbott Laboratories",
       "total": 984.63,
       "records": 10
+     },
+     {
+      "company": "CorMatrix Cardiovascular Inc.",
+      "total": 206.16,
+      "records": 2
+     },
+     {
+      "company": "MAQUET Cardiovascular U.S. Sales, L.L.C.",
+      "total": 32.97,
+      "records": 1
+     },
+     {
+      "company": "Maquet Cardiovascular U.S. Sales, L.L.C.",
+      "total": 13.75,
+      "records": 1
      }
     ],
     "research": {
@@ -180,10 +195,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.",
-      "journal": "Nature",
+      "title": "Multi-modality imaging and operative findings of a post-TAVR ventricular septal defect.",
+      "journal": "Journal of cardiovascular computed tomography",
       "year": 2021,
-      "pmid": "34619745",
+      "pmid": "33583751",
       "tier": "corroborated"
      },
      {
@@ -194,17 +209,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Multi-modality imaging and operative findings of a post-TAVR ventricular septal defect.",
-      "journal": "Journal of cardiovascular computed tomography",
-      "year": 2021,
-      "pmid": "33583751",
-      "tier": "corroborated"
-     },
-     {
       "title": "Evolution of Antibody Immunity to SARS-CoV-2.",
       "journal": "bioRxiv : the preprint server for biology",
       "year": 2021,
       "pmid": "33173867",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.",
+      "journal": "Nature",
+      "year": 2021,
+      "pmid": "34619745",
       "tier": "corroborated"
      }
     ],
@@ -328,7 +343,7 @@
      },
      {
       "year": 2014,
-      "value": 204338.82
+      "value": 204435.54
      },
      {
       "year": 2015,
@@ -384,8 +399,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 41979.04,
-      "records": 641
+      "total": 42075.76,
+      "records": 642
      },
      {
       "nature": "Education",
@@ -415,14 +430,14 @@
       "records": 3
      },
      {
+      "company": "TriVascular, Inc.",
+      "total": 96.72,
+      "records": 1
+     },
+     {
       "company": "Philips Electronics North America Corporation",
       "total": 90.04,
       "records": 2
-     },
-     {
-      "company": "Medtronic Neurovascular",
-      "total": 21.89,
-      "records": 1
      }
     ],
     "research": null,
@@ -451,13 +466,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Sex-Biased T-cell Exhaustion Drives Differential Immune Responses in Glioblastoma.",
-      "journal": "Cancer discovery",
-      "year": 2023,
-      "pmid": "37378557",
-      "tier": "corroborated"
-     },
-     {
       "title": "Transcarotid versus transaxillary access for transcatheter aortic valve replacement with a self-expanding valve: A\u00a0propensity-matched analysis.",
       "journal": "JTCVS techniques",
       "year": 2023,
@@ -465,10 +473,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Distinct Cell Adhesion Signature Defines Glioblastoma Myeloid-Derived Suppressor Cell Subsets.",
-      "journal": "Cancer research",
-      "year": 2022,
-      "pmid": "36126163",
+      "title": "Sex-Biased T-cell Exhaustion Drives Differential Immune Responses in Glioblastoma.",
+      "journal": "Cancer discovery",
+      "year": 2023,
+      "pmid": "37378557",
       "tier": "corroborated"
      },
      {
@@ -476,6 +484,13 @@
       "journal": "Ecology and evolution",
       "year": 2022,
       "pmid": "35261741",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Distinct Cell Adhesion Signature Defines Glioblastoma Myeloid-Derived Suppressor Cell Subsets.",
+      "journal": "Cancer research",
+      "year": 2022,
+      "pmid": "36126163",
       "tier": "corroborated"
      },
      {
@@ -696,35 +711,35 @@
      },
      {
       "year": 2014,
-      "value": 1968.33
+      "value": 2087.9
      },
      {
       "year": 2015,
-      "value": 93351.58
+      "value": 93565.53
      },
      {
       "year": 2016,
-      "value": 95315.46
+      "value": 95792.14
      },
      {
       "year": 2017,
-      "value": 175242.04
+      "value": 175652.2
      },
      {
       "year": 2018,
-      "value": 145234.67
+      "value": 145841.8
      },
      {
       "year": 2019,
-      "value": 229761.0
+      "value": 241906.51
      },
      {
       "year": 2020,
-      "value": 318495.16
+      "value": 324357.66
      },
      {
       "year": 2021,
-      "value": 338184.83
+      "value": 338295.7
      },
      {
       "year": 2022,
@@ -757,18 +772,18 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 48532.13,
-      "records": 948
+      "total": 50520.73,
+      "records": 972
      },
      {
-      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
-      "total": 1250.0,
-      "records": 2
+      "nature": "Education",
+      "total": 12055.97,
+      "records": 3
      },
      {
-      "nature": "Grant",
-      "total": 839.0,
-      "records": 2
+      "nature": "Honoraria",
+      "total": 5862.5,
+      "records": 1
      }
     ],
     "byCompany": [
@@ -788,9 +803,19 @@
       "records": 254
      },
      {
-      "company": "ABIOMED",
-      "total": 45.45,
-      "records": 1
+      "company": "BARD PERIPHERAL VASCULAR, INC.",
+      "total": 12145.51,
+      "records": 3
+     },
+     {
+      "company": "Bard Peripheral Vascular, Inc.",
+      "total": 7509.02,
+      "records": 19
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 224.79,
+      "records": 3
      }
     ],
     "research": null,
@@ -833,6 +858,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Transcatheter Aortic-Valve Replacement for Asymptomatic Severe Aortic Stenosis.",
+      "journal": "The New England journal of medicine",
+      "year": 2025,
+      "pmid": "39466903",
+      "tier": "corroborated"
+     },
+     {
       "title": "Dedicated Tools for BASILICA: The Next Chapter in the Tale of Leaflet Modification.",
       "journal": "JACC. Cardiovascular interventions",
       "year": 2025,
@@ -847,17 +879,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "5-Year Outcomes After Transcatheter or Surgical Aortic Valve Replacement in Low-Risk\u00a0Patients With Aortic Stenosis.",
-      "journal": "Journal of the American College of Cardiology",
+      "title": "Readmission Mortality After TAVR: The Combined Effect of Teaching Hospital Status and Cause of Readmission.",
+      "journal": "CJC open",
       "year": 2025,
-      "pmid": "40158212",
+      "pmid": "40433130",
       "tier": "corroborated"
      },
      {
-      "title": "A Real-World Comparison of Left Atrial Appendage Occlusion Using Two Commercially Available Devices.",
-      "journal": "The American journal of cardiology",
+      "title": "Prevention of Bilateral Coronary Obstruction During Valve-In-Valve TAVR With a Self-Expanding Valve: The BABICORN Procedure.",
+      "journal": "JACC. Case reports",
       "year": 2025,
-      "pmid": "40716592",
+      "pmid": "40589296",
       "tier": "corroborated"
      },
      {
@@ -868,17 +900,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Global Results From the Optimize PRO Study: Standardized TAVR Technique and Care Pathway.",
-      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
+      "title": "5-Year Outcomes After Transcatheter or Surgical Aortic Valve Replacement in Low-Risk\u00a0Patients With Aortic Stenosis.",
+      "journal": "Journal of the American College of Cardiology",
       "year": 2025,
-      "pmid": "40454273",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Prevention of Bilateral Coronary Obstruction During Valve-In-Valve TAVR With a Self-Expanding Valve: The BABICORN Procedure.",
-      "journal": "JACC. Case reports",
-      "year": 2025,
-      "pmid": "40589296",
+      "pmid": "40158212",
       "tier": "corroborated"
      }
     ],
@@ -965,16 +990,6 @@
      },
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Hemal Gada, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT05075590",
-      "place": "UPMC Harrisburg \u2014 Harrisburg, Pennsylvania",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Coronary Access After Supra-Annular THV Implantation"
-     },
-     {
-      "kind": "site-investigator",
       "nameAsWritten": "Hemal Gada",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06777368",
@@ -982,6 +997,16 @@
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Hemal Gada, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05075590",
+      "place": "UPMC Harrisburg \u2014 Harrisburg, Pennsylvania",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Coronary Access After Supra-Annular THV Implantation"
      },
      {
       "kind": "site-investigator",
@@ -1109,7 +1134,7 @@
      },
      {
       "year": 2019,
-      "value": 273721.74
+      "value": 273748.4
      },
      {
       "year": 2020,
@@ -1150,8 +1175,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 38242.03,
-      "records": 921
+      "total": 38268.69,
+      "records": 923
      },
      {
       "nature": "Long term medical supply or device loan",
@@ -1179,6 +1204,11 @@
       "company": "ABIOMED",
       "total": 2227.91,
       "records": 8
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 26.66,
+      "records": 2
      }
     ],
     "research": {
@@ -1203,13 +1233,6 @@
     },
     "articles": [
      {
-      "title": "Relationship of Hemodynamic Improvement and Quality of Life Outcomes After Transcatheter Aortic Valve Replacement.",
-      "journal": "Catheterization and cardiovascular interventions : official ",
-      "year": 2026,
-      "pmid": "41178632",
-      "tier": "corroborated"
-     },
-     {
       "title": "Progression of bicuspid-related aortopathy in patients undergoing Transcatheter Aortic Valve Implantation: rationale and design of the international, multicente",
       "journal": "American heart journal",
       "year": 2026,
@@ -1217,10 +1240,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Transcatheter treatment of tricuspid regurgitation: A state-of-the-art review.",
-      "journal": "Cardiovascular revascularization medicine : including molecu",
+      "title": "Relationship of Hemodynamic Improvement and Quality of Life Outcomes After Transcatheter Aortic Valve Replacement.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2026,
-      "pmid": "40617745",
+      "pmid": "41178632",
       "tier": "corroborated"
      },
      {
@@ -1231,6 +1254,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Transcatheter treatment of tricuspid regurgitation: A state-of-the-art review.",
+      "journal": "Cardiovascular revascularization medicine : including molecu",
+      "year": 2026,
+      "pmid": "40617745",
+      "tier": "corroborated"
+     },
+     {
       "title": "Physician-modified low-profile Endo-Bentall device for treating complex aortic diseases involving the aortic root.",
       "journal": "Journal of vascular surgery cases and innovative techniques",
       "year": 2026,
@@ -1238,31 +1268,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Coronary Cannulation Following Transcatheter Aortic Valve Replacement With Self-Expanding Evolut FX+ System: The CANNULATE TAVR II Study.",
-      "journal": "Structural heart : the journal of the Heart Team",
+      "title": "Assessment of coronary cannulation after TAVI with the Evolut FX valve: the CANNULATE TAVR EXPANDED study.",
+      "journal": "EuroIntervention : journal of EuroPCR in collaboration with ",
       "year": 2025,
-      "pmid": "40894371",
+      "pmid": "41243772",
       "tier": "corroborated"
      },
      {
-      "title": "Peri-Procedural Continuation Versus Interruption of Anticoagulation for Transcatheter Aortic Valve Implantation: A Systematic Review and Meta-Analysis.",
-      "journal": "Journal of clinical medicine",
+      "title": "What Is the Role for TAVI in Failing Surgical Aortic Valves? A Review on Valve-in-Valve Interventions.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2025,
-      "pmid": "40429558",
+      "pmid": "40537958",
       "tier": "corroborated"
      },
      {
-      "title": "EXPRESS-LAAO protocol with the new WATCHMAN FLX Pro device.",
-      "journal": "The Journal of invasive cardiology",
+      "title": "Timing and Mechanism of\u00a0Intraprocedural Conduction Disturbances in Transcatheter Aortic Valve Replacement With Evolut Platform.",
+      "journal": "JACC. Cardiovascular interventions",
       "year": 2025,
-      "pmid": "40532225",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Mitral Transcatheter Edge-to-Edge Repair in Acute Ischemic Mitral Regurgitation: Current Evidence and Future Perspectives.",
-      "journal": "Reviews in cardiovascular medicine",
-      "year": 2025,
-      "pmid": "40351671",
+      "pmid": "40047751",
       "tier": "corroborated"
      },
      {
@@ -1270,6 +1293,13 @@
       "journal": "Circulation. Cardiovascular interventions",
       "year": 2025,
       "pmid": "40452601",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Modified transcatheter aortic valve replacement: the pros and cons of removing the guidewire immediately after valve deployment.",
+      "journal": "The Journal of invasive cardiology",
+      "year": 2025,
+      "pmid": "39832272",
       "tier": "corroborated"
      }
     ],
@@ -1464,15 +1494,15 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 1834.81
+      "value": 1857.41
      },
      {
       "year": 2014,
-      "value": 11919.33
+      "value": 11941.93
      },
      {
       "year": 2015,
-      "value": 17886.85
+      "value": 17903.75
      },
      {
       "year": 2016,
@@ -1484,15 +1514,15 @@
      },
      {
       "year": 2018,
-      "value": 316411.33
+      "value": 316505.31
      },
      {
       "year": 2019,
-      "value": 77814.89
+      "value": 77932.53
      },
      {
       "year": 2020,
-      "value": 62642.19
+      "value": 62737.51
      },
      {
       "year": 2021,
@@ -1524,8 +1554,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 47255.51,
-      "records": 687
+      "total": 47624.55,
+      "records": 694
      },
      {
       "nature": "Consulting Fee",
@@ -1568,6 +1598,11 @@
       "company": "Thoratec Corporation",
       "total": 656.1,
       "records": 2
+     },
+     {
+      "company": "Maquet Cardiovascular U.S. Sales, L.L.C.",
+      "total": 212.96,
+      "records": 3
      }
     ],
     "research": null,
@@ -1589,59 +1624,10 @@
     },
     "articles": [
      {
-      "title": "Variation as a Symptom: What Hospital-Level TAVR Utilization Reveals About Lifetime Valve Planning.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2026,
-      "pmid": "42214585",
-      "tier": "corroborated"
-     },
-     {
-      "title": "The Legacy of the First Valve: Outcomes of Redo Surgical Aortic Valve Replacement After Prior Transcatheter Versus Prior Surgical Aortic Valve Replacement-A Nar",
-      "journal": "Journal of clinical medicine",
-      "year": 2026,
-      "pmid": "42194605",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Right Anterior Thoracotomy Versus Partial Sternotomy for Isolated Aortic Valve Replacement: A Propensity Analysis of Clinical Outcomes and Hospital Costs.",
-      "journal": "Medicina (Kaunas, Lithuania)",
-      "year": 2026,
-      "pmid": "42195111",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Transcatheter or Surgical Strategy for Aortic Stenosis and Coronary Artery Disease: A Kaplan-Meier-Derived Meta-Analysis.",
-      "journal": "The American journal of cardiology",
-      "year": 2026,
-      "pmid": "41407063",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Isolated Transcatheter and Surgical Aortic Valve Replacement in the Evolut Low-Risk Trial: 5-Year Comparative Outcomes.",
-      "journal": "The Annals of thoracic surgery",
-      "year": 2026,
-      "pmid": "41997523",
-      "tier": "corroborated"
-     },
-     {
       "title": "Streamlining the workflow: evaluation of ECG-gated computed tomography as a comprehensive imaging modality prior to intervention for mitral valve regurgitation.",
       "journal": "Journal of cardiothoracic surgery",
       "year": 2026,
       "pmid": "42135824",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Endo-Aortic Balloon Occlusion Versus Transthoracic Clamping in Minimally Invasive Mitral Valve Surgery: Harmonizing the Evidence.",
-      "journal": "European journal of cardio-thoracic surgery : official journ",
-      "year": 2026,
-      "pmid": "41410515",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Clinical outcomes of Redo-TAVR versus surgical explantation after failed TAVR.",
-      "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologik",
-      "year": 2026,
-      "pmid": "41771490",
       "tier": "corroborated"
      },
      {
@@ -1652,10 +1638,59 @@
       "tier": "corroborated"
      },
      {
+      "title": "The Legacy of the First Valve: Outcomes of Redo Surgical Aortic Valve Replacement After Prior Transcatheter Versus Prior Surgical Aortic Valve Replacement-A Nar",
+      "journal": "Journal of clinical medicine",
+      "year": 2026,
+      "pmid": "42194605",
+      "tier": "corroborated"
+     },
+     {
       "title": "Impact of TAVR Failure Mechanism on Outcomes After Reintervention: From the EXPLANTORREDO-TAVR Registry.",
       "journal": "Circulation. Cardiovascular interventions",
       "year": 2026,
       "pmid": "41983299",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Transcatheter or Surgical Strategy for Aortic Stenosis and Coronary Artery Disease: A Kaplan-Meier-Derived Meta-Analysis.",
+      "journal": "The American journal of cardiology",
+      "year": 2026,
+      "pmid": "41407063",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical outcomes of Redo-TAVR versus surgical explantation after failed TAVR.",
+      "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologik",
+      "year": 2026,
+      "pmid": "41771490",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Endo-Aortic Balloon Occlusion Versus Transthoracic Clamping in Minimally Invasive Mitral Valve Surgery: Harmonizing the Evidence.",
+      "journal": "European journal of cardio-thoracic surgery : official journ",
+      "year": 2026,
+      "pmid": "41410515",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Transcatheter repair for functional mitral regurgitation in heart failure: a time-to-event meta-analysis of randomized trials.",
+      "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologik",
+      "year": 2026,
+      "pmid": "40484281",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Isolated Transcatheter and Surgical Aortic Valve Replacement in the Evolut Low-Risk Trial: 5-Year Comparative Outcomes.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "41997523",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Variation as a Symptom: What Hospital-Level TAVR Utilization Reveals About Lifetime Valve Planning.",
+      "journal": "The Annals of thoracic surgery",
+      "year": 2026,
+      "pmid": "42214585",
       "tier": "corroborated"
      }
     ],
@@ -1734,6 +1769,16 @@
       "kind": "site-investigator",
       "nameAsWritten": "Basel Ramlawi, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06777368",
+      "place": "Lankenau Medical Center \u2014 Wynnewood, Pennsylvania",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Basel Ramlawi, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06608823",
       "place": "Lankenau Institute for Medical Research \u2014 Philadelphia, Pennsylvania",
       "tier": "name-only",
@@ -1744,31 +1789,11 @@
       "kind": "site-investigator",
       "nameAsWritten": "Basel Ramlawi, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06777368",
-      "place": "Lankenau Medical Center \u2014 Wynnewood, Pennsylvania",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Basel Ramlawi, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT03242642",
       "place": "Lankenau Medical Center \u2014 Wynnewood, Pennsylvania",
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "Transcatheter Mitral Valve Replacement With the Medtronic Intrepid\u2122 TMVR System in Patients With Severe Sympto"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "Basel Ramlawi",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06777368",
-      "place": "Lankenau Heart Institute",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
      },
      {
       "kind": "overall-official",
@@ -1789,6 +1814,16 @@
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "Medtronic Transcatheter Aortic Valve Replacement (TAVR) Low Risk Bicuspid Study"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Basel Ramlawi",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06777368",
+      "place": "Lankenau Heart Institute",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
      }
     ],
     "source": {
@@ -1912,7 +1947,7 @@
      },
      {
       "year": 2016,
-      "value": 7225.77
+      "value": 8049.15
      },
      {
       "year": 2017,
@@ -1928,7 +1963,7 @@
      },
      {
       "year": 2020,
-      "value": 121261.38
+      "value": 121271.61
      },
      {
       "year": 2021,
@@ -1944,7 +1979,7 @@
      },
      {
       "year": 2024,
-      "value": 292876.65
+      "value": 304419.55
      }
     ],
     "byNature": [
@@ -1955,18 +1990,18 @@
      },
      {
       "nature": "Travel and Lodging",
-      "total": 254972.82,
-      "records": 567
+      "total": 255915.49,
+      "records": 572
      },
      {
       "nature": "Consulting Fee",
-      "total": 70562.5,
-      "records": 9
+      "total": 80712.5,
+      "records": 10
      },
      {
       "nature": "Food and Beverage",
-      "total": 26424.15,
-      "records": 488
+      "total": 27707.99,
+      "records": 505
      },
      {
       "nature": "Education",
@@ -1991,14 +2026,19 @@
       "records": 169
      },
      {
+      "company": "Bard Peripheral Vascular, Inc.",
+      "total": 11956.09,
+      "records": 14
+     },
+     {
       "company": "ABIOMED",
       "total": 595.39,
       "records": 11
      },
      {
-      "company": "Philips North America LLC",
-      "total": 35.82,
-      "records": 1
+      "company": "Cardiovascular Systems Inc.",
+      "total": 420.42,
+      "records": 9
      }
     ],
     "research": null,
@@ -2038,17 +2078,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Factors Affecting Image Resolution in a Modern Angiographic Suite: A Phantom-Based Study.",
-      "journal": "Cardiovascular revascularization medicine : including molecu",
-      "year": 2022,
-      "pmid": "35710896",
-      "tier": "corroborated"
-     },
-     {
       "title": "Evaluation of the incidence of radial artery occlusion using different introducer sheaths and hemostasis techniques.",
       "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2022,
       "pmid": "35842777",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Factors Affecting Image Resolution in a Modern Angiographic Suite: A Phantom-Based Study.",
+      "journal": "Cardiovascular revascularization medicine : including molecu",
+      "year": 2022,
+      "pmid": "35710896",
       "tier": "corroborated"
      },
      {
@@ -2066,24 +2106,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Remarkable preclinical activity of trastuzumab-deruxtecan (T-DXd) in FISH-negative, HER2 IHC 1+ and 2+ expressing primary endometrial cancer cell lines and xeno",
-      "journal": "Gynecologic oncology",
+      "title": "Gender differences in propofol requirements during total intravenous anesthesia administered by closed-loop anesthesia delivery system: an observational study.",
+      "journal": "Minerva anestesiologica",
       "year": 2026,
-      "pmid": "41690203",
+      "pmid": "41294312",
       "tier": "name-only"
      },
      {
-      "title": "Interpretable EEG cognitive state assessment using fuzzy modeling and case-based neurophysiological evidence.",
-      "journal": "Applied neuropsychology. Adult",
+      "title": "Neonatal outcomes of pregnancy in women with congenital heart disease.",
+      "journal": "American heart journal",
       "year": 2026,
-      "pmid": "42227648",
+      "pmid": "40835062",
       "tier": "name-only"
      },
      {
-      "title": "Identifying High-Risk Combat Sport Athletes: Position Statement of the Association of Ringside Physicians.",
-      "journal": "Clinical journal of sport medicine : official journal of the",
+      "title": "A Qualitive Investigation of Geographic Disparities in Genetic Testing and Care Access for Amyotrophic Lateral Sclerosis: Insights From Patient Journey Mapping.",
+      "journal": "Patient preference and adherence",
       "year": 2026,
-      "pmid": "41413937",
+      "pmid": "41868729",
       "tier": "name-only"
      }
     ],
@@ -2135,8 +2175,8 @@
       "beneficiaries": 197
      },
      {
-      "code": "93312",
-      "description": "Ultrasound of heart with probe in esophagus, with report",
+      "code": "93325",
+      "description": "Ultrasound of heart with color-depicted blood flow, rate and valve function",
       "services": 141,
       "beneficiaries": 125
      },
@@ -2248,11 +2288,11 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 535.01
+      "value": 552.94
      },
      {
       "year": 2014,
-      "value": 118623.81
+      "value": 118659.47
      },
      {
       "year": 2015,
@@ -2260,7 +2300,7 @@
      },
      {
       "year": 2016,
-      "value": 231548.61
+      "value": 232078.56
      },
      {
       "year": 2017,
@@ -2268,7 +2308,7 @@
      },
      {
       "year": 2018,
-      "value": 241106.49
+      "value": 241115.67
      },
      {
       "year": 2019,
@@ -2303,13 +2343,13 @@
      },
      {
       "nature": "Travel and Lodging",
-      "total": 365239.24,
-      "records": 602
+      "total": 365409.22,
+      "records": 603
      },
      {
       "nature": "Food and Beverage",
-      "total": 69322.0,
-      "records": 1338
+      "total": 69744.74,
+      "records": 1347
      },
      {
       "nature": "Consulting Fee",
@@ -2349,6 +2389,11 @@
       "records": 32
      },
      {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 560.3,
+      "records": 9
+     },
+     {
       "company": "HeartWare, Inc.",
       "total": 64.0,
       "records": 1
@@ -2373,17 +2418,17 @@
     },
     "articles": [
      {
-      "title": "Transcatheter Aortic Valve Replacement for Severe Native Aortic Valve Regurgitation: A Multicenter and International Registry.",
-      "journal": "Structural heart : the journal of the Heart Team",
-      "year": 2026,
-      "pmid": "41766953",
-      "tier": "corroborated"
-     },
-     {
       "title": "Incidence, Clinical Implications, and Predictors of Paravalvular Leak Following Transcatheter Tricuspid Valve Replacement: The TRIPLACE Registry.",
       "journal": "JACC. Cardiovascular interventions",
       "year": 2026,
       "pmid": "41881643",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Transcatheter Aortic Valve Replacement for Severe Native Aortic Valve Regurgitation: A Multicenter and International Registry.",
+      "journal": "Structural heart : the journal of the Heart Team",
+      "year": 2026,
+      "pmid": "41766953",
       "tier": "corroborated"
      },
      {
@@ -2401,10 +2446,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Pregnancy Complicated by Severe Bioprosthetic Mitral Valve Stenosis Treated by Valve-in-Valve Transcatheter Mitral Valve Replacement.",
-      "journal": "JACC. Case reports",
+      "title": "Incidence, Predictors, and Management of Conduction Disturbances After Transcatheter Tricuspid Valve Replacement: The TRIPLACE Registry.",
+      "journal": "JACC. Cardiovascular interventions",
       "year": 2025,
-      "pmid": "40118624",
+      "pmid": "40637674",
       "tier": "corroborated"
      },
      {
@@ -2415,17 +2460,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Incidence, Predictors, and Management of Conduction Disturbances After Transcatheter Tricuspid Valve Replacement: The TRIPLACE Registry.",
-      "journal": "JACC. Cardiovascular interventions",
-      "year": 2025,
-      "pmid": "40637674",
-      "tier": "corroborated"
-     },
-     {
       "title": "Tricuspid Transcatheter Edge-to-Edge Repair in Patients With Transvalvular CIED Leads: The TRILUMINATE Pivotal Trial.",
       "journal": "JACC. Clinical electrophysiology",
       "year": 2025,
       "pmid": "39903153",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pregnancy Complicated by Severe Bioprosthetic Mitral Valve Stenosis Treated by Valve-in-Valve Transcatheter Mitral Valve Replacement.",
+      "journal": "JACC. Case reports",
+      "year": 2025,
+      "pmid": "40118624",
       "tier": "corroborated"
      },
      {
@@ -2516,13 +2561,13 @@
     "roles": [
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Timothy Byrne, DO",
+      "nameAsWritten": "Timothy Byrne, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT04736667",
-      "place": "Phoenix Cardiovascular Research Group \u2014 Phoenix, Arizona",
+      "nctId": "NCT06777368",
+      "place": "Abrazo Arizona Heart Hospital \u2014 Phoenix, Arizona",
       "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "Mitral Valve Screening Survey"
+      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
      },
      {
       "kind": "site-investigator",
@@ -2536,13 +2581,23 @@
      },
      {
       "kind": "site-investigator",
+      "nameAsWritten": "Timothy Byrne, DO",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04736667",
+      "place": "Phoenix Cardiovascular Research Group \u2014 Phoenix, Arizona",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Mitral Valve Screening Survey"
+     },
+     {
+      "kind": "site-investigator",
       "nameAsWritten": "Timothy Byrne, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06777368",
+      "nctId": "NCT04433065",
       "place": "Abrazo Arizona Heart Hospital \u2014 Phoenix, Arizona",
       "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
+      "trialTitle": "TTVR Early Feasibility Study"
      },
      {
       "kind": "site-investigator",
@@ -2563,16 +2618,6 @@
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "Transcatheter Mitral Valve Replacement With the Medtronic Intrepid\u2122 TMVR System in Patients With Severe Sympto"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Timothy Byrne, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT04433065",
-      "place": "Abrazo Arizona Heart Hospital \u2014 Phoenix, Arizona",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "TTVR Early Feasibility Study"
      }
     ],
     "source": {
@@ -2822,24 +2867,38 @@
       "tier": "corroborated"
      },
      {
-      "title": "Buckling Under Pressure: Evolut FX Delivery System Malfunction and\u00a0Failure\u00a0to\u00a0Recapture\u00a0During TAVR.",
+      "title": "Impact of Central vs. Noncentral Predominant Jet Location on Clinical Outcomes: Results From the EXPANDed Studies.",
+      "journal": "Structural heart : the journal of the Heart Team",
+      "year": 2025,
+      "pmid": "41321778",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Percutaneous transcatheter valve replacement in individuals with mitral regurgitation unsuitable for surgery or transcatheter edge-to-edge repair: a prospective",
+      "journal": "Lancet (London, England)",
+      "year": 2025,
+      "pmid": "41167201",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The Innovative Use of Concurrent Transcaval Access and the BASILICA Procedure to Facilitate Transcatheter Aortic Valve Replacement (TAVR).",
+      "journal": "CJC open",
+      "year": 2025,
+      "pmid": "39872653",
+      "tier": "corroborated"
+     },
+     {
+      "title": "First-in-Human BASILICA Before Valve-in-Valve TAVR in a Mechanically Expanded, Legacy Valve.",
       "journal": "JACC. Case reports",
       "year": 2025,
-      "pmid": "40250941",
+      "pmid": "40589295",
       "tier": "corroborated"
      },
      {
-      "title": "Corrigendum to 'SCAI Expert Consensus Statement on Alternative Access for Transcatheter Aortic Valve Replacement' [Journal of the Society for Cardiovascular Ang",
+      "title": "Global Results From the Optimize PRO Study: Standardized TAVR Technique and Care Pathway.",
       "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
       "year": 2025,
-      "pmid": "40894334",
-      "tier": "corroborated"
-     },
-     {
-      "title": "30-Day and 1-Year Outcomes From the Optimize PRO TAVR Evolut FX Addendum Study.",
-      "journal": "JACC. Cardiovascular interventions",
-      "year": 2025,
-      "pmid": "40587205",
+      "pmid": "40454273",
       "tier": "corroborated"
      },
      {
@@ -2847,20 +2906,6 @@
       "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
       "year": 2025,
       "pmid": "40231056",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Transcatheter Edge-to-Edge Repair in Secondary Mitral Regurgitation With Extended Non-COAPT-Like Features: From the EXPANDed Studies.",
-      "journal": "JACC. Heart failure",
-      "year": 2025,
-      "pmid": "40713981",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Impact of Central vs. Noncentral Predominant Jet Location on Clinical Outcomes: Results From the EXPANDed Studies.",
-      "journal": "Structural heart : the journal of the Heart Team",
-      "year": 2025,
-      "pmid": "41321778",
       "tier": "corroborated"
      }
     ],
@@ -2979,20 +3024,6 @@
      },
      {
       "source": "ptab",
-      "ref": "IPR2019-00500",
-      "case": "Declaration of Paul Mahoney in Support of Patent Owner's Response",
-      "date": "2019-10-23",
-      "snippet": "Declaration of Paul Mahoney in Support of Patent Owner's Response",
-      "matchedForm": "PAUL MAHONEY",
-      "signals": [
-       "declaration-title"
-      ],
-      "court": null,
-      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2019/00500/169874826.pdf",
-      "docId": "169874826"
-     },
-     {
-      "source": "ptab",
       "ref": "IPR2019-00497",
       "case": "Declaration of Paul Mahoney",
       "date": "2019-10-23",
@@ -3004,6 +3035,20 @@
       "court": null,
       "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2019/00497/169874890.pdf",
       "docId": "169874890"
+     },
+     {
+      "source": "ptab",
+      "ref": "IPR2019-00500",
+      "case": "Declaration of Paul Mahoney in Support of Patent Owner's Response",
+      "date": "2019-10-23",
+      "snippet": "Declaration of Paul Mahoney in Support of Patent Owner's Response",
+      "matchedForm": "PAUL MAHONEY",
+      "signals": [
+       "declaration-title"
+      ],
+      "court": null,
+      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2019/00500/169874826.pdf",
+      "docId": "169874826"
      }
     ],
     "source": {
@@ -3081,7 +3126,7 @@
      },
      {
       "year": 2014,
-      "value": 2355.25
+      "value": 2487.73
      },
      {
       "year": 2015,
@@ -3089,7 +3134,7 @@
      },
      {
       "year": 2016,
-      "value": 210403.09
+      "value": 210478.52
      },
      {
       "year": 2017,
@@ -3142,8 +3187,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 59649.33,
-      "records": 945
+      "total": 59857.24,
+      "records": 950
      },
      {
       "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
@@ -3181,6 +3226,11 @@
       "company": "Thoratec Corporation",
       "total": 252.23,
       "records": 2
+     },
+     {
+      "company": "Terumo Cardiovascular Systems Corporation",
+      "total": 207.91,
+      "records": 5
      }
     ],
     "research": null,
@@ -3202,24 +3252,24 @@
     },
     "articles": [
      {
-      "title": "Paravalvular Regurgitation After Transcatheter Aortic Valve Replacement: Incidence, Mechanism, and Interventional Management.",
+      "title": "The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": 2026,
+      "pmid": "42092503",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Hypothesis of the Causal Mechanisms Between Gut Microbiota and Neurodegenerative Diseases: An Elucidation from Evolutionary Perspective and Metabolic Considerat",
+      "journal": "Metabolites",
+      "year": 2026,
+      "pmid": "42188046",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Double Inflation (\"Double Tap\") on Valve Expansion and Short-Term Outcomes After the Latest-Generation Balloon-Expandable TAVR.",
       "journal": "JACC. Cardiovascular interventions",
       "year": 2026,
-      "pmid": "41741061",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Transcatheter Aortic Valve Explants: Calcification Patterns and Leaflet Thickening to Inform Repeat Interventions.",
-      "journal": "The Canadian journal of cardiology",
-      "year": 2026,
-      "pmid": "41887366",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Tricuspid Valve Academic Research Consortium-2 (TVARC-2): Trial Design and Endpoints",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2026,
-      "pmid": "42017555",
+      "pmid": "41741067",
       "tier": "corroborated"
      },
      {
@@ -3230,17 +3280,38 @@
       "tier": "corroborated"
      },
      {
-      "title": "TAVI and coronary interventions: indications, technical considerations, and clinical scenarios.",
-      "journal": "EuroIntervention : journal of EuroPCR in collaboration with ",
+      "title": "Right Heart Strain Changes After Transcatheter Tricuspid Valve Replacement: A Cardiac CT Analysis.",
+      "journal": "JACC. Cardiovascular interventions",
       "year": 2026,
-      "pmid": "42219978",
+      "pmid": "41837918",
       "tier": "corroborated"
      },
      {
-      "title": "Late degeneration of a transcatheter aortic valve replacement presenting with flail leaflet.",
-      "journal": "The Journal of invasive cardiology",
+      "title": "Left ventricular remodeling after redo transcatheter aortic valve replacement: A first-in-human computed tomography analysis.",
+      "journal": "Journal of cardiovascular computed tomography",
       "year": 2026,
-      "pmid": "41824913",
+      "pmid": "42135182",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Fibrotic Tissue Ingrowth of Transcatheter Heart Valve Frames.",
+      "journal": "JACC. Cardiovascular interventions",
+      "year": 2026,
+      "pmid": "41741065",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early U.S. Real-World Experience With a Novel Intra-Annular Self-Expanding Valve for Transcatheter Aortic Valve Replacement.",
+      "journal": "JACC. Cardiovascular interventions",
+      "year": 2026,
+      "pmid": "41518360",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Correcting CT-derived aortic valve area for LVOT ellipticity: A novel approach.",
+      "journal": "International journal of cardiology",
+      "year": 2026,
+      "pmid": "41468923",
       "tier": "corroborated"
      },
      {
@@ -3248,27 +3319,6 @@
       "journal": "JACC. Case reports",
       "year": 2026,
       "pmid": "41537733",
-      "tier": "corroborated"
-     },
-     {
-      "title": "The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation.",
-      "journal": "The Journal of thoracic and cardiovascular surgery",
-      "year": 2026,
-      "pmid": "42092503",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Transcatheter edge-to-edge repair in symptomatic patients with severe tricuspid regurgitation and prior heart valve surgery.",
-      "journal": "JTCVS open",
-      "year": 2026,
-      "pmid": "42079940",
-      "tier": "corroborated"
-     },
-     {
-      "title": "UNICORN for Valve-in-Valve Transcatheter Aortic Valve Replacement: UNICORN Hong Kong Registry.",
-      "journal": "JACC. Asia",
-      "year": 2026,
-      "pmid": "41251649",
       "tier": "corroborated"
      }
     ],
@@ -3542,6 +3592,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Feasibility of Coronary Access and Aortic\u00a0Valve Reintervention in Low-Risk TAVR Patients.",
+      "journal": "JACC. Cardiovascular interventions",
+      "year": 2020,
+      "pmid": "32192693",
+      "tier": "corroborated"
+     },
+     {
       "title": "Coronary Artery Disease Assessed by Computed Tomography-Based Leaman Score in Patients With Low-Risk Transcatheter Aortic Valve Implantation.",
       "journal": "The American journal of cardiology",
       "year": 2020,
@@ -3553,13 +3610,6 @@
       "journal": "Cardiovascular revascularization medicine : including molecu",
       "year": 2020,
       "pmid": "32387217",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Feasibility of Coronary Access and Aortic\u00a0Valve Reintervention in Low-Risk TAVR Patients.",
-      "journal": "JACC. Cardiovascular interventions",
-      "year": 2020,
-      "pmid": "32192693",
       "tier": "corroborated"
      },
      {
@@ -3584,17 +3634,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Apremilast, an oral phosphodiesterase-4 inhibitor, in the treatment of palmoplantar psoriasis: Results of a pooled analysis from phase II PSOR-005 and phase III",
-      "journal": "Journal of the American Academy of Dermatology",
-      "year": 2016,
-      "pmid": "27021239",
-      "tier": "corroborated"
-     },
-     {
       "title": "Apremilast, an oral phosphodiesterase 4 inhibitor, in patients with difficult-to-treat nail and scalp psoriasis: Results of 2 phase III randomized, controlled t",
       "journal": "Journal of the American Academy of Dermatology",
       "year": 2016,
       "pmid": "26549249",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Apremilast, an oral phosphodiesterase-4 inhibitor, in the treatment of palmoplantar psoriasis: Results of a pooled analysis from phase II PSOR-005 and phase III",
+      "journal": "Journal of the American Academy of Dermatology",
+      "year": 2016,
+      "pmid": "27021239",
       "tier": "corroborated"
      }
     ],
@@ -3677,25 +3727,9 @@
    },
    "litigation": {
     "counts": {
-     "courtlistener:corroborated": 1,
-     "courtlistener:name-only": 3
+     "courtlistener:name-only": 4
     },
-    "cites": [
-     {
-      "source": "courtlistener",
-      "ref": "10278089",
-      "case": "CAPPEL v. COUNTY OF ESSEX",
-      "date": "2023-12-21",
-      "snippet": "Defendants. : NEALS, District Judge: This matter comes before the Court on Defendants Essex County, New Jersey (\u201cEssex County\u201d), Armando B. Fontoura (\u201cFontoura\u201d), James Spango (\u201cSpango\u201d), and John Goncalves\u2019 (\u201cGoncalves\u201d) (collectively, the \u201cDefendants\u201d) motion to dismiss Plaintiff Anthony Cappel\u2019s (\u201cPlaintiff\u201d) complaint (ECF No. 1) (the \u201cComplaint\u201d) pursuant to Federal Rule of Civil Procedure 12(b)(6) (ECF No. 15) (the \u201cMotion\u201d). Plaintiff opposed, and Defendants replied. (ECF Nos. 17, 21). Jurisdiction",
-      "matchedForm": "JOHN GONCALVES",
-      "signals": [
-       "geo"
-      ],
-      "court": "njd",
-      "url": "https://www.courtlistener.com/opinion/9811477/cappel-v-county-of-essex/",
-      "docId": null
-     }
-    ],
+    "cites": [],
     "source": {
      "dataset": "CourtListener federal opinions (plain-text subset) + USPTO PTAB filings",
      "match": "full name; corroborated only when a physician-specific signal sits with the name (Dr./M.D. attached to it, device-topic keywords, or the physician's state nearby) \u2014 generic clinical words alone don't qualify",

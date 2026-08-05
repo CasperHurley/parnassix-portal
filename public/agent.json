@@ -1,0 +1,434 @@
+{
+ "name": "Aneural \u2014 Device Litigation Intelligence Portal",
+ "generatedAt": "2026-08-01",
+ "baseUrl": "https://aneural-portal.pages.dev",
+ "description": "Verified litigation intelligence for the top revenue-ranked medical devices: adverse-event exhibits, paid-expert overlap, 510(k) predicate family trees, demand mapping, sponsor trial AEs, and global regulatory footprint \u2014 every figure cited to a named dataset. Pre-computed, human-verified JSON; agents should present it with its caveats, never recompose or extrapolate it.",
+ "caveats": [
+  "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+  "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+  "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+  "Matched by author/party NAME (registry identity cannot be linked across these datasets); each item is graded 'corroborated' (an independent signal beyond the name matched) or 'name-only' (could be a different person with the same name). Nothing is silently excluded.",
+  "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov"
+ ],
+ "deepLinks": {
+  "device": "/?d=<slug>",
+  "module": "/?d=<slug>#mod-<moduleId>"
+ },
+ "data": {
+  "catalog": "/data/catalog.json",
+  "pricing": "/data/pricing.json",
+  "device": "/data/devices/<slug>.json",
+  "expertProfiles": "/data/devices/<slug>-experts.json"
+ },
+ "modules": [
+  {
+   "id": "narratives",
+   "anchor": "mod-narratives",
+   "label": "MAUDE adverse-event exhibit (untangled narratives)",
+   "price": 2500,
+   "class": "II"
+  },
+  {
+   "id": "trial-aes",
+   "anchor": "mod-trial-aes",
+   "label": "Sponsor trial adverse-event exhibit (registry)",
+   "price": 2500,
+   "class": "II"
+  },
+  {
+   "id": "global-actions",
+   "anchor": "mod-global-actions",
+   "label": "Global regulatory footprint (7 jurisdictions)",
+   "price": 2500,
+   "class": "II"
+  },
+  {
+   "id": "predicate-tree",
+   "anchor": "mod-predicate-tree",
+   "label": "510(k) predicate family tree",
+   "price": 12000,
+   "class": "IV"
+  },
+  {
+   "id": "experts",
+   "anchor": "mod-experts",
+   "label": "Paid-KOL overlap, ranked (device-anchored)",
+   "price": 2500,
+   "class": "II"
+  },
+  {
+   "id": "icp-map",
+   "anchor": "mod-icp-map",
+   "label": "Demand Map \u2014 targeting intelligence",
+   "price": 2500,
+   "class": "sub",
+   "cadence": "monthly"
+  },
+  {
+   "id": "corporate",
+   "anchor": "mod-corporate",
+   "label": "Corporate context panel (included with the dossier)"
+  },
+  {
+   "id": "ip",
+   "anchor": "mod-ip",
+   "label": "USPTO filings portfolio",
+   "price": 300,
+   "class": "I"
+  }
+ ],
+ "devices": [
+  {
+   "slug": "impella-heart-pump",
+   "name": "Impella heart pump",
+   "maker": "Abiomed (J&J) \u00b7 Structural heart",
+   "rank": 1,
+   "url": "https://aneural-portal.pages.dev/?d=impella-heart-pump",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "philips-cpap-bipap",
+   "name": "Philips CPAP/BiPAP",
+   "maker": "Philips Respironics \u00b7 Respiratory",
+   "rank": 2,
+   "url": "https://aneural-portal.pages.dev/?d=philips-cpap-bipap",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "mri-surescan-pacing-leads",
+   "name": "MRI Surescan / pacing leads",
+   "maker": "Medtronic \u00b7 Cardiac rhythm",
+   "rank": 3,
+   "url": "https://aneural-portal.pages.dev/?d=mri-surescan-pacing-leads",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "minimed-insulin-pump",
+   "name": "MiniMed insulin pump",
+   "maker": "Medtronic \u00b7 Diabetes",
+   "rank": 4,
+   "url": "https://aneural-portal.pages.dev/?d=minimed-insulin-pump",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "heartware-hvad",
+   "name": "HeartWare HVAD",
+   "maker": "Medtronic / HeartWare \u00b7 Structural heart",
+   "rank": 5,
+   "url": "https://aneural-portal.pages.dev/?d=heartware-hvad",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "heartmate-3-lvad",
+   "name": "HeartMate 3 LVAD",
+   "maker": "Abbott / Thoratec \u00b7 Structural heart",
+   "rank": 6,
+   "url": "https://aneural-portal.pages.dev/?d=heartmate-3-lvad",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "evolut-tavr-valve",
+   "name": "Evolut TAVR valve",
+   "maker": "Medtronic \u00b7 Structural heart",
+   "rank": 7,
+   "url": "https://aneural-portal.pages.dev/?d=evolut-tavr-valve",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "abbott-icd-crt-d",
+   "name": "Abbott ICD/CRT-D",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 8,
+   "url": "https://aneural-portal.pages.dev/?d=abbott-icd-crt-d",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "t-slim-x2-insulin-pump",
+   "name": "t:slim X2 insulin pump",
+   "maker": "Tandem \u00b7 Diabetes",
+   "rank": 9,
+   "url": "https://aneural-portal.pages.dev/?d=t-slim-x2-insulin-pump",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate"
+   ]
+  },
+  {
+   "slug": "aveir-leadless-pacemaker",
+   "name": "Aveir leadless pacemaker",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 10,
+   "url": "https://aneural-portal.pages.dev/?d=aveir-leadless-pacemaker",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "heartmate-ii-lvad",
+   "name": "HeartMate II LVAD",
+   "maker": "Abbott / Thoratec \u00b7 Structural heart",
+   "rank": 15,
+   "url": "https://aneural-portal.pages.dev/?d=heartmate-ii-lvad",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "freestyle-libre-cgm",
+   "name": "FreeStyle Libre CGM",
+   "maker": "Abbott \u00b7 Diabetes",
+   "rank": 21,
+   "url": "https://aneural-portal.pages.dev/?d=freestyle-libre-cgm",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "aortic-stent-graft-aaa-evar",
+   "name": "Aortic stent graft (AAA/EVAR)",
+   "maker": "Medtronic / Gore / Cook \u00b7 Vascular",
+   "rank": 24,
+   "url": "https://aneural-portal.pages.dev/?d=aortic-stent-graft-aaa-evar",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "mitraclip",
+   "name": "MitraClip",
+   "maker": "Abbott \u00b7 Structural heart",
+   "rank": 25,
+   "url": "https://aneural-portal.pages.dev/?d=mitraclip",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "abbott-pacemaker",
+   "name": "Abbott pacemaker",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 26,
+   "url": "https://aneural-portal.pages.dev/?d=abbott-pacemaker",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "durata-riata-icd-leads",
+   "name": "Durata / Riata ICD leads",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 27,
+   "url": "https://aneural-portal.pages.dev/?d=durata-riata-icd-leads",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "proclaim-infinity-neurostim",
+   "name": "Proclaim / Infinity neurostim",
+   "maker": "Abbott \u00b7 Neuro",
+   "rank": 37,
+   "url": "https://aneural-portal.pages.dev/?d=proclaim-infinity-neurostim",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "perclose-proglide-closure",
+   "name": "Perclose ProGlide closure",
+   "maker": "Abbott \u00b7 Vascular",
+   "rank": 42,
+   "url": "https://aneural-portal.pages.dev/?d=perclose-proglide-closure",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "experts",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "ivc-filter",
+   "name": "IVC filter",
+   "maker": "BD / Cook / BSC \u00b7 Vascular",
+   "rank": 70,
+   "url": "https://aneural-portal.pages.dev/?d=ivc-filter",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "global-actions",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  },
+  {
+   "slug": "diamondback-atherectomy",
+   "name": "Diamondback atherectomy",
+   "maker": "Abbott / CSI \u00b7 Vascular",
+   "rank": 71,
+   "url": "https://aneural-portal.pages.dev/?d=diamondback-atherectomy",
+   "modules": [
+    "narratives",
+    "trial-aes",
+    "predicate-tree",
+    "experts",
+    "icp-map",
+    "corporate",
+    "ip"
+   ]
+  }
+ ],
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "liveApi": {
+  "base": "https://aneural-mac.tail91f859.ts.net",
+  "note": "Same JSON as /data/*, relayed live from the corpus machine \u2014 prefer it when reachable; static files are the fallback.",
+  "endpoints": {
+   "catalog": "/portal/catalog.json",
+   "pricing": "/portal/pricing.json",
+   "device": "/portal/devices/<slug>.json",
+   "evidencePdf": "/portal/evidence/<K-number>.pdf"
+  },
+  "mcp": {
+   "endpoint": "https://aneural-mac.tail91f859.ts.net/mcp",
+   "transport": "streamable-http",
+   "auth": "issued key \u2014 x-api-key or Bearer header, or ?key= on the URL for connector UIs without header fields"
+  }
+ }
+}

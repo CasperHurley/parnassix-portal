@@ -6,6 +6,10 @@
   Cache-Control: max-age=0, must-revalidate
 /live-config.json
   Cache-Control: max-age=0, must-revalidate
+/agent.json
+  Cache-Control: max-age=0, must-revalidate
+/llms.txt
+  Cache-Control: max-age=0, must-revalidate
 /data/*
   Cache-Control: max-age=0, must-revalidate
 /assets/*

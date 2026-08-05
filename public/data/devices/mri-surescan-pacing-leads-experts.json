@@ -150,27 +150,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Editorial: The role of device standards in ensuring safety of patients with cardiac implantable electronic devices undergoing catheter ablation.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42055665",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Optimizing defibrillation waveforms for the real world.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42142858",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Effects of catheter ablation on cardiac implantable electronic device systems: An evolving spectrum.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42055664",
-      "tier": "corroborated"
-     },
-     {
       "title": "Human use conditions in fatigue of intravenous leads used in cardiac implanted electronic devices.",
       "journal": "Heart rhythm",
       "year": 2026,
@@ -185,10 +164,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Implantable cardioverter-defibrillator alert in dextrocardia with transposition of the great arteries.",
+      "title": "Editorial: The role of device standards in ensuring safety of patients with cardiac implantable electronic devices undergoing catheter ablation.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42055665",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Effects of catheter ablation on cardiac implantable electronic device systems: An evolving spectrum.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42055664",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Optimizing defibrillation waveforms for the real world.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42142858",
+      "tier": "corroborated"
+     },
+     {
+      "title": "What every electrophysiologist should know and worry about.",
       "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "38971415",
+      "pmid": "40658065",
       "tier": "corroborated"
      },
      {
@@ -199,10 +199,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "What every electrophysiologist should know and worry about.",
+      "title": "Implantable cardioverter-defibrillator alert in dextrocardia with transposition of the great arteries.",
       "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "40658065",
+      "pmid": "38971415",
       "tier": "corroborated"
      },
      {
@@ -404,7 +404,7 @@
      },
      {
       "year": 2021,
-      "value": 39320.16
+      "value": 39351.67
      },
      {
       "year": 2022,
@@ -412,7 +412,7 @@
      },
      {
       "year": 2023,
-      "value": 74420.16
+      "value": 74447.87
      },
      {
       "year": 2024,
@@ -437,8 +437,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 27170.56,
-      "records": 603
+      "total": 27229.78,
+      "records": 606
      },
      {
       "nature": "Grant",
@@ -505,24 +505,10 @@
     },
     "articles": [
      {
-      "title": "Comparison of Integrated 3D Electroanatomic Mapping and Conventional Mapping Systems for Pentaspline Pulsed Field Ablation of Atrial Fibrillation.",
+      "title": "When a Pacemaker Goes Rogue: A Case of Pitchfork Bifurcation.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
-      "pmid": "41772804",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Periprocedural outcomes from the postmarket study of the extravascular implantable cardioverter-defibrillator: Preliminary Enlighten study results and meta-anal",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "40172499",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Pulsed Field Ablation as Initial Therapy for Persistent Atrial Fibrillation.",
-      "journal": "The New England journal of medicine",
-      "year": 2026,
-      "pmid": "42041224",
+      "pmid": "41873207",
       "tier": "corroborated"
      },
      {
@@ -530,6 +516,20 @@
       "journal": "Circulation. Arrhythmia and electrophysiology",
       "year": 2026,
       "pmid": "41231774",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A randomized controlled trial of pulsed field ablation vs antiarrhythmic therapy as a first-line treatment for persistent atrial fibrillation: The AVANT GUARD t",
+      "journal": "Heart rhythm O2",
+      "year": 2026,
+      "pmid": "41908201",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparison of Integrated 3D Electroanatomic Mapping and Conventional Mapping Systems for Pentaspline Pulsed Field Ablation of Atrial Fibrillation.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41772804",
       "tier": "corroborated"
      },
      {
@@ -547,31 +547,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Learning curve of pulsed field ablation for atrial fibrillation: insights from a United States center.",
-      "journal": "Journal of interventional cardiac electrophysiology : an int",
-      "year": 2026,
-      "pmid": "40320477",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Same day discharge can be performed safely after atrial fibrillation catheter ablation using a wide-footprint lattice-tip dual-energy system.",
-      "journal": "Heart rhythm O2",
-      "year": 2026,
-      "pmid": "42038672",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Pulsed Field Ablation vs Standard Radiofrequency Ablation for Typical Atrial Flutter: ADVANTAGE AF Trial Substudy.",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2026,
-      "pmid": "41653174",
-      "tier": "corroborated"
-     },
-     {
       "title": "Leadless Versus Transvenous Dual-Chamber Pacemakers: Real-World Evidence From AVEIR DR Coverage With Evidence Development Study.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
       "pmid": "41542788",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Arrhythmia Burden and Clinical Responses Under Continuous Monitoring in Heart Failure: Observations From the ALLEVIATE-HF Trial.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2026,
+      "pmid": "42201276",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Periprocedural outcomes from the postmarket study of the extravascular implantable cardioverter-defibrillator: Preliminary Enlighten study results and meta-anal",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40172499",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Operator learning curve with a novel dual-energy lattice-tip ablation system.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "39922404",
       "tier": "corroborated"
      }
     ],
@@ -646,6 +646,16 @@
     "roles": [
      {
       "kind": "site-investigator",
+      "nameAsWritten": "Anish Amin",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07187115",
+      "place": "OhioHealth Research and Innovation Institute - Riverside Methodist Hospital \u2014 Columbus, Ohio",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "A Global Study Comparing Pulsed Field Ablation With Electrographic Flow Mapping Versus Posterior Wall Ablation"
+     },
+     {
+      "kind": "site-investigator",
       "nameAsWritten": "Anish Amin, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT07069738",
@@ -653,16 +663,6 @@
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "Safety and Effectiveness of Left Bundle Branch Area Pacing Versus Conventional Cardiac Resynchronization Thera"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Anish Amin, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT07298473",
-      "place": "OhioHealth Research and Innovation Institute (OHRI) \u2014 Columbus, Ohio",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Conquer-AF Protocol for Redo Ablation Procedures in Recurrent Paroxysmal and Persistent Atrial Fibrillation Us"
      },
      {
       "kind": "site-investigator",
@@ -688,21 +688,21 @@
       "kind": "site-investigator",
       "nameAsWritten": "Anish Amin, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07298473",
+      "place": "OhioHealth Research and Innovation Institute (OHRI) \u2014 Columbus, Ohio",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Conquer-AF Protocol for Redo Ablation Procedures in Recurrent Paroxysmal and Persistent Atrial Fibrillation Us"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Anish Amin, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06935591",
       "place": "OhioHealth \u2014 Columbus, Ohio",
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "Artificial Intelligence Mapping and Ablation of Non-Pulmonary Vein Electrical Drivers of AF Study"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Anish Amin",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT07187115",
-      "place": "OhioHealth Research and Innovation Institute - Riverside Methodist Hospital \u2014 Columbus, Ohio",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "A Global Study Comparing Pulsed Field Ablation With Electrographic Flow Mapping Versus Posterior Wall Ablation"
      },
      {
       "kind": "overall-official",
@@ -794,7 +794,7 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 674.16
+      "value": 687.1
      },
      {
       "year": 2014,
@@ -814,7 +814,7 @@
      },
      {
       "year": 2018,
-      "value": 24375.47
+      "value": 24462.48
      },
      {
       "year": 2019,
@@ -830,7 +830,7 @@
      },
      {
       "year": 2022,
-      "value": 6868.36
+      "value": 6969.42
      },
      {
       "year": 2023,
@@ -854,8 +854,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 24886.96,
-      "records": 677
+      "total": 25087.97,
+      "records": 681
      },
      {
       "nature": "Consulting Fee",
@@ -924,20 +924,6 @@
     },
     "articles": [
      {
-      "title": "Molecular damage associated with ageing drives inflammation in cardiovascular disease.",
-      "journal": "Nature reviews. Cardiology",
-      "year": 2026,
-      "pmid": "41571994",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Cardiovascular risk in narcolepsy: Comparison of type 1 and type 2 in a real-world cohort.",
-      "journal": "Journal of clinical sleep medicine : JCSM : official publica",
-      "year": 2026,
-      "pmid": "42045634",
-      "tier": "corroborated"
-     },
-     {
       "title": "Comparative Study of Machine Learning Methods for Modeling Graphene-Based Adsorption in Water Treatment.",
       "journal": "Water environment research : a research publication of the W",
       "year": 2026,
@@ -952,17 +938,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Narcolepsy Is Associated With Subclinical Cardiovascular Disease as Early as Childhood: A Big Data Analysis.",
-      "journal": "Journal of the American Heart Association",
-      "year": 2025,
-      "pmid": "40207482",
+      "title": "Molecular damage associated with ageing drives inflammation in cardiovascular disease.",
+      "journal": "Nature reviews. Cardiology",
+      "year": 2026,
+      "pmid": "41571994",
       "tier": "corroborated"
      },
      {
-      "title": "Development and Validation of an Electronic Health Record-Based Algorithm for Identifying Patients With Long-Term Opioid Therapy: Cross-Sectional Study.",
-      "journal": "Journal of medical Internet research",
-      "year": 2025,
-      "pmid": "41370825",
+      "title": "Cardiovascular risk in narcolepsy: Comparison of type 1 and type 2 in a real-world cohort.",
+      "journal": "Journal of clinical sleep medicine : JCSM : official publica",
+      "year": 2026,
+      "pmid": "42045634",
       "tier": "corroborated"
      },
      {
@@ -980,10 +966,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Suicide risk after abrupt discontinuation of long-term opioid therapy: an observational cohort study.",
-      "journal": "Pain medicine (Malden, Mass.)",
+      "title": "Racial and Ethnic Underserved Populations Prescription Analgesic Use Before and After Lower Extremity Amputation in US Medicare.",
+      "journal": "Anesthesia and analgesia",
       "year": 2025,
-      "pmid": "40209076",
+      "pmid": "39051922",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Narcolepsy Is Associated With Subclinical Cardiovascular Disease as Early as Childhood: A Big Data Analysis.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2025,
+      "pmid": "40207482",
       "tier": "corroborated"
      },
      {
@@ -991,6 +984,13 @@
       "journal": "Journal of clinical medicine",
       "year": 2025,
       "pmid": "41375825",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Development and Validation of an Electronic Health Record-Based Algorithm for Identifying Patients With Long-Term Opioid Therapy: Cross-Sectional Study.",
+      "journal": "Journal of medical Internet research",
+      "year": 2025,
+      "pmid": "41370825",
       "tier": "corroborated"
      }
     ],
@@ -1040,14 +1040,14 @@
       "beneficiaries": 63
      },
      {
-      "code": "G2066",
-      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular phy",
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
       "services": 106,
       "beneficiaries": 28
      },
      {
-      "code": "93298",
-      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular phy",
       "services": 106,
       "beneficiaries": 28
      }
@@ -1065,16 +1065,6 @@
     "roles": [
      {
       "kind": "site-investigator",
-      "nameAsWritten": "David Wilson, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06935591",
-      "place": "USF Health \u2014 Tampa, Florida",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Artificial Intelligence Mapping and Ablation of Non-Pulmonary Vein Electrical Drivers of AF Study"
-     },
-     {
-      "kind": "site-investigator",
       "nameAsWritten": "David Wilson",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06735534",
@@ -1087,11 +1077,11 @@
       "kind": "site-investigator",
       "nameAsWritten": "David Wilson, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT02704520",
-      "place": "University Hospital of North Tees \u2014 Stockton-on-Tees,",
-      "tier": "name-only",
+      "nctId": "NCT06935591",
+      "place": "USF Health \u2014 Tampa, Florida",
+      "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "Magnetic Resonance Tumour Regression Grade (mrTRG) as a Novel Biomarker - Phase III Non CTIMP Trial"
+      "trialTitle": "Artificial Intelligence Mapping and Ablation of Non-Pulmonary Vein Electrical Drivers of AF Study"
      },
      {
       "kind": "site-investigator",
@@ -1114,34 +1104,44 @@
       "trialTitle": "A Phase 2, Open-Label Study to Evaluate the Safety and Effects of HLX-1502 in Patients With Neurofibromatosis "
      },
      {
-      "kind": "overall-official",
-      "nameAsWritten": "David J Wilson, MD",
+      "kind": "site-investigator",
+      "nameAsWritten": "David Wilson, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT00305630",
-      "place": "Oregon Health and Science University",
+      "nctId": "NCT02704520",
+      "place": "University Hospital of North Tees \u2014 Stockton-on-Tees,",
       "tier": "name-only",
       "deviceTrial": false,
-      "trialTitle": "Neovascular Age Related Macular Degeneration (AMD), Periocular Corticosteroids, and Photodynamic Therapy (PDT)"
+      "trialTitle": "Magnetic Resonance Tumour Regression Grade (mrTRG) as a Novel Biomarker - Phase III Non CTIMP Trial"
      },
      {
       "kind": "overall-official",
-      "nameAsWritten": "David C Wilson, M.D.",
+      "nameAsWritten": "David Wilson, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT00778089",
+      "nctId": "NCT04780893",
+      "place": "Clinical Trial Mentors",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Electrical Vestibular Nerve Stimulation (VeNS) as a Method of Sleep Management in People With PTSD"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David Wilson, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00604890",
+      "place": "Education and Research Foundation",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Dose-Ranging Clinical Trial of Topical Creams Containing API 31510 for the Treatment of Superficial Basal Cell"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "David C Wilson, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02160626",
       "place": "The Education & Research Foundation, Inc.",
       "tier": "name-only",
       "deviceTrial": false,
-      "trialTitle": "Open-Label Study to Evaluate the Immunogenicity of Bovine Collagen in ArteFill\u00ae by Skin Testing"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "DAVID WILSON, MBBS",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT04849429",
-      "place": "PHOENIX HELSE Norway",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "Intra-discal Injection of Platelet-rich Plasma (PRP) Enriched With Exosomes in Chronic Low Back Pain"
+      "trialTitle": "Dose-Response Profile of A-101 in Subjects With Seborrheic Keratosis"
      }
     ],
     "source": {
@@ -1156,65 +1156,51 @@
    },
    "litigation": {
     "counts": {
-     "courtlistener:corroborated": 4,
-     "ptab:name-only": 40,
-     "courtlistener:name-only": 36
+     "courtlistener:corroborated": 3,
+     "courtlistener:name-only": 37,
+     "ptab:name-only": 40
     },
     "cites": [
      {
       "source": "courtlistener",
-      "ref": "9998239",
-      "case": "Mercado v. Commissioner of Social Security Administration",
-      "date": "2021-02-08",
-      "snippet": "9 As the Commissioner points out, Dr. Beach\u2019s evaluation of Claimant\u2019s limitations 10 is inconsistent with other medical evidence in the record. For example, Dr. Yoches stated 11 in her report that she believed that Claimant was exaggerating her symptoms. (Doc. 13-11 12 at 54). Dr. David Wilson, M.D., who examined Claimant at AZ Neurologists & Spine 13 Specialists, observed that Claimant\u2019s MRI demonstrated only \u201cmild degenerative changes\u201d 14 and that there was \u201cno evidence of significant neutral compression or acute destabilizing 15 injury.\u201d (Doc. 13-12 at 59). He further stated",
-      "matchedForm": "DAVID WILSON",
-      "signals": [
-       "credential-adjacent"
-      ],
-      "court": "azd",
-      "url": "https://www.courtlistener.com/opinion/9531626/mercado-v-commissioner-of-social-security-administration/",
-      "docId": null
-     },
-     {
-      "source": "courtlistener",
-      "ref": "9989935",
-      "case": "Coppolo v. Social Security Administration, Commissioner",
-      "date": "2020-10-28",
-      "snippet": "excessive prescribing, which comes from the doctor, but also substance abuse. (R. 69). Plaintiff did not attend any further therapy sessions for the remainder of February 2016. (R. 1089-91). On April 4, 2017, at the request of his attorney, Plaintiff was evaluated by Dr. David Wilson and a mental health source statement was completed. (R. 1236-41). Dr. Wilson diagnosed bipolar disorder I (mixed severe), and panic disorder. (R. 1241). Dr. Wilson reported that Plaintiff could not maintain attention, concentration, and/or pace for periods of at least two hours, could not perform",
+      "ref": "10813765",
+      "case": "Gargus v. Social Security Administration, Commissioner",
+      "date": "2025-02-27",
+      "snippet": "A. Gargus\u2019s personal and medical history Gargus was born on May 1, 1964. Doc. 7-4 at 2; Doc. 7-6 at 4, 8. Gargus previously worked multiple contracting laborer jobs through 2020. Doc. 7-7 at 2. On March 11, 2020, Gargus saw Dr. David Wilson, a primary care provider, for hypertension. Doc. 7-9 at 25. His blood pressure was 182/102. Doc. 7-9 at 25. Dr. Wilson noted a history of osteoarthritis and essential hypertension. Doc. 7-9 at 25. Gargus was not taking any medication for his blood pressure and was prescribed Lisinopril.",
       "matchedForm": "DAVID WILSON",
       "signals": [
        "credential-adjacent"
       ],
       "court": "alnd",
-      "url": "https://www.courtlistener.com/opinion/9523322/coppolo-v-social-security-administration-commissioner/",
+      "url": "https://www.courtlistener.com/opinion/10347177/gargus-v-social-security-administration-commissioner/",
       "docId": null
      },
      {
       "source": "courtlistener",
-      "ref": "9989351",
-      "case": "Shadwrick v. Social Security Administration, Commissioner",
-      "date": "2020-03-17",
-      "snippet": "Discussion Shadwrick alleges that the ALJ\u2019s decision should be reversed and remanded for several reasons: (A) the ALJ failed to state with at least some measure of clarity the grounds for her decision in repudiating the opinions of Dr. David Wilson, a two- time-examining consultative psychologist; (B) the ALJ failed to accord proper weight to the opinion of one-time examining consultative psychologist, Dr. Samuel E. Fleming; (C) the ALJ should have determined at step three that Plaintiff met or equaled Listings 12.02, 12.04, and",
+      "ref": "9991377",
+      "case": "Kimbrough v. Social Security Administration, Commissioner",
+      "date": "2022-09-28",
+      "snippet": "to adequately address the effects of her pain medication\u2014the issue on which Kimbrough\u2019s first appeal was remanded to the Commissioner. (Doc. 17 at 2). Next, Kimbrough argues the ALJ failed to clearly articulate reasons for giving less weight to the opinion of examining psychologist David Wilson, Ph.D. (Id.).3 Finally, Kimbrough contends the ALJ erred in relying on her daily activities to undermine her allegations. (Id.). Kimbrough\u2019s arguments are addressed in turn. A. Medication Side Effects As previously mentioned, the only",
       "matchedForm": "DAVID WILSON",
       "signals": [
        "credential-adjacent"
       ],
       "court": "alnd",
-      "url": "https://www.courtlistener.com/opinion/9522738/shadwrick-v-social-security-administration-commissioner/",
+      "url": "https://www.courtlistener.com/opinion/9524764/kimbrough-v-social-security-administration-commissioner/",
       "docId": null
      },
      {
       "source": "courtlistener",
-      "ref": "1086959",
-      "case": "People v. Douglas M.",
-      "date": "2013-10-24",
-      "snippet": "committing offenses that took place between 2005 and 2006. 3 The specific facts underlying appellant\u201fs convictions are not relevant to the issues raised on appeal. 2 In the presentence report, the probation officer reported that Dr. David Wilson, a clinical psychologist, had assessed appellant and rated his risk factor for sexual re-offense as low. Dr. Wilson had also described appellant\u201fs primary psychiatric problems as flowing \u201cdirectly from his health problems, for which he has anxiety disorder. Dr. Wilson did not identify any emotional",
+      "ref": "2743538",
+      "case": "People v. Johnson CA3",
+      "date": "2014-10-17",
+      "snippet": "rifle at her and pulled the trigger, but the weapon jammed. Proceedings After defendant initially entered a plea of not guilty by reason of insanity (NGI), the trial court ordered defendant evaluated by two psychologists, Dr. Marilyn Wooley and Dr. David Wilson. Dr. Wilson\u2019s report stated that during their interview, defendant \u201cwas alert and well oriented for time, place, person, and affect.\u201d While digressing at times, \u201cfor the most part his thought processes were orderly and organized without any indications of thought disorder or psychotic processes.\u201d Defendant\u2019s",
       "matchedForm": "DAVID WILSON",
       "signals": [
        "credential-adjacent"
       ],
       "court": "calctapp",
-      "url": "https://www.courtlistener.com/opinion/1086959/people-v-douglas-m/",
+      "url": "https://www.courtlistener.com/opinion/2743538/people-v-johnson-ca3/",
       "docId": null
      }
     ],
@@ -1305,7 +1291,7 @@
      },
      {
       "year": 2017,
-      "value": 5915.88
+      "value": 5936.96
      },
      {
       "year": 2018,
@@ -1354,8 +1340,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 8371.63,
-      "records": 148
+      "total": 8392.71,
+      "records": 149
      },
      {
       "nature": "Education",
@@ -1382,6 +1368,11 @@
      {
       "company": "Thoratec Corporation",
       "total": 105.08,
+      "records": 1
+     },
+     {
+      "company": "CorMatrix Cardiovascular Inc.",
+      "total": 21.08,
       "records": 1
      },
      {
@@ -1413,17 +1404,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Inter-atrial septal balloon dilation to facilitate intracardiac echocardiography guided left atrial appendage occlusion.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2024,
-      "pmid": "38509774",
-      "tier": "corroborated"
-     },
-     {
       "title": "Can Artificial Intelligence Be Utilized to Predict Real-Time Adverse Outcomes in Individuals Arriving at the Emergency Department With Hyperglycemic Crises?: Im",
       "journal": "Advanced emergency nursing journal",
       "year": 2024,
       "pmid": "38736093",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Inter-atrial septal balloon dilation to facilitate intracardiac echocardiography guided left atrial appendage occlusion.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2024,
+      "pmid": "38509774",
       "tier": "corroborated"
      },
      {
@@ -1649,7 +1640,7 @@
      },
      {
       "year": 2014,
-      "value": 70.56
+      "value": 85.78
      },
      {
       "year": 2015,
@@ -1715,8 +1706,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 2669.47,
-      "records": 91
+      "total": 2684.69,
+      "records": 92
      }
     ],
     "byCompany": [
@@ -1738,6 +1729,11 @@
      {
       "company": "ABIOMED",
       "total": 35.37,
+      "records": 1
+     },
+     {
+      "company": "Vascular Solutions, Inc.",
+      "total": 15.22,
       "records": 1
      }
     ],
@@ -1798,13 +1794,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Protocol Development and Initial Experience With Intravenous Sotalol Loading for Atrial Arrhythmias.",
-      "journal": "Critical pathways in cardiology",
-      "year": 2023,
-      "pmid": "36812336",
-      "tier": "corroborated"
-     },
-     {
       "title": "Reply to the Editor- Safety of wearable bioimpedance monitors for CIED patients remains unknown.",
       "journal": "Heart rhythm",
       "year": 2023,
@@ -1819,17 +1808,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Externalized conductors and electrical dysfunction in transvenous ventricular leads: Results of the Cardiac Lead Assessment Study.",
-      "journal": "Heart rhythm O2",
-      "year": 2022,
-      "pmid": "35496462",
+      "title": "Protocol Development and Initial Experience With Intravenous Sotalol Loading for Atrial Arrhythmias.",
+      "journal": "Critical pathways in cardiology",
+      "year": 2023,
+      "pmid": "36812336",
       "tier": "corroborated"
      },
      {
-      "title": "Long-term outcomes in patients treated with flecainide for atrial fibrillation with stable coronary artery disease.",
-      "journal": "American heart journal",
+      "title": "Successful avoidance of superior vena cava injury during transvenous lead extraction using a tandem femoral-superior approach.",
+      "journal": "Heart rhythm",
       "year": 2022,
-      "pmid": "34537183",
+      "pmid": "35245690",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Increasing pacemaker lead impedance and pacing threshold after initiation of chemotherapy with doxorubicin and cyclophosphamide.",
+      "journal": "HeartRhythm case reports",
+      "year": 2022,
+      "pmid": "36620369",
       "tier": "corroborated"
      }
     ],
@@ -2102,6 +2098,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Cardiac Magnetic Resonance, Electromechanical Activation, Kidney Function, and Natriuretic Peptides in Cardiac Resynchronization Therapy Upgrades.",
+      "journal": "Journal of cardiovascular development and disease",
+      "year": 2023,
+      "pmid": "37887856",
+      "tier": "corroborated"
+     },
+     {
       "title": "Beyond prediction: Off-target uses of artificial intelligence-based predictive analytics in a learning health system.",
       "journal": "Learning health systems",
       "year": 2023,
@@ -2113,20 +2116,6 @@
       "journal": "Heart rhythm",
       "year": 2023,
       "pmid": "36842792",
-      "tier": "corroborated"
-     },
-     {
-      "title": "A novel predictive analytics score reflecting accumulating disease burden-an investigation of the cumulative CoMET score.",
-      "journal": "Physiological measurement",
-      "year": 2023,
-      "pmid": "36595313",
-      "tier": "corroborated"
-     },
-     {
-      "title": "First-in-human noninvasive left ventricular ultrasound pacing: A potential screening tool for cardiac resynchronization therapy.",
-      "journal": "Heart rhythm O2",
-      "year": 2023,
-      "pmid": "36873311",
       "tier": "corroborated"
      },
      {
@@ -2144,10 +2133,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Cardiac Magnetic Resonance, Electromechanical Activation, Kidney Function, and Natriuretic Peptides in Cardiac Resynchronization Therapy Upgrades.",
-      "journal": "Journal of cardiovascular development and disease",
+      "title": "First-in-human noninvasive left ventricular ultrasound pacing: A potential screening tool for cardiac resynchronization therapy.",
+      "journal": "Heart rhythm O2",
       "year": 2023,
-      "pmid": "37887856",
+      "pmid": "36873311",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A novel predictive analytics score reflecting accumulating disease burden-an investigation of the cumulative CoMET score.",
+      "journal": "Physiological measurement",
+      "year": 2023,
+      "pmid": "36595313",
       "tier": "corroborated"
      }
     ],
@@ -2285,7 +2281,7 @@
     "licenseState": "CA",
     "opState": "CA",
     "opCity": "LOS ANGELES",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1578554002"
@@ -2462,31 +2458,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Optimal initial relative dose intensity of modified FOLFIRINOX in pancreatic ductal adenocarcinoma: A retrospective multi-center cohort.",
-      "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+      "title": "Integrated clinical and molecular landscape of disseminated pediatric low-grade glioma.",
+      "journal": "Neuro-oncology",
       "year": 2026,
-      "pmid": "41968047",
+      "pmid": "41117845",
       "tier": "name-only"
      },
      {
-      "title": "GFER Represents a Target for Dual Disruption of Redox Homeostasis and Reactivation of the Immune Response in Pancreatic Adenocarcinoma.",
-      "journal": "Cancer research",
+      "title": "Regulation of basal and tumour necrosis factor \u03b1-induced fibroblast gene expression by peptidylarginine deiminase 2.",
+      "journal": "The Journal of physiology",
       "year": 2026,
-      "pmid": "41329747",
+      "pmid": "41832613",
       "tier": "name-only"
      },
      {
-      "title": "Correction: Modulation of the Levels of NMDA Receptor Subunit mRNA and the Bindings of [",
-      "journal": "Neurochemical research",
+      "title": "Weekend effect in emergency hospitalizations of older adults in Hong Kong.",
+      "journal": "Scientific reports",
       "year": 2026,
-      "pmid": "41557205",
+      "pmid": "42191864",
       "tier": "name-only"
      },
      {
-      "title": "What Should I Do?: Information and Support Needs Relating to Substance Use on Reddit.",
-      "journal": "Substance use & misuse",
+      "title": "A multicenter retrospective analysis by the Korean Association of Pediatric Surgeons comparing laparoscopic and open surgical repair of congenital duodenal obst",
+      "journal": "Journal of pediatric surgery",
       "year": 2026,
-      "pmid": "41345963",
+      "pmid": "41581594",
       "tier": "name-only"
      }
     ],
@@ -2495,7 +2491,7 @@
      "match": "author last name 'HO' + first initial 'I'",
      "signals": {
       "topicKeywords": [
-       "internal medicine",
+       "clinical cardiac electrophysiology",
        "pacemaker",
        "pacing",
        "surescan"
@@ -2563,21 +2559,21 @@
       "kind": "site-investigator",
       "nameAsWritten": "Ivan Ho, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT04088071",
-      "place": "Keck School of Medicine \u2014 Los Angeles, California",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Real-world Experience of Catheter Ablation for the Treatment of Paroxysmal and Persistent Atrial Fibrillation"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Ivan Ho, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06735534",
       "place": "University of Southern California Hospital \u2014 Los Angeles, California",
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "Repeat Ablation of Persistent Atrial Fibrillation, Including Mitral Isthmus Catheter Ablation, With the FARAPU"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Ivan Ho, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT04088071",
+      "place": "Keck School of Medicine \u2014 Los Angeles, California",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Real-world Experience of Catheter Ablation for the Treatment of Paroxysmal and Persistent Atrial Fibrillation"
      }
     ],
     "source": {
@@ -2612,20 +2608,6 @@
      },
      {
       "source": "ptab",
-      "ref": "IPR2015-00990",
-      "case": "Reply Declaration of Ivan Hofmann (Redacted)",
-      "date": "2016-04-20",
-      "snippet": "Reply Declaration of Ivan Hofmann (Redacted)",
-      "matchedForm": "HO",
-      "signals": [
-       "declaration-title"
-      ],
-      "court": null,
-      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2015/00990/169055752.pdf",
-      "docId": "169055752"
-     },
-     {
-      "source": "ptab",
       "ref": "IPR2015-01093",
       "case": "Reply Declaration of Ivan Hofmann (Redacted)",
       "date": "2016-04-20",
@@ -2637,6 +2619,20 @@
       "court": null,
       "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2015/01093/168749910.pdf",
       "docId": "168749910"
+     },
+     {
+      "source": "ptab",
+      "ref": "IPR2015-00990",
+      "case": "Reply Declaration of Ivan Hofmann (Redacted)",
+      "date": "2016-04-20",
+      "snippet": "Reply Declaration of Ivan Hofmann (Redacted)",
+      "matchedForm": "HO",
+      "signals": [
+       "declaration-title"
+      ],
+      "court": null,
+      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2015/00990/169055752.pdf",
+      "docId": "169055752"
      },
      {
       "source": "ptab",
@@ -2654,20 +2650,6 @@
      },
      {
       "source": "ptab",
-      "ref": "IPR2013-00119",
-      "case": "Replacement Declaration of Ivan Hofmann with Appendices (REDACTED).",
-      "date": "2013-10-16",
-      "snippet": "Replacement Declaration of Ivan Hofmann with Appendices (REDACTED).",
-      "matchedForm": "HO",
-      "signals": [
-       "declaration-title"
-      ],
-      "court": null,
-      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2013/00119/168835588.pdf",
-      "docId": "168835588"
-     },
-     {
-      "source": "ptab",
       "ref": "IPR2013-00117",
       "case": "Replacement Declaration of Ivan Hofmann with Appendices (REDACTED).",
       "date": "2013-10-16",
@@ -2679,6 +2661,20 @@
       "court": null,
       "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2013/00117/168828400.pdf",
       "docId": "168828400"
+     },
+     {
+      "source": "ptab",
+      "ref": "IPR2013-00119",
+      "case": "Replacement Declaration of Ivan Hofmann with Appendices (REDACTED).",
+      "date": "2013-10-16",
+      "snippet": "Replacement Declaration of Ivan Hofmann with Appendices (REDACTED).",
+      "matchedForm": "HO",
+      "signals": [
+       "declaration-title"
+      ],
+      "court": null,
+      "url": "https://api.uspto.gov/api/v1/patent/ptab-files/IPR/2013/00119/168835588.pdf",
+      "docId": "168835588"
      }
     ],
     "source": {
@@ -2851,31 +2847,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Newly diagnosed atrial fibrillation detected by noninvasive screening methods in clinical practice.",
-      "journal": "Heart rhythm O2",
-      "year": 2025,
-      "pmid": "40917186",
-      "tier": "corroborated"
-     },
-     {
       "title": "Has the Time Come to Stop Performing Routine Defibrillation Testing for Subcutaneous Implantable Cardioverter Defibrillators?",
       "journal": "Journal of the American College of Cardiology",
       "year": 2025,
       "pmid": "40602943",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Ultrafast Spectroscopy and Dynamics of Photoredox Catalysis.",
-      "journal": "Annual review of physical chemistry",
-      "year": 2025,
-      "pmid": "39899834",
-      "tier": "corroborated"
-     },
-     {
-      "title": "High-Power/Short-Duration Ablation Does Not Reduce Incidence or Severity of Esophageal Lesions.",
-      "journal": "JACC. Clinical electrophysiology",
-      "year": 2025,
-      "pmid": "40243967",
       "tier": "corroborated"
      },
      {
@@ -2886,17 +2861,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Left bundle branch area pacing in heart failure: A systematic review and meta-analysis with meta-regression.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2024,
-      "pmid": "38812213",
+      "title": "Ultrafast Spectroscopy and Dynamics of Photoredox Catalysis.",
+      "journal": "Annual review of physical chemistry",
+      "year": 2025,
+      "pmid": "39899834",
       "tier": "corroborated"
      },
      {
-      "title": "Implantable Cardioverter-Defibrillator Programming: It Is Time to Get Things Right With a Checklist Manifesto.",
-      "journal": "Journal of the American Heart Association",
-      "year": 2024,
-      "pmid": "39011962",
+      "title": "Newly diagnosed atrial fibrillation detected by noninvasive screening methods in clinical practice.",
+      "journal": "Heart rhythm O2",
+      "year": 2025,
+      "pmid": "40917186",
+      "tier": "corroborated"
+     },
+     {
+      "title": "High-Power/Short-Duration Ablation Does Not Reduce Incidence or Severity of Esophageal Lesions.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2025,
+      "pmid": "40243967",
       "tier": "corroborated"
      },
      {
@@ -2907,10 +2889,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Eyes on the Prize: Decoding the Ophthalmic Product Regulations and Intricacies of the U.S. Food and Drug Administration Approval.",
-      "journal": "Journal of ocular pharmacology and therapeutics : the offici",
+      "title": "Implantable Cardioverter-Defibrillator Programming: It Is Time to Get Things Right With a Checklist Manifesto.",
+      "journal": "Journal of the American Heart Association",
+      "year": 2024,
+      "pmid": "39011962",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Left bundle branch area pacing in heart failure: A systematic review and meta-analysis with meta-regression.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2024,
+      "pmid": "38812213",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Mechanistic insight into CdSe nanoplatelet-sensitized upconversion: size and stacking induced effects.",
+      "journal": "Chemical communications (Cambridge, England)",
       "year": 2023,
-      "pmid": "37797226",
+      "pmid": "36511180",
       "tier": "corroborated"
      }
     ],
@@ -2987,6 +2983,16 @@
       "kind": "overall-official",
       "nameAsWritten": "Raul Weiss, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT03683030",
+      "place": "Ohio State University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment o"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raul Weiss, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT01401608",
       "place": "Ohio State University",
       "tier": "name-only",
@@ -3022,16 +3028,6 @@
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "Therapy\u2122 Cool Flex\u2122 Irrigated Ablation System for Typical Atrial Flutter"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "Raul Weiss, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT03683030",
-      "place": "Ohio State University",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment o"
      }
     ],
     "source": {
@@ -3236,59 +3232,17 @@
     },
     "articles": [
      {
-      "title": "The anatomy of atrial conduction: A review of anatomic landmarks integrated with computed tomographic virtual dissection to provide a road map for right atrial ",
+      "title": "Left bundle branch area stylet-driven lead: Performance, safety, and quality of life at 12 months after implant (the BIO-CONDUCT investigational device exemptio",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41033591",
+      "pmid": "41864302",
       "tier": "corroborated"
      },
      {
-      "title": "Stylet-in-sheath: A new solution to an old problem?",
-      "journal": "Heart rhythm",
+      "title": "Another piece of the puzzle: long-term follow-up of conduction system pacing.",
+      "journal": "European heart journal",
       "year": 2026,
-      "pmid": "41679449",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Conduction system pacing for the prevention and cure of pacing-induced cardiomyopathy: Bundled care.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "40882901",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Safety and efficacy of conduction system pacing in dual-chamber Pacemakers in a CRT-indicated population: Primary analysis of the CORE-CPP study.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41973895",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Anatomical Considerations for Left Bundle Branch Area Pacing.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42140413",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Electrophysiological predictors of super-response to left bundle branch area pacing in nonischemic cardiomyopathy: The PRECISION LBBAP study.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41881370",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Outcomes of left bundle branch area pacing upgrade in patients with right ventricular pacing-induced cardiomyopathy.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "40409383",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42033435",
+      "pmid": "41334712",
       "tier": "corroborated"
      },
      {
@@ -3299,10 +3253,52 @@
       "tier": "corroborated"
      },
      {
+      "title": "Radiofrequency current-facilitated implantation of left bundle branch pacing lead for cardiac resynchronization therapy.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41966386",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Great debate: conduction system pacing will replace conventional cardiac resynchronization therapy.",
+      "journal": "European heart journal",
+      "year": 2026,
+      "pmid": "41460239",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Optimal pace timing for left bundle branch area pacing with or without an additional LV lead: results from the CSPOT study.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "42085561",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Electrophysiological predictors of super-response to left bundle branch area pacing in nonischemic cardiomyopathy: The PRECISION LBBAP study.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41881370",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The anatomy of atrial conduction: A review of anatomic landmarks integrated with computed tomographic virtual dissection to provide a road map for right atrial ",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41033591",
+      "tier": "corroborated"
+     },
+     {
       "title": "Treatment of drug-refractory ventricular tachycardia with conduction system pacing as an alternative to ventricular tachycardia ablation.",
       "journal": "Heart rhythm",
       "year": 2026,
       "pmid": "41235981",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Conduction system pacing for the prevention and cure of pacing-induced cardiomyopathy: Bundled care.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40882901",
       "tier": "corroborated"
      }
     ],

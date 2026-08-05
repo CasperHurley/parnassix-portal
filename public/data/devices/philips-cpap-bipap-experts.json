@@ -312,7 +312,7 @@
      },
      {
       "year": 2021,
-      "value": 17.53
+      "value": 28.83
      },
      {
       "year": 2022,
@@ -324,7 +324,7 @@
      },
      {
       "year": 2024,
-      "value": 953.97
+      "value": 971.79
      }
     ],
     "byNature": [
@@ -335,8 +335,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 893.24,
-      "records": 26
+      "total": 922.36,
+      "records": 28
      }
     ],
     "byCompany": [
@@ -361,14 +361,14 @@
       "records": 4
      },
      {
+      "company": "Neurocrine Biosciences, Inc.",
+      "total": 29.12,
+      "records": 2
+     },
+     {
       "company": "Medtronic, Inc.",
       "total": 28.69,
       "records": 1
-     },
-     {
-      "company": "Medtronic Vascular, Inc.",
-      "total": 24.28,
-      "records": 2
      }
     ],
     "research": null,
@@ -387,17 +387,10 @@
     },
     "articles": [
      {
-      "title": "Ribosome biogenesis is increased in hepatocellular carcinoma and represents a potential therapeutic target.",
-      "journal": "NAR cancer",
+      "title": "It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis.",
+      "journal": "Journal of science and medicine in sport",
       "year": 2026,
-      "pmid": "41551405",
-      "tier": "name-only"
-     },
-     {
-      "title": "Stac2 genetic deletion alters mouse chromaffin cells' Ca",
-      "journal": "The Journal of physiology",
-      "year": 2026,
-      "pmid": "42020143",
+      "pmid": "41963141",
       "tier": "name-only"
      },
      {
@@ -408,17 +401,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses.",
-      "journal": "Sports medicine (Auckland, N.Z.)",
+      "title": "Ribosome biogenesis is increased in hepatocellular carcinoma and represents a potential therapeutic target.",
+      "journal": "NAR cancer",
       "year": 2026,
-      "pmid": "41762427",
-      "tier": "name-only"
-     },
-     {
-      "title": "A single-cell derived spheroid approach to dissect intratumoural heterogeneity in colorectal cancer: cell lines show changes in proteomes and therapeutic respon",
-      "journal": "Journal of cancer research and clinical oncology",
-      "year": 2026,
-      "pmid": "41580526",
+      "pmid": "41551405",
       "tier": "name-only"
      },
      {
@@ -429,17 +415,31 @@
       "tier": "name-only"
      },
      {
-      "title": "A Validated Method for the Simultaneous Measurement of Tryptophan, Kynurenine, Phenylalanine, and Tyrosine by High-Performance Liquid Chromatography-Ultraviolet",
-      "journal": "ACS omega",
+      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses.",
+      "journal": "Sports medicine (Auckland, N.Z.)",
       "year": 2026,
-      "pmid": "41658142",
+      "pmid": "41762427",
       "tier": "name-only"
      },
      {
-      "title": "It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis.",
-      "journal": "Journal of science and medicine in sport",
+      "title": "Acute and Chronic Effects of Drop-Set Training: A Meta-Analysis and Systematic Review.",
+      "journal": "Sports medicine - open",
       "year": 2026,
-      "pmid": "41963141",
+      "pmid": "41920484",
+      "tier": "name-only"
+     },
+     {
+      "title": "Stac2 genetic deletion alters mouse chromaffin cells' Ca",
+      "journal": "The Journal of physiology",
+      "year": 2026,
+      "pmid": "42020143",
+      "tier": "name-only"
+     },
+     {
+      "title": "Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study.",
+      "journal": "Frontiers in physiology",
+      "year": 2026,
+      "pmid": "42245829",
       "tier": "name-only"
      },
      {
@@ -450,10 +450,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study.",
-      "journal": "Frontiers in physiology",
+      "title": "A Validated Method for the Simultaneous Measurement of Tryptophan, Kynurenine, Phenylalanine, and Tyrosine by High-Performance Liquid Chromatography-Ultraviolet",
+      "journal": "ACS omega",
       "year": 2026,
-      "pmid": "42245829",
+      "pmid": "41658142",
       "tier": "name-only"
      }
     ],
@@ -688,13 +688,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "High-Frequency Jet Ventilation in Pediatric Acute Respiratory Failure.",
-      "journal": "Respiratory care",
-      "year": 2021,
-      "pmid": "33008841",
-      "tier": "corroborated"
-     },
-     {
       "title": "Development of a novel intravascular oxygenator catheter: Oxygen mass transfer properties across nonporous hollow fiber membranes.",
       "journal": "Biotechnology and bioengineering",
       "year": 2021,
@@ -702,10 +695,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Mechanical Ventilation in Children on Venovenous ECMO.",
+      "title": "High-Frequency Jet Ventilation in Pediatric Acute Respiratory Failure.",
       "journal": "Respiratory care",
-      "year": 2020,
-      "pmid": "31992674",
+      "year": 2021,
+      "pmid": "33008841",
       "tier": "corroborated"
      },
      {
@@ -713,6 +706,13 @@
       "journal": "Pediatric critical care medicine : a journal of the Society ",
       "year": 2020,
       "pmid": "32032273",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Respiratory pathogens associated with intubated pediatric patients following hematopoietic cell transplant.",
+      "journal": "Transplant infectious disease : an official journal of the T",
+      "year": 2020,
+      "pmid": "32306533",
       "tier": "corroborated"
      },
      {
@@ -730,10 +730,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Respiratory pathogens associated with intubated pediatric patients following hematopoietic cell transplant.",
-      "journal": "Transplant infectious disease : an official journal of the T",
+      "title": "Acute respiratory failure and the kinetics of neutrophil recovery in pediatric hematopoietic cell transplantation: a multicenter study.",
+      "journal": "Bone marrow transplantation",
       "year": 2020,
-      "pmid": "32306533",
+      "pmid": "31527817",
       "tier": "corroborated"
      },
      {
@@ -744,10 +744,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "A comprehensive review of the use and understanding of airway pressure release ventilation.",
-      "journal": "Expert review of respiratory medicine",
+      "title": "Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children.",
+      "journal": "Intensive care medicine",
       "year": 2020,
-      "pmid": "31869259",
+      "pmid": "32030529",
       "tier": "corroborated"
      }
     ],
@@ -786,16 +786,6 @@
     "roles": [
      {
       "kind": "overall-official",
-      "nameAsWritten": "Ira Cheifetz, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT02168387",
-      "place": "Duke University",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "Efficacy of Percussive Ventilation Therapy (MetaNeb \u00ae) Compared With Mucolytic Agents for Atelectasis in the M"
-     },
-     {
-      "kind": "overall-official",
       "nameAsWritten": "Ira M. Cheifetz, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT03896763",
@@ -803,6 +793,16 @@
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "PROSpect: Prone and Oscillation Pediatric Clinical Trial"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Ira Cheifetz, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT02168387",
+      "place": "Duke University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Efficacy of Percussive Ventilation Therapy (MetaNeb \u00ae) Compared With Mucolytic Agents for Atelectasis in the M"
      }
     ],
     "source": {
@@ -959,13 +959,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Sp1 mechanotransduction regulates breast cancer cell invasion in engineered viscoelastic extracellular matrices.",
-      "journal": "Biomaterials",
-      "year": 2026,
-      "pmid": "41106320",
-      "tier": "corroborated"
-     },
-     {
       "title": "Recreational drug inhalation and socioenvironmental determinants of pulmonary infection in patients with HIV: a hospital-based case control study.",
       "journal": "BMC public health",
       "year": 2026,
@@ -973,10 +966,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Author Correction: A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
-      "journal": "Nature genetics",
-      "year": 2025,
-      "pmid": "39833330",
+      "title": "Sp1 mechanotransduction regulates breast cancer cell invasion in engineered viscoelastic extracellular matrices.",
+      "journal": "Biomaterials",
+      "year": 2026,
+      "pmid": "41106320",
       "tier": "corroborated"
      },
      {
@@ -987,17 +980,17 @@
       "tier": "corroborated"
      },
      {
+      "title": "Author Correction: A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
+      "journal": "Nature genetics",
+      "year": 2025,
+      "pmid": "39833330",
+      "tier": "corroborated"
+     },
+     {
       "title": "A multilineage screen identifies actionable synthetic lethal interactions in human cancers.",
       "journal": "Nature genetics",
       "year": 2025,
       "pmid": "39558023",
-      "tier": "corroborated"
-     },
-     {
-      "title": "A deep learning model of tumor cell architecture elucidates response and resistance to CDK4/6 inhibitors.",
-      "journal": "Nature cancer",
-      "year": 2024,
-      "pmid": "38443662",
       "tier": "corroborated"
      },
      {
@@ -1008,17 +1001,24 @@
       "tier": "corroborated"
      },
      {
+      "title": "Integrative single-cell characterization of a frugivorous and an insectivorous bat kidney and pancreas.",
+      "journal": "Nature communications",
+      "year": 2024,
+      "pmid": "38195585",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prophylactic Prednisolone Promotes AAV5 Hepatocyte Transduction Through the Novel Mechanism of AAV5 Coreceptor Platelet-Derived Growth Factor Receptor Alpha Upr",
+      "journal": "Human gene therapy",
+      "year": 2024,
+      "pmid": "38126359",
+      "tier": "corroborated"
+     },
+     {
       "title": "Prospective Randomized Double-Blind Vehicle-Controlled Study of Topical Coconut and Sunflower Seed Oil-Derived Isosorbide Diesters on Atopic Dermatitis.",
       "journal": "Dermatitis : contact, atopic, occupational, drug",
       "year": 2024,
       "pmid": "38394048",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Human gene regulatory evolution is driven by the divergence of regulatory element function in both cis and trans.",
-      "journal": "Cell genomics",
-      "year": 2024,
-      "pmid": "38604126",
       "tier": "corroborated"
      }
     ],
@@ -1075,10 +1075,10 @@
       "beneficiaries": 31
      },
      {
-      "code": "95810",
-      "description": "Sleep study in sleep lab (6 years or older)",
+      "code": "95811",
+      "description": "Sleep study in sleep lab with continuous airway pressure (6 years or older)",
       "services": 29,
-      "beneficiaries": 29
+      "beneficiaries": 25
      }
     ],
     "source": {
@@ -1204,17 +1204,17 @@
     },
     "articles": [
      {
-      "title": "Shared Pathogenic Pathways Between REM Sleep Behavior Disorder and Neurodegenerative and Psychiatric Disorders.",
-      "journal": "medRxiv : the preprint server for health sciences",
-      "year": 2026,
-      "pmid": "41674635",
-      "tier": "corroborated"
-     },
-     {
       "title": "The North American Prodromal Synucleinopathy study: protocol for a multi-site, longitudinal, observational study of idiopathic/isolated rapid eye movement sleep",
       "journal": "Sleep advances : a journal of the Sleep Research Society",
       "year": 2026,
       "pmid": "41725984",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Shared Pathogenic Pathways Between REM Sleep Behavior Disorder and Neurodegenerative and Psychiatric Disorders.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2026,
+      "pmid": "41674635",
       "tier": "corroborated"
      },
      {
@@ -1232,6 +1232,13 @@
       "tier": "corroborated"
      },
      {
+      "title": "Mandibular Advancement vs Combined Airway and Positional Therapy for Snoring: A Randomized Clinical Trial.",
+      "journal": "JAMA otolaryngology-- head & neck surgery",
+      "year": 2024,
+      "pmid": "38780959",
+      "tier": "corroborated"
+     },
+     {
       "title": "Comorbid neurotrauma increases neurodegenerative-relevant cognitive, motor, and autonomic dysfunction in patients with rapid eye movement sleep behavior disorde",
       "journal": "Sleep",
       "year": 2024,
@@ -1243,13 +1250,6 @@
       "journal": "Plant methods",
       "year": 2024,
       "pmid": "39187896",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Mandibular Advancement vs Combined Airway and Positional Therapy for Snoring: A Randomized Clinical Trial.",
-      "journal": "JAMA otolaryngology-- head & neck surgery",
-      "year": 2024,
-      "pmid": "38780959",
       "tier": "corroborated"
      },
      {
@@ -1481,17 +1481,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Effects of Citalopram on Neuropsychiatric Symptoms in Alzheimer's Dementia: Evidence From the CitAD Study.",
-      "journal": "The American journal of psychiatry",
-      "year": 2016,
-      "pmid": "27032628",
-      "tier": "corroborated"
-     },
-     {
       "title": "Heterogeneity of Treatment Response to Citalopram for Patients With Alzheimer's Disease With Aggression or Agitation: The CitAD Randomized Clinical Trial.",
       "journal": "The American journal of psychiatry",
       "year": 2016,
       "pmid": "26771737",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Effects of Citalopram on Neuropsychiatric Symptoms in Alzheimer's Dementia: Evidence From the CitAD Study.",
+      "journal": "The American journal of psychiatry",
+      "year": 2016,
+      "pmid": "27032628",
       "tier": "corroborated"
      },
      {
@@ -1516,17 +1516,17 @@
       "tier": "corroborated"
      },
      {
+      "title": "Peripheral biomarkers associated with apathy and predicting response to methylphenidate: Secondary analysis of the Apathy in Dementia Methylphenidate Trial 2 (A",
+      "journal": "International psychogeriatrics",
+      "year": 2026,
+      "pmid": "41521126",
+      "tier": "name-only"
+     },
+     {
       "title": "Uncovering lipid biomarkers linked to methylphenidate efficacy in treating apathy in Alzheimer's disease: insights from the ADMET 2 trial.",
       "journal": "Alzheimer's research & therapy",
       "year": 2026,
       "pmid": "42178577",
-      "tier": "name-only"
-     },
-     {
-      "title": "Blood biomarkers for Alzheimer's disease are correlated with measures of agitation and cognition in a randomized trial assessing the effects of escitalopram on ",
-      "journal": "Alzheimer's & dementia (New York, N. Y.)",
-      "year": 2026,
-      "pmid": "41560713",
       "tier": "name-only"
      }
     ],
@@ -1553,16 +1553,16 @@
     "dataYear": 2023,
     "procedures": [
      {
-      "code": "99214",
-      "description": "Established patient office or other outpatient visit, 30-39 minutes",
-      "services": 70,
-      "beneficiaries": 56
-     },
-     {
       "code": "99291",
       "description": "Critical care, first 30-74 minutes",
       "services": 70,
       "beneficiaries": 35
+     },
+     {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 70,
+      "beneficiaries": 56
      },
      {
       "code": "95806",
@@ -1665,7 +1665,7 @@
     "licenseState": "AL",
     "opState": "AL",
     "opCity": "DAPHNE",
-    "specialty": "Allopathic & Osteopathic Physicians|Family Medicine|Sleep Medicine",
+    "specialty": "Allopathic & Osteopathic Physicians|Family Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1407854482"
@@ -1779,20 +1779,6 @@
       "tier": "name-only"
      },
      {
-      "title": "Conserved and variable: Understanding mammary stem cells across species.",
-      "journal": "Cytometry. Part A : the journal of the International Society",
-      "year": 2018,
-      "pmid": "28834173",
-      "tier": "name-only"
-     },
-     {
-      "title": "The secretome from bovine mammosphere-derived cells (MDC) promotes angiogenesis, epithelial cell migration, and contains factors associated with defense and imm",
-      "journal": "Scientific reports",
-      "year": 2018,
-      "pmid": "29599438",
-      "tier": "name-only"
-     },
-     {
       "title": "Differential signaling pathway activation in 7,12-dimethylbenz[a] anthracene (DMBA)-treated mammary stem/progenitor cells from species with varying mammary canc",
       "journal": "Oncotarget",
       "year": 2018,
@@ -1804,6 +1790,20 @@
       "journal": "BMC cancer",
       "year": 2018,
       "pmid": "29649984",
+      "tier": "name-only"
+     },
+     {
+      "title": "Conserved and variable: Understanding mammary stem cells across species.",
+      "journal": "Cytometry. Part A : the journal of the International Society",
+      "year": 2018,
+      "pmid": "28834173",
+      "tier": "name-only"
+     },
+     {
+      "title": "The secretome from bovine mammosphere-derived cells (MDC) promotes angiogenesis, epithelial cell migration, and contains factors associated with defense and imm",
+      "journal": "Scientific reports",
+      "year": 2018,
+      "pmid": "29599438",
       "tier": "name-only"
      },
      {
@@ -1821,9 +1821,9 @@
       "topicKeywords": [
        "bipap",
        "cpap",
+       "family medicine",
        "philips",
-       "positive airway pressure",
-       "sleep medicine"
+       "positive airway pressure"
       ],
       "affiliationGeo": [
        "Alabama",
@@ -2214,6 +2214,18 @@
       "value": 101.33
      },
      {
+      "year": 2019,
+      "value": 43.14
+     },
+     {
+      "year": 2020,
+      "value": 19.94
+     },
+     {
+      "year": 2021,
+      "value": 20.9
+     },
+     {
       "year": 2023,
       "value": 2025.0
      },
@@ -2230,8 +2242,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 173.41,
-      "records": 2
+      "total": 257.39,
+      "records": 6
      }
     ],
     "byCompany": [
@@ -2249,6 +2261,11 @@
       "company": "Abbott Laboratories",
       "total": 101.33,
       "records": 1
+     },
+     {
+      "company": "Neurocrine Biosciences, Inc.",
+      "total": 83.98,
+      "records": 4
      },
      {
       "company": "Medtronic Vascular, Inc.",
@@ -2469,10 +2486,10 @@
     },
     "articles": [
      {
-      "title": "Establishment of DNA methylation during primate germ cell development.",
-      "journal": "Nature communications",
+      "title": "Toward Non-Invasive MR-Based Target Delineation for Ventricular Tachycardia Stereotactic Radiotherapy: Development of a 3D Wideband LGE MRI Technique.",
+      "journal": "International journal of radiation oncology, biology, physic",
       "year": 2026,
-      "pmid": "41951630",
+      "pmid": "42235692",
       "tier": "corroborated"
      },
      {
@@ -2483,13 +2500,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Dosimetry Analysis of",
-      "journal": "Journal of nuclear medicine : official publication, Society ",
-      "year": 2026,
-      "pmid": "41927282",
-      "tier": "corroborated"
-     },
-     {
       "title": "Escherichia coli Nissle 1917 Occupies Previously Undocumented Host Niches in the Insect-Parasitic Nematode Steinernema hermaphroditum.",
       "journal": "Environmental microbiology reports",
       "year": 2026,
@@ -2497,10 +2507,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Respiratory insufficiency and sleep impairment in facioscapulohumeral muscular dystrophy.",
-      "journal": "Neuromuscular disorders : NMD",
+      "title": "Establishment of DNA methylation during primate germ cell development.",
+      "journal": "Nature communications",
       "year": 2026,
-      "pmid": "41980375",
+      "pmid": "41951630",
       "tier": "corroborated"
      },
      {
@@ -2511,6 +2521,20 @@
       "tier": "corroborated"
      },
      {
+      "title": "Dosimetry Analysis of",
+      "journal": "Journal of nuclear medicine : official publication, Society ",
+      "year": 2026,
+      "pmid": "41927282",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Respiratory insufficiency and sleep impairment in facioscapulohumeral muscular dystrophy.",
+      "journal": "Neuromuscular disorders : NMD",
+      "year": 2026,
+      "pmid": "41980375",
+      "tier": "corroborated"
+     },
+     {
       "title": "Dosimetric Comparison of Magnetic Resonance Imaging Guided Versus Reduced Margin Computed Tomography Guided Stereotactic Body Radiation Therapy for Localized Pr",
       "journal": "International journal of radiation oncology, biology, physic",
       "year": 2026,
@@ -2518,24 +2542,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Toward Non-Invasive MR-Based Target Delineation for Ventricular Tachycardia Stereotactic Radiotherapy: Development of a 3D Wideband LGE MRI Technique.",
-      "journal": "International journal of radiation oncology, biology, physic",
-      "year": 2026,
-      "pmid": "42235692",
+      "title": "Validation and Derivation of miRNA-Based Germline Signatures Predicting Radiation Toxicity in Prostate Cancer.",
+      "journal": "Clinical cancer research : an official journal of the Americ",
+      "year": 2025,
+      "pmid": "40192540",
       "tier": "corroborated"
      },
      {
-      "title": "Magnetic Resonance Imaging Sequences and Technologies in Adaptive Radiation Therapy.",
-      "journal": "International journal of radiation oncology, biology, physic",
+      "title": "Physics of Edge-Core Coupling by Inward Turbulence Propagation.",
+      "journal": "Physical review letters",
       "year": 2025,
-      "pmid": "40298856",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Magnetic Resonance Imaging Versus Computed Tomography Guidance for Stereotactic Body Radiotherapy in Prostate Cancer: 2-year Outcomes from the MIRAGE Randomized",
-      "journal": "European urology",
-      "year": 2025,
-      "pmid": "39537438",
+      "pmid": "40577744",
       "tier": "corroborated"
      }
     ],

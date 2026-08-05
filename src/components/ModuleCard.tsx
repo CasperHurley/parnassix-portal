@@ -9,7 +9,6 @@ export function ModuleCard({
   locked,
   price,
   priceSuffix,
-  cls,
   unlockVerb,
   onUnlock,
   notApplicable,
@@ -27,8 +26,6 @@ export function ModuleCard({
   price?: number
   /** e.g. '/mo' for the Demand Map subscription */
   priceSuffix?: string
-  /** token-class chip, e.g. 'II', 'IV', 'sub' */
-  cls?: string
   /** 'Unlock' (default) or 'Subscribe' for recurring items */
   unlockVerb?: string
   onUnlock?: () => void
@@ -46,9 +43,6 @@ export function ModuleCard({
     <section className="module" id={anchorId}>
       <div className="moduleHead">
         <span className="moduleTitle">{title}</span>
-        {cls && (
-          <span className="clsChip">{cls === 'sub' ? 'Subscription' : `Class ${cls}`}</span>
-        )}
         {teaserStats && <span className="moduleTeaserStats">{teaserStats}</span>}
         {notApplicable || hideStatus ? null : locked ? (
           <span className="priceChip">

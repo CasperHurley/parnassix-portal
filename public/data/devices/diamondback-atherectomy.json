@@ -1,0 +1,2951 @@
+{
+ "slug": "diamondback-atherectomy",
+ "name": "Diamondback atherectomy",
+ "maker": "Abbott / CSI \u00b7 Vascular",
+ "rank": 71,
+ "pathway": "mixed \u2014 MUST be split: coronary OAS = PMA P130005 (2013-10-21, 50 rows incl. supplements to 2026-03, code MCX); peripheral OAS = 510(k) (code MCW, K041630 2005 -> K071350 2007 -> ... -> K220568 2022)",
+ "maturity": "dormant",
+ "stats": {
+  "deaths": 322,
+  "injuries": 2501,
+  "malfunctions": 423,
+  "recalls": 12,
+  "classI": 2
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott / CSI \u00b7 Vascular"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "mixed \u2014 MUST be split: coronary OAS = PMA P130005 (2013-10-21, 50 rows incl. supplements to 2026-03, code MCX); peripheral OAS = 510(k) (code MCW, K041630 2005 -> K071350 2007 -> ... -> K220568 2022)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "SPLIT PER INDICATION \u2014 this resolves the meta.score_discrepancy flag. CORONARY (Diamondback 360 Coronary OAS, PMA P130005, code MCX): Riegel-preempted on design/warning, and it carries the MAJORITY of the harm \u2014 MAUDE brand split is MCX 2,127 reports (65%) vs MCW 1,119 (34%) (corpus a5_q2). The parallel-claim seam is THIN: one small 'Nonconforming Material/Component' recall (2015 saline-sheath out"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "dormant"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 322,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 2501,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 423,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 12,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 2,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Adverse Event Without Identified Device or Use Problem",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 9317,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 4787436.24,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Kevin Croce",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "California",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2455,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 0,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 0,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2021-07-21",
+   "classification": "Class II",
+   "reason": "There is a potential mislabeling of the OAD crown sizes:  1.50mm Sold Crown OADs may be packaged s 1.25mm Micro Crown OADs and vice versa.",
+   "status": "Terminated"
+  },
+  {
+   "date": "2018-04-13",
+   "classification": "Class II",
+   "reason": "The pumps may switch to stand-by during use requiring the pump to be reset prior to continuing treatment.",
+   "status": "Terminated"
+  },
+  {
+   "date": "2017-09-14",
+   "classification": "Class II",
+   "reason": "Cardiovascular Systems, Inc. (CSI) is removing the products because it was identified that the labeling for two lots of product s were potentially inadvertently switched during production.",
+   "status": "Terminated"
+  },
+  {
+   "date": "2017-09-14",
+   "classification": "Class II",
+   "reason": "Cardiovascular Systems, Inc. (CSI) is removing the products because it was identified that the labeling for two lots of product s were potentially inadvertently switched during production.",
+   "status": "Terminated"
+  },
+  {
+   "date": "2017-02-09",
+   "classification": "Class II",
+   "reason": "CSI is recalling three lots of VIPERWIRE ADVANCE WITH FLEXTIP PERIPHERAL ATHERECTOMY GUIDEWIRE . It was discovered that 0.018in ViperWire Advance with Flextip product was packaged as a 0.014in ViperWire Advance with Flex",
+   "status": "Terminated"
+  },
+  {
+   "date": "2016-12-07",
+   "classification": "Class II",
+   "reason": "CSI discovered that a 1.50mm Solid Crown OAD was labeled as a 1.50mm Crown OED.",
+   "status": "Terminated"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2009,
+     "value": 2
+    },
+    {
+     "year": 2014,
+     "value": 2
+    },
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 2
+    },
+    {
+     "year": 2017,
+     "value": 3
+    },
+    {
+     "year": 2018,
+     "value": 1
+    },
+    {
+     "year": 2021,
+     "value": 1
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2008,
+     "value": 2
+    },
+    {
+     "year": 2009,
+     "value": 3
+    },
+    {
+     "year": 2010,
+     "value": 2
+    },
+    {
+     "year": 2012,
+     "value": 1
+    },
+    {
+     "year": 2014,
+     "value": 9
+    },
+    {
+     "year": 2015,
+     "value": 8
+    },
+    {
+     "year": 2016,
+     "value": 26
+    },
+    {
+     "year": 2017,
+     "value": 35
+    },
+    {
+     "year": 2018,
+     "value": 42
+    },
+    {
+     "year": 2019,
+     "value": 27
+    },
+    {
+     "year": 2020,
+     "value": 34
+    },
+    {
+     "year": 2021,
+     "value": 32
+    },
+    {
+     "year": 2022,
+     "value": 18
+    },
+    {
+     "year": 2023,
+     "value": 19
+    },
+    {
+     "year": 2024,
+     "value": 33
+    },
+    {
+     "year": 2025,
+     "value": 2
+    },
+    {
+     "year": 2026,
+     "value": 29
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2007,
+     "value": 3
+    },
+    {
+     "year": 2008,
+     "value": 22
+    },
+    {
+     "year": 2009,
+     "value": 41
+    },
+    {
+     "year": 2010,
+     "value": 19
+    },
+    {
+     "year": 2011,
+     "value": 34
+    },
+    {
+     "year": 2012,
+     "value": 83
+    },
+    {
+     "year": 2013,
+     "value": 22
+    },
+    {
+     "year": 2014,
+     "value": 38
+    },
+    {
+     "year": 2015,
+     "value": 68
+    },
+    {
+     "year": 2016,
+     "value": 106
+    },
+    {
+     "year": 2017,
+     "value": 128
+    },
+    {
+     "year": 2018,
+     "value": 276
+    },
+    {
+     "year": 2019,
+     "value": 241
+    },
+    {
+     "year": 2020,
+     "value": 279
+    },
+    {
+     "year": 2021,
+     "value": 295
+    },
+    {
+     "year": 2022,
+     "value": 223
+    },
+    {
+     "year": 2023,
+     "value": 221
+    },
+    {
+     "year": 2024,
+     "value": 259
+    },
+    {
+     "year": 2025,
+     "value": 9
+    },
+    {
+     "year": 2026,
+     "value": 134
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2021,
+     "value": 1657299.9
+    },
+    {
+     "year": 2022,
+     "value": 1559307.59
+    },
+    {
+     "year": 2023,
+     "value": 1145015.27
+    },
+    {
+     "year": 2024,
+     "value": 425813.48
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 7621,
+    "distinctProblemCodes": 102,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 1113,
+      "narrative": "THE DEVICE WAS DISCARDED BY THE FACILITY; THEREFORE, AN ANALYSIS OF THE ACTUAL COMPLAINT DEVICE IS NOT POSSIBLE. THE DEVICE HISTORY RECORD FOR THIS OAD LOT NUMBER HAS BEEN REVIEWED. NO ISSUES OR DISCREPANCIES WERE NOTED DURING THIS REVIEW THAT WOULD HAVE CONTRIBUTED TO THE REPORTED EVENT. THE DEVICE MET MATERIAL, ASSEMBLY, AND QUALITY CONTROL REQUIREMENTS. (B)(4). DISCARDED BY FACILITY."
+     },
+     {
+      "problem": "Material Separation",
+      "reports": 946,
+      "narrative": "THE TIP OF THE DIAMONDBACK 360 CORONARY ORBITAL ATHERECTOMY DEVICE (OAD) DRIVESHAFT FRACTURED DURING THE PROCEDURE. WHEN THE VIPERWIRE ADVANCE GUIDE WIRE WAS REMOVED, THE FRACTURED TIP WAS ATTACHED AND RETRIEVED. IN THE PHYSICIAN'S OPINION, NO OTHER BALLOONS OR STENTS COULD BE DELIVERED WITH SUCH A TIGHT STENOSIS IN THE PATIENT, THEREFORE, THE PROCEDURE WAS ABORTED. THE PATIENT WAS IN STABLE CONDITION AND IN POST-OPE"
+     },
+     {
+      "problem": "Entrapment of Device",
+      "reports": 343,
+      "narrative": "THE REPORTED OAD WAS RECEIVED FOR ANALYSIS. THE DRIVESHAFT WAS FRACTURED AT THE DISTAL EDGE OF THE CROWN. SCANNING ELECTRON MICROSCOPY IDENTIFIED FATIGUE STRIATIONS AT THE SITE OF THE DRIVESHAFT FRACTURE. DRIVESHAFT FLEXING AT THE WELD LOCATION CAN INITIATE FATIGUE. IT IS HYPOTHESIZED THAT THIS DRIVESHAFT UNDERWENT EXCESSIVE FLEXING NEAR THE CROWN DUE TO SPINNING IN EXCESSIVE TORTUOSITY OR RESISTANCE THAT PUSHED THE"
+     },
+     {
+      "problem": "Unintended System Motion",
+      "reports": 114,
+      "narrative": "THE REPORTED OAD WAS RECEIVED FOR ANALYSIS. VISUAL EXAMINATION REVEALED A FILAR FRACTURE AT THE PROXIMAL EDGE OF THE CROWN AND SOME ADHERED BIOLOGICAL MATERIAL ON THE DRIVESHAFT AND CROWN. THE SCANNING ELECTRON MICROSCOPE (SEM) ANALYSIS IDENTIFIED FATIGUE STRIATIONS AT THE SITE OF THE DRIVESHAFT FILAR FRACTURE. DRIVESHAFT FLEXING AT THE WELD LOCATION CAN INITIATE A FATIGUE FAILURE, AND IT IS HYPOTHESIZED THAT THIS DR"
+     },
+     {
+      "problem": "Detachment of Device or Device Component",
+      "reports": 43,
+      "narrative": "LEFT FEMORAL ARTERY WAS ACCESSED FOR THE PROCEDURE. DURING THE INSERTION OF THE CSI ORBITAL ATHERECTOMY DEVICE THE TIP OF THE DEVICE EMBOLIZED IN THE RIGHT COMMON FEMORAL REQUIRING SNARING OF THE TIP. ALL PIECES WERE REMOVED AND NO HARM NOTED TO PATIENT."
+     },
+     {
+      "problem": "Difficult to Remove",
+      "reports": 43,
+      "narrative": "VASCULAR SURGEON USED AN ATHERECTOMY MACHINE CALLED CSI1.25 MICRO MACHINE. THE MANUFACTURER REP WAS PRESENT. PER THE SURGEON, THE GUIDE WIRE GOT STUCK IN THE PATIENT'S VESSEL LIKELY DUE TO CALCIFICATION AND THE PATIENT'S ANATOMY AND THE CURVATURE OF THE ARTERY. IT IS UNKNOWN WHETHER DEVICE MALFUNCTION WAS A CONTRIBUTING FACTOR BUT IT APPEARS THE DEVICE COULD NOT FUNCTION NORMALLY ONCE THE GUIDEWIRE BECAME LODGED. THE"
+     },
+     {
+      "problem": "Device Operates Differently Than Expected",
+      "reports": 37,
+      "narrative": "DEVICE ANALYSIS: THE OAD, WITH THE DISTAL DRIVESHAFT AND CROWN SECTION, WAS RETURNED WITHOUT THE ORIGINAL GUIDE WIRE. THE INITIAL VISUAL AND TACTILE EXAMINATION OF THE HANDLE ASSEMBLY AND SALINE SHEATH REVEALED THAT THE NOSE CONE ASSEMBLY WAS DAMAGED AS A RESULT OF BEING SHIPPED BACK WITHOUT THE PROTECTIVE PRODUCT TRAY. THE DRIVESHAFT WAS BENT AT THIS LOCATION AND IS NOT CONSIDERED A CONTRIBUTING FACTOR TO THE DIFFIC"
+     },
+     {
+      "problem": "Break",
+      "reports": 36,
+      "narrative": "AT THE END OF AN ARTHRECTOMY PROCEDURE IN THE CATH LAB, AS THE CARDIOLOGIST WAS TRYING TO REMOVE THE VIPER WIRE HE REALIZED THAT A PIECE HAD BROKEN OFF IN THE RIGHT CORONARY ARTERY. HE ATTEMPTED TO GRAB IT WITH A SNARE, BUT WAS UNABLE TO DO SO. THUS FAR, THE PATIENT DOES NOT HAVE ADVERSE SYMPTOMS AS A RESULT. CARDIAC SURGEON WAS CONSULTED, WHO DETERMINED IT WAS TO RISKY TO SURGICALLY REMOVE THE PIECE OF WIRE AS IT WO"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 69,
+    "citations": 114,
+    "anchors": [
+     "K220568",
+     "K220109",
+     "K210586",
+     "K203008",
+     "K190634",
+     "K182397",
+     "K170792",
+     "K152694",
+     "K150732",
+     "K133999",
+     "K133399",
+     "K111388",
+     "K100377",
+     "K090521",
+     "K082981",
+     "K081944",
+     "K072748",
+     "K072800",
+     "K071427",
+     "K071350"
+    ],
+    "accessories": 2,
+    "generationsUp": 3,
+    "generationsDown": 4
+   },
+   "payload": {
+    "anchors": [
+     "K220568",
+     "K220109",
+     "K210586",
+     "K203008",
+     "K190634",
+     "K182397",
+     "K170792",
+     "K152694",
+     "K150732",
+     "K133999",
+     "K133399",
+     "K111388",
+     "K100377",
+     "K090521",
+     "K082981",
+     "K081944",
+     "K072748",
+     "K072800",
+     "K071427",
+     "K071350"
+    ],
+    "accessories": [
+     {
+      "k": "K180416",
+      "name": "ViperWire Advance Guide Wire, Stealth 360 Orbital Peripheral Atherectomy Device ",
+      "date": "2018-04-17"
+     },
+     {
+      "k": "K151260",
+      "name": "ViperWire Advance Guide Wire, Diamondback 360 Peripheral Orbital Atherectomy Sys",
+      "date": "2015-06-10"
+     }
+    ],
+    "nodes": [
+     {
+      "k": "K002607",
+      "name": "MOSS MIAMI 6.35MM ROD SYSTEM MONOAXIAL SCREWS, POLYAXIAL REDUCTION SCREWS AND SA",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K011508",
+      "name": "CD HORIZON SPINAL SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K021756",
+      "name": "WELCH ALLYN ABPM 6100",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K022623",
+      "name": "5.0 MM DIAMETER POLYAXIAL SCREWS (MOSS MIAMI 6.35MM SYSTEM)",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K024243",
+      "name": "REFORM PERIPHERAL CATHETER SYSTEM, MODEL 02200; REFORM PERIPHERAL CATHETERCATHET",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K031655",
+      "name": "CD HORIZON SPINAL SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K041460",
+      "name": "CD HORIZON SPINAL SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K041630",
+      "name": "ORBITAL ATHERECTOMY SYSTEM FOR TREATMENT OF A-V SHUNT STENOSIS",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K043553",
+      "name": "SILVERHAWK PERIPHERAL PLAQUE EXCISION SYSTEM, MODELS 02550,04800, 05200, 02406, ",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K071350",
+      "name": "DIAMONDBACK 360 DEGREE ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K071427",
+      "name": "DIAMONDBACK 360 DEGREE ORBITAL ATHERECTOMY SYSTEM FOR TREATMENT OF A-V SHUNT STE",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K072748",
+      "name": "MODIFICATION TO: DIAMONDBACK 360 ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K072800",
+      "name": "DIAMONDBACK 360 DEGREE ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K073198",
+      "name": "MICROLIFE UPPER ARM AUTOMATIC DIGITAL BLOOD PRESSURE MONITOR, MODEL WATCHBP HOME",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K081944",
+      "name": "MODIFICATION TO DIAMONDBACK 360 DEGREE ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K082881",
+      "name": "MICROLIFE UPPER ARM AUTOMATIC DIGITAL BLOOD PRESSURE MONITOR, MODEL WATCHBP O3",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K082981",
+      "name": "DIAMONDBACK 360 DEGREE ORBITAL ATHERECTOMY SYSTEM WITH VIPERSLIDE LUBRICANT",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K090521",
+      "name": "DIAMONDBACK 360 DBX",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K100377",
+      "name": "DIAMONDBACK SPINAL SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K110389",
+      "name": "STEALTH 360 ORBITAL PAD SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K111301",
+      "name": "INSTINCT JAVA SYSTEM",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K111388",
+      "name": "DIAMONDBACK 360* ORBITAL ATHERECTOMY SYSTEM, STEALTH 360* ORBITAL PAD SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K112308",
+      "name": "CROSSER RECANALIZATION SYSTEM",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K122592",
+      "name": "INSTINCT JAVA SYSTEM",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K122987",
+      "name": "STEALTH 360 ORBITAL PAD SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K131092",
+      "name": "STEALTH 360 ORBITAL PAD SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K133399",
+      "name": "DIAMONDBACK 360 PERIPHERAL ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K133999",
+      "name": "DIAMONDBACK 360 PERIPHERAL ORBITAL ATHERECTOMY SYSTEM",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K150732",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K151260",
+      "name": "ViperWire Advance Guide Wire, Diamondback 360 Peripheral Orbital Atherectomy Sys",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K152694",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K161208",
+      "name": "CROSSER CTO Recanalization Catheter",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K161986",
+      "name": "SIDEKICK and USHER Support Catheters",
+      "anchor": false,
+      "level": -3
+     },
+     {
+      "k": "K170792",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K180416",
+      "name": "ViperWire Advance Guide Wire, Stealth 360 Orbital Peripheral Atherectomy Device ",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K182397",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System Exchangeable Series",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K190634",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System, Stealth 360 Peripheral Or",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K203008",
+      "name": "DIAMONDBACK 360 Peripheral Orbital Atherectomy System, DIAMONDBACK 360 Periphera",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K203275",
+      "name": "Recon Support Catheter",
+      "anchor": false,
+      "level": -4
+     },
+     {
+      "k": "K203363",
+      "name": "Crosser iQ CTO Recanalization System",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K210586",
+      "name": "Diamonback 360 Peripheral Orbital Atherectomy System, Diamondback 360 Stealth Or",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K220109",
+      "name": "DIAMONDBACK 360 Peripheral Orbital Atherectomy System, DIAMONDBACK 360 Periphera",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K220568",
+      "name": "Diamondback 360 Peripheral Orbital Atherectomy System, Stealth 360 Peripheral Or",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K231538",
+      "name": "FreedomFlow Orbital Circumferential Atherectomy System",
+      "anchor": false,
+      "level": 0
+     },
+     {
+      "k": "K233483",
+      "name": "FreedomFlow Orbital Circumferential Atherectomy System (H6004/5Fr 3-Sphere Confi",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K241663",
+      "name": "Eminent Spine 3D Titanium Pedicle Screw System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K242069",
+      "name": "Eminent Spine Scoliosis Deformity Pedicle Screw System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K242947",
+      "name": "FreedomFlow\u0099 Orbital Circumferential Atherectomy System",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K250723",
+      "name": "FreedomFlow\u0099 Orbital Circumferential Atherectomy System (H6005/ 4Fr 3-Sphere Con",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K871011",
+      "name": "SIMPSON PERIPHERAL ATHEROCATH(TM)",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K874706",
+      "name": "MODIFIED SIMPSON PERIPHERAL ATHEROCATH",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K881088",
+      "name": "ADDITION OF A TIP GUARD TO THE ATHEROCATH(TM)",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K883346",
+      "name": "SIMPSON PERIPHERAL ATHEROCATH W/ADDIT. SIZE 13F",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K901206",
+      "name": "ROTABLATOR",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K910080",
+      "name": "KALTOSTAT WOUND PACKING",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K912357",
+      "name": "3K-CAL HEMATOLOGY CALIBRATOR/MULTIPLE",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K925899",
+      "name": "AMBULATORY BLOOD PRESSURE MONITOR, MDL# 5100-01",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K933881",
+      "name": "DEPUY MOTECH MOSS-MIAMI SPINAL SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K950099",
+      "name": "SYNERGY(TM) TI POSTERIOR SPINAL SYSTEM",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K950697",
+      "name": "DEPUY MOTECH MOSS MIAMI SPINAL SYSTEM - PEDICLE FIXATION",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K953882",
+      "name": "",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K953915",
+      "name": "MOSS MIAMI SPINAL SYSTEM (ANTERIOR USE)",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K955348",
+      "name": "TITANIUM MOSS MIAMI SPINAL SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K964024",
+      "name": "DEPUY MOTECH TITANIUM MOSS MIAMI SPINAL SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K970080",
+      "name": "ARROW-TREROTOLA PTD CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K972357",
+      "name": "BLUE MAX - 20 BALLOON DILATATION CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K974749",
+      "name": "SYNERGY CLOSED VARIABLE LOCKING SCREW (VLS), PART OF THE CROSS MEDICAL-SYNERGY A",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K983583",
+      "name": "DEPUY ACROMED MOSS AND MOSS MIAMI SPINAL SYSTEMS",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K992168",
+      "name": "MOSS MIAMI 6.35MM POLYAXIAL SCREW",
+      "anchor": false,
+      "level": 1
+     }
+    ],
+    "edges": [
+     {
+      "from": "K071350",
+      "to": "K043553",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K90 1206 Manufacture: Heart Technologies (Acquired by Boston Scientific) Trade Name: Rotablator Peripheral Atherectomy Device SI10(k) Number: K043553 Manufacture: Fox Hollow, hic. Trade Name: Silver Hawk Peripheral Plaque Excision System 5 10(k) Number: K041630 Manufacture:",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071350",
+      "to": "K901206",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 1,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K071350",
+      "to": "K041630",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Rotablator Peripheral Atherectomy Device SI10(k) Number: K043553 Manufacture: Fox Hollow, hic. Trade Name: Silver Hawk Peripheral Plaque Excision System 5 10(k) Number: K041630 Manufacture: Cardiovascular Systems, Inc. Trade Name: CSI A-V Graft System 1.0 Description of Device",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K071427",
+      "to": "K041630",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "eral Atherectomy Catheter\n21 CFR \u00a7870.4875\nProduct Code: MCW\nPredicate Device(s): The subject device is equivalent to the following device: K041630,\nOrbital Atherectomy System for Treatment of A-V Shunt Stenosis\nDevice Description: The Diamondback 360\u00b0 ' m Orbital Atherectomy",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K072748",
+      "to": "K071427",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "the body. This same technology was cleared to market for use in peripheral arteries in 5 10(k) K071350 and for use in A-V grafts in 510(k) K071427. 5.4 Conclusions The Diamondback 3600TM Orbital Atherectomy System is substantially equivalent to the predicate devices. Laboratory",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K072748",
+      "to": "K071350",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ectomny Device\nClassification Name: Peripheral Atherectomy Catheter (21 CFR 870.4875; Product Code:\nMCW)\nPredicate Device:\n5 1 0(k) Number: K071350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 3600TM Orbital Atherectomry System\n5 10(k) Number: K07",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K072800",
+      "to": "K071350",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Peripheral Atherectomy Device Classification Name: Peripheral Atherectomy Catheter (21 CFR 870.4875; Product Code: MCW) Predicate Device: 5 10(k) Number: K071350 Manufacture: Cardiovascular Systems, Inc. Trade Name: Diamondback 360TM Orbital Atherectomy System 5 10(k) Number:",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K072800",
+      "to": "K071427",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "5 10(k) Number: K071350 Manufacture: Cardiovascular Systems, Inc. Trade Name: Diamondback 360TM Orbital Atherectomy System 5 10(k) Number: K071427 Manufacture: Cardiovascular Systems, Inc. Trade Name: Diamondback 360TM Orbital Atherectomy System 5.1 Description of Device The",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K081944",
+      "to": "K071350",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "510(k) Number: K072748\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 3600TM Orbital Atherectomy System\n5 10(k) Number: K071350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360 \u00b0 TM Orbital Atherectomy System\n5.1 Description of Device\nThe",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K081944",
+      "to": "K072748",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Peripheral Atherectomy Device Classification Name: Peripheral Atherectomy Catheter (21 CFR 870.4875; Product Code: MCW) Predicate Device: 510(k) Number: K072748 Manufacture: Cardiovascular Systems, Inc. Trade Name: Diamondback 3600TM Orbital Atherectomy System 5 10(k) Number:",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K081944",
+      "to": "K071427",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "absorbed by the body. This same technology was cleared to market for use in peripheral arteries in 510(k) K071350, for use in A-V shunts in 510(k) K071427 and for a solid crown configuration per K072748. 5.4 Conclusions The Diamondback 3600TM Orbital Atherectomy System with",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K082981",
+      "to": "K082881",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Section. 4\nIndications For Use Statement\n510(k) Number: _\nK082881\nDevice Name: Diamondback 360\u00b0 Orbital Atherectomy Systom with ViperSlide\u2122\nLubricant\nIndications for Use:\nThe Diamondback 360\u00b0TM Orbital Ath",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K090521",
+      "to": "K081944",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "10(k) Number: K071350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360 \u00b0 TM Orbital Atherectomy System\n5 10(k) Number: K081944\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Sidewinder Diamondback 360 \u00b0 TM Orbital\nAtherectomy System\n5.1 Description of",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K090521",
+      "to": "K071427",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "and can be absorbed by the body. This same technology was cleared to market for use in peripheral arteries in 510(k) K071350, A-V grafts per K071427, Solid Crown per K072748, and Solid Crown with Sidewinder Shaft per K081944. 5.4 Conclusions The 3X Solid Crown Diamondback 360\u00b0",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K090521",
+      "to": "K071350",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "10(k) Number: K072748\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360 \u00b0 TM Orbital Atherectomy System\n5 10(k) Number: K071350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360 \u00b0 TM Orbital Atherectomy System\n5 10(k) Number:",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K090521",
+      "to": "K072748",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "herectomy Device\nClassification Name: Peripheral Atherectomy Catheter (21 CFR 870.4875; Product Code:\nMCW)\nPredicate Device:\n510(k) Number: K072748\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360 \u00b0 TM Orbital Atherectomy System\n5 10(k) Number:",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K950099",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "titanium alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K022623",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "manufactured from titanium alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K041460",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The Diamondback~m Spinal System components are manufactured from titanium alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K974749",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K992168",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The Diamondback~m Spinal System components are manufactured from titanium alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100377",
+      "to": "K031655",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "The Diamondback~m Spinal System components are manufactured from titanium alloy (Ti-6A1-4V) as described by ASTM F136. Predicate Devices: CD HORIZON\u00ae (K031655/K041460) Moss Miami (K992168/K022623) Synergy VLS (K950099/K974749",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111388",
+      "to": "K110389",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 1,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K111388",
+      "to": "K082981",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "10 (k) Number: K07 1427\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360\u00ae Orbital Atherectomy System\n5 10 (k) Number: K082981\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360\u00ae Orbital Atherectomy System\nwith ViperSlide Lubricant\n5 10(k)",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111388",
+      "to": "K071350",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "rectomy Device\nClassification Name: Peripheral Atherectomy Catheter (21 CFR 870.4875; Product Code:\nMCW)\nPredicate Devices:\n5 10(k) Number: K071350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360\u00ae Orbital Atherectomy System\n5 10 (k) Number: K07",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K111388",
+      "to": "K090521",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "The use of lubricant with the Diamondback 3600 GAS was cleared to market for use in peripheral arteries in 5 10(k) K071350 and K082981, Predator 360' (originally cleared as 3X) per K090521, Stealth 3600 per Kl 10389, and for use in A-V grafts in 5 10(k) K071427. Cardiovascular",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K111388",
+      "to": "K071427",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K071350 and K082981, Predator 360' (originally cleared as 3X) per K090521, Stealth 3600 per Kl 10389, and for use in A-V grafts in 5 10(k) K071427. Cardiovascular Systems, Inc. Diamondback 360' OAS 6-2",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K133399",
+      "to": "K131092",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "theter, Peripheral, Atherectomy\n21 CFR 870.4875Intraluminal Artery Stripper\nII\n510(k) Number:\nManufacturer:\nTrade Name:\nK110389, K122987, & K131092\nCardiovascular Systems, Inc.\nStealth 36008 Orbital PAD System\n6.1 Description of Device\nThe Die rebe of petite oil an ev my saim",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K133399",
+      "to": "K122987",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "stem\nMCW-Catheter, Peripheral, Atherectomy\n21 CFR 870.4875Intraluminal Artery Stripper\nII\n510(k) Number:\nManufacturer:\nTrade Name:\nK110389, K122987, & K131092\nCardiovascular Systems, Inc.\nStealth 36008 Orbital PAD System\n6.1 Description of Device\nThe Die rebe of petite oil an ev",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K133399",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ectomy System\nMCW-Catheter, Peripheral, Atherectomy\n21 CFR 870.4875Intraluminal Artery Stripper\nII\n510(k) Number:\nManufacturer:\nTrade Name:\nK110389, K122987, & K131092\nCardiovascular Systems, Inc.\nStealth 36008 Orbital PAD System\n6.1 Description of Device\nThe Die rebe of petite",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K133999",
+      "to": "K122987",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MCW--Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875-Intraluminal Artery Stripper Classification: 11 Predicate Devices: 510(k) Numbers: KI 10389, K122987, & K(131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360'09 Orbital PAD",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K133999",
+      "to": "K131092",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "body. This is the same technology that was cleared to market for use in the peripheral arteries for Stealth 3600 in 5 10(k) Ki 10389, K122987, K131092 and for Diamondback 3600 Peripheral per K133399. 6.5 Performance Data The Diamondback 360 Peripheral Orbital Atherectomy System",
+      "hop": 1,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K133999",
+      "to": "K133399",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "KI 10389, K122987, & K(131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360'09 Orbital PAD System, Model PRD- SC30-125 5 10(k) Number: K133399 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360\u00ae Peripheral Orbital Atherectomy System,",
+      "hop": 1,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K150732",
+      "to": "K131092",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, & K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360\u00b0\u00ae Orbital PAD",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K150732",
+      "to": "K122987",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, & K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360\u00b0\u00ae Orbital PAD",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K150732",
+      "to": "K133999",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "for use in the peripheral arteries for Stealth 360\u00b0 in 510(k) K110389, K122987, K131092 and for Diamondback 360\u00b0 Peripheral per K133399, and K133999. Cardiovascular Systems, Inc. (CSI) Diamondback 360\u00ae Peripheral Orbital Atherectomy System 6-2",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K150732",
+      "to": "K133399",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K110389, K122987, & K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360\u00b0\u00ae Orbital PAD System, Model PRD-SC30-125 510(k) Number: K133399 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360\u00ae Peripheral Orbital Atherectomy System, Model",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K150732",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, & K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360\u00b0\u00ae Orbital PAD",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K152694",
+      "to": "K151260",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "Manufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\nReference Devices:\n510(k) Numbers: K122987, K131092, K151260\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\n510(k) Number: K150732,",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K152694",
+      "to": "K122987",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": ") Number: K110389\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\nReference Devices:\n510(k) Numbers: K122987, K131092, K151260\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\n510(k) Number: K150732,",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K152694",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "rectomy\nClassification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper\nClassification: II\nPrimary Predicate Device:\n510(k) Number: K110389\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\nReference Devices:\n510(k) Numbers: K122987,",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K152694",
+      "to": "K131092",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "K110389\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\nReference Devices:\n510(k) Numbers: K122987, K131092, K151260\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\n510(k) Number: K150732,",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K152694",
+      "to": "K150732",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "k) Numbers: K122987, K131092, K151260\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Stealth 360\u00b0\u00aeOrbital PAD System\n510(k) Number: K150732, K151260\nManufacturer: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360\u00aePeripheral Orbital\nAtherectomy System\nPage 1 of 3",
+      "hop": 1,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K170792",
+      "to": "K152694",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Number: K152694 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360\u00ae Peripheral Orbital Atherectomy",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K182397",
+      "to": "K152694",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Exchangeable Series Common Name: Intraluminal Artery Stripper Classification: Class II, 21 CFR 870.4875 Product Code: MCW Predicate Device: K152694 - Diamondback 360\u00ae Peripheral Orbital Atherectomy System (Cardiovascular Systems, Inc.) Device Description: The DIAMONDBACK 360",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K190634",
+      "to": "K182397",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Speed Range\nHigh (140 kRPM -\nclassic crowns only)\nSame as predicate 1.25MICRO145 No impact. This\nonly function was\nGllideAssist (cleared in K182397)\ncleared in\nK182397.\nSame as predicate Same as predicate NA \u2013 No\nSterile Yes\ndifference\nSame as predicate Same as predicate NA \u2013",
+      "hop": 1,
+      "dir": "up",
+      "page": 8
+     },
+     {
+      "from": "K190634",
+      "to": "K152694",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Atherectomy System Common Name: Intraluminal Artery Stripper Classification: Class II, 21 CFR 870.4875 Product Code: MCW Predicate Device: K152694 - Diamondback 360\u00ae Peripheral Orbital Atherectomy System (Cardiovascular Systems, Inc.) Device Description: The Diamondback 360 and",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K203008",
+      "to": "K190634",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Stealth 360 Peripheral Orbital Atherectomy System Common Intraluminal Artery Stripper Name: Classificatio Class II, 21 CFR 870.4875 n: Product MCW Code: Predicate \u2022 K190634 - DIAMONDBACK 360\u00ae and Stealth 360\u00ae Peripheral Orbital Device(s): Atherectomy Systems (Cardiovascular",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K203008",
+      "to": "K182397",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate \u2022 K190634 - DIAMONDBACK 360\u00ae and Stealth 360\u00ae Peripheral Orbital Device(s): Atherectomy Systems (Cardiovascular Systems, Inc.) \u2022 K182397 - DIAMONDBACK 360\u00ae Peripheral Orbital Atherectomy System Exchangeable Series Page 1 of 4",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K210586",
+      "to": "K190634",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ystem\nCommon Name: Intraluminal Artery Stripper\nRegulation Number: 870.4875\nClassification: Class II\nProduct Code: MCW\nPredicate Device(s): K190634-Diamondback 360[Stealth]Peripheral Orbital\nAtherectomy System (Cardiovascular Systems, Inc.)\nDevice Description: The Diamondback360",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K220109",
+      "to": "K182397",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate \u2022 K190634 - DIAMONDBACK 360\u00ae and Stealth 360\u00ae Peripheral Orbital Device(s): Atherectomy Systems (Cardiovascular Systems, Inc.) \u2022 K182397 - DIAMONDBACK 360\u00ae Peripheral Orbital Atherectomy System Exchangeable Series Device The DIAMONDBACK 360 Peripheral OAS, Stealth 360",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K220109",
+      "to": "K190634",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Stealth 360 Peripheral Orbital Atherectomy System Common Intraluminal Artery Stripper Name: Regulation 21 CFR 870.4875 Number: Classification: Class II Product MCW Code: Predicate \u2022 K190634 - DIAMONDBACK 360\u00ae and Stealth 360\u00ae Peripheral Orbital Device(s): Atherectomy Systems",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K220568",
+      "to": "K203008",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Name: Intraluminal Artery Stripper Classification: Class II, 21 CFR 870.4875 Product Code: MCW Predicate Device(s): \u2022 Diamondback/Stealth = K203008 \u2022 Exchangeable = K203008 Reference Device \u2022 Predator = K090521 1",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K220568",
+      "to": "K090521",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "Class II, 21 CFR 870.4875 Product Code: MCW Predicate Device(s): \u2022 Diamondback/Stealth = K203008 \u2022 Exchangeable = K203008 Reference Device \u2022 Predator = K090521 1",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K022623",
+      "to": "K983583",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Pedicle Fixation PROPRIETARY NAME: 5.0mm Diameter Polyaxial Screws for the Moss Miami 6.35mm System PREDICATE DEVICES: Moss Miami Spinal System (K983583, K992168 & K002607) INTENDED USE: When used as a posterior, noncervical hook, and/or sacral/iliac screw fixation system, or as",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022623",
+      "to": "K992168",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Fixation PROPRIETARY NAME: 5.0mm Diameter Polyaxial Screws for the Moss Miami 6.35mm System PREDICATE DEVICES: Moss Miami Spinal System (K983583, K992168 & K002607) INTENDED USE: When used as a posterior, noncervical hook, and/or sacral/iliac screw fixation system, or as an",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K022623",
+      "to": "K002607",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "PROPRIETARY NAME: 5.0mm Diameter Polyaxial Screws for the Moss Miami 6.35mm System PREDICATE DEVICES: Moss Miami Spinal System (K983583, K992168 & K002607) INTENDED USE: When used as a posterior, noncervical hook, and/or sacral/iliac screw fixation system, or as an anterior,",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041460",
+      "to": "K011508",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "which demonstrated the CD HORIZON\u00ae Spinal System to be substantially equivalent to CD HORIZON\u00ae Spinal System components previously cleared in K011508.",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K041630",
+      "to": "K901206",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "21 CFR 870.4875, Peripheral Atherectomy Catheter Predicate Device: 510(k) Number: K970080 Manufacture: Arrow Trade Name: Arrow-Tremtola PTD 510(k) Number: K901206 Manufacture: Boston Scientific (Acquired from Heart Technology, Inc.) Trade Name: Rotablator Orbital Atherectomy",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041630",
+      "to": "K970080",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Name: Peripheral Atherectomy Device Classification Name: 21 CFR 870.4875, Peripheral Atherectomy Catheter Predicate Device: 510(k) Number: K970080 Manufacture: Arrow Trade Name: Arrow-Tremtola PTD 510(k) Number: K901206 Manufacture: Boston Scientific (Acquired from Heart",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K041630",
+      "to": "K972357",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Boston Scientific (Acquired from Heart Technology, Inc.)\nTrade Name: Rotablator Orbital Atherectomy System - Peripheral Use\n5 10(k) Number: K972357\nManufacture: Boston Scientific\nFrade Name- Blue Max~ 2f0 \" Balloon Catheter\n1.0 Description of Device\nFhe Orbital Atherectomy",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K043553",
+      "to": "K881088",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "the ReForm Peripheral Catheter System which was found to be substantially equivalent to the Simpson Peripheral Atherocath (K871011, K874706, K881088 and K883346). Both the SilverHawk Peripheral Plaque Excision System and the ReForm Peripheral Catheter System are designed for",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K043553",
+      "to": "K883346",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Peripheral Catheter System which was found to be substantially equivalent to the Simpson Peripheral Atherocath (K871011, K874706, K881088 and K883346). Both the SilverHawk Peripheral Plaque Excision System and the ReForm Peripheral Catheter System are designed for atherectomy of",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K043553",
+      "to": "K874706",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "indication for the ReForm Peripheral Catheter System which was found to be substantially equivalent to the Simpson Peripheral Atherocath (K871011, K874706, K881088 and K883346). Both the SilverHawk Peripheral Plaque Excision System and the ReForm Peripheral Catheter System are",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K043553",
+      "to": "K024243",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ipheral, Atherectomy\nProprietaryN ame: SilverHawk Peripheral Plaque Excision System\nPredicate Device\nThe ReFORM Peripheral Catheter System (K024243), currently marketed by FoxHollow Technologies,\nInc. (Redwood City, CA).\nSummary\nThis summary of Special 5 10(k) safety and",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K043553",
+      "to": "K871011",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "approved indication for the ReForm Peripheral Catheter System which was found to be substantially equivalent to the Simpson Peripheral Atherocath (K871011, K874706, K881088 and K883346). Both the SilverHawk Peripheral Plaque Excision System and the ReForm Peripheral Catheter",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K082881",
+      "to": "K021756",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Microlife Upper Arm Automatic Digital Blood Pressure Monitor, Model WatchBP Home (BP3MX1-1), K073198, Microlife Intellectual Property GmbH. b. Welch Allyn ABPM 6100, K021756, Welch Allyn Inc. 4. Device Description: Microlife Upper Arm Automatic Digital Blood Pressure Monitor,",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K082881",
+      "to": "K073198",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Information for the 510(k) Cleared Device (Predicate Device): a. Microlife Upper Arm Automatic Digital Blood Pressure Monitor, Model WatchBP Home (BP3MX1-1), K073198, Microlife Intellectual Property GmbH. b. Welch Allyn ABPM 6100, K021756, Welch Allyn Inc. 4. Device Description:",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K110389",
+      "to": "K090521",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "10 (k) Number: K07 1350\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback 360\u00ae Orbital Atherectomy System\n5 10 (k) Number: K090521\nManufacture: Cardiovascular Systems, Inc.\nTrade Name: Diamondback Predator 360\u00ae Orbital Atherectomy\nSystem\n6.1 Description of",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K110389",
+      "to": "K071350",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 2,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K122987",
+      "to": "K090521",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "y. This same technology was\ncleared to market for use in 5 10(k) KI 10389, 510(k) K071350, and Predator 3600\n(originally cleared as 3X) per K090521.\nThe device crowns are comprised of blanks that are plated and diamond coated. The\nprimary difference between the device that is",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K122987",
+      "to": "K071350",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "hat are\nremoved are small enough to be absorbed by the body. This same technology was\ncleared to market for use in 5 10(k) KI 10389, 510(k) K071350, and Predator 3600\n(originally cleared as 3X) per K090521.\nThe device crowns are comprised of blanks that are plated and diamond",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K131092",
+      "to": "K122987",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "r, Peripheral, Atherectomy\n21 CFR 870.4875-Intraluminal Artery Stripper\nJUN 2 4 2013\n5.1\n510(k) Number:\nManufacturer:\nTrade Name:\nK110389 & K122987\nCardiovascular Systems, Inc.\nStealth 3600\u00ae Orbital PAD System\nDescription of Device\nThe Stealth 360\u00ba Orbital PAD System is an",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K131092",
+      "to": "K090521",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "body. This same technology was cleared to market for use in 510(k) K122987, K110389, K071350, and Predator 360\u00b0 (originally cleared as 3X) per K090521. The current printed circuit board assembly (PCBA) used in the OAD is developed and purchased externally. A CSI developed board",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K131092",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "CW-Catheter, Peripheral, Atherectomy\n21 CFR 870.4875-Intraluminal Artery Stripper\nJUN 2 4 2013\n5.1\n510(k) Number:\nManufacturer:\nTrade Name:\nK110389 & K122987\nCardiovascular Systems, Inc.\nStealth 3600\u00ae Orbital PAD System\nDescription of Device\nThe Stealth 360\u00ba Orbital PAD System",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K131092",
+      "to": "K071350",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "The stenotic particles that are removed are small enough to be absorbed by the body. This same technology was cleared to market for use in 510(k) K122987, K110389, K071350, and Predator 360\u00b0 (originally cleared as 3X) per K090521. The current printed circuit board assembly",
+      "hop": 2,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K151260",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360 Orbital PAD System",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151260",
+      "to": "K131092",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360 Orbital PAD System",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151260",
+      "to": "K150732",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "510(k) Numbers: K110389, K122987, K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360 Orbital PAD System 510(k) Number: K133399, K150732 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360 Peripheral Orbital Atherectomy System",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151260",
+      "to": "K133399",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "510(k) Numbers: K110389, K122987, K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360 Orbital PAD System 510(k) Number: K133399, K150732 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360 Peripheral Orbital Atherectomy System",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K151260",
+      "to": "K122987",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Predicate Devices: 510(k) Numbers: K110389, K122987, K131092 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360 Orbital PAD System",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K992168",
+      "to": "K964024",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "and contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K992168",
+      "to": "K950697",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "use, materials, design, and relative indications and contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K992168",
+      "to": "K933881",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "materials, design, and relative indications and contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K992168",
+      "to": "K953882",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "intended use, materials, design, and relative indications and contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K992168",
+      "to": "K955348",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K992168",
+      "to": "K983583",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "equivalence in intended use, materials, design, and relative indications and contraindications to the existing Moss Miami Polyaxial Screw System (K983583, K953882, K950697 and K933881 (stainless steel) and K983583, K964024, K955348 (titanium alloy).",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K021756",
+      "to": "K925899",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "s\n5 1O(k) Document Control Number KO1 0622\nWelch Allyn Ambulatory Blood Pressure Monitor\nWelch Allyn, Inc.\n5 1O (k) Document Control Number K925899\nPage 10",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K024243",
+      "to": "K883346",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "eral Atherocath\nPredicate Device Manufacturer(s) Devices for Vascular Intervention\nPredicate Device Reference(s) K871011, K874706, K881088, K883346\nPredicate Device Proprietary Name(s) Si mp son Pe rip h era I At herocath\nPredicate Device Classification Name(s) Catheter,",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K024243",
+      "to": "K874706",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ice Simpson Peripheral Atherocath\nPredicate Device Manufacturer(s) Devices for Vascular Intervention\nPredicate Device Reference(s) K871011, K874706, K881088, K883346\nPredicate Device Proprietary Name(s) Si mp son Pe rip h era I At herocath\nPredicate Device Classification Name(s)",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K024243",
+      "to": "K871011",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "icate Device Simpson Peripheral Atherocath\nPredicate Device Manufacturer(s) Devices for Vascular Intervention\nPredicate Device Reference(s) K871011, K874706, K881088, K883346\nPredicate Device Proprietary Name(s) Si mp son Pe rip h era I At herocath\nPredicate Device",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K024243",
+      "to": "K881088",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "on Peripheral Atherocath\nPredicate Device Manufacturer(s) Devices for Vascular Intervention\nPredicate Device Reference(s) K871011, K874706, K881088, K883346\nPredicate Device Proprietary Name(s) Si mp son Pe rip h era I At herocath\nPredicate Device Classification Name(s)",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K964024",
+      "to": "K955348",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "hooks, transverse connectors, axial connectors, washers and staple washers. Titanium components of the MOSS Miami Spinal System were cleared in K955348 for the intended uses listed above. The components that were cleared included 5.5mm longitudinal smooth rods, 6 and 7mm",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K964024",
+      "to": "K953915",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "slightly larger diameter than the 7mm screws. The 5mm Titanium screws have the same design as the 5mm Stainless Steel screws that were cleared in K953915.",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K970080",
+      "to": "K910080",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "mits mechanical declotting of acute clot in\nthrombosed dialysis grafts.\n(\nTau t Rep\n(Divisio: Ner\n: Carcievascular\n'estratory,\nand... 102:3\nK910080\n9691",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K972357",
+      "to": "K912357",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "escription Use\n(Per 21 CFR 201.109)\nOR\n(Division Sign-Off)\nDivision of Cardiovascular, Respiratory,\nand Neurological Devices\n510(k) Number.\nK912357\nOver-The-Counter Use\n(Optional Format 1-2-96)\n...",
+      "hop": 3,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K111301",
+      "to": "K100377",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 1,
+      "dir": "down",
+      "page": null
+     },
+     {
+      "from": "K112308",
+      "to": "K090521",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(K091119; cleared May\n15, 2009)\n\u2022 Models: GEN200, CRUS6 (K092175; cleared February 17, 2010)\n\u2022 Diamondback 360 Orbital Atherectomy System (K090521; cleared March\n20,2009)\n\u2022 Jetstream System (K110626; cleared April 20, 2011)\nFlowCardia, Inc.\nBARD\n\u2022",
+      "hop": 1,
+      "dir": "down",
+      "page": 1
+     },
+     {
+      "from": "K180416",
+      "to": "K170792",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Trade Name: Stealth 360\u00ae PAD System and Diamondback 360\u00ae Peripheral Orbital Atherectomy System Additional Reference Predicate: 510(k) Number: K170792 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Diamondback 360\u00ae Peripheral Orbital Atherectomy System Description of",
+      "hop": 1,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K241663",
+      "to": "K100377",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "21 CFR 888.3070 Device Classification: Class II Reviewing Panel: Orthopedic Product Code: NKB Primary Predicate Device: Diamondback Spinal System (K100377) Additional Predicate Devices: Synergy CLS (Interpore Cross International (K950099/K974749) Moss Miami System (DuPuy,",
+      "hop": 1,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K242069",
+      "to": "K100377",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "3070 - Thoracolumbarsacral Pedicle Screw System Reviewing Panel: Orthopedic Product Code: NKB Primary Predicate Device: Eminent Spine Diamondback Pedicle Screw System (K100377) Additional Predicate Devices: NEXXT Spine Inertia\u00ae Pedicle and Deformity Correxxion System (K153453)",
+      "hop": 1,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K122592",
+      "to": "K111301",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 2,
+      "dir": "down",
+      "page": null
+     },
+     {
+      "from": "K161208",
+      "to": "K112308",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Total Occlusions\nReviewPanel: Cardiovascular\nRegulation Number: 21 CFR 870.1250\n3. Predicate Device:\nCROSSER \u00ae CTO Recanalization Catheter (K112308)\n\u00ae\nReference device: ULTRAVERSE 035 PTA Dilatation Catheter (K142261)\n4. Summary of Change:\nThe GEOALIGN \u00ae Marking System has been",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K180416",
+      "to": "K151260",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MCW\u2014Catheter, Peripheral, Atherectomy Classification Regulation: 21 CFR 870.4875\u2014Intraluminal Artery Stripper Classification: II Primary Predicate: 510(k) Number: K151260 Manufacturer: Cardiovascular Systems, Inc. Trade Name: Stealth 360\u00ae PAD System and Diamondback 360\u00ae",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K203363",
+      "to": "K112308",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "1250 Predicate Device: \uf097 Crosser\u2122 CTO Recanalization Catheter (K161208; cleared May 24, 2016) Reference Devices: \uf097 Crosser\u2122 CTO Recanalization System (K112308; cleared August 17, 2011) \uf097 FlowMate\u2122 Injector (K090621; cleared June 19, 2009)",
+      "hop": 2,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K231538",
+      "to": "K110389",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "eral Atherectomy Device\nClassification Name: 21 CFR 870.4875, Peripheral Atherectomy Catheter, Class II\nProduct Code: MCW\nPredicate Device: K110389, Stealth 360\u2122 Orbital PAD System [Diamondback 360o]\nCardiovascular Systems, Inc.\nReference Device K191419, Revolution Peripheral",
+      "hop": 2,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K161986",
+      "to": "K161208",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "1493)\nReference devices: ULTRAVERSE\u00ae035 PTA Dilatation Catheter (K142261, cleared\nSeptember 24, 2014); CROSSER\u00aeCTO Recanalization Catheter (K161208, cleared May\n24, 2016).",
+      "hop": 3,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K203363",
+      "to": "K161208",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "PDU Classification: Class II Review Panel: Cardiovascular Regulation Number: 21 CFR 870.1250 Predicate Device: \uf097 Crosser\u2122 CTO Recanalization Catheter (K161208; cleared May 24, 2016) Reference Devices: \uf097 Crosser\u2122 CTO Recanalization System (K112308; cleared August 17, 2011) \uf097",
+      "hop": 3,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K233483",
+      "to": "K231538",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Peripheral Atherectomy Device Classification Name: 21 CFR 870.4875, Peripheral Atherectomy Catheter, Class II Product Code: MCW Predicate Device: K231538, FreedomFlow\u2122 Orbital Circumferential Atherectomy System Cardio Flow, Inc., Model H6001 5Fr 5-Sphere Device Description The",
+      "hop": 3,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K242947",
+      "to": "K231538",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Peripheral Atherectomy Device Classification Name: 21 CFR 870.4875, Peripheral Atherectomy Catheter, Class II Product Code: MCW Predicate Device: K231538, FreedomFlow\u2122 Orbital Circumferential Atherectomy System Cardio Flow, Inc. & K233483, FreedomFlow Orbital Circumferential",
+      "hop": 3,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K203275",
+      "to": "K161986",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Percutaneous catheter Classification Panel: Cardiovascular Regulatory Class: II Regulation Number: 870.1250 Product Code: DQY Predicate Device: 510(k) Number: K161986 & K131493 Name of Device: Sidekick\u2122 & Usher\u2122 Support Catheters Common or Usual Name: Percutaneous catheter",
+      "hop": 4,
+      "dir": "down",
+      "page": 4
+     },
+     {
+      "from": "K242947",
+      "to": "K233483",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "4875, Peripheral Atherectomy Catheter, Class II Product Code: MCW Predicate Device: K231538, FreedomFlow\u2122 Orbital Circumferential Atherectomy System Cardio Flow, Inc. & K233483, FreedomFlow Orbital Circumferential Atherectomy System (H6004/5Fr 3-Sphere Configuration) Device",
+      "hop": 4,
+      "dir": "down",
+      "page": 5
+     },
+     {
+      "from": "K250723",
+      "to": "K233483",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Circumferential Atherectomy Comments Feature System System Subject Device, H6005/4 Fr 3- Predicate Device, H6004/ 5Fr 3- Sphere Sphere (K242947/ K233483) Product Code, MCW, MCW, Same Classification 21 CFR 870.4875 Intraluminal 21 CFR 870.4875 Intraluminal artery stripper, Class",
+      "hop": 4,
+      "dir": "down",
+      "page": 7
+     },
+     {
+      "from": "K250723",
+      "to": "K242947",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Peripheral Atherectomy Device Classification Name: 21 CFR 870.4875, Peripheral Atherectomy Catheter, Class II Product Code: MCW Predicate Device: K242947, FreedomFlow Orbital Circumferential Atherectomy System (H6004/ 5Fr 3-Sphere Configuration) Device Description The",
+      "hop": 4,
+      "dir": "down",
+      "page": 5
+     }
+    ],
+    "note": "Lineage is walked to the earliest cited predicate and the latest citing descendant held in the corpus. Descendant coverage is bounded by the 510(k)-summary extraction: clearances filed with a 510(k) Statement (no public summary) cannot appear as citing devices. Row-capped \u2014 the deepest branches are truncated."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked in both directions from this device's own clearances; branded accessory clearances listed separately."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 9317,
+    "totalPaid": 4787436.24,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 100089.38,
+      "payments": 65,
+      "years": "2021\u20132023",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NC",
+      "total": 82877.9,
+      "payments": 227,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MI",
+      "total": 76277.02,
+      "payments": 85,
+      "years": "2021\u20132023",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "GA",
+      "total": 74444.59,
+      "payments": 44,
+      "years": "2021\u20132023",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 66461.27,
+      "payments": 51,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "MI",
+      "total": 63686.99,
+      "payments": 91,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NC",
+      "total": 54095.05,
+      "payments": 106,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NY",
+      "total": 51834.3,
+      "payments": 43,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 51602.29,
+      "payments": 40,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "NV",
+      "total": 49767.17,
+      "payments": 45,
+      "years": "2021\u20132023",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "MA",
+      "total": 100089.38,
+      "payments": 65,
+      "years": "2021\u20132023",
+      "topNature": "Consulting Fee",
+      "name": "Kevin Croce"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NC",
+      "total": 82877.9,
+      "payments": 227,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Rajiv Swamy"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MI",
+      "total": 76277.02,
+      "payments": 85,
+      "years": "2021\u20132023",
+      "topNature": "Food and Beverage",
+      "name": "Amir Kaki"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "GA",
+      "total": 74444.59,
+      "payments": 44,
+      "years": "2021\u20132023",
+      "topNature": "Consulting Fee",
+      "name": "David Kandzari"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 66461.27,
+      "payments": 51,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Patrick Hu"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
+      "state": "MI",
+      "total": 63686.99,
+      "payments": 91,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Saroj Neupane"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NC",
+      "total": 54095.05,
+      "payments": 106,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Siddhartha Rao"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "NY",
+      "total": 51834.3,
+      "payments": 43,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Lorenzo Azzalini"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "PA",
+      "total": 51602.29,
+      "payments": 40,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Sarang Mangalmurti"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "NV",
+      "total": 49767.17,
+      "payments": 45,
+      "years": "2021\u20132023",
+      "topNature": "Food and Beverage",
+      "name": "George Pliagas"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "BOSTON SCIENTIFIC CORP",
+    "nParents": 59,
+    "inspections": 9358,
+    "citations": 4090,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8516,
+     "inMdl": 7239,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2455,
+    "assignees": [
+     "Abbott",
+     "CSI"
+    ]
+   },
+   "payload": {
+    "patents": 2455,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Cardiovascular Systems, Inc.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Cardiovascular Systems Inc.",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 5,
+    "procedureCodes": 3,
+    "dataYear": 2023,
+    "topStateServices": 65
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "C9602",
+      "description": "Percutaneous transluminal coronary atherectomy, with drug eluting intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",
+      "services": 184
+     },
+     {
+      "code": "C7534",
+      "description": "Revascularization, endovascular, open or percutaneous, femoral, popliteal artery(ies), unilateral, with atherectomy, includes angioplasty within the same vessel, when performed with intravascular ultrasound (initial noncoronary vessel) during diagnostic ev",
+      "services": 180
+     },
+     {
+      "code": "C9604",
+      "description": "Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when performed;",
+      "services": 94
+     }
+    ],
+    "states": [
+     {
+      "state": "California",
+      "services": 65,
+      "beneficiaries": 59
+     },
+     {
+      "state": "Arizona",
+      "services": 50,
+      "beneficiaries": 43
+     },
+     {
+      "state": "Nebraska",
+      "services": 39,
+      "beneficiaries": 34
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 13,
+      "beneficiaries": 13
+     },
+     {
+      "state": "Texas",
+      "services": 13,
+      "beneficiaries": 12
+     }
+    ],
+    "trialSites": [
+     {
+      "name": "Chandler Regional Medical Center and Mercy Gilbert Medical Center",
+      "city": "Chandler",
+      "state": "Arizona",
+      "lat": 33.306,
+      "lon": -111.841,
+      "trials": 2
+     },
+     {
+      "name": "Columbia University Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Florida Hospital",
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.538,
+      "lon": -81.379,
+      "trials": 2
+     },
+     {
+      "name": "Mercy Hospital",
+      "city": "Coon Rapids",
+      "state": "Minnesota",
+      "lat": 45.12,
+      "lon": -93.288,
+      "trials": 2
+     },
+     {
+      "name": "St. Francis Hospital",
+      "city": "Roslyn",
+      "state": "New York",
+      "lat": 40.8,
+      "lon": -73.651,
+      "trials": 2
+     },
+     {
+      "name": "Abbott Northwestern",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 1
+     },
+     {
+      "name": "Arizona Cardiovascular Research Center",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "lat": 33.448,
+      "lon": -112.074,
+      "trials": 1
+     },
+     {
+      "name": "Arkansas Heart Hospital",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.746,
+      "lon": -92.29,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Memorial Hospital-DeSoto",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "lat": 35.15,
+      "lon": -90.049,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Memorial Hospital/Stern Cardiovascular Foundation, Inc.",
+      "city": "Southaven",
+      "state": "Mississippi",
+      "lat": 34.989,
+      "lon": -90.013,
+      "trials": 1
+     },
+     {
+      "name": "Baptist Montgomery South",
+      "city": "Montgomery",
+      "state": "Alabama",
+      "lat": 32.367,
+      "lon": -86.3,
+      "trials": 1
+     },
+     {
+      "name": "Baylor",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 1
+     },
+     {
+      "name": "Bryn Mawr / Lankenau",
+      "city": "Bryn Mawr",
+      "state": "Pennsylvania",
+      "lat": 40.304,
+      "lon": -80.087,
+      "trials": 1
+     },
+     {
+      "name": "Cape Cod Research Institute",
+      "city": "Hyannis",
+      "state": "Massachusetts",
+      "lat": 41.653,
+      "lon": -70.283,
+      "trials": 1
+     },
+     {
+      "name": "Cardiovascular Institute of the South - Lafayette General South West OBL",
+      "city": "Lafayette",
+      "state": "Louisiana",
+      "lat": 30.224,
+      "lon": -92.02,
+      "trials": 1
+     },
+     {
+      "name": "Cedar Sinai Los Angeles",
+      "city": "Beverly Hills",
+      "state": "California",
+      "lat": 34.074,
+      "lon": -118.4,
+      "trials": 1
+     },
+     {
+      "name": "Columbia University Medical Center/New York Presbyterian",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     },
+     {
+      "name": "Community Hospital",
+      "city": "Munster",
+      "state": "Indiana",
+      "lat": 41.564,
+      "lon": -87.513,
+      "trials": 1
+     },
+     {
+      "name": "Davis Hospital",
+      "city": "Layton",
+      "state": "Utah",
+      "lat": 41.06,
+      "lon": -111.971,
+      "trials": 1
+     },
+     {
+      "name": "Desert Cardiology Center",
+      "city": "Rancho Mirage",
+      "state": "California",
+      "lat": 33.74,
+      "lon": -116.413,
+      "trials": 1
+     },
+     {
+      "name": "Detroit Medical Center",
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.331,
+      "lon": -83.046,
+      "trials": 1
+     },
+     {
+      "name": "Duke University",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 1
+     },
+     {
+      "name": "Eisenhower Medical Center",
+      "city": "Palm Springs",
+      "state": "California",
+      "lat": 33.83,
+      "lon": -116.545,
+      "trials": 1
+     },
+     {
+      "name": "Emory University",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 1
+     },
+     {
+      "name": "Florida Hospital Memorial",
+      "city": "Daytona Beach",
+      "state": "Florida",
+      "lat": 29.211,
+      "lon": -81.023,
+      "trials": 1
+     },
+     {
+      "name": "Good Samaritan Dayton",
+      "city": "Dayton",
+      "state": "Ohio",
+      "lat": 39.759,
+      "lon": -84.192,
+      "trials": 1
+     },
+     {
+      "name": "Good Samaritan Hospital",
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.052,
+      "lon": -118.244,
+      "trials": 1
+     },
+     {
+      "name": "Indiana Heart Hospital",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 1
+     },
+     {
+      "name": "Iowa Heart",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "lat": 41.601,
+      "lon": -93.609,
+      "trials": 1
+     },
+     {
+      "name": "Kansas University Medical Center",
+      "city": "Kansas City",
+      "state": "Kansas",
+      "lat": 39.114,
+      "lon": -94.627,
+      "trials": 1
+     },
+     {
+      "name": "King's Daughters / Kentucky Heart Foundation",
+      "city": "Ashland",
+      "state": "Kentucky",
+      "lat": 38.478,
+      "lon": -82.638,
+      "trials": 1
+     },
+     {
+      "name": "Lakeland",
+      "city": "Saint Joseph",
+      "state": "Michigan",
+      "lat": 42.11,
+      "lon": -86.48,
+      "trials": 1
+     },
+     {
+      "name": "Lenox Hill",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     },
+     {
+      "name": "Maine Medical Center",
+      "city": "Portland",
+      "state": "Maine",
+      "lat": 43.657,
+      "lon": -70.259,
+      "trials": 1
+     },
+     {
+      "name": "Memorial Hermann",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 1
+     },
+     {
+      "name": "Mercy Gilbert",
+      "city": "Gilbert",
+      "state": "Arizona",
+      "lat": 33.353,
+      "lon": -111.789,
+      "trials": 1
+     },
+     {
+      "name": "Mercy Hospital, Springfield",
+      "city": "Chesterfield",
+      "state": "Missouri",
+      "lat": 38.663,
+      "lon": -90.577,
+      "trials": 1
+     },
+     {
+      "name": "Mount Sinai Hospital New York",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     },
+     {
+      "name": "Munroe Regional Health System, Inc.",
+      "city": "Ocala",
+      "state": "Florida",
+      "lat": 29.187,
+      "lon": -82.14,
+      "trials": 1
+     },
+     {
+      "name": "Munroe Regional Medical Center",
+      "city": "Ocala",
+      "state": "Florida",
+      "lat": 29.187,
+      "lon": -82.14,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 95,
+     "usSites": 72,
+     "trials": 6,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare physician geography-and-service utilization, state grain, procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 6,
+    "trialsWithAeTables": 4,
+    "seriousEventRows": 294,
+    "seriousSubjectsAffected": 471,
+    "deathTermSubjects": 21,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 6,
+    "trialsWithAeTables": 4,
+    "trialsWithSerious": 4,
+    "totals": {
+     "serious": {
+      "rows": 294,
+      "subjects": 471
+     },
+     "other": {
+      "rows": 3,
+      "subjects": 43
+     },
+     "deathTermSubjects": 21
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Acute MI, non Q-wave",
+      "organSystem": "Cardiac disorders",
+      "rows": 3,
+      "subjectsAffected": 56
+     },
+     {
+      "term": "Angina Pectoris",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 27
+     },
+     {
+      "term": "Coronary vessel dissection present",
+      "organSystem": "Surgical and medical procedures",
+      "rows": 2,
+      "subjectsAffected": 23
+     },
+     {
+      "term": "Coronary artery restenosis",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 20
+     },
+     {
+      "term": "Cardiac death",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 13
+     },
+     {
+      "term": "Peripheral artery/vascular disease",
+      "organSystem": "Vascular disorders",
+      "rows": 2,
+      "subjectsAffected": 11
+     },
+     {
+      "term": "Atrial fibrillation",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 11
+     },
+     {
+      "term": "Anemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 3,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "COPD",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 2,
+      "subjectsAffected": 8
+     },
+     {
+      "term": "Pneumonia",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 2,
+      "subjectsAffected": 8
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT01092416",
+      "title": "Evaluate the Safety and Efficacy of OAS in Treating Severely Calcified Coronary Lesions",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 270,
+      "seriousSubjects": 424
+     },
+     {
+      "nctId": "NCT02132611",
+      "title": "Coronary Orbital Atherectomy System Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2014",
+      "seriousRows": 21,
+      "seriousSubjects": 45
+     },
+     {
+      "nctId": "NCT03943160",
+      "title": "Radial accEss for nAvigation to Your CHosen Lesion for Peripheral Vascular Intervention: REACH PVI",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2019",
+      "seriousRows": 2,
+      "seriousSubjects": 2
+     },
+     {
+      "nctId": "NCT02339545",
+      "title": "Coronary Flow Reserve Following Orbital Atherectomy",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2015",
+      "seriousRows": 1,
+      "seriousSubjects": 0
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 0,
+    "countries": 0,
+    "sources": 0,
+    "firstForeignDate": null,
+    "latestAction": null,
+    "screenedOut": 7
+   },
+   "payload": null,
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 24500
+}

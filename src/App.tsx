@@ -16,8 +16,12 @@ function readSlug(): string | null {
 }
 
 export function navigate(slug: string | null) {
-  const url = slug ? `?d=${encodeURIComponent(slug)}` : window.location.pathname
-  window.history.pushState({}, '', url)
+  // preserve the catalog's filter params (?q=&pathway=…) across dossier open/close
+  const params = new URLSearchParams(window.location.search)
+  if (slug) params.set('d', slug)
+  else params.delete('d')
+  const qs = params.toString()
+  window.history.pushState({}, '', qs ? `?${qs}` : window.location.pathname)
   window.dispatchEvent(new PopStateEvent('popstate'))
 }
 

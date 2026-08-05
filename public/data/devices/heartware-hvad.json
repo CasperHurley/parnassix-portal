@@ -81,7 +81,7 @@
   },
   {
    "label": "Granted patents (assignee)",
-   "value": 1935,
+   "value": 1934,
    "format": "number"
   },
   {
@@ -419,7 +419,7 @@
     },
     {
      "year": 2001,
-     "value": 237
+     "value": 236
     }
    ]
   },
@@ -512,12 +512,12 @@
      {
       "problem": "Adverse Event Without Identified Device or Use Problem",
       "reports": 35300,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH A BACTERIAL DRIVELINE INFECTION. THE PATIENT RECEIVED INTRAVENOUS (IV) DRUG THERAPY INTERVENTION. THE VENTRICULAR ASSIST DEVICE (VAD) REMAINS IN USE. NO FURTHER PATIENT COMPLICATIONS WERE REPORTED AS A RESULT OF THE EVENT. THIS EVENT WAS REPORTED IN THE INTERMACS DATA REGISTRY THAT TRACKS CLINICAL OUTCOMES OF PATIENTS ON VENTRICULAR ASSIST DEVICE (VAD) SUPPORT. T"
+      "narrative": "THE DEVICE REMAINS IMPLANTED AND ALL CONCOMITANT DEVICES REMAIN IN USE SO NOTHING WILL BE RETURNED TO THE MANUFACTURER FOR FURTHER EVALUATION. THIS DEVICE IS USED FOR TREATMENT AND NOT DIAGNOSIS. THE HEARTWARE\u00ae VENTRICULAR ASSIST SYSTEM IS INDICATED FOR USE AS A BRIDGE TO CARDIAC TRANSPLANTATION IN PATIENTS WHO ARE AT RISK OF DEATH FROM REFRACTORY END-STAGE LEFT VENTRICULAR HEART FAILURE. THE HEARTWARE\u00ae SYSTEM IS DES"
      },
      {
       "problem": "Battery Problem",
       "reports": 9504,
-      "narrative": "THE BATTERY WAS RETURNED TO THE MANUFACTURER BECAUSE IT WAS NOT CHARGING. THE BATTERY SUBSEQUENTLY TESTED OUT OF SPECIFICATION DURING MANUFACTURER\u00bfS ANALYSIS. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "THIS DEVICE IS USED FOR TREATMENT NOT DIAGNOSIS. THE VENTRICULAR ASSIST SYSTEM IS INDICATED FOR USE AS A BRIDGE TO CARDIAC TRANSPLANTATION AND DESTINATION THERAPY IN PATIENTS WHO ARE AT RISK OF DEATH FROM REFRACTORY END-STAGE LEFT VENTRICULAR HEART FAILURE. THE SYSTEM IS DESIGNED FOR IN-HOSPITAL AND OUT-OF-HOSPITAL SETTINGS. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
      },
      {
       "problem": "Pumping Problem",
@@ -527,12 +527,12 @@
      {
       "problem": "Power Problem",
       "reports": 5797,
-      "narrative": "###A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR CORRECTION. H1. TYPE OF REPORTABLE EVENT WAS CHANGED FROM MALFUNCTION TO SERIOUS INJURY. ### MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIR"
+      "narrative": "PRODUCT EVENT SUMMARY: THE CONTROLLER WAS RETURNED FOR EVALUATION. VARIOUS ANALYSES WERE CONDUCTED AND REVIEWED IN ORDER TO EVALUATE THE PERFORMANCE OF THE DEVICE IN RELATION TO THE REPORTED EVENT. A REVIEW OF THE MANUFACTURING DOCUMENTATION CONFIRMED THAT THE ASSOCIATED DEVICE MET ALL REQUIREMENTS FOR RELEASE. LOG FILE ANALYSIS REVEALED THAT THE CONTROLLER LOST POWER ON (B)(6) 2019 AT 20:02:36, AFTER WHICH NO ADDITI"
      },
      {
       "problem": "Connection Problem",
       "reports": 2923,
-      "narrative": "IT WAS REPORTED THAT THERE WAS POOR MECHANICAL CONNECTION AT THE CONTROLLER POWER PORTS DUE TO A BENT PIN IN THE POWER PORT. THE CON TROLLER WAS EXCHANGED. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "A SUPPLEMENTAL REPORT IS BEING SUBMITTED FOR INVESTIGATION COMPLETION. PRODUCT EVENT SUMMARY: ONE CONTROLLER AC ADAPTER AND FOUR BATTERIES WERE NOT RETURNED FOR EVALUATION. AS A RESULT, THE REPORTED EVENT COULD NOT BE CONFIRMED. APPLICABLE RISK DOCUMENTATION AND EXPERIENCE WITH EVENTS OF SIMILAR CIRCUMSTANCES WERE CONSIDERED; POSSIBLE ROOT CAUSE OF THE REPORTED POOR MECHANICAL CONNECTION EVENT CAN BE ATTRIBUTED, BUT"
      },
      {
       "problem": "Material Integrity Problem",
@@ -542,12 +542,12 @@
      {
       "problem": "Break",
       "reports": 1688,
-      "narrative": "IT WAS REPORTED THAT THE ZIPPER ON THE SHOULDER PACK WAS DAMAGED. THE SHOULDER PACK REMAINS IN USE. NO PATIENT COMPLICATIONS HAVE BEEN REPORTED AS A RESULT OF THIS EVENT."
+      "narrative": "INVESTIGATION OF THIS EVENT IS PENDING AND A SUPPLEMENTAL REPORT WILL BE SENT UPON ITS COMPLETION. MEDTRONIC IS SUBMITTING THIS REPORT TO COMPLY WITH FDA REPORTING REGULATIONS UNDER 21 CFR PARTS 4 AND 803. THIS REPORT IS BASED UPON INFORMATION OBTAINED BY MEDTRONIC, WHICH THE COMPANY MAY NOT HAVE BEEN ABLE TO FULLY INVESTIGATE OR VERIFY PRIOR TO THE DATE THE REPORT WAS REQUIRED BY THE FDA. MEDTRONIC HAS MADE REASONAB"
      },
      {
       "problem": "Obstruction of Flow",
       "reports": 1441,
-      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS ADMITTED DUE TO THE VENTRICULAR ASSIST DEVICE (VAD) EXHIBITING LOW FLOWS AND POWER AND AN OBSTRUCTION WAS SUSPECTED. A CONTRAST COMPUTERIZED TOMOGRAPHY (CT) SCAN REVEALED AN OUTFLOW GRAFT COMPRESSION. THE PATIENT HAD SURGERY WHERE THE EXTERIOR COMPRESSION OF THE OUTFLOW GRAFT OFG) WAS RELIEVED, AND THE VAD PARAMETERS HAVE RETURNED TO BASELINE. THE VAD AND OFG REMAIN IN USE. NO FUR"
+      "narrative": "IT WAS REPORTED THAT THE PATIENT WAS HOSPITALIZED WITH PROGRESSED/ENLARGEMENT OF PERIPHERAL THROMBUS WITHIN THE VENTRICULAR ASSIST DEVICE (VAD) OUTFLOW GRAFT WITH PROGRESSED SEVERE STENOSIS. IT WAS REPORTED THAT THERE WAS A PATENT CHANNEL THROUGHOUT THE OUTFLOW GR AFT. THERE WAS A LARGE DEFECT IN THE SUPERIOR ASPECT OF THE GRAFT WITH INCREASED AMOUNT OF HEMORRHAGE AND THROMBUS EXTERNAL TO THE GRAFT WITHIN THE ANTERIO"
      }
     ]
    },
@@ -585,7 +585,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "CO",
+      "state": "WA",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -593,7 +593,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -612,7 +612,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
+      "state": "MA",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -629,8 +629,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MO",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -639,7 +639,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WI",
+      "state": "WA",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",
@@ -681,7 +681,7 @@
      {
       "id": "p3",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "CO",
+      "state": "WA",
       "total": 118405.78,
       "payments": 174,
       "years": "2014\u20132021",
@@ -690,7 +690,7 @@
      },
      {
       "id": "p4",
-      "specialty": "Allopathic & Osteopathic Physicians|General Practice",
+      "specialty": "Other Service Providers|Specialist",
       "state": "CA",
       "total": 106266.03,
       "payments": 130,
@@ -711,7 +711,7 @@
      {
       "id": "p6",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "IL",
+      "state": "MA",
       "total": 92612.5,
       "payments": 143,
       "years": "2014\u20132021",
@@ -730,8 +730,8 @@
      },
      {
       "id": "p8",
-      "specialty": "Allopathic & Osteopathic Physicians|Transplant Surgery",
-      "state": "FL",
+      "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+      "state": "MO",
       "total": 86208.19,
       "payments": 93,
       "years": "2013\u20132021",
@@ -741,7 +741,7 @@
      {
       "id": "p9",
       "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
-      "state": "WI",
+      "state": "WA",
       "total": 69612.52,
       "payments": 141,
       "years": "2013\u20132021",
@@ -783,14 +783,40 @@
   },
   "ip": {
    "teaser": {
-    "patents": 1935,
+    "patents": 1934,
     "assignees": [
      "Medtronic",
      "HeartWare"
     ]
    },
    "payload": {
-    "patents": 1935,
+    "patents": 1934,
+    "assignees": [
+     {
+      "name": "Medtronic, Inc.",
+      "patents": 1715
+     },
+     {
+      "name": "Medtronic Inc.",
+      "patents": 63
+     },
+     {
+      "name": "Medtronic AVE, Inc.",
+      "patents": 37
+     },
+     {
+      "name": "Medtronic, Inc",
+      "patents": 11
+     },
+     {
+      "name": "Medtronic Ave, Inc.",
+      "patents": 10
+     },
+     {
+      "name": "Medtronic Physio-Control Manufacturing Corp.",
+      "patents": 10
+     }
+    ],
     "recent": [
      {
       "id": "RE37480",
@@ -841,9 +867,9 @@
       "assignee": "Medtronic Inc."
      }
     ],
-    "caveat": "Assignee-level portfolio \u2014 patents are matched to the manufacturer, not verified device-specific."
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
    },
-   "source": "USPTO bibliographic grant records matched on assignee name."
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
   },
   "icp-map": {
    "teaser": {
@@ -955,8 +981,8 @@
         "n": 40
        },
        {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
         "n": 17
        }
       ]
@@ -1240,8 +1266,8 @@
         "n": 20
        },
        {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
         "n": 11
        }
       ]
@@ -1382,35 +1408,6 @@
       ]
      },
      {
-      "ccn": "050696",
-      "name": "Keck Hospital Of Usc",
-      "city": "Los Angeles",
-      "state": "CA",
-      "countyFips": "06037",
-      "lat": 34.05,
-      "lon": -118.212,
-      "discharges": 69,
-      "outpatientServices": null,
-      "rating": "4",
-      "topDrgs": [
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 30
-       },
-       {
-        "code": "268",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
-        "n": 27
-       },
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 12
-       }
-      ]
-     },
-     {
       "ccn": "100007",
       "name": "Adventhealth Orlando",
       "city": "Orlando",
@@ -1436,6 +1433,35 @@
         "code": "215",
         "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
         "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "050696",
+      "name": "Keck Hospital Of Usc",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.05,
+      "lon": -118.212,
+      "discharges": 69,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 30
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 27
+       },
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 12
        }
       ]
      },
@@ -1469,31 +1495,31 @@
       ]
      },
      {
-      "ccn": "220110",
-      "name": "Brigham And Women'S Hospital",
-      "city": "Boston",
-      "state": "MA",
-      "countyFips": "25025",
-      "lat": 42.339,
-      "lon": -71.095,
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
       "discharges": 67,
       "outpatientServices": null,
-      "rating": "5",
+      "rating": "4",
       "topDrgs": [
        {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 36
        },
        {
         "code": "001",
         "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 19
+        "n": 20
        },
        {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 12
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
+        "n": 11
        }
       ]
      },
@@ -1522,31 +1548,31 @@
       ]
      },
      {
-      "ccn": "240057",
-      "name": "Abbott Northwestern Hospital",
-      "city": "Minneapolis",
-      "state": "MN",
-      "countyFips": "27053",
-      "lat": 44.935,
-      "lon": -93.253,
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
       "discharges": 67,
       "outpatientServices": null,
-      "rating": "4",
+      "rating": "5",
       "topDrgs": [
        {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "code": "215",
+        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
         "n": 36
        },
        {
         "code": "001",
         "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 20
+        "n": 19
        },
        {
-        "code": "215",
-        "desc": "OTHER HEART ASSIST SYSTEM IMPLANT",
-        "n": 11
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 12
        }
       ]
      },
@@ -1580,35 +1606,6 @@
       ]
      },
      {
-      "ccn": "050454",
-      "name": "Ucsf Medical Center",
-      "city": "San Francisco",
-      "state": "CA",
-      "countyFips": "06075",
-      "lat": 37.727,
-      "lon": -123.032,
-      "discharges": 63,
-      "outpatientServices": null,
-      "rating": "5",
-      "topDrgs": [
-       {
-        "code": "001",
-        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
-        "n": 29
-       },
-       {
-        "code": "269",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
-        "n": 17
-       },
-       {
-        "code": "268",
-        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
-        "n": 17
-       }
-      ]
-     },
-     {
       "ccn": "450388",
       "name": "Methodist Hospital",
       "city": "San Antonio",
@@ -1634,6 +1631,35 @@
         "code": "269",
         "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
         "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "050454",
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "countyFips": "06075",
+      "lat": 37.727,
+      "lon": -123.032,
+      "discharges": 63,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "001",
+        "desc": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+        "n": 29
+       },
+       {
+        "code": "268",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+        "n": 17
+       },
+       {
+        "code": "269",
+        "desc": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+        "n": 17
        }
       ]
      }
@@ -1992,20 +2018,20 @@
       "per10k65": 18.4
      },
      {
-      "fips": "34023",
-      "name": "Middlesex",
-      "state": "NJ",
-      "services": 55,
-      "facilities": 1,
-      "per10k65": 3.9
-     },
-     {
       "fips": "06085",
       "name": "Santa Clara",
       "state": "CA",
       "services": 55,
       "facilities": 1,
       "per10k65": 2.0
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 55,
+      "facilities": 1,
+      "per10k65": 3.9
      },
      {
       "fips": "29095",
@@ -2216,6 +2242,14 @@
       "per10k65": 3.0
      },
      {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 18.8
+     },
+     {
       "fips": "27145",
       "name": "Stearns",
       "state": "MN",
@@ -2230,14 +2264,6 @@
       "services": 42,
       "facilities": 1,
       "per10k65": 4.0
-     },
-     {
-      "fips": "20209",
-      "name": "Wyandotte",
-      "state": "KS",
-      "services": 42,
-      "facilities": 1,
-      "per10k65": 18.8
      },
      {
       "fips": "29019",
@@ -2256,20 +2282,20 @@
       "per10k65": 4.0
      },
      {
-      "fips": "37021",
-      "name": "Buncombe",
-      "state": "NC",
-      "services": 39,
-      "facilities": 1,
-      "per10k65": 6.7
-     },
-     {
       "fips": "12021",
       "name": "Collier",
       "state": "FL",
       "services": 39,
       "facilities": 1,
       "per10k65": 2.9
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 6.7
      },
      {
       "fips": "04019",
@@ -2360,30 +2386,6 @@
       "per10k65": 1.4
      },
      {
-      "fips": "46103",
-      "name": "Pennington",
-      "state": "SD",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 13.1
-     },
-     {
-      "fips": "12009",
-      "name": "Brevard",
-      "state": "FL",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
-      "fips": "08001",
-      "name": "Adams",
-      "state": "CO",
-      "services": 30,
-      "facilities": 1,
-      "per10k65": 5.0
-     },
-     {
       "fips": "18163",
       "name": "Vanderburgh",
       "state": "IN",
@@ -2400,6 +2402,30 @@
       "per10k65": 3.4
      },
      {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 13.1
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 5.0
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 30,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
       "fips": "48439",
       "name": "Tarrant",
       "state": "TX",
@@ -2408,12 +2434,12 @@
       "per10k65": 1.1
      },
      {
-      "fips": "05005",
-      "name": "Baxter",
-      "state": "AR",
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
       "services": 29,
       "facilities": 1,
-      "per10k65": 22.1
+      "per10k65": 2.0
      },
      {
       "fips": "05143",
@@ -2424,12 +2450,12 @@
       "per10k65": 9.2
      },
      {
-      "fips": "25027",
-      "name": "Worcester",
-      "state": "MA",
+      "fips": "05005",
+      "name": "Baxter",
+      "state": "AR",
       "services": 29,
       "facilities": 1,
-      "per10k65": 2.0
+      "per10k65": 22.1
      },
      {
       "fips": "27123",
@@ -2464,20 +2490,20 @@
       "per10k65": 8.7
      },
      {
-      "fips": "42043",
-      "name": "Dauphin",
-      "state": "PA",
-      "services": 28,
-      "facilities": 2,
-      "per10k65": 5.4
-     },
-     {
       "fips": "45051",
       "name": "Horry",
       "state": "SC",
       "services": 28,
       "facilities": 2,
       "per10k65": 2.8
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 28,
+      "facilities": 2,
+      "per10k65": 5.4
      },
      {
       "fips": "28049",
@@ -2488,12 +2514,12 @@
       "per10k65": 7.8
      },
      {
-      "fips": "25013",
-      "name": "Hampden",
-      "state": "MA",
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
       "services": 27,
       "facilities": 1,
-      "per10k65": 3.2
+      "per10k65": 7.8
      },
      {
       "fips": "12011",
@@ -2504,52 +2530,12 @@
       "per10k65": 0.8
      },
      {
-      "fips": "13139",
-      "name": "Hall",
-      "state": "GA",
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
       "services": 27,
       "facilities": 1,
-      "per10k65": 7.8
-     },
-     {
-      "fips": "28081",
-      "name": "Lee",
-      "state": "MS",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 19.8
-     },
-     {
-      "fips": "31109",
-      "name": "Lancaster",
-      "state": "NE",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 5.2
-     },
-     {
-      "fips": "51840",
-      "name": "Winchester",
-      "state": "VA",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 55.7
-     },
-     {
-      "fips": "24045",
-      "name": "Wicomico",
-      "state": "MD",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 14.9
-     },
-     {
-      "fips": "39061",
-      "name": "Hamilton",
-      "state": "OH",
-      "services": 26,
-      "facilities": 1,
-      "per10k65": 1.9
+      "per10k65": 3.2
      },
      {
       "fips": "48441",
@@ -2560,12 +2546,44 @@
       "per10k65": 11.9
      },
      {
-      "fips": "34005",
-      "name": "Burlington",
-      "state": "NJ",
-      "services": 25,
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 26,
       "facilities": 1,
-      "per10k65": 2.9
+      "per10k65": 19.8
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 55.7
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 26,
+      "facilities": 1,
+      "per10k65": 14.9
      },
      {
       "fips": "02020",
@@ -2576,12 +2594,36 @@
       "per10k65": 6.7
      },
      {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 25,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
       "fips": "06001",
       "name": "Alameda",
       "state": "CA",
       "services": 25,
       "facilities": 2,
       "per10k65": 1.0
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 0.8
      },
      {
       "fips": "38017",
@@ -2608,22 +2650,6 @@
       "per10k65": 8.4
      },
      {
-      "fips": "46099",
-      "name": "Minnehaha",
-      "state": "SD",
-      "services": 24,
-      "facilities": 1,
-      "per10k65": 8.5
-     },
-     {
-      "fips": "26163",
-      "name": "Wayne",
-      "state": "MI",
-      "services": 24,
-      "facilities": 1,
-      "per10k65": 0.8
-     },
-     {
       "fips": "42003",
       "name": "Allegheny",
       "state": "PA",
@@ -2648,14 +2674,6 @@
       "per10k65": 5.4
      },
      {
-      "fips": "17143",
-      "name": "Peoria",
-      "state": "IL",
-      "services": 22,
-      "facilities": 1,
-      "per10k65": 6.7
-     },
-     {
       "fips": "08041",
       "name": "El Paso",
       "state": "CO",
@@ -2664,12 +2682,28 @@
       "per10k65": 2.1
      },
      {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
       "fips": "12099",
       "name": "Palm Beach",
       "state": "FL",
       "services": 22,
       "facilities": 2,
       "per10k65": 0.6
+     },
+     {
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
+      "services": 21,
+      "facilities": 1,
+      "per10k65": 5.9
      },
      {
       "fips": "20177",
@@ -2686,54 +2720,6 @@
       "services": 21,
       "facilities": 1,
       "per10k65": 1.4
-     },
-     {
-      "fips": "47163",
-      "name": "Sullivan",
-      "state": "TN",
-      "services": 21,
-      "facilities": 1,
-      "per10k65": 5.9
-     },
-     {
-      "fips": "51680",
-      "name": "Lynchburg",
-      "state": "VA",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 17.6
-     },
-     {
-      "fips": "45045",
-      "name": "Greenville",
-      "state": "SC",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 2.2
-     },
-     {
-      "fips": "53035",
-      "name": "Kitsap",
-      "state": "WA",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 3.7
-     },
-     {
-      "fips": "37125",
-      "name": "Moore",
-      "state": "NC",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 7.9
-     },
-     {
-      "fips": "48423",
-      "name": "Smith",
-      "state": "TX",
-      "services": 20,
-      "facilities": 1,
-      "per10k65": 4.7
      },
      {
       "fips": "36027",
@@ -2760,6 +2746,46 @@
       "per10k65": 5.5
      },
      {
+      "fips": "51680",
+      "name": "Lynchburg",
+      "state": "VA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 17.6
+     },
+     {
+      "fips": "37125",
+      "name": "Moore",
+      "state": "NC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 7.9
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 3.7
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 20,
+      "facilities": 1,
+      "per10k65": 4.7
+     },
+     {
       "fips": "01089",
       "name": "Madison",
       "state": "AL",
@@ -2768,12 +2794,28 @@
       "per10k65": 3.0
      },
      {
-      "fips": "12061",
-      "name": "Indian River",
-      "state": "FL",
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
       "services": 18,
       "facilities": 1,
-      "per10k65": 3.1
+      "per10k65": 12.5
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 1.5
      },
      {
       "fips": "30063",
@@ -2784,12 +2826,20 @@
       "per10k65": 8.7
      },
      {
-      "fips": "26055",
-      "name": "Grand Traverse",
-      "state": "MI",
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
       "services": 18,
       "facilities": 1,
-      "per10k65": 8.5
+      "per10k65": 2.0
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 3.1
      },
      {
       "fips": "42069",
@@ -2798,6 +2848,22 @@
       "services": 18,
       "facilities": 1,
       "per10k65": 4.1
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 2.8
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 18,
+      "facilities": 1,
+      "per10k65": 8.5
      },
      {
       "fips": "55079",
@@ -2816,52 +2882,12 @@
       "per10k65": 3.5
      },
      {
-      "fips": "41067",
-      "name": "Washington",
-      "state": "OR",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "42095",
-      "name": "Northampton",
-      "state": "PA",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 2.8
-     },
-     {
-      "fips": "34025",
-      "name": "Monmouth",
-      "state": "NJ",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 1.5
-     },
-     {
-      "fips": "24005",
-      "name": "Baltimore",
-      "state": "MD",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 1.2
-     },
-     {
-      "fips": "54061",
-      "name": "Monongalia",
-      "state": "WV",
-      "services": 18,
-      "facilities": 1,
-      "per10k65": 12.5
-     },
-     {
-      "fips": "08069",
-      "name": "Larimer",
-      "state": "CO",
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
       "services": 17,
       "facilities": 1,
-      "per10k65": 2.7
+      "per10k65": 6.6
      },
      {
       "fips": "39119",
@@ -2880,12 +2906,12 @@
       "per10k65": 1.4
      },
      {
-      "fips": "32031",
-      "name": "Washoe",
-      "state": "NV",
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
       "services": 17,
       "facilities": 1,
-      "per10k65": 1.9
+      "per10k65": 1.6
      },
      {
       "fips": "51085",
@@ -2896,84 +2922,20 @@
       "per10k65": 7.8
      },
      {
-      "fips": "44007",
-      "name": "Providence",
-      "state": "RI",
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
       "services": 17,
       "facilities": 1,
-      "per10k65": 1.6
+      "per10k65": 2.7
      },
      {
-      "fips": "13021",
-      "name": "Bibb",
-      "state": "GA",
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
       "services": 17,
       "facilities": 1,
-      "per10k65": 6.6
-     },
-     {
-      "fips": "28047",
-      "name": "Harrison",
-      "state": "MS",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
-      "fips": "42093",
-      "name": "Montour",
-      "state": "PA",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 40.6
-     },
-     {
-      "fips": "34029",
-      "name": "Ocean",
-      "state": "NJ",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "36087",
-      "name": "Rockland",
-      "state": "NY",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 3.0
-     },
-     {
-      "fips": "45007",
-      "name": "Anderson",
-      "state": "SC",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 4.1
-     },
-     {
-      "fips": "25005",
-      "name": "Bristol",
-      "state": "MA",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 1.5
-     },
-     {
-      "fips": "39099",
-      "name": "Mahoning",
-      "state": "OH",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 3.1
-     },
-     {
-      "fips": "23019",
-      "name": "Penobscot",
-      "state": "ME",
-      "services": 16,
-      "facilities": 1,
-      "per10k65": 5.1
+      "per10k65": 1.9
      },
      {
       "fips": "41017",
@@ -3000,6 +2962,78 @@
       "per10k65": 26.2
      },
      {
+      "fips": "28047",
+      "name": "Harrison",
+      "state": "MS",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.6
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
+      "fips": "23019",
+      "name": "Penobscot",
+      "state": "ME",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 5.1
+     },
+     {
+      "fips": "39099",
+      "name": "Mahoning",
+      "state": "OH",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.1
+     },
+     {
+      "fips": "36087",
+      "name": "Rockland",
+      "state": "NY",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 3.0
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 40.6
+     },
+     {
+      "fips": "34029",
+      "name": "Ocean",
+      "state": "NJ",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "45007",
+      "name": "Anderson",
+      "state": "SC",
+      "services": 16,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
       "fips": "55073",
       "name": "Marathon",
       "state": "WI",
@@ -3014,6 +3048,54 @@
       "services": 15,
       "facilities": 1,
       "per10k65": 9.4
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.1
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "29047",
+      "name": "Clay",
+      "state": "MO",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 3.8
      },
      {
       "fips": "37049",
@@ -3032,6 +3114,22 @@
       "per10k65": 1.7
      },
      {
+      "fips": "17077",
+      "name": "Jackson",
+      "state": "IL",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 17.1
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 15,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
       "fips": "17167",
       "name": "Sangamon",
       "state": "IL",
@@ -3048,76 +3146,12 @@
       "per10k65": 3.5
      },
      {
-      "fips": "12086",
-      "name": "Miami-Dade",
-      "state": "FL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 0.3
-     },
-     {
-      "fips": "13135",
-      "name": "Gwinnett",
-      "state": "GA",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "17077",
-      "name": "Jackson",
-      "state": "IL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 17.1
-     },
-     {
-      "fips": "18089",
-      "name": "Lake",
+      "fips": "18003",
+      "name": "Allen",
       "state": "IN",
-      "services": 15,
+      "services": 14,
       "facilities": 1,
-      "per10k65": 1.7
-     },
-     {
-      "fips": "48027",
-      "name": "Bell",
-      "state": "TX",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 3.3
-     },
-     {
-      "fips": "29047",
-      "name": "Clay",
-      "state": "MO",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 3.8
-     },
-     {
-      "fips": "12015",
-      "name": "Charlotte",
-      "state": "FL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "06019",
-      "name": "Fresno",
-      "state": "CA",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "12103",
-      "name": "Pinellas",
-      "state": "FL",
-      "services": 15,
-      "facilities": 1,
-      "per10k65": 0.6
+      "per10k65": 2.3
      },
      {
       "fips": "21117",
@@ -3144,36 +3178,12 @@
       "per10k65": 8.7
      },
      {
-      "fips": "53063",
-      "name": "Spokane",
-      "state": "WA",
+      "fips": "36085",
+      "name": "Richmond",
+      "state": "NY",
       "services": 14,
       "facilities": 1,
-      "per10k65": 1.5
-     },
-     {
-      "fips": "01077",
-      "name": "Lauderdale",
-      "state": "AL",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 7.1
-     },
-     {
-      "fips": "30111",
-      "name": "Yellowstone",
-      "state": "MT",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 4.5
-     },
-     {
-      "fips": "19193",
-      "name": "Woodbury",
-      "state": "IA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 8.3
+      "per10k65": 1.6
      },
      {
       "fips": "55063",
@@ -3184,68 +3194,12 @@
       "per10k65": 6.4
      },
      {
-      "fips": "36085",
-      "name": "Richmond",
-      "state": "NY",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.6
-     },
-     {
-      "fips": "23005",
-      "name": "Cumberland",
-      "state": "ME",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 2.2
-     },
-     {
-      "fips": "42017",
-      "name": "Bucks",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.1
-     },
-     {
-      "fips": "42029",
-      "name": "Chester",
-      "state": "PA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "25001",
-      "name": "Barnstable",
-      "state": "MA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
       "fips": "19163",
       "name": "Scott",
       "state": "IA",
       "services": 14,
       "facilities": 1,
       "per10k65": 4.6
-     },
-     {
-      "fips": "38015",
-      "name": "Burleigh",
-      "state": "ND",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 7.8
-     },
-     {
-      "fips": "13059",
-      "name": "Clarke",
-      "state": "GA",
-      "services": 14,
-      "facilities": 1,
-      "per10k65": 8.6
      },
      {
       "fips": "21145",
@@ -3256,6 +3210,14 @@
       "per10k65": 10.1
      },
      {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
       "fips": "24025",
       "name": "Harford",
       "state": "MD",
@@ -3264,12 +3226,12 @@
       "per10k65": 3.0
      },
      {
-      "fips": "10005",
-      "name": "Sussex",
-      "state": "DE",
+      "fips": "42029",
+      "name": "Chester",
+      "state": "PA",
       "services": 14,
       "facilities": 1,
-      "per10k65": 1.8
+      "per10k65": 1.4
      },
      {
       "fips": "36029",
@@ -3280,6 +3242,46 @@
       "per10k65": 0.8
      },
      {
+      "fips": "10005",
+      "name": "Sussex",
+      "state": "DE",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "13059",
+      "name": "Clarke",
+      "state": "GA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.6
+     },
+     {
+      "fips": "19193",
+      "name": "Woodbury",
+      "state": "IA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "38015",
+      "name": "Burleigh",
+      "state": "ND",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 1.5
+     },
+     {
       "fips": "01097",
       "name": "Mobile",
       "state": "AL",
@@ -3288,92 +3290,36 @@
       "per10k65": 2.0
      },
      {
-      "fips": "18003",
-      "name": "Allen",
-      "state": "IN",
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
       "services": 14,
       "facilities": 1,
-      "per10k65": 2.3
+      "per10k65": 4.5
      },
      {
-      "fips": "05031",
-      "name": "Craighead",
-      "state": "AR",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 8.3
-     },
-     {
-      "fips": "33011",
-      "name": "Hillsborough",
-      "state": "NH",
-      "services": 13,
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 14,
       "facilities": 1,
       "per10k65": 1.8
      },
      {
-      "fips": "06023",
-      "name": "Humboldt",
-      "state": "CA",
-      "services": 13,
+      "fips": "01077",
+      "name": "Lauderdale",
+      "state": "AL",
+      "services": 14,
       "facilities": 1,
-      "per10k65": 4.9
+      "per10k65": 7.1
      },
      {
-      "fips": "56025",
-      "name": "Natrona",
-      "state": "WY",
-      "services": 13,
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 14,
       "facilities": 1,
-      "per10k65": 9.6
-     },
-     {
-      "fips": "47113",
-      "name": "Madison",
-      "state": "TN",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 7.3
-     },
-     {
-      "fips": "26111",
-      "name": "Midland",
-      "state": "MI",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 7.7
-     },
-     {
-      "fips": "08031",
-      "name": "Denver",
-      "state": "CO",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "45041",
-      "name": "Florence",
-      "state": "SC",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 5.2
-     },
-     {
-      "fips": "45083",
-      "name": "Spartanburg",
-      "state": "SC",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 2.3
-     },
-     {
-      "fips": "53053",
-      "name": "Pierce",
-      "state": "WA",
-      "services": 13,
-      "facilities": 1,
-      "per10k65": 0.9
+      "per10k65": 1.1
      },
      {
       "fips": "06077",
@@ -3400,6 +3346,94 @@
       "per10k65": 5.0
      },
      {
+      "fips": "05031",
+      "name": "Craighead",
+      "state": "AR",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 8.3
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "56025",
+      "name": "Natrona",
+      "state": "WY",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 9.6
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 5.2
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "06023",
+      "name": "Humboldt",
+      "state": "CA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "47113",
+      "name": "Madison",
+      "state": "TN",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 7.3
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
       "fips": "06083",
       "name": "Santa Barbara",
       "state": "CA",
@@ -3424,54 +3458,6 @@
       "per10k65": 8.4
      },
      {
-      "fips": "42079",
-      "name": "Luzerne",
-      "state": "PA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.8
-     },
-     {
-      "fips": "06013",
-      "name": "Contra Costa",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 0.6
-     },
-     {
-      "fips": "06079",
-      "name": "San Luis Obispo",
-      "state": "CA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 1.9
-     },
-     {
-      "fips": "48485",
-      "name": "Wichita",
-      "state": "TX",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 6.0
-     },
-     {
-      "fips": "19061",
-      "name": "Dubuque",
-      "state": "IA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 6.3
-     },
-     {
-      "fips": "05007",
-      "name": "Benton",
-      "state": "AR",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 2.9
-     },
-     {
       "fips": "18167",
       "name": "Vigo",
       "state": "IN",
@@ -3488,20 +3474,36 @@
       "per10k65": 2.7
      },
      {
-      "fips": "51700",
-      "name": "Newport News",
-      "state": "VA",
-      "services": 12,
-      "facilities": 1,
-      "per10k65": 4.6
-     },
-     {
       "fips": "28059",
       "name": "Jackson",
       "state": "MS",
       "services": 12,
       "facilities": 1,
       "per10k65": 4.8
+     },
+     {
+      "fips": "05007",
+      "name": "Benton",
+      "state": "AR",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 2.9
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 11.2
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 4.6
      },
      {
       "fips": "06097",
@@ -3520,20 +3522,76 @@
       "per10k65": 1.0
      },
      {
-      "fips": "28035",
-      "name": "Forrest",
-      "state": "MS",
+      "fips": "19061",
+      "name": "Dubuque",
+      "state": "IA",
       "services": 12,
       "facilities": 1,
-      "per10k65": 11.2
+      "per10k65": 6.3
      },
      {
-      "fips": "12083",
-      "name": "Marion",
-      "state": "FL",
+      "fips": "06079",
+      "name": "San Luis Obispo",
+      "state": "CA",
       "services": 12,
       "facilities": 1,
-      "per10k65": 1.0
+      "per10k65": 1.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.6
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "48485",
+      "name": "Wichita",
+      "state": "TX",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 6.0
+     },
+     {
+      "fips": "24013",
+      "name": "Carroll",
+      "state": "MD",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "27003",
+      "name": "Anoka",
+      "state": "MN",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 1.9
+     },
+     {
+      "fips": "53061",
+      "name": "Snohomish",
+      "state": "WA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.9
+     },
+     {
+      "fips": "15003",
+      "name": "Honolulu",
+      "state": "HI",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.6
      },
      {
       "fips": "13051",
@@ -3552,60 +3610,12 @@
       "per10k65": 2.1
      },
      {
-      "fips": "06065",
-      "name": "Riverside",
-      "state": "CA",
+      "fips": "48037",
+      "name": "Bowie",
+      "state": "TX",
       "services": 11,
       "facilities": 1,
-      "per10k65": 0.3
-     },
-     {
-      "fips": "49049",
-      "name": "Utah",
-      "state": "UT",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 2.0
-     },
-     {
-      "fips": "05131",
-      "name": "Sebastian",
-      "state": "AR",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 5.0
-     },
-     {
-      "fips": "12073",
-      "name": "Leon",
-      "state": "FL",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 2.5
-     },
-     {
-      "fips": "10001",
-      "name": "Kent",
-      "state": "DE",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 3.2
-     },
-     {
-      "fips": "06099",
-      "name": "Stanislaus",
-      "state": "CA",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 1.4
-     },
-     {
-      "fips": "45013",
-      "name": "Beaufort",
-      "state": "SC",
-      "services": 11,
-      "facilities": 1,
-      "per10k65": 2.0
+      "per10k65": 6.8
      },
      {
       "fips": "36103",
@@ -3616,6 +3626,14 @@
       "per10k65": 0.4
      },
      {
+      "fips": "45013",
+      "name": "Beaufort",
+      "state": "SC",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
       "fips": "45079",
       "name": "Richland",
       "state": "SC",
@@ -3624,12 +3642,20 @@
       "per10k65": 1.8
      },
      {
-      "fips": "48037",
-      "name": "Bowie",
-      "state": "TX",
+      "fips": "06007",
+      "name": "Butte",
+      "state": "CA",
       "services": 11,
       "facilities": 1,
-      "per10k65": 6.8
+      "per10k65": 2.9
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": null
      },
      {
       "fips": "01069",
@@ -4404,7 +4430,7 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "Heartware - HeartWare Battery HeartWare&trade; Ventricular Assist Device (HVAD&trade;) System",
+        "product": "Heartware - HeartWare Battery HeartWare\u2122 Ventricular Assist Device (HVAD\u2122) System",
         "reason": "The manufacturer has identified that over time, the driveline cover of the Medtronic of the HVAD System may become hardened, creating difficulty or an inability to slide the cover back to access the driveline connector. Access to the driveline connector may be delayed, which may result in patient ha",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=30307"
        },
@@ -4423,7 +4449,7 @@
         "actionType": "Recall",
         "classification": "Healthcare Professional",
         "product": "Heartware - Ventricular Assist System (HVAD) Controller AC Adapter - model - 1425, 1430. Controller DC Adapter - model -1440. Battery - model - 1650DE. Alarm Adapter - model 1450. Monitor Data Cable - model 1575. Control",
-        "reason": "The manufacturer is issuing a global communication announcing the decision to stop the distribution and sale of the HeartWare Ventricular Assist Device (HVAD)&trade; System. Clinical comparisons demonstrate a higher frequency of neurological adverse events and mortality with the HVAD System as compa",
+        "reason": "The manufacturer is issuing a global communication announcing the decision to stop the distribution and sale of the HeartWare Ventricular Assist Device (HVAD)\u2122 System. Clinical comparisons demonstrate a higher frequency of neurological adverse events and mortality with the HVAD System as compared to",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27820"
        },
        {
@@ -4432,7 +4458,7 @@
         "actionType": "Recall",
         "classification": "Hospital/Pharmacy/Laboratory",
         "product": "Heartware - HeartWare Battery 1650DE",
-        "reason": "The manufactuere has identified that the single lot of batteries serial numbers of the affected batteries are (BAT934853, BAT934854, BAT934858). have multiple occurrences of a welding defect affecting internal components within the HVAD Battery. If present, the welding defect may:\n&quot; cause the b",
+        "reason": "The manufactuere has identified that the single lot of batteries serial numbers of the affected batteries are (BAT934853, BAT934854, BAT934858). have multiple occurrences of a welding defect affecting internal components within the HVAD Battery. If present, the welding defect may:\n\" cause the batter",
         "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=29345"
        },
        {
@@ -4458,9 +4484,9 @@
         "source": "medsafe-nz",
         "actionType": "Correction",
         "classification": "Hospital/Pharmacy/Laboratory",
-        "product": "Heartware - Ventricular Assist System (HVAD) Controller AC Adapter 1425, 1430 - Controller DC Adapter 1440 - Battery 1650DE - Alarm Adapter 1450 - Monitor Data Cable 1575 -Controller 1400, 1401, 1403, 1407",
-        "reason": "The manufacturer is informing users of an upcoming updates to the HVAD&trade; System Instructions for Use (IFU) and Patient Manual (PM). These updates will (1) provide new information relating to the useful life of the HVAD&trade; System carrying cases (Waist Pack, Shoulder Pack, and Convertible Pat",
-        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27353"
+        "product": "Heartware - Ventricular Assist System (HVAD) Controller AC Adapter 1425, 1430 - Controller DC Adapter 1440 - Battery 1650DE - Alarm Adapter 1450 - Monitor Data Cable 1575 - Controller 1400, 1401, 1403, 1407",
+        "reason": "There is the potential for the Controller power cables (AC Adapter, DC Adapter, and Battery cables), HVADTM Alarm Adapter, and HVADTM Monitor data cables to cause damage to the HVADTM Controller ports when inserting the cables into the Controller ports, due to misalignment of the cables to the port.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=27352"
        }
       ]
      },
@@ -5027,9 +5053,9 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartWare HVAD pump",
-        "reason": "Recall/Exchange",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--HeartWare-HVAD-pumpar--HeartWare-Inc/#"
+        "product": "HeartWare HVAD-system",
+        "reason": "Upgrade software",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Aktiva-implantat--HeartWare-HVAD-system--HeartWare-Inc/#"
        },
        {
         "date": null,
@@ -5045,27 +5071,9 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Heartware Controllers",
-        "reason": "Follow-up patient",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--Heartware-Controllers--HeartWare-Inc/#"
-       },
-       {
-        "date": null,
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "HeartWare HVAD-system",
-        "reason": "Upgrade software",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2015/Aktiva-implantat--HeartWare-HVAD-system--HeartWare-Inc/#"
-       },
-       {
-        "date": null,
-        "source": "icij-imdd",
-        "actionType": "Field Safety Notice",
-        "classification": null,
-        "product": "HeartWare HVAD controller, the AC adapter and the battery",
-        "reason": "Recall/Exchange",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Medicinsk-elektriskmekanisk-utrustning--HeartWare-HVAD-styrenhet-vaxelstromsadapter-och-batteri--HeartWare-Inc/#"
+        "product": "HeartWare-battery",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--HeartWare-batteri--HeartWare-Inc/#"
        },
        {
         "date": null,
@@ -5081,9 +5089,18 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartWare-battery",
-        "reason": "Change instructions",
-        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2014/Aktiva-implantat--HeartWare-batteri--HeartWare-Inc/#"
+        "product": "HeartWare HVAD pump",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--HeartWare-HVAD-pumpar--HeartWare-Inc/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "HeartWare HVAD controller, the AC adapter and the battery",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Medicinsk-elektriskmekanisk-utrustning--HeartWare-HVAD-styrenhet-vaxelstromsadapter-och-batteri--HeartWare-Inc/#"
        },
        {
         "date": null,
@@ -5093,6 +5110,15 @@
         "product": "HeartWare HVAD-system",
         "reason": "Change instructions",
         "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN20161/Aktiva-implantat--HeartWare-HVAD-system--Medtronic/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "Heartware Controllers",
+        "reason": "Follow-up patient",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Aktiva-implantat--Heartware-Controllers--HeartWare-Inc/#"
        }
       ]
      },
@@ -5151,7 +5177,7 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "HeartWare HVAD System",
+        "product": "Heartware controllers",
         "reason": null,
         "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
        },
@@ -5160,7 +5186,7 @@
         "source": "icij-imdd",
         "actionType": "Field Safety Notice",
         "classification": null,
-        "product": "Heartware controllers",
+        "product": "HeartWare HVAD System",
         "reason": null,
         "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
        }

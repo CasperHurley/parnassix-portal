@@ -352,7 +352,7 @@
      },
      {
       "year": 2019,
-      "value": 429476.97
+      "value": 429594.62
      },
      {
       "year": 2020,
@@ -393,8 +393,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 25099.66,
-      "records": 444
+      "total": 25217.31,
+      "records": 445
      },
      {
       "nature": "Gift",
@@ -417,6 +417,11 @@
       "company": "Medtronic Vascular, Inc.",
       "total": 709.01,
       "records": 6
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 117.65,
+      "records": 1
      }
     ],
     "research": {
@@ -476,10 +481,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Is Body Mass Index in Patients With Acute Myocardial Infarction and Cardiogenic Shock a Big Deal, a Little Deal, or No Deal at All?",
-      "journal": "Cardiovascular revascularization medicine : including molecu",
+      "title": "Robotic coronary angiography: Advantages of stepping back.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2022,
-      "pmid": "35272813",
+      "pmid": "35920374",
       "tier": "corroborated"
      },
      {
@@ -490,10 +495,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Robotic coronary angiography: Advantages of stepping back.",
-      "journal": "Catheterization and cardiovascular interventions : official ",
+      "title": "Is Body Mass Index in Patients With Acute Myocardial Infarction and Cardiogenic Shock a Big Deal, a Little Deal, or No Deal at All?",
+      "journal": "Cardiovascular revascularization medicine : including molecu",
       "year": 2022,
-      "pmid": "35920374",
+      "pmid": "35272813",
       "tier": "corroborated"
      },
      {
@@ -659,11 +664,11 @@
      },
      {
       "year": 2014,
-      "value": 21318.84
+      "value": 23038.34
      },
      {
       "year": 2015,
-      "value": 61259.46
+      "value": 68597.46
      },
      {
       "year": 2016,
@@ -683,7 +688,7 @@
      },
      {
       "year": 2020,
-      "value": 46803.46
+      "value": 48003.46
      },
      {
       "year": 2021,
@@ -705,8 +710,8 @@
     "byNature": [
      {
       "nature": "Consulting Fee",
-      "total": 916879.2,
-      "records": 64
+      "total": 918379.2,
+      "records": 65
      },
      {
       "nature": "Honoraria",
@@ -715,18 +720,18 @@
      },
      {
       "nature": "Travel and Lodging",
-      "total": 198218.0,
-      "records": 277
+      "total": 205556.0,
+      "records": 279
      },
      {
       "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
-      "total": 76172.91,
-      "records": 37
+      "total": 77372.91,
+      "records": 38
      },
      {
       "nature": "Food and Beverage",
-      "total": 17957.29,
-      "records": 212
+      "total": 18176.79,
+      "records": 214
      },
      {
       "nature": "Entertainment",
@@ -751,19 +756,19 @@
       "records": 11
      },
      {
+      "company": "Maquet Cardiovascular L.L.C.",
+      "total": 7338.0,
+      "records": 2
+     },
+     {
       "company": "Thoratec Corporation",
       "total": 4181.03,
       "records": 10
      },
      {
-      "company": "HeartWare, Inc.",
-      "total": 361.91,
+      "company": "Maquet Cardiovascular U.S. Sales, L.L.C.",
+      "total": 2700.0,
       "records": 2
-     },
-     {
-      "company": "Philips Electronics North America Corporation",
-      "total": 45.72,
-      "records": 1
      }
     ],
     "research": {
@@ -788,10 +793,45 @@
     },
     "articles": [
      {
-      "title": "The Effect of Volume-Flow Discordance on Survival in Severe Aortic Stenosis.",
-      "journal": "JACC. Asia",
+      "title": "Author's response to Moeller et al.",
+      "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
-      "pmid": "40864035",
+      "pmid": "41241035",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prevention and Management of Acute Limb Ischemia when Using Temporary Mechanical Circulatory Support Devices.",
+      "journal": "Interventional cardiology clinics",
+      "year": 2026,
+      "pmid": "42209078",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Trajectories and outcomes in patients with cardiogenic shock receiving heart replacement therapies.",
+      "journal": "The Journal of heart and lung transplantation : the official",
+      "year": 2026,
+      "pmid": "41951134",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Generalizability of Landmark Temporary MCS Device Trials: Insights From the CSWG Registry.",
+      "journal": "JACC. Advances",
+      "year": 2026,
+      "pmid": "41946200",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prognostic value of hemodynamic indices prior to tMCS explantation: An analysis from the Cardiogenic Shock Working Group.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "41780632",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Machine Learning-Based Phenotypes Combined with Comorbidity Burden in Cardiogenic Shock.",
+      "journal": "European journal of heart failure",
+      "year": 2026,
+      "pmid": "41921567",
       "tier": "corroborated"
      },
      {
@@ -809,20 +849,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Clinical Characteristics and Outcomes in Intra-aortic Balloon Pump-Supported Cardiogenic Shock Among Patients Transferred to Tertiary Care Centers.",
-      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
-      "year": 2026,
-      "pmid": "42183120",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Author's response to Moeller et al.",
-      "journal": "The Journal of heart and lung transplantation : the official",
-      "year": 2026,
-      "pmid": "41241035",
-      "tier": "corroborated"
-     },
-     {
       "title": "STING promotes CD8 T-cell cardiotropism and fibrosis from distinct cellular compartments in doxorubicin cardiomyopathy.",
       "journal": "Cardiovascular research",
       "year": 2026,
@@ -830,31 +856,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Preoperative Use of Venoarterial Extracorporeal Membrane Oxygenation in Postinfarct Ventricular Septal Rupture: Insights From the Extracorporeal Life Support Or",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "title": "Cardiogenic Shock Detection Using Electronic Medical Records: A Review and Blueprint for Clinical Implementation and Future Research.",
+      "journal": "Journal of the American Heart Association",
       "year": 2026,
-      "pmid": "41975568",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Prognostic value of hemodynamic indices prior to tMCS explantation: An analysis from the Cardiogenic Shock Working Group.",
-      "journal": "Journal of cardiac failure",
-      "year": 2026,
-      "pmid": "41780632",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Escalation From Intra-Aortic Balloon Pump in Cardiogenic Shock Patients: A Multistate Analysis of the Altshock-2 Registry.",
-      "journal": "The American journal of cardiology",
-      "year": 2026,
-      "pmid": "40992533",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Aortic Pulsatility Index and Native Heart Survival in Patients With Heart Failure-Related Cardiogenic Shock.",
-      "journal": "JACC. Heart failure",
-      "year": 2026,
-      "pmid": "41995670",
+      "pmid": "41669969",
       "tier": "corroborated"
      }
     ],
@@ -1067,68 +1072,73 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 169.21
+      "value": 725.43
      },
      {
       "year": 2014,
-      "value": 39426.26
+      "value": 53409.25
      },
      {
       "year": 2015,
-      "value": 63277.02
+      "value": 80837.26
      },
      {
       "year": 2016,
-      "value": 93599.21
+      "value": 100912.91
      },
      {
       "year": 2017,
-      "value": 145820.29
+      "value": 169995.34
      },
      {
       "year": 2018,
-      "value": 135656.94
+      "value": 151916.59
      },
      {
       "year": 2019,
-      "value": 140329.08
+      "value": 153738.72
      },
      {
       "year": 2020,
-      "value": 103175.06
+      "value": 115840.45
      },
      {
       "year": 2021,
-      "value": 145693.84
+      "value": 182303.24
      },
      {
       "year": 2022,
-      "value": 132036.2
+      "value": 145877.67
      },
      {
       "year": 2023,
-      "value": 210152.16
+      "value": 210885.04
      },
      {
       "year": 2024,
-      "value": 159125.85
+      "value": 159298.18
      }
     ],
     "byNature": [
      {
       "nature": "Honoraria",
-      "total": 774362.5,
-      "records": 198
+      "total": 803012.5,
+      "records": 210
      },
      {
       "nature": "Consulting Fee",
-      "total": 277816.25,
-      "records": 87
+      "total": 298347.5,
+      "records": 106
      },
      {
       "nature": "Travel and Lodging",
-      "total": 202124.52,
-      "records": 434
+      "total": 214624.98,
+      "records": 474
+     },
+     {
+      "nature": "Food and Beverage",
+      "total": 60989.1,
+      "records": 776
      },
      {
       "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
@@ -1136,14 +1146,9 @@
       "records": 23
      },
      {
-      "nature": "Food and Beverage",
-      "total": 50919.55,
-      "records": 602
-     },
-     {
-      "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
-      "total": 4500.0,
-      "records": 7
+      "nature": "Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program",
+      "total": 45925.0,
+      "records": 21
      }
     ],
     "byCompany": [
@@ -1156,6 +1161,11 @@
       "company": "Abbott Laboratories",
       "total": 270457.9,
       "records": 336
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 156329.11,
+      "records": 254
      },
      {
       "company": "Medtronic, Inc.",
@@ -1171,11 +1181,6 @@
       "company": "Medtronic Vascular, Inc.",
       "total": 1239.4,
       "records": 24
-     },
-     {
-      "company": "Philips North America LLC",
-      "total": 136.1,
-      "records": 1
      }
     ],
     "research": {
@@ -1203,6 +1208,13 @@
     },
     "articles": [
      {
+      "title": "Angiography-Derived Physiology for Coronary Artery Disease Assessment: Expert Opinion From a SCAI Roundtable.",
+      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
+      "year": 2026,
+      "pmid": "41868766",
+      "tier": "corroborated"
+     },
+     {
       "title": "Response to publication: Percutaneous micro-axial flow pump use during non-emergent high-risk PCI: Systematic review and meta-analysis by Elbenawi et al.",
       "journal": "Cardiovascular revascularization medicine : including molecu",
       "year": 2026,
@@ -1214,27 +1226,6 @@
       "journal": "The New England journal of medicine",
       "year": 2026,
       "pmid": "41910384",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Angiography-Derived Physiology for Coronary Artery Disease Assessment: Expert Opinion From a SCAI Roundtable.",
-      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
-      "year": 2026,
-      "pmid": "41868766",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Safety and Effectiveness of Intracoronary Imaging-Guided PCI in Contemporary Practice: Insights From BMC2.",
-      "journal": "Circulation. Cardiovascular interventions",
-      "year": 2025,
-      "pmid": "40827405",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Mechanical circulatory support in high-risk elective PCI: rationale and design of the PROTECT IV trial.",
-      "journal": "EuroIntervention : journal of EuroPCR in collaboration with ",
-      "year": 2025,
-      "pmid": "41024656",
       "tier": "corroborated"
      },
      {
@@ -1252,6 +1243,27 @@
       "tier": "corroborated"
      },
      {
+      "title": "Spontaneous Coronary Artery Dissection Clinical Review: Current State of Evidence and Challenges Ahead.",
+      "journal": "The International journal of angiology : official publicatio",
+      "year": 2025,
+      "pmid": "41210675",
+      "tier": "corroborated"
+     },
+     {
+      "title": "FFRangio-guided versus pressure wire-guided PCI: design and rationale of the multicentre, randomised ALL-RISE trial.",
+      "journal": "EuroIntervention : journal of EuroPCR in collaboration with ",
+      "year": 2025,
+      "pmid": "40828315",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Managing Cardiogenic Shock Caused by Acute Myocardial Infarction: Invisible Challenges Revealed in a Statewide Registry.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": 2025,
+      "pmid": "40100173",
+      "tier": "corroborated"
+     },
+     {
       "title": "Flow characteristics of reperfusion sheaths when utilizing large bore mechanical circulatory support devices.",
       "journal": "Cardiovascular revascularization medicine : including molecu",
       "year": 2025,
@@ -1259,17 +1271,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Outcomes of Percutaneous Mechanical Aspiration in Right-Sided Infective Endocarditis: A Multicenter Registry.",
-      "journal": "Journal of the American College of Cardiology",
+      "title": "Safety and Effectiveness of Intracoronary Imaging-Guided PCI in Contemporary Practice: Insights From BMC2.",
+      "journal": "Circulation. Cardiovascular interventions",
       "year": 2025,
-      "pmid": "40864007",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Spontaneous Coronary Artery Dissection Clinical Review: Current State of Evidence and Challenges Ahead.",
-      "journal": "The International journal of angiology : official publicatio",
-      "year": 2025,
-      "pmid": "41210675",
+      "pmid": "40827405",
       "tier": "corroborated"
      }
     ],
@@ -1498,6 +1503,20 @@
      },
      {
       "source": "courtlistener",
+      "ref": "10212734",
+      "case": "Schreiber v. Tenet Healthcare Corporation",
+      "date": "2019-10-09",
+      "snippet": "DMC Cardiovascular Institute. That agreement was to be effective on June 1, 2009 and terminate on April 30, 2014. (Dkt. 26-1, Pl. Ex. L). Dr. Schreiber also signed a Physician Independent Contractor Agreement with DMC to be effective from 1 Also before the Court is a companion case brought by Dr. Amir Kaki and Dr. Mahir Elder, both colleagues of Plaintiff in similar, but by no means identical, situations. See Amir Kaki, M.D., et al. v. Tenet Healthcare Corporation, et al., Case No. 2:19-cv- 10863-AJT-DRG. That case has also been dismissed without prejudice. May 1, 2010 to April 30, 2012. (Dkt.",
+      "matchedForm": "AMIR KAKI",
+      "signals": [
+       "credential-adjacent"
+      ],
+      "court": "mied",
+      "url": "https://www.courtlistener.com/opinion/9746122/schreiber-v-tenet-healthcare-corporation/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
       "ref": "10212747",
       "case": "Kaki, M.D. v. Tenet Healthcare Corporation",
       "date": "2019-10-09",
@@ -1509,20 +1528,6 @@
       ],
       "court": "mied",
       "url": "https://www.courtlistener.com/opinion/9746135/kaki-md-v-tenet-healthcare-corporation/",
-      "docId": null
-     },
-     {
-      "source": "courtlistener",
-      "ref": "10212734",
-      "case": "Schreiber v. Tenet Healthcare Corporation",
-      "date": "2019-10-09",
-      "snippet": "DMC Cardiovascular Institute. That agreement was to be effective on June 1, 2009 and terminate on April 30, 2014. (Dkt. 26-1, Pl. Ex. L). Dr. Schreiber also signed a Physician Independent Contractor Agreement with DMC to be effective from 1 Also before the Court is a companion case brought by Dr. Amir Kaki and Dr. Mahir Elder, both colleagues of Plaintiff in similar, but by no means identical, situations. See Amir Kaki, M.D., et al. v. Tenet Healthcare Corporation, et al., Case No. 2:19-cv- 10863-AJT-DRG. That case has also been dismissed without prejudice. May 1, 2010 to April 30, 2012. (Dkt.",
-      "matchedForm": "AMIR KAKI",
-      "signals": [
-       "credential-adjacent"
-      ],
-      "court": "mied",
-      "url": "https://www.courtlistener.com/opinion/9746122/schreiber-v-tenet-healthcare-corporation/",
       "docId": null
      }
     ],
@@ -1709,6 +1714,48 @@
     },
     "articles": [
      {
+      "title": "Cardiac Contractility Modulation for Patients With Heart Failure and Preserved Ejection Fraction: The AIM HIGHer Study.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "41802565",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Comparison of Heart Failure Cardiogenic Shock Patients with Axillary and Femoral Intra-aortic Balloon Pump: Cardiogenic Shock Working Group report.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "40846302",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Aortic Pulsatility Index and Native Heart Survival in Patients With Heart Failure-Related Cardiogenic Shock.",
+      "journal": "JACC. Heart failure",
+      "year": 2026,
+      "pmid": "41995670",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Corrigendum to \"Long-term safety and outcomes after atrial shunting for heart failure with preserved or mildly reduced ejection fraction: 5-year and 3-year foll",
+      "journal": "American heart journal",
+      "year": 2026,
+      "pmid": "41418529",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Does Pacemaker Mode Affect Outcomes in Patients With HeartMate 3 LVAD?",
+      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "year": 2026,
+      "pmid": "42214009",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Thiazides attenuate the diuretic response to Pecavaptan, a dual vasopressin receptor antagonist, in hospitalized heart failure patients.",
+      "journal": "Journal of cardiac failure",
+      "year": 2026,
+      "pmid": "42191015",
+      "tier": "corroborated"
+     },
+     {
       "title": "Pancreatic Involvement During Acute Heart Failure: Insights from the AVANTI trial.",
       "journal": "European journal of heart failure",
       "year": 2026,
@@ -1723,24 +1770,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Comparison of Heart Failure Cardiogenic Shock Patients with Axillary and Femoral Intra-aortic Balloon Pump: Cardiogenic Shock Working Group report.",
-      "journal": "Journal of cardiac failure",
+      "title": "Outcomes with Impella CP in acute myocardial infarction vs heart failure cardiogenic shock: Insights from the Cardiogenic Shock Working Group.",
+      "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
-      "pmid": "40846302",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Does Pacemaker Mode Affect Outcomes in Patients With HeartMate 3 LVAD?",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
-      "year": 2026,
-      "pmid": "42214009",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Corrigendum to \"Long-term safety and outcomes after atrial shunting for heart failure with preserved or mildly reduced ejection fraction: 5-year and 3-year foll",
-      "journal": "American heart journal",
-      "year": 2026,
-      "pmid": "41418529",
+      "pmid": "40846118",
       "tier": "corroborated"
      },
      {
@@ -1748,34 +1781,6 @@
       "journal": "JACC. Heart failure",
       "year": 2026,
       "pmid": "41389079",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Aortic Pulsatility Index and Native Heart Survival in Patients With Heart Failure-Related Cardiogenic Shock.",
-      "journal": "JACC. Heart failure",
-      "year": 2026,
-      "pmid": "41995670",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Cardiac Contractility Modulation for Patients With Heart Failure and Preserved Ejection Fraction: The AIM HIGHer Study.",
-      "journal": "Journal of cardiac failure",
-      "year": 2026,
-      "pmid": "41802565",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Thiazides attenuate the diuretic response to Pecavaptan, a dual vasopressin receptor antagonist, in hospitalized heart failure patients.",
-      "journal": "Journal of cardiac failure",
-      "year": 2026,
-      "pmid": "42191015",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Outcomes with Impella CP in acute myocardial infarction vs heart failure cardiogenic shock: Insights from the Cardiogenic Shock Working Group.",
-      "journal": "The Journal of heart and lung transplantation : the official",
-      "year": 2026,
-      "pmid": "40846118",
       "tier": "corroborated"
      }
     ],
@@ -1909,9 +1914,9 @@
     "credential": "MD",
     "taxonomyCode": "208G00000X",
     "licenseState": "PA",
-    "opState": "MA",
+    "opState": "PA",
     "opCity": "PHILADELPHIA",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "specialty": "Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery)",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1245309103"
@@ -1925,11 +1930,11 @@
      },
      {
       "year": 2014,
-      "value": 56412.54
+      "value": 56434.9
      },
      {
       "year": 2015,
-      "value": 104590.17
+      "value": 104603.11
      },
      {
       "year": 2016,
@@ -1941,15 +1946,15 @@
      },
      {
       "year": 2018,
-      "value": 121713.65
+      "value": 121729.11
      },
      {
       "year": 2019,
-      "value": 85192.69
+      "value": 85225.95
      },
      {
       "year": 2020,
-      "value": 28857.68
+      "value": 28921.31
      },
      {
       "year": 2021,
@@ -1957,11 +1962,11 @@
      },
      {
       "year": 2022,
-      "value": 16273.3
+      "value": 16304.37
      },
      {
       "year": 2023,
-      "value": 99104.93
+      "value": 99125.93
      },
      {
       "year": 2024,
@@ -1986,8 +1991,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 24557.9,
-      "records": 348
+      "total": 24757.62,
+      "records": 359
      },
      {
       "nature": "Consulting Fee",
@@ -2046,57 +2051,22 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 342,
-     "nameOnly": 7314
+     "corroborated": 201,
+     "nameOnly": 7455
     },
     "articles": [
-     {
-      "title": "Comparative Effectiveness of Disease-Modifying Treatments in Double Seronegative Neuromyelitis Optica Spectrum Disorder.",
-      "journal": "Neurology(R) neuroimmunology & neuroinflammation",
-      "year": 2026,
-      "pmid": "41637688",
-      "tier": "corroborated"
-     },
-     {
-      "title": "The NHLBI lung transplant consortium 2025 steering committee report: Strategies to maximize the use of the consortium for advancing lung transplantation.",
-      "journal": "The Journal of heart and lung transplantation : the official",
-      "year": 2026,
-      "pmid": "41297730",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Case 1-2026: A 50-Year-Old Woman with Fever and Abdominal Pain.",
-      "journal": "The New England journal of medicine",
-      "year": 2026,
-      "pmid": "41499735",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Clinical features associated with chronic lung allograft dysfunction progression in a multicenter cohort.",
-      "journal": "American journal of respiratory and critical care medicine",
-      "year": 2026,
-      "pmid": "41738136",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Waitlist outcome differences for pulmonary hypertension patients are worse in the CAS era.",
-      "journal": "JHLT open",
-      "year": 2026,
-      "pmid": "41446011",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Prognostic impact of emphysema extent on mortality and lung function decline in combined pulmonary fibrosis and emphysema: An observational cohort study.",
-      "journal": "Respiratory medicine",
-      "year": 2026,
-      "pmid": "41951186",
-      "tier": "corroborated"
-     },
      {
       "title": "Acute lung allograft dysfunction predicts lung allograft failure: Construct validity of the 2026 International Society for Heart and Lung Transplantation spirom",
       "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
       "pmid": "41974517",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Psychosocial challenges with transplantation.",
+      "journal": "Current opinion in pulmonary medicine",
+      "year": 2026,
+      "pmid": "41733133",
       "tier": "corroborated"
      },
      {
@@ -2107,17 +2077,52 @@
       "tier": "corroborated"
      },
      {
-      "title": "From healthy to heart failure in 24 hours: defining the upper limit of exercise-induced cardiac fatigue.",
-      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "title": "Epidemiology of the acute respiratory distress syndrome and the prognostic validity of SpO2:FiO2 under the expanded Global definition.",
+      "journal": "Critical care (London, England)",
       "year": 2026,
-      "pmid": "42126136",
+      "pmid": "42104520",
       "tier": "corroborated"
      },
      {
-      "title": "Immunotherapies for neuromyelitis optica spectrum disorder and myelin oligodendrocyte glycoprotein antibody-associated disease.",
-      "journal": "Handbook of clinical neurology",
+      "title": "The NHLBI lung transplant consortium 2025 steering committee report: Strategies to maximize the use of the consortium for advancing lung transplantation.",
+      "journal": "The Journal of heart and lung transplantation : the official",
       "year": 2026,
-      "pmid": "41526138",
+      "pmid": "41297730",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prognostic impact of emphysema extent on mortality and lung function decline in combined pulmonary fibrosis and emphysema: An observational cohort study.",
+      "journal": "Respiratory medicine",
+      "year": 2026,
+      "pmid": "41951186",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Clinical features associated with chronic lung allograft dysfunction progression in a multicenter cohort.",
+      "journal": "American journal of respiratory and critical care medicine",
+      "year": 2026,
+      "pmid": "41738136",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A Comment about AI Methods that May Help Advance Pharmacovigilance.",
+      "journal": "Clinical pharmacology and therapeutics",
+      "year": 2026,
+      "pmid": "42101007",
+      "tier": "corroborated"
+     },
+     {
+      "title": "CT-adipose measures identify severe SARS-CoV-2 risk beyond traditional obesity metrics: a C4R cohort study.",
+      "journal": "BMC pulmonary medicine",
+      "year": 2026,
+      "pmid": "42178532",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Prolonged Invasive Mechanical Ventilation is Associated With Decreased Survival After Lung Transplantation Among Recipients With Primary Graft Dysfunction: A Lu",
+      "journal": "Clinical transplantation",
+      "year": 2026,
+      "pmid": "41532276",
       "tier": "corroborated"
      }
     ],
@@ -2126,13 +2131,13 @@
      "match": "author last name 'ANDERSON' + first initial 'M'",
      "signals": {
       "topicKeywords": [
-       "cardiovascular disease",
        "heart",
        "impella",
+       "thoracic surgery (cardiothoracic vascular surgery)",
        "ventricular assist"
       ],
       "affiliationGeo": [
-       "Massachusetts",
+       "Pennsylvania",
        "PHILADELPHIA"
       ]
      },
@@ -2161,14 +2166,14 @@
       "beneficiaries": 21
      },
      {
-      "code": "33430",
-      "description": "Replacement of mitral valve on heart-lung machine",
+      "code": "33518",
+      "description": "Coronary artery bypass using vein or artery graft, 2 grafts",
       "services": 16,
       "beneficiaries": 16
      },
      {
-      "code": "33518",
-      "description": "Coronary artery bypass using vein or artery graft, 2 grafts",
+      "code": "33430",
+      "description": "Replacement of mitral valve on heart-lung machine",
       "services": 16,
       "beneficiaries": 16
      }
@@ -2257,66 +2262,24 @@
    },
    "litigation": {
     "counts": {
-     "courtlistener:corroborated": 5,
+     "courtlistener:corroborated": 3,
      "ptab:corroborated": 1,
-     "courtlistener:name-only": 35,
+     "courtlistener:name-only": 37,
      "ptab:name-only": 6
     },
     "cites": [
      {
       "source": "courtlistener",
-      "ref": "11120999",
-      "case": "ANDERSON v. TRAVELERS PERSONAL INSURANCE COMPANY",
-      "date": "2025-08-14",
-      "snippet": "IN THE UNITED STATES DISTRICT COURT FOR THE WESTERN DISTRICT OF PENNSYLVANIA MARK ANDERSON, ) ) Plaintiff, ) 2:25-cv-118 ) v.",
-      "matchedForm": "MARK ANDERSON",
-      "signals": [
-       "geo"
-      ],
-      "court": "pawd",
-      "url": "https://www.courtlistener.com/opinion/10654412/anderson-v-travelers-personal-insurance-company/",
-      "docId": null
-     },
-     {
-      "source": "courtlistener",
-      "ref": "9977912",
-      "case": "In Re: Est. of D.A.A., Appeal of: Anderson, R.",
-      "date": "2024-06-05",
-      "snippet": "County, Pennsylvania (\u201cthe Property\u201d), which is titled in the name of Ernest R. Anderson. Mr. Ernest [R.] Anderson died in July 1979; however, no estate was opened. Mr. Anderson was survived by his wife, Dorothy A. Anderson (Decedent), and their three children, [Appellant], Mark Anderson, and Cheryl Riley. Decedent died intestate on October 11, 1996, and was survived by her three children. [Appellant\u2019s siblings executed renunciations of their rights to administer Decedent\u2019s Estate. On May 23, 1997, Appellant filed a petition for probate and grant of letters",
-      "matchedForm": "MARK ANDERSON",
-      "signals": [
-       "geo"
-      ],
-      "court": "pasuperct",
-      "url": "https://www.courtlistener.com/opinion/10317446/in-re-est-of-daa-appeal-of-anderson-r/",
-      "docId": null
-     },
-     {
-      "source": "courtlistener",
-      "ref": "10784034",
-      "case": "In Re: Est. of D.A.A., Appeal of: Anderson, R.",
-      "date": "2024-06-05",
-      "snippet": "County, Pennsylvania (\u201cthe Property\u201d), which is titled in the name of Ernest R. Anderson. Mr. Ernest [R.] Anderson died in July 1979; however, no estate was opened. Mr. Anderson was survived by his wife, Dorothy A. Anderson (Decedent), and their three children, [Appellant], Mark Anderson, and Cheryl Riley. Decedent died intestate on October 11, 1996, and was survived by her three children. [Appellant\u2019s siblings executed renunciations of their rights to administer Decedent\u2019s Estate. On May 23, 1997, Appellant filed a petition for probate and grant of letters",
-      "matchedForm": "MARK ANDERSON",
-      "signals": [
-       "geo"
-      ],
-      "court": "pasuperct",
-      "url": "https://www.courtlistener.com/opinion/10317446/in-re-est-of-daa-appeal-of-anderson-r/",
-      "docId": null
-     },
-     {
-      "source": "courtlistener",
-      "ref": "9901046",
-      "case": "Hospital Housekeeping Systems v. Labor Commission",
-      "date": "2023-08-17",
-      "snippet": "the emergency room and was diagnosed with an infected patellar bursa in her left knee. \u00b64 Over the next several months, Vargas sought treatment for her ongoing knee pain from various providers, including physical therapists and orthopedic specialists. In November 2017, Vargas was evaluated by Dr. Mark Anderson, a medical consultant retained by HHS. Dr. Anderson concluded that \u201cthe work accident medically caused [Vargas\u2019s] traumatic pre-patellar bursitis in her left knee that had not reached medical stability.\u201d \u00b65 Vargas continued receiving treatment for her ongoing knee trouble. In May 2018, Vargas had",
+      "ref": "9981202",
+      "case": "Brenda McGuire v. Life Insurance Company of North America",
+      "date": "2022-09-21",
+      "snippet": "collapse in parts of her spine. (See id. at 945, 1004\u201307, 1019\u201322.) 16 17 Other providers whom McGuire visited during the Elimination Period recorded 18 comparable information. In summer 2017, McGuire visited Dr. Mark Anderson, a 19 neurosurgeon. He recorded on August 14 McGuire\u2019s reports of pain, a positive 20 Lhermitte\u2019s sign (an electric shock-like sensation related to the neck) for neurological 21 impingement, and weakness in her upper extremities and deemed her totally temporarily 22 disabled. (See id. at 1033\u201338.)",
       "matchedForm": "MARK ANDERSON",
       "signals": [
        "credential-adjacent"
       ],
-      "court": "utahctapp",
-      "url": "https://www.courtlistener.com/opinion/9443221/hospital-housekeeping-systems-v-labor-commission/",
+      "court": "cacd",
+      "url": "https://www.courtlistener.com/opinion/9514589/brenda-mcguire-v-life-insurance-company-of-north-america/",
       "docId": null
      },
      {
@@ -2335,16 +2298,30 @@
      },
      {
       "source": "courtlistener",
-      "ref": "10004170",
-      "case": "Jackson v. Social Security Administration",
-      "date": "2019-07-22",
-      "snippet": "Plaintiff makes a fair point. However, a close review of the ALJ\u2019s assessment reveals she gave proper consideration to Plaintiff\u2019s treatment provider\u2019s opinions. The ALJ stated: As for the opinion evidence, the undersigned has considered the opinions of Emily Whitley, LCSW and Dr. Mark Anderson [sic] of Behavioral Health, as provided in the Work Capacities Forms provided on behalf of the claimant. Because these two forms appear to have been completed almost exactly the same, as if completed by the same person, they are considered as one opinion and are entitled to some weight. The undersigned",
+      "ref": "4020892",
+      "case": "Ronald Malam v. State of Missouri, Department of Corrections",
+      "date": "2016-06-28",
+      "snippet": "gallstone pancreatitis and at that time was diagnosed with diabetes. Malam was hospitalized once more the year preceding his accident with severe acute pancreatitis, acute renal failure, obesity, hypertension, and uncontrolled diabetes. Reports from Dr. Timothy Woods, Dr. Douglas Ham, and Dr. Mark Anderson, the physicians who treated Malam after the accident, reflected that there was significant confusion among these physicians regarding the events of the accident. They all indicated in their reports that a person had fallen on Malam\u2019s chest, which was not the case. Because Malam was intubated, the",
       "matchedForm": "MARK ANDERSON",
       "signals": [
        "credential-adjacent"
       ],
-      "court": "ared",
-      "url": "https://www.courtlistener.com/opinion/9537557/jackson-v-social-security-administration/",
+      "court": "mo",
+      "url": "https://www.courtlistener.com/opinion/4243631/ronald-malam-v-state-of-missouri-department-of-corrections/",
+      "docId": null
+     },
+     {
+      "source": "courtlistener",
+      "ref": "3032401",
+      "case": "United States v. Kou Yang",
+      "date": "2003-09-30",
+      "snippet": "Submitted: May 13, 2003 Filed: September 30, 2003 ___________ Before LOKEN, Chief Judge, BRIGHT and MURPHY, Circuit Judges. ___________ LOKEN, Chief Judge. Iowa State Trooper Mark Anderson stopped a vehicle proceeding north on Interstate 35 for having excessively dark windows. At the conclusion of the traffic stop, driver Kou Yang consented to a search of the vehicle. The search yielded some suspicious items but no contraband. Yang then said he wanted to leave, but Anderson detained the",
+      "matchedForm": "MARK ANDERSON",
+      "signals": [
+       "geo"
+      ],
+      "court": "ca8",
+      "url": "https://www.courtlistener.com/opinion/3032401/united-states-v-kou-yang/",
       "docId": null
      }
     ],
@@ -2362,7 +2339,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "342 corroborated + 7314 name-only author matches"
+      "detail": "201 corroborated + 7455 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -2435,7 +2412,7 @@
      },
      {
       "year": 2017,
-      "value": 48193.92
+      "value": 48231.7
      },
      {
       "year": 2018,
@@ -2489,8 +2466,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 11249.94,
-      "records": 140
+      "total": 11287.72,
+      "records": 142
      }
     ],
     "byCompany": [
@@ -2498,6 +2475,11 @@
       "company": "ABIOMED",
       "total": 830201.7,
       "records": 637
+     },
+     {
+      "company": "MAQUET Cardiovascular U.S. Sales, L.L.C.",
+      "total": 37.78,
+      "records": 2
      },
      {
       "company": "Thoratec Corporation",
@@ -2533,13 +2515,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Venoarterial Extracorporeal Membrane Oxygenation: A Better Pressor.",
-      "journal": "Journal of cardiothoracic and vascular anesthesia",
-      "year": 2025,
-      "pmid": "40414787",
-      "tier": "corroborated"
-     },
-     {
       "title": "Left ventricular decompression in paediatric veno-arterial extracorporeal life support: Reviewing the evidence.",
       "journal": "ESC heart failure",
       "year": 2025,
@@ -2547,10 +2522,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Direct versus indirect effects of extracorporeal membrane oxygenation.",
-      "journal": "Catheterization and cardiovascular interventions : official ",
-      "year": 2024,
-      "pmid": "38566494",
+      "title": "Venoarterial Extracorporeal Membrane Oxygenation: A Better Pressor.",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "year": 2025,
+      "pmid": "40414787",
       "tier": "corroborated"
      },
      {
@@ -2561,10 +2536,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Perioperative Management of Patients Receiving Short-term Mechanical Circulatory Support with the Transvalvular Heart Pump.",
-      "journal": "Anesthesiology",
-      "year": 2022,
-      "pmid": "35120198",
+      "title": "Direct versus indirect effects of extracorporeal membrane oxygenation.",
+      "journal": "Catheterization and cardiovascular interventions : official ",
+      "year": 2024,
+      "pmid": "38566494",
       "tier": "corroborated"
      },
      {
@@ -2572,6 +2547,13 @@
       "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2022,
       "pmid": "35066989",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Perioperative Management of Patients Receiving Short-term Mechanical Circulatory Support with the Transvalvular Heart Pump.",
+      "journal": "Anesthesiology",
+      "year": 2022,
+      "pmid": "35120198",
       "tier": "corroborated"
      },
      {
@@ -2777,45 +2759,10 @@
     },
     "articles": [
      {
-      "title": "A Systematic Review of Pain Drawings for Perioperative Patient Management.",
-      "journal": "Plastic and reconstructive surgery. Global open",
-      "year": 2026,
-      "pmid": "42221285",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Breast Cancer Risk Assessment after Gender-Affirming Chest Masculinization Surgery: The Case for Standardized Documentation and Clinical Guidelines.",
-      "journal": "Annals of surgery open : perspectives of surgical history, e",
-      "year": 2026,
-      "pmid": "41890513",
-      "tier": "corroborated"
-     },
-     {
-      "title": "NerveAI- a machine learning algorithm for detection of nerve pain in the head and neck.",
-      "journal": "Scientific reports",
-      "year": 2026,
-      "pmid": "42120645",
-      "tier": "corroborated"
-     },
-     {
       "title": "Trapezius fascia reveals mechanosensory capacity and predominance of nociceptive axons in occipital neuralgia.",
       "journal": "Scientific reports",
       "year": 2026,
       "pmid": "41807486",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Suture the Future: Evaluating the Impact of Early Surgical Exposure for High School Students.",
-      "journal": "Journal of surgical education",
-      "year": 2026,
-      "pmid": "42035522",
-      "tier": "corroborated"
-     },
-     {
-      "title": "A conceptual framework to assess health-related quality of life and treatment effectiveness in headache disorders from the patient perspective.",
-      "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPR",
-      "year": 2026,
-      "pmid": "42155414",
       "tier": "corroborated"
      },
      {
@@ -2826,6 +2773,41 @@
       "tier": "corroborated"
      },
      {
+      "title": "A Systematic Review of Pain Drawings for Perioperative Patient Management.",
+      "journal": "Plastic and reconstructive surgery. Global open",
+      "year": 2026,
+      "pmid": "42221285",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A conceptual framework to assess health-related quality of life and treatment effectiveness in headache disorders from the patient perspective.",
+      "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPR",
+      "year": 2026,
+      "pmid": "42155414",
+      "tier": "corroborated"
+     },
+     {
+      "title": "NerveAI- a machine learning algorithm for detection of nerve pain in the head and neck.",
+      "journal": "Scientific reports",
+      "year": 2026,
+      "pmid": "42120645",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Suture the Future: Evaluating the Impact of Early Surgical Exposure for High School Students.",
+      "journal": "Journal of surgical education",
+      "year": 2026,
+      "pmid": "42035522",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Breast Cancer Risk Assessment after Gender-Affirming Chest Masculinization Surgery: The Case for Standardized Documentation and Clinical Guidelines.",
+      "journal": "Annals of surgery open : perspectives of surgical history, e",
+      "year": 2026,
+      "pmid": "41890513",
+      "tier": "corroborated"
+     },
+     {
       "title": "A National Multidisciplinary Survey of Current Practice Trends in Breast Cancer Screening After Gender Affirming Mastectomy: A Call for Inclusive Care.",
       "journal": "Annals of plastic surgery",
       "year": 2026,
@@ -2833,17 +2815,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Reshaping Our Understanding of Sensation and Pain Following Breast Reduction Surgery.",
+      "title": "Reinnervation of Free Nipple Grafts Associated With Improved Erection Function.",
       "journal": "Plastic and reconstructive surgery. Global open",
       "year": 2025,
-      "pmid": "39802271",
+      "pmid": "39810904",
       "tier": "corroborated"
      },
      {
-      "title": "Learning Curve for Sensory Preservation after Transgender Mastectomy Using Targeted Nipple Reinnervation with Direct Nerve Coaptation.",
-      "journal": "Plastic and reconstructive surgery",
+      "title": "Prospective Sensory Outcomes for Targeted Nipple-areola Complex Reinnervation in Gender-affirming Double Incision Mastectomy With Free Nipple Grafting.",
+      "journal": "Annals of surgery",
       "year": 2025,
-      "pmid": "40327805",
+      "pmid": "38214162",
       "tier": "corroborated"
      }
     ],
@@ -2958,27 +2940,27 @@
      },
      {
       "year": 2014,
-      "value": 2365.03
+      "value": 2449.33
      },
      {
       "year": 2015,
-      "value": 2493.01
+      "value": 2511.83
      },
      {
       "year": 2016,
-      "value": 1407.58
+      "value": 1483.97
      },
      {
       "year": 2017,
-      "value": 20387.67
+      "value": 20876.4
      },
      {
       "year": 2018,
-      "value": 74476.62
+      "value": 74721.64
      },
      {
       "year": 2019,
-      "value": 186527.99
+      "value": 186728.84
      },
      {
       "year": 2020,
@@ -2986,11 +2968,11 @@
      },
      {
       "year": 2021,
-      "value": 36005.84
+      "value": 36653.56
      },
      {
       "year": 2022,
-      "value": 90359.28
+      "value": 92634.76
      },
      {
       "year": 2023,
@@ -3009,8 +2991,8 @@
      },
      {
       "nature": "Travel and Lodging",
-      "total": 164768.27,
-      "records": 342
+      "total": 166046.05,
+      "records": 347
      },
      {
       "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
@@ -3019,8 +3001,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 23392.46,
-      "records": 396
+      "total": 26151.99,
+      "records": 441
      },
      {
       "nature": "Consulting Fee",
@@ -3050,9 +3032,19 @@
       "records": 133
      },
      {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 4018.49,
+      "records": 49
+     },
+     {
       "company": "Medtronic Vascular, Inc.",
       "total": 2775.21,
       "records": 32
+     },
+     {
+      "company": "Vascular Solutions, Inc.",
+      "total": 18.82,
+      "records": 1
      }
     ],
     "research": {
@@ -3091,17 +3083,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Coronary Catheter Course Via the Left Radial Approach Is Diametrically Opposed to the Course Via the Femoral Approach: A Stroke Paradox.",
-      "journal": "CJC open",
-      "year": 2023,
-      "pmid": "36880072",
-      "tier": "corroborated"
-     },
-     {
       "title": "Impact of frailty on outcomes in acute ST-elevated myocardial infarctions undergoing percutaneous coronary intervention.",
       "journal": "Catheterization and cardiovascular interventions : official ",
       "year": 2023,
       "pmid": "36806859",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Coronary Catheter Course Via the Left Radial Approach Is Diametrically Opposed to the Course Via the Femoral Approach: A Stroke Paradox.",
+      "journal": "CJC open",
+      "year": 2023,
+      "pmid": "36880072",
       "tier": "corroborated"
      },
      {
@@ -3112,24 +3104,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Derivation and validation of the bridge to transplantation with left ventricular assist device score for 1\u2009year mortality after heart transplantation. The BTT-L",
-      "journal": "The International journal of artificial organs",
-      "year": 2022,
-      "pmid": "35365063",
-      "tier": "corroborated"
-     },
-     {
       "title": "Safety and Efficacy of the Amplatzer Septal Occluder: A Systematic Review and Meta-Analysis.",
       "journal": "Cardiovascular revascularization medicine : including molecu",
       "year": 2022,
       "pmid": "34183276",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Acoustic Shock Waves to Modify Calcific Plaques - Intravascular Lithotripsy in the Peripheral Circulation.",
-      "journal": "Cardiovascular revascularization medicine : including molecu",
-      "year": 2022,
-      "pmid": "34187754",
       "tier": "corroborated"
      },
      {
@@ -3140,10 +3118,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Mechanical Circulatory Support Devices: Management and Prevention of Vascular Complications.",
-      "journal": "Interventional cardiology clinics",
+      "title": "Acoustic Shock Waves to Modify Calcific Plaques - Intravascular Lithotripsy in the Peripheral Circulation.",
+      "journal": "Cardiovascular revascularization medicine : including molecu",
+      "year": 2022,
+      "pmid": "34187754",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Derivation and validation of the bridge to transplantation with left ventricular assist device score for 1\u2009year mortality after heart transplantation. The BTT-L",
+      "journal": "The International journal of artificial organs",
+      "year": 2022,
+      "pmid": "35365063",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Author's reply: Characteristics, management, and outcomes among admissions for primary cardiac tumors: Results from The National Inpatient Sample.",
+      "journal": "Journal of cardiac surgery",
       "year": 2021,
-      "pmid": "33745675",
+      "pmid": "34585436",
       "tier": "corroborated"
      }
     ],
@@ -3218,16 +3210,6 @@
     "roles": [
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Rajiv Tayal",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06535854",
-      "place": "The Valley Hospital \u2014 Paramus, New Jersey",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Prevail Global Study"
-     },
-     {
-      "kind": "site-investigator",
       "nameAsWritten": "Rajiv Tayal, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT06777368",
@@ -3235,6 +3217,16 @@
       "tier": "corroborated",
       "deviceTrial": false,
       "trialTitle": "REdo tranScatheter Aortic Valve Replacement for Transcatheter aOrtic Valve failuRE"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Rajiv Tayal",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT06535854",
+      "place": "The Valley Hospital \u2014 Paramus, New Jersey",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Prevail Global Study"
      }
     ],
     "source": {
@@ -3316,11 +3308,11 @@
     "yearly": [
      {
       "year": 2013,
-      "value": 1256.03
+      "value": 1290.72
      },
      {
       "year": 2014,
-      "value": 4701.75
+      "value": 4712.21
      },
      {
       "year": 2015,
@@ -3328,19 +3320,19 @@
      },
      {
       "year": 2016,
-      "value": 8838.95
+      "value": 8864.08
      },
      {
       "year": 2017,
-      "value": 31403.72
+      "value": 31851.25
      },
      {
       "year": 2018,
-      "value": 36895.87
+      "value": 37028.94
      },
      {
       "year": 2019,
-      "value": 73573.32
+      "value": 73693.01
      },
      {
       "year": 2020,
@@ -3348,7 +3340,7 @@
      },
      {
       "year": 2021,
-      "value": 72669.02
+      "value": 72800.12
      },
      {
       "year": 2022,
@@ -3376,13 +3368,13 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 29515.25,
-      "records": 412
+      "total": 30380.92,
+      "records": 429
      },
      {
       "nature": "Education",
-      "total": 204.96,
-      "records": 2
+      "total": 240.96,
+      "records": 3
      },
      {
       "nature": "Entertainment",
@@ -3417,9 +3409,9 @@
       "records": 14
      },
      {
-      "company": "Medtronic USA, Inc.",
-      "total": 173.3,
-      "records": 7
+      "company": "Cardiovascular Systems Inc.",
+      "total": 450.17,
+      "records": 4
      }
     ],
     "research": {
@@ -3444,13 +3436,6 @@
     },
     "articles": [
      {
-      "title": "Baseline ECG Outperforms the Angiogram for Predicting Mortality in COVID-19-Associated STEMI: Insights From the NACMI Registry.",
-      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
-      "year": 2026,
-      "pmid": "41919012",
-      "tier": "corroborated"
-     },
-     {
       "title": "Midodrine to Facilitate Guideline-Directed Medical Therapy in Heart Failure with Reduced Ejection Fraction: A Promising Breakthrough or Just a False Hope?",
       "journal": "American journal of cardiovascular drugs : drugs, devices, a",
       "year": 2026,
@@ -3458,10 +3443,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Transcatheter Interventions in Infants With Congenital Heart Disease: A Two-Year Retrospective Case Series From a Tertiary Centre in India.",
-      "journal": "Cureus",
+      "title": "Development and Validation of a Noninvasive Model of Mixed Venous Oxygen Saturation in Heart Failure.",
+      "journal": "JACC. Advances",
       "year": 2026,
-      "pmid": "42046615",
+      "pmid": "41609283",
       "tier": "corroborated"
      },
      {
@@ -3479,38 +3464,45 @@
       "tier": "corroborated"
      },
      {
-      "title": "Development and Validation of a Noninvasive Model of Mixed Venous Oxygen Saturation in Heart Failure.",
-      "journal": "JACC. Advances",
+      "title": "Transcatheter Interventions in Infants With Congenital Heart Disease: A Two-Year Retrospective Case Series From a Tertiary Centre in India.",
+      "journal": "Cureus",
       "year": 2026,
-      "pmid": "41609283",
+      "pmid": "42046615",
       "tier": "corroborated"
      },
      {
-      "title": "Cardiac Myosin Inhibition in Heart Failure With Normal and Supranormal Ejection Fraction: Primary Results of the EMBARK-HFpEF Trial.",
-      "journal": "JAMA cardiology",
+      "title": "Baseline ECG Outperforms the Angiogram for Predicting Mortality in COVID-19-Associated STEMI: Insights From the NACMI Registry.",
+      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
+      "year": 2026,
+      "pmid": "41919012",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Non-Reciprocity, Metastability, and Dynamic Reconfiguration in Co-Assembly of Active and Passive Particles.",
+      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
       "year": 2025,
-      "pmid": "39347697",
+      "pmid": "39630594",
       "tier": "corroborated"
      },
      {
-      "title": "Cytomegalovirus Encephalitis in a Heart Transplant Recipient Presenting With Behavioral Changes and Functional Neurologic Deficits.",
+      "title": "Salt-responsive behaviors of PVBTACl, NaPSS, and their complex by molecular dynamics simulations and experiments.",
+      "journal": "Soft matter",
+      "year": 2025,
+      "pmid": "40899254",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Cardiogenic Shock Management: Single-Center Experience With a Percutaneous Left Ventricular Assist Device Escalation Strategy.",
       "journal": "JACC. Case reports",
       "year": 2025,
-      "pmid": "40846376",
+      "pmid": "40940116",
       "tier": "corroborated"
      },
      {
-      "title": "Comparing the efficacy and safety of endovascular therapy versus surgical revascularization for critical limb-threatening ischemia: A systematic review and Meta",
-      "journal": "Progress in cardiovascular diseases",
+      "title": "Seeing Is Believing: Use of Insertable Cardiac Monitors to Detect Arrhythmias in Heart Failure.",
+      "journal": "JACC. Heart failure",
       "year": 2025,
-      "pmid": "38981532",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Temporal changes in CT-derived fractional flow reserve in patients after heart transplantation.",
-      "journal": "European radiology",
-      "year": 2025,
-      "pmid": "39014089",
+      "pmid": "40609137",
       "tier": "corroborated"
      }
     ],
@@ -3560,16 +3552,16 @@
       "beneficiaries": 30
      },
      {
-      "code": "99204",
-      "description": "New patient office or other outpatient visit, 45-59 minutes",
-      "services": 28,
-      "beneficiaries": 28
-     },
-     {
       "code": "93454",
       "description": "Insertion of tube in coronary artery for diagnosis with review by radiologist",
       "services": 28,
       "beneficiaries": 27
+     },
+     {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 28,
+      "beneficiaries": 28
      }
     ],
     "source": {
@@ -3595,16 +3587,6 @@
      },
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Rajan Patel",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT05102019",
-      "place": "University of Virginia \u2014 Charlottesville, Virginia",
-      "tier": "name-only",
-      "deviceTrial": false,
-      "trialTitle": "Efficacy of the COronary SInus Reducer in Patients With Refractory Angina II"
-     },
-     {
-      "kind": "site-investigator",
       "nameAsWritten": "Rajan K Patel, MBChB PhD",
       "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT03705091",
@@ -3612,6 +3594,16 @@
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "MRI in Renal Transplantation"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Rajan Patel",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT05102019",
+      "place": "University of Virginia \u2014 Charlottesville, Virginia",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Efficacy of the COronary SInus Reducer in Patients With Refractory Angina II"
      },
      {
       "kind": "overall-official",

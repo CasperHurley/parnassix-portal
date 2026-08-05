@@ -1,0 +1,6046 @@
+{
+ "slug": "mitraclip",
+ "name": "MitraClip",
+ "maker": "Abbott \u00b7 Structural heart",
+ "rank": 25,
+ "pathway": "pma (pure \u2014 P100009 + G5 P230007; the 3 510(k) rows are steerable guide catheters)",
+ "maturity": "dormant",
+ "stats": {
+  "deaths": 1384,
+  "injuries": 13714,
+  "malfunctions": 9029,
+  "recalls": 5,
+  "classI": 1
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Structural heart"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (pure \u2014 P100009 + G5 P230007; the 3 510(k) rows are steerable guide catheters)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted, and the parallel-claim hook is COLORABLE BUT WEAK \u2014 materially worse than the computed 'pma_parallel/23 nonconforming recalls' signal, which was brand-pattern fusion garbage (the sample recall was a needle device). Keyed on product code NKM, the corpus shows ZERO 'Nonconforming Material/Component' recalls ever. The best hook is the 2022-09-08 clip-lock-malfunction recall (Class I pe"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "dormant"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 1384,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 13714,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 9029,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 5,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 1,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Incomplete Coaptation",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 13982,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 9233928.86,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Paul Sorajja",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "New York",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2452,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 38,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 19,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2022-09-08",
+   "classification": "Class II",
+   "reason": "An increase in clip locking malfunctions, Establish Final Arm Angle and Clip Opening While Locked, have been observed. Contributing causes may be clip locking component material properties and certain use conditions. Uns",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2022-09-08",
+   "classification": "Class II",
+   "reason": "An increase in clip locking malfunctions, Establish Final Arm Angle and Clip Opening While Locked, have been observed. Contributing causes may be clip locking component material properties and certain use conditions. Uns",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2022-09-08",
+   "classification": "Class II",
+   "reason": "An increase in clip locking malfunctions, Establish Final Arm Angle and Clip Opening While Locked, have been observed. Contributing causes may be clip locking component material properties and certain use conditions. Uns",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2019-05-01",
+   "classification": "Class II",
+   "reason": "Reports of implantable mitral valve repair system clips unexpectedly opening and becoming nonfunctional, resulting from unintended excessive force applied during the Clip implantation. Excessive force can also result in ",
+   "status": "Terminated"
+  },
+  {
+   "date": "2016-02-04",
+   "classification": "Class I",
+   "reason": "Abbott Vascular has recently received reports of cases on Clip Delivery System devices that contain the One-Way Actuator Knob where a user attempted implanting a MitraClip, but the Clip could not be detached from the del",
+   "status": "Terminated"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2016,
+     "value": 1
+    },
+    {
+     "year": 2019,
+     "value": 1
+    },
+    {
+     "year": 2022,
+     "value": 3
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2013,
+     "value": 7
+    },
+    {
+     "year": 2014,
+     "value": 40
+    },
+    {
+     "year": 2015,
+     "value": 54
+    },
+    {
+     "year": 2016,
+     "value": 62
+    },
+    {
+     "year": 2017,
+     "value": 51
+    },
+    {
+     "year": 2018,
+     "value": 98
+    },
+    {
+     "year": 2019,
+     "value": 187
+    },
+    {
+     "year": 2020,
+     "value": 273
+    },
+    {
+     "year": 2021,
+     "value": 130
+    },
+    {
+     "year": 2022,
+     "value": 127
+    },
+    {
+     "year": 2023,
+     "value": 145
+    },
+    {
+     "year": 2024,
+     "value": 120
+    },
+    {
+     "year": 2025,
+     "value": 2
+    },
+    {
+     "year": 2026,
+     "value": 88
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2013,
+     "value": 25
+    },
+    {
+     "year": 2014,
+     "value": 332
+    },
+    {
+     "year": 2015,
+     "value": 369
+    },
+    {
+     "year": 2016,
+     "value": 511
+    },
+    {
+     "year": 2017,
+     "value": 742
+    },
+    {
+     "year": 2018,
+     "value": 1245
+    },
+    {
+     "year": 2019,
+     "value": 1460
+    },
+    {
+     "year": 2020,
+     "value": 1785
+    },
+    {
+     "year": 2021,
+     "value": 1422
+    },
+    {
+     "year": 2022,
+     "value": 1456
+    },
+    {
+     "year": 2023,
+     "value": 1456
+    },
+    {
+     "year": 2024,
+     "value": 1562
+    },
+    {
+     "year": 2025,
+     "value": 71
+    },
+    {
+     "year": 2026,
+     "value": 1278
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2019,
+     "value": 35547.64
+    },
+    {
+     "year": 2020,
+     "value": 21261.57
+    },
+    {
+     "year": 2021,
+     "value": 2183843.6
+    },
+    {
+     "year": 2022,
+     "value": 2813646.97
+    },
+    {
+     "year": 2023,
+     "value": 2092771.36
+    },
+    {
+     "year": 2024,
+     "value": 2086857.72
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2011,
+     "value": 4
+    },
+    {
+     "year": 2012,
+     "value": 1
+    },
+    {
+     "year": 2013,
+     "value": 8
+    },
+    {
+     "year": 2016,
+     "value": 18
+    },
+    {
+     "year": 2019,
+     "value": 3
+    },
+    {
+     "year": 2022,
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 69002,
+    "distinctProblemCodes": 94,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Incomplete Coaptation",
+      "reports": 5061,
+      "narrative": "G9: EXEMPTION NUMBER E2019001-PERMITS NUMBERING SEQUENCE TO BEGIN WITH 10000, TO AVOID DUPLICATION OF REPORT NUMBERS DUE TO PROCESS TRANSITION. THERE MAY BE GAPS IN NUMBERING FOR REPORTS SUBMITTED DURING THE TRANSITION PERIOD. THE DEVICE WAS NOT RETURNED FOR ANALYSIS. A REVIEW OF THE LOT HISTORY RECORD IDENTIFIED NO MANUFACTURING NONCONFORMITIES ISSUED TO THE REPORTED LOT. ADDITIONALLY, A REVIEW OF THE COMPLAINT HIST"
+     },
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 4727,
+      "narrative": "SUBSEQUENT TO THE PREVIOUS REPORT, INFORMATION WAS RECEIVED, INDICATING THAT THE STUDY PHYSICIAN HAS DEEMED THE PATIENT'S HYPOXIA WITH RE-HOSPITALIZATION, AS UN-RELATED TO THE STUDY DEVICE OR STUDY PROCEDURE. ALTHOUGH THE HYPOXIA AND RE-HOSPITALIZATION ARE NOT RELATED TO THE MITRACLIP DEVICE OR PROCEDURE, THIS EVENT HAS BEEN REPORTED; THEREFORE, IT WILL REMAIN REPORTABLE. NO ADDITIONAL INFORMATION WAS PROVIDED."
+     },
+     {
+      "problem": "Unintended Movement",
+      "reports": 2491,
+      "narrative": "THE DEVICE WAS NOT RETURNED FOR ANALYSIS. A REVIEW OF THE LOT HISTORY RECORD REVEALED NO MANUFACTURING NONCONFORMITIES ISSUED TO THE REPORTED LOT THAT WOULD HAVE CONTRIBUTED TO THIS EVENT. ADDITIONALLY, A REVIEW OF THE COMPLAINT HISTORY IDENTIFIED NO SIMILAR COMPLAINTS REPORTED FROM THIS LOT. THE INVESTIGATION WAS UNABLE TO DETERMINE A CAUSE FOR THE UNINTENDED MOVEMENT (CLIP OPENED WHILE LOCKED). THE UNEXPECTED MEDIC"
+     },
+     {
+      "problem": "Difficult to Open or Close",
+      "reports": 2349,
+      "narrative": "THIS IS FILED TO REPORT THE GRIPPER ACTUATION ISSUES. IT WAS REPORTED THAT THIS WAS A MITRACLIP PROCEDURE TO TREAT DEGENERATIVE MITRAL REGURGITATION (MR) WITH A GRADE OF 4. THE CLIP DELIVERY SYSTEM (CDS) WAS ADVANCED AND PLACED CENTRALLY ON A2/P2, HOWEVER AFTER THE FIRST GRASP, A MODERATE LEAK REMAINED. THE PHYSICIAN RE-POSITIONED THE CLIP WHILE IN THE LEFT VENTRICLE AND THE LEAFLETS WERE RE-GRASPED. ADEQUATE MR REDU"
+     },
+     {
+      "problem": "Difficult to Remove",
+      "reports": 1404,
+      "narrative": "THE CLIP REMAINS IN PATIENT. THE DEVICE WILL NOT BE RETURNED FOR EVALUATION. INVESTIGATION IS NOT YET COMPLETE. A FOLLOW-UP REPORT WILL BE SUBMITTED WITH ALL ADDITIONAL RELEVANT INFORMATION."
+     },
+     {
+      "problem": "Difficult or Delayed Positioning",
+      "reports": 1240,
+      "narrative": "THIS IS BEING FILED TO REPORT THAT THE CLIP DETACHED FROM ONE LEAFLET, REQUIRING INTERVENTION. IT WAS REPORTED THAT THIS WAS A MITRACLIP PROCEDURE TO TREAT FUNCTIONAL MITRAL REGURGITATION (MR) WITH A GRADE OF 4. THE CLIP DELIVERY SYSTEM (CDS) WAS ADVANCED HOWEVER GRASPING WAS DIFFICULT THEREFORE THE PHYSICIAN REQUESTED TO RAISE THE POSITIVE END-EXPIRATORY PRESSURE (PEEP) IN ORDER TO BRING THE LEAFLETS CLOSER TOGETHER"
+     },
+     {
+      "problem": "Leak/Splash",
+      "reports": 960,
+      "narrative": "THIS IS FILED TO REPORT THE LEAK. IT WAS REPORTED THAT DURING PREPARATION OF THE CLIP DELIVERY SYSTEM (CDS) A LEAK WAS NOTED NEXT TO THE LOCK LEVER. A NEW DEVICE WAS USED. THERE WAS NO CLINICALLY SIGNIFICANT DELAY IN THE PROCEDURE AND NO PATIENT INVOLVEMENT. NO ADDITIONAL INFORMATION WAS PROVIDED."
+     },
+     {
+      "problem": "Improper or Incorrect Procedure or Method",
+      "reports": 957,
+      "narrative": "EXEMPTION NUMBER E2019001. (B)(4). THE DEVICE WAS NOT RETURNED FOR EVALUATION. A REVIEW OF THE LOT HISTORY RECORD REVEALED NO MANUFACTURING NONCONFORMITIES ISSUED TO THE REPORTED LOT THAT WOULD HAVE CONTRIBUTED TO THE REPORTED EVENT. ADDITIONALLY, A REVIEW OF THE COMPLAINT HISTORY DID NOT INDICATE A LOT-SPECIFIC ISSUE. IT SHOULD BE NOTED THAT THE MITRACLIP INSTRUCTIONS FOR USE (EL2123342, REVISION A) WARNS UNDER \"EST"
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "teaser": {
+    "devices": 70,
+    "citations": 102,
+    "anchors": [
+     "K243224",
+     "K221397",
+     "K190167"
+    ],
+    "accessories": 0,
+    "generationsUp": 8,
+    "generationsDown": 2
+   },
+   "payload": {
+    "anchors": [
+     "K243224",
+     "K221397",
+     "K190167"
+    ],
+    "accessories": [],
+    "nodes": [
+     {
+      "k": "K002054",
+      "name": "X-SEPT TRANSSEPTAL SHEATH AND TRANSITION CATHETER, MODEL MV-03-09-90, MV-03-10-9",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K003731",
+      "name": "SAFESHEATH MSP INTRODUCER SHEATH KIT WITH INTEGRAL HEMOSTASIS VALVE",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K010128",
+      "name": "COOK VASCULAR PEEL-AWAY HEMOSTASIS VALVE",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K010351",
+      "name": "INION CPS BABY 1.5 BIOABSORBABLE FIXATION SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K012083",
+      "name": "ATTAIN ACCESS 6218 LEFT-HEART DELIVERY SYSTEM, MODEL 6218",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K012130",
+      "name": "ATTAIN LDS 6216 LEFT-HEART DELIVERY SYSTEM",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K012489",
+      "name": "MODIFICATION TO: X-SEPT TRANSSEPTAL SHEALTH AND TRANSITION CATHETER (WITH DILATO",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K013517",
+      "name": "10600 DEFLECTABLE CATHETER SYSTEM, MODEL 10600",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K032312",
+      "name": "ATTAIN 6226DEF DEFLECTABLE CATHETER DELIVERY SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K033989",
+      "name": "MEDTRONIC SELECTSITE DEFLECTABLE CATHETER SYSTEM, MODELS C304-S59 AND C304-L69",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K034025",
+      "name": "NMT MEDICAL TRANSSEPTAL SHEATH SET, MODELS TSS-10-HSC, TSS-11-HSC, TSS12-HSC",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K042623",
+      "name": "AGILIS STEERABLE CATHETER INTRODUCER, MODEL 408304",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K043084",
+      "name": "PREMERE DELIVERY SHEATH, MODEL PDS",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K052444",
+      "name": "INION CPS BABY 1.5 BIOABSORBABLE FIXATION SYSTEM",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K052644",
+      "name": "SWARTZ BRAIDED TRANSSEPTAL GUIDING INTRODUCER",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K072313",
+      "name": "AMPLATZER TORQVUE DELIVERY SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K080757",
+      "name": "AMPLATZER TORQVUE LOW PROFILE DELIVERY SYSTEM",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K083793",
+      "name": "STEERABLE GUIDE CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K091596",
+      "name": "EVALVE STEERABLE GUIDE CATHETER, MODEL SGC01ST",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K093866",
+      "name": "EVALVE STEERABLE GUIDE CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K100789",
+      "name": "MODIFICATON TO: STEERABLE GUIDE CATHETER, MODEL SGC01ST",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K112239",
+      "name": "STEERABLE GUIDE CATHETER",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K131063",
+      "name": "AMPLATZER TORQ VUE LP DELIVERY SYSTEM",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K161985",
+      "name": "Steerable Guide Catheter",
+      "anchor": false,
+      "level": 2
+     },
+     {
+      "k": "K172394",
+      "name": "Steerable Guide Catheter",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K190167",
+      "name": "MitraClip G4 Steerable Guide Catheter",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K221397",
+      "name": "MitraClip G4 Steerable Guide Catheter",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K233248",
+      "name": "FARADRIVE\u0099 Steerable Sheath",
+      "anchor": false,
+      "level": -1
+     },
+     {
+      "k": "K241538",
+      "name": "TriClip Steerable Guide Catheter",
+      "anchor": false,
+      "level": 1
+     },
+     {
+      "k": "K243224",
+      "name": "MitraClip\u0099 G5 Steerable Guide Catheter (SGC0801); TriClip\u0099 G5 Steerable Guide Ca",
+      "anchor": true,
+      "level": 0
+     },
+     {
+      "k": "K250529",
+      "name": "Globe Introducer (601-01001)",
+      "anchor": false,
+      "level": -2
+     },
+     {
+      "k": "K770977",
+      "name": "CARDIOVASCULAR SPRING GUIDES",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K841926",
+      "name": "HYDROGLIDE SPRING GUIDE WIRES",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K850677",
+      "name": "TELEFLEX GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K860258",
+      "name": "TELEFLEX TEFLON COATED GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K864058",
+      "name": "AMPLATZ MOVEABLE CORE GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K871297",
+      "name": "KADIR HI-TORQUE GUIDE WIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K871850",
+      "name": "TELEFLEX STEERABLE GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K871882",
+      "name": "LAKE REGION VARIABLE STIFFNESS GUIDEWIRE (VSGW)",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K893658",
+      "name": "PERCUTANEOUS INTRODUCER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K895580",
+      "name": "Y-ADAPTER W/THOUY BORST",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K901224",
+      "name": "INSITE STEERABLE GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K901899",
+      "name": "ROADRUNNER WIRE GUIDE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K902152",
+      "name": "MOVABLE CORE GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K913840",
+      "name": "MICROTAK PLUS",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K914138",
+      "name": "ONTRAC",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K914531",
+      "name": "STAINLESS STEEL GEN PUR INTERVENTIONAL GUIDE WIRES",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K920824",
+      "name": "ROADRUNNER RLTF GUIDE WIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K920891",
+      "name": "ROADRUNNER(TM) WIRE GUIDE, MODIFICATION",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K921200",
+      "name": "GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K924438",
+      "name": "",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K924607",
+      "name": "ARROW FISCHELL KINK RESIST PERCUT SHEATH INTRO SET",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K931794",
+      "name": "MARINR SERIES EP DIAGNOSTIC CATHETERS",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K935170",
+      "name": "CARDIOVASCULAR AND VASCULAR GUIDEWIRE MODIFICATIONS",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K935198",
+      "name": "GASTROENTEROLOGY AND UROLOGY GUIDEWIRE MODIFICATIONS",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K941229",
+      "name": "ONTRAC STEERABLE GUIDEWIRE",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K950179",
+      "name": "MEDTRONIC(R) GC III CORONARY GUIDING CATHETER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K950490",
+      "name": "MEDTRONIC GC IV CORONARY GUIDING CATHETER",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K951313",
+      "name": "MEDAMICUS PERCUTANEOUS INTRODUCER",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K951603",
+      "name": "CARDIMA, INC. FORERUNNER",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K955651",
+      "name": "MEDTRONIC SHERPA GUIDING CATHETER",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K963320",
+      "name": "TFX MEDICAL GUIDEWIRE",
+      "anchor": false,
+      "level": 7
+     },
+     {
+      "k": "K963380",
+      "name": "CO 2 SMO PLUS",
+      "anchor": false,
+      "level": 8
+     },
+     {
+      "k": "K964518",
+      "name": "FAST-CATH TRANSSEPTAL CATHETER INTRODUCER",
+      "anchor": false,
+      "level": 4
+     },
+     {
+      "k": "K965167",
+      "name": "PERCUTANEOUS VENOUS INTRODUCER 10264",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K970229",
+      "name": "ARROW TRANSSEPTAL SUPER ARROW-FLEX PERCUTANEOUS SET",
+      "anchor": false,
+      "level": 3
+     },
+     {
+      "k": "K973840",
+      "name": "FAST-CATH (TM) INTRA-CARDIAC INTRODUCER",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K974683",
+      "name": "NAVIPORT DEFLECTABLE TIP GUIDING CATHETER",
+      "anchor": false,
+      "level": 6
+     },
+     {
+      "k": "K982531",
+      "name": "HOWMEDICA LEIBINGER RESORBABLE FIXATION SYSTEM",
+      "anchor": false,
+      "level": 5
+     },
+     {
+      "k": "K990707",
+      "name": "MEDTRONIC 5F & 9F ZUMA GUIDING CATHETERS",
+      "anchor": false,
+      "level": 7
+     }
+    ],
+    "edges": [
+     {
+      "from": "K190167",
+      "to": "K172394",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Device Trade Name Steerable Guide Catheter 8. Device Common Name Steerable Catheter 9. Classification Regulation Number: 21 CFR 870.1280 10. Product Code DRA 11. Predicate Device Name K172394 Steerable Guide Catheter 12. Device Description The Steerable Guide Catheter consists",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K221397",
+      "to": "K190167",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Steerable Guide Catheter Common Name: Steerable Catheter Classification Name: Catheter, Steerable Regulatory Class: II Product Code: DRA III. PREDICATE DEVICE K190167 Steerable Guide Catheter IV. DEVICE DESCRIPTION The Steerable Guide Catheter (including a dilator) consists of a",
+      "hop": 1,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K243224",
+      "to": "K241538",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Steerable Catheter Classification Name: Catheter, Steerable Regulatory Class: II Product Code: DQY III. PREDICATE DEVICES TriClip Steerable Guide Catheter (K241538) IV. REFERENCE DEVICE MitraClip G4 Steerable Guide Catheter (K221397) IV. DEVICE DESCRIPTION The MitraClip G5",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K243224",
+      "to": "K221397",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "II Product Code: DQY III. PREDICATE DEVICES TriClip Steerable Guide Catheter (K241538) IV. REFERENCE DEVICE MitraClip G4 Steerable Guide Catheter (K221397) IV. DEVICE DESCRIPTION The MitraClip G5 Steerable Guide Catheter consists of a distal and proximal catheter shaft, a",
+      "hop": 1,
+      "dir": "up",
+      "page": 6
+     },
+     {
+      "from": "K172394",
+      "to": "K091596",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Common Name Steerable Catheter\n9. Device Classification Name Catheter, Steerable\n10. Predicate Device Name K083793 Steerable Guide Catheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239 Steerable Guide Catheter\nK161985",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K172394",
+      "to": "K100789",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ter, Steerable\n10. Predicate Device Name K083793 Steerable Guide Catheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239 Steerable Guide Catheter\nK161985 Steerable Guide Catheter\n11. Device Description\nThe Steerable",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K172394",
+      "to": "K093866",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Device Classification Name Catheter, Steerable\n10. Predicate Device Name K083793 Steerable Guide Catheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239 Steerable Guide Catheter\nK161985 Steerable Guide Catheter\n11.",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K172394",
+      "to": "K112239",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ce Name K083793 Steerable Guide Catheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239 Steerable Guide Catheter\nK161985 Steerable Guide Catheter\n11. Device Description\nThe Steerable Guide Catheter consists of a Guide",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K172394",
+      "to": "K161985",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "atheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239 Steerable Guide Catheter\nK161985 Steerable Guide Catheter\n11. Device Description\nThe Steerable Guide Catheter consists of a Guide and a Dilator provided EtO sterile",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K172394",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "eerable Guide Catheter\n8. Device Common Name Steerable Catheter\n9. Device Classification Name Catheter, Steerable\n10. Predicate Device Name K083793 Steerable Guide Catheter\nK091596 Steerable Guide Catheter\nK093866 Steerable Guide Catheter\nK100789 Steerable Guide Catheter\nK112239",
+      "hop": 2,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K241538",
+      "to": "K221397",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "DQY III. PREDICATE DEVICE AMPLATZER\u00ae TorqVue\u00ae Low Profile Delivery System (K131063) IV. REFERENCE DEVICE MitraClip G4 Steerable Guide Catheter (K221397) V. DEVICE DESCRIPTION The TriClip Steerable Guide Catheter (including a dilator) consists of a distal and proximal catheter",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K241538",
+      "to": "K131063",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Steerable Catheter Classification Name: Catheter, Steerable Regulatory Class: II Product Code: DQY III. PREDICATE DEVICE AMPLATZER\u00ae TorqVue\u00ae Low Profile Delivery System (K131063) IV. REFERENCE DEVICE MitraClip G4 Steerable Guide Catheter (K221397) V. DEVICE DESCRIPTION The",
+      "hop": 2,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K083793",
+      "to": "K043084",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Karuna Velusamy Title: Senior Regulatory Affairs Specialist Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 330-8100 Predicate K043084 Velocimed Premererm Delivery Sheath Device(s): K034025 NMVT Medical Transseptal Sheath Set K002054 Appriva Medical X-SEPT",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083793",
+      "to": "K002054",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 330-8100 Predicate K043084 Velocimed Premererm Delivery Sheath Device(s): K034025 NMVT Medical Transseptal Sheath Set K002054 Appriva Medical X-SEPT Transseptal Sheath and Transition K970229 Arrow Transseptal Super",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083793",
+      "to": "K034025",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Senior Regulatory Affairs Specialist Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 330-8100 Predicate K043084 Velocimed Premererm Delivery Sheath Device(s): K034025 NMVT Medical Transseptal Sheath Set K002054 Appriva Medical X-SEPT Transseptal Sheath and",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083793",
+      "to": "K970229",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(650) 330-8100 Predicate K043084 Velocimed Premererm Delivery Sheath Device(s): K034025 NMVT Medical Transseptal Sheath Set K002054 Appriva Medical X-SEPT Transseptal Sheath and Transition K970229 Arrow Transseptal Super Arrow-FleXTM Percutaneous Sheath Introducer Set K052644",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K083793",
+      "to": "K052644",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K002054 Appriva Medical X-SEPT Transseptal Sheath and Transition K970229 Arrow Transseptal Super Arrow-FleXTM Percutaneous Sheath Introducer Set K052644 St. Jude Swartzrm Braided Transseptal Guiding Introducer Indication for Use: The Evalve Steerable Guide Catheter is used for",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K091596",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Principal Regulatory Affairs Associate Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 330-8100 Date of Preparation May 29, 2009 Predicate K083793 Evalve Steerable Guide Catheter Intended Use: The Evalve Steerable Guide Catheter is used for introducing various",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K093866",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Regulatory Affairs Consultant Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (408) 316-4837 Date:of Preparation: December 16, 2009 Predicate: K083793 and K091596 Evalve Steerable Guide Catheter Intended Use: The Evalve Steerable Guide Catheter is used for introducing",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K093866",
+      "to": "K091596",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Regulatory Affairs Consultant Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (408) 316-4837 Date:of Preparation: December 16, 2009 Predicate: K083793 and K091596 Evalve Steerable Guide Catheter Intended Use: The Evalve Steerable Guide Catheter is used for introducing",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100789",
+      "to": "K093866",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(650) 330-8100 Date of Preparation: March 17, 2010 Predicate K083793 Evalve Steerable Guide Catheter K09 1596 Evalve Steerable Guide Catheter K093866 Evalve Steerable Guide Catheter Intended Use: The Evalve Steerable Guide Catheter is used for introducing various cardiovascular",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K100789",
+      "to": "K091596",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 3,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K100789",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Senior Regulatory Affairs Associate Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 330-8100 Date of Preparation: March 17, 2010 Predicate K083793 Evalve Steerable Guide Catheter K09 1596 Evalve Steerable Guide Catheter K093866 Evalve Steerable Guide Catheter",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K112239",
+      "to": "K100789",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "(650) 833-1635 Date of Preparation: August 3, 2011 Predicate: K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093 866 Steerable Guide Catheter K100789 Steerable Guide Catheter Intended Use: The Steerable Guide Catheter is used for introducing various",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K112239",
+      "to": "K093866",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": null,
+      "hop": 3,
+      "dir": "up",
+      "page": null
+     },
+     {
+      "from": "K112239",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Principal Regulatory Affairs Associate Address: 4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 833-1635 Date of Preparation: August 3, 2011 Predicate: K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093 866 Steerable Guide Catheter K100789 Steerable",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K112239",
+      "to": "K091596",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "4045 Campbell Avenue Menlo Park, CA 94025 Phone: (650) 833-1635 Date of Preparation: August 3, 2011 Predicate: K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093 866 Steerable Guide Catheter K100789 Steerable Guide Catheter Intended Use: The Steerable Guide",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K131063",
+      "to": "K072313",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ter, Percutaneous\nClassification: Class 11,2 1 CFR 870.1250\nProduct Code: DQY\nPredicate Devices: AMPLATZERO TorqVue\u00ae Delivery System\n510(k) K072313, Reg. No. 870.1250; Product Code: DQY\nPredicate Device Intended Use: The AMPLATZER\u00ae TorqVue\u00ael\nDelivery System is intended to",
+      "hop": 3,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K131063",
+      "to": "K080757",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K131063 AMPLATZER\u00ae TorqVue LP Delivery System Pg 2 /3 AMPLATZER\u00ae TorqVue* Low Profile Delivery System 510(k) K080757, Reg. No. 870.1250; Product Code: DON' Predicate Device Intended Use: The AMPLATZER TorqVue LP delivery system is intended to provide a pathway",
+      "hop": 3,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K161985",
+      "to": "K100789",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Device Classification Name Catheter, Steerable 10. Predicate Device Name K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093866 Steerable Guide Catheter K100789 Steerable Guide Catheter K112239 Steerable Guide Catheter 11. Device Description The Steerable",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K161985",
+      "to": "K093866",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Device Classification Name Catheter, Steerable 10. Predicate Device Name K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093866 Steerable Guide Catheter K100789 Steerable Guide Catheter K112239 Steerable Guide Catheter 11. Device Description The Steerable",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K161985",
+      "to": "K091596",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Device Common Name Steerable Catheter 9. Device Classification Name Catheter, Steerable 10. Predicate Device Name K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093866 Steerable Guide Catheter K100789 Steerable Guide Catheter K112239 Steerable Guide Catheter",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K161985",
+      "to": "K083793",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Device Trade Name Steerable Guide Catheter 8. Device Common Name Steerable Catheter 9. Device Classification Name Catheter, Steerable 10. Predicate Device Name K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093866 Steerable Guide Catheter K100789 Steerable",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K161985",
+      "to": "K112239",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Predicate Device Name K083793 Steerable Guide Catheter K091596 Steerable Guide Catheter K093866 Steerable Guide Catheter K100789 Steerable Guide Catheter K112239 Steerable Guide Catheter 11. Device Description The Steerable Guide Catheter consists of a Guide and a Dilator",
+      "hop": 3,
+      "dir": "up",
+      "page": 4
+     },
+     {
+      "from": "K043084",
+      "to": "K012489",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Sheath covered by this submission is substantially equivalent to\nanother legally marketed Catheter Introducer:\n* X-Sept Transseptal Sheath (K012489, Appriva Medical, Inc)\n* Transseptal Super Arrow-Flex Percutaneous Sheath Introducer Set (K970229,\nArrow International Inc) and,\n*",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K043084",
+      "to": "K964518",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "al Super Arrow-Flex Percutaneous Sheath Introducer Set (K970229,\nArrow International Inc) and,\n* Fast-Cath Transseptal Catheter Introducer (K964518, Daig Corp.).\nThe PremereTM Delivery Sheath has the same general indication for use, similar principles\nof operation, and similar",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K043084",
+      "to": "K970229",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Introducer:\n* X-Sept Transseptal Sheath (K012489, Appriva Medical, Inc)\n* Transseptal Super Arrow-Flex Percutaneous Sheath Introducer Set (K970229,\nArrow International Inc) and,\n* Fast-Cath Transseptal Catheter Introducer (K964518, Daig Corp.).\nThe PremereTM Delivery Sheath has",
+      "hop": 4,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K052644",
+      "to": "K042623",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "troducer (per 21CFR 870.1340)\nFast-Cath\u2122 (Two-Piece AMAS) Transseptal Catheter\nIntroducers (K964518)\nAgilis\u2122 Steerable Catheter Introducer (K042623)\nThe Swartz\u2122 Braided Transseptal Guiding Introducer\nset consists of a fixed compound curve, dilator, and\nguidewire. The fixed curve",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052644",
+      "to": "K964518",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "ucer\nTransseptal Catheter Introducer\nCatheter Introducer (per 21CFR 870.1340)\nFast-Cath\u2122 (Two-Piece AMAS) Transseptal Catheter\nIntroducers (K964518)\nAgilis\u2122 Steerable Catheter Introducer (K042623)\nThe Swartz\u2122 Braided Transseptal Guiding Introducer\nset consists of a fixed",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052644",
+      "to": "K052444",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "INDICATIONS FOR USE\n510(K) Number (iF known): K052444\nDevice Name:\nSwartz\u2122M Braided Transseptal Guiding Introducer\nIndications for Use: The St. Jude Medical Transseptal Catheter Introducer Set",
+      "hop": 4,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K072313",
+      "to": "K033989",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "tion: Class II,2 1 CFR 870.1250\nProduct Code: DQY\nPredicate Device: Medtronic\u00ae SelectSiteTm Deflectable Catheter Delivery System\n510(k) No. K033989, Reg. No. 870.1250; Product Code: DQY\nPredicate Device Intended Use: The deflectable catheter system\nis intended to provide a",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K080757",
+      "to": "K072313",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "ter, Percutaneous\nClassification: Class II, 21 CFR 870.1250\nProduct Code: DQY\nPredicate Device: AMPLATZER\u00ae TorqVue\u00ae Delivery System\n5 10(k) K072313, Reg. No. 870.1250; Product Code: DQY\nPredicate Device Intended Use: The AMPLATZER\u00ae\nTorqVue\u00ae Delivery System is intended to provide",
+      "hop": 4,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K012489",
+      "to": "K002054",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "g that there are no questions raised regarding safety or efficacy of\nManufacturer and Device Nam\n510(k) Number\nppriva Medical, Inc., X-Sept\nK002054\nTransseptal Sheath and Transition\nCatheter (with Dilator)\nNone are established under Section 514.\nMichael",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K033989",
+      "to": "K010128",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "K013517 Delivery System Medtronic Attain Model 6226DEF Deflectable Medtronic K032312 Catheter System Introducer Valve Model 6228VAL Cook Vascular K010128 Incorporated Universal Slitter Model 6228SLT Medtronic Class I device exempt from pre- market notification Summary of Studies",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K033989",
+      "to": "K032312",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Manufacturer 510(k) Number Medtronic 10600 Deflectable Catheter Medtronic K013517 Delivery System Medtronic Attain Model 6226DEF Deflectable Medtronic K032312 Catheter System Introducer Valve Model 6228VAL Cook Vascular K010128 Incorporated Universal Slitter Model 6228SLT",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K033989",
+      "to": "K013517",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "coronary sinus. Substantially Equivalent Devices Predicate Device Manufacturer 510(k) Number Medtronic 10600 Deflectable Catheter Medtronic K013517 Delivery System Medtronic Attain Model 6226DEF Deflectable Medtronic K032312 Catheter System Introducer Valve Model 6228VAL Cook",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K042623",
+      "to": "K973840",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "roducer (per 2l1CFR 870.1340)\nPredicate Devices: Fast-CathlM (Two-Piece AMAS) Transseptal & Intra-\nCardiac Catheter Introducers (1K964518 & K973840)\nDevice Description: The AgilJiSTM Steerable Catheter Introducer set consists\nof a dilator, guidewire, and steerable sheath, which",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052444",
+      "to": "K010351",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "W0V O~~~~~~0 Page Ilof 2 SEP 2 0 2005 SPECIAL 510(k) SUMMARY for the line extension of INION CPS Tm Baby 1.5 Bioabsorbable Fixation System (K010351) MANUFACTURER Inion Ltd., Liiiikiirinkatu 2, FIN-33520 Tampere, FINLAND Contact Person Hanna Marttila, Regulatory Affairs Director",
+      "hop": 5,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K052444",
+      "to": "K982531",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "CPSTM Baby 1.5 Bioabsorbable Fixation system (K010351) implants as well as the predicate device Howmedica Leibinger Resorbable Fixation System (K982531). Inion CPSTM Baby 1.5 Bioabsorbable Fixation system large X plate is substantially equivalent to predicate Class II devices",
+      "hop": 5,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K012130",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "n, PA 19355\nMedtronic CardioRhythm\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K950179",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ronic CardioRhythm\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide Catheter Slitters\nGuide",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K974683",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "rdioRhythm\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide Catheter Slitters\nGuide",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K012083",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "355\nMedtronic CardioRhythm\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide Catheter",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K003731",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "hm\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide Catheter Slitters\nGuide",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K931794",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "apolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\n510(k)\nK012130\nK012083\nK950179\nK974683\nK003731\nK931794\nK012130\nK012083\nGuide Catheter Dilator\nAdjustable Hemostasis\nValve\nGuide Wire\nGuide Catheter Slitters\nGuide Catheter\nPercutaneous",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K893658",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "0\nDeflectable Catheter System is substantially equivalent to the following devices:\nMedAmicus, Inc. Percutaneous Introducer\nMedAmicus, Inc.\nK893658\n(also known as Solotrak)\nPlymouth, MN 55447\nMirdiers, Inc. Percutaneous Venous\nMedAmicus, Inc.\nK965167\nPlymouth, MN 55447\nMedtronic",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K013517",
+      "to": "K965167",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "cutaneous Introducer\nMedAmicus, Inc.\nK893658\n(also known as Solotrak)\nPlymouth, MN 55447\nMirdiers, Inc. Percutaneous Venous\nMedAmicus, Inc.\nK965167\nPlymouth, MN 55447\nMedtronic Attain LDS Model 6216 Left-\nMedtronic, Inc.\nK012130\nheart delivery system\nMinneapolis, MN",
+      "hop": 6,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K032312",
+      "to": "K013517",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "5656 USA\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nPredicate 510(k)\nK013517\nK013517\nK013517\nK010128\nClass I device, exempt\nfrom premarket\nnotification\nK013517\nK013517\nAdditionally, the biocompatibility of",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K032312",
+      "to": "K012083",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "edtronic Attain Access\n6218 Left-Heart Delivery\nSystem\nPredicate Device\nManufacturer\nMedtronic, Inc.\nMinneapolis, MN 55432\nPredicate 510(k)\nK012083\nSpecial 510(k): Device Modification Premarket Notification\nAttain \u2122M 6226DEF, Deflectable catheter system",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K032312",
+      "to": "K010128",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Minneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nMedtronic, Inc.\nMinneapolis, MN 55432\nPredicate 510(k)\nK013517\nK013517\nK013517\nK010128\nClass I device, exempt\nfrom premarket\nnotification\nK013517\nK013517\nAdditionally, the biocompatibility of the Attain 6226DEF",
+      "hop": 6,
+      "dir": "up",
+      "page": 5
+     },
+     {
+      "from": "K973840",
+      "to": "K913840",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "3.e5.\nA.\nB.\nK913840\nMHi Z | 1998\n510(k) Summary\n(As required by 21 CFR 807.92)\nSubmitter Information\nSubmitter's Name:\nAddress:\nTelephone Number:\nContact Perso",
+      "hop": 6,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K012083",
+      "to": "K895580",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and package\nqualification",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K990707",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "lvern, PA 19355\nAngeion Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K003731",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "homas Medical\nMalvern, PA 19355\nAngeion Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K963320",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "mouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and package\nqualification testing",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K950490",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "55447\nThomas Medical\nMalvern, PA 19355\nAngeion Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K965167",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "A 19355\nAngeion Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012083",
+      "to": "K950179",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "dical\nMalvern, PA 19355\nAngeion Corp\nPlymouth, MN 55441\nTEX Medical Group\nJaffrey, NH 03452\nMedAmicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK895580\nK963320\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012130",
+      "to": "K965167",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "MN 55447\nThomas Medical\nMalvern, PA 19355\nMedAmicus\nMinneapolis, MN 55447\nMed Amicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK965167\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012130",
+      "to": "K003731",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "3\nMedAmicus\nMinneapolis, MN 55447\nThomas Medical\nMalvern, PA 19355\nMedAmicus\nMinneapolis, MN 55447\nMed Amicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK965167\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012130",
+      "to": "K950490",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "MA 01923\nMedAmicus\nMinneapolis, MN 55447\nThomas Medical\nMalvern, PA 19355\nMedAmicus\nMinneapolis, MN 55447\nMed Amicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK965167\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012130",
+      "to": "K990707",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "eapolis, MN 55447\nThomas Medical\nMalvern, PA 19355\nMedAmicus\nMinneapolis, MN 55447\nMed Amicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK965167\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K012130",
+      "to": "K950179",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "cus\nMinneapolis, MN 55447\nThomas Medical\nMalvern, PA 19355\nMedAmicus\nMinneapolis, MN 55447\nMed Amicus\nMinneapolis, MN 55447\nK950490\nK003731\nK950179\nK990707\nK965167\nK003731\nK965167\nK965167\nSummary of Studies\nCompatibility Testing, incoming inspection of final packaged device and",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K965167",
+      "to": "K951313",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "is intended to be used in the exact same manner as the previous introducers manufactured by MedAmicus and cleared by FDA under K893658 and K951313. The intended use of these introducers is to create a percutaneous pathway for the introduction of catheters, ports, and pacing",
+      "hop": 7,
+      "dir": "up",
+      "page": 3
+     },
+     {
+      "from": "K965167",
+      "to": "K893658",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "Percutaneous Introducer is intended to be used in the exact same manner as the previous introducers manufactured by MedAmicus and cleared by FDA under K893658 and K951313. The intended use of these introducers is to create a percutaneous pathway for the introduction of",
+      "hop": 7,
+      "dir": "up",
+      "page": 3
+     },
+     {
+      "from": "K974683",
+      "to": "K931794",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "alence:(cid:13)\nCathe\u00fder -*s 7-_bsr_antia'1y(cid:13)\nequivalent to Medtronic's Marinr\u00fd'A Steerable Intracardiac Electrode(cid:13)\nCatheter (K931794, Decision Date 6/6/94) and Sherpa Guiding Catheter(cid:13)\n(K955651, Decision Date 1/22/9G) . Establishment of equivalence is",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K974683",
+      "to": "K951603",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "(cid:13) yethylene\nbarrier. The NAVIPORT catheter utilizes the same packaging materials(cid:13)\nand..packaging process as Cardima VENAPORT (K951603, cleared)(cid:13)\nSubstantial Equivalence:(cid:13)\nCathe\u00fder -*s 7-_bsr_antia'1y(cid:13)\nequivalent to Medtronic's Marinr\u00fd'A",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K974683",
+      "to": "K955651",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "edtronic's Marinr\u00fd'A Steerable Intracardiac Electrode(cid:13)\nCatheter (K931794, Decision Date 6/6/94) and Sherpa Guiding Catheter(cid:13)\n(K955651, Decision Date 1/22/9G) . Establishment of equivalence is based(cid:13)\non similarities of intended use, design, and physical",
+      "hop": 7,
+      "dir": "up",
+      "page": 2
+     },
+     {
+      "from": "K963320",
+      "to": "K871850",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ternational Inc. -\nArgon Medical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K902152",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603)",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K864058",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K935198",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "14531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K924607",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "-\nArgon Medical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K914138",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "0677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K850677",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "Guidewire -\nArrow International Inc. -\nArgon Medical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K924438",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "edical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K920891",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "idewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603)",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K921200",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "60258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K860258",
+      "kind": "document-wide",
+      "confidence": "low",
+      "quote": "-\nArrow International Inc. -\nArgon Medical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K920824",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603)",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K770977",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "es -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K935170",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K841926",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "orporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K914531",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "nal Inc. -\nArgon Medical Corporation -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138,",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K871882",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "anufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K901224",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "ing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K963380",
+      "kind": "primary",
+      "confidence": "medium",
+      "quote": "K963380\nTEX Medical.\nDEC - 3 1996\n510(k) SUMMARY\n[As required by 21 CFR 807.92]\n2.\nSubmitter and Contact Person\nNeil R. Armstrong\nGroup Regulatory",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K941229",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "24607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603) 532-7706\nFAX (603) 532-8211 or 6108",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K871297",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "n -\nCook Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K963320",
+      "to": "K901899",
+      "kind": "additional",
+      "confidence": "medium",
+      "quote": "Incorporated -\nGuidewire Technologies -\nLake Region Manufacturing -\nK850677/B\nK860258/A\nK871850\nK914531, K924607, K924438\nK841926, K871297\nK901899, K920824, K920891\nK902152/3\nK770977, K864058, K871882,\nK901224, K914138, K921200,\nK935170, K935198, K941229\nTalley, NH 03452\n(603)",
+      "hop": 8,
+      "dir": "up",
+      "page": 1
+     },
+     {
+      "from": "K233248",
+      "to": "K190167",
+      "kind": "reference",
+      "confidence": "medium",
+      "quote": "March 22nd, 2023 Product Code: DRA Reference Device Information: MitraClip G4 Steerable Guide Catheter Manufacturer: Abbott Medical 510(k) #: K190167 FDA Clearance Date: May 29th, 2019 Product Code: DRA Indications for Use: The FARADRIVE Sheath is intended for percutaneous",
+      "hop": 1,
+      "dir": "down",
+      "page": 6
+     },
+     {
+      "from": "K250529",
+      "to": "K233248",
+      "kind": "primary",
+      "confidence": "high",
+      "quote": "Common Name Steerable catheter Product Code DRA Classification Class II, 21 CFR Part 870.1280 Predicate Device FARADRIVE\u2122 Steerable Sheath (K233248) Device The Globe\u00ae Introducer is a single use, ethylene oxide sterilized medical device used to Description facilitate percutaneous",
+      "hop": 2,
+      "dir": "down",
+      "page": 5
+     }
+    ],
+    "note": "Lineage is walked to the earliest cited predicate and the latest citing descendant held in the corpus. Descendant coverage is bounded by the 510(k)-summary extraction: clearances filed with a 510(k) Statement (no public summary) cannot appear as citing devices."
+   },
+   "source": "510(k) summary PDFs, predicate citations extracted with page-cited quotes; lineage walked in both directions from this device's own clearances; branded accessory clearances listed separately."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 13982,
+    "totalPaid": 9233928.86,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MN",
+      "total": 353466.95,
+      "payments": 252,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 184142.71,
+      "payments": 117,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 172625.88,
+      "payments": 216,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "TN",
+      "total": 132029.11,
+      "payments": 132,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "VA",
+      "total": 121408.09,
+      "payments": 175,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Otolaryngology",
+      "state": "FL",
+      "total": 113496.04,
+      "payments": 160,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Advanced Heart Failure and Transplant Cardiology",
+      "state": "KS",
+      "total": 109375.0,
+      "payments": 37,
+      "years": "2021\u20132024",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "CA",
+      "total": 100568.25,
+      "payments": 211,
+      "years": "2020\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 98992.57,
+      "payments": 54,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NC",
+      "total": 96582.31,
+      "payments": 114,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MN",
+      "total": 353466.95,
+      "payments": 252,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Paul Sorajja"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 184142.71,
+      "payments": 117,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Thomas Smith"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 172625.88,
+      "payments": 216,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Gagan Singh"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "TN",
+      "total": 132029.11,
+      "payments": 132,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Michael Morse"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "VA",
+      "total": 121408.09,
+      "payments": 175,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Paul Mahoney"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Otolaryngology",
+      "state": "FL",
+      "total": 113496.04,
+      "payments": 160,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Michael Rinaldi"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Advanced Heart Failure and Transplant Cardiology",
+      "state": "KS",
+      "total": 109375.0,
+      "payments": 37,
+      "years": "2021\u20132024",
+      "topNature": "Consulting Fee",
+      "name": "Andrew Sauer"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "CA",
+      "total": 100568.25,
+      "payments": 211,
+      "years": "2020\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Saibal Kar"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 98992.57,
+      "payments": 54,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Edris Aman"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "NC",
+      "total": 96582.31,
+      "payments": 114,
+      "years": "2021\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Markus Scherer"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "BOSTON SCIENTIFIC CORP",
+    "nParents": 43,
+    "inspections": 4459,
+    "citations": 2102,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8484,
+     "inMdl": 7232,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2452,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2452,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Biotech, Incorporated",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Critical Care Systems",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 1,
+    "procedureCodes": 1,
+    "dataYear": 2023,
+    "topStateServices": 13,
+    "counties": 250,
+    "facilities": 731,
+    "topFacilityCity": "Los Angeles, CA"
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "92987",
+      "description": "Catheter based repair of heart valve (mitral) between left upper and lower chambers, accessed through the skin",
+      "services": 545
+     }
+    ],
+    "states": [
+     {
+      "state": "New York",
+      "services": 13,
+      "beneficiaries": 11
+     }
+    ],
+    "facilities": [
+     {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 699,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 434
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 265
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 620,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 361
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 244
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 15
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 589,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 289
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 274
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 26
+       }
+      ]
+     },
+     {
+      "ccn": "310015",
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "NJ",
+      "countyFips": "34027",
+      "lat": 40.779,
+      "lon": -74.502,
+      "discharges": 514,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 382
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 132
+       }
+      ]
+     },
+     {
+      "ccn": "330024",
+      "name": "Mount Sinai Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.792,
+      "lon": -73.947,
+      "discharges": 508,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 326
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 144
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 27
+       }
+      ]
+     },
+     {
+      "ccn": "330182",
+      "name": "St Francis Hospital, Roslyn",
+      "city": "Roslyn",
+      "state": "NY",
+      "countyFips": "36059",
+      "lat": 40.797,
+      "lon": -73.647,
+      "discharges": 507,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 367
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 140
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 473,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 347
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 126
+       }
+      ]
+     },
+     {
+      "ccn": "670025",
+      "name": "Baylor Sott & White The Heart Hospital Plano",
+      "city": "Plano",
+      "state": "TX",
+      "countyFips": "48085",
+      "lat": 33.034,
+      "lon": -96.812,
+      "discharges": 473,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 326
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 147
+       }
+      ]
+     },
+     {
+      "ccn": "490007",
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "VA",
+      "countyFips": "51710",
+      "lat": 36.865,
+      "lon": -76.303,
+      "discharges": 441,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 201
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 191
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 38
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 414,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 286
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 112
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "490063",
+      "name": "Inova Fairfax Hospital",
+      "city": "Falls Church",
+      "state": "VA",
+      "countyFips": "51059",
+      "lat": 38.865,
+      "lon": -77.194,
+      "discharges": 392,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 271
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 121
+       }
+      ]
+     },
+     {
+      "ccn": "090011",
+      "name": "Medstar Washington Hospital Center",
+      "city": "Washington",
+      "state": "DC",
+      "countyFips": "11001",
+      "lat": 38.933,
+      "lon": -77.032,
+      "discharges": 385,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 270
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 92
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 23
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 375,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 196
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 179
+       }
+      ]
+     },
+     {
+      "ccn": "110083",
+      "name": "Piedmont Hospital, Inc",
+      "city": "Atlanta",
+      "state": "GA",
+      "countyFips": "13121",
+      "lat": 33.8,
+      "lon": -84.386,
+      "discharges": 364,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 211
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 153
+       }
+      ]
+     },
+     {
+      "ccn": "500008",
+      "name": "University Of Washington Medical Ctr",
+      "city": "Seattle",
+      "state": "WA",
+      "countyFips": "53033",
+      "lat": 47.654,
+      "lon": -122.308,
+      "discharges": 341,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 242
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 99
+       }
+      ]
+     },
+     {
+      "ccn": "310073",
+      "name": "Jersey Shore University Medical Center",
+      "city": "Neptune",
+      "state": "NJ",
+      "countyFips": "34025",
+      "lat": 40.211,
+      "lon": -74.074,
+      "discharges": 337,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 215
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 111
+       },
+       {
+        "code": "319",
+        "desc": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "500025",
+      "name": "Swedish Medical Center / Cherry Hill",
+      "city": "Seattle",
+      "state": "WA",
+      "countyFips": "53033",
+      "lat": 47.61,
+      "lon": -122.296,
+      "discharges": 317,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 273
+       },
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 44
+       }
+      ]
+     },
+     {
+      "ccn": "050324",
+      "name": "Scripps Memorial Hospital La Jolla",
+      "city": "La Jolla",
+      "state": "CA",
+      "countyFips": "06073",
+      "lat": 32.855,
+      "lon": -117.252,
+      "discharges": 310,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 208
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 102
+       }
+      ]
+     },
+     {
+      "ccn": "220086",
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.348,
+      "lon": -71.103,
+      "discharges": 301,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 245
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 56
+       }
+      ]
+     },
+     {
+      "ccn": "440173",
+      "name": "Parkwest Medical Center",
+      "city": "Knoxville",
+      "state": "TN",
+      "countyFips": "47093",
+      "lat": 35.928,
+      "lon": -84.081,
+      "discharges": 297,
+      "outpatientServices": null,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 164
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 133
+       }
+      ]
+     },
+     {
+      "ccn": "330013",
+      "name": "Albany Medical Center Hospital",
+      "city": "Albany",
+      "state": "NY",
+      "countyFips": "36001",
+      "lat": 42.653,
+      "lon": -73.81,
+      "discharges": 287,
+      "outpatientServices": null,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 181
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 106
+       }
+      ]
+     },
+     {
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
+      "discharges": 275,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 185
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 90
+       }
+      ]
+     },
+     {
+      "ccn": "220077",
+      "name": "Baystate Medical Center",
+      "city": "Springfield",
+      "state": "MA",
+      "countyFips": "25013",
+      "lat": 42.136,
+      "lon": -72.636,
+      "discharges": 267,
+      "outpatientServices": null,
+      "rating": "1",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 216
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 51
+       }
+      ]
+     },
+     {
+      "ccn": "080001",
+      "name": "Christianacare",
+      "city": "Newark",
+      "state": "DE",
+      "countyFips": "10003",
+      "lat": 39.576,
+      "lon": -75.644,
+      "discharges": 260,
+      "outpatientServices": null,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 184
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 76
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 258,
+      "outpatientServices": null,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "267",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+        "n": 170
+       },
+       {
+        "code": "266",
+        "desc": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+        "n": 88
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 1886,
+      "facilities": 5,
+      "per10k65": 63.8
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 1553,
+      "facilities": 15,
+      "per10k65": 10.4
+     },
+     {
+      "fips": "17031",
+      "name": "Cook",
+      "state": "IL",
+      "services": 1231,
+      "facilities": 10,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 1221,
+      "facilities": 5,
+      "per10k65": 117.2
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 1069,
+      "facilities": 11,
+      "per10k65": 14.4
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 913,
+      "facilities": 9,
+      "per10k65": 16.1
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 866,
+      "facilities": 4,
+      "per10k65": 27.0
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 720,
+      "facilities": 2,
+      "per10k65": 27.7
+     },
+     {
+      "fips": "48113",
+      "name": "Dallas",
+      "state": "TX",
+      "services": 678,
+      "facilities": 4,
+      "per10k65": 21.9
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 662,
+      "facilities": 4,
+      "per10k65": 27.3
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 651,
+      "facilities": 3,
+      "per10k65": 47.6
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 647,
+      "facilities": 7,
+      "per10k65": 12.7
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 592,
+      "facilities": 4,
+      "per10k65": 67.6
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 587,
+      "facilities": 5,
+      "per10k65": 37.5
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 558,
+      "facilities": 6,
+      "per10k65": 24.0
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 523,
+      "facilities": 3,
+      "per10k65": 56.6
+     },
+     {
+      "fips": "34027",
+      "name": "Morris",
+      "state": "NJ",
+      "services": 514,
+      "facilities": 1,
+      "per10k65": 54.9
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 509,
+      "facilities": 2,
+      "per10k65": 37.8
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 481,
+      "facilities": 3,
+      "per10k65": 19.8
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 473,
+      "facilities": 1,
+      "per10k65": 172.6
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 467,
+      "facilities": 6,
+      "per10k65": 12.3
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 441,
+      "facilities": 1,
+      "per10k65": 144.9
+     },
+     {
+      "fips": "05119",
+      "name": "Pulaski",
+      "state": "AR",
+      "services": 431,
+      "facilities": 4,
+      "per10k65": 64.7
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 427,
+      "facilities": 2,
+      "per10k65": 49.0
+     },
+     {
+      "fips": "34003",
+      "name": "Bergen",
+      "state": "NJ",
+      "services": 425,
+      "facilities": 3,
+      "per10k65": 24.3
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 418,
+      "facilities": 5,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "48439",
+      "name": "Tarrant",
+      "state": "TX",
+      "services": 408,
+      "facilities": 4,
+      "per10k65": 15.3
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 398,
+      "facilities": 4,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 392,
+      "facilities": 1,
+      "per10k65": 22.8
+     },
+     {
+      "fips": "40109",
+      "name": "Oklahoma",
+      "state": "OK",
+      "services": 388,
+      "facilities": 5,
+      "per10k65": 33.3
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 387,
+      "facilities": 3,
+      "per10k65": 13.7
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 383,
+      "facilities": 4,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "47093",
+      "name": "Knox",
+      "state": "TN",
+      "services": 380,
+      "facilities": 3,
+      "per10k65": 47.3
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 377,
+      "facilities": 3,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "06059",
+      "name": "Orange",
+      "state": "CA",
+      "services": 360,
+      "facilities": 7,
+      "per10k65": 7.0
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 356,
+      "facilities": 2,
+      "per10k65": 18.6
+     },
+     {
+      "fips": "55079",
+      "name": "Milwaukee",
+      "state": "WI",
+      "services": 355,
+      "facilities": 3,
+      "per10k65": 26.0
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 352,
+      "facilities": 2,
+      "per10k65": 61.1
+     },
+     {
+      "fips": "06065",
+      "name": "Riverside",
+      "state": "CA",
+      "services": 346,
+      "facilities": 4,
+      "per10k65": 9.0
+     },
+     {
+      "fips": "42091",
+      "name": "Montgomery",
+      "state": "PA",
+      "services": 344,
+      "facilities": 3,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 340,
+      "facilities": 2,
+      "per10k65": 68.1
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 337,
+      "facilities": 1,
+      "per10k65": 27.3
+     },
+     {
+      "fips": "01073",
+      "name": "Jefferson",
+      "state": "AL",
+      "services": 334,
+      "facilities": 6,
+      "per10k65": 29.8
+     },
+     {
+      "fips": "49035",
+      "name": "Salt Lake",
+      "state": "UT",
+      "services": 334,
+      "facilities": 3,
+      "per10k65": 23.5
+     },
+     {
+      "fips": "29189",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 331,
+      "facilities": 5,
+      "per10k65": 17.4
+     },
+     {
+      "fips": "48453",
+      "name": "Travis",
+      "state": "TX",
+      "services": 328,
+      "facilities": 3,
+      "per10k65": 22.4
+     },
+     {
+      "fips": "12021",
+      "name": "Collier",
+      "state": "FL",
+      "services": 320,
+      "facilities": 2,
+      "per10k65": 23.8
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 319,
+      "facilities": 3,
+      "per10k65": 42.5
+     },
+     {
+      "fips": "37119",
+      "name": "Mecklenburg",
+      "state": "NC",
+      "services": 317,
+      "facilities": 2,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "20173",
+      "name": "Sedgwick",
+      "state": "KS",
+      "services": 311,
+      "facilities": 2,
+      "per10k65": 37.1
+     },
+     {
+      "fips": "55025",
+      "name": "Dane",
+      "state": "WI",
+      "services": 309,
+      "facilities": 2,
+      "per10k65": 35.8
+     },
+     {
+      "fips": "04019",
+      "name": "Pima",
+      "state": "AZ",
+      "services": 306,
+      "facilities": 4,
+      "per10k65": 13.4
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 296,
+      "facilities": 3,
+      "per10k65": 20.2
+     },
+     {
+      "fips": "53063",
+      "name": "Spokane",
+      "state": "WA",
+      "services": 293,
+      "facilities": 2,
+      "per10k65": 30.7
+     },
+     {
+      "fips": "12057",
+      "name": "Hillsborough",
+      "state": "FL",
+      "services": 286,
+      "facilities": 4,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 278,
+      "facilities": 2,
+      "per10k65": 20.4
+     },
+     {
+      "fips": "17043",
+      "name": "DuPage",
+      "state": "IL",
+      "services": 278,
+      "facilities": 4,
+      "per10k65": 17.2
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 275,
+      "facilities": 2,
+      "per10k65": 31.5
+     },
+     {
+      "fips": "25013",
+      "name": "Hampden",
+      "state": "MA",
+      "services": 267,
+      "facilities": 1,
+      "per10k65": 31.6
+     },
+     {
+      "fips": "38017",
+      "name": "Cass",
+      "state": "ND",
+      "services": 265,
+      "facilities": 2,
+      "per10k65": 105.4
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 260,
+      "facilities": 1,
+      "per10k65": 26.4
+     },
+     {
+      "fips": "26161",
+      "name": "Washtenaw",
+      "state": "MI",
+      "services": 259,
+      "facilities": 2,
+      "per10k65": 44.5
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 258,
+      "facilities": 1,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "32003",
+      "name": "Clark",
+      "state": "NV",
+      "services": 257,
+      "facilities": 5,
+      "per10k65": 6.9
+     },
+     {
+      "fips": "29095",
+      "name": "Jackson",
+      "state": "MO",
+      "services": 256,
+      "facilities": 2,
+      "per10k65": 22.4
+     },
+     {
+      "fips": "26163",
+      "name": "Wayne",
+      "state": "MI",
+      "services": 256,
+      "facilities": 4,
+      "per10k65": 8.7
+     },
+     {
+      "fips": "26125",
+      "name": "Oakland",
+      "state": "MI",
+      "services": 256,
+      "facilities": 4,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "42077",
+      "name": "Lehigh",
+      "state": "PA",
+      "services": 253,
+      "facilities": 1,
+      "per10k65": 37.8
+     },
+     {
+      "fips": "41051",
+      "name": "Multnomah",
+      "state": "OR",
+      "services": 248,
+      "facilities": 3,
+      "per10k65": 21.0
+     },
+     {
+      "fips": "09003",
+      "name": "Hartford",
+      "state": "CT",
+      "services": 247,
+      "facilities": 2,
+      "per10k65": null
+     },
+     {
+      "fips": "42043",
+      "name": "Dauphin",
+      "state": "PA",
+      "services": 245,
+      "facilities": 2,
+      "per10k65": 46.9
+     },
+     {
+      "fips": "21111",
+      "name": "Jefferson",
+      "state": "KY",
+      "services": 245,
+      "facilities": 3,
+      "per10k65": 18.2
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 242,
+      "facilities": 2,
+      "per10k65": 73.4
+     },
+     {
+      "fips": "51760",
+      "name": "Richmond",
+      "state": "VA",
+      "services": 241,
+      "facilities": 3,
+      "per10k65": 74.7
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 239,
+      "facilities": 1,
+      "per10k65": 17.0
+     },
+     {
+      "fips": "39061",
+      "name": "Hamilton",
+      "state": "OH",
+      "services": 238,
+      "facilities": 3,
+      "per10k65": 17.3
+     },
+     {
+      "fips": "37183",
+      "name": "Wake",
+      "state": "NC",
+      "services": 236,
+      "facilities": 2,
+      "per10k65": 15.5
+     },
+     {
+      "fips": "40143",
+      "name": "Tulsa",
+      "state": "OK",
+      "services": 232,
+      "facilities": 3,
+      "per10k65": 22.5
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 232,
+      "facilities": 6,
+      "per10k65": 9.3
+     },
+     {
+      "fips": "12011",
+      "name": "Broward",
+      "state": "FL",
+      "services": 230,
+      "facilities": 5,
+      "per10k65": 6.5
+     },
+     {
+      "fips": "18097",
+      "name": "Marion",
+      "state": "IN",
+      "services": 225,
+      "facilities": 3,
+      "per10k65": 17.5
+     },
+     {
+      "fips": "42095",
+      "name": "Northampton",
+      "state": "PA",
+      "services": 224,
+      "facilities": 1,
+      "per10k65": 34.6
+     },
+     {
+      "fips": "08031",
+      "name": "Denver",
+      "state": "CO",
+      "services": 224,
+      "facilities": 1,
+      "per10k65": 25.0
+     },
+     {
+      "fips": "27145",
+      "name": "Stearns",
+      "state": "MN",
+      "services": 223,
+      "facilities": 1,
+      "per10k65": 86.2
+     },
+     {
+      "fips": "45079",
+      "name": "Richland",
+      "state": "SC",
+      "services": 217,
+      "facilities": 2,
+      "per10k65": 36.5
+     },
+     {
+      "fips": "27137",
+      "name": "St. Louis",
+      "state": "MN",
+      "services": 217,
+      "facilities": 2,
+      "per10k65": 50.8
+     },
+     {
+      "fips": "50007",
+      "name": "Chittenden",
+      "state": "VT",
+      "services": 214,
+      "facilities": 1,
+      "per10k65": 74.5
+     },
+     {
+      "fips": "29510",
+      "name": "St. Louis",
+      "state": "MO",
+      "services": 214,
+      "facilities": 2,
+      "per10k65": 47.9
+     },
+     {
+      "fips": "53053",
+      "name": "Pierce",
+      "state": "WA",
+      "services": 209,
+      "facilities": 2,
+      "per10k65": 15.2
+     },
+     {
+      "fips": "19153",
+      "name": "Polk",
+      "state": "IA",
+      "services": 208,
+      "facilities": 2,
+      "per10k65": 29.6
+     },
+     {
+      "fips": "25017",
+      "name": "Middlesex",
+      "state": "MA",
+      "services": 204,
+      "facilities": 2,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 203,
+      "facilities": 1,
+      "per10k65": 11.1
+     },
+     {
+      "fips": "06111",
+      "name": "Ventura",
+      "state": "CA",
+      "services": 202,
+      "facilities": 3,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 201,
+      "facilities": 1,
+      "per10k65": 90.0
+     },
+     {
+      "fips": "31055",
+      "name": "Douglas",
+      "state": "NE",
+      "services": 199,
+      "facilities": 3,
+      "per10k65": 23.9
+     },
+     {
+      "fips": "09001",
+      "name": "Fairfield",
+      "state": "CT",
+      "services": 198,
+      "facilities": 4,
+      "per10k65": null
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 197,
+      "facilities": 1,
+      "per10k65": 322.0
+     },
+     {
+      "fips": "36027",
+      "name": "Dutchess",
+      "state": "NY",
+      "services": 196,
+      "facilities": 1,
+      "per10k65": 34.4
+     },
+     {
+      "fips": "34013",
+      "name": "Essex",
+      "state": "NJ",
+      "services": 196,
+      "facilities": 2,
+      "per10k65": 16.0
+     },
+     {
+      "fips": "37063",
+      "name": "Durham",
+      "state": "NC",
+      "services": 195,
+      "facilities": 1,
+      "per10k65": 40.5
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 193,
+      "facilities": 4,
+      "per10k65": 4.2
+     },
+     {
+      "fips": "55073",
+      "name": "Marathon",
+      "state": "WI",
+      "services": 192,
+      "facilities": 2,
+      "per10k65": 72.3
+     },
+     {
+      "fips": "48491",
+      "name": "Williamson",
+      "state": "TX",
+      "services": 192,
+      "facilities": 2,
+      "per10k65": 22.1
+     },
+     {
+      "fips": "18057",
+      "name": "Hamilton",
+      "state": "IN",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 37.7
+     },
+     {
+      "fips": "33009",
+      "name": "Grafton",
+      "state": "NH",
+      "services": 191,
+      "facilities": 1,
+      "per10k65": 90.3
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 188,
+      "facilities": 1,
+      "per10k65": 12.1
+     },
+     {
+      "fips": "30063",
+      "name": "Missoula",
+      "state": "MT",
+      "services": 187,
+      "facilities": 1,
+      "per10k65": 90.4
+     },
+     {
+      "fips": "46083",
+      "name": "Lincoln",
+      "state": "SD",
+      "services": 185,
+      "facilities": 1,
+      "per10k65": 178.5
+     },
+     {
+      "fips": "55009",
+      "name": "Brown",
+      "state": "WI",
+      "services": 184,
+      "facilities": 2,
+      "per10k65": 41.5
+     },
+     {
+      "fips": "25005",
+      "name": "Bristol",
+      "state": "MA",
+      "services": 183,
+      "facilities": 1,
+      "per10k65": 17.7
+     },
+     {
+      "fips": "36067",
+      "name": "Onondaga",
+      "state": "NY",
+      "services": 182,
+      "facilities": 2,
+      "per10k65": 20.7
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 178,
+      "facilities": 1,
+      "per10k65": 101.9
+     },
+     {
+      "fips": "41067",
+      "name": "Washington",
+      "state": "OR",
+      "services": 178,
+      "facilities": 1,
+      "per10k65": 20.0
+     },
+     {
+      "fips": "12105",
+      "name": "Polk",
+      "state": "FL",
+      "services": 177,
+      "facilities": 2,
+      "per10k65": 11.5
+     },
+     {
+      "fips": "22055",
+      "name": "Lafayette",
+      "state": "LA",
+      "services": 176,
+      "facilities": 2,
+      "per10k65": 48.3
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 175,
+      "facilities": 1,
+      "per10k65": 16.1
+     },
+     {
+      "fips": "28035",
+      "name": "Forrest",
+      "state": "MS",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 161.8
+     },
+     {
+      "fips": "42069",
+      "name": "Lackawanna",
+      "state": "PA",
+      "services": 173,
+      "facilities": 2,
+      "per10k65": 39.0
+     },
+     {
+      "fips": "12001",
+      "name": "Alachua",
+      "state": "FL",
+      "services": 172,
+      "facilities": 2,
+      "per10k65": 39.4
+     },
+     {
+      "fips": "45045",
+      "name": "Greenville",
+      "state": "SC",
+      "services": 170,
+      "facilities": 2,
+      "per10k65": 18.5
+     },
+     {
+      "fips": "36055",
+      "name": "Monroe",
+      "state": "NY",
+      "services": 170,
+      "facilities": 2,
+      "per10k65": 12.0
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 168,
+      "facilities": 1,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "06083",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "services": 167,
+      "facilities": 2,
+      "per10k65": 22.7
+     },
+     {
+      "fips": "42133",
+      "name": "York",
+      "state": "PA",
+      "services": 166,
+      "facilities": 1,
+      "per10k65": 19.1
+     },
+     {
+      "fips": "02020",
+      "name": "Anchorage",
+      "state": "AK",
+      "services": 166,
+      "facilities": 1,
+      "per10k65": 44.6
+     },
+     {
+      "fips": "18003",
+      "name": "Allen",
+      "state": "IN",
+      "services": 164,
+      "facilities": 2,
+      "per10k65": 26.8
+     },
+     {
+      "fips": "35001",
+      "name": "Bernalillo",
+      "state": "NM",
+      "services": 163,
+      "facilities": 2,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "27123",
+      "name": "Ramsey",
+      "state": "MN",
+      "services": 163,
+      "facilities": 3,
+      "per10k65": 19.0
+     },
+     {
+      "fips": "08069",
+      "name": "Larimer",
+      "state": "CO",
+      "services": 162,
+      "facilities": 1,
+      "per10k65": 25.4
+     },
+     {
+      "fips": "17143",
+      "name": "Peoria",
+      "state": "IL",
+      "services": 161,
+      "facilities": 2,
+      "per10k65": 49.1
+     },
+     {
+      "fips": "32031",
+      "name": "Washoe",
+      "state": "NV",
+      "services": 161,
+      "facilities": 3,
+      "per10k65": 18.3
+     },
+     {
+      "fips": "54061",
+      "name": "Monongalia",
+      "state": "WV",
+      "services": 158,
+      "facilities": 2,
+      "per10k65": 110.0
+     },
+     {
+      "fips": "36119",
+      "name": "Westchester",
+      "state": "NY",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "06019",
+      "name": "Fresno",
+      "state": "CA",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 11.6
+     },
+     {
+      "fips": "29077",
+      "name": "Greene",
+      "state": "MO",
+      "services": 153,
+      "facilities": 2,
+      "per10k65": 29.4
+     },
+     {
+      "fips": "12069",
+      "name": "Lake",
+      "state": "FL",
+      "services": 151,
+      "facilities": 2,
+      "per10k65": 13.7
+     },
+     {
+      "fips": "01097",
+      "name": "Mobile",
+      "state": "AL",
+      "services": 151,
+      "facilities": 3,
+      "per10k65": 21.1
+     },
+     {
+      "fips": "15003",
+      "name": "Honolulu",
+      "state": "HI",
+      "services": 149,
+      "facilities": 2,
+      "per10k65": 7.6
+     },
+     {
+      "fips": "24005",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 9.5
+     },
+     {
+      "fips": "01089",
+      "name": "Madison",
+      "state": "AL",
+      "services": 146,
+      "facilities": 1,
+      "per10k65": 22.9
+     },
+     {
+      "fips": "46099",
+      "name": "Minnehaha",
+      "state": "SD",
+      "services": 145,
+      "facilities": 1,
+      "per10k65": 51.2
+     },
+     {
+      "fips": "37067",
+      "name": "Forsyth",
+      "state": "NC",
+      "services": 145,
+      "facilities": 2,
+      "per10k65": 21.9
+     },
+     {
+      "fips": "22109",
+      "name": "Terrebonne",
+      "state": "LA",
+      "services": 143,
+      "facilities": 1,
+      "per10k65": 85.0
+     },
+     {
+      "fips": "06001",
+      "name": "Alameda",
+      "state": "CA",
+      "services": 143,
+      "facilities": 3,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "13139",
+      "name": "Hall",
+      "state": "GA",
+      "services": 142,
+      "facilities": 1,
+      "per10k65": 41.0
+     },
+     {
+      "fips": "24031",
+      "name": "Montgomery",
+      "state": "MD",
+      "services": 141,
+      "facilities": 2,
+      "per10k65": 7.8
+     },
+     {
+      "fips": "06029",
+      "name": "Kern",
+      "state": "CA",
+      "services": 139,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "19163",
+      "name": "Scott",
+      "state": "IA",
+      "services": 138,
+      "facilities": 1,
+      "per10k65": 45.1
+     },
+     {
+      "fips": "28049",
+      "name": "Hinds",
+      "state": "MS",
+      "services": 138,
+      "facilities": 3,
+      "per10k65": 38.7
+     },
+     {
+      "fips": "12127",
+      "name": "Volusia",
+      "state": "FL",
+      "services": 134,
+      "facilities": 2,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "45063",
+      "name": "Lexington",
+      "state": "SC",
+      "services": 133,
+      "facilities": 1,
+      "per10k65": 25.5
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 132,
+      "facilities": 1,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "23005",
+      "name": "Cumberland",
+      "state": "ME",
+      "services": 132,
+      "facilities": 1,
+      "per10k65": 21.0
+     },
+     {
+      "fips": "28081",
+      "name": "Lee",
+      "state": "MS",
+      "services": 131,
+      "facilities": 1,
+      "per10k65": 99.8
+     },
+     {
+      "fips": "53035",
+      "name": "Kitsap",
+      "state": "WA",
+      "services": 131,
+      "facilities": 1,
+      "per10k65": 24.0
+     },
+     {
+      "fips": "30111",
+      "name": "Yellowstone",
+      "state": "MT",
+      "services": 131,
+      "facilities": 2,
+      "per10k65": 42.4
+     },
+     {
+      "fips": "51700",
+      "name": "Newport News",
+      "state": "VA",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 50.2
+     },
+     {
+      "fips": "45051",
+      "name": "Horry",
+      "state": "SC",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 12.9
+     },
+     {
+      "fips": "36005",
+      "name": "Bronx",
+      "state": "NY",
+      "services": 130,
+      "facilities": 1,
+      "per10k65": 6.4
+     },
+     {
+      "fips": "06053",
+      "name": "Monterey",
+      "state": "CA",
+      "services": 130,
+      "facilities": 2,
+      "per10k65": 20.0
+     },
+     {
+      "fips": "29019",
+      "name": "Boone",
+      "state": "MO",
+      "services": 130,
+      "facilities": 2,
+      "per10k65": 51.3
+     },
+     {
+      "fips": "13051",
+      "name": "Chatham",
+      "state": "GA",
+      "services": 129,
+      "facilities": 2,
+      "per10k65": 25.6
+     },
+     {
+      "fips": "54039",
+      "name": "Kanawha",
+      "state": "WV",
+      "services": 128,
+      "facilities": 1,
+      "per10k65": 32.8
+     },
+     {
+      "fips": "25001",
+      "name": "Barnstable",
+      "state": "MA",
+      "services": 128,
+      "facilities": 1,
+      "per10k65": 16.7
+     },
+     {
+      "fips": "19113",
+      "name": "Linn",
+      "state": "IA",
+      "services": 127,
+      "facilities": 2,
+      "per10k65": 31.9
+     },
+     {
+      "fips": "22017",
+      "name": "Caddo",
+      "state": "LA",
+      "services": 127,
+      "facilities": 2,
+      "per10k65": 29.2
+     },
+     {
+      "fips": "45041",
+      "name": "Florence",
+      "state": "SC",
+      "services": 125,
+      "facilities": 1,
+      "per10k65": 50.4
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 123,
+      "facilities": 1,
+      "per10k65": 59.0
+     },
+     {
+      "fips": "21067",
+      "name": "Fayette",
+      "state": "KY",
+      "services": 122,
+      "facilities": 3,
+      "per10k65": 25.6
+     },
+     {
+      "fips": "33011",
+      "name": "Hillsborough",
+      "state": "NH",
+      "services": 121,
+      "facilities": 1,
+      "per10k65": 16.4
+     },
+     {
+      "fips": "25027",
+      "name": "Worcester",
+      "state": "MA",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 8.2
+     },
+     {
+      "fips": "18089",
+      "name": "Lake",
+      "state": "IN",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 13.5
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 121,
+      "facilities": 2,
+      "per10k65": 32.0
+     },
+     {
+      "fips": "37129",
+      "name": "New Hanover",
+      "state": "NC",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": 26.8
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 120,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 45.9
+     },
+     {
+      "fips": "42071",
+      "name": "Lancaster",
+      "state": "PA",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 10.8
+     },
+     {
+      "fips": "06097",
+      "name": "Sonoma",
+      "state": "CA",
+      "services": 118,
+      "facilities": 1,
+      "per10k65": 11.3
+     },
+     {
+      "fips": "39095",
+      "name": "Lucas",
+      "state": "OH",
+      "services": 116,
+      "facilities": 2,
+      "per10k65": 15.4
+     },
+     {
+      "fips": "16001",
+      "name": "Ada",
+      "state": "ID",
+      "services": 116,
+      "facilities": 2,
+      "per10k65": 13.8
+     },
+     {
+      "fips": "06099",
+      "name": "Stanislaus",
+      "state": "CA",
+      "services": 115,
+      "facilities": 2,
+      "per10k65": 15.1
+     },
+     {
+      "fips": "36007",
+      "name": "Broome",
+      "state": "NY",
+      "services": 114,
+      "facilities": 1,
+      "per10k65": 28.5
+     },
+     {
+      "fips": "33013",
+      "name": "Merrimack",
+      "state": "NH",
+      "services": 113,
+      "facilities": 1,
+      "per10k65": 36.4
+     },
+     {
+      "fips": "42017",
+      "name": "Bucks",
+      "state": "PA",
+      "services": 112,
+      "facilities": 2,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "41039",
+      "name": "Lane",
+      "state": "OR",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 13.9
+     },
+     {
+      "fips": "06013",
+      "name": "Contra Costa",
+      "state": "CA",
+      "services": 111,
+      "facilities": 1,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "53067",
+      "name": "Thurston",
+      "state": "WA",
+      "services": 110,
+      "facilities": 1,
+      "per10k65": 19.6
+     },
+     {
+      "fips": "51087",
+      "name": "Henrico",
+      "state": "VA",
+      "services": 109,
+      "facilities": 1,
+      "per10k65": 19.2
+     },
+     {
+      "fips": "12103",
+      "name": "Pinellas",
+      "state": "FL",
+      "services": 109,
+      "facilities": 2,
+      "per10k65": 4.3
+     },
+     {
+      "fips": "39113",
+      "name": "Montgomery",
+      "state": "OH",
+      "services": 109,
+      "facilities": 2,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "06089",
+      "name": "Shasta",
+      "state": "CA",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 27.7
+     },
+     {
+      "fips": "06007",
+      "name": "Butte",
+      "state": "CA",
+      "services": 108,
+      "facilities": 1,
+      "per10k65": 28.3
+     },
+     {
+      "fips": "06081",
+      "name": "San Mateo",
+      "state": "CA",
+      "services": 107,
+      "facilities": 2,
+      "per10k65": 8.1
+     },
+     {
+      "fips": "16055",
+      "name": "Kootenai",
+      "state": "ID",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": 29.0
+     },
+     {
+      "fips": "48027",
+      "name": "Bell",
+      "state": "TX",
+      "services": 106,
+      "facilities": 1,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "12083",
+      "name": "Marion",
+      "state": "FL",
+      "services": 106,
+      "facilities": 2,
+      "per10k65": 9.2
+     },
+     {
+      "fips": "45083",
+      "name": "Spartanburg",
+      "state": "SC",
+      "services": 105,
+      "facilities": 1,
+      "per10k65": 18.5
+     },
+     {
+      "fips": "26111",
+      "name": "Midland",
+      "state": "MI",
+      "services": 104,
+      "facilities": 1,
+      "per10k65": 61.5
+     },
+     {
+      "fips": "24045",
+      "name": "Wicomico",
+      "state": "MD",
+      "services": 104,
+      "facilities": 1,
+      "per10k65": 59.6
+     },
+     {
+      "fips": "42079",
+      "name": "Luzerne",
+      "state": "PA",
+      "services": 104,
+      "facilities": 2,
+      "per10k65": 15.8
+     },
+     {
+      "fips": "12015",
+      "name": "Charlotte",
+      "state": "FL",
+      "services": 104,
+      "facilities": 2,
+      "per10k65": 12.8
+     },
+     {
+      "fips": "08077",
+      "name": "Mesa",
+      "state": "CO",
+      "services": 102,
+      "facilities": 1,
+      "per10k65": 30.5
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 101,
+      "facilities": 1,
+      "per10k65": 10.2
+     },
+     {
+      "fips": "05143",
+      "name": "Washington",
+      "state": "AR",
+      "services": 100,
+      "facilities": 1,
+      "per10k65": 31.6
+     },
+     {
+      "fips": "12081",
+      "name": "Manatee",
+      "state": "FL",
+      "services": 98,
+      "facilities": 2,
+      "per10k65": 8.0
+     },
+     {
+      "fips": "06071",
+      "name": "San Bernardino",
+      "state": "CA",
+      "services": 96,
+      "facilities": 3,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "48423",
+      "name": "Smith",
+      "state": "TX",
+      "services": 96,
+      "facilities": 2,
+      "per10k65": 22.8
+     },
+     {
+      "fips": "08041",
+      "name": "El Paso",
+      "state": "CO",
+      "services": 95,
+      "facilities": 2,
+      "per10k65": 9.1
+     },
+     {
+      "fips": "51840",
+      "name": "Winchester",
+      "state": "VA",
+      "services": 94,
+      "facilities": 1,
+      "per10k65": 201.2
+     },
+     {
+      "fips": "08005",
+      "name": "Arapahoe",
+      "state": "CO",
+      "services": 94,
+      "facilities": 2,
+      "per10k65": 9.9
+     },
+     {
+      "fips": "12033",
+      "name": "Escambia",
+      "state": "FL",
+      "services": 93,
+      "facilities": 2,
+      "per10k65": 15.9
+     },
+     {
+      "fips": "26077",
+      "name": "Kalamazoo",
+      "state": "MI",
+      "services": 92,
+      "facilities": 2,
+      "per10k65": 21.7
+     },
+     {
+      "fips": "18127",
+      "name": "Porter",
+      "state": "IN",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 28.5
+     },
+     {
+      "fips": "26055",
+      "name": "Grand Traverse",
+      "state": "MI",
+      "services": 91,
+      "facilities": 1,
+      "per10k65": 43.1
+     },
+     {
+      "fips": "55063",
+      "name": "La Crosse",
+      "state": "WI",
+      "services": 89,
+      "facilities": 1,
+      "per10k65": 40.9
+     },
+     {
+      "fips": "22033",
+      "name": "East Baton Rouge",
+      "state": "LA",
+      "services": 88,
+      "facilities": 2,
+      "per10k65": 12.7
+     },
+     {
+      "fips": "13135",
+      "name": "Gwinnett",
+      "state": "GA",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 7.7
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 85,
+      "facilities": 1,
+      "per10k65": 9.9
+     },
+     {
+      "fips": "42011",
+      "name": "Berks",
+      "state": "PA",
+      "services": 84,
+      "facilities": 2,
+      "per10k65": 10.8
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 82,
+      "facilities": 1,
+      "per10k65": 31.8
+     },
+     {
+      "fips": "37021",
+      "name": "Buncombe",
+      "state": "NC",
+      "services": 82,
+      "facilities": 1,
+      "per10k65": 14.1
+     },
+     {
+      "fips": "42015",
+      "name": "Bradford",
+      "state": "PA",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 60.4
+     },
+     {
+      "fips": "49049",
+      "name": "Utah",
+      "state": "UT",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 14.5
+     },
+     {
+      "fips": "13115",
+      "name": "Floyd",
+      "state": "GA",
+      "services": 81,
+      "facilities": 1,
+      "per10k65": 48.4
+     },
+     {
+      "fips": "42049",
+      "name": "Erie",
+      "state": "PA",
+      "services": 81,
+      "facilities": 2,
+      "per10k65": 15.3
+     },
+     {
+      "fips": "13245",
+      "name": "Richmond",
+      "state": "GA",
+      "services": 80,
+      "facilities": 2,
+      "per10k65": 25.3
+     },
+     {
+      "fips": "48441",
+      "name": "Taylor",
+      "state": "TX",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 36.2
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 79,
+      "facilities": 1,
+      "per10k65": 13.2
+     },
+     {
+      "fips": "41029",
+      "name": "Jackson",
+      "state": "OR",
+      "services": 78,
+      "facilities": 1,
+      "per10k65": 14.9
+     },
+     {
+      "fips": "49053",
+      "name": "Washington",
+      "state": "UT",
+      "services": 76,
+      "facilities": 1,
+      "per10k65": 17.4
+     },
+     {
+      "fips": "51630",
+      "name": "Fredericksburg",
+      "state": "VA",
+      "services": 75,
+      "facilities": 1,
+      "per10k65": 227.3
+     },
+     {
+      "fips": "47065",
+      "name": "Hamilton",
+      "state": "TN",
+      "services": 75,
+      "facilities": 2,
+      "per10k65": 10.9
+     },
+     {
+      "fips": "22051",
+      "name": "Jefferson",
+      "state": "LA",
+      "services": 75,
+      "facilities": 2,
+      "per10k65": 9.4
+     },
+     {
+      "fips": "21117",
+      "name": "Kenton",
+      "state": "KY",
+      "services": 74,
+      "facilities": 1,
+      "per10k65": 27.5
+     },
+     {
+      "fips": "17197",
+      "name": "Will",
+      "state": "IL",
+      "services": 74,
+      "facilities": 2,
+      "per10k65": 7.2
+     },
+     {
+      "fips": "41017",
+      "name": "Deschutes",
+      "state": "OR",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 16.6
+     },
+     {
+      "fips": "42093",
+      "name": "Montour",
+      "state": "PA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 185.2
+     },
+     {
+      "fips": "53005",
+      "name": "Benton",
+      "state": "WA",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 21.6
+     },
+     {
+      "fips": "06041",
+      "name": "Marin",
+      "state": "CA",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 11.6
+     },
+     {
+      "fips": "55035",
+      "name": "Eau Claire",
+      "state": "WI",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 39.1
+     },
+     {
+      "fips": "46103",
+      "name": "Pennington",
+      "state": "SD",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 31.0
+     },
+     {
+      "fips": "04025",
+      "name": "Yavapai",
+      "state": "AZ",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 8.5
+     },
+     {
+      "fips": "39153",
+      "name": "Summit",
+      "state": "OH",
+      "services": 70,
+      "facilities": 2,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "17163",
+      "name": "St. Clair",
+      "state": "IL",
+      "services": 69,
+      "facilities": 1,
+      "per10k65": 15.7
+     },
+     {
+      "fips": "39003",
+      "name": "Allen",
+      "state": "OH",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 35.6
+     },
+     {
+      "fips": "17019",
+      "name": "Champaign",
+      "state": "IL",
+      "services": 69,
+      "facilities": 2,
+      "per10k65": 23.8
+     },
+     {
+      "fips": "12061",
+      "name": "Indian River",
+      "state": "FL",
+      "services": 68,
+      "facilities": 1,
+      "per10k65": 11.7
+     },
+     {
+      "fips": "37135",
+      "name": "Orange",
+      "state": "NC",
+      "services": 68,
+      "facilities": 1,
+      "per10k65": 28.2
+     },
+     {
+      "fips": "47163",
+      "name": "Sullivan",
+      "state": "TN",
+      "services": 67,
+      "facilities": 1,
+      "per10k65": 18.8
+     },
+     {
+      "fips": "17097",
+      "name": "Lake",
+      "state": "IL",
+      "services": 66,
+      "facilities": 1,
+      "per10k65": 5.9
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": null
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "CA",
+       "physicians": 1531,
+       "totalUsd": 1431729.11
+      },
+      {
+       "state": "FL",
+       "physicians": 2027,
+       "totalUsd": 923676.39
+      },
+      {
+       "state": "NY",
+       "physicians": 1208,
+       "totalUsd": 717640.17
+      },
+      {
+       "state": "MN",
+       "physicians": 154,
+       "totalUsd": 550746.04
+      },
+      {
+       "state": "GA",
+       "physicians": 618,
+       "totalUsd": 434964.47
+      },
+      {
+       "state": "TN",
+       "physicians": 273,
+       "totalUsd": 412894.5
+      },
+      {
+       "state": "NC",
+       "physicians": 529,
+       "totalUsd": 394433.66
+      },
+      {
+       "state": "OH",
+       "physicians": 454,
+       "totalUsd": 356413.55
+      },
+      {
+       "state": "TX",
+       "physicians": 931,
+       "totalUsd": 326990.18
+      },
+      {
+       "state": "AZ",
+       "physicians": 742,
+       "totalUsd": 319036.95
+      },
+      {
+       "state": "IL",
+       "physicians": 494,
+       "totalUsd": 305748.2
+      },
+      {
+       "state": "PA",
+       "physicians": 408,
+       "totalUsd": 294448.88
+      },
+      {
+       "state": "VA",
+       "physicians": 434,
+       "totalUsd": 286446.06
+      },
+      {
+       "state": "NJ",
+       "physicians": 447,
+       "totalUsd": 270855.92
+      },
+      {
+       "state": "LA",
+       "physicians": 108,
+       "totalUsd": 212159.97
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Intermountain Medical Center",
+      "city": "Murray",
+      "state": "Utah",
+      "lat": 40.667,
+      "lon": -111.888,
+      "trials": 6
+     },
+     {
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.98,
+      "lon": -93.264,
+      "trials": 5
+     },
+     {
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.052,
+      "lon": -118.244,
+      "trials": 5
+     },
+     {
+      "name": "St. Francis Hospital",
+      "city": "Roslyn",
+      "state": "New York",
+      "lat": 40.8,
+      "lon": -73.651,
+      "trials": 5
+     },
+     {
+      "name": "Carolinas Medical Center",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "lat": 35.227,
+      "lon": -80.843,
+      "trials": 4
+     },
+     {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.994,
+      "lon": -78.899,
+      "trials": 4
+     },
+     {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 4
+     },
+     {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "lat": 44.022,
+      "lon": -92.47,
+      "trials": 4
+     },
+     {
+      "name": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "New Jersey",
+      "lat": 40.797,
+      "lon": -74.482,
+      "trials": 4
+     },
+     {
+      "name": "Northwestern Memorial Hospital",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 4
+     },
+     {
+      "name": "Rush University Medical Center",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 4
+     },
+     {
+      "name": "Sentara Norfolk General Hospital",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "lat": 36.847,
+      "lon": -76.285,
+      "trials": 4
+     },
+     {
+      "name": "University of California - Davis Medical Center",
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.582,
+      "lon": -121.494,
+      "trials": 4
+     },
+     {
+      "name": "El Camino Hospital",
+      "city": "Mountain View",
+      "state": "California",
+      "lat": 37.386,
+      "lon": -122.084,
+      "trials": 3
+     },
+     {
+      "name": "Los Robles Regional Medical Center",
+      "city": "Thousand Oaks",
+      "state": "California",
+      "lat": 34.171,
+      "lon": -118.838,
+      "trials": 3
+     },
+     {
+      "name": "Medical University of South Carolina",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 32.776,
+      "lon": -79.933,
+      "trials": 3
+     },
+     {
+      "name": "Memorial Hermann Hospital",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 3
+     },
+     {
+      "name": "NYU Langone Health",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 3
+     },
+     {
+      "name": "Oklahoma Heart Hospital",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "lat": 35.468,
+      "lon": -97.516,
+      "trials": 3
+     },
+     {
+      "name": "Scripps Health",
+      "city": "La Jolla",
+      "state": "California",
+      "lat": 32.847,
+      "lon": -117.274,
+      "trials": 3
+     },
+     {
+      "name": "St. Thomas Hospital",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.166,
+      "lon": -86.784,
+      "trials": 3
+     },
+     {
+      "name": "Swedish Medical Center",
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 47.606,
+      "lon": -122.332,
+      "trials": 3
+     },
+     {
+      "name": "The Christ Hospital",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "lat": 39.127,
+      "lon": -84.514,
+      "trials": 3
+     },
+     {
+      "name": "University of Virginia Medical Center",
+      "city": "Charlottesville",
+      "state": "Virginia",
+      "lat": 38.029,
+      "lon": -78.477,
+      "trials": 3
+     },
+     {
+      "name": "Albany Medical Center",
+      "city": "Albany",
+      "state": "New York",
+      "lat": 42.653,
+      "lon": -73.756,
+      "trials": 2
+     },
+     {
+      "name": "Allegheny General Hospital - ASRI",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 2
+     },
+     {
+      "name": "Ascension Saint Thomas",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.166,
+      "lon": -86.784,
+      "trials": 2
+     },
+     {
+      "name": "Ascension St. Vincent",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 2
+     },
+     {
+      "name": "Baptist Medical Center Princeton",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.521,
+      "lon": -86.802,
+      "trials": 2
+     },
+     {
+      "name": "Barnes Jewish Hospital",
+      "city": "St Louis",
+      "state": "Missouri",
+      "lat": 38.627,
+      "lon": -90.198,
+      "trials": 2
+     },
+     {
+      "name": "Baylor Heart and Vascular Hospital",
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.783,
+      "lon": -96.807,
+      "trials": 2
+     },
+     {
+      "name": "Brigham and Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 2
+     },
+     {
+      "name": "Cardiology Associates of Mobile, Inc.",
+      "city": "Mobile",
+      "state": "Alabama",
+      "lat": 30.694,
+      "lon": -88.043,
+      "trials": 2
+     },
+     {
+      "name": "Christ Hospital",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "lat": 39.127,
+      "lon": -84.514,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Columbia University Medical Center / New York Presbyterian Hospital",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 2
+     },
+     {
+      "name": "Cooper University Hospital",
+      "city": "Camden",
+      "state": "New Jersey",
+      "lat": 39.926,
+      "lon": -75.12,
+      "trials": 2
+     },
+     {
+      "name": "Emory University Hospital",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.749,
+      "lon": -84.388,
+      "trials": 2
+     },
+     {
+      "name": "Evanston Hospital",
+      "city": "Evanston",
+      "state": "Illinois",
+      "lat": 42.041,
+      "lon": -87.69,
+      "trials": 2
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 801,
+     "usSites": 408,
+     "trials": 48,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 52,
+    "trialsWithAeTables": 13,
+    "seriousEventRows": 2948,
+    "seriousSubjectsAffected": 9932,
+    "deathTermSubjects": 627,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 52,
+    "trialsWithAeTables": 13,
+    "trialsWithSerious": 13,
+    "totals": {
+     "serious": {
+      "rows": 2948,
+      "subjects": 9932
+     },
+     "other": {
+      "rows": 2749,
+      "subjects": 10020
+     },
+     "deathTermSubjects": 627
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Death",
+      "organSystem": "General disorders",
+      "rows": 13,
+      "subjectsAffected": 592
+     },
+     {
+      "term": "Congestive heart failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 7,
+      "subjectsAffected": 361
+     },
+     {
+      "term": "Other",
+      "organSystem": "General disorders",
+      "rows": 8,
+      "subjectsAffected": 220
+     },
+     {
+      "term": "CARDIAC FAILURE CONGESTIVE",
+      "organSystem": "Cardiac disorders",
+      "rows": 4,
+      "subjectsAffected": 210
+     },
+     {
+      "term": "HEART FAILURES",
+      "organSystem": "Cardiac disorders",
+      "rows": 1,
+      "subjectsAffected": 181
+     },
+     {
+      "term": "Pneumonia",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 13,
+      "subjectsAffected": 180
+     },
+     {
+      "term": "CARDIAC FAILURE",
+      "organSystem": "Cardiac disorders",
+      "rows": 4,
+      "subjectsAffected": 177
+     },
+     {
+      "term": "Anemia",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 10,
+      "subjectsAffected": 171
+     },
+     {
+      "term": "Cardiac Failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 145
+     },
+     {
+      "term": "Atrial arrhythmia",
+      "organSystem": "Cardiac disorders",
+      "rows": 7,
+      "subjectsAffected": 131
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT01931956",
+      "title": "Real World Expanded Multicenter Study of the MitraClip\u00ae System (REALISM)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2009",
+      "seriousRows": 360,
+      "seriousSubjects": 2977
+     },
+     {
+      "nctId": "NCT01626079",
+      "title": "Cardiovascular Outcomes Assessment of the MitraClip Percutaneous Therapy for Heart Failure Patients With Functional Mitr",
+      "phase": "NA",
+      "status": "UNKNOWN",
+      "startYear": "2012",
+      "seriousRows": 1689,
+      "seriousSubjects": 2755
+     },
+     {
+      "nctId": "NCT01288976",
+      "title": "ACCESS-Europe A Two-Phase Observational Study of the MitraClip\u00ae System in Europe",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2008",
+      "seriousRows": 261,
+      "seriousSubjects": 1452
+     },
+     {
+      "nctId": "NCT00209274",
+      "title": "Pivotal Study of a Percutaneous Mitral Valve Repair System",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2005",
+      "seriousRows": 158,
+      "seriousSubjects": 594
+     },
+     {
+      "nctId": "NCT03500692",
+      "title": "MitraClip NT System Post-marketing Surveillance Study - Japan",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2018",
+      "seriousRows": 162,
+      "seriousSubjects": 566
+     },
+     {
+      "nctId": "NCT03502811",
+      "title": "The MitraClip\u00ae EXPAND Study of the Next Generation of MitraClip\u00ae Devices",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2018",
+      "seriousRows": 52,
+      "seriousSubjects": 531
+     },
+     {
+      "nctId": "NCT04177394",
+      "title": "MitraClip EXPAND G4 Study",
+      "phase": null,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "startYear": "2020",
+      "seriousRows": 68,
+      "seriousSubjects": 320
+     },
+     {
+      "nctId": "NCT01940120",
+      "title": "EVEREST II Pivotal Study High Risk Registry (HRR)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2007",
+      "seriousRows": 62,
+      "seriousSubjects": 310
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 38,
+    "countries": 19,
+    "sources": 3,
+    "firstForeignDate": "2011-04-26",
+    "latestAction": {
+     "country": "Switzerland",
+     "date": "2022-09-15",
+     "classification": "Field Safety Corrective Action"
+    },
+    "screenedOut": 11
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 8,
+      "actions": [
+       {
+        "date": "2022-09-15",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MitraClip G4 Clip Delivery System, MitraClip NTR/XTR Clip Delivery System, TriClip NT/XT Clip Delivery System, and TriClip G4 Clip Delivery System All model numbers",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2019-05-02",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MitraClip XTR Delivery System CDS0602-XTR",
+        "reason": "Added new language",
+        "url": null
+       },
+       {
+        "date": "2016-02-08",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Delivery System",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20160204_02"
+       },
+       {
+        "date": "2016-02-08",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MitraClip Delivery System MSK02ST, containing CDS02ST Clip Delivery System and SGC01ST Steerable Guide Catheter",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2013-03-04",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System and Mitral valve clip MSK02ST Kit consisting of: CDS02ST, SGC01ST",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2013-03-04",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System and Mitral valve clip",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20130301_09"
+       },
+       {
+        "date": "2011-04-26",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System MSK02ST kit consisting of: CDS02ST, SGC01ST",
+        "reason": null,
+        "url": "https://fsca.swissmedic.ch/mep/#?q=Vk_20110426_02"
+       },
+       {
+        "date": "2011-04-26",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System MSK02ST kit consisting of: CDS02ST, SGC01ST ",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2019-05-01",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Hospital/Pharmacy/Laboratory",
+        "product": "MitraClip Clip Delivery System, NTR/XTR Product number CDS0602-XTR",
+        "reason": "The manufacturer has confirmed reports of XTR Clips unexpectedly opening and becoming nonfunctional, resulting from unintended excessive force applied to the Clip during implantation. Once the Clip becomes nonfunctional, the inability to close and remove the device has led to surgery or additional i",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=24522"
+       },
+       {
+        "date": "2016-02-05",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "Evalve Mitraclip Clip Delivery System (CDS) MSK02ST",
+        "reason": "Manufacturer has recently received reports of cases in Clip Delivery System devices that contain the One-Way Actuator Knob where a user attempted implanting a MitralClip but the Clip could not be detached from the delivery system due to a mandrel fracture. These cases resulted in severe surgical int",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=19733"
+       },
+       {
+        "date": "2016-02-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Evalve Mitraclip Clip Delivery System (CDS)",
+        "reason": "Manufacturer has recently received reports of cases in Clip Delivery System devices that contain the One-Way Actuator Knob where a user attempted implanting a MitralClip but the Clip could not be detached from the delivery system due to a mandrel fracture. These cases resulted in severe surgical int",
+        "url": "https://medsafe.govt.nz/hot/Recalls/RecallSearch.asp"
+       },
+       {
+        "date": "2016-02-05",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Evalve MitraClip",
+        "reason": "Manufacturer has recently received reports of cases in Clip Delivery System devices that contain the One-Way Actuator Knob where a user attempted implanting a MitralClip but the Clip could not be detached from the delivery system due to a mandrel fracture. These cases resulted in severe surgical int",
+        "url": "https://medsafe.govt.nz/hot/Recalls/RecallSearch.asp"
+       }
+      ]
+     },
+     {
+      "code": "DE",
+      "name": "Germany",
+      "total": 4,
+      "actions": [
+       {
+        "date": "2016-02-25",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": "Urgent field safety notice for MitraClip Clip Delivery System, Abbott Vascular",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2016/00978-16_kundeninfo_en.html"
+       },
+       {
+        "date": "2013-03-13",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the MitraClip Valve Repair System",
+        "reason": "Safety Notice for the MitraClip Valve Repair System, Abbott Vascular Evalve Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2013/00939-13_kundeninfo_en.html"
+       },
+       {
+        "date": "2012-02-24",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "the MitraClip System",
+        "reason": "IFU upgrade of the MitraClip System, Abbott Vascular",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2011/05617-11_kundeninfo_en.html"
+       },
+       {
+        "date": "2011-04-29",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip System, Abbott Vascular",
+        "reason": "Worldwide Recall of the MitraClip System, Abbott Vascular, Evalve Inc.",
+        "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2011/01849-11_kundeninfo_en.html"
+       }
+      ]
+     },
+     {
+      "code": "SE",
+      "name": "Sweden",
+      "total": 3,
+      "actions": [
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip mitral valve repair system",
+        "reason": "Recall/Exchange",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2011/Implantat-kardiologi---MitraClip-system--Abbott-Vascular/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2016/Engangsprodukter--MitraClip-Clip-Delivery-System--Abbott-Vascular/#"
+       },
+       {
+        "date": null,
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip system for the reconstruction of the mitral valve",
+        "reason": "Change instructions",
+        "url": "https://lakemedelsverket.se/malgrupp/Halso---sjukvard/Medicinteknisk-sakerhetsinformation/fran-tillverkare/FSN2012/Engangsprodukter-endovaskular-kirurgi--MitraClip-system--Abbott-Vascular-/#"
+       }
+      ]
+     },
+     {
+      "code": "DK",
+      "name": "Denmark",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-04-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2016/04/mitraclip-clip-delivery-system/"
+       },
+       {
+        "date": "2013-03-20",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System",
+        "reason": null,
+        "url": "https://laegemiddelstyrelsen.dk/da/udstyr/sikkerhedsmeddelelser/2013/mitraclip-mitral-valve-repair-system/"
+       }
+      ]
+     },
+     {
+      "code": "PL",
+      "name": "Poland",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-02-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "mitraclip clip feeding system, msk02st product no",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-vascular-dotycz%C4%85ca-systemu-podawania-klipsa-mitraclip-nr"
+       },
+       {
+        "date": "2013-02-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "mitral valve repair system mitraclip",
+        "reason": null,
+        "url": "http://www.urpl.gov.pl/pl/notatka-bezpiecze%C5%84stwa-firmy-abbott-dotycz%C4%85ca-systemu-naprawy-zastawki-mitralnej-mitraclip"
+       }
+      ]
+     },
+     {
+      "code": "GB",
+      "name": "United Kingdom",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-02-04",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System MSK02ST, containing CDS02ST Clip Delivery System and SGC01ST Steerable Guide Catheter",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2013-03-19",
+        "source": "icij-imdd",
+        "actionType": "Safety alert / Field Safety Notice",
+        "classification": null,
+        "product": "Mitral Valve Repair System, MitraClip Clip Delivery System",
+        "reason": "Risk of death or serious harm to the patient.\nIf the Actuator Knob on the Clip Delivery System (CDS) is turned in the wrong direction, this can prevent successful deployment of the clip, leading to the need for open surgical repair.\nThe MHRA has been notified by the manufacturer that there have been",
+        "url": "https://webarchive.nationalarchives.gov.uk/20150113054913/http://www.mhra.gov.uk/PrintPreview/MedicalDeviceAlertSP/CON249674?tabName=allTabs"
+       }
+      ]
+     },
+     {
+      "code": "HK",
+      "name": "Hong Kong",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2016-02-04",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": "Medical Device Safety Alert: Abbott Vascular MitraClip Clip Delivery System\nMedical device manufacturer, Abbott Vascular, has issued a medical device safety alert concerning its MitraClip Clip Delivery System [Product number: MSK02ST]. The System contains the Clip Delivery System [Product number: CD",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20160204.html"
+       },
+       {
+        "date": "2013-02-28",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System",
+        "reason": "Medical Device Safety Alert: Abbott MitraClip Mitral Valve Repair System\nMedical device manufacturer, Abbott Vascular, has issued a field safety notice concerning MitraClip Mitral Valve Repair System (product number MSK02ST).\n Abbott Vascular has received a total of 4 reports since 2008 where the Ac",
+        "url": "https://www.mdco.gov.hk/english/safety/recalls/recalls_20130228.html"
+       }
+      ]
+     },
+     {
+      "code": "CO",
+      "name": "Colombia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2019-06-07",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Mitraclip System",
+        "reason": null,
+        "url": "https://app.invima.gov.co/alertas/dispositivos-medicos-invima?page=1"
+       }
+      ]
+     },
+     {
+      "code": "ES",
+      "name": "Spain",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-17",
+        "source": "icij-imdd",
+        "actionType": "Recall / Safety Alert",
+        "classification": null,
+        "product": "MitraClip device reference MSK02ST, which includes a clip dispensing system, reference CDS02ST, with one-way actuator control",
+        "reason": null,
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-16",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class I",
+        "product": "MitraClip System (Product Number # MSK02ST) containing the Clip Delivery System (Part number # CDS02ST) and the Steerable Guide Catheter (Part number # SGC01ST)(Used for reconstruction of the insufficient mitral valve th",
+        "reason": "Abbott Vascular has recently received nine reports of cases on Clip Delivery System devices that contain the One-Way Actuator Knob (Lot number 50714U1 and greater) where a user attempted implanting a MitraClip, but the Clip could not be detached from the delivery system due to a mandrel fracture. Th",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2016-RN-00139-1"
+       }
+      ]
+     },
+     {
+      "code": "SG",
+      "name": "Singapore",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-12",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": null,
+        "url": "https://www.hsa.gov.sg/announcements"
+       }
+      ]
+     },
+     {
+      "code": "CZ",
+      "name": "Czechia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-10",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Clip Delivery System",
+        "reason": null,
+        "url": "https://eregpublicsecure.ksrzis.cz/Registr/RZPRO/FSN"
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-08",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "I",
+        "product": "MITRACLIP CLIP DELIVERY SYSTEM",
+        "reason": "ABBOTT VASCULAR (AV) HAS RECENTLY RECEIVED REPORTS WHERE THE USER ATTEMPTED IMPLANTING A MITRACLIP BUT THE CLIP COULD NOT BE DETACHED FROM THE DELIVERY SYSTEM DUE TO A MANDREL FRACTURE. A MANDREL FRACTURE MAY OCCUR IF TENSION IS PRESENT ON THE MANDREL WHEN TURNING THE ACTUATOR KNOB TO DEPLOY THE CLI",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "BE",
+      "name": "Belgium",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-05",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       }
+      ]
+     },
+     {
+      "code": "BR",
+      "name": "Brazil",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-04",
+        "source": "icij-imdd",
+        "actionType": "Safety alert",
+        "classification": null,
+        "product": "Clip Delivery System - Mitraclip System, model CDS02ST, registration 80146501877, Risk class IV. The following lots are in stock at Abbott Vascular: 50930U101, 50930U102. 50930U103, 50930U104, 50930U105, 50930U106, 50930",
+        "reason": "Nine case reports related to the Single-Directional Pushbutton Clip Delivery System device (batch number 50714U1 and above) according to which the user attempted to deploy a MitraClip but could not remove the Clip from the delivery system due to a fracture in the mandrel. The chuck is an internal co",
+        "url": "http://www.anvisa.gov.br/sistec/alerta/consultaralerta.asp"
+       }
+      ]
+     },
+     {
+      "code": "SI",
+      "name": "Slovenia",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2016-02-04",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip",
+        "reason": "Abbott Vascular is voluntarily issuing this Field Safety Notice for the MitraClip Clip Delivery System, \nproduct number MSK02ST.  The MitraClip System contains the Clip Delivery System, product number \nCDS02ST, and the Steerable Guide Catheter, product number SGC01ST.  \n\nAbbott Vascular has recently",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "IE",
+      "name": "Ireland",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2013-01-27",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "MitraClip Mitral Valve Repair System",
+        "reason": null,
+        "url": "http://www.hpra.ie/docs/default-source/field-safety-notices/jan-dec-2014-fsn-summary-sheets/fsnsummary_feb2013_qmsversion_updated_230714.pdf?sfvrsn=2"
+       }
+      ]
+     },
+     {
+      "code": "FR",
+      "name": "France",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2011-05-02",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": null,
+        "product": "Mitral Repair System: MitraClip Evalve\u00ae",
+        "reason": "Mitral Repair System: MitraClip Evalve\u00ae - Abbott Vascular - Product Withdrawal",
+        "url": "https://ansm.sante.fr/S-informer/Informations-de-securite-Retraits-de-lots-et-de-produits/systeme-de-reparation-mitrale-mitraclip-evalve-r-abbott-vascular-retrait-de-produits"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2011,
+      "value": 4
+     },
+     {
+      "year": 2012,
+      "value": 1
+     },
+     {
+      "year": 2013,
+      "value": 8
+     },
+     {
+      "year": 2016,
+      "value": 18
+     },
+     {
+      "year": 2019,
+      "value": 3
+     },
+     {
+      "year": 2022,
+      "value": 1
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": false,
+     "registrations": 1,
+     "onMarket": 1,
+     "noLongerOnMarket": 0,
+     "riskClasses": {
+      "class-iia": 1
+     },
+     "manufacturers": [
+      "Sengewald Klinikprodukte GmbH"
+     ],
+     "note": null
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2011-04-26) predates the first US Class 1 recall (2016-02-04).",
+      "foreign": {
+       "date": "2011-04-26"
+      },
+      "us": {
+       "date": "2016-02-04"
+      }
+     }
+    ],
+    "screenedOut": 11,
+    "screenedNote": "11 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 24500
+}

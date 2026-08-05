@@ -8,7 +8,7 @@
     "credential": "M.D.",
     "taxonomyCode": "207RC0001X",
     "licenseState": "OH",
-    "opState": "OH",
+    "opState": "FL",
     "opCity": "MIAMI BEACH",
     "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
     "source": {
@@ -107,15 +107,22 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 104,
-     "nameOnly": 4561
+     "corroborated": 40,
+     "nameOnly": 4625
     },
     "articles": [
      {
-      "title": "High-Power/Short-Duration Ablation Does Not Reduce Incidence or Severity of Esophageal Lesions.",
-      "journal": "JACC. Clinical electrophysiology",
+      "title": "(untitled)",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "year": 2026,
+      "pmid": "42078357",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ultrafast Nonradiative Relaxation Limits the Efficiency of Photoinduced Bond Homolysis in Molecular LMCT Photocatalysts.",
+      "journal": "Journal of the American Chemical Society",
       "year": 2025,
-      "pmid": "40243967",
+      "pmid": "41129764",
       "tier": "corroborated"
      },
      {
@@ -126,17 +133,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Left bundle branch area pacing in heart failure: A systematic review and meta-analysis with meta-regression.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2024,
-      "pmid": "38812213",
+      "title": "Newly diagnosed atrial fibrillation detected by noninvasive screening methods in clinical practice.",
+      "journal": "Heart rhythm O2",
+      "year": 2025,
+      "pmid": "40917186",
       "tier": "corroborated"
      },
      {
-      "title": "Community-Based Cluster-Randomized Trial to Reduce Opioid Overdose Deaths.",
-      "journal": "The New England journal of medicine",
+      "title": "High-Power/Short-Duration Ablation Does Not Reduce Incidence or Severity of Esophageal Lesions.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2025,
+      "pmid": "40243967",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Ultrafast Spectroscopy and Dynamics of Photoredox Catalysis.",
+      "journal": "Annual review of physical chemistry",
+      "year": 2025,
+      "pmid": "39899834",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Combined Levothyroxine and Propylthiouracil Treatment in Children with Monocarboxylate Transporter 8 Deficiency: A Multicenter Case Series of 12 Patients.",
+      "journal": "Thyroid : official journal of the American Thyroid Associati",
       "year": 2024,
-      "pmid": "38884347",
+      "pmid": "39283825",
       "tier": "corroborated"
      },
      {
@@ -147,38 +168,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "EsophAguS Deviation During RadiofrequencY Ablation of Atrial\u00a0Fibrillation: The EASY AF Trial.",
-      "journal": "JACC. Clinical electrophysiology",
+      "title": "Left bundle branch area pacing in heart failure: A systematic review and meta-analysis with meta-regression.",
+      "journal": "Journal of cardiovascular electrophysiology",
       "year": 2024,
-      "pmid": "37897465",
+      "pmid": "38812213",
       "tier": "corroborated"
      },
      {
-      "title": "Inappropriate Therapy and Shock Rates Between the Subcutaneous and Transvenous Implantable Cardiac Defibrillator: A Secondary Analysis of the PRAETORIAN Trial.",
-      "journal": "Circulation. Arrhythmia and electrophysiology",
-      "year": 2024,
-      "pmid": "39624908",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Impact of Age on Subcutaneous Implantable Cardioverter-Defibrillator in\u00a0a\u00a0Large Patient Cohort: Mid-Term Follow-Up.",
-      "journal": "JACC. Clinical electrophysiology",
+      "title": "Mechanistic insight into CdSe nanoplatelet-sensitized upconversion: size and stacking induced effects.",
+      "journal": "Chemical communications (Cambridge, England)",
       "year": 2023,
-      "pmid": "37676200",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Postapproval Study of a Subcutaneous\u00a0Implantable Cardioverter-Defibrillator System.",
-      "journal": "Journal of the American College of Cardiology",
-      "year": 2023,
-      "pmid": "37495274",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Three-dimensional functional anatomy of the human sinoatrial node for epicardial and endocardial mapping and ablation.",
-      "journal": "Heart rhythm",
-      "year": 2023,
-      "pmid": "36113768",
+      "pmid": "36511180",
       "tier": "corroborated"
      }
     ],
@@ -193,7 +193,7 @@
        "pacemaker"
       ],
       "affiliationGeo": [
-       "Ohio",
+       "Florida",
        "MIAMI BEACH"
       ]
      },
@@ -247,49 +247,29 @@
    },
    "aactTrials": {
     "counts": {
-     "corroborated": 4,
-     "nameOnly": 1
+     "corroborated": 0,
+     "nameOnly": 5
     },
     "roles": [
      {
       "kind": "overall-official",
       "nameAsWritten": "Raul Weiss, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT01401608",
-      "place": "Ohio State University",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Stereotaxis Idiopathic Ventricular Tachycardia (VT) Study"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "Raul Weiss, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT00187200",
-      "place": "Ohio State University",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Response of Cardiac Resynchronization Therapy Optimization With Ventricle to Ventricle Timing in Heart Failure"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "Raul Weiss, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT01408485",
-      "place": "Ohio State University",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Therapy\u2122 Cool Flex\u2122 Irrigated Ablation System for Typical Atrial Flutter"
-     },
-     {
-      "kind": "overall-official",
-      "nameAsWritten": "Raul Weiss, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
       "nctId": "NCT03683030",
       "place": "Ohio State University",
-      "tier": "corroborated",
+      "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment o"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raul Weiss, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01401608",
+      "place": "Ohio State University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Stereotaxis Idiopathic Ventricular Tachycardia (VT) Study"
      },
      {
       "kind": "overall-official",
@@ -300,6 +280,26 @@
       "tier": "name-only",
       "deviceTrial": false,
       "trialTitle": "Post Approval Study (PAS) of the OPTIMIZER Smart and CCM Therapy"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raul Weiss, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT00187200",
+      "place": "Ohio State University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Response of Cardiac Resynchronization Therapy Optimization With Ventricle to Ventricle Timing in Heart Failure"
+     },
+     {
+      "kind": "overall-official",
+      "nameAsWritten": "Raul Weiss, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT01408485",
+      "place": "Ohio State University",
+      "tier": "name-only",
+      "deviceTrial": false,
+      "trialTitle": "Therapy\u2122 Cool Flex\u2122 Irrigated Ablation System for Typical Atrial Flutter"
      }
     ],
     "source": {
@@ -324,7 +324,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "104 corroborated + 4561 name-only author matches"
+      "detail": "40 corroborated + 4625 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -340,7 +340,7 @@
      },
      {
       "label": "AACT clinical-trial roles (local)",
-      "detail": "4 corroborated + 1 name-only role matches"
+      "detail": "0 corroborated + 5 name-only role matches"
      },
      {
       "label": "ICIJ IMDD",
@@ -507,6 +507,13 @@
       "tier": "name-only"
      },
      {
+      "title": "Methadone and torsade de pointes: case report and review of the literature.",
+      "journal": "Tennessee medicine : journal of the Tennessee Medical Associ",
+      "year": 2007,
+      "pmid": "17378505",
+      "tier": "name-only"
+     },
+     {
       "title": "Atrial flutter and myotonic dystrophy in a male adolescent treated with radiofrequency catheter ablation.",
       "journal": "Reviews in cardiovascular medicine",
       "year": 2007,
@@ -521,10 +528,10 @@
       "tier": "name-only"
      },
      {
-      "title": "Methadone and torsade de pointes: case report and review of the literature.",
-      "journal": "Tennessee medicine : journal of the Tennessee Medical Associ",
-      "year": 2007,
-      "pmid": "17378505",
+      "title": "Alveolar hemorrhage: an underdiagnosed complication of treatment with glycoprotein IIb/IIIa inhibitors.",
+      "journal": "Journal of interventional cardiology",
+      "year": 2006,
+      "pmid": "16881986",
       "tier": "name-only"
      },
      {
@@ -532,13 +539,6 @@
       "journal": "Pacing and clinical electrophysiology : PACE",
       "year": 2006,
       "pmid": "16884519",
-      "tier": "name-only"
-     },
-     {
-      "title": "Alveolar hemorrhage: an underdiagnosed complication of treatment with glycoprotein IIb/IIIa inhibitors.",
-      "journal": "Journal of interventional cardiology",
-      "year": 2006,
-      "pmid": "16881986",
       "tier": "name-only"
      }
     ],
@@ -674,9 +674,9 @@
     "credential": "M.D.",
     "taxonomyCode": "207RC0000X",
     "licenseState": "VA",
-    "opState": "DC",
+    "opState": "VA",
     "opCity": "NORFOLK",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1861781809"
@@ -798,8 +798,8 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 14,
-     "nameOnly": 12
+     "corroborated": 9,
+     "nameOnly": 17
     },
     "articles": [
      {
@@ -810,10 +810,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Not Just Hematoma or Infection: Recognizing Chylous Collections in Pacemaker Pockets.",
-      "journal": "JACC. Case reports",
+      "title": "Comparative Performance, Procedural Characteristics and Safety of Micra Versus Aveir Leadless Pacemakers: Systematic Review.",
+      "journal": "Pacing and clinical electrophysiology : PACE",
       "year": 2026,
-      "pmid": "42240248",
+      "pmid": "41981963",
       "tier": "corroborated"
      },
      {
@@ -824,17 +824,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Comparative Performance, Procedural Characteristics and Safety of Micra Versus Aveir Leadless Pacemakers: Systematic Review.",
-      "journal": "Pacing and clinical electrophysiology : PACE",
+      "title": "Not Just Hematoma or Infection: Recognizing Chylous Collections in Pacemaker Pockets.",
+      "journal": "JACC. Case reports",
       "year": 2026,
-      "pmid": "41981963",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Atrial helix-fixation leadless pacemaker: real-world single-chamber implant experience.",
-      "journal": "Journal of interventional cardiac electrophysiology : an int",
-      "year": 2025,
-      "pmid": "40434578",
+      "pmid": "42240248",
       "tier": "corroborated"
      },
      {
@@ -845,17 +838,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Impact of Cardiac Resynchronization Therapy on Ventricular Arrhythmias and Survival After Durable Left Ventricular Assist Device Implantation.",
-      "journal": "ASAIO journal (American Society for Artificial Internal Orga",
+      "title": "Atrial helix-fixation leadless pacemaker: real-world single-chamber implant experience.",
+      "journal": "Journal of interventional cardiac electrophysiology : an int",
       "year": 2025,
-      "pmid": "39074441",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Challenging Extraction and Replacement of an Eight-year-old Nanostim Leadless Pacemaker and AVEIR Implant.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
-      "year": 2024,
-      "pmid": "39802076",
+      "pmid": "40434578",
       "tier": "corroborated"
      },
      {
@@ -866,11 +852,25 @@
       "tier": "corroborated"
      },
      {
-      "title": "Defibrillator Lead Perforation Leading to Concerning Electrocardiogram Findings: Case Report.",
-      "journal": "Clinical practice and cases in emergency medicine",
+      "title": "Challenging Extraction and Replacement of an Eight-year-old Nanostim Leadless Pacemaker and AVEIR Implant.",
+      "journal": "The Journal of innovations in cardiac rhythm management",
       "year": 2024,
-      "pmid": "38869330",
+      "pmid": "39802076",
       "tier": "corroborated"
+     },
+     {
+      "title": "Dual-chamber leadless pacing: Atrioventricular synchrony in preclinical models of normal or blocked atrioventricular conduction.",
+      "journal": "Heart rhythm",
+      "year": 2023,
+      "pmid": "37075958",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Safety and performance of a novel ICD lead for left bundle branch area pacing: Results from the ASCEND CSP trial.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42033435",
+      "tier": "name-only"
      }
     ],
     "source": {
@@ -879,12 +879,12 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "clinical cardiac electrophysiology",
+       "cardiovascular disease",
        "leadless",
        "pacemaker"
       ],
       "affiliationGeo": [
-       "District of Columbia",
+       "Virginia",
        "NORFOLK"
       ]
      },
@@ -960,7 +960,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "14 corroborated + 12 name-only author matches"
+      "detail": "9 corroborated + 17 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -1007,7 +1007,7 @@
     "licenseState": "NY",
     "opState": "NY",
     "opCity": "NEW YORK",
-    "specialty": "Dental Providers|Dentist",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1699709725"
@@ -1116,52 +1116,10 @@
     },
     "articles": [
      {
-      "title": "A review of etripamil: A new paradigm for treating paroxysmal supraventricular tachycardia for an informed, shared decision.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41564963",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Maximizing battery longevity of leadless pacemaker systems by optimizing individualized programming.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41101372",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Initial experience of atrial helix-fixation leadless pacemakers with extended battery longevity.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "42055100",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Atrial Fibrillation Following Autologous Stem Cell Transplantation in Multiple Myeloma: Incidence, Predictors, and Prognostic Impact.",
-      "journal": "JACC. CardioOncology",
-      "year": 2026,
-      "pmid": "41705749",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Self-Administered Etripamil Nasal Spray Slows Ventricular Rate in Patients With Atrial Fibrillation: A Post Hoc Analysis of the NODE-303 Study.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41668514",
-      "tier": "corroborated"
-     },
-     {
       "title": "Leadless Pacemaker Infections: When Silver Bullets Are No Longer Immune.",
       "journal": "JACC. Case reports",
       "year": 2026,
       "pmid": "41537549",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
-      "year": 2026,
-      "pmid": "41732838",
       "tier": "corroborated"
      },
      {
@@ -1172,6 +1130,34 @@
       "tier": "corroborated"
      },
      {
+      "title": "Bending the curve: Subcutaneous implantable cardioverter-defibrillator implant technique with pectus excavatum.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41456848",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Maximizing battery longevity of leadless pacemaker systems by optimizing individualized programming.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41101372",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Self-Administered Etripamil Nasal Spray Slows Ventricular Rate in Patients With Atrial Fibrillation: A Post Hoc Analysis of the NODE-303 Study.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41668514",
+      "tier": "corroborated"
+     },
+     {
+      "title": "A review of etripamil: A new paradigm for treating paroxysmal supraventricular tachycardia for an informed, shared decision.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "41564963",
+      "tier": "corroborated"
+     },
+     {
       "title": "Pulsed Field Ablation for the Treatment of Octogenarians With Atrial Fibrillation.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
@@ -1179,10 +1165,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Bending the curve: Subcutaneous implantable cardioverter-defibrillator implant technique with pectus excavatum.",
+      "title": "Atrioventricular synchrony maintained by a dual-chamber leadless pacemaker in real-world conditions.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "41554110",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "41732838",
+      "tier": "corroborated"
+     },
+     {
+      "title": "VERSA: Omnipolar vector mapping from arbitrarily positioned electrodes.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41456848",
+      "pmid": "41620057",
       "tier": "corroborated"
      }
     ],
@@ -1192,7 +1192,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "dentist",
+       "clinical cardiac electrophysiology",
        "leadless",
        "pacemaker"
       ],
@@ -1362,7 +1362,7 @@
     "licenseState": "AR",
     "opState": "AR",
     "opCity": "JONESBORO",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1538357470"
@@ -1376,7 +1376,7 @@
      },
      {
       "year": 2014,
-      "value": 7303.63
+      "value": 7317.95
      },
      {
       "year": 2015,
@@ -1396,7 +1396,7 @@
      },
      {
       "year": 2019,
-      "value": 50776.68
+      "value": 50786.19
      },
      {
       "year": 2020,
@@ -1437,8 +1437,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 48963.93,
-      "records": 1198
+      "total": 48987.76,
+      "records": 1200
      },
      {
       "nature": "Compensation for serving as faculty or as a speaker for a medical education program",
@@ -1497,10 +1497,45 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 108,
-     "nameOnly": 1093
+     "corroborated": 109,
+     "nameOnly": 1092
     },
     "articles": [
+     {
+      "title": "Impact of age and diagnosis-to-ablation time on sex differences in 12-month outcomes after catheter ablation for atrial fibrillation: An admIRE subanalysis.",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "42002012",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41392573",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Life-Threatening Delayed Myocardial Ischemia and Malignant Arrhythmias Occurring After Pulsed Field Ablation of Atrial Fibrillation.",
+      "journal": "Circulation",
+      "year": 2026,
+      "pmid": "41446933",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Early Outcomes With a Next-Generation Dual-Seal Left Atrial Appendage Occluder: Results From the VERITAS Study.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "41701134",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Outcomes of Left Atrial Appendage Occlusion With a Coated Device: Primary Analysis of HEAL-LAA.",
+      "journal": "JACC. Clinical electrophysiology",
+      "year": 2026,
+      "pmid": "42138685",
+      "tier": "corroborated"
+     },
      {
       "title": "Feasibility, procedural efficiency, and early imaging outcomes of concomitant pulsed field ablation and left atrial appendage closure: a prospective single-cent",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
@@ -1509,66 +1544,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Ultrasound-Based Renal Sympathetic Denervation as Adjunctive Upstream Therapy During Atrial Fibrillation Ablation: The ULTRA-HFIB Pilot.",
-      "journal": "JACC. Clinical electrophysiology",
-      "year": 2026,
-      "pmid": "41171237",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Impact of linear ablation in persistent atrial fibrillation using a dual-energy, wide-footprint catheter: Analysis from the SPHERE Per-AF randomized trial.",
+      "title": "Cardiac implantable electronic device software reset and damage after pulsed field ablation using a monopolar lattice-tip catheter.",
       "journal": "Heart rhythm",
       "year": 2026,
-      "pmid": "41655663",
+      "pmid": "41067477",
       "tier": "corroborated"
      },
      {
-      "title": "Artificial Intelligence-guided Extra-pulmonary Vein Repeat Ablation with the Pentaspline Pulsed Field Ablation Catheter.",
-      "journal": "The Journal of innovations in cardiac rhythm management",
+      "title": "Percutaneous left atrial appendage closure following catheter ablation therapy of atrial fibrillation: outcomes stratified by bleeding risk - a sub-analysis of ",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
-      "pmid": "42137500",
+      "pmid": "42225271",
       "tier": "corroborated"
      },
      {
-      "title": "Pulsed-Field vs Thermal Ablation of Atrial Fibrillation in Patients From the Marshall Islands: A Study of Generalized Coronary Spasm.",
-      "journal": "JACC. Clinical electrophysiology",
+      "title": "Corrigendum to '2025 SCAI/HRS Clinical Practice Guidelines on Transcatheter Left Atrial Appendage Occlusion': [Journal of the Society for Cardiovascular Angiogr",
+      "journal": "Journal of the Society for Cardiovascular Angiography & Inte",
       "year": 2026,
-      "pmid": "41677481",
+      "pmid": "41726062",
       "tier": "corroborated"
      },
      {
-      "title": "Operator learning curve with a novel dual-energy lattice-tip ablation system.",
-      "journal": "Heart rhythm",
+      "title": "Pulsed-Field Ablation to Enhance the Durability of Pulmonary Vein Isolation and Treat Paroxysmal Atrial Fibrillation.",
+      "journal": "Journal of the American College of Cardiology",
       "year": 2026,
-      "pmid": "39922404",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Antithrombotic strategies and DOAC dosing following left atrial appendage occlusion: a network meta-analysis.",
-      "journal": "European heart journal. Cardiovascular pharmacotherapy",
-      "year": 2026,
-      "pmid": "41288078",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Single lattice-tip catheter workflow for artificial intelligence-guided spatiotemporal dispersion ablation.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41203188",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Patient and Procedural Factors Associated With Same-Day Discharge Following Pulsed Field Ablation for Atrial Fibrillation: Insights From the DISRUPT-AF Registry",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41331670",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Reablation of atrial fibrillation targeting electrogram dispersion in patients with isolated veins: The RESTART trial.",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "41638617",
+      "pmid": "41563170",
       "tier": "corroborated"
      }
     ],
@@ -1578,7 +1578,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "clinical cardiac electrophysiology",
+       "internal medicine",
        "leadless",
        "pacemaker"
       ],
@@ -1643,13 +1643,23 @@
     "roles": [
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Devi Nair, Dr.",
+      "nameAsWritten": "Devi Nair, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT07069738",
+      "nctId": "NCT06735534",
+      "place": "Arrhythmia Research Group-Research Facility \u2014 Jonesboro, Arkansas",
+      "tier": "corroborated",
+      "deviceTrial": false,
+      "trialTitle": "Repeat Ablation of Persistent Atrial Fibrillation, Including Mitral Isthmus Catheter Ablation, With the FARAPU"
+     },
+     {
+      "kind": "site-investigator",
+      "nameAsWritten": "Devi Nair, MD",
+      "role": "PRINCIPAL_INVESTIGATOR",
+      "nctId": "NCT07187115",
       "place": "Arrhythmia Research Group \u2014 Jonesboro, Arkansas",
       "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "Safety and Effectiveness of Left Bundle Branch Area Pacing Versus Conventional Cardiac Resynchronization Thera"
+      "trialTitle": "A Global Study Comparing Pulsed Field Ablation With Electrographic Flow Mapping Versus Posterior Wall Ablation"
      },
      {
       "kind": "site-investigator",
@@ -1663,13 +1673,13 @@
      },
      {
       "kind": "site-investigator",
-      "nameAsWritten": "Devi Nair, MD",
+      "nameAsWritten": "Devi Nair, Dr.",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT05963698",
+      "nctId": "NCT07069738",
       "place": "Arrhythmia Research Group \u2014 Jonesboro, Arkansas",
       "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "The Fourth Left Atrial Appendage Occlusion Study"
+      "trialTitle": "Safety and Effectiveness of Left Bundle Branch Area Pacing Versus Conventional Cardiac Resynchronization Thera"
      },
      {
       "kind": "site-investigator",
@@ -1705,21 +1715,11 @@
       "kind": "site-investigator",
       "nameAsWritten": "Devi Nair, MD",
       "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT06935591",
-      "place": "Arrhythmia Research Group - St. Bernards \u2014 Jonesboro, Arkansas",
-      "tier": "corroborated",
-      "deviceTrial": false,
-      "trialTitle": "Artificial Intelligence Mapping and Ablation of Non-Pulmonary Vein Electrical Drivers of AF Study"
-     },
-     {
-      "kind": "site-investigator",
-      "nameAsWritten": "Devi Nair, MD",
-      "role": "PRINCIPAL_INVESTIGATOR",
-      "nctId": "NCT04088071",
+      "nctId": "NCT05963698",
       "place": "Arrhythmia Research Group \u2014 Jonesboro, Arkansas",
       "tier": "corroborated",
       "deviceTrial": false,
-      "trialTitle": "Real-world Experience of Catheter Ablation for the Treatment of Paroxysmal and Persistent Atrial Fibrillation"
+      "trialTitle": "The Fourth Left Atrial Appendage Occlusion Study"
      }
     ],
     "source": {
@@ -1744,7 +1744,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "108 corroborated + 1093 name-only author matches"
+      "detail": "109 corroborated + 1092 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -1817,11 +1817,11 @@
      },
      {
       "year": 2017,
-      "value": 45782.13
+      "value": 45795.04
      },
      {
       "year": 2018,
-      "value": 17619.26
+      "value": 17634.83
      },
      {
       "year": 2019,
@@ -1866,8 +1866,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 9629.68,
-      "records": 279
+      "total": 9658.16,
+      "records": 281
      },
      {
       "nature": "Education",
@@ -1905,6 +1905,11 @@
       "company": "ABIOMED",
       "total": 124.9,
       "records": 5
+     },
+     {
+      "company": "Cardiovascular Systems Inc.",
+      "total": 15.57,
+      "records": 1
      }
     ],
     "research": {
@@ -1929,17 +1934,17 @@
     },
     "articles": [
      {
-      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
-      "year": 2026,
-      "pmid": "41732838",
-      "tier": "corroborated"
-     },
-     {
       "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
       "journal": "Journal of cardiovascular electrophysiology",
       "year": 2026,
       "pmid": "41392573",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Upgrading expandable leadless pacemakers from single- to dual-chamber.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "year": 2026,
+      "pmid": "41732838",
       "tier": "corroborated"
      },
      {
@@ -1957,13 +1962,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Financial toxicity on treatment outcomes in head & neck cancer patients undergoing radiation therapy.",
-      "journal": "Radiation oncology (London, England)",
-      "year": 2025,
-      "pmid": "41291797",
-      "tier": "corroborated"
-     },
-     {
       "title": "Evolving Use of Circulating Tumor DNA for HPV+ Oropharyngeal Carcinoma: Consensus Recommendations From the California Head and Neck Consortium.",
       "journal": "JCO oncology practice",
       "year": 2025,
@@ -1975,6 +1973,13 @@
       "journal": "Journal of the American College of Cardiology",
       "year": 2025,
       "pmid": "39772361",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Financial toxicity on treatment outcomes in head & neck cancer patients undergoing radiation therapy.",
+      "journal": "Radiation oncology (London, England)",
+      "year": 2025,
+      "pmid": "41291797",
       "tier": "corroborated"
      },
      {
@@ -2045,16 +2050,16 @@
       "beneficiaries": 287
      },
      {
-      "code": "93010",
-      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
-      "services": 326,
-      "beneficiaries": 320
-     },
-     {
       "code": "99454",
       "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordin",
       "services": 326,
       "beneficiaries": 34
+     },
+     {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report onl",
+      "services": 326,
+      "beneficiaries": 320
      }
     ],
     "source": {
@@ -2133,7 +2138,7 @@
     "licenseState": "OK",
     "opState": "OK",
     "opCity": "OKLAHOMA CITY",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1699736363"
@@ -2257,8 +2262,8 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 15,
-     "nameOnly": 801
+     "corroborated": 16,
+     "nameOnly": 800
     },
     "articles": [
      {
@@ -2283,13 +2288,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "The Effects of Nitric Oxide on Choroidal Gene Expression.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "year": 2023,
-      "pmid": "37398322",
-      "tier": "corroborated"
-     },
-     {
       "title": "Single Cell Transcriptomics Identifies Distinct Choroid Cell Populations Involved in Visually Guided Eye Growth.",
       "journal": "bioRxiv : the preprint server for biology",
       "year": 2023,
@@ -2297,10 +2295,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "Visually induced changes in cytokine production in the chick choroid.",
-      "journal": "eLife",
-      "year": 2021,
-      "pmid": "34608867",
+      "title": "The Effects of Nitric Oxide on Choroidal Gene Expression.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2023,
+      "pmid": "37398322",
       "tier": "corroborated"
      },
      {
@@ -2308,6 +2306,13 @@
       "journal": "Experimental eye research",
       "year": 2021,
       "pmid": "34228967",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Visually induced changes in cytokine production in the chick choroid.",
+      "journal": "eLife",
+      "year": 2021,
+      "pmid": "34608867",
       "tier": "corroborated"
      },
      {
@@ -2338,7 +2343,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "clinical cardiac electrophysiology",
+       "internal medicine",
        "leadless",
        "pacemaker"
       ],
@@ -2426,7 +2431,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "15 corroborated + 801 name-only author matches"
+      "detail": "16 corroborated + 800 name-only author matches"
      },
      {
       "label": "Medicare practice profile",
@@ -2473,7 +2478,7 @@
     "licenseState": "CA",
     "opState": "CA",
     "opCity": "LOS ANGELES",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1710981766"
@@ -2495,7 +2500,7 @@
      },
      {
       "year": 2017,
-      "value": 27179.87
+      "value": 27191.41
      },
      {
       "year": 2018,
@@ -2539,8 +2544,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 40609.27,
-      "records": 577
+      "total": 40620.81,
+      "records": 578
      },
      {
       "nature": "Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",
@@ -2607,13 +2612,6 @@
     },
     "articles": [
      {
-      "title": "Disparities in Stomach Cancer Stage Among Disaggregated Asian Populations.",
-      "journal": "Annals of epidemiology",
-      "year": 2026,
-      "pmid": "42144043",
-      "tier": "corroborated"
-     },
-     {
       "title": "Atrioventricular synchrony maintained by a dual-chamber leadless pacemaker in real-world conditions.",
       "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2026,
@@ -2628,17 +2626,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "year": 2026,
-      "pmid": "41392573",
-      "tier": "corroborated"
-     },
-     {
       "title": "LEAP2: A first-in-human evaluation of a chronically implanted novel leadless pacemaker for conduction system pacing.",
       "journal": "Heart rhythm",
       "year": 2026,
       "pmid": "42044708",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Novel Pacing Mode Conserves Battery in Dual-Chamber Leadless Pacemakers.",
+      "journal": "Journal of cardiovascular electrophysiology",
+      "year": 2026,
+      "pmid": "41392573",
       "tier": "corroborated"
      },
      {
@@ -2649,10 +2647,17 @@
       "tier": "corroborated"
      },
      {
-      "title": "Battery longevity of a helix-fixation dual-chamber leadless pacemaker: results from the AVEIR DR i2i Study.",
-      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
+      "title": "Disparities in Stomach Cancer Stage Among Disaggregated Asian Populations.",
+      "journal": "Annals of epidemiology",
+      "year": 2026,
+      "pmid": "42144043",
+      "tier": "corroborated"
+     },
+     {
+      "title": "First-in-human study of a leadless pacemaker system for left bundle branch area pacing.",
+      "journal": "Heart rhythm",
       "year": 2025,
-      "pmid": "40474610",
+      "pmid": "40300740",
       "tier": "corroborated"
      },
      {
@@ -2670,10 +2675,10 @@
       "tier": "corroborated"
      },
      {
-      "title": "First-in-human study of a leadless pacemaker system for left bundle branch area pacing.",
-      "journal": "Heart rhythm",
+      "title": "Battery longevity of a helix-fixation dual-chamber leadless pacemaker: results from the AVEIR DR i2i Study.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electro",
       "year": 2025,
-      "pmid": "40300740",
+      "pmid": "40474610",
       "tier": "corroborated"
      }
     ],
@@ -2683,7 +2688,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "clinical cardiac electrophysiology",
+       "internal medicine",
        "leadless",
        "pacemaker"
       ],
@@ -2964,20 +2969,6 @@
     },
     "articles": [
      {
-      "title": "Response to the letter to the editor entitled \"High-risk transvenous lead extraction can be safely performed in the electrophysiology laboratory\".",
-      "journal": "Heart rhythm",
-      "year": 2026,
-      "pmid": "40946733",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Pathogenic Germline PALB2 and RAD50 Variants in Patients With Relapsed Ewing Sarcoma.",
-      "journal": "Pediatric blood & cancer",
-      "year": 2026,
-      "pmid": "41549603",
-      "tier": "corroborated"
-     },
-     {
       "title": "Pacemaker implant and programming challenges in a young patient with painful left bundle branch block syndrome.",
       "journal": "HeartRhythm case reports",
       "year": 2026,
@@ -2989,6 +2980,27 @@
       "journal": "Journal of developmental and behavioral pediatrics : JDBP",
       "year": 2026,
       "pmid": "41380037",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Pathogenic Germline PALB2 and RAD50 Variants in Patients With Relapsed Ewing Sarcoma.",
+      "journal": "Pediatric blood & cancer",
+      "year": 2026,
+      "pmid": "41549603",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Response to the letter to the editor entitled \"High-risk transvenous lead extraction can be safely performed in the electrophysiology laboratory\".",
+      "journal": "Heart rhythm",
+      "year": 2026,
+      "pmid": "40946733",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Bilateral Lung Points without Pneumothorax: Exploring \"Lung Point\" Mimics.",
+      "journal": "POCUS journal",
+      "year": 2025,
+      "pmid": "41332510",
       "tier": "corroborated"
      },
      {
@@ -3006,31 +3018,24 @@
       "tier": "corroborated"
      },
      {
-      "title": "Bringing competency-based communication training to scale: A multi-institutional virtual simulation-based mastery learning curriculum for Emergency Medicine res",
-      "journal": "Medical teacher",
-      "year": 2025,
-      "pmid": "38803304",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Empathic teaching: Making an impact on direct and indirect patient care.",
-      "journal": "HeartRhythm case reports",
-      "year": 2025,
-      "pmid": "40951648",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Bilateral Lung Points without Pneumothorax: Exploring \"Lung Point\" Mimics.",
-      "journal": "POCUS journal",
-      "year": 2025,
-      "pmid": "41332510",
-      "tier": "corroborated"
-     },
-     {
       "title": "Epigenome-Wide Analysis Identifies Pollution-Sensitive Loci in Fibrotic Interstitial Lung Disease.",
       "journal": "American journal of respiratory and critical care medicine",
       "year": 2025,
       "pmid": "40540633",
+      "tier": "corroborated"
+     },
+     {
+      "title": "The monorail sistering technique: Use of a directable decapolar catheter to support a fragile lead fragment for extraction: A first experience and feasibility c",
+      "journal": "HeartRhythm case reports",
+      "year": 2025,
+      "pmid": "40896686",
+      "tier": "corroborated"
+     },
+     {
+      "title": "Transvenous lead extraction should be performed in the electrophysiology laboratory.",
+      "journal": "Heart rhythm",
+      "year": 2025,
+      "pmid": "40752877",
       "tier": "corroborated"
      }
     ],
@@ -3080,16 +3085,16 @@
       "beneficiaries": 28
      },
      {
-      "code": "93294",
-      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
-      "services": 49,
-      "beneficiaries": 19
-     },
-     {
       "code": "99291",
       "description": "Critical care, first 30-74 minutes",
       "services": 49,
       "beneficiaries": 35
+     },
+     {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 da",
+      "services": 49,
+      "beneficiaries": 19
      }
     ],
     "source": {
@@ -3191,7 +3196,7 @@
     "licenseState": "FL",
     "opState": "AZ",
     "opCity": "MESA",
-    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+    "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine",
     "source": {
      "dataset": "CMS NPPES registry + Open Payments recipient fields",
      "match": "NPI 1285627703"
@@ -3201,11 +3206,11 @@
     "yearly": [
      {
       "year": 2016,
-      "value": 17.04
+      "value": 42.61
      },
      {
       "year": 2017,
-      "value": 18411.69
+      "value": 18419.95
      },
      {
       "year": 2018,
@@ -3249,8 +3254,8 @@
      },
      {
       "nature": "Food and Beverage",
-      "total": 4199.81,
-      "records": 143
+      "total": 4233.64,
+      "records": 146
      }
     ],
     "byCompany": [
@@ -3265,8 +3270,18 @@
       "records": 1
      },
      {
+      "company": "CorMatrix Cardiovascular Inc.",
+      "total": 25.57,
+      "records": 2
+     },
+     {
       "company": "ABIOMED",
       "total": 16.68,
+      "records": 1
+     },
+     {
+      "company": "Vascular Insights, LLC",
+      "total": 8.26,
       "records": 1
      }
     ],
@@ -3281,8 +3296,8 @@
    },
    "literature": {
     "counts": {
-     "corroborated": 4,
-     "nameOnly": 365
+     "corroborated": 2,
+     "nameOnly": 367
     },
     "articles": [
      {
@@ -3293,20 +3308,6 @@
       "tier": "corroborated"
      },
      {
-      "title": "Identifying genetic markers associated with susceptibility to cardiovascular diseases.",
-      "journal": "Future science OA",
-      "year": 2019,
-      "pmid": "30652019",
-      "tier": "corroborated"
-     },
-     {
-      "title": "Statin Use And Risk Of Developing Diabetes In Cardiovascular Disease: Systematic Literature Review And Meta-Analysis.",
-      "journal": "Value in health : the journal of the International Society f",
-      "year": 2014,
-      "pmid": "27201389",
-      "tier": "corroborated"
-     },
-     {
       "title": "Heart failure hospitalization is more common in pacemaker patients with sinus node dysfunction and a prolonged paced QRS duration.",
       "journal": "Heart rhythm",
       "year": 2005,
@@ -3314,24 +3315,31 @@
       "tier": "corroborated"
      },
      {
-      "title": "Quantitative fibrinogen disorders: A retrospective study from a tertiary care centre in India.",
-      "journal": "The Indian journal of medical research",
-      "year": 2026,
-      "pmid": "42237844",
-      "tier": "name-only"
-     },
-     {
-      "title": "Estrone Linked BODIPYs: Assessing Their Role as Sonosensitizers for Antimicrobial Applications.",
-      "journal": "Chemistry, an Asian journal",
-      "year": 2026,
-      "pmid": "41603555",
-      "tier": "name-only"
-     },
-     {
       "title": "Tumor organoids modeling reveals timed responses and interplay of radiotherapy and chemotherapy in pancreatic cancer.",
       "journal": "Radiotherapy and oncology : journal of the European Society ",
       "year": 2026,
       "pmid": "41786221",
+      "tier": "name-only"
+     },
+     {
+      "title": "HIF1\u03b1 mediates resistance to radiation and to KRAS inhibitors in pancreatic adenocarcinoma.",
+      "journal": "PloS one",
+      "year": 2026,
+      "pmid": "41886492",
+      "tier": "name-only"
+     },
+     {
+      "title": "Machine Learning-Integrated Raman Spectroscopy Identifies Race-Associated Biochemical Signatures in Prostate Cancer.",
+      "journal": "Journal of biophotonics",
+      "year": 2026,
+      "pmid": "42237462",
+      "tier": "name-only"
+     },
+     {
+      "title": "CD44-targeted immunoliposomes for IL-1\u03b2 knockdown modulate macrophage-mediated inflammation.",
+      "journal": "Communications biology",
+      "year": 2026,
+      "pmid": "41974900",
       "tier": "name-only"
      },
      {
@@ -3342,17 +3350,24 @@
       "tier": "name-only"
      },
      {
-      "title": "Economic burden of advanced non-small cell lung cancer (NSCLC): a systematic literature review.",
-      "journal": "Journal of medical economics",
+      "title": "Quantitative fibrinogen disorders: A retrospective study from a tertiary care centre in India.",
+      "journal": "The Indian journal of medical research",
       "year": 2026,
-      "pmid": "41723781",
+      "pmid": "42237844",
       "tier": "name-only"
      },
      {
-      "title": "CD44-targeted immunoliposomes for IL-1\u03b2 knockdown modulate macrophage-mediated inflammation.",
-      "journal": "Communications biology",
+      "title": "Polymorphic 3D genome architecture mediated by transposable elements.",
+      "journal": "bioRxiv : the preprint server for biology",
       "year": 2026,
-      "pmid": "41974900",
+      "pmid": "41648318",
+      "tier": "name-only"
+     },
+     {
+      "title": "Estrone Linked BODIPYs: Assessing Their Role as Sonosensitizers for Antimicrobial Applications.",
+      "journal": "Chemistry, an Asian journal",
+      "year": 2026,
+      "pmid": "41603555",
       "tier": "name-only"
      }
     ],
@@ -3362,7 +3377,7 @@
      "signals": {
       "topicKeywords": [
        "aveir",
-       "cardiovascular disease",
+       "internal medicine",
        "leadless",
        "pacemaker"
       ],
@@ -3443,7 +3458,7 @@
      },
      {
       "label": "PubMed literature (local)",
-      "detail": "4 corroborated + 365 name-only author matches"
+      "detail": "2 corroborated + 367 name-only author matches"
      },
      {
       "label": "Medicare practice profile",

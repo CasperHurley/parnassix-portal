@@ -1,0 +1,2852 @@
+{
+ "slug": "proclaim-infinity-neurostim",
+ "name": "Proclaim / Infinity neurostim",
+ "maker": "Abbott \u00b7 Neuro",
+ "rank": 37,
+ "pathway": "pma (pure \u2014 three PMAs: Proclaim SCS P010032/LGW, Infinity DBS P140009/MHY, Proclaim DRG P150004/PMP)",
+ "maturity": "early",
+ "stats": {
+  "deaths": 107,
+  "injuries": 33001,
+  "malfunctions": 6110,
+  "recalls": 29,
+  "classI": 7
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Neuro"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (pure \u2014 three PMAs: Proclaim SCS P010032/LGW, Infinity DBS P140009/MHY, Proclaim DRG P150004/PMP)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted on design/warning, but the bar is RUNNING a preemption-workaround theory right now: the SCS wave (JPML MDL 3181 order, 6/5/2026) pleads that Abbott won PMA on published literature rather than its own clinical data and ABUSED THE PMA SUPPLEMENT PROCESS to introduce new devices without scrutiny \u2014 regulatory-violation + concealment, not design-defect. Untested against Riegel (defendants"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "early"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 107,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 33001,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 6110,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 29,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 7,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Adverse Event Without Identified Device or Use Problem",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 31687,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 21121624.68,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Steven Falowski",
+   "module": "experts"
+  },
+  {
+   "label": "Top procedure state",
+   "value": "California",
+   "module": "icp-map"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2452,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 10,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 5,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2024-05-16",
+   "classification": "Class II",
+   "reason": "The duration between the implantable pulse generator  reaching the elective replacement indicator threshold and end of service may be shorter than indicated in product labeling.",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2017,
+     "value": 8
+    },
+    {
+     "year": 2018,
+     "value": 2
+    },
+    {
+     "year": 2023,
+     "value": 7
+    },
+    {
+     "year": 2024,
+     "value": 12
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2016,
+     "value": 6
+    },
+    {
+     "year": 2017,
+     "value": 15
+    },
+    {
+     "year": 2018,
+     "value": 12
+    },
+    {
+     "year": 2019,
+     "value": 22
+    },
+    {
+     "year": 2020,
+     "value": 16
+    },
+    {
+     "year": 2021,
+     "value": 7
+    },
+    {
+     "year": 2022,
+     "value": 9
+    },
+    {
+     "year": 2023,
+     "value": 9
+    },
+    {
+     "year": 2024,
+     "value": 7
+    },
+    {
+     "year": 2025,
+     "value": 1
+    },
+    {
+     "year": 2026,
+     "value": 3
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1
+    },
+    {
+     "year": 2016,
+     "value": 268
+    },
+    {
+     "year": 2017,
+     "value": 1455
+    },
+    {
+     "year": 2018,
+     "value": 2086
+    },
+    {
+     "year": 2019,
+     "value": 3504
+    },
+    {
+     "year": 2020,
+     "value": 4228
+    },
+    {
+     "year": 2021,
+     "value": 4237
+    },
+    {
+     "year": 2022,
+     "value": 4223
+    },
+    {
+     "year": 2023,
+     "value": 4846
+    },
+    {
+     "year": 2024,
+     "value": 5263
+    },
+    {
+     "year": 2025,
+     "value": 161
+    },
+    {
+     "year": 2026,
+     "value": 2729
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2018,
+     "value": 2244440.65
+    },
+    {
+     "year": 2019,
+     "value": 3058861.91
+    },
+    {
+     "year": 2020,
+     "value": 1130517.73
+    },
+    {
+     "year": 2021,
+     "value": 3168227.34
+    },
+    {
+     "year": 2022,
+     "value": 4767119.19
+    },
+    {
+     "year": 2023,
+     "value": 4054152.45
+    },
+    {
+     "year": 2024,
+     "value": 2698305.41
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  },
+  {
+   "key": "foreignActions",
+   "label": "Foreign regulator actions",
+   "unit": "actions",
+   "module": "global-actions",
+   "points": [
+    {
+     "year": 2017,
+     "value": 2
+    },
+    {
+     "year": 2018,
+     "value": 1
+    },
+    {
+     "year": 2023,
+     "value": 1
+    },
+    {
+     "year": 2024,
+     "value": 3
+    },
+    {
+     "year": 2025,
+     "value": 1
+    },
+    {
+     "year": 2026,
+     "value": 2
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 119823,
+    "distinctProblemCodes": 118,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Adverse Event Without Identified Device or Use Problem",
+      "reports": 11057,
+      "narrative": "PATIENT DATE OF BIRTH ADDED TO THE REPORT. E1 INITIAL REPORTER INFORMATION ADDED TO THE REPORT. BASED ON THE INFORMATION PROVIDED A DEVICE PROBLEM WAS NOT IDENTIFIED, AS A RESULT A CONCLUSIVE CAUSE FOR THE REPORTED PATIENT EFFECT, AND THE RELATIONSHIP TO THE PRODUCT, IF ANY, CANNOT BE DETERMINED."
+     },
+     {
+      "problem": "Battery Problem",
+      "reports": 7174,
+      "narrative": "DATE OF EVENT IS ESTIMATED. THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     },
+     {
+      "problem": "Wireless Communication Problem",
+      "reports": 5807,
+      "narrative": "IT WAS REPORTED THE IPG WAS UNABLE TO COMMUNICATE WITH THE EXTERNAL DEVICES. THE PATIENT UNDERWENT AN UNRELATED SURGICAL PROCEDURE ON (B)(6) 2020 AND THE IPG WAS NOT PLACED INTO SURGERY MODE. TROUBLESHOOTING IS PENDING , THIS IS ALL THE INFORMATION AVAILABLE."
+     },
+     {
+      "problem": "Premature Elective Replacement Indicator",
+      "reports": 3747,
+      "narrative": "IT WAS REPORTED THAT DIAGNOSTICS INDICATED THE ELECTIVE REPLACEMENT INDICATOR (ERI) TRIGGERED EARLIER THAN INTENDED. THE WIRELESS SOFTWARE UPDATE WAS PERFORMED CLEARING THE ERI MESSAGE. THE DEVICE IS PROVIDING THERAPY."
+     },
+     {
+      "problem": "Insufficient Information",
+      "reports": 2374,
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICES WERE NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED EVENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     },
+     {
+      "problem": "Therapeutic or Diagnostic Output Failure",
+      "reports": 1087,
+      "narrative": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED."
+     },
+     {
+      "problem": "Migration",
+      "reports": 916,
+      "narrative": "DATE OF EVENT IS ESTIMATED. BASED ON THE INFORMATION PROVIDED A DEVICE PROBLEM WAS NOT IDENTIFIED, AS A RESULT A CONCLUSIVE CAUSE FOR THE REPORTED PATIENT EFFECT, AND THE RELATIONSHIP TO THE PRODUCT, IF ANY, CANNOT BE DETERMINED."
+     },
+     {
+      "problem": "Component Misassembled",
+      "reports": 826,
+      "narrative": "DESCRIPTION SHOULD HAVE INCLUDED 'DEEP BRAIN STIMULATION' RATHER THAN 'DEEP BRIAN STIMULATION' IN THE INITIAL REPORT SUBMISSION."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "notApplicable": true,
+   "reason": "PMA-pathway device \u2014 there is no 510(k) predicate lineage. A PMA supplement-lineage map is available on request.",
+   "source": "FDA 510(k) summaries predicate-edge extraction."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 31687,
+    "totalPaid": 21121624.68,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Neurological Surgery",
+      "state": "PA",
+      "total": 1127829.01,
+      "payments": 1392,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "WV",
+      "total": 748979.61,
+      "payments": 1282,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "TX",
+      "total": 585817.29,
+      "payments": 1596,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "CA",
+      "total": 477834.03,
+      "payments": 1010,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "NY",
+      "total": 451586.42,
+      "payments": 718,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation",
+      "state": "PA",
+      "total": 351280.16,
+      "payments": 849,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "IN",
+      "total": 291294.6,
+      "payments": 742,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "CA",
+      "total": 182563.2,
+      "payments": 461,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "IL",
+      "total": 156807.3,
+      "payments": 719,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "FL",
+      "total": 155483.17,
+      "payments": 420,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Neurological Surgery",
+      "state": "PA",
+      "total": 1127829.01,
+      "payments": 1392,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Steven Falowski"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "WV",
+      "total": 748979.61,
+      "payments": 1282,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Timothy Deer"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "TX",
+      "total": 585817.29,
+      "payments": 1596,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Pankaj Mehta"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "CA",
+      "total": 477834.03,
+      "payments": 1010,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Jason Pope"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "NY",
+      "total": 451586.42,
+      "payments": 718,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Kiran Patel"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation",
+      "state": "PA",
+      "total": 351280.16,
+      "payments": 849,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Jeffery Rowe"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine",
+      "state": "IN",
+      "total": 291294.6,
+      "payments": 742,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Derron Wilson"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "CA",
+      "total": 182563.2,
+      "payments": 461,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "David Dickerson"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine",
+      "state": "IL",
+      "total": 156807.3,
+      "payments": 719,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Timothy Lubenow"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Anesthesiology",
+      "state": "FL",
+      "total": 155483.17,
+      "payments": 420,
+      "years": "2018\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Ajay Antony"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "ABBOTT LABORATORIES",
+    "nParents": 8,
+    "inspections": 791,
+    "citations": 790,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8553,
+     "inMdl": 7232,
+     "terminationRatio": 0.54,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2452,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2452,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Laboratories/Ross Laboratories",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Laboratories Ltd.",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "teaser": {
+    "states": 52,
+    "procedureCodes": 6,
+    "dataYear": 2023,
+    "topStateServices": 64152,
+    "counties": 58,
+    "facilities": 70,
+    "topFacilityCity": "Orlando, FL"
+   },
+   "payload": {
+    "dataYear": 2023,
+    "codes": [
+     {
+      "code": "64566",
+      "description": "Implantation of lower leg neurostimulator electrode, accessed through the skin",
+      "services": 1706317
+     },
+     {
+      "code": "63650",
+      "description": "Implantation of spinal neurostimulator electrodes, accessed through the skin",
+      "services": 1140055
+     },
+     {
+      "code": "95972",
+      "description": "Electronic analysis and programming of implanted complex spinal cord or peripheral neurostimulator generator system during or after surgery, first hour",
+      "services": 416360
+     },
+     {
+      "code": "63685",
+      "description": "Insertion of spinal neurostimulator pulse generator or receiver",
+      "services": 410362
+     },
+     {
+      "code": "L8680",
+      "description": "Implantable neurostimulator electrode, each",
+      "services": 275923
+     },
+     {
+      "code": "95970",
+      "description": "Electronic analysis of implanted brain spinal cord or peripheral neurostimulator generator system",
+      "services": 260933
+     }
+    ],
+    "states": [
+     {
+      "state": "California",
+      "services": 64152,
+      "beneficiaries": 13404
+     },
+     {
+      "state": "Texas",
+      "services": 35030,
+      "beneficiaries": 12734
+     },
+     {
+      "state": "Florida",
+      "services": 31909,
+      "beneficiaries": 11772
+     },
+     {
+      "state": "New York",
+      "services": 18830,
+      "beneficiaries": 5341
+     },
+     {
+      "state": "Arizona",
+      "services": 17848,
+      "beneficiaries": 5117
+     },
+     {
+      "state": "Pennsylvania",
+      "services": 13545,
+      "beneficiaries": 4929
+     },
+     {
+      "state": "Illinois",
+      "services": 11852,
+      "beneficiaries": 3833
+     },
+     {
+      "state": "Georgia",
+      "services": 10476,
+      "beneficiaries": 3441
+     },
+     {
+      "state": "Michigan",
+      "services": 10444,
+      "beneficiaries": 3445
+     },
+     {
+      "state": "Ohio",
+      "services": 10203,
+      "beneficiaries": 4429
+     },
+     {
+      "state": "North Carolina",
+      "services": 10168,
+      "beneficiaries": 4157
+     },
+     {
+      "state": "Tennessee",
+      "services": 9724,
+      "beneficiaries": 3857
+     },
+     {
+      "state": "Washington",
+      "services": 9474,
+      "beneficiaries": 2960
+     },
+     {
+      "state": "New Jersey",
+      "services": 8803,
+      "beneficiaries": 2867
+     },
+     {
+      "state": "Indiana",
+      "services": 8490,
+      "beneficiaries": 3302
+     },
+     {
+      "state": "Maryland",
+      "services": 8333,
+      "beneficiaries": 2681
+     },
+     {
+      "state": "Missouri",
+      "services": 7273,
+      "beneficiaries": 3120
+     },
+     {
+      "state": "Oklahoma",
+      "services": 7121,
+      "beneficiaries": 2950
+     },
+     {
+      "state": "Massachusetts",
+      "services": 6895,
+      "beneficiaries": 2158
+     },
+     {
+      "state": "Oregon",
+      "services": 6864,
+      "beneficiaries": 2045
+     },
+     {
+      "state": "South Carolina",
+      "services": 6660,
+      "beneficiaries": 3029
+     },
+     {
+      "state": "Minnesota",
+      "services": 6493,
+      "beneficiaries": 2196
+     },
+     {
+      "state": "Colorado",
+      "services": 6474,
+      "beneficiaries": 2064
+     },
+     {
+      "state": "Virginia",
+      "services": 6368,
+      "beneficiaries": 2569
+     },
+     {
+      "state": "Kansas",
+      "services": 5548,
+      "beneficiaries": 2176
+     },
+     {
+      "state": "Wisconsin",
+      "services": 5265,
+      "beneficiaries": 1794
+     },
+     {
+      "state": "Utah",
+      "services": 4942,
+      "beneficiaries": 1593
+     },
+     {
+      "state": "Nevada",
+      "services": 4713,
+      "beneficiaries": 1447
+     },
+     {
+      "state": "Kentucky",
+      "services": 4362,
+      "beneficiaries": 1910
+     },
+     {
+      "state": "Louisiana",
+      "services": 4319,
+      "beneficiaries": 1680
+     },
+     {
+      "state": "Mississippi",
+      "services": 3991,
+      "beneficiaries": 1703
+     },
+     {
+      "state": "Arkansas",
+      "services": 3354,
+      "beneficiaries": 1239
+     },
+     {
+      "state": "Alabama",
+      "services": 3046,
+      "beneficiaries": 1430
+     },
+     {
+      "state": "Iowa",
+      "services": 3035,
+      "beneficiaries": 970
+     },
+     {
+      "state": "Nebraska",
+      "services": 2491,
+      "beneficiaries": 1115
+     },
+     {
+      "state": "Connecticut",
+      "services": 2220,
+      "beneficiaries": 589
+     },
+     {
+      "state": "Idaho",
+      "services": 1885,
+      "beneficiaries": 736
+     },
+     {
+      "state": "New Hampshire",
+      "services": 1772,
+      "beneficiaries": 548
+     },
+     {
+      "state": "Delaware",
+      "services": 1364,
+      "beneficiaries": 498
+     },
+     {
+      "state": "South Dakota",
+      "services": 1222,
+      "beneficiaries": 669
+     },
+     {
+      "state": "North Dakota",
+      "services": 1178,
+      "beneficiaries": 399
+     },
+     {
+      "state": "New Mexico",
+      "services": 1131,
+      "beneficiaries": 359
+     },
+     {
+      "state": "Montana",
+      "services": 1036,
+      "beneficiaries": 364
+     },
+     {
+      "state": "District of Columbia",
+      "services": 1029,
+      "beneficiaries": 265
+     },
+     {
+      "state": "West Virginia",
+      "services": 789,
+      "beneficiaries": 491
+     },
+     {
+      "state": "Alaska",
+      "services": 698,
+      "beneficiaries": 223
+     },
+     {
+      "state": "Maine",
+      "services": 427,
+      "beneficiaries": 213
+     },
+     {
+      "state": "Rhode Island",
+      "services": 376,
+      "beneficiaries": 145
+     },
+     {
+      "state": "Wyoming",
+      "services": 324,
+      "beneficiaries": 151
+     },
+     {
+      "state": "Hawaii",
+      "services": 274,
+      "beneficiaries": 44
+     },
+     {
+      "state": "Vermont",
+      "services": 69,
+      "beneficiaries": 42
+     },
+     {
+      "state": "Puerto Rico",
+      "services": 24,
+      "beneficiaries": 12
+     }
+    ],
+    "facilities": [
+     {
+      "ccn": "100007",
+      "name": "Adventhealth Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "countyFips": "12095",
+      "lat": 28.556,
+      "lon": -81.348,
+      "discharges": 50,
+      "outpatientServices": 345,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 23
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 15
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "330101",
+      "name": "New York-Presbyterian Hospital",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.765,
+      "lon": -73.963,
+      "discharges": 65,
+      "outpatientServices": 324,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 26
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 23
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 16
+       }
+      ]
+     },
+     {
+      "ccn": "240010",
+      "name": "Mayo Clinic Hospital Rochester",
+      "city": "Rochester",
+      "state": "MN",
+      "countyFips": "27109",
+      "lat": 43.971,
+      "lon": -92.508,
+      "discharges": 35,
+      "outpatientServices": 340,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 21
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "440039",
+      "name": "Vanderbilt University Medical Center",
+      "city": "Nashville",
+      "state": "TN",
+      "countyFips": "47037",
+      "lat": 36.141,
+      "lon": -86.803,
+      "discharges": 13,
+      "outpatientServices": 350,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "170040",
+      "name": "University Of Kansas Hospital",
+      "city": "Kansas City",
+      "state": "KS",
+      "countyFips": "20209",
+      "lat": 39.056,
+      "lon": -94.61,
+      "discharges": 13,
+      "outpatientServices": 279,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 13
+       }
+      ]
+     },
+     {
+      "ccn": "330214",
+      "name": "Nyu Langone Hospitals",
+      "city": "New York",
+      "state": "NY",
+      "countyFips": "36061",
+      "lat": 40.745,
+      "lon": -73.978,
+      "discharges": 22,
+      "outpatientServices": 269,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 22
+       }
+      ]
+     },
+     {
+      "ccn": "360180",
+      "name": "Cleveland Clinic",
+      "city": "Cleveland",
+      "state": "OH",
+      "countyFips": "39035",
+      "lat": 41.555,
+      "lon": -81.605,
+      "discharges": 43,
+      "outpatientServices": 245,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 20
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 12
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "420004",
+      "name": "Musc Medical Center",
+      "city": "Charleston",
+      "state": "SC",
+      "countyFips": "45019",
+      "lat": 32.785,
+      "lon": -79.948,
+      "discharges": 20,
+      "outpatientServices": 240,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 20
+       }
+      ]
+     },
+     {
+      "ccn": "050441",
+      "name": "Stanford Health Care",
+      "city": "Stanford",
+      "state": "CA",
+      "countyFips": "06085",
+      "lat": 37.418,
+      "lon": -122.171,
+      "discharges": 12,
+      "outpatientServices": 225,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "220110",
+      "name": "Brigham And Women'S Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.339,
+      "lon": -71.095,
+      "discharges": 51,
+      "outpatientServices": 185,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 22
+       },
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 18
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "100151",
+      "name": "Mayo Clinic",
+      "city": "Jacksonville",
+      "state": "FL",
+      "countyFips": "12031",
+      "lat": 30.27,
+      "lon": -81.461,
+      "discharges": 11,
+      "outpatientServices": 224,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "450358",
+      "name": "Houston Methodist Hospital",
+      "city": "Houston",
+      "state": "TX",
+      "countyFips": "48201",
+      "lat": 29.706,
+      "lon": -95.402,
+      "discharges": 28,
+      "outpatientServices": 175,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 14
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "490009",
+      "name": "Uva Health Sciences Center",
+      "city": "Charlottesville",
+      "state": "VA",
+      "countyFips": "51540",
+      "lat": 38.031,
+      "lon": -78.497,
+      "discharges": 11,
+      "outpatientServices": 187,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "160058",
+      "name": "University Of Iowa Health Care Medical Center",
+      "city": "Iowa City",
+      "state": "IA",
+      "countyFips": "19103",
+      "lat": 41.663,
+      "lon": -91.544,
+      "discharges": 11,
+      "outpatientServices": 177,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "360085",
+      "name": "Ohio State University Hospitals",
+      "city": "Columbus",
+      "state": "OH",
+      "countyFips": "39049",
+      "lat": 40.006,
+      "lon": -83.022,
+      "discharges": 30,
+      "outpatientServices": 156,
+      "rating": "3",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 18
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "050454",
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "countyFips": "06075",
+      "lat": 37.727,
+      "lon": -123.032,
+      "discharges": 28,
+      "outpatientServices": 155,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 28
+       }
+      ]
+     },
+     {
+      "ccn": "220071",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "MA",
+      "countyFips": "25025",
+      "lat": 42.364,
+      "lon": -71.067,
+      "discharges": 12,
+      "outpatientServices": 166,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "100087",
+      "name": "Sarasota Memorial Hospital",
+      "city": "Sarasota",
+      "state": "FL",
+      "countyFips": "12115",
+      "lat": 27.311,
+      "lon": -82.521,
+      "discharges": 35,
+      "outpatientServices": 139,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 21
+       },
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 14
+       }
+      ]
+     },
+     {
+      "ccn": "060024",
+      "name": "University Of Colorado Hospital Authority",
+      "city": "Aurora",
+      "state": "CO",
+      "countyFips": "08001",
+      "lat": 39.747,
+      "lon": -104.837,
+      "discharges": 31,
+      "outpatientServices": 135,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 19
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "330393",
+      "name": "Stony Brook University Hospital",
+      "city": "Stony Brook",
+      "state": "NY",
+      "countyFips": "36103",
+      "lat": 40.919,
+      "lon": -73.125,
+      "discharges": 11,
+      "outpatientServices": 142,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     },
+     {
+      "ccn": "050625",
+      "name": "Cedars-Sinai Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.073,
+      "lon": -118.373,
+      "discharges": 69,
+      "outpatientServices": 80,
+      "rating": "5",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 38
+       },
+       {
+        "code": "518",
+        "desc": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROST",
+        "n": 31
+       }
+      ]
+     },
+     {
+      "ccn": "080001",
+      "name": "Christianacare",
+      "city": "Newark",
+      "state": "DE",
+      "countyFips": "10003",
+      "lat": 39.576,
+      "lon": -75.644,
+      "discharges": 20,
+      "outpatientServices": 128,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 20
+       }
+      ]
+     },
+     {
+      "ccn": "050262",
+      "name": "Ronald Reagan Ucla Medical Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "countyFips": "06037",
+      "lat": 34.071,
+      "lon": -118.443,
+      "discharges": 12,
+      "outpatientServices": 129,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "029",
+        "desc": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+        "n": 12
+       }
+      ]
+     },
+     {
+      "ccn": "340040",
+      "name": "Ecu Health Medical Center",
+      "city": "Greenville",
+      "state": "NC",
+      "countyFips": "37147",
+      "lat": 35.657,
+      "lon": -77.38,
+      "discharges": 15,
+      "outpatientServices": 121,
+      "rating": "2",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 15
+       }
+      ]
+     },
+     {
+      "ccn": "240057",
+      "name": "Abbott Northwestern Hospital",
+      "city": "Minneapolis",
+      "state": "MN",
+      "countyFips": "27053",
+      "lat": 44.935,
+      "lon": -93.253,
+      "discharges": 11,
+      "outpatientServices": 124,
+      "rating": "4",
+      "topDrgs": [
+       {
+        "code": "276",
+        "desc": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+        "n": 11
+       }
+      ]
+     }
+    ],
+    "counties": [
+     {
+      "fips": "36061",
+      "name": "New York",
+      "state": "NY",
+      "services": 680,
+      "facilities": 2,
+      "per10k65": 23.0
+     },
+     {
+      "fips": "12095",
+      "name": "Orange",
+      "state": "FL",
+      "services": 488,
+      "facilities": 2,
+      "per10k65": 25.5
+     },
+     {
+      "fips": "25025",
+      "name": "Suffolk",
+      "state": "MA",
+      "services": 463,
+      "facilities": 3,
+      "per10k65": 44.5
+     },
+     {
+      "fips": "27109",
+      "name": "Olmsted",
+      "state": "MN",
+      "services": 375,
+      "facilities": 1,
+      "per10k65": 136.9
+     },
+     {
+      "fips": "47037",
+      "name": "Davidson",
+      "state": "TN",
+      "services": 363,
+      "facilities": 1,
+      "per10k65": 39.3
+     },
+     {
+      "fips": "06037",
+      "name": "Los Angeles",
+      "state": "CA",
+      "services": 323,
+      "facilities": 3,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "39049",
+      "name": "Franklin",
+      "state": "OH",
+      "services": 310,
+      "facilities": 2,
+      "per10k65": 17.8
+     },
+     {
+      "fips": "20209",
+      "name": "Wyandotte",
+      "state": "KS",
+      "services": 292,
+      "facilities": 1,
+      "per10k65": 130.7
+     },
+     {
+      "fips": "39035",
+      "name": "Cuyahoga",
+      "state": "OH",
+      "services": 288,
+      "facilities": 1,
+      "per10k65": 11.9
+     },
+     {
+      "fips": "45019",
+      "name": "Charleston",
+      "state": "SC",
+      "services": 260,
+      "facilities": 1,
+      "per10k65": 34.7
+     },
+     {
+      "fips": "06085",
+      "name": "Santa Clara",
+      "state": "CA",
+      "services": 237,
+      "facilities": 1,
+      "per10k65": 8.4
+     },
+     {
+      "fips": "12031",
+      "name": "Duval",
+      "state": "FL",
+      "services": 235,
+      "facilities": 1,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "48201",
+      "name": "Harris",
+      "state": "TX",
+      "services": 203,
+      "facilities": 1,
+      "per10k65": 3.6
+     },
+     {
+      "fips": "51540",
+      "name": "Charlottesville",
+      "state": "VA",
+      "services": 198,
+      "facilities": 1,
+      "per10k65": 323.6
+     },
+     {
+      "fips": "19103",
+      "name": "Johnson",
+      "state": "IA",
+      "services": 188,
+      "facilities": 1,
+      "per10k65": 90.2
+     },
+     {
+      "fips": "06075",
+      "name": "San Francisco",
+      "state": "CA",
+      "services": 183,
+      "facilities": 1,
+      "per10k65": 12.5
+     },
+     {
+      "fips": "12115",
+      "name": "Sarasota",
+      "state": "FL",
+      "services": 174,
+      "facilities": 1,
+      "per10k65": 10.1
+     },
+     {
+      "fips": "08001",
+      "name": "Adams",
+      "state": "CO",
+      "services": 166,
+      "facilities": 1,
+      "per10k65": 27.7
+     },
+     {
+      "fips": "42101",
+      "name": "Philadelphia",
+      "state": "PA",
+      "services": 166,
+      "facilities": 2,
+      "per10k65": 7.2
+     },
+     {
+      "fips": "36103",
+      "name": "Suffolk",
+      "state": "NY",
+      "services": 153,
+      "facilities": 1,
+      "per10k65": 5.6
+     },
+     {
+      "fips": "10003",
+      "name": "New Castle",
+      "state": "DE",
+      "services": 148,
+      "facilities": 1,
+      "per10k65": 15.0
+     },
+     {
+      "fips": "37147",
+      "name": "Pitt",
+      "state": "NC",
+      "services": 136,
+      "facilities": 1,
+      "per10k65": 52.9
+     },
+     {
+      "fips": "27053",
+      "name": "Hennepin",
+      "state": "MN",
+      "services": 135,
+      "facilities": 1,
+      "per10k65": 6.8
+     },
+     {
+      "fips": "26081",
+      "name": "Kent",
+      "state": "MI",
+      "services": 113,
+      "facilities": 1,
+      "per10k65": 11.4
+     },
+     {
+      "fips": "36001",
+      "name": "Albany",
+      "state": "NY",
+      "services": 109,
+      "facilities": 1,
+      "per10k65": 18.9
+     },
+     {
+      "fips": "51770",
+      "name": "Roanoke",
+      "state": "VA",
+      "services": 101,
+      "facilities": 1,
+      "per10k65": 57.8
+     },
+     {
+      "fips": "48029",
+      "name": "Bexar",
+      "state": "TX",
+      "services": 93,
+      "facilities": 2,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "36059",
+      "name": "Nassau",
+      "state": "NY",
+      "services": 88,
+      "facilities": 1,
+      "per10k65": 3.4
+     },
+     {
+      "fips": "04013",
+      "name": "Maricopa",
+      "state": "AZ",
+      "services": 87,
+      "facilities": 1,
+      "per10k65": 1.2
+     },
+     {
+      "fips": "53033",
+      "name": "King",
+      "state": "WA",
+      "services": 87,
+      "facilities": 2,
+      "per10k65": 2.7
+     },
+     {
+      "fips": "47157",
+      "name": "Shelby",
+      "state": "TN",
+      "services": 83,
+      "facilities": 1,
+      "per10k65": 6.1
+     },
+     {
+      "fips": "44007",
+      "name": "Providence",
+      "state": "RI",
+      "services": 73,
+      "facilities": 1,
+      "per10k65": 6.7
+     },
+     {
+      "fips": "13021",
+      "name": "Bibb",
+      "state": "GA",
+      "services": 71,
+      "facilities": 1,
+      "per10k65": 27.6
+     },
+     {
+      "fips": "13067",
+      "name": "Cobb",
+      "state": "GA",
+      "services": 69,
+      "facilities": 1,
+      "per10k65": 6.5
+     },
+     {
+      "fips": "09009",
+      "name": "New Haven",
+      "state": "CT",
+      "services": 65,
+      "facilities": 1,
+      "per10k65": null
+     },
+     {
+      "fips": "24510",
+      "name": "Baltimore",
+      "state": "MD",
+      "services": 62,
+      "facilities": 3,
+      "per10k65": 7.1
+     },
+     {
+      "fips": "51059",
+      "name": "Fairfax",
+      "state": "VA",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 3.5
+     },
+     {
+      "fips": "51710",
+      "name": "Norfolk",
+      "state": "VA",
+      "services": 60,
+      "facilities": 1,
+      "per10k65": 19.7
+     },
+     {
+      "fips": "34025",
+      "name": "Monmouth",
+      "state": "NJ",
+      "services": 51,
+      "facilities": 1,
+      "per10k65": 4.1
+     },
+     {
+      "fips": "13121",
+      "name": "Fulton",
+      "state": "GA",
+      "services": 45,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "36029",
+      "name": "Erie",
+      "state": "NY",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 2.3
+     },
+     {
+      "fips": "34007",
+      "name": "Camden",
+      "state": "NJ",
+      "services": 43,
+      "facilities": 1,
+      "per10k65": 4.9
+     },
+     {
+      "fips": "42003",
+      "name": "Allegheny",
+      "state": "PA",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 1.7
+     },
+     {
+      "fips": "12071",
+      "name": "Lee",
+      "state": "FL",
+      "services": 42,
+      "facilities": 1,
+      "per10k65": 1.8
+     },
+     {
+      "fips": "06067",
+      "name": "Sacramento",
+      "state": "CA",
+      "services": 39,
+      "facilities": 1,
+      "per10k65": 1.6
+     },
+     {
+      "fips": "08005",
+      "name": "Arapahoe",
+      "state": "CO",
+      "services": 37,
+      "facilities": 1,
+      "per10k65": 3.9
+     },
+     {
+      "fips": "12009",
+      "name": "Brevard",
+      "state": "FL",
+      "services": 31,
+      "facilities": 1,
+      "per10k65": 2.0
+     },
+     {
+      "fips": "31109",
+      "name": "Lancaster",
+      "state": "NE",
+      "services": 24,
+      "facilities": 1,
+      "per10k65": 4.8
+     },
+     {
+      "fips": "17167",
+      "name": "Sangamon",
+      "state": "IL",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 5.8
+     },
+     {
+      "fips": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "services": 22,
+      "facilities": 1,
+      "per10k65": 2.5
+     },
+     {
+      "fips": "06053",
+      "name": "Monterey",
+      "state": "CA",
+      "services": 14,
+      "facilities": 1,
+      "per10k65": 2.2
+     },
+     {
+      "fips": "48085",
+      "name": "Collin",
+      "state": "TX",
+      "services": 13,
+      "facilities": 1,
+      "per10k65": 1.0
+     },
+     {
+      "fips": "34005",
+      "name": "Burlington",
+      "state": "NJ",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 1.4
+     },
+     {
+      "fips": "12099",
+      "name": "Palm Beach",
+      "state": "FL",
+      "services": 12,
+      "facilities": 1,
+      "per10k65": 0.3
+     },
+     {
+      "fips": "12086",
+      "name": "Miami-Dade",
+      "state": "FL",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.2
+     },
+     {
+      "fips": "34023",
+      "name": "Middlesex",
+      "state": "NJ",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.8
+     },
+     {
+      "fips": "18163",
+      "name": "Vanderburgh",
+      "state": "IN",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 3.3
+     },
+     {
+      "fips": "06073",
+      "name": "San Diego",
+      "state": "CA",
+      "services": 11,
+      "facilities": 1,
+      "per10k65": 0.2
+     }
+    ],
+    "hospitalYears": {
+     "inpatient": 2024,
+     "outpatient": 2023
+    },
+    "paidPhysicians": {
+     "byState": [
+      {
+       "state": "TX",
+       "physicians": 4936,
+       "totalUsd": 2756807.03
+      },
+      {
+       "state": "CA",
+       "physicians": 2682,
+       "totalUsd": 2277879.6
+      },
+      {
+       "state": "PA",
+       "physicians": 1493,
+       "totalUsd": 1808115.26
+      },
+      {
+       "state": "NY",
+       "physicians": 1645,
+       "totalUsd": 1548905.54
+      },
+      {
+       "state": "FL",
+       "physicians": 2881,
+       "totalUsd": 1359463.8
+      },
+      {
+       "state": "WV",
+       "physicians": 256,
+       "totalUsd": 1136329.01
+      },
+      {
+       "state": "IL",
+       "physicians": 1206,
+       "totalUsd": 997944.44
+      },
+      {
+       "state": "AZ",
+       "physicians": 2179,
+       "totalUsd": 894185.98
+      },
+      {
+       "state": "NJ",
+       "physicians": 948,
+       "totalUsd": 864598.76
+      },
+      {
+       "state": "OH",
+       "physicians": 928,
+       "totalUsd": 584358.56
+      },
+      {
+       "state": "NC",
+       "physicians": 1656,
+       "totalUsd": 509075.48
+      },
+      {
+       "state": "IN",
+       "physicians": 630,
+       "totalUsd": 505730.16
+      },
+      {
+       "state": "GA",
+       "physicians": 1078,
+       "totalUsd": 425131.56
+      },
+      {
+       "state": "SC",
+       "physicians": 1113,
+       "totalUsd": 312096.81
+      },
+      {
+       "state": "MI",
+       "physicians": 780,
+       "totalUsd": 301140.57
+      }
+     ],
+     "scope": "device"
+    },
+    "trialSites": [
+     {
+      "name": "Advanced Pain Care",
+      "city": "Henderson",
+      "state": "Nevada",
+      "lat": 36.04,
+      "lon": -114.982,
+      "trials": 2
+     },
+     {
+      "name": "Advanced Pain Management",
+      "city": "Greenfield",
+      "state": "Wisconsin",
+      "lat": 42.961,
+      "lon": -88.013,
+      "trials": 2
+     },
+     {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.763,
+      "lon": -95.363,
+      "trials": 2
+     },
+     {
+      "name": "Carolinas Center for Advanced Management of Pain",
+      "city": "Greenville",
+      "state": "South Carolina",
+      "lat": 34.853,
+      "lon": -82.394,
+      "trials": 2
+     },
+     {
+      "name": "Clinical Trials of South Carolina",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 32.776,
+      "lon": -79.933,
+      "trials": 2
+     },
+     {
+      "name": "Goodman Campbell Brain & Spine",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.768,
+      "lon": -86.158,
+      "trials": 2
+     },
+     {
+      "name": "Kansas University Medical Center",
+      "city": "Kansas City",
+      "state": "Kansas",
+      "lat": 39.114,
+      "lon": -94.627,
+      "trials": 2
+     },
+     {
+      "name": "Nevada Advanced Pain Specialists",
+      "city": "Reno",
+      "state": "Nevada",
+      "lat": 39.53,
+      "lon": -119.814,
+      "trials": 2
+     },
+     {
+      "name": "Rhode Island Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "lat": 41.824,
+      "lon": -71.413,
+      "trials": 2
+     },
+     {
+      "name": "Rush University Medical Center",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 2
+     },
+     {
+      "name": "Spanish Hills Interventional Pain Specialists",
+      "city": "Camarillo",
+      "state": "California",
+      "lat": 34.216,
+      "lon": -119.038,
+      "trials": 2
+     },
+     {
+      "name": "Spinal Diagnostics",
+      "city": "Tualatin",
+      "state": "Oregon",
+      "lat": 45.384,
+      "lon": -122.764,
+      "trials": 2
+     },
+     {
+      "name": "The Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.5,
+      "lon": -81.695,
+      "trials": 2
+     },
+     {
+      "name": "Thomas Jefferson Department of Neurosurgery",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.952,
+      "lon": -75.164,
+      "trials": 2
+     },
+     {
+      "name": "AHN Allegheny General Hospital",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.441,
+      "lon": -79.996,
+      "trials": 1
+     },
+     {
+      "name": "Adena Bone and Joint Center",
+      "city": "Chillicothe",
+      "state": "Ohio",
+      "lat": 39.333,
+      "lon": -82.982,
+      "trials": 1
+     },
+     {
+      "name": "Advanced Pain Solutions",
+      "city": "Mesquite",
+      "state": "Texas",
+      "lat": 32.767,
+      "lon": -96.599,
+      "trials": 1
+     },
+     {
+      "name": "Ainsworth Institute of Pain Management",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     },
+     {
+      "name": "Albany Medical Center",
+      "city": "Albany",
+      "state": "New York",
+      "lat": 42.653,
+      "lon": -73.756,
+      "trials": 1
+     },
+     {
+      "name": "Anesthesia Pain Care Consultants",
+      "city": "Tamarac",
+      "state": "Florida",
+      "lat": 26.213,
+      "lon": -80.25,
+      "trials": 1
+     },
+     {
+      "name": "Arizona Pain Specialists",
+      "city": "Scottsdale",
+      "state": "Arizona",
+      "lat": 33.509,
+      "lon": -111.899,
+      "trials": 1
+     },
+     {
+      "name": "Axis Spine Center",
+      "city": "Coeur d'Alene",
+      "state": "Idaho",
+      "lat": 47.678,
+      "lon": -116.78,
+      "trials": 1
+     },
+     {
+      "name": "Azalea Orthopedics",
+      "city": "Tyler",
+      "state": "Texas",
+      "lat": 32.351,
+      "lon": -95.301,
+      "trials": 1
+     },
+     {
+      "name": "Banner University Medical Center",
+      "city": "Tucson",
+      "state": "Arizona",
+      "lat": 32.222,
+      "lon": -110.926,
+      "trials": 1
+     },
+     {
+      "name": "Banner University Medical Center Tucson Campus",
+      "city": "Tucson",
+      "state": "Arizona",
+      "lat": 32.222,
+      "lon": -110.926,
+      "trials": 1
+     },
+     {
+      "name": "Barrow Brain & Spine",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "lat": 33.448,
+      "lon": -112.074,
+      "trials": 1
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 1
+     },
+     {
+      "name": "Better Health Clinical Research",
+      "city": "Newnan",
+      "state": "Georgia",
+      "lat": 33.381,
+      "lon": -84.8,
+      "trials": 1
+     },
+     {
+      "name": "Brigham & Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.358,
+      "lon": -71.06,
+      "trials": 1
+     },
+     {
+      "name": "Burkhart Research Institute for Orthopaedics",
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.424,
+      "lon": -98.494,
+      "trials": 1
+     },
+     {
+      "name": "California Orthopedics & Spine",
+      "city": "Larkspur",
+      "state": "California",
+      "lat": 37.934,
+      "lon": -122.535,
+      "trials": 1
+     },
+     {
+      "name": "Carolina Orthopedics and Neurosurgical Associates",
+      "city": "Spartanburg",
+      "state": "South Carolina",
+      "lat": 34.95,
+      "lon": -81.932,
+      "trials": 1
+     },
+     {
+      "name": "Center for Interventional Pain & Spine",
+      "city": "Exton",
+      "state": "Pennsylvania",
+      "lat": 40.029,
+      "lon": -75.621,
+      "trials": 1
+     },
+     {
+      "name": "Center for Intervetional Pain and Spine",
+      "city": "Exton",
+      "state": "Pennsylvania",
+      "lat": 40.029,
+      "lon": -75.621,
+      "trials": 1
+     },
+     {
+      "name": "Central Texas Pain Institute",
+      "city": "Killeen",
+      "state": "Texas",
+      "lat": 31.117,
+      "lon": -97.728,
+      "trials": 1
+     },
+     {
+      "name": "Chicago Anesthesia Associates",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 1
+     },
+     {
+      "name": "Chicago Anesthesia Associates, S.C.",
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.85,
+      "lon": -87.65,
+      "trials": 1
+     },
+     {
+      "name": "Coastal Orthopedics & Sports Medicine Southwest FL",
+      "city": "Bradenton",
+      "state": "Florida",
+      "lat": 27.499,
+      "lon": -82.575,
+      "trials": 1
+     },
+     {
+      "name": "Coastal Pain & Spinal Diagnostics Medical Group",
+      "city": "Carlsbad",
+      "state": "California",
+      "lat": 33.158,
+      "lon": -117.351,
+      "trials": 1
+     },
+     {
+      "name": "Columbia University",
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.714,
+      "lon": -74.006,
+      "trials": 1
+     }
+    ],
+    "trialSiteTotals": {
+     "sites": 142,
+     "usSites": 110,
+     "trials": 13,
+     "scope": "device"
+    }
+   },
+   "caveat": "Facility-grain CMS procedure volumes are a lawful geographic proxy for where device procedures concentrate. MAUDE carries no patient geography; no patient-level claim is made. Hospital star ratings are hospital-wide CMS quality measures, not device-specific. CMS suppresses cells under 11 discharges, so facility volumes are floors.",
+   "source": "CMS Medicare inpatient/outpatient hospital charge data (per-facility DRG/APC volumes), CMS Hospital Compare, Census TIGER/ACS county geography, and CMS Medicare geography-and-service utilization (state grain); procedure codes keyword-matched to this device type (codes listed)."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 13,
+    "trialsWithAeTables": 5,
+    "seriousEventRows": 78,
+    "seriousSubjectsAffected": 88,
+    "deathTermSubjects": 4,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 13,
+    "trialsWithAeTables": 5,
+    "trialsWithSerious": 4,
+    "totals": {
+     "serious": {
+      "rows": 78,
+      "subjects": 88
+     },
+     "other": {
+      "rows": 47,
+      "subjects": 57
+     },
+     "deathTermSubjects": 4
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Infection",
+      "organSystem": "Infections and infestations",
+      "rows": 5,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "Pneumonia",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 1,
+      "subjectsAffected": 5
+     },
+     {
+      "term": "Death",
+      "organSystem": "General disorders",
+      "rows": 1,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Bone Fracture",
+      "organSystem": "Musculoskeletal and connective tissue disorders",
+      "rows": 2,
+      "subjectsAffected": 3
+     },
+     {
+      "term": "Congestive Heart Failure",
+      "organSystem": "Cardiac disorders",
+      "rows": 2,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Gastrointestinal or Genitourinary Compromise",
+      "organSystem": "Gastrointestinal disorders",
+      "rows": 1,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Changes in Stimulation or Reduced Pain Relief Due to Lead Migration",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 1,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Pulmonary Edema",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 3,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Embolism",
+      "organSystem": "General disorders",
+      "rows": 1,
+      "subjectsAffected": 2
+     },
+     {
+      "term": "Pain Below the Level of Implant",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 1,
+      "subjectsAffected": 2
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT02800863",
+      "title": "TARGET Post-Approval Study",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2016",
+      "seriousRows": 33,
+      "seriousSubjects": 41
+     },
+     {
+      "nctId": "NCT03082261",
+      "title": "Multi-center Prospective Study Determining the Sustainability of Pain Relief and Psychosocial and Functional Responses W",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2017",
+      "seriousRows": 32,
+      "seriousSubjects": 39
+     },
+     {
+      "nctId": "NCT04479787",
+      "title": "Spinal Cord Stimulation vs. Medical Management for Low Back Pain (DISTINCT)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 12,
+      "seriousSubjects": 7
+     },
+     {
+      "nctId": "NCT03884231",
+      "title": "A Post-Market Study Evaluating the Safety of Infinity DBS System With MR Conditional Labeling",
+      "phase": null,
+      "status": "COMPLETED",
+      "startYear": "2019",
+      "seriousRows": 1,
+      "seriousSubjects": 1
+     },
+     {
+      "nctId": "NCT02896361",
+      "title": "Burst Optimized Stimulation Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2016",
+      "seriousRows": 0,
+      "seriousSubjects": 0
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 10,
+    "countries": 5,
+    "sources": 5,
+    "firstForeignDate": "2017-09-12",
+    "latestAction": {
+     "country": "Canada",
+     "date": "2026-04-30",
+     "classification": "Type II"
+    },
+    "screenedOut": 21
+   },
+   "payload": {
+    "countries": [
+     {
+      "code": "CH",
+      "name": "Switzerland",
+      "total": 3,
+      "actions": [
+       {
+        "date": "2026-04-29",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Proclaim 3363, 3660, 3661, 3662, 3663, 3664, 3665, 3667",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2024-06-12",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Proclaim 3660, 3661, 3662, 3664, 3665, 3667",
+        "reason": null,
+        "url": null
+       },
+       {
+        "date": "2023-07-31",
+        "source": "swissmedic-fsca",
+        "actionType": "Field Safety Corrective Action",
+        "classification": null,
+        "product": "Proclaim DRG Neurostimulation System 3664 \u00b7 Infinity Deep Brain Stimulation (DBS) IPG 6660; 6662 \u00b7 Proclaim XR SCS and Proclaim Elite SCS System 3660; 3662",
+        "reason": "additional Information on Patient FU",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "CA",
+      "name": "Canada",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2026-04-30",
+        "source": "medeffect-canada",
+        "actionType": "Recall / safety alert",
+        "classification": "Type II",
+        "product": "Abbott's Proclaim\u2122 SCS/Proclaim\u2122 DRG/Infinity\u2122 DBS Implantable Pulse Generators \u00b7 Abbott's Proclaim\u2122 SCS/Proclaim\u2122 DRG/Infinity\u2122 DBS Implantable Pulse Generators",
+        "reason": "Device compatibility - Performance",
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/abbott-s-proclaimtm-scsproclaimtm-drginfinitytm-dbs-implantable-pulse-generators"
+       },
+       {
+        "date": "2017-09-12",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "II",
+        "product": "PROCLAIM 5 ELITE IMPLANTABLE PULSE GENERATOR",
+        "reason": "ABBOTT IS ADVISING PHYSICIANS THAT OUR COMPANY IS AWARE OF INSTANCES IN WHICH THE ELECTIVE REPLACEMENT INDICATOR (ERI) IN SOME DEVICES HAS TRIGGERED EARLIER THAN INTENDED. IN THESE CASES THE ERI ALERTS WERE TRIGGERED EARLY DUE TO AN ERROR IN HOW THE DEVICE CALCULATES THE ACTUAL REMAINING BATTERY LIF",
+        "url": null
+       }
+      ]
+     },
+     {
+      "code": "AU",
+      "name": "Australia",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2025-03-13",
+        "source": "tga-drac",
+        "actionType": "Product Correction",
+        "classification": "Class III",
+        "product": "The Abbott Proclaim Spinal Cord Stimulation (SCS) system",
+        "reason": "Action level: Hospital",
+        "url": null
+       },
+       {
+        "date": "2017-09-15",
+        "source": "icij-imdd",
+        "actionType": "Recall",
+        "classification": "Class II",
+        "product": "NM Implantable Pulse Generator within the Infinity and Proclaim device families",
+        "reason": "Abbott has become aware of instances in which the elective replacement indicator (ERI) in some devices has triggered earlier than intended. In these cases, the ERI alerts were triggered early due to an error in how the device calculates the actual remaining battery life in the impacted implantable p",
+        "url": "https://apps.tga.gov.au/Prod/sara/arn-detail.aspx?k=RC-2017-RN-01184-1"
+       }
+      ]
+     },
+     {
+      "code": "NZ",
+      "name": "New Zealand",
+      "total": 2,
+      "actions": [
+       {
+        "date": "2024-06-06",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "Proclaim DRG IPG (inc. Port Plug 7108) Model 3664",
+        "reason": "From February 2017 through April 2024, there have been complaints received that the devices have reached EOS, related to this issue. In each of these events, the patient lost therapy, and therapy was restored after replacement surgery.",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=33150"
+       },
+       {
+        "date": "2024-06-06",
+        "source": "medsafe-nz",
+        "actionType": "Correction",
+        "classification": "Healthcare Professional",
+        "product": "Infinity IPG Header M (ABT) M (ABT)",
+        "reason": "From February 2017 through April 2024, there have been complaints received (that devices have reached EOS) related to this issue. In these events, the patient lost therapy, and therapy was restored after replacement surgery.\nThis issue could result in loss of therapy if the device reaches EOS prior ",
+        "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=33148"
+       }
+      ]
+     },
+     {
+      "code": "BE",
+      "name": "Belgium",
+      "total": 1,
+      "actions": [
+       {
+        "date": "2018-10-11",
+        "source": "icij-imdd",
+        "actionType": "Field Safety Notice",
+        "classification": null,
+        "product": "8-Channel Leads for Infinity DBS system",
+        "reason": null,
+        "url": "https://www.afmps.be/fr/humain/produits_de_sante/dispositifs_medicaux/materiovigilance/fsn"
+       }
+      ]
+     }
+    ],
+    "series": [
+     {
+      "year": 2017,
+      "value": 2
+     },
+     {
+      "year": 2018,
+      "value": 1
+     },
+     {
+      "year": 2023,
+      "value": 1
+     },
+     {
+      "year": 2024,
+      "value": 3
+     },
+     {
+      "year": 2025,
+      "value": 1
+     },
+     {
+      "year": 2026,
+      "value": 2
+     }
+    ],
+    "euStatus": {
+     "pending": false,
+     "absent": true,
+     "registrations": 0,
+     "onMarket": 0,
+     "noLongerOnMarket": 0,
+     "riskClasses": null,
+     "manufacturers": null,
+     "note": "No EUDAMED UDI registration found for this device family (word-bounded trade-name match over 2.54M EU registrations). EU registration becomes mandatory for legacy devices 28 Nov 2026 \u2014 absence today is itself a datapoint."
+    },
+    "callouts": [
+     {
+      "text": "The earliest corroborated foreign regulator action (2017-09-12) predates the first US Class 1 recall (2023-07-18).",
+      "foreign": {
+       "date": "2017-09-12"
+      },
+      "us": {
+       "date": "2023-07-18"
+      }
+     }
+    ],
+    "screenedOut": 21,
+    "screenedNote": "21 additional brand-term matches were screened out as likely different products (generic term, no manufacturer signal) and are not attributed to this device.",
+    "sourceLabels": {
+     "icij-imdd": "ICIJ International Medical Devices Database (46-country historic layer)",
+     "medeffect-canada": "Health Canada (MedEffect recalls & safety alerts)",
+     "medsafe-nz": "Medsafe New Zealand (recalls)",
+     "swissmedic-fsca": "Swissmedic (Field Safety Corrective Actions)",
+     "tga-drac": "TGA Australia (DRAC recall actions)"
+    },
+    "attribution": "Historic multi-country layer: International Consortium of Investigative Journalists, International Medical Devices Database. EU registrations: \u00a9 European Union, EUDAMED, CC BY 4.0. Contains information licensed under the Open Government Licence \u2014 Canada / v3.0 (UK)."
+   },
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 12500
+}

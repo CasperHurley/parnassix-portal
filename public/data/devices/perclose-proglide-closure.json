@@ -1,0 +1,1115 @@
+{
+ "slug": "perclose-proglide-closure",
+ "name": "Perclose ProGlide closure",
+ "maker": "Abbott \u00b7 Vascular",
+ "rank": 42,
+ "pathway": "pma (pure \u2014 P960043 single lineage, 1998-2026; ProGlide enters at S048 2004-02-11)",
+ "maturity": "dormant",
+ "stats": {
+  "deaths": 185,
+  "injuries": 70056,
+  "malfunctions": 2687,
+  "recalls": 314,
+  "classI": 2
+ },
+ "summary": [
+  {
+   "label": "Manufacturer",
+   "value": "Abbott \u00b7 Vascular"
+  },
+  {
+   "label": "Regulatory pathway",
+   "value": "pma (pure \u2014 P960043 single lineage, 1998-2026; ProGlide enters at S048 2004-02-11)"
+  },
+  {
+   "label": "Preemption posture",
+   "value": "PMA-preempted with NO visible parallel-claim predicate \u2014 the computed record's '191 nonconforming recalls' is MIS-KEYED JUNK (its sample text is a laparoscopic grasper; the fused code map swept in non-Perclose codes). Re-keyed truth: the corpus recall table contains ZERO recalls matching PERCLOSE/PROGLIDE in product description and ZERO nonconforming-material recalls on product code MGB across ALL"
+  },
+  {
+   "label": "Litigation maturity",
+   "value": "dormant"
+  },
+  {
+   "label": "MAUDE deaths",
+   "value": 185,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE injuries",
+   "value": 70056,
+   "format": "number"
+  },
+  {
+   "label": "MAUDE malfunctions",
+   "value": 2687,
+   "format": "number"
+  },
+  {
+   "label": "Recalls (all classes)",
+   "value": 314,
+   "format": "number"
+  },
+  {
+   "label": "Class I recalls",
+   "value": 2,
+   "format": "number"
+  },
+  {
+   "label": "Top failure mode",
+   "value": "Failure to Cycle",
+   "module": "narratives"
+  },
+  {
+   "label": "Physicians paid (device-scope)",
+   "value": 7946,
+   "format": "number"
+  },
+  {
+   "label": "Total payments",
+   "value": 1879764.07,
+   "format": "usd"
+  },
+  {
+   "label": "Top paid physician",
+   "value": "Erin Moore",
+   "module": "experts"
+  },
+  {
+   "label": "Granted patents (assignee)",
+   "value": 2452,
+   "format": "number"
+  },
+  {
+   "label": "Foreign regulator actions",
+   "value": 0,
+   "format": "number",
+   "module": "global-actions"
+  },
+  {
+   "label": "Countries with actions",
+   "value": 0,
+   "format": "number",
+   "module": "global-actions"
+  }
+ ],
+ "recentRecalls": [
+  {
+   "date": "2026-05-05",
+   "classification": "Unclassified",
+   "reason": "Software anomaly that causes a false display of error code 5018.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-27",
+   "classification": "Class II",
+   "reason": "Following a complaint investigation, Olympus identified a potential defect in the 24V power supply module in some SOLTIVE laser units which may cause the system to become inoperable. Additionally, smoke or a burning smel",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-02-27",
+   "classification": "Class II",
+   "reason": "Following a complaint investigation, Olympus identified a potential defect in the 24V power supply module in some SOLTIVE laser units which may cause the system to become inoperable. Additionally, smoke or a burning smel",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2026-01-27",
+   "classification": "Class II",
+   "reason": "Reports of devices sparking/popping and potentially burning patients.",
+   "status": "Open, Classified"
+  },
+  {
+   "date": "2025-12-15",
+   "classification": "Class II",
+   "reason": "The console label for affected devices is missing the \"DANGER\" symbol.",
+   "status": "Completed"
+  },
+  {
+   "date": "2025-07-22",
+   "classification": "Class II",
+   "reason": "The potential for unsterilized product within finished product labeled as sterile.",
+   "status": "Open, Classified"
+  }
+ ],
+ "timeline": [
+  {
+   "key": "recalls",
+   "label": "Recalls",
+   "unit": "recalls",
+   "points": [
+    {
+     "year": 2003,
+     "value": 10
+    },
+    {
+     "year": 2004,
+     "value": 1
+    },
+    {
+     "year": 2005,
+     "value": 8
+    },
+    {
+     "year": 2006,
+     "value": 6
+    },
+    {
+     "year": 2007,
+     "value": 12
+    },
+    {
+     "year": 2008,
+     "value": 4
+    },
+    {
+     "year": 2009,
+     "value": 2
+    },
+    {
+     "year": 2010,
+     "value": 16
+    },
+    {
+     "year": 2011,
+     "value": 27
+    },
+    {
+     "year": 2012,
+     "value": 11
+    },
+    {
+     "year": 2013,
+     "value": 11
+    },
+    {
+     "year": 2014,
+     "value": 15
+    },
+    {
+     "year": 2015,
+     "value": 40
+    },
+    {
+     "year": 2016,
+     "value": 14
+    },
+    {
+     "year": 2017,
+     "value": 21
+    },
+    {
+     "year": 2018,
+     "value": 30
+    },
+    {
+     "year": 2019,
+     "value": 19
+    },
+    {
+     "year": 2020,
+     "value": 4
+    },
+    {
+     "year": 2021,
+     "value": 7
+    },
+    {
+     "year": 2022,
+     "value": 9
+    },
+    {
+     "year": 2023,
+     "value": 21
+    },
+    {
+     "year": 2024,
+     "value": 13
+    },
+    {
+     "year": 2025,
+     "value": 9
+    },
+    {
+     "year": 2026,
+     "value": 4
+    }
+   ]
+  },
+  {
+   "key": "deaths",
+   "label": "Death reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1999,
+     "value": 1
+    },
+    {
+     "year": 2000,
+     "value": 1
+    },
+    {
+     "year": 2001,
+     "value": 1
+    },
+    {
+     "year": 2002,
+     "value": 2
+    },
+    {
+     "year": 2003,
+     "value": 1
+    },
+    {
+     "year": 2004,
+     "value": 5
+    },
+    {
+     "year": 2005,
+     "value": 2
+    },
+    {
+     "year": 2006,
+     "value": 3
+    },
+    {
+     "year": 2007,
+     "value": 5
+    },
+    {
+     "year": 2008,
+     "value": 3
+    },
+    {
+     "year": 2009,
+     "value": 5
+    },
+    {
+     "year": 2010,
+     "value": 3
+    },
+    {
+     "year": 2011,
+     "value": 9
+    },
+    {
+     "year": 2012,
+     "value": 2
+    },
+    {
+     "year": 2013,
+     "value": 16
+    },
+    {
+     "year": 2014,
+     "value": 4
+    },
+    {
+     "year": 2015,
+     "value": 4
+    },
+    {
+     "year": 2016,
+     "value": 10
+    },
+    {
+     "year": 2017,
+     "value": 1
+    },
+    {
+     "year": 2018,
+     "value": 9
+    },
+    {
+     "year": 2019,
+     "value": 5
+    },
+    {
+     "year": 2020,
+     "value": 14
+    },
+    {
+     "year": 2021,
+     "value": 18
+    },
+    {
+     "year": 2022,
+     "value": 4
+    },
+    {
+     "year": 2023,
+     "value": 19
+    },
+    {
+     "year": 2024,
+     "value": 27
+    },
+    {
+     "year": 2026,
+     "value": 11
+    }
+   ]
+  },
+  {
+   "key": "injuries",
+   "label": "Injury reports",
+   "unit": "reports",
+   "module": "narratives",
+   "points": [
+    {
+     "year": 1998,
+     "value": 14
+    },
+    {
+     "year": 1999,
+     "value": 26
+    },
+    {
+     "year": 2000,
+     "value": 26
+    },
+    {
+     "year": 2001,
+     "value": 11
+    },
+    {
+     "year": 2002,
+     "value": 31
+    },
+    {
+     "year": 2003,
+     "value": 20
+    },
+    {
+     "year": 2004,
+     "value": 48
+    },
+    {
+     "year": 2005,
+     "value": 63
+    },
+    {
+     "year": 2006,
+     "value": 54
+    },
+    {
+     "year": 2007,
+     "value": 109
+    },
+    {
+     "year": 2008,
+     "value": 844
+    },
+    {
+     "year": 2009,
+     "value": 1020
+    },
+    {
+     "year": 2010,
+     "value": 1904
+    },
+    {
+     "year": 2011,
+     "value": 2330
+    },
+    {
+     "year": 2012,
+     "value": 2374
+    },
+    {
+     "year": 2013,
+     "value": 1995
+    },
+    {
+     "year": 2014,
+     "value": 2563
+    },
+    {
+     "year": 2015,
+     "value": 2767
+    },
+    {
+     "year": 2016,
+     "value": 2958
+    },
+    {
+     "year": 2017,
+     "value": 3208
+    },
+    {
+     "year": 2018,
+     "value": 3568
+    },
+    {
+     "year": 2019,
+     "value": 3737
+    },
+    {
+     "year": 2020,
+     "value": 3806
+    },
+    {
+     "year": 2021,
+     "value": 5680
+    },
+    {
+     "year": 2022,
+     "value": 7741
+    },
+    {
+     "year": 2023,
+     "value": 11295
+    },
+    {
+     "year": 2024,
+     "value": 11300
+    },
+    {
+     "year": 2025,
+     "value": 14
+    },
+    {
+     "year": 2026,
+     "value": 550
+    }
+   ]
+  },
+  {
+   "key": "payments",
+   "label": "Physician payments",
+   "unit": "USD",
+   "module": "experts",
+   "points": [
+    {
+     "year": 2016,
+     "value": 35020.85
+    },
+    {
+     "year": 2017,
+     "value": 448663.73
+    },
+    {
+     "year": 2018,
+     "value": 146847.56
+    },
+    {
+     "year": 2019,
+     "value": 226567.2
+    },
+    {
+     "year": 2020,
+     "value": 116163.32
+    },
+    {
+     "year": 2021,
+     "value": 286552.34
+    },
+    {
+     "year": 2022,
+     "value": 119906.66
+    },
+    {
+     "year": 2023,
+     "value": 142036.25
+    },
+    {
+     "year": 2024,
+     "value": 358006.16
+    }
+   ]
+  },
+  {
+   "key": "patents",
+   "label": "Patent grants",
+   "unit": "patents",
+   "module": "ip",
+   "points": [
+    {
+     "year": 1990,
+     "value": 70
+    },
+    {
+     "year": 1991,
+     "value": 87
+    },
+    {
+     "year": 1992,
+     "value": 139
+    },
+    {
+     "year": 1993,
+     "value": 141
+    },
+    {
+     "year": 1994,
+     "value": 149
+    },
+    {
+     "year": 1995,
+     "value": 117
+    },
+    {
+     "year": 1996,
+     "value": 190
+    },
+    {
+     "year": 1997,
+     "value": 203
+    },
+    {
+     "year": 1998,
+     "value": 176
+    },
+    {
+     "year": 1999,
+     "value": 155
+    },
+    {
+     "year": 2000,
+     "value": 134
+    },
+    {
+     "year": 2001,
+     "value": 129
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "narratives": {
+   "teaser": {
+    "narratives": 188368,
+    "distinctProblemCodes": 124,
+    "clusters": 8
+   },
+   "payload": {
+    "clusters": [
+     {
+      "problem": "Failure to Cycle",
+      "reports": 29379,
+      "narrative": "IT WAS REPORTED THAT SUTURE PLACEMENT IN THE RIGHT COMMON FEMORAL ARTERY WAS ATTEMPTED WITH A PROGLIDE DEVICE USING THE PRE-CLOSE TECHNIQUE VIA A 6F AND 8F SHEATH PRIOR TO A LARGE-HOLE INTERVENTIONAL PROCEDURE. REPORTEDLY, WHEN THE PLUNGER WAS REMOVED, NO SUTURES WERE ATTACHED TO THE NEEDLES. THE SUTURES OF TWO NEW PROGLIDE DEVICES WERE SUCCESSFULLY PRE-PLACED. THE SHEATH WAS 16F AND THE PROCEDURE WAS COMPLETED. HEMO"
+     },
+     {
+      "problem": "Material Separation",
+      "reports": 6686,
+      "narrative": "VISUAL INSPECTIONS WERE PERFORMED ON THE RETURNED DEVICE. THE REPORTED LINK BREAK WAS CONFIRMED. A REVIEW OF THE LOT HISTORY RECORD IDENTIFIED NO MANUFACTURING NONCONFORMITIES ISSUED TO THE REPORTED LOT THAT WOULD HAVE CONTRIBUTED TO THIS EVENT. THE REPORTED DIFFICULTIES AND SUBSEQUENT TREATMENT APPEAR TO BE RELATED TO AN INTERACTION OF THE DEVICE WITH PATIENT ANATOMY, LINK PULLED UNTIL IT BREAKS DUE TO CIRCUMSTANCES"
+     },
+     {
+      "problem": "Device Operates Differently Than Expected",
+      "reports": 6585,
+      "narrative": "(B)(4). EVALUATION SUMMARY: THE DEVICE WAS RETURNED AND THE REPORTED NEEDLE TO SUTURE RETRIEVAL ISSUE WAS CONFIRMED. BASED ON ANALYSIS OF THE RETURNED DEVICE, THERE IS NO INDICATION OF A PRODUCT DEFICIENCY. A REVIEW OF THE LOT HISTORY RECORD REVEALED NO NON-CONFORMANCES FOR THIS LOT. A QUERY OF THE COMPLAINT HISTORY OF THE REPORTED LOT DID NOT INDICATE A MANUFACTURING ISSUE. BASED ON THE INFORMATION REVIEWED, THERE I"
+     },
+     {
+      "problem": "Improper or Incorrect Procedure or Method",
+      "reports": 2995,
+      "narrative": "SUBSEQUENT TO THE INITIALLY FILED REPORT, THE FOLLOWING INFORMATION WAS RECEIVED: REPORTEDLY, THERE WAS RESISTANCE INSERTING THE DEVICE INTO THE ANATOMY. THE DEVICE WAS USED; HOWEVER, DID NOT ACHIEVE ARTERIOTOMY CLOSURE. MANUAL ARTERIAL COMPRESSION WAS USED TO ACHIEVE HEMOSTASIS. THERE WAS NO ADVERSE PATIENT SEQUELA AND NO REPORTED CLINICALLY SIGNIFICANT DELAY IN THE PROCEDURE OR THERAPY. NO ADDITIONAL INFORMATION WA"
+     },
+     {
+      "problem": "Malposition of Device",
+      "reports": 2356,
+      "narrative": "THE DEVICE WAS NOT RETURNED FOR ANALYSIS. A REVIEW OF THE MANUFACTURING RECORDS AND COMPLAINT HISTORY OF THE REPORTED LOT COULD NOT BE CONDUCTED BECAUSE THE LOT NUMBER WAS NOT PROVIDED. THE INVESTIGATION WAS UNABLE TO DETERMINE A CONCLUSIVE CAUSE FOR THE REPORTED DIFFICULTIES; HOWEVER, THE TREATMENT APPEARS TO BE RELATED TO CIRCUMSTANCES OF THE PROCEDURE. THERE IS NO INDICATION OF A PRODUCT QUALITY ISSUE WITH RESPECT"
+     },
+     {
+      "problem": "Detachment Of Device Component",
+      "reports": 2052,
+      "narrative": "IT WAS REPORTED THAT ARTERIOTOMY CLOSURE OF THE RIGHT COMMON FEMORAL ARTERY WAS ATTEMPTED WITH PROGLIDE DEVICES, USING THE PRE-CLOSE TECHNIQUE, VIA AN 8F SHEATH PRIOR TO A SUPERFICIAL FEMORAL ARTERY INTERVENTIONAL PROCEDURE. THE PHYSICIAN WAS USING THE PRE-CLOSE PROCEDURE BECAUSE OF HEAVY SCAR TISSUE AT THE ACCESS SITE. REPORTEDLY, THE FIRST PROGLIDE DEVICE HAD A CUFF MISS. A SECOND PROGLIDE DEVICE WAS USED AND A SUT"
+     },
+     {
+      "problem": "Insufficient Information",
+      "reports": 1474,
+      "narrative": "IT WAS REPORTED THAT SUTURE PLACEMENT WITH A PROGLIDE DEVICE VIA 6FR SHEATH WAS ATTEMPTED IN A CALCIFIED UNSPECIFIED VESSEL USING THE PRECLOSE TECHNIQUE PRIOR TO A TRANSCATHETER AORTIC VALVE IMPLANTATION (TAVI) PROCEDURE. REPORTEDLY, AN UNKNOWN DEVICE MALFUNCTION OCCURRED WITH THE PROGLIDE DEVICE. THE TAVI PROCEDURE WAS COMPLETED. THE METHOD USED TO ACHIEVE HEMOSTASIS WAS NOT REPORTED. THERE WAS NO REPORTED ADVERSE P"
+     },
+     {
+      "problem": "Difficult to Remove",
+      "reports": 1456,
+      "narrative": "THE DEVICE IS EXPECTED TO BE RETURNED FOR INVESTIGATION. IT HAS NOT YET BEEN RECEIVED. A FOLLOW-UP REPORT WILL BE SUBMITTED WITH ALL ADDITIONAL RELEVANT INFORMATION."
+     }
+    ]
+   },
+   "source": "FDA MAUDE narratives joined to device-problem codes; one cluster per top failure mode, one representative narrative each (FDA-de-identified)."
+  },
+  "predicate-tree": {
+   "notApplicable": true,
+   "reason": "PMA-pathway device \u2014 there is no 510(k) predicate lineage. A PMA supplement-lineage map is available on request.",
+   "source": "FDA 510(k) summaries predicate-edge extraction."
+  },
+  "experts": {
+   "teaser": {
+    "physicians": 7946,
+    "totalPaid": 1879764.07,
+    "scope": "device",
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "FL",
+      "total": 74081.79,
+      "payments": 71,
+      "years": "2016\u20132023",
+      "topNature": "Travel and Lodging"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "CA",
+      "total": 43334.15,
+      "payments": 18,
+      "years": "2017\u20132023",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 39300.0,
+      "payments": 39,
+      "years": "2021\u20132022",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "CA",
+      "total": 38781.51,
+      "payments": 38,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "TN",
+      "total": 34382.45,
+      "payments": 124,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology",
+      "state": "FL",
+      "total": 29675.52,
+      "payments": 20,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "VA",
+      "total": 28600.72,
+      "payments": 59,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "AZ",
+      "total": 26804.93,
+      "payments": 43,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "NY",
+      "total": 21673.76,
+      "payments": 14,
+      "years": "2016\u20132018",
+      "topNature": "Consulting Fee"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MO",
+      "total": 21017.46,
+      "payments": 29,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage"
+     }
+    ]
+   },
+   "payload": {
+    "cards": [
+     {
+      "id": "p1",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "FL",
+      "total": 74081.79,
+      "payments": 71,
+      "years": "2016\u20132023",
+      "topNature": "Travel and Lodging",
+      "name": "Erin Moore"
+     },
+     {
+      "id": "p2",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "CA",
+      "total": 43334.15,
+      "payments": 18,
+      "years": "2017\u20132023",
+      "topNature": "Consulting Fee",
+      "name": "Steven Farley"
+     },
+     {
+      "id": "p3",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease",
+      "state": "CA",
+      "total": 39300.0,
+      "payments": 39,
+      "years": "2021\u20132022",
+      "topNature": "Consulting Fee",
+      "name": "Ramtin Agah"
+     },
+     {
+      "id": "p4",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "CA",
+      "total": 38781.51,
+      "payments": 38,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Brian Derubertis"
+     },
+     {
+      "id": "p5",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery",
+      "state": "TN",
+      "total": 34382.45,
+      "payments": 124,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Bryan Fisher"
+     },
+     {
+      "id": "p6",
+      "specialty": "Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology",
+      "state": "FL",
+      "total": 29675.52,
+      "payments": 20,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Srinivas Tummala"
+     },
+     {
+      "id": "p7",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology",
+      "state": "VA",
+      "total": 28600.72,
+      "payments": 59,
+      "years": "2019\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Alap Shah"
+     },
+     {
+      "id": "p8",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "AZ",
+      "total": 26804.93,
+      "payments": 43,
+      "years": "2016\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Luis Leon"
+     },
+     {
+      "id": "p9",
+      "specialty": "Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery",
+      "state": "NY",
+      "total": 21673.76,
+      "payments": 14,
+      "years": "2016\u20132018",
+      "topNature": "Consulting Fee",
+      "name": "Darren Schneider"
+     },
+     {
+      "id": "p10",
+      "specialty": "Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology",
+      "state": "MO",
+      "total": 21017.46,
+      "payments": 29,
+      "years": "2017\u20132024",
+      "topNature": "Food and Beverage",
+      "name": "Matthew Bunte"
+     }
+    ],
+    "scope": "device"
+   },
+   "caveat": "Payment records are sourced facts from CMS Open Payments (manufacturer-reported). Co-occurrence of payments and advocacy is presented for investigation; it is not an assertion that any physician was improperly influenced.",
+   "source": "CMS Open Payments general payments, matched to this device's product names."
+  },
+  "corporate": {
+   "payload": {
+    "parent": "Edwards Lifesciences Corp",
+    "nParents": 157,
+    "inspections": 19245,
+    "citations": 15458,
+    "warningLetter": false,
+    "litigation": {
+     "federalCases": 8516,
+     "inMdl": 7239,
+     "terminationRatio": 0.53,
+     "firstFiled": "1976-12-30",
+     "lastFiled": "2021-06-30"
+    }
+   },
+   "source": "FDA registration/inspection leads joined by product code; federal product-liability dockets matched on defendant name (structural proxy)."
+  },
+  "ip": {
+   "teaser": {
+    "patents": 2452,
+    "assignees": [
+     "Abbott"
+    ]
+   },
+   "payload": {
+    "patents": 2452,
+    "assignees": [
+     {
+      "name": "Abbott Laboratories",
+      "patents": 2436
+     },
+     {
+      "name": "Abbott Biotech, Inc.",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Laboraties",
+      "patents": 3
+     },
+     {
+      "name": "Abbott Labs.",
+      "patents": 2
+     },
+     {
+      "name": "Abbott Laboratories Ltd.",
+      "patents": 1
+     },
+     {
+      "name": "Abbott Laboratories & Central Glass Co LTD",
+      "patents": 1
+     }
+    ],
+    "recent": [
+     {
+      "id": "6329157",
+      "title": "Antigen cocktails and uses thereof",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329384",
+      "title": "Endothelin antagonist and renin-angiotensin system inhibitor as a combined preparation",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329386",
+      "title": "Tetrazole-containing rapamycin analogs with shortened half-lives",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329534",
+      "title": "Glucocorticoid receptor antagonists for treatment of diabetes",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6329536",
+      "title": "Stereoselective process for producing nitro compounds",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326355",
+      "title": "Method for the prevention and treatment of cachexia and anorexia",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6326500",
+      "title": "Imidazole derivatives for blocking the release of arachidonic acid from phospholipids",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     },
+     {
+      "id": "6323231",
+      "title": "Use of .alpha.1A adrenoceptor agonists with .alpha.1B and .alpha.1D antagonism for the treatment of stress urinary incontinence",
+      "year": 2001,
+      "assignee": "Abbott Laboratories"
+     }
+    ],
+    "caveat": "Assignee-level portfolio \u2014 patents matched on curated corporate assignee names for the manufacturer, not verified device-specific. Grant corpus covers 1970\u20132001."
+   },
+   "source": "USPTO bibliographic grant records (1970\u20132001), matched on curated corporate assignee names."
+  },
+  "icp-map": {
+   "notApplicable": true,
+   "reason": "No procedure-code mapping for this device."
+  },
+  "trial-aes": {
+   "teaser": {
+    "trialsMatched": 25,
+    "trialsWithAeTables": 5,
+    "seriousEventRows": 91,
+    "seriousSubjectsAffected": 128,
+    "deathTermSubjects": 0,
+    "scope": "device"
+   },
+   "payload": {
+    "scope": "device",
+    "trialsMatched": 25,
+    "trialsWithAeTables": 5,
+    "trialsWithSerious": 5,
+    "totals": {
+     "serious": {
+      "rows": 91,
+      "subjects": 128
+     },
+     "other": {
+      "rows": 131,
+      "subjects": 446
+     },
+     "deathTermSubjects": 0
+    },
+    "topSeriousTerms": [
+     {
+      "term": "Vascular Disorders",
+      "organSystem": "Vascular disorders",
+      "rows": 5,
+      "subjectsAffected": 19
+     },
+     {
+      "term": "Injury and Procedural Complications",
+      "organSystem": "Injury, poisoning and procedural complications",
+      "rows": 5,
+      "subjectsAffected": 13
+     },
+     {
+      "term": "Renal and Urinary Disorders",
+      "organSystem": "Renal and urinary disorders",
+      "rows": 5,
+      "subjectsAffected": 10
+     },
+     {
+      "term": "Investigations",
+      "organSystem": "Investigations",
+      "rows": 5,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "GI Disorder",
+      "organSystem": "Gastrointestinal disorders",
+      "rows": 5,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "General Disorder",
+      "organSystem": "General disorders",
+      "rows": 5,
+      "subjectsAffected": 9
+     },
+     {
+      "term": "Blood and Lymph Disorder",
+      "organSystem": "Blood and lymphatic system disorders",
+      "rows": 5,
+      "subjectsAffected": 8
+     },
+     {
+      "term": "Infections and Infestations",
+      "organSystem": "Infections and infestations",
+      "rows": 5,
+      "subjectsAffected": 6
+     },
+     {
+      "term": "Metabolism/Nutrition Disorders",
+      "organSystem": "Metabolism and nutrition disorders",
+      "rows": 5,
+      "subjectsAffected": 6
+     },
+     {
+      "term": "Respiratory/Thoracic Disorders",
+      "organSystem": "Respiratory, thoracic and mediastinal disorders",
+      "rows": 5,
+      "subjectsAffected": 6
+     }
+    ],
+    "trials": [
+     {
+      "nctId": "NCT01070069",
+      "title": "Percutaneous Endovascular Aneurysm Repair (PEVAR) Trial",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2010",
+      "seriousRows": 70,
+      "seriousSubjects": 113
+     },
+     {
+      "nctId": "NCT04632641",
+      "title": "Suture Closure AFtEr VEIN Access for Cardiac Procedures (SAFE-VEIN) Trial",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 14,
+      "seriousSubjects": 10
+     },
+     {
+      "nctId": "NCT04180540",
+      "title": "Comparison of Percutaneous Closure to Manual Compression for Hemostasis",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2020",
+      "seriousRows": 4,
+      "seriousSubjects": 3
+     },
+     {
+      "nctId": "NCT04904809",
+      "title": "Perclose Multi-Access Duplex Ultrasound (DUS) Study",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2021",
+      "seriousRows": 1,
+      "seriousSubjects": 1
+     },
+     {
+      "nctId": "NCT06983938",
+      "title": "This Study Will Evaluate the Safety and Potential Complications of Dual ProGlide vs Single ProGlide and Angioseal for Co",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "startYear": "2025",
+      "seriousRows": 2,
+      "seriousSubjects": 1
+     }
+    ]
+   },
+   "caveat": "Sponsor-reported adverse-event tables from the trial registry (results section), aggregated per study arm \u2014 a subject can appear under multiple terms and arms, so subject counts are not deduplicated across rows. The registry has no death event type; deaths are counted via death-worded terms. Trials matched by intervention name (device scope) or lead sponsor (manufacturer scope, labeled).",
+   "source": "AACT database, Clinical Trials Transformation Initiative (CTTI) \u2014 the relational parse of ClinicalTrials.gov; trials matched by this device's intervention names."
+  },
+  "global-actions": {
+   "teaser": {
+    "actions": 0,
+    "countries": 0,
+    "sources": 0,
+    "firstForeignDate": null,
+    "latestAction": null,
+    "screenedOut": 0
+   },
+   "payload": null,
+   "source": "Foreign-regulator actions matched to this device family by word-bounded brand terms with per-row corroboration signals (manufacturer match, distinctive brand, multi-brand co-occurrence); corroborated matches shown, screened matches counted. Sources: Health Canada MedEffect, MHRA UK FSN, Swissmedic FSCA, TGA DRAC, Medsafe NZ, ICIJ IMDD (historic), EUDAMED (EU registrations).",
+   "caveat": "Foreign action classifications are jurisdiction-specific (Canada Type I = most serious; TGA hazard Class I = lowest). The ICIJ layer is a historic journalistic compilation (largely pre-2020); current-source coverage runs through mid-2026. TGA rows are reproduced for research/evaluation; commercial redistribution of TGA DRAC content requires TGA permission."
+  }
+ },
+ "sources": [
+  "FDA MAUDE (device, master, narratives, problem codes)",
+  "FDA recall \u00d7 enforcement events",
+  "FDA 510(k) decisions + summary predicate citations",
+  "CMS Open Payments",
+  "CMS Medicare utilization (state grain)",
+  "AACT/CTTI ClinicalTrials.gov (trial sites, roles, sponsor AE tables)",
+  "USPTO bibliographic grants",
+  "Health Canada MedEffect \u00b7 MHRA UK FSN \u00b7 Swissmedic FSCA \u00b7 TGA DRAC \u00b7 Medsafe NZ \u00b7 ICIJ IMDD (historic) \u00b7 EUDAMED EU registrations"
+ ],
+ "dossierPrice": 12500
+}

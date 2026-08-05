@@ -179,6 +179,186 @@
    "dossierPrice": 12500,
    "hasTree": false,
    "hasIcp": true
+  },
+  {
+   "slug": "heartmate-ii-lvad",
+   "name": "HeartMate II LVAD",
+   "maker": "Abbott / Thoratec \u00b7 Structural heart",
+   "rank": 15,
+   "pathway": "pma (pure \u2014 P060040, product code DSQ; 120 supplement rows 2008-2026; zero 510k rows)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 6371,
+    "injuries": 17797,
+    "malfunctions": 6848,
+    "recalls": 17,
+    "classI": 10
+   },
+   "dossierPrice": 12500,
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "freestyle-libre-cgm",
+   "name": "FreeStyle Libre CGM",
+   "maker": "Abbott \u00b7 Diabetes",
+   "rank": 21,
+   "pathway": "mixed BY GENERATION (Libre original/Pro = PMA Class III; Libre 2/3/3 Plus = 510(k) Class II iCGM)",
+   "maturity": "early",
+   "stats": {
+    "deaths": 95,
+    "injuries": 69505,
+    "malfunctions": 396162,
+    "recalls": 12,
+    "classI": 8
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "aortic-stent-graft-aaa-evar",
+   "name": "Aortic stent graft (AAA/EVAR)",
+   "maker": "Medtronic / Gore / Cook \u00b7 Vascular",
+   "rank": 24,
+   "pathway": "pma \u2014 per-lineage, all Class III: Medtronic AneuRx P990020 (1999, discontinued) / Talent P070027 / Endurant P100021 (2010, 125 supplement rows through 2026 = the live Medtronic line); Gore Excluder P020004 (2002, 194 rows) + Conformable P200030; Cook Zenith Flex P020018 + Fenestrated P140016 + Alpha P180001. (Non-named but material: Endologix AFX/Powerlink P040002, Ovation/Alto P120006.) The 75 '510(k) rows' are accessories/peripherals, not the grafts.",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 3252,
+    "injuries": 31957,
+    "malfunctions": 6452,
+    "recalls": 265,
+    "classI": 7
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "mitraclip",
+   "name": "MitraClip",
+   "maker": "Abbott \u00b7 Structural heart",
+   "rank": 25,
+   "pathway": "pma (pure \u2014 P100009 + G5 P230007; the 3 510(k) rows are steerable guide catheters)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 1384,
+    "injuries": 13714,
+    "malfunctions": 9029,
+    "recalls": 5,
+    "classI": 1
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "abbott-pacemaker",
+   "name": "Abbott pacemaker",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 26,
+   "pathway": "pma (P880086 \u2014 the ex-Pacesetter/St. Jude pacemaker PMA, DXY/NVZ supplement stream 1989-2025: Accent/Assurity/Endurity/Zephyr generators \u2014 plus P140033, the LWP Assurity/Endurity MRI line 2017-2025). RE-KEY: the flagged LWP/NVZ 'two-code fusion' is BENIGN \u2014 LWP, NVZ and DXY are all pacemaker pulse-generator codes across PMA generations, one device type. The REAL contamination is the ZEPHYR pattern pulling in the PULMONX Zephyr endobronchial valve (P180002, code NJK): 1,633 MAUDE reports (3.9% of family) and 151 of the Zephyr brand's 372 death reports (41%) are a lung valve, not a pacemaker; plus 20 cochlear-implant (MCM) reports. The computed record's 23 '510(k) approvals' are ALL namesake noise (Accent hearing aid, Cook Accent catheters, Zephyr respirator/transfer sled) \u2014 the pacemaker family has zero 510(k) rows. Key on P880086+P140033; brands ASSURITY/ENDURITY/ACCENT, ZEPHYR only with a St. Jude/Abbott firm filter. Corrected all-time MAUDE deaths ~1,149 (Assurity 489, Accent 394, Zephyr-pacer 221, Endurity 45). The computed record's '130 nonconforming recalls' evidence is ALSO fusion junk: zero of the nonconforming recalls on these codes are St. Jude/Abbott (Boston Scientific 8, Medtronic 2 \u2014 the magnet/reed-switch sample is another firm's device).",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 1300,
+    "injuries": 21240,
+    "malfunctions": 19390,
+    "recalls": 10,
+    "classI": 3
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "durata-riata-icd-leads",
+   "name": "Durata / Riata ICD leads",
+   "maker": "Abbott \u00b7 Cardiac rhythm",
+   "rank": 27,
+   "pathway": "pma (P950022 \u2014 the St. Jude/Abbott high-voltage ICD-lead PMA: Riata 2002-2011, Durata 2008-2026, Optisure 2014-2026 supplement streams; zero 510(k) rows). RE-KEY: the brand family fused ENDOTAK \u2014 a BOSTON SCIENTIFIC lead under P910073 \u2014 into an Abbott-labeled score: ~47.7k of the 123.7k fused MAUDE reports (38.5%) and 486 death reports belong to a competitor's product. The NVY/LWS 'two-code' flag is leads (NVY) vs generator-coded lead events (LWS) \u2014 same tort family \u2014 but the cross-manufacturer contamination is real. Key on brands DURATA/RIATA/OPTISURE + P950022 only. Corrected all-time MAUDE death reports: Durata 1,700 / Riata 677 / Optisure 289 (brand-overlap dedup pending).",
+   "maturity": "settled",
+   "stats": {
+    "deaths": 3152,
+    "injuries": 77480,
+    "malfunctions": 43065,
+    "recalls": 9,
+    "classI": 3
+   },
+   "dossierPrice": 12500,
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "proclaim-infinity-neurostim",
+   "name": "Proclaim / Infinity neurostim",
+   "maker": "Abbott \u00b7 Neuro",
+   "rank": 37,
+   "pathway": "pma (pure \u2014 three PMAs: Proclaim SCS P010032/LGW, Infinity DBS P140009/MHY, Proclaim DRG P150004/PMP)",
+   "maturity": "early",
+   "stats": {
+    "deaths": 107,
+    "injuries": 33001,
+    "malfunctions": 6110,
+    "recalls": 29,
+    "classI": 7
+   },
+   "dossierPrice": 12500,
+   "hasTree": false,
+   "hasIcp": true
+  },
+  {
+   "slug": "perclose-proglide-closure",
+   "name": "Perclose ProGlide closure",
+   "maker": "Abbott \u00b7 Vascular",
+   "rank": 42,
+   "pathway": "pma (pure \u2014 P960043 single lineage, 1998-2026; ProGlide enters at S048 2004-02-11)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 185,
+    "injuries": 70056,
+    "malfunctions": 2687,
+    "recalls": 314,
+    "classI": 2
+   },
+   "dossierPrice": 12500,
+   "hasTree": false,
+   "hasIcp": false
+  },
+  {
+   "slug": "ivc-filter",
+   "name": "IVC filter",
+   "maker": "BD / Cook / BSC \u00b7 Vascular",
+   "rank": 70,
+   "pathway": "510k (all litigated retrievable filters; product code DTK)",
+   "maturity": "maturing",
+   "stats": {
+    "deaths": 302,
+    "injuries": 7430,
+    "malfunctions": 5157,
+    "recalls": 19,
+    "classI": 0
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
+  },
+  {
+   "slug": "diamondback-atherectomy",
+   "name": "Diamondback atherectomy",
+   "maker": "Abbott / CSI \u00b7 Vascular",
+   "rank": 71,
+   "pathway": "mixed \u2014 MUST be split: coronary OAS = PMA P130005 (2013-10-21, 50 rows incl. supplements to 2026-03, code MCX); peripheral OAS = 510(k) (code MCW, K041630 2005 -> K071350 2007 -> ... -> K220568 2022)",
+   "maturity": "dormant",
+   "stats": {
+    "deaths": 322,
+    "injuries": 2501,
+    "malfunctions": 423,
+    "recalls": 12,
+    "classI": 2
+   },
+   "dossierPrice": 24500,
+   "hasTree": true,
+   "hasIcp": true
   }
  ]
 }
