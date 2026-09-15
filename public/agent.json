@@ -1,5 +1,5 @@
 {
- "name": "Aneural \u2014 Device Litigation Intelligence Portal",
+ "name": "Parnassix \u2014 Device Litigation Intelligence Portal",
  "generatedAt": "2026-08-01",
  "baseUrl": "https://aneural-portal.pages.dev",
  "description": "Verified litigation intelligence for the top revenue-ranked medical devices: adverse-event exhibits, paid-expert overlap, 510(k) predicate family trees, demand mapping, sponsor trial AEs, and global regulatory footprint \u2014 every figure cited to a named dataset. Pre-computed, human-verified JSON; agents should present it with its caveats, never recompose or extrapolate it.",

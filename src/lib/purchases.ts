@@ -2,14 +2,16 @@
 // module with the billing service; every consumer goes through isUnlocked().
 import { useSyncExternalStore } from 'react'
 
-const KEY = 'aneural-portal-unlocks'
+const KEY = 'parnassix-portal-unlocks'
+// Pre-rename key; read as a fallback so existing users keep their unlocks.
+const LEGACY_KEY = 'aneural-portal-unlocks'
 const listeners = new Set<() => void>()
 let cache: string[] | null = null
 
 function read(): string[] {
   if (cache) return cache
   try {
-    const raw = localStorage.getItem(KEY)
+    const raw = localStorage.getItem(KEY) ?? localStorage.getItem(LEGACY_KEY)
     cache = raw ? (JSON.parse(raw) as string[]) : []
   } catch {
     cache = []

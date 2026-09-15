@@ -56,7 +56,7 @@ export function App() {
     <>
       <header className="topbar">
         <div className="brand" onClick={() => navigate(null)}>
-          <span className="brandName">ANEURAL</span>
+          <span className="brandName">PARNASSIX</span>
           <span className="brandSub">Device Litigation Intelligence</span>
         </div>
         <div className="topbarSpacer" />
@@ -65,7 +65,7 @@ export function App() {
           data-live={source === 'live'}
           title={
             source === 'live'
-              ? 'Data served live from the Aneural corpus'
+              ? 'Data served live from the Parnassix corpus'
               : 'Live bridge unreachable — showing the bundled snapshot'
           }
         >
@@ -90,7 +90,7 @@ export function App() {
         <Catalog devices={catalog} pricing={pricing} onOpen={(s) => navigate(s)} />
       )}
       <footer className="footer">
-        Aneural — data compiled from public FDA, CMS, and USPTO records. Purchases on this
+        Parnassix — data compiled from public FDA, CMS, and USPTO records. Purchases on this
         page are a demonstration mock; no payment is processed. Data is presented for
         investigation and is not legal advice.
       </footer>

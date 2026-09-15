@@ -1,4 +1,4 @@
-# Aneural — Device Litigation Intelligence Portal
+# Parnassix — Device Litigation Intelligence Portal
 
 > Verified litigation intelligence for the top revenue-ranked medical devices: adverse-event exhibits, paid-expert overlap, 510(k) predicate family trees, demand mapping, sponsor trial AEs, and global regulatory footprint — every figure cited to a named dataset. Pre-computed, human-verified JSON; agents should present it with its caveats, never recompose or extrapolate it.
 
